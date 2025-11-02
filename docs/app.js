@@ -804,3 +804,29 @@ window.openModal = openModal;
 
 // Initialize app
 init();
+
+function openFilters(){
+  // copie valeurs actuelles vers la modal
+  const pairs = [
+    ['categoryFilter','categoryFilterM'],
+    ['countryFilter','countryFilterM'],
+    ['fiatFilter','fiatFilterM'],
+    ['feesFilter','feesFilterM'],
+    ['sortFilter','sortFilterM'],
+  ];
+  pairs.forEach(([src, dst])=>{
+    const s = document.getElementById(src), d = document.getElementById(dst);
+    if(s && d){ d.value = s.value; }
+  });
+  document.getElementById('filters-modal').style.display='flex';
+}
+function closeFilters(){
+  document.getElementById('filters-modal').style.display='none';
+}
+// Synchronise la valeur de la modal vers les selects desktop et relance le filtrage
+function syncAndApply(fromId, toId){
+  const from = document.getElementById(fromId);
+  const to = document.getElementById(toId);
+  if(from && to){ to.value = from.value; }
+  if (typeof applyFilters === 'function') applyFilters();
+}
