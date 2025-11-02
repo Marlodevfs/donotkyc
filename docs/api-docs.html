@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3J8P92H70R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3J8P92H70R");
+    </script>
+    <meta charset="utf-8" />
+    <title>API Documentation | No-KYC Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Public read-only JSON API for the no-KYC directory with endpoints, fields, and examples."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      body {
+        background: #0b0f1a;
+        color: #e6e6f0;
+        font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #fff;
+      }
+      pre,
+      code {
+        background: #10162a;
+        color: #d6e1ff;
+        border: 1px solid #1e2650;
+        border-radius: 10px;
+        padding: 12px;
+        overflow: auto;
+      }
+      .tag {
+        display: inline-block;
+        background: #1b1f36;
+        border: 1px solid #2a376b;
+        border-radius: 999px;
+        padding: 4px 10px;
+        margin-right: 6px;
+        font-size: 12px;
+      }
+      .note {
+        background: #0f1426;
+        border: 1px solid #1d2542;
+        border-radius: 12px;
+        padding: 16px;
+        margin: 16px 0;
+      }
+      a {
+        color: #8b7cf6;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>API Documentation</h1>
+      <p>
+        Simple, public, read‑only JSON served over HTTPS. No API key. Ideal for
+        prototypes, research, and discovery tools.
+      </p>
+
+      <h2>Base URL</h2>
+      <pre><code>https://your-domain.com/api/nokyc_directory.json</code></pre>
+
+      <div class="note">
+        Versioning suggestion: <code>/api/v1/nokyc_directory.json</code>. Add a
+        lightweight <code>/api/version.json</code> with
+        <code>{ "last_updated": "YYYY-MM-DD" }</code>.
+      </div>
+
+      <h2>Schema</h2>
+      <p>Top-level keys:</p>
+      <div>
+        <span class="tag">centralized_exchanges</span>
+        <span class="tag">decentralized_exchanges</span>
+        <span class="tag">bridges</span>
+        <span class="tag">atms</span>
+        <span class="tag">p2p_marketplaces</span>
+        <span class="tag">instant_swaps</span>
+      </div>
+
+      <h3>Common fields</h3>
+      <ul>
+        <li><code>name</code> (string)</li>
+        <li>
+          <code>type</code> (enum: CEX, DEX, Bridge, ATM, P2P, Instant Swap)
+        </li>
+        <li><code>url</code> (string, hostname)</li>
+        <li><code>kyc_tier</code> (string)</li>
+        <li>
+          <code>supported_countries</code> (string; may later become array)
+        </li>
+        <li><code>fiat_deposit</code> (boolean)</li>
+        <li><code>volume_24h</code> (string; human readable)</li>
+        <li><code>fees</code> (string)</li>
+        <li><code>reputation</code> (string)</li>
+        <li><code>cryptocurrencies</code> (string)</li>
+        <li>
+          <code>features</code> / <code>blockchains</code> /
+          <code>payment_methods</code> (arrays)
+        </li>
+      </ul>
+
+      <h2>Example response</h2>
+      <pre><code>{
+  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
+  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "blockchains": ["Ethereum","Polygon","Arbitrum","Optimism","BNB Chain"], "features": ["AMM","Liquidity pools","Governance"] }]
+}</code></pre>
+
+      <h2>Usage</h2>
+      <h3>Client-side fetch</h3>
+      <pre><code>const DATA_URL = '/api/nokyc_directory.json';
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(data => render(data))
+  .catch(console.error);</code></pre>
+
+      <h3>CORS</h3>
+      <p>
+        GitHub Pages serves static JSON with CORS allow‑all by default for GET
+        requests. Keep requests read‑only (no writes).
+      </p>
+
+      <h2>Rate limits</h2>
+      <p>
+        No strict limits, but please cache for 5–15 minutes and avoid aggressive
+        polling.
+      </p>
+
+      <h2>Attribution</h2>
+      <p>
+        If you use this dataset, link back to the homepage. For commercial use,
+        contact us.
+      </p>
+
+      <div class="note">
+        Disclaimer: Information is provided “as is” and may change without
+        notice. Always verify details on the platform’s website.
+      </div>
+
+      <p><a href="./index.html">← Back to Directory</a></p>
+    </div>
+  </body>
+</html>

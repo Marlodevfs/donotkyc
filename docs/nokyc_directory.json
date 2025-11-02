@@ -1,0 +1,559 @@
+{
+  "centralized_exchanges": [
+    {
+      "name": "MEXC",
+      "type": "CEX",
+      "url": "mexc.com",
+      "kyc_tier": "Tiered (up to 10 BTC/day no KYC)",
+      "supported_countries": "Global except US",
+      "fiat_deposit": false,
+      "volume_24h": "$6.37B",
+      "fees": "0.025% - 0.2%",
+      "reputation": "10/10 CoinGecko",
+      "cryptocurrencies": "1600+",
+      "features": [
+        "Spot",
+        "Futures",
+        "Margin Trading"
+      ]
+    },
+    {
+      "name": "Bybit",
+      "type": "CEX",
+      "url": "bybit.com",
+      "kyc_tier": "Tiered (20,000 USDT/day no KYC)",
+      "supported_countries": "Global except US, UK, Singapore",
+      "fiat_deposit": false,
+      "volume_24h": "$7.07B",
+      "fees": "0.01% - 0.1%",
+      "reputation": "10/10 CoinGecko",
+      "cryptocurrencies": "400+",
+      "features": [
+        "Spot",
+        "Derivatives",
+        "Copy Trading"
+      ]
+    },
+    {
+      "name": "CoinEx",
+      "type": "CEX",
+      "url": "coinex.com",
+      "kyc_tier": "None ($10,000/day)",
+      "supported_countries": "Global except US (NY)",
+      "fiat_deposit": false,
+      "volume_24h": "$491M",
+      "fees": "0.2%",
+      "reputation": "8/10 CoinGecko",
+      "cryptocurrencies": "600+",
+      "features": [
+        "Spot",
+        "Futures",
+        "AMM"
+      ]
+    },
+    {
+      "name": "Nonkyc.io",
+      "type": "CEX",
+      "url": "nonkyc.io",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "$71.9M",
+      "fees": "0.2%",
+      "reputation": "8/10 CoinGecko",
+      "cryptocurrencies": "190+",
+      "features": [
+        "Spot",
+        "Trading pairs"
+      ]
+    },
+    {
+      "name": "BingX",
+      "type": "CEX",
+      "url": "bingx.com",
+      "kyc_tier": "Tiered",
+      "supported_countries": "Global except US",
+      "fiat_deposit": false,
+      "volume_24h": "$1.31B",
+      "fees": "0.075% - 0.2%",
+      "reputation": "9/10 CoinGecko",
+      "cryptocurrencies": "500+",
+      "features": [
+        "Spot",
+        "Copy Trading",
+        "Grid Trading"
+      ]
+    },
+    {
+      "name": "PrimeXBT",
+      "type": "CEX",
+      "url": "primexbt.com",
+      "kyc_tier": "None (~$20,000/day)",
+      "supported_countries": "Global except US",
+      "fiat_deposit": false,
+      "volume_24h": "N/A",
+      "fees": "0.01% - 0.05%",
+      "reputation": "Medium",
+      "cryptocurrencies": "5+",
+      "features": [
+        "Crypto",
+        "Forex",
+        "Indices",
+        "Commodities"
+      ]
+    },
+    {
+      "name": "TradeOgre",
+      "type": "CEX",
+      "url": "tradeogre.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global including US",
+      "fiat_deposit": false,
+      "volume_24h": "Low",
+      "fees": "0.2%",
+      "reputation": "Medium",
+      "cryptocurrencies": "120+",
+      "features": [
+        "Spot",
+        "Privacy coins"
+      ]
+    }
+  ],
+  "decentralized_exchanges": [
+    {
+      "name": "Uniswap",
+      "type": "DEX",
+      "url": "uniswap.org",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "$4B+ TVL",
+      "fees": "0.05% - 1%",
+      "reputation": "High",
+      "cryptocurrencies": "900+",
+      "blockchains": [
+        "Ethereum",
+        "Polygon",
+        "Arbitrum",
+        "Optimism",
+        "BNB Chain"
+      ],
+      "features": [
+        "AMM",
+        "Liquidity pools",
+        "Governance"
+      ]
+    },
+    {
+      "name": "PancakeSwap",
+      "type": "DEX",
+      "url": "pancakeswap.finance",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "High",
+      "fees": "0.25%",
+      "reputation": "High",
+      "cryptocurrencies": "50+",
+      "blockchains": [
+        "BNB Chain",
+        "Ethereum",
+        "Aptos"
+      ],
+      "features": [
+        "Yield farming",
+        "Staking",
+        "NFT Marketplace",
+        "Lottery"
+      ]
+    },
+    {
+      "name": "dYdX",
+      "type": "DEX",
+      "url": "dydx.exchange",
+      "kyc_tier": "None",
+      "supported_countries": "Global except US, Canada",
+      "fiat_deposit": false,
+      "volume_24h": "High",
+      "fees": "0.02% - 0.05%",
+      "reputation": "High",
+      "cryptocurrencies": "35+",
+      "blockchains": [
+        "Cosmos SDK"
+      ],
+      "features": [
+        "Perpetual futures",
+        "20x leverage",
+        "Advanced trading"
+      ]
+    },
+    {
+      "name": "Bisq",
+      "type": "DEX P2P",
+      "url": "bisq.network",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Variable",
+      "reputation": "High (Privacy focused)",
+      "cryptocurrencies": "30+",
+      "blockchains": [
+        "Bitcoin",
+        "Tor network"
+      ],
+      "features": [
+        "P2P trading",
+        "Desktop app",
+        "Escrow",
+        "Fiat onramp"
+      ]
+    }
+  ],
+  "bridges": [
+    {
+      "name": "GhostSwap",
+      "type": "Bridge",
+      "url": "ghostswap.io",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "N/A",
+      "fees": "<0.5%",
+      "reputation": "Medium",
+      "cryptocurrencies": "1500+",
+      "blockchains": [
+        "90+ networks"
+      ],
+      "features": [
+        "Cross-chain swaps",
+        "No account needed",
+        "HTLC"
+      ]
+    },
+    {
+      "name": "Portal Token Bridge (Wormhole)",
+      "type": "Bridge",
+      "url": "portalbridge.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "High",
+      "fees": "Variable (gas dependent)",
+      "reputation": "High",
+      "cryptocurrencies": "Many",
+      "blockchains": [
+        "20+ including Ethereum, Solana, BNB, Polygon"
+      ],
+      "features": [
+        "Token transfers",
+        "NFTs",
+        "Cross-chain messaging"
+      ]
+    },
+    {
+      "name": "Synapse Protocol",
+      "type": "Bridge",
+      "url": "synapseprotocol.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "Medium",
+      "fees": "Near-zero with reimbursement",
+      "reputation": "High",
+      "cryptocurrencies": "Major assets",
+      "blockchains": [
+        "Ethereum",
+        "Arbitrum",
+        "Optimism",
+        "Polygon",
+        "Avalanche"
+      ],
+      "features": [
+        "Fast transfers",
+        "Staking",
+        "AMM"
+      ]
+    },
+    {
+      "name": "Symbiosis Finance",
+      "type": "Bridge",
+      "url": "symbiosis.finance",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "Medium",
+      "fees": "Low",
+      "reputation": "Medium",
+      "cryptocurrencies": "Many",
+      "blockchains": [
+        "Multi-chain"
+      ],
+      "features": [
+        "Automatic routing",
+        "Cross-chain swaps"
+      ]
+    },
+    {
+      "name": "Stargate",
+      "type": "Bridge",
+      "url": "stargate.finance",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": false,
+      "volume_24h": "High",
+      "fees": "Variable",
+      "reputation": "High",
+      "cryptocurrencies": "Major tokens",
+      "blockchains": [
+        "Ethereum",
+        "BNB",
+        "Avalanche",
+        "Polygon",
+        "Arbitrum",
+        "Optimism"
+      ],
+      "features": [
+        "LayerZero powered",
+        "Liquidity pools"
+      ]
+    }
+  ],
+  "atms": [
+    {
+      "name": "Shitcoins.club ATM",
+      "type": "ATM",
+      "url": "shitcoins.club",
+      "kyc_tier": "Low",
+      "supported_countries": "Europe, Peru",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "3-4%",
+      "reputation": "Medium",
+      "cryptocurrencies": "BTC, ETH, 4+",
+      "locations": "Europe-wide"
+    },
+    {
+      "name": "Coinstar Bitcoin Machines",
+      "type": "ATM",
+      "url": "coinme.com",
+      "kyc_tier": "Intermediate",
+      "supported_countries": "US only",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "4-11%",
+      "reputation": "High",
+      "cryptocurrencies": "BTC, ETH, LTC, DOGE, USDC, 8+",
+      "locations": "20,000+ kiosks in 49 states"
+    },
+    {
+      "name": "Just Cash ATM",
+      "type": "ATM",
+      "url": "justcashcrypto.com",
+      "kyc_tier": "None",
+      "supported_countries": "US (Florida)",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "Low",
+      "reputation": "Medium",
+      "cryptocurrencies": "BTC",
+      "locations": "Florida"
+    },
+    {
+      "name": "LibertyX ATM",
+      "type": "ATM",
+      "url": "libertyx.com",
+      "kyc_tier": "Tiered",
+      "supported_countries": "US only",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "8%",
+      "reputation": "High",
+      "cryptocurrencies": "BTC",
+      "locations": "30,000+ locations (CVS, Walgreens, Costco)"
+    },
+    {
+      "name": "RockitCoin",
+      "type": "ATM",
+      "url": "rockitcoin.com",
+      "kyc_tier": "Low (phone number only)",
+      "supported_countries": "US, Puerto Rico",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "Spread + $1-2",
+      "reputation": "High",
+      "cryptocurrencies": "BTC, BCH, LTC, ETH",
+      "locations": "1,500+ ATMs"
+    },
+    {
+      "name": "Pelicoin ATM",
+      "type": "ATM",
+      "url": "pelicoin.com",
+      "kyc_tier": "Intermediate",
+      "supported_countries": "US (South)",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "Variable",
+      "reputation": "Medium",
+      "cryptocurrencies": "BTC, LTC, ETH",
+      "locations": "Texas, Louisiana, Mississippi, Alabama"
+    },
+    {
+      "name": "Localcoin",
+      "type": "ATM",
+      "url": "localcoinatm.com",
+      "kyc_tier": "Tiered (FINTRAC compliant)",
+      "supported_countries": "Canada",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "Variable",
+      "reputation": "High",
+      "cryptocurrencies": "BTC, ETH, DOGE, LTC, 10+",
+      "locations": "1,000+ ATMs across Canada"
+    },
+    {
+      "name": "Bitcoin Well",
+      "type": "ATM",
+      "url": "bitcoinwell.com",
+      "kyc_tier": "Tiered",
+      "supported_countries": "Canada, US",
+      "fiat_deposit": true,
+      "volume_24h": "N/A",
+      "fees": "Variable",
+      "reputation": "Medium",
+      "cryptocurrencies": "BTC",
+      "locations": "Multiple locations"
+    }
+  ],
+  "p2p_marketplaces": [
+    {
+      "name": "Hodl Hodl",
+      "type": "P2P",
+      "url": "hodlhodl.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Variable",
+      "reputation": "High",
+      "cryptocurrencies": "BTC",
+      "payment_methods": [
+        "100+ fiat currencies",
+        "Bank transfer",
+        "Cash"
+      ]
+    },
+    {
+      "name": "Peach Bitcoin",
+      "type": "P2P",
+      "url": "peachbitcoin.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Free to sell",
+      "reputation": "Medium",
+      "cryptocurrencies": "BTC",
+      "payment_methods": [
+        "Gift cards",
+        "Bank transfer",
+        "Cash"
+      ]
+    },
+    {
+      "name": "RoboSats",
+      "type": "P2P Lightning",
+      "url": "robosats.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Low",
+      "reputation": "High (Privacy focused)",
+      "cryptocurrencies": "BTC (Lightning)",
+      "payment_methods": [
+        "Various fiat methods"
+      ]
+    },
+    {
+      "name": "LocalCoinSwap",
+      "type": "P2P",
+      "url": "localcoinswap.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Low",
+      "reputation": "Medium",
+      "cryptocurrencies": "Multiple",
+      "payment_methods": [
+        "Various"
+      ]
+    },
+    {
+      "name": "AgoraDesk",
+      "type": "P2P",
+      "url": "agoradesk.com",
+      "kyc_tier": "None",
+      "supported_countries": "Global",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Low",
+      "reputation": "Medium",
+      "cryptocurrencies": "Multiple",
+      "payment_methods": [
+        "Various"
+      ]
+    },
+    {
+      "name": "OpenPeer",
+      "type": "P2P DEX",
+      "url": "openpeer.xyz",
+      "kyc_tier": "Optional (peer decides)",
+      "supported_countries": "Global except US",
+      "fiat_deposit": true,
+      "volume_24h": "Low",
+      "fees": "Low",
+      "reputation": "Medium",
+      "cryptocurrencies": "10+",
+      "payment_methods": [
+        "100+ fiat currencies",
+        "Various methods"
+      ]
+    }
+  ],
+  "instant_swaps": [
+    {
+      "name": "SimpleSwap",
+      "type": "Instant Swap",
+      "url": "simpleswap.io",
+      "kyc_tier": "None (may request on partner request)",
+      "supported_countries": "Global except US",
+      "fiat_deposit": false,
+      "volume_24h": "Medium",
+      "fees": "Variable",
+      "reputation": "Medium",
+      "cryptocurrencies": "500+",
+      "features": [
+        "No registration",
+        "Fast swaps"
+      ]
+    },
+    {
+      "name": "Changelly",
+      "type": "Instant Swap",
+      "url": "changelly.com",
+      "kyc_tier": "Email only",
+      "supported_countries": "Global except US",
+      "fiat_deposit": true,
+      "volume_24h": "Medium",
+      "fees": "0.25%",
+      "reputation": "High",
+      "cryptocurrencies": "200+",
+      "features": [
+        "P2P",
+        "Instant swap"
+      ]
+    }
+  ]
+}
