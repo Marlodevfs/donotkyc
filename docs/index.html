@@ -99,6 +99,11 @@
           />
         </div>
 
+        <button class="show-filters-btn" onclick="openFilters()" aria-label="Open filters">
+  🔍 Filters
+</button>
+
+
         <div class="hero-stats">
           <div class="stat-item">
             <span class="stat-number" id="totalPlatforms">50+</span>
@@ -531,5 +536,60 @@
     </div>
 
     <script src="app.js"></script>
+
+    <div id="filters-modal" class="filters-modal" role="dialog" aria-modal="true" aria-labelledby="filtersTitle">
+  <div class="filters-modal-content">
+    <button onclick="closeFilters()" class="close-modal" aria-label="Close">✕</button>
+    <h2 id="filtersTitle" style="margin:0 0 6px 0;color:#fff;">Filters</h2>
+
+    <label for="categoryFilterM">Category</label>
+    <select id="categoryFilterM" onchange="syncAndApply('categoryFilterM','categoryFilter')">
+      <option value="all">All Categories</option>
+      <option value="CEX">CEX (Centralized)</option>
+      <option value="DEX">DEX (Decentralized)</option>
+      <option value="Bridge">Bridges</option>
+      <option value="ATM">ATMs</option>
+      <option value="P2P">P2P Marketplaces</option>
+      <option value="Instant Swap">Instant Swaps</option>
+    </select>
+
+    <label for="countryFilterM">Location</label>
+    <select id="countryFilterM" onchange="syncAndApply('countryFilterM','countryFilter')">
+      <option value="all">All Countries</option>
+      <option value="Global">Global</option>
+      <option value="US">United States</option>
+      <option value="Canada">Canada</option>
+      <option value="Europe">Europe</option>
+      <option value="UK">United Kingdom</option>
+    </select>
+
+    <label for="fiatFilterM">Fiat Deposit</label>
+    <select id="fiatFilterM" onchange="syncAndApply('fiatFilterM','fiatFilter')">
+      <option value="all">All</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="feesFilterM">Fees</label>
+    <select id="feesFilterM" onchange="syncAndApply('feesFilterM','feesFilter')">
+      <option value="all">All Fees</option>
+      <option value="low">Low (&lt;0.1%)</option>
+      <option value="medium">Medium (0.1%-0.5%)</option>
+      <option value="high">High (&gt;0.5%)</option>
+    </select>
+
+    <label for="sortFilterM">Sort By</label>
+    <select id="sortFilterM" onchange="syncAndApply('sortFilterM','sortFilter')">
+      <option value="name">Name</option>
+      <option value="reputation">Reputation</option>
+      <option value="volume">Volume</option>
+    </select>
+
+    <button onclick="closeFilters()" class="btn btn--primary btn--full-width" style="margin-top:16px;">
+      Apply Filters
+    </button>
+  </div>
+</div>
+
   </body>
 </html>
