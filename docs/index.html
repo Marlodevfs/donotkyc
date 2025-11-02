@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3J8P92H70R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3J8P92H70R");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do Not KYC - Global No-KYC Crypto Directory</title>
+    <meta
+      name="description"
+      content="Find anonymous cryptocurrency exchanges, ATMs, bridges & P2P platforms worldwide. No KYC required. Privacy-focused crypto trading."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/generated-image-removebg-preview.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="32" height="32" rx="8" fill="#8B5CF6" />
+              <path d="M16 8L20 12L16 16L12 12L16 8Z" fill="white" />
+              <path
+                d="M16 16L20 20L16 24L12 20L16 16Z"
+                fill="white"
+                opacity="0.6"
+              />
+            </svg>
+            <span>DO NOT KYC</span>
+          </div>
+          <nav class="nav">
+            <a href="#directory">Directory</a>
+            <a href="#stats">Statistics</a>
+            <a href="#about">About</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">The Global No-KYC Crypto Directory</h1>
+        <p class="hero-subtitle">
+          Find anonymous exchanges, ATMs, bridges &amp; P2P platforms worldwide
+        </p>
+
+        <div class="hero-search">
+          <svg
+            class="search-icon"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <circle
+              cx="9"
+              cy="9"
+              r="6"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path
+              d="M14 14L18 18"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search platforms..."
+            class="search-input"
+          />
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" id="totalPlatforms">50+</span>
+            <span class="stat-label">Platforms</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Countries</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">Updated Nov 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-section" id="filters">
+      <div class="container">
+        <div class="filters">
+          <div class="filter-group">
+            <label for="categoryFilter">Category</label>
+            <select id="categoryFilter" class="filter-select">
+              <option value="all">All Categories</option>
+              <option value="CEX">CEX (Centralized)</option>
+              <option value="DEX">DEX (Decentralized)</option>
+              <option value="Bridge">Bridges</option>
+              <option value="ATM">ATMs</option>
+              <option value="P2P">P2P Marketplaces</option>
+              <option value="Instant Swap">Instant Swaps</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="countryFilter">Location</label>
+            <select id="countryFilter" class="filter-select">
+              <option value="all">All Countries</option>
+              <option value="Global">Global</option>
+              <option value="US">United States</option>
+              <option value="Canada">Canada</option>
+              <option value="Europe">Europe</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="fiatFilter">Fiat Deposit</label>
+            <select id="fiatFilter" class="filter-select">
+              <option value="all">All</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="feesFilter">Fees</label>
+            <select id="feesFilter" class="filter-select">
+              <option value="all">All Fees</option>
+              <option value="low">Low (&lt;0.1%)</option>
+              <option value="medium">Medium (0.1%-0.5%)</option>
+              <option value="high">High (&gt;0.5%)</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="sortFilter">Sort By</label>
+            <select id="sortFilter" class="filter-select">
+              <option value="name">Name</option>
+              <option value="reputation">Reputation</option>
+              <option value="volume">Volume</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="results-info">
+          <span id="resultsCount">50 platforms</span> found
+        </div>
+      </div>
+    </section>
+
+    <!-- Platforms Grid -->
+    <section class="platforms-section" id="directory">
+      <div class="container">
+        <div class="platforms-grid" id="platformsGrid">
+          <!-- Platforms will be dynamically inserted here -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <circle
+              cx="32"
+              cy="32"
+              r="28"
+              stroke="currentColor"
+              stroke-width="2"
+              opacity="0.2"
+            />
+            <path
+              d="M32 20V32M32 44H32.02"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+          <h3>No platforms found</h3>
+          <p>Try adjusting your filters or search terms</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section" id="stats">
+      <div class="container">
+        <h2 class="section-title">Platform Statistics</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(59, 130, 246, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="2"
+                  stroke="#3B82F6"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 9L15 15M15 9L9 15"
+                  stroke="#3B82F6"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="cexCount">7</h3>
+              <p>Centralized Exchanges</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(34, 197, 94, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  stroke="#22C55E"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8 12L11 15L16 9"
+                  stroke="#22C55E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="dexCount">4</h3>
+              <p>Decentralized Exchanges</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(168, 85, 247, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M4 12H20M12 4V20"
+                  stroke="#A855F7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="bridgeCount">5</h3>
+              <p>Cross-chain Bridges</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(249, 115, 22, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="6"
+                  y="2"
+                  width="12"
+                  height="20"
+                  rx="2"
+                  stroke="#F97316"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="18" r="1.5" fill="#F97316" />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="atmCount">8</h3>
+              <p>Bitcoin ATMs</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(239, 68, 68, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="8"
+                  cy="12"
+                  r="3"
+                  stroke="#EF4444"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="16"
+                  cy="12"
+                  r="3"
+                  stroke="#EF4444"
+                  stroke-width="2"
+                />
+                <path d="M11 12H13" stroke="#EF4444" stroke-width="2" />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="p2pCount">6</h3>
+              <p>P2P Marketplaces</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(6, 182, 212, 0.2)">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M7 16L12 11L17 16M17 8L12 13L7 8"
+                  stroke="#06B6D4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="stat-card-content">
+              <h3 id="swapCount">2</h3>
+              <p>Instant Swap Services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">About No-KYC Platforms</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What is KYC?</h3>
+            <p>
+              Know Your Customer (KYC) is an identity verification process
+              required by many regulated financial services. It typically
+              involves submitting personal documents like ID cards, passports,
+              and proof of address.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Why Choose No-KYC?</h3>
+            <p>
+              No-KYC platforms prioritize privacy and financial freedom. They
+              allow you to trade, swap, and manage cryptocurrency without
+              submitting personal identification documents. This protects your
+              privacy and reduces the risk of data breaches.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Privacy Benefits</h3>
+            <ul>
+              <li>No personal data collection</li>
+              <li>Protection from identity theft</li>
+              <li>True financial privacy</li>
+              <li>Faster onboarding process</li>
+              <li>Access for unbanked populations</li>
+            </ul>
+          </div>
+
+          <div class="about-card">
+            <h3>Important Disclaimer</h3>
+            <p>
+              <strong>⚠️ Use at your own risk:</strong> While no-KYC platforms
+              offer privacy benefits, they may have lower regulatory oversight.
+              Always do your own research (DYOR), start with small amounts, and
+              never invest more than you can afford to lose. This directory is
+              for informational purposes only and does not constitute financial
+              advice.
+            </p>
+          </div>
+        </div>
+
+        <div class="how-it-works">
+          <h3>How This Directory Works</h3>
+          <p>
+            We maintain a curated list of cryptocurrency platforms that offer
+            services without mandatory KYC requirements. Platforms are
+            categorized by type (CEX, DEX, Bridges, ATMs, P2P, Instant Swaps)
+            and include detailed information about their KYC policies, supported
+            regions, fees, and features. The directory is updated regularly to
+            ensure accuracy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>DO NOT KYC Directory</h4>
+            <p>
+              The most comprehensive directory of no-KYC cryptocurrency
+              platforms worldwide.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#directory">Browse Directory</a></li>
+              <li><a href="#stats">Statistics</a></li>
+              <li><a href="#about">About No-KYC</a></li>
+              <li><a href="#" onclick="return false;">Submit a Platform</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="/privacy.html">Privacy Guide</a></li>
+              <li>
+                <a href="/security.html">Security Tips</a>
+              </li>
+              <li>
+                <a href="/api-docs.html">API Documentation</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Connect</h4>
+            <div class="social-links">
+              <a
+                href="#"
+                onclick="return false;"
+                class="social-link"
+                aria-label="Twitter"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                onclick="return false;"
+                class="social-link"
+                aria-label="GitHub"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                onclick="return false;"
+                class="social-link"
+                aria-label="Telegram"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.67-.52.36-.99.53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.37-.48 1.02-.73 4-1.74 6.68-2.88 8.03-3.43 3.82-1.59 4.62-1.87 5.14-1.87.11 0 .37.03.53.17.14.11.18.26.2.37.01.06.03.24.01.37z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-disclaimer">
+            <strong>⚠️ Disclaimer:</strong> This directory is for informational
+            and educational purposes only. We do not endorse or recommend any
+            specific platform. Always conduct your own research and understand
+            the risks before using any cryptocurrency service. Trading
+            cryptocurrency carries risk of financial loss.
+          </p>
+          <p class="footer-copyright">
+            Last Updated: November 2025 | © 2025 Do Not KYC Directory. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal for Platform Details -->
+    <div class="modal" id="platformModal">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content" id="modalContent">
+        <!-- Modal content will be dynamically inserted -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
