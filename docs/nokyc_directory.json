@@ -3,7 +3,7 @@
     {
       "name": "MEXC",
       "type": "CEX",
-      "url": "mexc.com",
+      "url": "https://promote.mexc.com/r/qJYxTnPa",
       "kyc_tier": "Tiered (up to 10 BTC/day no KYC)",
       "supported_countries": "Global except US",
       "fiat_deposit": false,
