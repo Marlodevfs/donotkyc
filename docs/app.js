@@ -828,5 +828,5 @@ function syncAndApply(fromId, toId){
   const from = document.getElementById(fromId);
   const to = document.getElementById(toId);
   if(from && to){ to.value = from.value; }
-  if (typeof applyFilters === 'function') applyFilters();
+  handleFilters();
 }
