@@ -1749,3 +1749,33 @@ html {
   width:100%; padding:.75em .9em; background: var(--bg-card); border:1px solid var(--border-color);
   border-radius:8px; color: var(--text-primary); font-size: 0.95rem;
 }
+
+.vpn-list {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 2em;
+  color: var(--text-primary);
+}
+.vpn-list li {
+  margin-bottom: 1em;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.vpn-list a {
+  margin-left: 10px;
+  color: var(--accent-purple);
+  font-weight: 600;
+  text-decoration: none;
+}
+.vpn-list a:hover {
+  text-decoration: underline;
+}
+
+.affiliate-disclaimer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 16px;
+  margin-top: 32px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
