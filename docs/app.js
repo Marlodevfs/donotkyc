@@ -830,3 +830,8 @@ function syncAndApply(fromId, toId){
   if(from && to){ to.value = from.value; }
   handleFilters();
 }
+window.openFilters = openFilters;
+window.closeFilters = closeFilters;
+window.syncAndApply = syncAndApply;
+window.handleFilters = handleFilters; // utile si tu veux l’appeler directement
+
