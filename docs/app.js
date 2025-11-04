@@ -46,7 +46,7 @@ const platformsData = [
   {
     name: "Nonkyc.io",
     type: "CEX",
-    url: "nonkyc.io",
+    url: "https://nonkyc.io/?ref=6465fe372b05bfd8e43600c6&campaign=testcampaign&source=testsource&zone=testzone",
     logo: "https://pbs.twimg.com/profile_images/1645673554850054145/Li_ILJRZ_400x400.jpg",
     kyc_tier: "None",
     supported_countries: "Global",
