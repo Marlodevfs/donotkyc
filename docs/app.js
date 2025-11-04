@@ -19,6 +19,7 @@ const platformsData = [
     name: "Bybit",
     type: "CEX",
     url: "bybit.com",
+    logo: "docs/logos/bybit-seeklogo.png",
     kyc_tier: "Tiered (20,000 USDT/day no KYC)",
     supported_countries: "Global except US, UK, Singapore",
     fiat_deposit: false,
@@ -32,6 +33,7 @@ const platformsData = [
     name: "CoinEx",
     type: "CEX",
     url: "coinex.com",
+    logo: "docs/logos/coinex-seeklogo.png",
     kyc_tier: "None ($10,000/day)",
     supported_countries: "Global except US (NY)",
     fiat_deposit: false,
@@ -45,6 +47,7 @@ const platformsData = [
     name: "Nonkyc.io",
     type: "CEX",
     url: "nonkyc.io",
+    logo: "docs/logos/Li_ILJRZ_400x400.jpg",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: false,
@@ -58,6 +61,7 @@ const platformsData = [
     name: "BingX",
     type: "CEX",
     url: "bingx.com",
+    logo: "docs/logos/bingx-seeklogo.png",
     kyc_tier: "Tiered",
     supported_countries: "Global except US",
     fiat_deposit: false,
@@ -71,6 +75,7 @@ const platformsData = [
     name: "PrimeXBT",
     type: "CEX",
     url: "primexbt.com",
+    logo: "docs/logos/PrimeXBT_idSVJ448HR_0.png",
     kyc_tier: "None (~$20,000/day)",
     supported_countries: "Global except US",
     fiat_deposit: false,
@@ -80,19 +85,7 @@ const platformsData = [
     cryptocurrencies: "5+",
     features: ["Crypto", "Forex", "Indices", "Commodities"]
   },
-  {
-    name: "TradeOgre",
-    type: "CEX",
-    url: "tradeogre.com",
-    kyc_tier: "None",
-    supported_countries: "Global including US",
-    fiat_deposit: false,
-    volume_24h: "Low",
-    fees: "0.2%",
-    reputation: "Medium",
-    cryptocurrencies: "120+",
-    features: ["Spot", "Privacy coins"]
-  },
+  
   // DEX
   {
     name: "Uniswap",
