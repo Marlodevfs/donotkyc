@@ -5,7 +5,7 @@ const platformsData = [
     name: "MEXC",
     type: "CEX",
     url: "https://promote.mexc.com/r/qJYxTnPa",
-    logo: "https://images.seeklogo.com/logo-png/46/1/mexc-global-logo-png_seeklogo-463569.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BqBQD5Ojw1ianKY8TgMNeKGmX9RINxk_hrbfufkC8A&s=10",
     kyc_tier: "Tiered (up to 10 BTC/day no KYC)",
     supported_countries: "Global except US",
     fiat_deposit: false,
