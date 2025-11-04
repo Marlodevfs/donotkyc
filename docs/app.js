@@ -47,7 +47,7 @@ const platformsData = [
     name: "Nonkyc.io",
     type: "CEX",
     url: "nonkyc.io",
-    logo: "https://x.com/nonkyc_exchange/photo",
+    logo: "https://pbs.twimg.com/profile_images/1645673554850054145/Li_ILJRZ_400x400.jpg",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: false,
@@ -91,7 +91,7 @@ const platformsData = [
     name: "Uniswap",
     type: "DEX",
     url: "uniswap.org",
-    logo: "https://cdn.brandfetch.io/idoYtBNi2C/theme/dark/idCjO30I1a.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+    logo: "https://images.seeklogo.com/logo-png/39/1/uniswap-logo-png_seeklogo-398214.png",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: false,
@@ -164,9 +164,10 @@ const platformsData = [
     features: ["Cross-chain swaps", "No account needed", "HTLC"]
   },
   {
-    name: "Portal Token Bridge (Wormhole)",
+    name: "Portal Bridge",
     type: "Bridge",
     url: "portalbridge.com",
+    logo: "https://cdn.brandfetch.io/ideyh4tbOF/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: false,
@@ -209,23 +210,12 @@ const platformsData = [
   },
  
   // ATMs
-  {
-    name: "Shitcoins.club ATM",
-    type: "ATM",
-    url: "shitcoins.club",
-    kyc_tier: "Low",
-    supported_countries: "Europe, Peru",
-    fiat_deposit: true,
-    volume_24h: "N/A",
-    fees: "3-4%",
-    reputation: "Medium",
-    cryptocurrencies: "BTC, ETH, 4+",
-    locations: "Europe-wide"
-  },
+  
   {
     name: "Coinstar Bitcoin Machines",
     type: "ATM",
     url: "coinme.com",
+    logo: "https://pbs.twimg.com/profile_images/1402770991873347584/76ObxWjr_400x400.jpg",
     kyc_tier: "Intermediate",
     supported_countries: "US only",
     fiat_deposit: true,
@@ -235,23 +225,12 @@ const platformsData = [
     cryptocurrencies: "BTC, ETH, LTC, DOGE, USDC, 8+",
     locations: "20,000+ kiosks in 49 states"
   },
-  {
-    name: "Just Cash ATM",
-    type: "ATM",
-    url: "justcashcrypto.com",
-    kyc_tier: "None",
-    supported_countries: "US (Florida)",
-    fiat_deposit: true,
-    volume_24h: "N/A",
-    fees: "Low",
-    reputation: "Medium",
-    cryptocurrencies: "BTC",
-    locations: "Florida"
-  },
+ 
   {
     name: "LibertyX ATM",
     type: "ATM",
     url: "libertyx.com",
+    logo: "https://pbs.twimg.com/profile_images/1659303443314647043/Mz-jD1Jq_400x400.jpg",
     kyc_tier: "Tiered",
     supported_countries: "US only",
     fiat_deposit: true,
@@ -265,6 +244,7 @@ const platformsData = [
     name: "RockitCoin",
     type: "ATM",
     url: "rockitcoin.com",
+    logo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/cxdnypnu55drlxd0jwa9?ik-sanitizeSvg=true",
     kyc_tier: "Low (phone number only)",
     supported_countries: "US, Puerto Rico",
     fiat_deposit: true,
@@ -275,9 +255,10 @@ const platformsData = [
     locations: "1,500+ ATMs"
   },
   {
-    name: "Pelicoin ATM",
+    name: "Bitcoin Depot",
     type: "ATM",
-    url: "pelicoin.com",
+    url: "https://bitcoindepot.com/",
+    logo: "https://pbs.twimg.com/profile_images/1487080291168575490/6p3qO2B2_400x400.jpg",
     kyc_tier: "Intermediate",
     supported_countries: "US (South)",
     fiat_deposit: true,
@@ -287,23 +268,12 @@ const platformsData = [
     cryptocurrencies: "BTC, LTC, ETH",
     locations: "Texas, Louisiana, Mississippi, Alabama"
   },
-  {
-    name: "Localcoin",
-    type: "ATM",
-    url: "localcoinatm.com",
-    kyc_tier: "Tiered (FINTRAC compliant)",
-    supported_countries: "Canada",
-    fiat_deposit: true,
-    volume_24h: "N/A",
-    fees: "Variable",
-    reputation: "High",
-    cryptocurrencies: "BTC, ETH, DOGE, LTC, 10+",
-    locations: "1,000+ ATMs across Canada"
-  },
+  
   {
     name: "Bitcoin Well",
     type: "ATM",
     url: "bitcoinwell.com",
+    logo: "https://cdn.brandfetch.io/id5fQwmdy9/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Tiered",
     supported_countries: "Canada, US",
     fiat_deposit: true,
@@ -318,6 +288,7 @@ const platformsData = [
     name: "Hodl Hodl",
     type: "P2P",
     url: "hodlhodl.com",
+    logo: "https://cdn.brandfetch.io/idZyVJrbt0/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: true,
@@ -331,6 +302,7 @@ const platformsData = [
     name: "Peach Bitcoin",
     type: "P2P",
     url: "peachbitcoin.com",
+    logo: "https://cdn.brandfetch.io/id2S-yq7oe/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: true,
@@ -340,23 +312,12 @@ const platformsData = [
     cryptocurrencies: "BTC",
     payment_methods: ["Gift cards", "Bank transfer", "Cash"]
   },
-  {
-    name: "RoboSats",
-    type: "P2P",
-    url: "robosats.com",
-    kyc_tier: "None",
-    supported_countries: "Global",
-    fiat_deposit: true,
-    volume_24h: "Low",
-    fees: "Low",
-    reputation: "High (Privacy focused)",
-    cryptocurrencies: "BTC (Lightning)",
-    payment_methods: ["Various fiat methods"]
-  },
+  
   {
     name: "LocalCoinSwap",
     type: "P2P",
     url: "localcoinswap.com",
+    logo: "https://cdn.brandfetch.io/idDL0a3wYC/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: true,
@@ -366,24 +327,13 @@ const platformsData = [
     cryptocurrencies: "Multiple",
     payment_methods: ["Various"]
   },
-  {
-    name: "AgoraDesk",
-    type: "P2P",
-    url: "agoradesk.com",
-    kyc_tier: "None",
-    supported_countries: "Global",
-    fiat_deposit: true,
-    volume_24h: "Low",
-    fees: "Low",
-    reputation: "Medium",
-    cryptocurrencies: "Multiple",
-    payment_methods: ["Various"]
-  },
+ 
   {
     name: "OpenPeer",
     type: "P2P",
     url: "openpeer.xyz",
     kyc_tier: "Optional (peer decides)",
+    logo: "https://cdn.brandfetch.io/idh3uzJ_Bo/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     supported_countries: "Global except US",
     fiat_deposit: true,
     volume_24h: "Low",
@@ -397,6 +347,7 @@ const platformsData = [
     name: "SimpleSwap",
     type: "Instant Swap",
     url: "simpleswap.io",
+    logo: "https://cdn.brandfetch.io/idUetsSG2c/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None (may request on partner request)",
     supported_countries: "Global except US",
     fiat_deposit: false,
@@ -410,6 +361,7 @@ const platformsData = [
     name: "Changelly",
     type: "Instant Swap",
     url: "changelly.com",
+    logo: "https://cdn.brandfetch.io/idl324uOhC/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Email only",
     supported_countries: "Global except US",
     fiat_deposit: true,
