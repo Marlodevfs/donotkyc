@@ -5,6 +5,7 @@ const platformsData = [
     name: "MEXC",
     type: "CEX",
     url: "mexc.com",
+    logo: "/logos/mexc-global-seeklogo.png",
     kyc_tier: "Tiered (up to 10 BTC/day no KYC)",
     supported_countries: "Global except US",
     fiat_deposit: false,
@@ -610,9 +611,14 @@ function renderPlatforms() {
       <div class="platform-card" onclick="openModal('${platform.name.replace(/'/g, "\\'")}')"
            style="--type-color: ${typeColor.color}; --type-color-rgb: ${typeColor.rgb}; --type-color-light: ${typeColor.color}99;">
         <div class="platform-header">
-          <div class="platform-logo" style="background: linear-gradient(135deg, ${typeColor.color} 0%, ${typeColor.color}99 100%);">
-            ${platform.name.charAt(0)}
-          </div>
+         <div class="platform-logo" style="background: linear-gradient(135deg, ${typeColor.color} 0%, ${typeColor.color}99 100%);">
+  ${platform.logo
+    ? `<img src="${platform.logo}" alt="${platform.name} logo" class="platform-logo-img" loading="lazy"
+             onerror="this.style.display='none'; this.parentElement.textContent='${platform.name.charAt(0)}';">`
+    : platform.name.charAt(0)
+  }
+</div>
+
           <div class="platform-info">
             <div class="platform-name">${platform.name}</div>
             <span class="platform-type" style="background: rgba(${typeColor.rgb}, 0.15); color: ${typeColor.color}; border-color: rgba(${typeColor.rgb}, 0.3);">
