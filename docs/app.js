@@ -133,7 +133,6 @@ const platformsData = [
     name: "Bisq",
     type: "DEX",
     url: "bisq.network",
-    logo
     kyc_tier: "None",
     supported_countries: "Global",
     fiat_deposit: true,
