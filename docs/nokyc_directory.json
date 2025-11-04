@@ -37,7 +37,7 @@
     {
       "name": "CoinEx",
       "type": "CEX",
-      "url": "coinex.com",
+      "url": "https://www.coinex.com/register?rc=cw82v&channel=Referral",
       "kyc_tier": "None ($10,000/day)",
       "supported_countries": "Global except US (NY)",
       "fiat_deposit": false,
