@@ -4,7 +4,7 @@ const platformsData = [
   {
     name: "MEXC",
     type: "CEX",
-    url: "mexc.com",
+    url: "https://promote.mexc.com/r/qJYxTnPa",
     logo: "https://cdn.brandfetch.io/idCHi7bZkV/theme/dark/idpLaB5EuB.svg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Tiered (up to 10 BTC/day no KYC)",
     supported_countries: "Global except US",
