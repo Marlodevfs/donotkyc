@@ -4,7 +4,9 @@ const platformsData = [
   {
     name: "MEXC",
     type: "CEX",
-    url: "https://promote.mexc.com/r/qJYxTnPa",
+    url: "https://www.mexc.com",
+    affiliate_link: "https://promote.mexc.com/r/qJYxTnPa",
+
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BqBQD5Ojw1ianKY8TgMNeKGmX9RINxk_hrbfufkC8A&s=10",
     kyc_tier: "Tiered (up to 10 BTC/day no KYC)",
     supported_countries: "Global except US",
@@ -716,8 +718,10 @@ function openModal(platformName) {
   // Add CTA and disclaimer
   modalHTML += `
       <div class="modal-section">
-        <a href="https://${platform.url}" target="_blank" rel="noopener noreferrer" class="visit-platform-btn">
-          Visit ${platform.name}
+       <a href="${platform.affiliate_link || `https://${platform.url}`}" target="_blank" rel="nofollow noopener noreferrer" class="visit-platform-btn">
+  Visit ${platform.name}
+</a>
+
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M6 3H3v10h10v-3M9 3h4v4M13 3L7 9"/>
           </svg>
