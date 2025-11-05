@@ -718,7 +718,7 @@ function openModal(platformName) {
   // Add CTA and disclaimer
   modalHTML += `
       <div class="modal-section">
-       <a href="${platform.affiliate_link || ${platform.url}}" target="_blank" rel="nofollow noopener noreferrer" class="visit-platform-btn">
+       <a href="${platform.affiliate_link || platform.url}" target="_blank" rel="nofollow noopener noreferrer" class="visit-platform-btn">
   Visit ${platform.name}
 </a>                              
 
