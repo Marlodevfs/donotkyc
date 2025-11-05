@@ -20,7 +20,7 @@ const platformsData = [
   {
     name: "Bybit",
     type: "CEX",
-    url: "bybit.com",
+    url: "https://www.bybit.eu",
     affiliate_link: "https://partner.bybit.com/b/58129",
     logo: "https://cdn.brandfetch.io/idUW3Hal3b/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Tiered (20,000 USDT/day no KYC)",
@@ -35,7 +35,7 @@ const platformsData = [
   {
     name: "CoinEx",
     type: "CEX",
-    url: "coinex.com",
+    url: "https://www.coinex.com/en/",
     logo: "https://images.seeklogo.com/logo-png/39/1/coinex-logo-png_seeklogo-394301.png",
     kyc_tier: "None ($10,000/day)",
     supported_countries: "Global except US (NY)",
@@ -49,7 +49,8 @@ const platformsData = [
   {
     name: "Nonkyc.io",
     type: "CEX",
-    url: "https://nonkyc.io/?ref=6465fe372b05bfd8e43600c6&campaign=testcampaign&source=testsource&zone=testzone",
+    url: "https://nonkyc.io/",
+    affiliate_link: "https://nonkyc.io/?ref=6465fe372b05bfd8e43600c6&campaign=testcampaign&source=testsource&zone=testzone",
     logo: "https://pbs.twimg.com/profile_images/1645673554850054145/Li_ILJRZ_400x400.jpg",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -63,7 +64,7 @@ const platformsData = [
   {
     name: "BingX",
     type: "CEX",
-    url: "bingx.com",
+    url: "https://bingx.com",
     logo: "https://images.seeklogo.com/logo-png/51/1/bingx-logo-png_seeklogo-513450.png",
     kyc_tier: "Tiered",
     supported_countries: "Global except US",
@@ -77,7 +78,7 @@ const platformsData = [
   {
     name: "PrimeXBT",
     type: "CEX",
-    url: "primexbt.com",
+    url: "https://primexbt.com/",
     logo: "https://cdn.brandfetch.io/id9CMdpxC6/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None (~$20,000/day)",
     supported_countries: "Global except US",
@@ -93,7 +94,7 @@ const platformsData = [
   {
     name: "Uniswap",
     type: "DEX",
-    url: "uniswap.org",
+    url: "https://app.uniswap.org/",
     logo: "https://images.seeklogo.com/logo-png/39/1/uniswap-logo-png_seeklogo-398214.png",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -108,7 +109,7 @@ const platformsData = [
   {
     name: "PancakeSwap",
     type: "DEX",
-    url: "pancakeswap.finance",
+    url: "https://pancakeswap.finance/",
     logo: "https://cdn.brandfetch.io/idaVuWPOqe/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -123,7 +124,7 @@ const platformsData = [
   {
     name: "dYdX",
     type: "DEX",
-    url: "dydx.exchange",
+    url: "https://www.dydx.xyz/",
     logo: "https://cdn.brandfetch.io/idMVlnNUSO/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global except US, Canada",
@@ -138,7 +139,7 @@ const platformsData = [
   {
     name: "Bisq",
     type: "DEX",
-    url: "bisq.network",
+    url: "https://bisq.network/",
     logo: "https://cdn.brandfetch.io/idvZkLhs88/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -154,7 +155,7 @@ const platformsData = [
   {
     name: "GhostSwap",
     type: "Bridge",
-    url: "ghostswap.io",
+    url: "https://ghostswap.io/",
     logo: "https://cdn.brandfetch.io/idTY3y6GM_/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -169,7 +170,7 @@ const platformsData = [
   {
     name: "Portal Bridge",
     type: "Bridge",
-    url: "portalbridge.com",
+    url: "https://portalbridge.com/",
     logo: "https://cdn.brandfetch.io/ideyh4tbOF/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -184,7 +185,7 @@ const platformsData = [
   {
     name: "Synapse Protocol",
     type: "Bridge",
-    url: "synapseprotocol.com",
+    url: "https://synapseprotocol.com",
     logo: "https://pbs.twimg.com/profile_images/1692635184837836800/uZB0CnEG_400x400.jpg",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -199,7 +200,7 @@ const platformsData = [
   {
     name: "Symbiosis Finance",
     type: "Bridge",
-    url: "symbiosis.finance",
+    url: "https://symbiosis.finance/",
     logo: "https://cdn.brandfetch.io/id_g3_VMdQ/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -217,7 +218,7 @@ const platformsData = [
   {
     name: "Coinstar Bitcoin Machines",
     type: "ATM",
-    url: "coinme.com",
+    url: "https://www.coinstar.com/crypto/",
     logo: "https://pbs.twimg.com/profile_images/1402770991873347584/76ObxWjr_400x400.jpg",
     kyc_tier: "Intermediate",
     supported_countries: "US only",
@@ -232,7 +233,7 @@ const platformsData = [
   {
     name: "LibertyX ATM",
     type: "ATM",
-    url: "libertyx.com",
+    url: "https://libertyx.com/",
     logo: "https://pbs.twimg.com/profile_images/1659303443314647043/Mz-jD1Jq_400x400.jpg",
     kyc_tier: "Tiered",
     supported_countries: "US only",
@@ -246,7 +247,7 @@ const platformsData = [
   {
     name: "RockitCoin",
     type: "ATM",
-    url: "rockitcoin.com",
+    url: "https://www.rockitcoin.com/",
     logo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/cxdnypnu55drlxd0jwa9?ik-sanitizeSvg=true",
     kyc_tier: "Low (phone number only)",
     supported_countries: "US, Puerto Rico",
@@ -275,7 +276,7 @@ const platformsData = [
   {
     name: "Bitcoin Well",
     type: "ATM",
-    url: "bitcoinwell.com",
+    url: "https://bitcoinwell.com/",
     logo: "https://cdn.brandfetch.io/id5fQwmdy9/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Tiered",
     supported_countries: "Canada, US",
@@ -290,7 +291,7 @@ const platformsData = [
   {
     name: "Hodl Hodl",
     type: "P2P",
-    url: "hodlhodl.com",
+    url: "https://hodlhodl.com/",
     logo: "https://cdn.brandfetch.io/idZyVJrbt0/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -304,7 +305,7 @@ const platformsData = [
   {
     name: "Peach Bitcoin",
     type: "P2P",
-    url: "peachbitcoin.com",
+    url: "https://peachbitcoin.com/",
     logo: "https://cdn.brandfetch.io/id2S-yq7oe/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -319,7 +320,7 @@ const platformsData = [
   {
     name: "LocalCoinSwap",
     type: "P2P",
-    url: "localcoinswap.com",
+    url: "https://localcoinswap.com/",
     logo: "https://cdn.brandfetch.io/idDL0a3wYC/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None",
     supported_countries: "Global",
@@ -334,7 +335,7 @@ const platformsData = [
   {
     name: "OpenPeer",
     type: "P2P",
-    url: "openpeer.xyz",
+    url: "https://openpeer.xyz",
     kyc_tier: "Optional (peer decides)",
     logo: "https://cdn.brandfetch.io/idh3uzJ_Bo/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     supported_countries: "Global except US",
@@ -349,7 +350,7 @@ const platformsData = [
   {
     name: "SimpleSwap",
     type: "Instant Swap",
-    url: "simpleswap.io",
+    url: "https://simpleswap.io",
     logo: "https://cdn.brandfetch.io/idUetsSG2c/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "None (may request on partner request)",
     supported_countries: "Global except US",
@@ -363,7 +364,7 @@ const platformsData = [
   {
     name: "Changelly",
     type: "Instant Swap",
-    url: "changelly.com",
+    url: "https://changelly.com",
     logo: "https://cdn.brandfetch.io/idl324uOhC/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Email only",
     supported_countries: "Global except US",
