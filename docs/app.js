@@ -21,6 +21,7 @@ const platformsData = [
     name: "Bybit",
     type: "CEX",
     url: "bybit.com",
+    affiliate_link: "https://partner.bybit.com/b/58129",
     logo: "https://cdn.brandfetch.io/idUW3Hal3b/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
     kyc_tier: "Tiered (20,000 USDT/day no KYC)",
     supported_countries: "Global except US, UK, Singapore",
