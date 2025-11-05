@@ -373,21 +373,22 @@ const platformsData = [
     reputation: "High",
     cryptocurrencies: "200+",
     features: ["P2P", "Instant swap"]
-  }
-  {
-    name: "LetsExchange",
+  },
+ {
+    name: "Boltz",
     type: "Instant Swap",
-    url: "https://letsexchange.io",
-    logo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/houxcqmjpduv5i5we7vx?ik-sanitizeSvg=true",
-    kyc_tier: "Email only",
+    url: "https://boltz.exchange/",
+    logo: "https://raw.githubusercontent.com/BoltzExchange/logo/refs/heads/master/boltz-favicon.ico",
+    kyc_tier: "No KYC",
     supported_countries: "Global",
     fiat_deposit: true,
-    volume_24h: "Medium",
+    volume_24h: "High",
     fees: "0.25%",
-    reputation: "Medium",
-    cryptocurrencies: "5790+",
+    reputation: "High",
+    cryptocurrencies: "1+",
     features: ["P2P", "Instant swap"]
-  }
+  }, 
+  
 ];
 
 // Type color mapping
