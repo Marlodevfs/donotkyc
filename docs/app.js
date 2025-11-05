@@ -374,6 +374,20 @@ const platformsData = [
     cryptocurrencies: "200+",
     features: ["P2P", "Instant swap"]
   }
+  {
+    name: "LetsExchange",
+    type: "Instant Swap",
+    url: "https://letsexchange.io",
+    logo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/houxcqmjpduv5i5we7vx?ik-sanitizeSvg=true",
+    kyc_tier: "Email only",
+    supported_countries: "Global",
+    fiat_deposit: true,
+    volume_24h: "Medium",
+    fees: "0.25%",
+    reputation: "Medium",
+    cryptocurrencies: "5790+",
+    features: ["P2P", "Instant swap"]
+  }
 ];
 
 // Type color mapping
