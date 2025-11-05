@@ -718,9 +718,9 @@ function openModal(platformName) {
   // Add CTA and disclaimer
   modalHTML += `
       <div class="modal-section">
-       <a href="${platform.affiliate_link || `https://${platform.url}`}" target="_blank" rel="nofollow noopener noreferrer" class="visit-platform-btn">
+       <a href="${platform.affiliate_link || ${platform.url}}" target="_blank" rel="nofollow noopener noreferrer" class="visit-platform-btn">
   Visit ${platform.name}
-</a>
+</a>                              
 
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M6 3H3v10h10v-3M9 3h4v4M13 3L7 9"/>
