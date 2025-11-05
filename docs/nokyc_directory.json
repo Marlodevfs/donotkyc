@@ -554,6 +554,20 @@
         "P2P",
         "Instant swap"
       ]
-    }
+    },
+     {
+    name: "Boltz",
+    type: "Instant Swap",
+    url: "https://boltz.exchange/",
+    logo: "https://raw.githubusercontent.com/BoltzExchange/logo/refs/heads/master/boltz-favicon.ico",
+    kyc_tier: "No KYC",
+    supported_countries: "Global",
+    fiat_deposit: true,
+    volume_24h: "High",
+    fees: "0.25%",
+    reputation: "High",
+    cryptocurrencies: "1+",
+    features: ["P2P", "Instant swap"]
+  },
   ]
 }
