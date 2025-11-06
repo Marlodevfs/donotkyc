@@ -593,5 +593,27 @@
         "Multilingual support"
     ]
 },
+{
+    "name": "WizardSwap",
+    "type": "Instant Swap",
+    "url": "https://www.wizardswap.io",
+    "logo": "https://pbs.twimg.com/profile_images/1439339323971805187/T-oBcFh6_400x400.jpg",
+    "kyc_tier": "No KYC required, but may cooperate with authorities and freeze funds if suspicious activity detected",
+    "supported_countries": "Global",
+    "fiat_deposit": false,
+    "volume_24h": "Not publicly disclosed",
+    "fees": "Approx. 2.2% flat fee, with possibility to earn fee rebate by providing liquidity",
+    "reputation": "Mixed reviews; praised for privacy and instant swaps, some concerns on support and liquidity",
+    "cryptocurrencies": "Supports privacy coins such as Monero (XMR), Dash, Zcash, Particl, PIVX, Firo, and more",
+    "features": [
+        "No registration required",
+        "Supports Tor (Onion) network access",
+        "Non-custodial swaps with user's own wallets",
+        "Floating exchange rates",
+        "24/7 customer support",
+        "Liquidity provider program with profit share"
+    ]
+},
+
   ]
 }
