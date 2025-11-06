@@ -107,6 +107,28 @@ const platformsData = [
     features: ["AMM", "Liquidity pools", "Governance"]
   },
   {
+    "name": "StealthEX",
+    "type": "DEX (Instant Swap)",
+    "url": "https://stealthex.io",
+ "logo": "https://pbs.twimg.com/profile_images/1744414370459729920/Ozm2U_Wk_400x400.png"
+    "kyc_tier": "No KYC up to $700/transaction, may request for flagged activity or higher limits",
+    "supported_countries": "Global",
+    "fiat_deposit": true,
+    "volume_24h": "Not disclosed",
+    "fees": "0.25% - 0.5% (varies by pair & network)",
+    "reputation": "Popular in privacy communities, strong aggregator ratings",
+    "cryptocurrencies": "2000+",
+    "features": [
+        "Instant cross-chain swaps",
+        "Non-custodial (wallet-to-wallet)",
+        "No account required",
+        "Supports privacy coins (Monero, Pirate Chain, Zcash...)",
+        "Crypto purchase via card (no-KYC limit)",
+        "Fixed or floating swap rates",
+        "Multilingual support"
+    ]
+},
+  {
     name: "PancakeSwap",
     type: "DEX",
     url: "https://pancakeswap.finance/",
