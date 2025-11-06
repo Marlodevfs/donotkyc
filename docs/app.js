@@ -391,7 +391,7 @@ const platformsData = [
   }, 
   {
     name: "StealthEX",
-    type: "DEX",
+    type: "Instant Swap",
     url: "https://stealthex.io",
  logo: "https://pbs.twimg.com/profile_images/1744414370459729920/Ozm2U_Wk_400x400.png",
     kyc_tier: "No KYC up to $700/transaction",
