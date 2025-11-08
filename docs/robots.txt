@@ -1,0 +1,30 @@
+# ===============================
+# robots.txt for https://www.donotkyc.com
+# Last updated: 2025-11-08
+# ===============================
+
+# Autoriser tous les moteurs de recherche à explorer le site
+User-agent: *
+Allow: /
+
+# Empêcher l’indexation de fichiers sensibles ou techniques
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /*.php$
+Disallow: /*.env$
+Disallow: /*.git/
+
+# Lien vers le sitemap XML pour faciliter l’indexation
+Sitemap: https://www.donotkyc.com/sitemap.xml
+
+# Délai entre deux requêtes (évite la surcharge du serveur)
+Crawl-delay: 10
+
+# ===============================
+# Notes :
+# - Vérifie que /sitemap.xml est bien accessible.
+# - Si tu utilises Cloudflare, ce fichier sera servi automatiquement.
+# - Mets-le à jour à chaque ajout de nouvelle page importante.
+# ===============================
