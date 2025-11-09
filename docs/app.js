@@ -110,6 +110,27 @@ const platformsData = [
     "Mobile/Web app"
   ]
 },
+{
+  name: "KCEX",
+  type: "CEX",
+  url: "https://www.kcex.com/",
+  logo: "https://pbs.twimg.com/profile_images/1984841229318647808/Yoy5rGbl_400x400.png",
+  kyc_tier: "None (faibles limites, KYC pour montants élevés)",
+  supported_countries: "Global except restrictions",
+  fiat_deposit: false,
+  volume_24h: "Variable, $500M+",
+  fees: "0% spot, 0.02% taker futures, 0% maker futures",
+  reputation: "Bonne réputation (frais ultra-bas, nouvelle plateforme)",
+  cryptocurrencies: "80+",
+  features: [
+    "Spot trading (no fees)",
+    "Perpetual futures (leverage up to 100x)",
+    "No-KYC onboarding",
+    "Simple interface",
+    "Mobile/Web app"
+  ]
+}
+
 
   
   // DEX
