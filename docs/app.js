@@ -89,6 +89,28 @@ const platformsData = [
     cryptocurrencies: "5+",
     features: ["Crypto", "Forex", "Indices", "Commodities"]
   },
+  {
+  name: "Tapbit",
+  type: "CEX",
+  url: "https://www.tapbit.com/",
+  logo: "https://cdn.prod.website-files.com/6513d1ba8db38482a7e47f3e/675a0c1e57eb315330219930__z0xJg7p_400x400.jpg",
+  kyc_tier: "None (10 BTC/60 BTC withdrawal, KYC only for large limits)",
+  supported_countries: "Global except restrictions",
+  fiat_deposit: true,
+  volume_24h: "Variable, $1B+",
+  fees: "0.1% spot, 0.02% maker | 0.06% taker futures",
+  reputation: "8/10 CoinGecko, sécurité élevée",
+  cryptocurrencies: "700+",
+  features: [
+    "Spot trading",
+    "Perpetual futures (leverage up to 150x)",
+    "Copy trading",
+    "Fast KYC-free onboarding",
+    "P2P market",
+    "Mobile/Web app"
+  ]
+},
+
   
   // DEX
   {
