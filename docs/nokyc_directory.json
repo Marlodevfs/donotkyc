@@ -210,7 +210,29 @@
         "Escrow",
         "Fiat onramp"
       ]
-    }
+    },
+    {
+  "name": "edgeX",
+  "type": "DEX",
+  "url": "https://www.edgex.exchange/",
+  "logo": "https://www.edgex.exchange/assets/logo.svg",
+  "kyc_tier": "None (wallet only, no KYC)",
+  "supported_countries": "Global",
+  "fiat_deposit": false,
+  "volume_24h": "High ($743M – $4.9B)",
+  "fees": "0.02% maker / 0.05% taker",
+  "reputation": "High (DeFi, new platform, rising adoption)",
+  "cryptocurrencies": "90+",
+  "blockchains": ["Ethereum", "StarkEx L2"],
+  "features": [
+    "Perpetual futures",
+    "Orderbook DEX",
+    "Leverage up to 50x",
+    "Mobile/Web app",
+    "No-KYC"
+  ]
+}
+
   ],
   "bridges": [
     {
