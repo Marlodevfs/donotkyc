@@ -155,7 +155,7 @@ const platformsData = [
   name: "edgeX",
   type: "DEX",
   url: "https://www.edgex.exchange/",
-  logo: "https://www.edgex.exchange/assets/logo.svg",
+  logo: "https://pbs.twimg.com/profile_images/1976495879319322624/mMUMJ9ym_400x400.jpg",
   kyc_tier: "None (wallet only, no KYC)",
   supported_countries: "Global",
   fiat_deposit: false,
