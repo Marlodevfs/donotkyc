@@ -99,7 +99,7 @@ const platformsData = [
   fiat_deposit: true,
   volume_24h: "Variable, $1B+",
   fees: "0.1% spot, 0.02% maker | 0.06% taker futures",
-  reputation: "8/10 CoinGecko, sécurité élevée",
+  reputation: "8/10 CoinGecko, high security",
   cryptocurrencies: "700+",
   features: [
     "Spot trading",
@@ -120,7 +120,7 @@ const platformsData = [
   fiat_deposit: false,
   volume_24h: "Variable, $500M+",
   fees: "0% spot, 0.02% taker futures, 0% maker futures",
-  reputation: "Bonne réputation (frais ultra-bas, nouvelle plateforme)",
+  reputation: "Good (low fees, new plateform)",
   cryptocurrencies: "80+",
   features: [
     "Spot trading (no fees)",
