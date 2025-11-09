@@ -129,7 +129,7 @@ const platformsData = [
     "Simple interface",
     "Mobile/Web app"
   ]
-}
+},
 
 
   
