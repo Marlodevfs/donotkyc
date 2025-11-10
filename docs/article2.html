@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy First: Why Avoiding KYC Is Important | DoNotKYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #1a1a2e;
+        --secondary: #16213e;
+        --accent: #0f3460;
+        --cta: #e94560;
+        --text-light: #eaeaea;
+        --background: #0f0f1e;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+        color: var(--text-light);
+        background: var(--background);
+        line-height: 1.7;
+      }
+      header {
+        background: var(--primary);
+        padding: 1rem 2rem;
+
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      }
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-family: Poppins;
+        font-weight: 700;
+        color: var(--text-light);
+        text-decoration: none;
+      }
+      nav a {
+        color: var(--text-light);
+        text-decoration: none;
+        margin-left: 1.2rem;
+        font-weight: 500;
+      }
+      nav a:hover {
+        color: var(--cta);
+      }
+      main {
+        max-width: 900px;
+        margin: 3rem auto;
+        padding: 0 1.25rem;
+      }
+      .back-link {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: var(--cta);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .article-title {
+        font-family: Poppins;
+        font-size: 2.2rem;
+        margin-bottom: 0.6rem;
+      }
+      .meta {
+        color: rgba(234, 234, 234, 0.6);
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+      }
+      .hero-image {
+        width: 50%; /* ✅ pas plus large que la moitié du conteneur */
+        max-width: 400px; /* ✅ limite la taille sur grands écrans */
+        height: auto; /* ✅ garde les proportions du carré */
+        border-radius: 12px;
+        margin: 0 auto 1.5rem; /* ✅ centre horizontalement + espace en bas */
+        display: block;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        object-fit: contain; /* ✅ ne coupe pas ton image */
+      }
+      h2 {
+        color: var(--cta);
+        margin-top: 1.6rem;
+        margin-bottom: 0.6rem;
+        font-size: 1.3rem;
+      }
+      p {
+        margin-bottom: 1rem;
+        color: rgba(234, 234, 234, 0.92);
+      }
+      ul {
+        margin-left: 1.2rem;
+        margin-bottom: 1rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      .tip {
+        background: rgba(15, 52, 96, 0.18);
+        padding: 1rem;
+        border-radius: 10px;
+        margin: 1rem 0;
+        border-left: 4px solid var(--cta);
+      }
+      footer {
+        background: var(--primary);
+        padding: 2rem;
+        text-align: center;
+        color: rgba(234, 234, 234, 0.7);
+        margin-top: 3rem;
+      }
+      @media (max-width: 700px) {
+        .tip {
+          padding: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <img src="/logo+title transparent.png" alt="DoNotKYC" width="120" />
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="blog.html" style="color: var(--cta)">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <a href="blog.html" class="back-link">← Back to Blog</a>
+
+      <header class="article-header">
+        <h1 class="article-title">
+          Privacy First: Why Avoiding KYC Is Important
+        </h1>
+        <p class="meta">
+          📅 November 9, 2025 · ✍️ DoNotKYC Team · ⏱️ 7 min read
+        </p>
+        <img
+          src="/article2.png"
+          alt="Privacy and data protection"
+          class="hero-image"
+        />
+      </header>
+
+      <p>
+        KYC (Know Your Customer) processes ask for ID documents, proof of
+        residence, and sometimes biometric selfies. These checks serve an
+        important regulatory role, but they also centralize sensitive data — a
+        trade-off that every crypto user should understand.
+      </p>
+
+      <h2>What exactly is at risk?</h2>
+      <p>
+        When an exchange stores your ID documents they become an attractive
+        target: data breaches, misuse, regulatory requests, and even identity
+        theft are possible outcomes of a single leaked dataset.
+      </p>
+
+      <div class="tip">
+        <strong>Practical note:</strong> KYC doesn’t equal safety. It reduces
+        some risks (fraud, certain regulatory blocks) but increases the
+        concentration of sensitive personal data.
+      </div>
+
+      <h2>Why some people avoid KYC</h2>
+      <ul>
+        <li>
+          <strong>Privacy:</strong> minimizing the number of places your ID
+          lives.
+        </li>
+        <li>
+          <strong>Access:</strong> users without stable IDs or proof of address
+          can still trade.
+        </li>
+        <li>
+          <strong>Speed:</strong> instant access to markets without waiting days
+          for verification.
+        </li>
+      </ul>
+
+      <h2>How to stay safe without KYC</h2>
+
+      <h3>1. Use small test amounts first</h3>
+      <p>
+        Always deposit and withdraw a small amount before committing large
+        balances to a new exchange — confirm withdrawal speed and fees, and that
+        on-chain receipts match what you expect.
+      </p>
+
+      <h3>2. Prefer self-custody for long-term holdings</h3>
+      <p>
+        Exchanges are convenient but not guaranteed safe. Move larger amounts to
+        hardware wallets or other self-custody solutions you control.
+      </p>
+
+      <h3>3. Harden your account</h3>
+      <ul>
+        <li>Use an authenticator app (not SMS) for 2FA</li>
+        <li>Set strong unique passwords and consider a password manager</li>
+        <li>Lock API keys to specific IPs if you use automated tools</li>
+      </ul>
+
+      <h3>4. Understand legal exposure</h3>
+      <p>
+        Avoiding KYC does not exempt you from law. In many jurisdictions,
+        certain activities (fiat on/off ramps, high volumes) are regulated and
+        may require compliance. Always ensure your actions are lawful where you
+        live.
+      </p>
+
+      <h2>When KYC is reasonable</h2>
+      <p>
+        KYC is often necessary for fiat on-ramps, high-volume institutional
+        accounts, or when you need access to regulated products (fiat
+        withdrawals, bank transfers). If you need those services, pick a
+        reputable exchange and complete the verification steps.
+      </p>
+
+      <h2>Final checklist before using a no-KYC exchange</h2>
+      <ul>
+        <li>
+          Check the exchange’s withdrawal limits and whether they match your
+          needs.
+        </li>
+        <li>Look for third-party reviews and order-book depth (liquidity).</li>
+        <li>
+          Confirm the exchange’s country of registration and any
+          MSB/registration info.
+        </li>
+        <li>
+          Keep backups of your transaction receipts and clear records of
+          transfers.
+        </li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>
+        Privacy is a core crypto value, but it must be balanced with prudence.
+        Low-KYC exchanges are useful tools for privacy and access, but treat
+        them as part of a broader risk-management strategy: small test flows,
+        self-custody for larger holdings, and continuous monitoring of exchange
+        policies.
+      </p>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 DoNotKYC — Educational content only. Do your own research before
+        trading.
+      </p>
+    </footer>
+  </body>
+</html>
