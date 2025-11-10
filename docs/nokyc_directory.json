@@ -607,24 +607,24 @@
       ]
     },
      {
-    name: "Boltz",
-    type: "Instant Swap",
-    url: "https://boltz.exchange/",
-    logo: "https://raw.githubusercontent.com/BoltzExchange/logo/refs/heads/master/boltz-favicon.ico",
-    kyc_tier: "No KYC",
-    supported_countries: "Global",
-    fiat_deposit: true,
-    volume_24h: "High",
-    fees: "0.25%",
-    reputation: "High",
-    cryptocurrencies: "1+",
-    features: ["P2P", "Instant swap"]
+    "name": "Boltz",
+    "type": "Instant Swap",
+    "url": "https://boltz.exchange/",
+    "logo": "https://raw.githubusercontent.com/BoltzExchange/logo/refs/heads/master/boltz-favicon.ico",
+    "kyc_tier": "No KYC",
+    "supported_countries": "Global",
+    "fiat_deposit": true,
+    "volume_24h": "High",
+    "fees": "0.25%",
+    "reputation": "High",
+    "cryptocurrencies": "1+",
+    "features": ["P2P", "Instant swap"]
   },
   {
     "name": "StealthEX",
     "type": "Instant Swap",
     "url": "https://stealthex.io",
- "logo": "https://pbs.twimg.com/profile_images/1744414370459729920/Ozm2U_Wk_400x400.png"
+ "logo": "https://pbs.twimg.com/profile_images/1744414370459729920/Ozm2U_Wk_400x400.png",
     "kyc_tier": "No KYC up to $700/transaction",
     "supported_countries": "Global",
     "fiat_deposit": true,
@@ -662,7 +662,7 @@
         "24/7 customer support",
         "Liquidity provider program with profit share"
     ]
-},
+}
 
   ]
 }
