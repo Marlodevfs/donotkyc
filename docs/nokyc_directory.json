@@ -297,7 +297,54 @@
     "Mobile/Web app",
     "No-KYC"
   ]
-}
+},
+    {
+  "name": "Hyperliquid",
+  "type": "DEX",
+  "url": "https://hyperliquid.xyz",
+      "logo": "https://cdn.brandfetch.io/idGSMNVeGY/w/200/h/200/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
+  "kyc_tier": "None",
+  "supported_countries": "Global",
+  "fiat_deposit": false,
+  "volume_24h": "High - 25% DEX market share",
+  "fees": "Low",
+  "reputation": "High - Fastest growing DEX 2024",
+  "cryptocurrencies": "Multiple",
+  "blockchains": [
+    "Hyperliquid Chain"
+  ],
+  "features": [
+    "Perpetual Contracts",
+    "40x Leverage",
+    "On-chain Orderbook",
+    "No Wallet Approvals"
+  ]
+},
+{
+  "name": "1inch",
+  "type": "DEX",
+  "url": "https://1inch.io",
+  "logo": "https://cdn.brandfetch.io/idyJhw04qE/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+  "kyc_tier": "None",
+  "supported_countries": "Global",
+  "fiat_deposit": false,
+  "volume_24h": "Not disclosed",
+  "fees": "Variable (aggregator)",
+  "reputation": "High",
+  "cryptocurrencies": "Multiple",
+  "blockchains": [
+    "Ethereum",
+    "BSC",
+    "Polygon",
+    "Multiple"
+  ],
+  "features": [
+    "DEX Aggregator",
+    "Best Rates",
+    "Smart Order Routing",
+    "Low Slippage"
+  ]
+},
 
   ],
   "bridges": [
