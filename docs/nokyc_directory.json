@@ -142,7 +142,46 @@
     "Simple interface",
     "Mobile/Web app"
   ]
-}
+},
+   {
+  "name": "Mt Pelerin",
+  "type": "CEX",
+  "url": "https://www.mtpelerin.com",
+  "kyc_tier": "Tiered (up to certain limits no KYC)",
+     "logo": "https://brandfetch.com/mtpelerin.com?library=default&collection=logos&asset=idkX4kOTLH",
+  "supported_countries": "Europe, Switzerland",
+  "fiat_deposit": true,
+  "volume_24h": "Not disclosed",
+  "fees": "Low fees",
+  "reputation": "FINMA regulated",
+  "cryptocurrencies": "Major cryptocurrencies",
+  "features": [
+    "Spot",
+    "Fiat On-Ramp",
+    "Bank Transfer",
+    "Credit Card"
+  ]
+},
+    {
+  "name": "BloFin",
+  "type": "CEX",
+  "url": "https://www.blofin.com",
+      "logo": "https://pbs.twimg.com/profile_images/1985641997068009472/bFd8JPC1_400x400.jpg",
+  "kyc_tier": "No KYC required",
+  "supported_countries": "Global",
+  "fiat_deposit": false,
+  "volume_24h": "Not disclosed",
+  "fees": "0.02% maker / 0.06% taker",
+  "reputation": "1M+ users",
+  "cryptocurrencies": "Multiple",
+  "features": [
+    "Spot",
+    "Futures",
+    "Copy Trading",
+    "Options"
+  ]
+},
+    
 
 
   ],
