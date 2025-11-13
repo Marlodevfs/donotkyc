@@ -560,6 +560,27 @@ const platformsData = [
         "Liquidity provider program with profit share"
     ]
 },
+  {
+    name: "Best Wallet",
+    type: "Instant Swap",
+    url: "https://bestwallet.com",
+    
+    logo: "https://cdn.brandfetch.io/id0cgBQAaJ/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+    kyc_tier: "None",
+    supported_countries: "Global",
+    fiat_deposit: false,
+    volume_24h: "Not publicly disclosed",
+    fees: "Low (competitive)",
+    reputation: "High - Best no-KYC platform 2025",
+    cryptocurrencies: "Multiple",
+    features: [
+        "Mobile wallet with built-in swap",
+        "Connects to multiple DEXs",
+        "Multi-chain support",
+        "No registration",
+        "Mobile-first design"
+    ]
+},
 
   
 ];
