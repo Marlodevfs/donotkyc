@@ -130,6 +130,38 @@ const platformsData = [
     "Mobile/Web app"
   ]
 },
+  {
+    name: "Mt Pelerin",
+    type: "CEX",
+    url: "https://www.mtpelerin.com",
+    
+  
+    logo: "https://cdn.brandfetch.io/idb4mYXtrR/w/180/h/180/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
+    kyc_tier: "Tiered (up to certain limits no KYC)",
+    supported_countries: "Europe, Switzerland",
+    fiat_deposit: true,
+    volume_24h: "",
+    fees: "Low fees",
+    reputation: "FINMA regulated",
+    cryptocurrencies: "Major cryptocurrencies",
+    features: ["Spot", "Fiat On-Ramp", "Bank Transfer", "Credit Card"]
+},
+
+{
+    name: "BloFin",
+    type: "CEX",
+    url: "https://www.blofin.com",
+  
+    logo: "https://pbs.twimg.com/profile_images/1985641997068009472/bFd8JPC1_400x400.jpg",
+    kyc_tier: "No KYC required",
+    supported_countries: "Global",
+    fiat_deposit: false,
+    volume_24h: "",
+    fees: "0.02% maker / 0.06% taker",
+    reputation: "1M+ users",
+    cryptocurrencies: "Multiple",
+    features: ["Spot", "Futures", "Copy Trading", "Options"]
+},
 
 
   
