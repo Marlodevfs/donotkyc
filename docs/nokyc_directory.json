@@ -768,7 +768,32 @@
     "No registration",
     "Mobile-first design"
   ]
+},
+   {
+  "name": "Trocador",
+  "type": "Instant Swap",
+  "url": "https://trocador.app/",
+  
+  "logo": "https://imgs.search.brave.com/GrZ_fe2KtJ5v2oVrNMa9G-kKFBaOWYrPO9H5pNA_xC0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jb25z/dW1lcnNpdGVpbWFn/ZXMudHJ1c3RwaWxv/dC5uZXQvYnVzaW5l/c3MtdW5pdHMvNjQz/ZTA2YWE2MmViOWM2/NGFhYWUyMDQ4LTE5/OHgxNDktMXguanBn",
+  "kyc_tier": "Depends on partners (no account on Trocador; some partners may request KYC on risk flags)",
+  "supported_countries": "Global",
+  "fiat_deposit": true,
+  "volume_24h": "Not disclosed",
+  "fees": "Included in partner rate; network + partner fees in quote",
+  "reputation": "Privacy-focused aggregator with partner ratings and limited guarantee",
+  "cryptocurrencies": "60+",
+  "features": [
+    "Exchange aggregator (multiple instant exchanges)",
+    "No account required",
+    "Fixed and floating rates",
+    "Payment mode (exact-output)",
+    "Fiat gateway aggregator",
+    "Tor and JS-free options",
+    "Shows partner KYC/log policies",
+    "24/7 support and mediation"
+  ]
 }
+
 
   ]
 }
