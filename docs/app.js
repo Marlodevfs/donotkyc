@@ -606,6 +606,34 @@ const platformsData = [
   ]
 },
 
+{
+    name: "SilentSwap",
+    type: "Instant Swap",
+    url: "https://app.silentswap.com",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ptvDjGWl9owfvyNC-oIFzD7G7u5Z-7m1HFQ0hESmLw&s=10",
+    kyc_tier: "No KYC required, no registration needed. Claims OFAC & AML compliance but collects no personal data and purges transaction records daily",
+    supported_countries: "Global (except USA - US users explicitly banned since V2 launch Oct 2025)",
+    fiat_deposit: false,
+    volume_24h: "Millions processed (reported $7.8M+ across 2,623 transactions as of Nov 2025)",
+    fees: "1% flat fee per swap",
+    reputation: "Emerging platform with innovative privacy features; founded by Shibtoshi (Shiba Inu whale); launched V2 in Oct 2025",
+    cryptocurrencies: "Multi-chain support: 8 blockchain networks including Ethereum, BSC, Polygon, Arbitrum, Optimism, Avalanche, and others. Supports major tokens across EVM-compatible chains",
+    features: [
+        "No registration or KYC required",
+        "Non-custodial swaps - users keep full control of assets",
+        "Cross-chain privacy swaps via Secret Network",
+        "Two privacy modes: Semi-private and Max Privacy",
+        "Up to 16 destination wallets per transaction",
+        "Average swap time: 1-3 minutes (some cross-chain: 5-20 mins)",
+        "Automatic burner wallets to break on-chain links",
+        "24/7 customer support",
+        "API integration available for platforms",
+        "Complete transaction anonymity",
+        "Fully decentralized and trustless",
+        "Daily purge of transaction data"
+    ]
+},
+
 
   
 ];
