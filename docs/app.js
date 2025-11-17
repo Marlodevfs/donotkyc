@@ -114,6 +114,7 @@ const platformsData = [
   name: "KCEX",
   type: "CEX",
   url: "https://www.kcex.com/",
+  affiliate_link: "https://www.kcex.com/register?inviteCode=Q31QTP",
   logo: "https://pbs.twimg.com/profile_images/1984841229318647808/Yoy5rGbl_400x400.png",
   kyc_tier: "None (faibles limites, KYC pour montants élevés)",
   supported_countries: "Global except restrictions",
