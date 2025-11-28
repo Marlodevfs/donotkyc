@@ -296,9 +296,9 @@ const platformsData = [
   features:  [
 "Multi-chain",
 "Cross-chain swap",
-"Earn"
+"Earn",
 "RWA"
-  ],
+  ]
 
 },
   // Bridges
