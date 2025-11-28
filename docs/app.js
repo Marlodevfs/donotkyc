@@ -287,7 +287,7 @@ const platformsData = [
   logo: "https://pbs.twimg.com/profile_images/1593189277218873347/Dk0ThVLh_400x400.jpg",
   kyc_tier: "self-custody wallet; connect wallet, no account required)",
   supported_countries: "Global (depends on wallet and IP restrictions)",
-  fiat_deposit: true, // No in-app fiat onramp by default; partners may differ if integrated later
+  fiat_deposit: true,
   volume_24h: "NA",
   fees: "0.01% stable coins; 0.1% for gas tokens; 0.25% Most CEX-listed tokens; 0.99% all others",
   reputation: "Rising; strong privacy, audited, DAO governance",
