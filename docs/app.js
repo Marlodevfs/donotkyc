@@ -632,7 +632,7 @@ const platformsData = [
   type: "Instant Swap",
   url: "https://quickex.io/",
   logo: "https://pbs.twimg.com/profile_images/1847274045177257984/clswKplu_400x400.jpg",
-  kyc_tier: "No KYC up to ~700$ per trade",
+  kyc_tier: "No KYC",
   supported_countries: "Global",
   fiat_deposit: false,
   volume_24h: "Not disclosed",
@@ -646,7 +646,7 @@ const platformsData = [
     "Public API V2 for easy integration",
     "Widget embed for websites",
     "Affiliate program (up to 50% revenue share)",
-    "High no-KYC limits (~700$)",
+  
     "24/7 support"
   ]
 },
