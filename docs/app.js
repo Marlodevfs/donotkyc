@@ -627,6 +627,29 @@ const platformsData = [
     "24/7 support and mediation"
   ]
 },
+  {
+  "name": "Quickex.io",
+  "type": "Instant Swap",
+  "url": "https://quickex.io/",
+  "logo": "https://quickex.io/static/images/logo.svg",
+  "kyc_tier": "No KYC up to ~700$ per trade (higher limits may trigger risk checks)",
+  "supported_countries": "Global (no geo-restrictions)",
+  "fiat_deposit": false,
+  "volume_24h": "Not disclosed",
+  "fees": "0.5% fixed fee + network fees (transparent in quotes)",
+  "reputation": "Established instant swap service with API/widget integration and affiliate program",
+  "cryptocurrencies": "100+",
+  "features": [
+    "Instant crypto-to-crypto swaps",
+    "No account or registration required",
+    "Floating and fixed rates",
+    "Public API V2 for easy integration",
+    "Widget embed for websites",
+    "Affiliate program (up to 50% revenue share)",
+    "High no-KYC limits (~700$)",
+    "24/7 support"
+  ]
+},
 
 {
     name: "SilentSwap",
