@@ -650,7 +650,22 @@ const platformsData = [
     "24/7 support"
   ]
 },
-
+  {
+name: "AceChange",
+type: "Instant Swap",
+url: "https://www.acechange.io",
+logo: "https://pbs.twimg.com/profile_images/1312750283559231489/2J8_P0kU_400x400.png",
+kyc_tier: "No KYC for crypto swaps",
+supported_countries: "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)",
+fiat_deposit: true,
+volume_24h: "Medium",
+fees: "0.5%+ for swaps",
+reputation: "High",
+cryptocurrencies: "1000+",
+features: [ "No KYC swaps",
+           "Instant swap", 
+           "Fiat gateway" ]
+},
 {
     name: "SilentSwap",
     type: "Instant Swap",
