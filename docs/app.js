@@ -667,17 +667,23 @@ const platformsData = [
         "No registration or KYC required",
         "Non-custodial swaps - users keep full control of assets",
         "Cross-chain privacy swaps via Secret Network",
-        "Two privacy modes: Semi-private and Max Privacy",
-        "Up to 16 destination wallets per transaction",
-        "Average swap time: 1-3 minutes (some cross-chain: 5-20 mins)",
-        "Automatic burner wallets to break on-chain links",
-        "24/7 customer support",
-        "API integration available for platforms",
-        "Complete transaction anonymity",
-        "Fully decentralized and trustless",
-        "Daily purge of transaction data"
     ]
 },
+  {
+name: "AceChange",
+type: "Instant Swap",
+url: "https://www.acechange.io",
+logo: "https://pbs.twimg.com/profile_images/1312750283559231489/2J8_P0kU_400x400.png",
+kyc_tier: "No KYC for crypto swaps",
+supported_countries: "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)",
+fiat_deposit: true,
+volume_24h: "Medium",
+fees: "0.5%+ for swaps",
+reputation: "High",
+cryptocurrencies: "1000+",
+features: ["No KYC swaps", "Instant swap", "Fiat gateway"]
+},
+​
 
 
   
