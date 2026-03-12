@@ -305,7 +305,7 @@ const platformsData = [
 name: "BIM Exchange",
 type: "DEX",
 url: "https://exchange.bim.finance/buy",
-logo: "https://x.com/Bim_Exchange/photo",
+logo: "https://pbs.twimg.com/profile_images/1900180920184823808/q4xORxAs_400x400.jpg",
 kyc_tier: "None",
 supported_countries: "Global",
 fiat_deposit: true,
