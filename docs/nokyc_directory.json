@@ -367,30 +367,30 @@
 
 },
 {
-“name”: “BIM Exchange”,
-“type”: “DEX”,
-“url”: "https://exchange.bim.finance/buy”,
-“kyc_tier”: “None”,
-“supported_countries”: “Global”,
-“fiat_deposit”: true,
-“volume_24h”: “N/A (DeFi aggregator)”,
-“fees”: “0.1% - 0.5% (via Kyber/Bungee)”,
-“reputation”: “Medium-High”,
-“cryptocurrencies”: “1000+”,
-“blockchains”: [
-“Ethereum”,
-“Base”,
-“Polygon”,
-“Arbitrum”,
-“BNB Chain”,
-“Solana”
+"name": "BIM Exchange",
+"type": "DEX",
+"url": "https://exchange.bim.finance/buy",
+"kyc_tier": "None",
+"supported_countries": "Global",
+"fiat_deposit": true,
+"volume_24h": "N/A (DeFi aggregator)",
+"fees": "0.1% - 0.5% (via Kyber/Bungee)",
+"reputation": "Medium-High",
+"cryptocurrencies": "1000+",
+"blockchains": [
+"Ethereum",
+"Base",
+"Polygon",
+"Arbitrum",
+"BNB Chain",
+"Solana"
 ],
-“features”: [
-“DeFi Aggregator”,
-“Fiat → Crypto (EUR/CHF/USDT)”,
-“Instant Swaps”,
-“Cross-Chain Bridges”,
-“Non-Custodial”
+"features": [
+"DeFi Aggregator",
+"Fiat → Crypto (EUR/CHF/USDT)",
+"Instant Swaps",
+"Cross-Chain Bridges",
+"Non-Custodial"
 ]
 },
 
