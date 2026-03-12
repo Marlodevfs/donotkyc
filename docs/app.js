@@ -301,6 +301,34 @@ const platformsData = [
   ]
 
 },
+{
+name: "BIM Exchange",
+type: "DEX",
+url: "https://exchange.bim.finance/buy",
+logo: "https://x.com/Bim_Exchange/photo",
+kyc_tier: "None",
+supported_countries: "Global",
+fiat_deposit: true,
+volume_24h: "N/A (DeFi aggregator)",
+fees: "0.1% - 0.5% (via Kyber/Bungee)",
+reputation: "Medium-High",
+cryptocurrencies: "1000+",
+blockchains: [
+"Ethereum",
+"Base",
+"Polygon",
+"Arbitrum",
+"BNB Chain",
+"Solana"
+],
+features: [
+"DeFi Aggregator",
+"Fiat → Crypto (EUR/CHF/USDT)",
+"Instant Swaps",
+"Cross-Chain Bridges",
+"Non-Custodial"
+]
+},
   // Bridges
   {
     name: "GhostSwap",
