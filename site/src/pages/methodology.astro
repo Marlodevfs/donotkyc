@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { SUBMIT_URL } from '../lib/platforms';
+---
+<Base title="How we check no-KYC platforms | DoNotKYC" description="How DoNotKYC lists crypto platforms: the identity levels, the sources we use, our paid test protocol and when a listing is updated or removed." path="/methodology">
+  <div class="wrap page"><div class="prose">
+    <h1>How we check platforms</h1>
+    <p>Every listing answers one question first: how much identity does this platform ask for, and when? Here is how we get that answer, and how far each listing has been checked.</p>
+
+    <h2>The three identity levels</h2>
+    <ul>
+      <li><strong>None:</strong> no ID document and no account details. You connect a wallet or trade without signing up.</li>
+      <li><strong>Light:</strong> no ID under a stated limit, or only an email address or a phone number.</li>
+      <li><strong>Tiered:</strong> an ID document is required above a threshold. The threshold is written on the listing.</li>
+    </ul>
+
+    <h2>Two kinds of listing</h2>
+    <p><strong>Documented:</strong> the listing is based on the platform's published terms, FAQ and help pages. This is where every listing starts.</p>
+    <p><strong>Tested:</strong> we opened an account (or connected a wallet), moved a small real amount through the platform and noted every piece of information we were asked for. Tested listings show the date and the details of each test.</p>
+
+    <h2>Our paid test</h2>
+    <ol>
+      <li>Sign up with nothing prepared, behind a VPN, and note every field requested.</li>
+      <li>Deposit a small amount, using the payment method the listing describes.</li>
+      <li>Trade or swap once on a main pair. Fees are read from the receipt, not from the marketing page.</li>
+      <li>Withdraw to our own wallet. This is where most ID checks appear: we note the limit and the moment it is triggered.</li>
+      <li>Publish the result with its date. A listing tested more than 90 days ago goes back in the queue.</li>
+    </ol>
+
+    <h2>When a listing changes</h2>
+    <p>If a platform makes ID mandatory for its core features, it is re-tagged or removed. A platform that closes or is reported as a scam stays visible with that status, so people searching for it find the warning.</p>
+    <p>Reports from users are checked before anything changes. <a href="/submit">Submit a platform or report a change</a>.</p>
+
+    <h2>What is never for sale</h2>
+    <p>Listing, identity level and position in the directory cannot be bought. Some "Visit" links are affiliate links and are marked as such; sponsored placements, when they exist, are separate tiles labelled as advertising.</p>
+  </div></div>
+</Base>

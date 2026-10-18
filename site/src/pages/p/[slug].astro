@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import Mono from '../../components/Mono.astro';
 import Level from '../../components/Level.astro';
-import { platforms, TYPES, LEVELS, byLeastId, visitUrl, reportUrl, type Platform } from '../../lib/platforms';
+import { platforms, TYPES, LEVELS, byLeastId, visitUrl, reportUrl, CUSTODY, PAYMENTS, KYC_ASKED, lastTest, fmtDate, type Platform, type Test } from '../../lib/platforms';
 
 export function getStaticPaths() {
   return platforms.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -15,6 +15,8 @@ const level = LEVELS[p.kyc_level].label;
 const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
 const host = new URL(p.url).hostname.replace(/^www\./, '');
 const report = reportUrl(p.name);
+const last = lastTest(p);
+const tests = ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCompare(a.date));
 const title = `${p.name}: KYC policy, limits and fees | DoNotKYC`;
 const description = `${p.name} is a ${type.toLowerCase()}. Identity asked: ${level} (${p.kyc_summary.toLowerCase()}). ${p.fiat_deposit ? 'Accepts card or bank deposits.' : 'Crypto only.'} Fees: ${p.fees}. Availability: ${p.supported_countries}.`;
 const jsonld = {
@@ -33,7 +35,7 @@ const jsonld = {
       <div>
         <h1>{p.name}</h1>
         <p>{type}. {p.kyc_summary}.</p>
-        <div class="chips"><Level level={p.kyc_level} /><span class="lvl l-plain">{p.fiat_deposit ? 'Card or bank accepted' : 'Crypto only'}</span></div>
+        <div class="chips"><Level level={p.kyc_level} />{last && <span class="lvl l-none"><Icon name="badge-check" size={15} />Tested {fmtDate(last.date)}</span>}<span class="lvl l-plain">{p.fiat_deposit ? 'Card or bank accepted' : 'Crypto only'}</span></div>
       </div>
       <div class="acts">
         <a class="btn" href={visitUrl(p)} rel={p.affiliate_link ? 'sponsored noopener' : 'noopener'}>Visit {host}<Icon name="arrow-up-right" /></a>
@@ -41,6 +43,7 @@ const jsonld = {
       </div>
     </div>
 
+    {p.status === 'check' && <div class="warn status"><Icon name="triangle-alert" /><span><strong>Being re-checked.</strong> {p.status_note}</span></div>}
     <div class="dg">
       <div>
         <section class="panel" aria-labelledby="kyc-h">
@@ -54,6 +57,16 @@ const jsonld = {
             <ul class="tags">{p.features.map((f) => <li>{f}</li>)}</ul>
           </section>
         )}
+        <section class="panel" aria-labelledby="ts-h">
+          <h2 id="ts-h">Our tests</h2>
+          {tests.length ? (
+            <ul class="hist">{tests.map((t) => (
+              <li><time datetime={t.date}>{fmtDate(t.date)}</time><span>{t.steps} with {t.amount} by {t.method}. {t.result}</span><b>{KYC_ASKED[t.kyc_asked]}</b></li>
+            ))}</ul>
+          ) : (
+            <p>We have not run a paid test on {p.name} yet. This listing is based on its published terms{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">source</a>)</>}. <a href="/methodology">How we test</a>.</p>
+          )}
+        </section>
         <section class="panel" aria-labelledby="rp-h">
           <h2 id="rp-h">Something changed?</h2>
           <p>If {p.name} now asks for ID, changed its limits or closed, <a href={report} rel="noopener">tell us on GitHub</a>. Every report is checked before the listing is updated.</p>
@@ -65,7 +78,10 @@ const jsonld = {
           <dl>
             <div><dt>Identity asked</dt><dd>{level}</dd></div>
             <div><dt>Type</dt><dd>{type}</dd></div>
-            <div><dt>Card or bank</dt><dd>{p.fiat_deposit ? 'Yes' : 'No'}</dd></div>
+            <div><dt>Custody</dt><dd>{CUSTODY[p.custody]}</dd></div>
+            <div><dt>Payment</dt><dd>{p.payment_methods.map((m) => PAYMENTS[m]).join(', ')}</dd></div>
+            {p.tor !== null && <div><dt>Tor access</dt><dd>{p.tor ? 'Yes' : 'No'}</dd></div>}
+            {p.open_source !== null && <div><dt>Open source</dt><dd>{p.open_source ? 'Yes' : 'No'}</dd></div>}
             <div><dt>Fees</dt><dd class="num">{p.fees}</dd></div>
             <div><dt>Availability</dt><dd>{p.supported_countries}</dd></div>
             {p.cryptocurrencies && <div><dt>Coins</dt><dd>{p.cryptocurrencies}</dd></div>}

@@ -305,3 +305,8 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 :root[data-theme="dark"] .lg-d{display:block!important}
 .prose a.btn{color:var(--bg);text-decoration:none}
 .prose a.btn:hover{color:var(--on-primary)}
+.hist{list-style:none;margin:0;padding:0}
+.hist li{display:grid;grid-template-columns:96px 1fr auto;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:15px;color:var(--fg-2)}
+.hist time{color:var(--fg-3)}
+.hist b{color:var(--fg);font-weight:600}
+.warn.status{margin-top:24px}
