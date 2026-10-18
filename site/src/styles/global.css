@@ -1,15 +1,14 @@
 /* DoNotKYC : système ui-ux-pro-max du mock v4.
-   Style Minimalism & Swiss, palette "VPN & Privacy" (marine + vert), Lexend / Source Sans 3.
+   Style Minimalism & Swiss, palette "VPN & Privacy" (marine + vert), police unique Hanken Grotesk (option « Suisse »).
    Grille 12 colonnes, angles nets, pas d'ombres, un seul accent (vert = sans pièce d'identité). */
-@import '@fontsource-variable/lexend';
-@import '@fontsource-variable/source-sans-3';
+@import '@fontsource-variable/hanken-grotesk';
 
 :root{
   --bg:#F4F6F9; --surface:#FFFFFF; --sunk:#EAEEF3; --fg:#0F172A; --fg-2:#475569; --fg-3:#64748B;
   --line:#DCE3EC; --line-strong:#0F172A;
   --primary:#1E3A5F; --on-primary:#FFFFFF; --accent:#15803D; --accent-soft:#DCF5E5; --on-accent:#FFFFFF;
   --amber:#92580A; --amber-soft:#FCEFD6; --slate:#334155; --slate-soft:#E5E9F0; --bad:#B42318; --bad-soft:#FDE7E4;
-  --h:"Lexend Variable","Lexend",system-ui,sans-serif; --b:"Source Sans 3 Variable","Source Sans 3",system-ui,sans-serif;
+  --h:"Hanken Grotesk Variable","Hanken Grotesk",system-ui,sans-serif; --b:"Hanken Grotesk Variable","Hanken Grotesk",system-ui,sans-serif;
   --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
   color-scheme:light;
 }
