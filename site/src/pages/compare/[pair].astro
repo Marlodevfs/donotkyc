@@ -1,0 +1,6 @@
+---
+import Compare from '../../views/Compare.astro';
+import { pairs } from '../../data/compare';
+export function getStaticPaths() { return pairs.map((pair) => ({ params: { pair: pair.slug }, props: { pair } })); }
+---
+<Compare pair={Astro.props.pair} lang="en" />

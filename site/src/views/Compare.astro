@@ -1,0 +1,81 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Mono from '../components/Mono.astro';
+import Level from '../components/Level.astro';
+import { LEVELS, CATEGORY_PATH, visitUrl } from '../lib/platforms';
+import { pairs, type Pair } from '../data/compare';
+import { useT, lp, tx, type Lang } from '../i18n';
+
+interface Props { pair: Pair; lang: Lang }
+const { pair, lang } = Astro.props;
+const { a, b } = pair;
+const t = useT(lang);
+const L = (x: string) => lp(lang, x);
+const site = 'https://www.donotkyc.com';
+const lvl = (p: typeof a) => t(`levels.${p.kyc_level}`);
+const rank = (p: typeof a) => LEVELS[p.kyc_level].rank;
+
+// Résumé tiré des données uniquement
+const verdict: string[] = [];
+if (rank(a) !== rank(b)) {
+  const [x, y] = rank(a) < rank(b) ? [a, b] : [b, a];
+  verdict.push(t('compare.less_id', { x: x.name, y: y.name, lx: lvl(x), ly: lvl(y) }));
+} else verdict.push(t('compare.same_id', { l: lvl(a) }));
+if (a.fiat_deposit !== b.fiat_deposit) verdict.push(t('compare.fiat_one', { x: (a.fiat_deposit ? a : b).name }));
+else verdict.push(t(a.fiat_deposit ? 'compare.fiat_both' : 'compare.fiat_none'));
+if (a.custody !== b.custody && a.custody !== 'none' && b.custody !== 'none') {
+  const [x, y] = a.custody === 'self' ? [a, b] : [b, a];
+  verdict.push(t('compare.custody_diff', { x: x.name, y: y.name }));
+}
+for (const p of [a, b]) if (p.blocked) verdict.push(t('compare.blocked_one', { x: p.name, r: tx(lang, p.blocked)! }));
+
+const rows: [string, (p: typeof a) => string][] = [
+  [t('platform.type'), (p) => t(`types.${p.type}`)],
+  [t('platform.identity'), (p) => lvl(p)],
+  [t('compare.limit'), (p) => tx(lang, p.kyc_summary)!],
+  [t('list.fiat'), (p) => (p.fiat_deposit ? t('list.yes') : t('list.no'))],
+  [t('platform.payment'), (p) => p.payment_methods.map((m) => t(`platform.payments_v.${m}`)).join(', ')],
+  [t('platform.custody'), (p) => t(`platform.custody_v.${p.custody}`)],
+  [t('platform.fees'), (p) => p.fees],
+  [t('platform.availability'), (p) => p.supported_countries],
+  [t('list.blocked'), (p) => tx(lang, p.blocked) ?? t('list.everywhere')],
+  [t('platform.tor'), (p) => (p.tor === null ? '?' : p.tor ? t('list.yes') : t('list.no'))],
+  [t('platform.oss'), (p) => (p.open_source === null ? '?' : p.open_source ? t('list.yes') : t('list.no'))],
+  [t('platform.coins'), (p) => p.cryptocurrencies ?? '?'],
+];
+const others = pairs.filter((x) => x.slug !== pair.slug && (x.a.type === a.type));
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t('nav.directory'), item: site + L('/') },
+    { '@type': 'ListItem', position: 2, name: t('compare.index_h1'), item: site + L('/compare') },
+    { '@type': 'ListItem', position: 3, name: `${a.name} vs ${b.name}`, item: site + L(`/compare/${pair.slug}`) },
+  ],
+};
+---
+<Base title={t('compare.title', { a: a.name, b: b.name })} description={t('compare.desc', { a: a.name, b: b.name })} path={`/compare/${pair.slug}`} lang={lang} localized jsonld={jsonld}>
+  <div class="wrap det">
+    <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L('/compare')}>{t('compare.index_h1')}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{a.name} vs {b.name}</span></nav>
+    <header class="lh"><h1>{a.name} vs {b.name}</h1><p>{t('compare.lead')}</p></header>
+    <div class="cmp-heads">
+      {[a, b].map((p) => (
+        <div class="panel cmp-h"><Mono p={p} size={56} /><div><h2><a href={L(`/p/${p.slug}`)}>{p.name}</a></h2><Level level={p.kyc_level} lang={lang} /></div>
+          <a class="go" href={visitUrl(p)} rel={p.affiliate_link ? 'sponsored noopener' : 'noopener'}>{t('platform.visit', { host: new URL(p.url).hostname.replace(/^www\./, '') })}<Icon name="arrow-up-right" size={16} /></a></div>
+      ))}
+    </div>
+    <section class="panel" aria-labelledby="vd-h"><h2 id="vd-h">{t('compare.verdict_h')}</h2><ul>{verdict.map((v) => <li>{v}</li>)}</ul></section>
+    <div class="tw cmp-tw">
+      <table class="cmp">
+        <thead><tr><th scope="col"><span class="vis">{t('list.platform')}</span></th><th scope="col">{a.name}</th><th scope="col">{b.name}</th></tr></thead>
+        <tbody>{rows.map(([label, f]) => <tr><th scope="row">{label}</th><td>{f(a)}</td><td>{f(b)}</td></tr>)}</tbody>
+      </table>
+    </div>
+    <p class="small">{t('compare.note')}</p>
+    {others.length > 0 && (
+      <section class="sec rel" aria-labelledby="oc-h"><h2 id="oc-h">{t('compare.other')}</h2>
+        <ul>{others.map((x) => <li><a href={L(`/compare/${x.slug}`)}>{x.a.name} vs {x.b.name}</a></li>)}<li><a href={L(CATEGORY_PATH[a.type])}>{t(`types.${a.type}`)}</a></li></ul>
+      </section>
+    )}
+  </div>
+</Base>

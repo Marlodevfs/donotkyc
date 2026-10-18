@@ -1,0 +1,6 @@
+---
+import CompareIndex from '../../views/CompareIndex.astro';
+import { OTHER_LOCALES } from '../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.map((lang) => ({ params: { lang } })); }
+---
+<CompareIndex lang={Astro.params.lang as any} />

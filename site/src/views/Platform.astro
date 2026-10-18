@@ -5,6 +5,7 @@ import Mono from '../components/Mono.astro';
 import Level from '../components/Level.astro';
 import { platforms, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, lastTest, type Platform, type Test } from '../lib/platforms';
 import { useT, lp, tx, HREFLANG, type Lang } from '../i18n';
+import { pairsFor } from '../data/compare';
 
 interface Props { p: Platform; lang: Lang }
 const { p, lang } = Astro.props;
@@ -20,6 +21,7 @@ const last = lastTest(p);
 const tests = ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCompare(a.date));
 const fmt = (iso: string) => new Date(iso + 'T12:00:00Z').toLocaleDateString(HREFLANG[lang], { day: 'numeric', month: 'short', year: 'numeric' });
 const note = t(`platform.status_note_${p.slug}`);
+const cmps = pairsFor(p.slug);
 const jsonld = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: [
@@ -87,6 +89,12 @@ const jsonld = {
             {p.reputation && <div><dt>{t('platform.reputation')}</dt><dd>{p.reputation}</dd></div>}
           </dl>
         </section>
+        {cmps.length > 0 && (
+          <section class="panel" aria-labelledby="cp-h">
+            <h2 id="cp-h">{t('compare.link')}</h2>
+            <ul class="sim">{cmps.map((c) => <li><a href={L(`/compare/${c.slug}`)}>{c.a.name} vs {c.b.name}</a></li>)}</ul>
+          </section>
+        )}
         {similar.length > 0 && (
           <section class="panel" aria-labelledby="sm-h">
             <h2 id="sm-h">{t('platform.similar')}</h2>

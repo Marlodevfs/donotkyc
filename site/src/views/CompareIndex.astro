@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { pairs } from '../data/compare';
+import { TYPES } from '../lib/platforms';
+import { useT, lp, type Lang } from '../i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useT(lang);
+const groups = Object.keys(TYPES).map((ty) => ({ ty, items: pairs.filter((p) => p.a.type === ty) })).filter((g) => g.items.length);
+---
+<Base title={t('compare.index_title')} description={t('compare.index_desc')} path="/compare" lang={lang} localized>
+  <div class="wrap det">
+    <header class="lh"><h1>{t('compare.index_h1')}</h1><p>{t('compare.index_lead')}</p></header>
+    <div class="cmp-groups">
+      {groups.map((g) => (
+        <section class="panel"><h2>{t(`types.${g.ty}`)}</h2><ul class="sim">{g.items.map((p) => <li><a href={lp(lang, `/compare/${p.slug}`)}>{p.a.name} vs {p.b.name}</a></li>)}</ul></section>
+      ))}
+    </div>
+  </div>
+</Base>

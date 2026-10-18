@@ -4,6 +4,7 @@
   <url><loc>https://www.donotkyc.com/submit</loc></url>
   <url><loc>https://www.donotkyc.com/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/compare</loc></url>
   <url><loc>https://www.donotkyc.com/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/dex</loc></url>
   <url><loc>https://www.donotkyc.com/swaps</loc></url>
@@ -65,10 +66,29 @@
   <url><loc>https://www.donotkyc.com/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/fr</loc></url>
   <url><loc>https://www.donotkyc.com/fr/submit</loc></url>
   <url><loc>https://www.donotkyc.com/fr/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/fr/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare</loc></url>
   <url><loc>https://www.donotkyc.com/fr/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/fr/dex</loc></url>
   <url><loc>https://www.donotkyc.com/fr/swaps</loc></url>
@@ -130,10 +150,29 @@
   <url><loc>https://www.donotkyc.com/fr/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/fr/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/fr/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/es</loc></url>
   <url><loc>https://www.donotkyc.com/es/submit</loc></url>
   <url><loc>https://www.donotkyc.com/es/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/es/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare</loc></url>
   <url><loc>https://www.donotkyc.com/es/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/es/dex</loc></url>
   <url><loc>https://www.donotkyc.com/es/swaps</loc></url>
@@ -195,10 +234,29 @@
   <url><loc>https://www.donotkyc.com/es/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/es/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/es/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/es/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/de</loc></url>
   <url><loc>https://www.donotkyc.com/de/submit</loc></url>
   <url><loc>https://www.donotkyc.com/de/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/de/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare</loc></url>
   <url><loc>https://www.donotkyc.com/de/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/de/dex</loc></url>
   <url><loc>https://www.donotkyc.com/de/swaps</loc></url>
@@ -260,10 +318,29 @@
   <url><loc>https://www.donotkyc.com/de/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/de/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/de/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/de/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/pt</loc></url>
   <url><loc>https://www.donotkyc.com/pt/submit</loc></url>
   <url><loc>https://www.donotkyc.com/pt/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/pt/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare</loc></url>
   <url><loc>https://www.donotkyc.com/pt/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/pt/dex</loc></url>
   <url><loc>https://www.donotkyc.com/pt/swaps</loc></url>
@@ -325,10 +402,29 @@
   <url><loc>https://www.donotkyc.com/pt/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/pt/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/pt/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/it</loc></url>
   <url><loc>https://www.donotkyc.com/it/submit</loc></url>
   <url><loc>https://www.donotkyc.com/it/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/it/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare</loc></url>
   <url><loc>https://www.donotkyc.com/it/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/it/dex</loc></url>
   <url><loc>https://www.donotkyc.com/it/swaps</loc></url>
@@ -390,10 +486,29 @@
   <url><loc>https://www.donotkyc.com/it/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/it/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/it/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/it/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/ru</loc></url>
   <url><loc>https://www.donotkyc.com/ru/submit</loc></url>
   <url><loc>https://www.donotkyc.com/ru/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/ru/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare</loc></url>
   <url><loc>https://www.donotkyc.com/ru/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/ru/dex</loc></url>
   <url><loc>https://www.donotkyc.com/ru/swaps</loc></url>
@@ -455,10 +570,29 @@
   <url><loc>https://www.donotkyc.com/ru/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/ru/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/ru/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/tr</loc></url>
   <url><loc>https://www.donotkyc.com/tr/submit</loc></url>
   <url><loc>https://www.donotkyc.com/tr/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/tr/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare</loc></url>
   <url><loc>https://www.donotkyc.com/tr/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/tr/dex</loc></url>
   <url><loc>https://www.donotkyc.com/tr/swaps</loc></url>
@@ -520,10 +654,29 @@
   <url><loc>https://www.donotkyc.com/tr/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/tr/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/tr/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/zh</loc></url>
   <url><loc>https://www.donotkyc.com/zh/submit</loc></url>
   <url><loc>https://www.donotkyc.com/zh/methodology</loc></url>
   <url><loc>https://www.donotkyc.com/zh/advertise</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare</loc></url>
   <url><loc>https://www.donotkyc.com/zh/exchanges</loc></url>
   <url><loc>https://www.donotkyc.com/zh/dex</loc></url>
   <url><loc>https://www.donotkyc.com/zh/swaps</loc></url>
@@ -585,6 +738,24 @@
   <url><loc>https://www.donotkyc.com/zh/p/quickex-io</loc></url>
   <url><loc>https://www.donotkyc.com/zh/p/acechange</loc></url>
   <url><loc>https://www.donotkyc.com/zh/p/silentswap</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/mexc-vs-bybit</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/mexc-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/bybit-vs-bingx</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/coinex-vs-mexc</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/nonkyc-io-vs-coinex</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/uniswap-vs-pancakeswap</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/dydx-vs-hyperliquid</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/hyperliquid-vs-edgex</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/uniswap-vs-1inch</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/bisq-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/bisq-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/hodl-hodl-vs-peach-bitcoin</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/localcoinswap-vs-hodl-hodl</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/trocador-vs-stealthex</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/changelly-vs-simpleswap</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/stealthex-vs-changelly</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/trocador-vs-wizardswap</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/compare/boltz-vs-trocador</loc></url>
   <url><loc>https://www.donotkyc.com/blog</loc></url>
   <url><loc>https://www.donotkyc.com/article1</loc></url>
   <url><loc>https://www.donotkyc.com/article2</loc></url>

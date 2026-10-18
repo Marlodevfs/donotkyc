@@ -1,45 +1,138 @@
 {
- "meta": { "lang_name": "Français", "dir": "ltr" },
- "nav": { "directory": "Annuaire", "blog": "Blog", "vpn": "VPN", "privacy": "Guide vie privée", "security": "Sécurité", "advertise": "Annoncer", "theme": "Changer de thème", "menu": "Ouvrir le menu", "skip": "Aller au contenu", "language": "Langue", "home": "Accueil DoNotKYC" },
+ "meta": {
+  "lang_name": "Français",
+  "dir": "ltr"
+ },
+ "nav": {
+  "directory": "Annuaire",
+  "blog": "Blog",
+  "vpn": "VPN",
+  "privacy": "Guide vie privée",
+  "security": "Sécurité",
+  "advertise": "Annoncer",
+  "theme": "Changer de thème",
+  "menu": "Ouvrir le menu",
+  "skip": "Aller au contenu",
+  "language": "Langue",
+  "home": "Accueil DoNotKYC"
+ },
  "footer": {
   "about": "Un annuaire indépendant des plateformes crypto où l'on peut échanger sans envoyer de pièce d'identité. Information uniquement, pas un conseil financier.",
-  "directory": "Annuaire", "all": "Toutes les plateformes", "submit": "Proposer une plateforme", "report": "Signaler un changement", "how": "Notre méthode", "advertise": "Annoncer", "api": "API de données ouvertes",
-  "browse": "Parcourir", "exchanges": "Exchanges", "swaps": "Swaps instantanés", "p2p": "Marchés P2P", "bitcoin": "Acheter du bitcoin", "monero": "Acheter du Monero",
-  "guides": "Guides", "privacy": "Guide vie privée", "security": "Conseils de sécurité", "vpn": "VPN pour la crypto", "blog": "Blog",
+  "directory": "Annuaire",
+  "all": "Toutes les plateformes",
+  "submit": "Proposer une plateforme",
+  "report": "Signaler un changement",
+  "how": "Notre méthode",
+  "advertise": "Annoncer",
+  "api": "API de données ouvertes",
+  "browse": "Parcourir",
+  "exchanges": "Exchanges",
+  "swaps": "Swaps instantanés",
+  "p2p": "Marchés P2P",
+  "bitcoin": "Acheter du bitcoin",
+  "monero": "Acheter du Monero",
+  "guides": "Guides",
+  "privacy": "Guide vie privée",
+  "security": "Conseils de sécurité",
+  "vpn": "VPN pour la crypto",
+  "blog": "Blog",
   "community": "Communauté",
   "legal": "Les plateformes sans KYC comportent des risques et moins de recours. Faites vos propres recherches, commencez petit et respectez la loi et la fiscalité de votre pays. Certains liens « Visiter » sont des liens d'affiliation. Ils ne changent pas l'ordre de l'annuaire.",
   "english_only": "Les guides et le blog sont en anglais."
  },
- "levels": { "none": "Aucune", "light": "Légère", "tiered": "Par paliers" },
- "types": { "CEX": "Exchange", "DEX": "Exchange décentralisé", "Instant Swap": "Swap instantané", "P2P": "Marché P2P", "Bridge": "Bridge", "ATM": "Distributeur bitcoin" },
- "cats": { "all": "Toutes les plateformes", "cex": "Exchanges", "dex": "Décentralisés", "swap": "Swaps instantanés", "p2p": "Marchés P2P", "atm": "Distributeurs et bridges", "listed": "{n} référencées" },
- "list": { "platform": "Plateforme", "identity": "Identité demandée", "fiat": "Carte ou banque", "fees": "Frais", "blocked": "Indisponible en", "yes": "Oui", "no": "Non", "everywhere": "Disponible partout", "card_or_bank": "Carte ou banque", "crypto_only": "Crypto uniquement", "fees_x": "Frais {x}", "details": "Détails", "details_of": "Détails de {name}" },
+ "levels": {
+  "none": "Aucune",
+  "light": "Légère",
+  "tiered": "Par paliers"
+ },
+ "types": {
+  "CEX": "Exchange",
+  "DEX": "Exchange décentralisé",
+  "Instant Swap": "Swap instantané",
+  "P2P": "Marché P2P",
+  "Bridge": "Bridge",
+  "ATM": "Distributeur bitcoin"
+ },
+ "cats": {
+  "all": "Toutes les plateformes",
+  "cex": "Exchanges",
+  "dex": "Décentralisés",
+  "swap": "Swaps instantanés",
+  "p2p": "Marchés P2P",
+  "atm": "Distributeurs et bridges",
+  "listed": "{n} référencées"
+ },
+ "list": {
+  "platform": "Plateforme",
+  "identity": "Identité demandée",
+  "fiat": "Carte ou banque",
+  "fees": "Frais",
+  "blocked": "Indisponible en",
+  "yes": "Oui",
+  "no": "Non",
+  "everywhere": "Disponible partout",
+  "card_or_bank": "Carte ou banque",
+  "crypto_only": "Crypto uniquement",
+  "fees_x": "Frais {x}",
+  "details": "Détails",
+  "details_of": "Détails de {name}"
+ },
  "home": {
   "title": "Exchanges, swaps et marchés P2P crypto sans KYC | DoNotKYC",
   "description": "Comparez {n} exchanges, swaps instantanés, marchés P2P et distributeurs bitcoin où l'on échange sans pièce d'identité. Niveau d'identité, limites, frais et disponibilité pour chacun.",
-  "h1_a": "Échangez de la crypto", "h1_em": "sans identité.", "h1_b": "Comparez toutes les options.",
+  "h1_a": "Échangez de la crypto",
+  "h1_em": "sans identité.",
+  "h1_b": "Comparez toutes les options.",
   "lead": "{n} exchanges, swaps et marchés P2P qui se passent du passeport, triés selon l'identité qu'ils demandent.",
-  "search_label": "Rechercher une plateforme", "search_ph": "Plateforme, crypto ou moyen de paiement", "search_btn": "Rechercher",
-  "popular": "Populaire :", "s_monero": "Monero", "s_cash": "Payer en espèces", "s_lightning": "Lightning", "s_card": "Achat par carte",
-  "facts": "L'annuaire en chiffres", "f_listed": "plateformes référencées", "f_noid": "ne demandent aucune identité", "f_types": "types de plateformes",
-  "categories": "Catégories", "all_platforms": "Toutes les plateformes",
-  "chip_none": "Sans identité", "chip_fiat": "Carte ou banque", "chip_us": "Disponible aux États-Unis", "sort": "Trier", "sort_lvl": "Moins d'identité d'abord", "sort_name": "Nom de A à Z",
-  "filtered_by": "Filtré par {x}.", "clear": "Tout effacer", "empty": "Aucune plateforme ne correspond à ces filtres.", "clear_filters": "Effacer les filtres",
-  "alt_h": "Vous quittez une plateforme qui exigeait votre identité ?", "alt_p": "Chaque page liste les plateformes de l'annuaire qui font le même travail sans vérification d'identité.",
-  "instead_of": "À la place de", "n_alternatives": "{n} alternatives",
-  "picks_h": "Par où commencer", "picks_p": "Trois plateformes que nous conseillons en premier. Les emplacements payants portent une étiquette et restent hors du classement.",
+  "search_label": "Rechercher une plateforme",
+  "search_ph": "Plateforme, crypto ou moyen de paiement",
+  "search_btn": "Rechercher",
+  "popular": "Populaire :",
+  "s_monero": "Monero",
+  "s_cash": "Payer en espèces",
+  "s_lightning": "Lightning",
+  "s_card": "Achat par carte",
+  "facts": "L'annuaire en chiffres",
+  "f_listed": "plateformes référencées",
+  "f_noid": "ne demandent aucune identité",
+  "f_types": "types de plateformes",
+  "categories": "Catégories",
+  "all_platforms": "Toutes les plateformes",
+  "chip_none": "Sans identité",
+  "chip_fiat": "Carte ou banque",
+  "chip_us": "Disponible aux États-Unis",
+  "sort": "Trier",
+  "sort_lvl": "Moins d'identité d'abord",
+  "sort_name": "Nom de A à Z",
+  "filtered_by": "Filtré par {x}.",
+  "clear": "Tout effacer",
+  "empty": "Aucune plateforme ne correspond à ces filtres.",
+  "clear_filters": "Effacer les filtres",
+  "alt_h": "Vous quittez une plateforme qui exigeait votre identité ?",
+  "alt_p": "Chaque page liste les plateformes de l'annuaire qui font le même travail sans vérification d'identité.",
+  "instead_of": "À la place de",
+  "n_alternatives": "{n} alternatives",
+  "picks_h": "Par où commencer",
+  "picks_p": "Trois plateformes que nous conseillons en premier. Les emplacements payants portent une étiquette et restent hors du classement.",
   "pick_bisq": "Achetez du bitcoin à une autre personne par virement ou en espèces. Application open source, personne ne détient vos fonds.",
   "pick_trocador": "Compare de nombreux services de swap en une seule demande et affiche la politique d'identité de chaque partenaire.",
   "pick_boltz": "Passez de Bitcoin à Lightning ou Liquid sans créer de compte.",
   "how_h": "Comment fonctionne l'annuaire",
   "how_p": "Chaque fiche indique l'identité demandée, les limites, les pays bloqués, les frais et si la plateforme accepte les dépôts par carte ou virement. Nous modifions ou retirons une fiche quand la plateforme rend l'identité obligatoire.",
-  "t_cex_h": "Exchanges", "t_cex_p": "Forte liquidité, carnets d'ordres et applis mobiles. Leurs paliers sans KYC plafonnent les retraits des comptes non vérifiés.",
-  "t_dex_h": "Exchanges décentralisés", "t_dex_p": "Smart contracts, sans inscription. Vous échangez depuis votre propre wallet et gardez vos clés.",
-  "t_swap_h": "Swaps instantanés", "t_swap_p": "Conversions rapides d'une crypto à une autre sans compte, la marge incluse dans le taux.",
-  "t_p2p_h": "Marchés P2P", "t_p2p_p": "Vous payez une autre personne avec un moyen de paiement local. La sécurité repose sur l'escrow et la réputation.",
-  "t_atm_h": "Distributeurs et bridges", "t_atm_p": "Les distributeurs vendent de la crypto contre des espèces, sans identité sous un seuil. Les bridges déplacent des actifs d'une blockchain à l'autre.",
-  "r1_h": "Le classement ne s'achète pas", "r1_p": "Nous trions l'annuaire selon l'identité demandée par chaque plateforme. Payer ne fait pas monter une plateforme.",
-  "r2_h": "Liens d'affiliation signalés", "r2_p": "Certains boutons « Visiter » nous rapportent une commission. Chaque fiche indique quand c'est le cas.",
+  "t_cex_h": "Exchanges",
+  "t_cex_p": "Forte liquidité, carnets d'ordres et applis mobiles. Leurs paliers sans KYC plafonnent les retraits des comptes non vérifiés.",
+  "t_dex_h": "Exchanges décentralisés",
+  "t_dex_p": "Smart contracts, sans inscription. Vous échangez depuis votre propre wallet et gardez vos clés.",
+  "t_swap_h": "Swaps instantanés",
+  "t_swap_p": "Conversions rapides d'une crypto à une autre sans compte, la marge incluse dans le taux.",
+  "t_p2p_h": "Marchés P2P",
+  "t_p2p_p": "Vous payez une autre personne avec un moyen de paiement local. La sécurité repose sur l'escrow et la réputation.",
+  "t_atm_h": "Distributeurs et bridges",
+  "t_atm_p": "Les distributeurs vendent de la crypto contre des espèces, sans identité sous un seuil. Les bridges déplacent des actifs d'une blockchain à l'autre.",
+  "r1_h": "Le classement ne s'achète pas",
+  "r1_p": "Nous trions l'annuaire selon l'identité demandée par chaque plateforme. Payer ne fait pas monter une plateforme.",
+  "r2_h": "Liens d'affiliation signalés",
+  "r2_p": "Certains boutons « Visiter » nous rapportent une commission. Chaque fiche indique quand c'est le cas.",
   "guide_h": "Choisir une plateforme sans KYC",
   "guide_p1": "Partez du niveau de confidentialité dont vous avez besoin et de votre aisance avec les wallets. Un exchange décentralisé offre le plus de contrôle et d'anonymat ; un exchange avec un palier sans KYC est plus simple et plus liquide.",
   "guide_h2": "Comparez le coût total",
@@ -48,99 +141,391 @@
   "guide_p3": "Faites un petit dépôt, un échange et un retrait de test avant d'engager de plus grosses sommes. Répartissez le risque entre plusieurs plateformes et gardez vos avoirs de long terme en auto-garde.",
   "guide_h4": "Restez prudent",
   "guide_p4": "Utilisez un wallet matériel ou un wallet logiciel audité, vérifiez les URL et les adresses de contrat, n'accordez des autorisations que si nécessaire et évitez les gros soldes sur les plateformes. Sans KYC ne supprime ni vos obligations légales ni vos obligations fiscales, et réduit vos recours en cas de problème.",
-  "ad_h": "Vous proposez un service respectueux de la vie privée ?", "ad_p": "Votre tuile porte une étiquette Sponsorisé, touche des gens qui évitent déjà le KYC et ne modifie pas l'ordre de l'annuaire. Nous examinons chaque annonceur avant d'accepter.", "ad_btn": "Annoncer chez nous",
+  "ad_h": "Vous proposez un service respectueux de la vie privée ?",
+  "ad_p": "Votre tuile porte une étiquette Sponsorisé, touche des gens qui évitent déjà le KYC et ne modifie pas l'ordre de l'annuaire. Nous examinons chaque annonceur avant d'accepter.",
+  "ad_btn": "Annoncer chez nous",
   "faq_h": "Questions fréquentes",
   "faq": [
-   ["Qu'est-ce que le KYC ?", "Know Your Customer, c'est la vérification d'identité qu'imposent les services régulés avant de vous laisser échanger : carte d'identité ou passeport, justificatif de domicile, parfois un selfie. Elle répond aux règles anti-blanchiment et concentre des données sensibles qui peuvent fuiter lors d'un piratage."],
-   ["Échanger sans KYC, est-ce légal ?", "Cela dépend de votre pays. Utiliser une plateforme qui ne demande pas d'identité est légal dans la plupart des pays, mais les règles fiscales et de déclaration s'appliquent toujours à vous. Les protocoles décentralisés sont moins encadrés directement ; vous restez responsable du respect de votre loi locale."],
-   ["Que signifient Aucune, Légère et Par paliers ?", "Aucune : ni pièce d'identité ni informations de compte. Légère : pas d'identité sous une limite donnée, ou seulement un e-mail ou un numéro de téléphone. Par paliers : une pièce d'identité est exigée au-delà d'un seuil, indiqué sur chaque fiche."],
-   ["Quel type de plateforme pour débuter ?", "Commencez par un exchange avec un palier sans KYC : il fonctionne comme les applis que vous connaissez. Un exchange décentralisé donne le plus de confidentialité et de contrôle, mais demande d'être à l'aise avec un wallet et les frais de réseau."],
-   ["Comment se comparent les frais ?", "Les exchanges ont des spreads plus serrés et des transferts internes rapides. Les exchanges décentralisés affichent des frais de protocole plus bas mais ajoutent les frais de réseau. Les swaps instantanés intègrent leur marge au taux, et les distributeurs ajoutent un surcoût pour la gestion des espèces."],
-   ["Comment DoNotKYC choisit-il les plateformes ?", "Nous vérifions chaque fiche avec la documentation de la plateforme et son comportement dans l'appli, puis nous la revoyons dans le temps. Si un service supprime l'accès sans KYC ou rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche."],
-   ["Comment DoNotKYC gagne-t-il de l'argent ?", "Certains boutons « Visiter » sont des liens d'affiliation, signalés sur chaque fiche. Nous étiquetons chaque emplacement sponsorisé. Ni l'un ni l'autre ne change l'ordre de l'annuaire, trié selon l'identité demandée par chaque plateforme."],
-   ["Une fiche n'est plus à jour. Comment le signaler ?", "Utilisez le lien « Signaler un changement » sur la fiche de la plateforme, ou celui du pied de page. Nous vérifions chaque signalement avant de modifier une fiche."]
+   [
+    "Qu'est-ce que le KYC ?",
+    "Know Your Customer, c'est la vérification d'identité qu'imposent les services régulés avant de vous laisser échanger : carte d'identité ou passeport, justificatif de domicile, parfois un selfie. Elle répond aux règles anti-blanchiment et concentre des données sensibles qui peuvent fuiter lors d'un piratage."
+   ],
+   [
+    "Échanger sans KYC, est-ce légal ?",
+    "Cela dépend de votre pays. Utiliser une plateforme qui ne demande pas d'identité est légal dans la plupart des pays, mais les règles fiscales et de déclaration s'appliquent toujours à vous. Les protocoles décentralisés sont moins encadrés directement ; vous restez responsable du respect de votre loi locale."
+   ],
+   [
+    "Que signifient Aucune, Légère et Par paliers ?",
+    "Aucune : ni pièce d'identité ni informations de compte. Légère : pas d'identité sous une limite donnée, ou seulement un e-mail ou un numéro de téléphone. Par paliers : une pièce d'identité est exigée au-delà d'un seuil, indiqué sur chaque fiche."
+   ],
+   [
+    "Quel type de plateforme pour débuter ?",
+    "Commencez par un exchange avec un palier sans KYC : il fonctionne comme les applis que vous connaissez. Un exchange décentralisé donne le plus de confidentialité et de contrôle, mais demande d'être à l'aise avec un wallet et les frais de réseau."
+   ],
+   [
+    "Comment se comparent les frais ?",
+    "Les exchanges ont des spreads plus serrés et des transferts internes rapides. Les exchanges décentralisés affichent des frais de protocole plus bas mais ajoutent les frais de réseau. Les swaps instantanés intègrent leur marge au taux, et les distributeurs ajoutent un surcoût pour la gestion des espèces."
+   ],
+   [
+    "Comment DoNotKYC choisit-il les plateformes ?",
+    "Nous vérifions chaque fiche avec la documentation de la plateforme et son comportement dans l'appli, puis nous la revoyons dans le temps. Si un service supprime l'accès sans KYC ou rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche."
+   ],
+   [
+    "Comment DoNotKYC gagne-t-il de l'argent ?",
+    "Certains boutons « Visiter » sont des liens d'affiliation, signalés sur chaque fiche. Nous étiquetons chaque emplacement sponsorisé. Ni l'un ni l'autre ne change l'ordre de l'annuaire, trié selon l'identité demandée par chaque plateforme."
+   ],
+   [
+    "Une fiche n'est plus à jour. Comment le signaler ?",
+    "Utilisez le lien « Signaler un changement » sur la fiche de la plateforme, ou celui du pied de page. Nous vérifions chaque signalement avant de modifier une fiche."
+   ]
   ]
  },
- "sponsor": { "label": "Sponsorisé", "slot": "Emplacement sponsorisé", "visit": "Visiter {host}", "paid": "Emplacement payant. Non testé, non classé.", "why": "Pourquoi cette annonce ?", "here_h": "Votre service ici", "here_p": "Une tuile étiquetée, vue par des gens qui évitent déjà le KYC. Nous examinons chaque annonceur avant d'accepter.", "how": "Comment annoncer", "current_h": "Sponsors en cours", "none_running": "Aucun emplacement sponsorisé n'est actif en ce moment." },
- "landing": { "count": "{n} plateformes référencées, dont {m} sans aucune identité. Triées selon l'identité demandée.", "questions": "Questions", "see_also": "Voir aussi", "all": "Toutes les plateformes de l'annuaire", "groups": { "alternative": "Alternatives", "coin": "Acheter", "payment": "Payer par" } },
+ "sponsor": {
+  "label": "Sponsorisé",
+  "slot": "Emplacement sponsorisé",
+  "visit": "Visiter {host}",
+  "paid": "Emplacement payant. Non testé, non classé.",
+  "why": "Pourquoi cette annonce ?",
+  "here_h": "Votre service ici",
+  "here_p": "Une tuile étiquetée, vue par des gens qui évitent déjà le KYC. Nous examinons chaque annonceur avant d'accepter.",
+  "how": "Comment annoncer",
+  "current_h": "Sponsors en cours",
+  "none_running": "Aucun emplacement sponsorisé n'est actif en ce moment."
+ },
+ "landing": {
+  "count": "{n} plateformes référencées, dont {m} sans aucune identité. Triées selon l'identité demandée.",
+  "questions": "Questions",
+  "see_also": "Voir aussi",
+  "all": "Toutes les plateformes de l'annuaire",
+  "groups": {
+   "alternative": "Alternatives",
+   "coin": "Acheter",
+   "payment": "Payer par"
+  }
+ },
  "platform": {
   "title": "{name} : politique KYC, limites et frais | DoNotKYC",
   "description": "{name} est un(e) {type}. Identité demandée : {level} ({summary}). {fiat} Frais : {fees}. Disponibilité : {countries}.",
-  "fiat_yes": "Accepte les dépôts par carte ou virement.", "fiat_no": "Crypto uniquement.",
+  "fiat_yes": "Accepte les dépôts par carte ou virement.",
+  "fiat_no": "Crypto uniquement.",
   "lead": "{type}. {summary}.",
-  "card_ok": "Carte ou banque acceptée", "crypto_only": "Crypto uniquement", "tested": "Testé le {date}",
-  "visit": "Visiter {host}", "aff": "Lien d'affiliation. Il ne change pas l'ordre.", "no_aff": "Pas de lien d'affiliation.",
+  "card_ok": "Carte ou banque acceptée",
+  "crypto_only": "Crypto uniquement",
+  "tested": "Testé le {date}",
+  "visit": "Visiter {host}",
+  "aff": "Lien d'affiliation. Il ne change pas l'ordre.",
+  "no_aff": "Pas de lien d'affiliation.",
   "rechecking": "En cours de vérification.",
-  "kyc_h": "Identité et limites", "listed_policy": "Politique annoncée : {x}.",
+  "kyc_h": "Identité et limites",
+  "listed_policy": "Politique annoncée : {x}.",
   "warn": "Les politiques changent sans préavis. Commencez par un petit montant et lisez les conditions de la plateforme avant de déplacer de grosses sommes. Sans vérification d'identité, vous gagnez en confidentialité mais vous avez moins de recours en cas de problème.",
-  "features": "Fonctionnalités", "tests_h": "Nos tests",
-  "untested": "Nous n'avons pas encore fait de test payant sur {name}. Cette fiche repose sur ses conditions publiées.", "source": "source", "how_we_test": "Notre méthode de test",
+  "features": "Fonctionnalités",
+  "tests_h": "Nos tests",
+  "untested": "Nous n'avons pas encore fait de test payant sur {name}. Cette fiche repose sur ses conditions publiées.",
+  "source": "source",
+  "how_we_test": "Notre méthode de test",
   "test_line": "{steps} avec {amount} par {method}. {result}",
-  "changed_h": "Quelque chose a changé ?", "changed_a": "Si {name} demande maintenant une identité, a modifié ses limites ou a fermé,", "changed_link": "signalez-le sur GitHub", "changed_b": "Nous vérifions chaque signalement avant de modifier une fiche.",
-  "glance": "En bref", "identity": "Identité demandée", "type": "Type", "custody": "Garde des fonds", "payment": "Paiement", "fees": "Frais", "availability": "Disponibilité",
-  "tor": "Accès Tor", "oss": "Open source", "coins": "Cryptos", "volume": "Volume 24 h", "reputation": "Réputation", "similar": "Plateformes similaires", "yes": "Oui", "no": "Non",
-  "custody_v": { "self": "Votre wallet", "custodial": "La plateforme détient les fonds", "none": "Sans objet (espèces)" },
-  "payments_v": { "crypto": "Crypto", "bank": "Virement", "card": "Carte", "cash": "Espèces", "gift-card": "Cartes cadeaux", "fiat": "Carte ou banque" },
-  "kyc_asked_v": { "none": "Rien", "email": "E-mail seulement", "phone": "Numéro de téléphone", "id": "Pièce d'identité" },
+  "changed_h": "Quelque chose a changé ?",
+  "changed_a": "Si {name} demande maintenant une identité, a modifié ses limites ou a fermé,",
+  "changed_link": "signalez-le sur GitHub",
+  "changed_b": "Nous vérifions chaque signalement avant de modifier une fiche.",
+  "glance": "En bref",
+  "identity": "Identité demandée",
+  "type": "Type",
+  "custody": "Garde des fonds",
+  "payment": "Paiement",
+  "fees": "Frais",
+  "availability": "Disponibilité",
+  "tor": "Accès Tor",
+  "oss": "Open source",
+  "coins": "Cryptos",
+  "volume": "Volume 24 h",
+  "reputation": "Réputation",
+  "similar": "Plateformes similaires",
+  "yes": "Oui",
+  "no": "Non",
+  "custody_v": {
+   "self": "Votre wallet",
+   "custodial": "La plateforme détient les fonds",
+   "none": "Sans objet (espèces)"
+  },
+  "payments_v": {
+   "crypto": "Crypto",
+   "bank": "Virement",
+   "card": "Carte",
+   "cash": "Espèces",
+   "gift-card": "Cartes cadeaux",
+   "fiat": "Carte ou banque"
+  },
+  "kyc_asked_v": {
+   "none": "Rien",
+   "email": "E-mail seulement",
+   "phone": "Numéro de téléphone",
+   "id": "Pièce d'identité"
+  },
   "status_note_synapse-protocol": "synapseprotocol.com redirige maintenant vers hypercall.xyz/synapse : nous vérifions le service et son adresse."
  },
  "data": {
-  "Depends on the partner": "Dépend du partenaire", "Email only": "E-mail seulement", "ID above small cash amounts": "Identité au-delà de petits montants en espèces", "ID above the first tier": "Identité au-delà du premier palier",
-  "ID only if a swap is flagged": "Identité seulement si un swap est signalé", "May freeze a flagged swap": "Peut geler un swap signalé", "No ID": "Sans identité", "No ID at any amount": "Sans identité quel que soit le montant",
-  "No ID at low limits": "Sans identité sous de faibles limites", "No ID for crypto swaps": "Sans identité pour les swaps crypto", "No ID up to $10,000 a day": "Sans identité jusqu'à 10 000 $ par jour", "No ID up to $700 a swap": "Sans identité jusqu'à 700 $ par swap",
-  "No ID up to 10 BTC a day": "Sans identité jusqu'à 10 BTC par jour", "No ID up to 10 BTC withdrawal": "Sans identité jusqu'à 10 BTC de retrait", "No ID up to 20,000 USDT a day": "Sans identité jusqu'à 20 000 USDT par jour",
-  "No ID up to about $20,000 a day": "Sans identité jusqu'à environ 20 000 $ par jour", "No ID up to set limits": "Sans identité jusqu'à des limites fixées", "No ID, on-chain escrow": "Sans identité, escrow on-chain", "No account": "Sans compte",
-  "No account at all": "Aucun compte", "Phone number only": "Numéro de téléphone seulement", "The seller decides": "Le vendeur décide", "Wallet only": "Wallet seulement",
-  "New York": "New York", "Outside Canada, US": "Hors Canada et États-Unis", "Outside Europe": "Hors Europe", "Outside US, Puerto Rico": "Hors États-Unis et Porto Rico", "Outside the US": "Hors États-Unis",
-  "Outside the southern US": "Hors sud des États-Unis", "Some regions": "Certaines régions", "US": "États-Unis", "US, Canada": "États-Unis, Canada", "US, UK, Singapore": "États-Unis, Royaume-Uni, Singapour", "US, for some swaps": "États-Unis, pour certains swaps"
+  "Depends on the partner": "Dépend du partenaire",
+  "Email only": "E-mail seulement",
+  "ID above small cash amounts": "Identité au-delà de petits montants en espèces",
+  "ID above the first tier": "Identité au-delà du premier palier",
+  "ID only if a swap is flagged": "Identité seulement si un swap est signalé",
+  "May freeze a flagged swap": "Peut geler un swap signalé",
+  "No ID": "Sans identité",
+  "No ID at any amount": "Sans identité quel que soit le montant",
+  "No ID at low limits": "Sans identité sous de faibles limites",
+  "No ID for crypto swaps": "Sans identité pour les swaps crypto",
+  "No ID up to $10,000 a day": "Sans identité jusqu'à 10 000 $ par jour",
+  "No ID up to $700 a swap": "Sans identité jusqu'à 700 $ par swap",
+  "No ID up to 10 BTC a day": "Sans identité jusqu'à 10 BTC par jour",
+  "No ID up to 10 BTC withdrawal": "Sans identité jusqu'à 10 BTC de retrait",
+  "No ID up to 20,000 USDT a day": "Sans identité jusqu'à 20 000 USDT par jour",
+  "No ID up to about $20,000 a day": "Sans identité jusqu'à environ 20 000 $ par jour",
+  "No ID up to set limits": "Sans identité jusqu'à des limites fixées",
+  "No ID, on-chain escrow": "Sans identité, escrow on-chain",
+  "No account": "Sans compte",
+  "No account at all": "Aucun compte",
+  "Phone number only": "Numéro de téléphone seulement",
+  "The seller decides": "Le vendeur décide",
+  "Wallet only": "Wallet seulement",
+  "New York": "New York",
+  "Outside Canada, US": "Hors Canada et États-Unis",
+  "Outside Europe": "Hors Europe",
+  "Outside US, Puerto Rico": "Hors États-Unis et Porto Rico",
+  "Outside the US": "Hors États-Unis",
+  "Outside the southern US": "Hors sud des États-Unis",
+  "Some regions": "Certaines régions",
+  "US": "États-Unis",
+  "US, Canada": "États-Unis, Canada",
+  "US, UK, Singapore": "États-Unis, Royaume-Uni, Singapour",
+  "US, for some swaps": "États-Unis, pour certains swaps"
  },
  "landings": {
-  "/exchanges": { "nav": "Exchanges", "title": "Exchanges crypto sans KYC : limites sans identité | DoNotKYC", "description": "Les exchanges centralisés où l'on échange sans pièce d'identité, avec leurs limites de retrait sans KYC, leurs frais et les pays bloqués.", "h1": "Exchanges crypto sans KYC",
-   "intro": ["Les exchanges centralisés offrent des carnets d'ordres, une forte liquidité, des contrats à terme et des applis mobiles. Ceux-ci permettent d'échanger sans pièce d'identité, jusqu'à une limite de retrait quotidienne.", "Ils détiennent vos fonds tant qu'ils sont sur la plateforme. Retirez vers votre propre wallet une fois terminé, et vérifiez la limite avant de déposer plus qu'elle ne permet."],
-   "faq": [["Un exchange peut-il demander une identité plus tard ?", "Oui. La plupart des paliers sans KYC peuvent déclencher une vérification sur un gros retrait ou une activité inhabituelle, et les politiques changent. Commencez petit et ne laissez sur l'exchange que ce que vous échangez."]] },
-  "/dex": { "nav": "Exchanges décentralisés", "title": "Exchanges décentralisés (DEX) sans KYC | DoNotKYC", "description": "Des exchanges décentralisés où l'on échange directement depuis son wallet : sans inscription, sans identité, vous gardez vos clés.", "h1": "Exchanges décentralisés",
-   "intro": ["Un exchange décentralisé fonctionne avec des smart contracts. Vous connectez votre propre wallet et échangez sans compte : aucune identité à donner, personne ne détient vos fonds.", "Vous payez les frais de réseau en plus des frais d'échange, et il faut être à l'aise avec un wallet. Certaines interfaces bloquent des pays alors que les contrats restent ouverts."] },
-  "/swaps": { "nav": "Swaps instantanés", "title": "Swaps crypto instantanés sans compte | DoNotKYC", "description": "Échangez une crypto contre une autre sans compte ni identité. Limites, frais et cas où chaque service peut poser des questions.", "h1": "Swaps instantanés sans compte",
-   "intro": ["Les services de swap instantané convertissent une crypto en une autre en une étape : vous envoyez vos fonds à une adresse et recevez l'autre crypto dans votre wallet. Aucun compte n'est nécessaire.", "Leur marge est incluse dans le taux proposé. Certains peuvent suspendre un swap signalé par leurs contrôles et demander des informations avant de le débloquer : la fiche précise quand."] },
-  "/p2p": { "nav": "Marchés P2P", "title": "Marchés P2P bitcoin sans KYC | DoNotKYC", "description": "Achetez et vendez du bitcoin avec d'autres personnes par virement ou en espèces, avec escrow et sans identité.", "h1": "Marchés P2P : achetez de la crypto à des particuliers",
-   "intro": ["Les marchés pair-à-pair vous mettent en relation avec un acheteur ou un vendeur. Vous payez l'autre personne par virement, en espèces ou par un autre moyen qu'elle accepte, et un escrow libère les fonds une fois le paiement confirmé.", "Votre banque voit toujours un virement vers une personne nommée. La réputation et les règles d'escrow comptent plus que les frais : lisez-les avant votre premier échange."] },
-  "/atms": { "nav": "Distributeurs bitcoin", "title": "Distributeurs bitcoin avec peu ou pas d'identité | DoNotKYC", "description": "Les réseaux de distributeurs bitcoin où l'on achète en espèces, et les montants au-delà desquels ils demandent une identité.", "h1": "Distributeurs bitcoin avec peu ou pas d'identité",
-   "intro": ["Les distributeurs bitcoin vendent de la crypto contre des espèces. Beaucoup acceptent de petits achats avec un numéro de téléphone ou sans rien, puis demandent une identité au-delà d'un seuil fixé par l'opérateur et la réglementation locale.", "Les frais des distributeurs dépassent de plusieurs pour cent le prix du marché. Ils servent surtout pour de petits montants quand vous avez des espèces."] },
-  "/bridges": { "nav": "Bridges", "title": "Bridges cross-chain sans KYC | DoNotKYC", "description": "Déplacez de la crypto d'une blockchain à l'autre depuis votre wallet, sans compte ni identité.", "h1": "Bridges cross-chain",
-   "intro": ["Les bridges déplacent des actifs d'une blockchain à une autre, directement depuis votre wallet. Ils ne demandent pas d'identité, mais ils sont une cible fréquente de piratages.", "Privilégiez les routes établies, vérifiez les frais et le délai estimé avant de confirmer, et déplacez les gros montants en plusieurs fois."] },
-  "/alternatives/binance": { "nav": "Binance", "title": "Alternatives à Binance sans KYC | DoNotKYC", "description": "Binance exige une vérification d'identité. Ces exchanges et DEX permettent d'échanger au comptant et en contrats à terme sans pièce d'identité.", "h1": "Alternatives à Binance sans KYC",
-   "intro": ["Binance demande à chaque utilisateur de vérifier son identité avant d'échanger. Si vous l'utilisiez pour le trading au comptant, les altcoins ou les contrats à terme, les exchanges et exchanges décentralisés ci-dessous font le même travail sans identité, ou sans identité sous une limite.", "Vérifiez la limite et les pays bloqués de chaque plateforme avant de déplacer des fonds. Les conditions changent : la fiche reprend ce que nous savons."] },
-  "/alternatives/coinbase": { "nav": "Coinbase", "title": "Alternatives à Coinbase sans KYC | DoNotKYC", "description": "Coinbase exige une pièce d'identité pour acheter. Les moyens d'acheter du bitcoin et d'autres cryptos par carte, virement ou espèces sans identité.", "h1": "Alternatives à Coinbase sans KYC",
-   "intro": ["Coinbase demande une pièce d'identité avant tout achat. Si vous l'utilisiez pour acheter par carte ou virement, ces plateformes acceptent la monnaie classique sans identité ou avec des contrôles légers.", "C'est sur les achats en monnaie classique que les limites arrivent le plus vite : la plupart de ces plateformes fixent un montant maximum sans identité."] },
-  "/alternatives/kraken": { "nav": "Kraken", "title": "Alternatives à Kraken sans KYC | DoNotKYC", "description": "Kraken exige une vérification d'identité pour échanger. Des exchanges avec palier sans KYC et des exchanges décentralisés sans identité.", "h1": "Alternatives à Kraken sans KYC",
-   "intro": ["Kraken exige une vérification d'identité avant de déposer et d'échanger. Ces exchanges et exchanges décentralisés permettent d'échanger sans pièce d'identité."] },
-  "/alternatives/kucoin": { "nav": "KuCoin", "title": "Alternatives à KuCoin sans KYC | DoNotKYC", "description": "KuCoin a rendu la vérification d'identité obligatoire. Où échanger des altcoins sans identité aujourd'hui.", "h1": "Alternatives à KuCoin sans KYC",
-   "intro": ["KuCoin a rendu la vérification d'identité obligatoire pour les nouveaux utilisateurs. Pour échanger des altcoins sans identité, ces exchanges, exchanges décentralisés et services de swap sont les remplaçants les plus proches."] },
-  "/alternatives/revolut": { "nav": "Revolut", "title": "Alternatives crypto à Revolut sans KYC | DoNotKYC", "description": "Achetez de la crypto par virement ou par carte sans les vérifications d'identité d'une appli bancaire.", "h1": "Alternatives crypto à Revolut sans KYC",
-   "intro": ["Les applis bancaires comme Revolut lient chaque achat crypto à votre identité vérifiée. Ces plateformes permettent d'acheter par virement, carte ou espèces sans pièce d'identité, ou avec des contrôles légers."] },
-  "/alternatives/paypal": { "nav": "PayPal", "title": "Alternatives crypto à PayPal sans KYC | DoNotKYC", "description": "Achetez de la crypto par carte sans la vérification d'identité qu'exige PayPal.", "h1": "Alternatives crypto à PayPal sans KYC",
-   "intro": ["PayPal exige une identité vérifiée pour acheter de la crypto, et les fonds restent chez PayPal. Ces services vendent de la crypto par carte et l'envoient directement sur votre wallet, sans identité jusqu'à leur limite."] },
-  "/alternatives/crypto-com": { "nav": "Crypto.com", "title": "Alternatives à Crypto.com sans KYC | DoNotKYC", "description": "Crypto.com exige une pièce d'identité. Des exchanges et services d'achat par carte avec peu ou pas de vérification.", "h1": "Alternatives à Crypto.com sans KYC",
-   "intro": ["Crypto.com demande une vérification d'identité avant d'échanger ou d'acheter. Ces exchanges et services d'achat fonctionnent sans pièce d'identité, ou sans identité sous une limite."] },
-  "/alternatives/robinhood": { "nav": "Robinhood", "title": "Alternatives crypto à Robinhood sans KYC | DoNotKYC", "description": "Achetez du bitcoin sans les vérifications d'identité d'une appli de courtage : marchés P2P, distributeurs et swaps.", "h1": "Alternatives crypto à Robinhood sans KYC",
-   "intro": ["Les applis de courtage comme Robinhood exigent votre identité et gardent vos cryptos. Si vous voulez simplement acheter du bitcoin et le détenir vous-même, ces marchés P2P, distributeurs et services de swap demandent peu ou pas d'identité."] },
-  "/buy/bitcoin": { "nav": "Bitcoin", "title": "Acheter du bitcoin sans KYC | DoNotKYC", "description": "Où acheter du bitcoin sans identité : marchés P2P, distributeurs, swaps Lightning et exchanges avec palier sans KYC.", "h1": "Acheter du bitcoin sans KYC",
-   "intro": ["Les moyens les plus discrets d'obtenir du bitcoin sont les marchés pair-à-pair et les petits achats en espèces aux distributeurs. Les exchanges avec palier sans KYC et les services de swap conviennent si vous détenez déjà une autre crypto.", "Retirez vers un wallet que vous contrôlez dès l'achat terminé."] },
-  "/buy/monero": { "nav": "Monero", "title": "Acheter du Monero (XMR) sans KYC | DoNotKYC", "description": "Où obtenir du Monero (XMR) sans identité : échanges P2P et swaps instantanés qui prennent en charge XMR.", "h1": "Acheter du Monero sans KYC",
-   "intro": ["Beaucoup de grands exchanges ont retiré le Monero : vous achetez donc du XMR de pair à pair ou vous l'obtenez par swap depuis une autre crypto. Ces plateformes prennent en charge XMR sans demander d'identité."] },
-  "/pay/cash": { "nav": "Espèces", "title": "Acheter de la crypto en espèces, sans identité | DoNotKYC", "description": "Achetez de la crypto en espèces : distributeurs bitcoin et marchés P2P qui acceptent le liquide, et combien vous pouvez acheter sans identité.", "h1": "Acheter de la crypto en espèces",
-   "intro": ["Les espèces ne laissent aucune trace bancaire. Vous pouvez les utiliser aux distributeurs bitcoin, qui demandent une identité au-delà d'un seuil, ou avec des vendeurs de marchés P2P qui acceptent le liquide en main propre ou par courrier."] },
-  "/pay/bank-transfer": { "nav": "Virement", "title": "Acheter de la crypto par virement sans KYC | DoNotKYC", "description": "Achetez de la crypto par virement sans envoyer d'identité à la plateforme, via les marchés P2P.", "h1": "Acheter de la crypto par virement",
-   "intro": ["Le virement est le moyen le moins cher, mais votre banque voit qui vous payez. Sur les marchés P2P, vous payez une autre personne, donc la plateforme ne demande pas d'identité ; le vendeur voit votre nom sur le virement."] },
-  "/pay/card": { "nav": "Carte", "title": "Acheter de la crypto par carte sans KYC | DoNotKYC", "description": "Achetez de la crypto avec une carte de débit ou de crédit sans identité, jusqu'à la limite de chaque service.", "h1": "Acheter de la crypto par carte",
-   "intro": ["L'achat par carte est rapide mais rarement anonyme : les processeurs de paiement font leurs propres contrôles et les limites sans identité sont basses. Ces services acceptent la carte sans identité jusqu'à leur limite."] }
+  "/exchanges": {
+   "nav": "Exchanges",
+   "title": "Exchanges crypto sans KYC : limites sans identité | DoNotKYC",
+   "description": "Les exchanges centralisés où l'on échange sans pièce d'identité, avec leurs limites de retrait sans KYC, leurs frais et les pays bloqués.",
+   "h1": "Exchanges crypto sans KYC",
+   "intro": [
+    "Les exchanges centralisés offrent des carnets d'ordres, une forte liquidité, des contrats à terme et des applis mobiles. Ceux-ci permettent d'échanger sans pièce d'identité, jusqu'à une limite de retrait quotidienne.",
+    "Ils détiennent vos fonds tant qu'ils sont sur la plateforme. Retirez vers votre propre wallet une fois terminé, et vérifiez la limite avant de déposer plus qu'elle ne permet."
+   ],
+   "faq": [
+    [
+     "Un exchange peut-il demander une identité plus tard ?",
+     "Oui. La plupart des paliers sans KYC peuvent déclencher une vérification sur un gros retrait ou une activité inhabituelle, et les politiques changent. Commencez petit et ne laissez sur l'exchange que ce que vous échangez."
+    ]
+   ]
+  },
+  "/dex": {
+   "nav": "Exchanges décentralisés",
+   "title": "Exchanges décentralisés (DEX) sans KYC | DoNotKYC",
+   "description": "Des exchanges décentralisés où l'on échange directement depuis son wallet : sans inscription, sans identité, vous gardez vos clés.",
+   "h1": "Exchanges décentralisés",
+   "intro": [
+    "Un exchange décentralisé fonctionne avec des smart contracts. Vous connectez votre propre wallet et échangez sans compte : aucune identité à donner, personne ne détient vos fonds.",
+    "Vous payez les frais de réseau en plus des frais d'échange, et il faut être à l'aise avec un wallet. Certaines interfaces bloquent des pays alors que les contrats restent ouverts."
+   ]
+  },
+  "/swaps": {
+   "nav": "Swaps instantanés",
+   "title": "Swaps crypto instantanés sans compte | DoNotKYC",
+   "description": "Échangez une crypto contre une autre sans compte ni identité. Limites, frais et cas où chaque service peut poser des questions.",
+   "h1": "Swaps instantanés sans compte",
+   "intro": [
+    "Les services de swap instantané convertissent une crypto en une autre en une étape : vous envoyez vos fonds à une adresse et recevez l'autre crypto dans votre wallet. Aucun compte n'est nécessaire.",
+    "Leur marge est incluse dans le taux proposé. Certains peuvent suspendre un swap signalé par leurs contrôles et demander des informations avant de le débloquer : la fiche précise quand."
+   ]
+  },
+  "/p2p": {
+   "nav": "Marchés P2P",
+   "title": "Marchés P2P bitcoin sans KYC | DoNotKYC",
+   "description": "Achetez et vendez du bitcoin avec d'autres personnes par virement ou en espèces, avec escrow et sans identité.",
+   "h1": "Marchés P2P : achetez de la crypto à des particuliers",
+   "intro": [
+    "Les marchés pair-à-pair vous mettent en relation avec un acheteur ou un vendeur. Vous payez l'autre personne par virement, en espèces ou par un autre moyen qu'elle accepte, et un escrow libère les fonds une fois le paiement confirmé.",
+    "Votre banque voit toujours un virement vers une personne nommée. La réputation et les règles d'escrow comptent plus que les frais : lisez-les avant votre premier échange."
+   ]
+  },
+  "/atms": {
+   "nav": "Distributeurs bitcoin",
+   "title": "Distributeurs bitcoin avec peu ou pas d'identité | DoNotKYC",
+   "description": "Les réseaux de distributeurs bitcoin où l'on achète en espèces, et les montants au-delà desquels ils demandent une identité.",
+   "h1": "Distributeurs bitcoin avec peu ou pas d'identité",
+   "intro": [
+    "Les distributeurs bitcoin vendent de la crypto contre des espèces. Beaucoup acceptent de petits achats avec un numéro de téléphone ou sans rien, puis demandent une identité au-delà d'un seuil fixé par l'opérateur et la réglementation locale.",
+    "Les frais des distributeurs dépassent de plusieurs pour cent le prix du marché. Ils servent surtout pour de petits montants quand vous avez des espèces."
+   ]
+  },
+  "/bridges": {
+   "nav": "Bridges",
+   "title": "Bridges cross-chain sans KYC | DoNotKYC",
+   "description": "Déplacez de la crypto d'une blockchain à l'autre depuis votre wallet, sans compte ni identité.",
+   "h1": "Bridges cross-chain",
+   "intro": [
+    "Les bridges déplacent des actifs d'une blockchain à une autre, directement depuis votre wallet. Ils ne demandent pas d'identité, mais ils sont une cible fréquente de piratages.",
+    "Privilégiez les routes établies, vérifiez les frais et le délai estimé avant de confirmer, et déplacez les gros montants en plusieurs fois."
+   ]
+  },
+  "/alternatives/binance": {
+   "nav": "Binance",
+   "title": "Alternatives à Binance sans KYC | DoNotKYC",
+   "description": "Binance exige une vérification d'identité. Ces exchanges et DEX permettent d'échanger au comptant et en contrats à terme sans pièce d'identité.",
+   "h1": "Alternatives à Binance sans KYC",
+   "intro": [
+    "Binance demande à chaque utilisateur de vérifier son identité avant d'échanger. Si vous l'utilisiez pour le trading au comptant, les altcoins ou les contrats à terme, les exchanges et exchanges décentralisés ci-dessous font le même travail sans identité, ou sans identité sous une limite.",
+    "Vérifiez la limite et les pays bloqués de chaque plateforme avant de déplacer des fonds. Les conditions changent : la fiche reprend ce que nous savons."
+   ]
+  },
+  "/alternatives/coinbase": {
+   "nav": "Coinbase",
+   "title": "Alternatives à Coinbase sans KYC | DoNotKYC",
+   "description": "Coinbase exige une pièce d'identité pour acheter. Les moyens d'acheter du bitcoin et d'autres cryptos par carte, virement ou espèces sans identité.",
+   "h1": "Alternatives à Coinbase sans KYC",
+   "intro": [
+    "Coinbase demande une pièce d'identité avant tout achat. Si vous l'utilisiez pour acheter par carte ou virement, ces plateformes acceptent la monnaie classique sans identité ou avec des contrôles légers.",
+    "C'est sur les achats en monnaie classique que les limites arrivent le plus vite : la plupart de ces plateformes fixent un montant maximum sans identité."
+   ]
+  },
+  "/alternatives/kraken": {
+   "nav": "Kraken",
+   "title": "Alternatives à Kraken sans KYC | DoNotKYC",
+   "description": "Kraken exige une vérification d'identité pour échanger. Des exchanges avec palier sans KYC et des exchanges décentralisés sans identité.",
+   "h1": "Alternatives à Kraken sans KYC",
+   "intro": [
+    "Kraken exige une vérification d'identité avant de déposer et d'échanger. Ces exchanges et exchanges décentralisés permettent d'échanger sans pièce d'identité."
+   ]
+  },
+  "/alternatives/kucoin": {
+   "nav": "KuCoin",
+   "title": "Alternatives à KuCoin sans KYC | DoNotKYC",
+   "description": "KuCoin a rendu la vérification d'identité obligatoire. Où échanger des altcoins sans identité aujourd'hui.",
+   "h1": "Alternatives à KuCoin sans KYC",
+   "intro": [
+    "KuCoin a rendu la vérification d'identité obligatoire pour les nouveaux utilisateurs. Pour échanger des altcoins sans identité, ces exchanges, exchanges décentralisés et services de swap sont les remplaçants les plus proches."
+   ]
+  },
+  "/alternatives/revolut": {
+   "nav": "Revolut",
+   "title": "Alternatives crypto à Revolut sans KYC | DoNotKYC",
+   "description": "Achetez de la crypto par virement ou par carte sans les vérifications d'identité d'une appli bancaire.",
+   "h1": "Alternatives crypto à Revolut sans KYC",
+   "intro": [
+    "Les applis bancaires comme Revolut lient chaque achat crypto à votre identité vérifiée. Ces plateformes permettent d'acheter par virement, carte ou espèces sans pièce d'identité, ou avec des contrôles légers."
+   ]
+  },
+  "/alternatives/paypal": {
+   "nav": "PayPal",
+   "title": "Alternatives crypto à PayPal sans KYC | DoNotKYC",
+   "description": "Achetez de la crypto par carte sans la vérification d'identité qu'exige PayPal.",
+   "h1": "Alternatives crypto à PayPal sans KYC",
+   "intro": [
+    "PayPal exige une identité vérifiée pour acheter de la crypto, et les fonds restent chez PayPal. Ces services vendent de la crypto par carte et l'envoient directement sur votre wallet, sans identité jusqu'à leur limite."
+   ]
+  },
+  "/alternatives/crypto-com": {
+   "nav": "Crypto.com",
+   "title": "Alternatives à Crypto.com sans KYC | DoNotKYC",
+   "description": "Crypto.com exige une pièce d'identité. Des exchanges et services d'achat par carte avec peu ou pas de vérification.",
+   "h1": "Alternatives à Crypto.com sans KYC",
+   "intro": [
+    "Crypto.com demande une vérification d'identité avant d'échanger ou d'acheter. Ces exchanges et services d'achat fonctionnent sans pièce d'identité, ou sans identité sous une limite."
+   ]
+  },
+  "/alternatives/robinhood": {
+   "nav": "Robinhood",
+   "title": "Alternatives crypto à Robinhood sans KYC | DoNotKYC",
+   "description": "Achetez du bitcoin sans les vérifications d'identité d'une appli de courtage : marchés P2P, distributeurs et swaps.",
+   "h1": "Alternatives crypto à Robinhood sans KYC",
+   "intro": [
+    "Les applis de courtage comme Robinhood exigent votre identité et gardent vos cryptos. Si vous voulez simplement acheter du bitcoin et le détenir vous-même, ces marchés P2P, distributeurs et services de swap demandent peu ou pas d'identité."
+   ]
+  },
+  "/buy/bitcoin": {
+   "nav": "Bitcoin",
+   "title": "Acheter du bitcoin sans KYC | DoNotKYC",
+   "description": "Où acheter du bitcoin sans identité : marchés P2P, distributeurs, swaps Lightning et exchanges avec palier sans KYC.",
+   "h1": "Acheter du bitcoin sans KYC",
+   "intro": [
+    "Les moyens les plus discrets d'obtenir du bitcoin sont les marchés pair-à-pair et les petits achats en espèces aux distributeurs. Les exchanges avec palier sans KYC et les services de swap conviennent si vous détenez déjà une autre crypto.",
+    "Retirez vers un wallet que vous contrôlez dès l'achat terminé."
+   ]
+  },
+  "/buy/monero": {
+   "nav": "Monero",
+   "title": "Acheter du Monero (XMR) sans KYC | DoNotKYC",
+   "description": "Où obtenir du Monero (XMR) sans identité : échanges P2P et swaps instantanés qui prennent en charge XMR.",
+   "h1": "Acheter du Monero sans KYC",
+   "intro": [
+    "Beaucoup de grands exchanges ont retiré le Monero : vous achetez donc du XMR de pair à pair ou vous l'obtenez par swap depuis une autre crypto. Ces plateformes prennent en charge XMR sans demander d'identité."
+   ]
+  },
+  "/pay/cash": {
+   "nav": "Espèces",
+   "title": "Acheter de la crypto en espèces, sans identité | DoNotKYC",
+   "description": "Achetez de la crypto en espèces : distributeurs bitcoin et marchés P2P qui acceptent le liquide, et combien vous pouvez acheter sans identité.",
+   "h1": "Acheter de la crypto en espèces",
+   "intro": [
+    "Les espèces ne laissent aucune trace bancaire. Vous pouvez les utiliser aux distributeurs bitcoin, qui demandent une identité au-delà d'un seuil, ou avec des vendeurs de marchés P2P qui acceptent le liquide en main propre ou par courrier."
+   ]
+  },
+  "/pay/bank-transfer": {
+   "nav": "Virement",
+   "title": "Acheter de la crypto par virement sans KYC | DoNotKYC",
+   "description": "Achetez de la crypto par virement sans envoyer d'identité à la plateforme, via les marchés P2P.",
+   "h1": "Acheter de la crypto par virement",
+   "intro": [
+    "Le virement est le moyen le moins cher, mais votre banque voit qui vous payez. Sur les marchés P2P, vous payez une autre personne, donc la plateforme ne demande pas d'identité ; le vendeur voit votre nom sur le virement."
+   ]
+  },
+  "/pay/card": {
+   "nav": "Carte",
+   "title": "Acheter de la crypto par carte sans KYC | DoNotKYC",
+   "description": "Achetez de la crypto avec une carte de débit ou de crédit sans identité, jusqu'à la limite de chaque service.",
+   "h1": "Acheter de la crypto par carte",
+   "intro": [
+    "L'achat par carte est rapide mais rarement anonyme : les processeurs de paiement font leurs propres contrôles et les limites sans identité sont basses. Ces services acceptent la carte sans identité jusqu'à leur limite."
+   ]
+  }
  },
  "pages": {
-  "methodology": { "title": "Comment nous vérifions les plateformes sans KYC | DoNotKYC", "description": "Comment DoNotKYC référence les plateformes crypto : les niveaux d'identité, nos sources, notre protocole de test payant et quand nous modifions ou retirons une fiche.",
-   "html": "<h1>Comment nous vérifions les plateformes</h1> <p>Chaque fiche répond d'abord à une question : quelle identité cette plateforme demande-t-elle, et à quel moment ? Ci-dessous : comment nous obtenons cette réponse, et jusqu'où nous avons vérifié chaque fiche.</p> <h2>Les trois niveaux d'identité</h2> <ul> <li><strong>Aucune :</strong> ni pièce d'identité ni informations de compte. Vous connectez un wallet ou échangez sans inscription.</li> <li><strong>Légère :</strong> pas d'identité sous une limite donnée, ou seulement une adresse e-mail ou un numéro de téléphone.</li> <li><strong>Par paliers :</strong> une pièce d'identité est exigée au-delà d'un seuil. Le seuil est indiqué sur la fiche.</li> </ul> <h2>Deux types de fiches</h2> <p><strong>Documentée :</strong> nous avons construit la fiche à partir des conditions, de la FAQ et des pages d'aide publiées par la plateforme. Toute fiche commence ainsi.</p> <p><strong>Testée :</strong> nous avons ouvert un compte (ou connecté un wallet), fait passer un petit montant réel par la plateforme et noté chaque information demandée. Les fiches testées affichent la date et le détail de chaque test.</p> <h2>Notre test payant</h2> <ol> <li>S'inscrire sans rien préparer, derrière un VPN, en notant chaque champ demandé.</li> <li>Déposer un petit montant avec le moyen de paiement décrit sur la fiche.</li> <li>Faire un échange ou un swap sur une paire principale. Les frais sont lus sur le reçu, pas sur la page commerciale.</li> <li>Retirer vers notre propre wallet. C'est là qu'apparaissent la plupart des vérifications : nous notons la limite et le moment où elle se déclenche.</li> <li>Publier le résultat avec sa date. Une fiche testée il y a plus de 90 jours repart dans la file.</li> </ol> <h2>Quand une fiche change</h2> <p>Si une plateforme rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche. Une plateforme fermée ou signalée comme arnaque reste visible avec ce statut, pour que les personnes qui la cherchent voient l'avertissement.</p> <p>Nous vérifions les signalements avant de changer quoi que ce soit. <a href=\"/submit\">Proposer une plateforme ou signaler un changement</a>.</p> <h2>Ce qui ne s'achète pas</h2> <p>La présence dans l'annuaire, le niveau d'identité et la position ne s'achètent pas. Certains liens « Visiter » sont des liens d'affiliation, et la page le dit. Les emplacements sponsorisés sont des tuiles séparées, étiquetées comme publicité.</p>" },
-  "submit": { "title": "Proposer une plateforme sans KYC | DoNotKYC", "description": "Proposez un exchange, un swap, un marché P2P ou un distributeur où l'on échange sans identité, ou signalez une fiche qui a changé.",
-   "html": "<h1>Proposer une plateforme</h1> <p>Vous connaissez une plateforme crypto où l'on échange sans envoyer de pièce d'identité ? Dites-le-nous. Le référencement est gratuit, personne ne peut l'acheter, et les annonceurs ne passent pas plus vite.</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">Ouvrir le formulaire{icon}</a></p> <h2>Ce que nous vérifions avant de référencer</h2> <ul> <li>Les conditions, la FAQ ou les pages d'aide de la plateforme indiquent sa politique KYC et ses limites. Un lien vers cette source est obligatoire.</li> <li>Le site fonctionne et sa politique correspond à ce que rapportent les utilisateurs.</li> <li>Aucun signalement crédible de fuite avec les fonds, de fonds gelés sans raison ou de faux volume.</li> <li>Le niveau d'identité (Aucune, Légère ou Par paliers) correspond à la plateforme sans approximation.</li> </ul> <h2>Une fiche est fausse ou périmée</h2> <p>Si une plateforme référencée demande maintenant une identité, a modifié ses limites ou ses frais, bloque de nouveaux pays ou a fermé, <a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">signalez le changement</a>. Nous vérifions chaque signalement avant de modifier une fiche.</p> <h2>Confidentialité</h2> <p>Les deux formulaires sont des issues GitHub publiques et demandent un compte GitHub. N'y mettez aucune donnée personnelle et masquez noms et numéros de compte sur les captures. Un formulaire sans compte arrivera quand le site aura son propre serveur.</p> <h2>Vous voulez plutôt annoncer ?</h2> <p>Les emplacements sponsorisés sont séparés des fiches et portent une étiquette. <a href=\"/#advertise\">Voir comment fonctionne la publicité</a>.</p>" },
-  "advertise": { "title": "Annoncer sur DoNotKYC | Emplacements sponsorisés", "description": "Touchez des gens qui évitent déjà le KYC. Tuiles sponsorisées clairement étiquetées, annonceurs examinés, paiement en crypto.",
-   "html": "<h1>Annoncer sur DoNotKYC</h1> <p>DoNotKYC est lu par des gens qui veulent échanger de la crypto sans livrer leur identité. Une tuile sponsorisée place votre service à côté des plateformes qu'ils comparent, avec une étiquette Sponsorisé.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Nous contacter sur Telegram{icon}</a></p> <h2>Emplacements</h2> <ul> <li><strong>Tuile d'accueil :</strong> un sponsor à la fois, dans la section « Par où commencer ».</li> <li><strong>Tuile de page thématique :</strong> un sponsor par page, au-dessus de la liste. Pages : Exchanges, Exchanges décentralisés, Swaps instantanés, Marchés P2P, Distributeurs bitcoin, Bridges, Bitcoin, Monero, Espèces, Virement, Carte.</li> </ul> <p>Les emplacements se réservent au mois calendaire. Payer 3 ou 12 mois d'avance réduit le tarif mensuel. Demandez les tarifs actuels et les chiffres d'audience.</p> <h2>Les règles</h2> <ul> <li>Chaque tuile indique « Sponsorisé » et ses liens portent <code>rel=\"sponsored\"</code>.</li> <li>Payer ne change ni une fiche, ni son niveau d'identité, ni sa position dans l'annuaire.</li> <li>Nous examinons chaque annonceur avant d'accepter. Nous refusons les services visés par des signalements crédibles d'arnaque ou de fonds gelés, et tout ce qui est illégal là où c'est proposé.</li> <li>Nous pouvons retirer une tuile si de nouvelles preuves de préjudice pour les utilisateurs apparaissent. Les conditions sont convenues avant le paiement.</li> </ul> <h2>Comment ça marche</h2> <ol> <li>Envoyez-nous sur Telegram votre service, l'emplacement voulu et les dates.</li> <li>Nous examinons le service et répondons sous quelques jours.</li> <li>Vous recevez une facture en crypto (Bitcoin, Lightning ou Monero).</li> <li>Une fois payée, la tuile s'affiche à la date de début et disparaît d'elle-même à la date de fin. Nous vous prévenons avant la fin.</li> </ol>" }
+  "methodology": {
+   "title": "Comment nous vérifions les plateformes sans KYC | DoNotKYC",
+   "description": "Comment DoNotKYC référence les plateformes crypto : les niveaux d'identité, nos sources, notre protocole de test payant et quand nous modifions ou retirons une fiche.",
+   "html": "<h1>Comment nous vérifions les plateformes</h1> <p>Chaque fiche répond d'abord à une question : quelle identité cette plateforme demande-t-elle, et à quel moment ? Ci-dessous : comment nous obtenons cette réponse, et jusqu'où nous avons vérifié chaque fiche.</p> <h2>Les trois niveaux d'identité</h2> <ul> <li><strong>Aucune :</strong> ni pièce d'identité ni informations de compte. Vous connectez un wallet ou échangez sans inscription.</li> <li><strong>Légère :</strong> pas d'identité sous une limite donnée, ou seulement une adresse e-mail ou un numéro de téléphone.</li> <li><strong>Par paliers :</strong> une pièce d'identité est exigée au-delà d'un seuil. Le seuil est indiqué sur la fiche.</li> </ul> <h2>Deux types de fiches</h2> <p><strong>Documentée :</strong> nous avons construit la fiche à partir des conditions, de la FAQ et des pages d'aide publiées par la plateforme. Toute fiche commence ainsi.</p> <p><strong>Testée :</strong> nous avons ouvert un compte (ou connecté un wallet), fait passer un petit montant réel par la plateforme et noté chaque information demandée. Les fiches testées affichent la date et le détail de chaque test.</p> <h2>Notre test payant</h2> <ol> <li>S'inscrire sans rien préparer, derrière un VPN, en notant chaque champ demandé.</li> <li>Déposer un petit montant avec le moyen de paiement décrit sur la fiche.</li> <li>Faire un échange ou un swap sur une paire principale. Les frais sont lus sur le reçu, pas sur la page commerciale.</li> <li>Retirer vers notre propre wallet. C'est là qu'apparaissent la plupart des vérifications : nous notons la limite et le moment où elle se déclenche.</li> <li>Publier le résultat avec sa date. Une fiche testée il y a plus de 90 jours repart dans la file.</li> </ol> <h2>Quand une fiche change</h2> <p>Si une plateforme rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche. Une plateforme fermée ou signalée comme arnaque reste visible avec ce statut, pour que les personnes qui la cherchent voient l'avertissement.</p> <p>Nous vérifions les signalements avant de changer quoi que ce soit. <a href=\"/submit\">Proposer une plateforme ou signaler un changement</a>.</p> <h2>Ce qui ne s'achète pas</h2> <p>La présence dans l'annuaire, le niveau d'identité et la position ne s'achètent pas. Certains liens « Visiter » sont des liens d'affiliation, et la page le dit. Les emplacements sponsorisés sont des tuiles séparées, étiquetées comme publicité.</p>"
+  },
+  "submit": {
+   "title": "Proposer une plateforme sans KYC | DoNotKYC",
+   "description": "Proposez un exchange, un swap, un marché P2P ou un distributeur où l'on échange sans identité, ou signalez une fiche qui a changé.",
+   "html": "<h1>Proposer une plateforme</h1> <p>Vous connaissez une plateforme crypto où l'on échange sans envoyer de pièce d'identité ? Dites-le-nous. Le référencement est gratuit, personne ne peut l'acheter, et les annonceurs ne passent pas plus vite.</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">Ouvrir le formulaire{icon}</a></p> <h2>Ce que nous vérifions avant de référencer</h2> <ul> <li>Les conditions, la FAQ ou les pages d'aide de la plateforme indiquent sa politique KYC et ses limites. Un lien vers cette source est obligatoire.</li> <li>Le site fonctionne et sa politique correspond à ce que rapportent les utilisateurs.</li> <li>Aucun signalement crédible de fuite avec les fonds, de fonds gelés sans raison ou de faux volume.</li> <li>Le niveau d'identité (Aucune, Légère ou Par paliers) correspond à la plateforme sans approximation.</li> </ul> <h2>Une fiche est fausse ou périmée</h2> <p>Si une plateforme référencée demande maintenant une identité, a modifié ses limites ou ses frais, bloque de nouveaux pays ou a fermé, <a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">signalez le changement</a>. Nous vérifions chaque signalement avant de modifier une fiche.</p> <h2>Confidentialité</h2> <p>Les deux formulaires sont des issues GitHub publiques et demandent un compte GitHub. N'y mettez aucune donnée personnelle et masquez noms et numéros de compte sur les captures. Un formulaire sans compte arrivera quand le site aura son propre serveur.</p> <h2>Vous voulez plutôt annoncer ?</h2> <p>Les emplacements sponsorisés sont séparés des fiches et portent une étiquette. <a href=\"/#advertise\">Voir comment fonctionne la publicité</a>.</p>"
+  },
+  "advertise": {
+   "title": "Annoncer sur DoNotKYC | Emplacements sponsorisés",
+   "description": "Touchez des gens qui évitent déjà le KYC. Tuiles sponsorisées clairement étiquetées, annonceurs examinés, paiement en crypto.",
+   "html": "<h1>Annoncer sur DoNotKYC</h1> <p>DoNotKYC est lu par des gens qui veulent échanger de la crypto sans livrer leur identité. Une tuile sponsorisée place votre service à côté des plateformes qu'ils comparent, avec une étiquette Sponsorisé.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Nous contacter sur Telegram{icon}</a></p> <h2>Emplacements</h2> <ul> <li><strong>Tuile d'accueil :</strong> un sponsor à la fois, dans la section « Par où commencer ».</li> <li><strong>Tuile de page thématique :</strong> un sponsor par page, au-dessus de la liste. Pages : Exchanges, Exchanges décentralisés, Swaps instantanés, Marchés P2P, Distributeurs bitcoin, Bridges, Bitcoin, Monero, Espèces, Virement, Carte.</li> </ul> <p>Les emplacements se réservent au mois calendaire. Payer 3 ou 12 mois d'avance réduit le tarif mensuel. Demandez les tarifs actuels et les chiffres d'audience.</p> <h2>Les règles</h2> <ul> <li>Chaque tuile indique « Sponsorisé » et ses liens portent <code>rel=\"sponsored\"</code>.</li> <li>Payer ne change ni une fiche, ni son niveau d'identité, ni sa position dans l'annuaire.</li> <li>Nous examinons chaque annonceur avant d'accepter. Nous refusons les services visés par des signalements crédibles d'arnaque ou de fonds gelés, et tout ce qui est illégal là où c'est proposé.</li> <li>Nous pouvons retirer une tuile si de nouvelles preuves de préjudice pour les utilisateurs apparaissent. Les conditions sont convenues avant le paiement.</li> </ul> <h2>Comment ça marche</h2> <ol> <li>Envoyez-nous sur Telegram votre service, l'emplacement voulu et les dates.</li> <li>Nous examinons le service et répondons sous quelques jours.</li> <li>Vous recevez une facture en crypto (Bitcoin, Lightning ou Monero).</li> <li>Une fois payée, la tuile s'affiche à la date de début et disparaît d'elle-même à la date de fin. Nous vous prévenons avant la fin.</li> </ol>"
+  }
+ },
+ "compare": {
+  "index_title": "Comparer les plateformes sans KYC | DoNotKYC",
+  "index_desc": "Comparatifs côte à côte d'exchanges, swaps et marchés P2P sans KYC : identité demandée, limites, frais, garde des fonds et disponibilité.",
+  "index_h1": "Comparer les plateformes",
+  "index_lead": "Des comparatifs côte à côte de plateformes qui font le même travail. Choisissez une paire.",
+  "title": "{a} ou {b} : KYC, limites et frais comparés | DoNotKYC",
+  "desc": "{a} ou {b} ? Identité demandée, limites sans identité, frais, garde des fonds et disponibilité côte à côte.",
+  "lead": "Deux plateformes qui font le même travail, comparées sur l'identité, les limites, les frais et la garde des fonds.",
+  "verdict_h": "En bref",
+  "less_id": "{x} demande moins d'identité ({lx}) que {y} ({ly}).",
+  "same_id": "Les deux demandent le même niveau d'identité : {l}.",
+  "fiat_one": "Seul {x} accepte les dépôts par carte ou virement.",
+  "fiat_both": "Les deux acceptent les dépôts par carte ou virement.",
+  "fiat_none": "Aucun n'accepte la carte ni le virement : il faut déjà de la crypto pour commencer.",
+  "custody_diff": "{x} laisse vos fonds dans votre wallet ; {y} les garde pendant que vous échangez.",
+  "blocked_one": "{x} n'est pas disponible en/au : {r}.",
+  "note": "Données issues des conditions publiées par chaque plateforme. Ouvrez les fiches pour le détail et les sources.",
+  "limit": "Limite sans identité",
+  "open": "Voir {name}",
+  "other": "Autres comparatifs",
+  "link": "Comparer"
  }
 }

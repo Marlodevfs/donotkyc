@@ -1,0 +1,7 @@
+---
+import Compare from '../../../views/Compare.astro';
+import { pairs } from '../../../data/compare';
+import { OTHER_LOCALES } from '../../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.flatMap((lang) => pairs.map((pair) => ({ params: { lang, pair: pair.slug }, props: { pair } }))); }
+---
+<Compare pair={Astro.props.pair} lang={Astro.params.lang as any} />

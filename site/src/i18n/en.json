@@ -300,5 +300,27 @@
   "US, Canada": "US, Canada",
   "US, UK, Singapore": "US, UK, Singapore",
   "US, for some swaps": "US, for some swaps"
+ },
+ "compare": {
+  "index_title": "Compare no-KYC platforms side by side | DoNotKYC",
+  "index_desc": "Side-by-side comparisons of no-KYC exchanges, swaps and P2P markets: identity asked, limits, fees, custody and availability.",
+  "index_h1": "Compare platforms",
+  "index_lead": "Side-by-side comparisons of platforms that do the same job. Pick a pair.",
+  "title": "{a} vs {b}: KYC, limits and fees compared | DoNotKYC",
+  "desc": "{a} or {b}? Identity asked, limits without ID, fees, custody and availability side by side.",
+  "lead": "Two platforms that do the same job, compared on identity, limits, fees and custody.",
+  "verdict_h": "In short",
+  "less_id": "{x} asks for less identity ({lx}) than {y} ({ly}).",
+  "same_id": "Both ask for the same identity level: {l}.",
+  "fiat_one": "Only {x} accepts card or bank deposits.",
+  "fiat_both": "Both accept card or bank deposits.",
+  "fiat_none": "Neither accepts card or bank deposits: you need crypto to start.",
+  "custody_diff": "{x} leaves your coins in your own wallet; {y} holds them while you trade.",
+  "blocked_one": "{x} is not available in {r}.",
+  "note": "Data from each platform's published terms. Open the platform pages for details and sources.",
+  "limit": "Limit without ID",
+  "open": "Open {name}",
+  "other": "Other comparisons",
+  "link": "Compare"
  }
 }

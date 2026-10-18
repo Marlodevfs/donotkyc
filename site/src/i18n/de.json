@@ -1,45 +1,138 @@
 {
- "meta": { "lang_name": "Deutsch", "dir": "ltr" },
- "nav": { "directory": "Verzeichnis", "blog": "Blog", "vpn": "VPN", "privacy": "Datenschutz-Guide", "security": "Sicherheit", "advertise": "Werben", "theme": "Farbschema wechseln", "menu": "Menü öffnen", "skip": "Zum Inhalt", "language": "Sprache", "home": "DoNotKYC Startseite" },
+ "meta": {
+  "lang_name": "Deutsch",
+  "dir": "ltr"
+ },
+ "nav": {
+  "directory": "Verzeichnis",
+  "blog": "Blog",
+  "vpn": "VPN",
+  "privacy": "Datenschutz-Guide",
+  "security": "Sicherheit",
+  "advertise": "Werben",
+  "theme": "Farbschema wechseln",
+  "menu": "Menü öffnen",
+  "skip": "Zum Inhalt",
+  "language": "Sprache",
+  "home": "DoNotKYC Startseite"
+ },
  "footer": {
   "about": "Ein unabhängiges Verzeichnis von Krypto-Plattformen, auf denen du ohne Ausweis handeln kannst. Nur zur Information, keine Finanzberatung.",
-  "directory": "Verzeichnis", "all": "Alle Plattformen", "submit": "Plattform vorschlagen", "report": "Änderung melden", "how": "Wie wir prüfen", "advertise": "Werben", "api": "Offene Daten-API",
-  "browse": "Entdecken", "exchanges": "Börsen", "swaps": "Sofort-Swaps", "p2p": "P2P-Marktplätze", "bitcoin": "Bitcoin kaufen", "monero": "Monero kaufen",
-  "guides": "Guides", "privacy": "Datenschutz-Guide", "security": "Sicherheitstipps", "vpn": "VPNs für Krypto", "blog": "Blog",
+  "directory": "Verzeichnis",
+  "all": "Alle Plattformen",
+  "submit": "Plattform vorschlagen",
+  "report": "Änderung melden",
+  "how": "Wie wir prüfen",
+  "advertise": "Werben",
+  "api": "Offene Daten-API",
+  "browse": "Entdecken",
+  "exchanges": "Börsen",
+  "swaps": "Sofort-Swaps",
+  "p2p": "P2P-Marktplätze",
+  "bitcoin": "Bitcoin kaufen",
+  "monero": "Monero kaufen",
+  "guides": "Guides",
+  "privacy": "Datenschutz-Guide",
+  "security": "Sicherheitstipps",
+  "vpn": "VPNs für Krypto",
+  "blog": "Blog",
   "community": "Community",
   "legal": "Plattformen ohne KYC bergen Risiken und bieten weniger Schutz. Recherchiere selbst, fang klein an und halte dich an die Gesetze und Steuerregeln deines Landes. Manche „Besuchen“-Links sind Affiliate-Links. Sie ändern die Reihenfolge des Verzeichnisses nicht.",
   "english_only": "Guides und Blog sind auf Englisch."
  },
- "levels": { "none": "Keine", "light": "Gering", "tiered": "Gestuft" },
- "types": { "CEX": "Börse", "DEX": "Dezentrale Börse", "Instant Swap": "Sofort-Swap", "P2P": "P2P-Marktplatz", "Bridge": "Bridge", "ATM": "Bitcoin-Automat" },
- "cats": { "all": "Alle Plattformen", "cex": "Börsen", "dex": "Dezentral", "swap": "Sofort-Swaps", "p2p": "P2P-Marktplätze", "atm": "Automaten und Bridges", "listed": "{n} gelistet" },
- "list": { "platform": "Plattform", "identity": "Verlangte Identität", "fiat": "Karte oder Bank", "fees": "Gebühren", "blocked": "Nicht verfügbar in", "yes": "Ja", "no": "Nein", "everywhere": "Überall verfügbar", "card_or_bank": "Karte oder Bank", "crypto_only": "Nur Krypto", "fees_x": "Gebühren {x}", "details": "Details", "details_of": "Details zu {name}" },
+ "levels": {
+  "none": "Keine",
+  "light": "Gering",
+  "tiered": "Gestuft"
+ },
+ "types": {
+  "CEX": "Börse",
+  "DEX": "Dezentrale Börse",
+  "Instant Swap": "Sofort-Swap",
+  "P2P": "P2P-Marktplatz",
+  "Bridge": "Bridge",
+  "ATM": "Bitcoin-Automat"
+ },
+ "cats": {
+  "all": "Alle Plattformen",
+  "cex": "Börsen",
+  "dex": "Dezentral",
+  "swap": "Sofort-Swaps",
+  "p2p": "P2P-Marktplätze",
+  "atm": "Automaten und Bridges",
+  "listed": "{n} gelistet"
+ },
+ "list": {
+  "platform": "Plattform",
+  "identity": "Verlangte Identität",
+  "fiat": "Karte oder Bank",
+  "fees": "Gebühren",
+  "blocked": "Nicht verfügbar in",
+  "yes": "Ja",
+  "no": "Nein",
+  "everywhere": "Überall verfügbar",
+  "card_or_bank": "Karte oder Bank",
+  "crypto_only": "Nur Krypto",
+  "fees_x": "Gebühren {x}",
+  "details": "Details",
+  "details_of": "Details zu {name}"
+ },
  "home": {
   "title": "Krypto-Börsen, Swaps und P2P-Marktplätze ohne KYC | DoNotKYC",
   "description": "Vergleiche {n} Krypto-Börsen, Sofort-Swaps, P2P-Marktplätze und Bitcoin-Automaten, auf denen du ohne Ausweis handelst. Identitätsstufe, Limits, Gebühren und Verfügbarkeit für jede.",
-  "h1_a": "Krypto handeln", "h1_em": "ohne Ausweis.", "h1_b": "Alle Optionen im Vergleich.",
+  "h1_a": "Krypto handeln",
+  "h1_em": "ohne Ausweis.",
+  "h1_b": "Alle Optionen im Vergleich.",
   "lead": "{n} Börsen, Swaps und P2P-Marktplätze ohne Ausweispflicht, sortiert danach, wie viel Identität sie verlangen.",
-  "search_label": "Plattformen suchen", "search_ph": "Plattform, Coin oder Zahlungsmethode", "search_btn": "Suchen",
-  "popular": "Beliebt:", "s_monero": "Monero", "s_cash": "Mit Bargeld kaufen", "s_lightning": "Lightning", "s_card": "Kauf per Karte",
-  "facts": "Das Verzeichnis in Zahlen", "f_listed": "Plattformen gelistet", "f_noid": "verlangen gar keine Identität", "f_types": "Arten von Plattformen",
-  "categories": "Kategorien", "all_platforms": "Alle Plattformen",
-  "chip_none": "Ohne Ausweis", "chip_fiat": "Karte oder Bank", "chip_us": "In den USA nutzbar", "sort": "Sortieren", "sort_lvl": "Wenigste Identität zuerst", "sort_name": "Name A bis Z",
-  "filtered_by": "Gefiltert nach {x}.", "clear": "Alles löschen", "empty": "Keine Plattform passt zu diesen Filtern.", "clear_filters": "Filter zurücksetzen",
-  "alt_h": "Du verlässt eine Plattform, die deinen Ausweis wollte?", "alt_p": "Jede Seite listet die Plattformen im Verzeichnis, die dasselbe ohne Identitätsprüfung leisten.",
-  "instead_of": "Statt", "n_alternatives": "{n} Alternativen",
-  "picks_h": "Womit wir anfangen würden", "picks_p": "Drei Plattformen, die wir zuerst empfehlen. Bezahlte Plätze sind gekennzeichnet und stehen außerhalb des Rankings.",
+  "search_label": "Plattformen suchen",
+  "search_ph": "Plattform, Coin oder Zahlungsmethode",
+  "search_btn": "Suchen",
+  "popular": "Beliebt:",
+  "s_monero": "Monero",
+  "s_cash": "Mit Bargeld kaufen",
+  "s_lightning": "Lightning",
+  "s_card": "Kauf per Karte",
+  "facts": "Das Verzeichnis in Zahlen",
+  "f_listed": "Plattformen gelistet",
+  "f_noid": "verlangen gar keine Identität",
+  "f_types": "Arten von Plattformen",
+  "categories": "Kategorien",
+  "all_platforms": "Alle Plattformen",
+  "chip_none": "Ohne Ausweis",
+  "chip_fiat": "Karte oder Bank",
+  "chip_us": "In den USA nutzbar",
+  "sort": "Sortieren",
+  "sort_lvl": "Wenigste Identität zuerst",
+  "sort_name": "Name A bis Z",
+  "filtered_by": "Gefiltert nach {x}.",
+  "clear": "Alles löschen",
+  "empty": "Keine Plattform passt zu diesen Filtern.",
+  "clear_filters": "Filter zurücksetzen",
+  "alt_h": "Du verlässt eine Plattform, die deinen Ausweis wollte?",
+  "alt_p": "Jede Seite listet die Plattformen im Verzeichnis, die dasselbe ohne Identitätsprüfung leisten.",
+  "instead_of": "Statt",
+  "n_alternatives": "{n} Alternativen",
+  "picks_h": "Womit wir anfangen würden",
+  "picks_p": "Drei Plattformen, die wir zuerst empfehlen. Bezahlte Plätze sind gekennzeichnet und stehen außerhalb des Rankings.",
   "pick_bisq": "Kaufe Bitcoin von einer anderen Person per Überweisung oder Bargeld. Open-Source-App, niemand verwahrt deine Coins.",
   "pick_trocador": "Vergleicht viele Swap-Dienste mit einer Anfrage und zeigt die Identitätsregeln jedes Partners.",
   "pick_boltz": "Wechsle zwischen Bitcoin, Lightning und Liquid, ohne ein Konto anzulegen.",
   "how_h": "So funktioniert das Verzeichnis",
   "how_p": "Jeder Eintrag zeigt die verlangte Identität, die Limits, gesperrte Regionen, die Gebühren und ob die Plattform Einzahlungen per Karte oder Bank annimmt. Wir ändern oder entfernen einen Eintrag, sobald die Plattform den Ausweis zur Pflicht macht.",
-  "t_cex_h": "Börsen", "t_cex_p": "Hohe Liquidität, Orderbücher und Apps. Ihre Stufen ohne KYC begrenzen Auszahlungen für nicht verifizierte Konten.",
-  "t_dex_h": "Dezentrale Börsen", "t_dex_p": "Smart Contracts, keine Registrierung. Du handelst aus deinem eigenen Wallet und behältst deine Schlüssel.",
-  "t_swap_h": "Sofort-Swaps", "t_swap_p": "Schneller Tausch von Coin zu Coin ohne Konto, die Marge steckt im Kurs.",
-  "t_p2p_h": "P2P-Marktplätze", "t_p2p_p": "Du bezahlst eine andere Person mit einer lokalen Zahlungsmethode. Sicherheit hängt von Treuhand und Reputation ab.",
-  "t_atm_h": "Automaten und Bridges", "t_atm_p": "Automaten verkaufen Krypto gegen Bargeld, unter einer Schwelle ohne Ausweis. Bridges verschieben Werte zwischen Blockchains.",
-  "r1_h": "Rankings sind nicht käuflich", "r1_p": "Wir sortieren das Verzeichnis nach der Identität, die jede Plattform verlangt. Bezahlen schiebt keine Plattform nach oben.",
-  "r2_h": "Affiliate-Links gekennzeichnet", "r2_p": "Manche „Besuchen“-Buttons bringen uns eine Provision. Jede Plattformseite sagt, wann das der Fall ist.",
+  "t_cex_h": "Börsen",
+  "t_cex_p": "Hohe Liquidität, Orderbücher und Apps. Ihre Stufen ohne KYC begrenzen Auszahlungen für nicht verifizierte Konten.",
+  "t_dex_h": "Dezentrale Börsen",
+  "t_dex_p": "Smart Contracts, keine Registrierung. Du handelst aus deinem eigenen Wallet und behältst deine Schlüssel.",
+  "t_swap_h": "Sofort-Swaps",
+  "t_swap_p": "Schneller Tausch von Coin zu Coin ohne Konto, die Marge steckt im Kurs.",
+  "t_p2p_h": "P2P-Marktplätze",
+  "t_p2p_p": "Du bezahlst eine andere Person mit einer lokalen Zahlungsmethode. Sicherheit hängt von Treuhand und Reputation ab.",
+  "t_atm_h": "Automaten und Bridges",
+  "t_atm_p": "Automaten verkaufen Krypto gegen Bargeld, unter einer Schwelle ohne Ausweis. Bridges verschieben Werte zwischen Blockchains.",
+  "r1_h": "Rankings sind nicht käuflich",
+  "r1_p": "Wir sortieren das Verzeichnis nach der Identität, die jede Plattform verlangt. Bezahlen schiebt keine Plattform nach oben.",
+  "r2_h": "Affiliate-Links gekennzeichnet",
+  "r2_p": "Manche „Besuchen“-Buttons bringen uns eine Provision. Jede Plattformseite sagt, wann das der Fall ist.",
   "guide_h": "Eine Plattform ohne KYC wählen",
   "guide_p1": "Geh davon aus, wie viel Privatsphäre du brauchst und wie sicher du mit Wallets bist. Eine dezentrale Börse gibt dir die meiste Kontrolle und Anonymität; eine Börse mit KYC-freier Stufe ist einfacher und liquider.",
   "guide_h2": "Vergleiche die Gesamtkosten",
@@ -48,99 +141,390 @@
   "guide_p3": "Mach eine kleine Testeinzahlung, einen Trade und eine Auszahlung, bevor du größere Beträge bewegst. Verteile das Risiko auf mehrere Plattformen und halte langfristige Bestände in Eigenverwahrung.",
   "guide_h4": "Bleib sicher",
   "guide_p4": "Nutze ein Hardware-Wallet oder ein geprüftes Software-Wallet, prüfe URLs und Vertragsadressen, erteile Wallet-Berechtigungen nur bei Bedarf und vermeide große Guthaben auf Plattformen. Ohne KYC entfallen weder rechtliche noch steuerliche Pflichten, und du hast weniger Möglichkeiten, wenn etwas schiefgeht.",
-  "ad_h": "Du betreibst einen datenschutzfreundlichen Dienst?", "ad_p": "Deine Kachel trägt das Label Gesponsert, erreicht Menschen, die KYC schon meiden, und lässt die Reihenfolge des Verzeichnisses unverändert. Wir prüfen jeden Werbekunden vorab.", "ad_btn": "Bei uns werben",
+  "ad_h": "Du betreibst einen datenschutzfreundlichen Dienst?",
+  "ad_p": "Deine Kachel trägt das Label Gesponsert, erreicht Menschen, die KYC schon meiden, und lässt die Reihenfolge des Verzeichnisses unverändert. Wir prüfen jeden Werbekunden vorab.",
+  "ad_btn": "Bei uns werben",
   "faq_h": "Häufige Fragen",
   "faq": [
-   ["Was ist KYC?", "Know Your Customer ist die Identitätsprüfung, die regulierte Dienste verlangen, bevor du handeln darfst: Ausweis oder Pass, Adressnachweis, manchmal ein Selfie. Sie dient der Geldwäschebekämpfung und bündelt sensible Daten, die bei einem Hack auslaufen können."],
-   ["Ist Handeln ohne KYC legal?", "Das hängt davon ab, wo du lebst. Eine Plattform ohne Ausweispflicht zu nutzen ist in den meisten Ländern legal, aber Steuer- und Meldepflichten gelten weiter für dich. Dezentrale Protokolle unterliegen weniger direkter Aufsicht; du bleibst dafür verantwortlich, dein lokales Recht einzuhalten."],
-   ["Was bedeuten Keine, Gering und Gestuft?", "Keine: kein Ausweis und keine Kontodaten. Gering: kein Ausweis unter einem genannten Limit, oder nur E-Mail oder Telefonnummer. Gestuft: Ab einer Schwelle ist ein Ausweis nötig, die Schwelle steht in jedem Eintrag."],
-   ["Welche Plattform eignet sich für Einsteiger?", "Beginne mit einer Börse, die eine Stufe ohne KYC hat: Sie funktioniert wie die Apps, die du kennst. Eine dezentrale Börse bietet die meiste Privatsphäre und Kontrolle, verlangt aber Sicherheit im Umgang mit Wallet und Netzwerkgebühren."],
-   ["Wie unterscheiden sich die Gebühren?", "Börsen haben engere Spreads und schnelle interne Transfers. Dezentrale Börsen zeigen niedrigere Protokollgebühren, dazu kommen Netzwerkkosten. Sofort-Swaps rechnen ihre Marge in den Kurs ein, Automaten schlagen einen Aufpreis für das Bargeld auf."],
-   ["Wie wählt DoNotKYC Plattformen aus?", "Wir prüfen jeden Eintrag anhand der Dokumentation der Plattform und ihres Verhaltens in der App und kontrollieren ihn regelmäßig erneut. Wenn ein Dienst den Zugang ohne KYC streicht oder den Ausweis für seine Kernfunktionen zur Pflicht macht, ändern oder entfernen wir den Eintrag."],
-   ["Wie verdient DoNotKYC Geld?", "Manche „Besuchen“-Buttons sind Affiliate-Links, auf jeder Plattformseite gekennzeichnet. Jeder gesponserte Platz trägt ein Label. Beides ändert nicht die Reihenfolge des Verzeichnisses, die sich nach der verlangten Identität richtet."],
-   ["Ein Eintrag ist veraltet. Wie melde ich das?", "Nutze den Link „Änderung melden“ auf der Seite der Plattform oder im Footer. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern."]
+   [
+    "Was ist KYC?",
+    "Know Your Customer ist die Identitätsprüfung, die regulierte Dienste verlangen, bevor du handeln darfst: Ausweis oder Pass, Adressnachweis, manchmal ein Selfie. Sie dient der Geldwäschebekämpfung und bündelt sensible Daten, die bei einem Hack auslaufen können."
+   ],
+   [
+    "Ist Handeln ohne KYC legal?",
+    "Das hängt davon ab, wo du lebst. Eine Plattform ohne Ausweispflicht zu nutzen ist in den meisten Ländern legal, aber Steuer- und Meldepflichten gelten weiter für dich. Dezentrale Protokolle unterliegen weniger direkter Aufsicht; du bleibst dafür verantwortlich, dein lokales Recht einzuhalten."
+   ],
+   [
+    "Was bedeuten Keine, Gering und Gestuft?",
+    "Keine: kein Ausweis und keine Kontodaten. Gering: kein Ausweis unter einem genannten Limit, oder nur E-Mail oder Telefonnummer. Gestuft: Ab einer Schwelle ist ein Ausweis nötig, die Schwelle steht in jedem Eintrag."
+   ],
+   [
+    "Welche Plattform eignet sich für Einsteiger?",
+    "Beginne mit einer Börse, die eine Stufe ohne KYC hat: Sie funktioniert wie die Apps, die du kennst. Eine dezentrale Börse bietet die meiste Privatsphäre und Kontrolle, verlangt aber Sicherheit im Umgang mit Wallet und Netzwerkgebühren."
+   ],
+   [
+    "Wie unterscheiden sich die Gebühren?",
+    "Börsen haben engere Spreads und schnelle interne Transfers. Dezentrale Börsen zeigen niedrigere Protokollgebühren, dazu kommen Netzwerkkosten. Sofort-Swaps rechnen ihre Marge in den Kurs ein, Automaten schlagen einen Aufpreis für das Bargeld auf."
+   ],
+   [
+    "Wie wählt DoNotKYC Plattformen aus?",
+    "Wir prüfen jeden Eintrag anhand der Dokumentation der Plattform und ihres Verhaltens in der App und kontrollieren ihn regelmäßig erneut. Wenn ein Dienst den Zugang ohne KYC streicht oder den Ausweis für seine Kernfunktionen zur Pflicht macht, ändern oder entfernen wir den Eintrag."
+   ],
+   [
+    "Wie verdient DoNotKYC Geld?",
+    "Manche „Besuchen“-Buttons sind Affiliate-Links, auf jeder Plattformseite gekennzeichnet. Jeder gesponserte Platz trägt ein Label. Beides ändert nicht die Reihenfolge des Verzeichnisses, die sich nach der verlangten Identität richtet."
+   ],
+   [
+    "Ein Eintrag ist veraltet. Wie melde ich das?",
+    "Nutze den Link „Änderung melden“ auf der Seite der Plattform oder im Footer. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern."
+   ]
   ]
  },
- "sponsor": { "label": "Gesponsert", "slot": "Gesponserter Platz", "visit": "{host} besuchen", "paid": "Bezahlter Platz. Nicht getestet, nicht gerankt.", "why": "Warum diese Anzeige?", "here_h": "Dein Dienst hier", "here_p": "Eine gekennzeichnete Kachel, gesehen von Menschen, die KYC schon meiden. Wir prüfen jeden Werbekunden vorab.", "how": "So wirbst du", "current_h": "Aktuelle Sponsoren", "none_running": "Gerade läuft keine gesponserte Platzierung." },
- "landing": { "count": "{n} Plattformen gelistet, {m} davon ganz ohne Identität. Sortiert nach der verlangten Identität.", "questions": "Fragen", "see_also": "Siehe auch", "all": "Alle Plattformen im Verzeichnis", "groups": { "alternative": "Alternativen", "coin": "Kaufen", "payment": "Bezahlen mit" } },
+ "sponsor": {
+  "label": "Gesponsert",
+  "slot": "Gesponserter Platz",
+  "visit": "{host} besuchen",
+  "paid": "Bezahlter Platz. Nicht getestet, nicht gerankt.",
+  "why": "Warum diese Anzeige?",
+  "here_h": "Dein Dienst hier",
+  "here_p": "Eine gekennzeichnete Kachel, gesehen von Menschen, die KYC schon meiden. Wir prüfen jeden Werbekunden vorab.",
+  "how": "So wirbst du",
+  "current_h": "Aktuelle Sponsoren",
+  "none_running": "Gerade läuft keine gesponserte Platzierung."
+ },
+ "landing": {
+  "count": "{n} Plattformen gelistet, {m} davon ganz ohne Identität. Sortiert nach der verlangten Identität.",
+  "questions": "Fragen",
+  "see_also": "Siehe auch",
+  "all": "Alle Plattformen im Verzeichnis",
+  "groups": {
+   "alternative": "Alternativen",
+   "coin": "Kaufen",
+   "payment": "Bezahlen mit"
+  }
+ },
  "platform": {
   "title": "{name}: KYC-Regeln, Limits und Gebühren | DoNotKYC",
   "description": "{name} ist ein(e) {type}. Verlangte Identität: {level} ({summary}). {fiat} Gebühren: {fees}. Verfügbarkeit: {countries}.",
-  "fiat_yes": "Nimmt Einzahlungen per Karte oder Bank an.", "fiat_no": "Nur Krypto.",
+  "fiat_yes": "Nimmt Einzahlungen per Karte oder Bank an.",
+  "fiat_no": "Nur Krypto.",
   "lead": "{type}. {summary}.",
-  "card_ok": "Karte oder Bank möglich", "crypto_only": "Nur Krypto", "tested": "Getestet am {date}",
-  "visit": "{host} besuchen", "aff": "Affiliate-Link. Ändert die Reihenfolge nicht.", "no_aff": "Kein Affiliate-Link.",
+  "card_ok": "Karte oder Bank möglich",
+  "crypto_only": "Nur Krypto",
+  "tested": "Getestet am {date}",
+  "visit": "{host} besuchen",
+  "aff": "Affiliate-Link. Ändert die Reihenfolge nicht.",
+  "no_aff": "Kein Affiliate-Link.",
   "rechecking": "Wird erneut geprüft.",
-  "kyc_h": "Identität und Limits", "listed_policy": "Angegebene Regel: {x}.",
+  "kyc_h": "Identität und Limits",
+  "listed_policy": "Angegebene Regel: {x}.",
   "warn": "Regeln ändern sich ohne Vorwarnung. Fang mit einem kleinen Betrag an und lies die Bedingungen der Plattform, bevor du größere Summen bewegst. Ohne Identitätsprüfung gewinnst du Privatsphäre, hast aber weniger Möglichkeiten, wenn etwas schiefgeht.",
-  "features": "Funktionen", "tests_h": "Unsere Tests",
-  "untested": "Wir haben {name} noch nicht mit echtem Geld getestet. Dieser Eintrag beruht auf den veröffentlichten Bedingungen.", "source": "Quelle", "how_we_test": "Wie wir testen",
+  "features": "Funktionen",
+  "tests_h": "Unsere Tests",
+  "untested": "Wir haben {name} noch nicht mit echtem Geld getestet. Dieser Eintrag beruht auf den veröffentlichten Bedingungen.",
+  "source": "Quelle",
+  "how_we_test": "Wie wir testen",
   "test_line": "{steps} mit {amount} per {method}. {result}",
-  "changed_h": "Hat sich etwas geändert?", "changed_a": "Wenn {name} jetzt einen Ausweis verlangt, die Limits geändert hat oder geschlossen ist,", "changed_link": "sag es uns auf GitHub", "changed_b": "Wir prüfen jede Meldung, bevor wir einen Eintrag ändern.",
-  "glance": "Auf einen Blick", "identity": "Verlangte Identität", "type": "Typ", "custody": "Verwahrung", "payment": "Zahlung", "fees": "Gebühren", "availability": "Verfügbarkeit",
-  "tor": "Tor-Zugang", "oss": "Open Source", "coins": "Coins", "volume": "24h-Volumen", "reputation": "Reputation", "similar": "Ähnliche Plattformen", "yes": "Ja", "no": "Nein",
-  "custody_v": { "self": "Dein Wallet", "custodial": "Plattform verwahrt", "none": "Entfällt (Bargeld)" },
-  "payments_v": { "crypto": "Krypto", "bank": "Überweisung", "card": "Karte", "cash": "Bargeld", "gift-card": "Geschenkkarten", "fiat": "Karte oder Bank" },
-  "kyc_asked_v": { "none": "Nichts", "email": "Nur E-Mail", "phone": "Telefonnummer", "id": "Ausweisdokument" },
+  "changed_h": "Hat sich etwas geändert?",
+  "changed_a": "Wenn {name} jetzt einen Ausweis verlangt, die Limits geändert hat oder geschlossen ist,",
+  "changed_link": "sag es uns auf GitHub",
+  "changed_b": "Wir prüfen jede Meldung, bevor wir einen Eintrag ändern.",
+  "glance": "Auf einen Blick",
+  "identity": "Verlangte Identität",
+  "type": "Typ",
+  "custody": "Verwahrung",
+  "payment": "Zahlung",
+  "fees": "Gebühren",
+  "availability": "Verfügbarkeit",
+  "tor": "Tor-Zugang",
+  "oss": "Open Source",
+  "coins": "Coins",
+  "volume": "24h-Volumen",
+  "reputation": "Reputation",
+  "similar": "Ähnliche Plattformen",
+  "yes": "Ja",
+  "no": "Nein",
+  "custody_v": {
+   "self": "Dein Wallet",
+   "custodial": "Plattform verwahrt",
+   "none": "Entfällt (Bargeld)"
+  },
+  "payments_v": {
+   "crypto": "Krypto",
+   "bank": "Überweisung",
+   "card": "Karte",
+   "cash": "Bargeld",
+   "gift-card": "Geschenkkarten",
+   "fiat": "Karte oder Bank"
+  },
+  "kyc_asked_v": {
+   "none": "Nichts",
+   "email": "Nur E-Mail",
+   "phone": "Telefonnummer",
+   "id": "Ausweisdokument"
+  },
   "status_note_synapse-protocol": "synapseprotocol.com leitet jetzt auf hypercall.xyz/synapse weiter: Wir prüfen den Dienst und seine Adresse."
  },
  "data": {
-  "Depends on the partner": "Hängt vom Partner ab", "Email only": "Nur E-Mail", "ID above small cash amounts": "Ausweis ab kleinen Bargeldbeträgen", "ID above the first tier": "Ausweis ab der ersten Stufe",
-  "ID only if a swap is flagged": "Ausweis nur bei markiertem Swap", "May freeze a flagged swap": "Kann markierte Swaps einfrieren", "No ID": "Kein Ausweis", "No ID at any amount": "Kein Ausweis bei jedem Betrag",
-  "No ID at low limits": "Kein Ausweis bei niedrigen Limits", "No ID for crypto swaps": "Kein Ausweis für Krypto-Swaps", "No ID up to $10,000 a day": "Kein Ausweis bis 10.000 $ pro Tag", "No ID up to $700 a swap": "Kein Ausweis bis 700 $ pro Swap",
-  "No ID up to 10 BTC a day": "Kein Ausweis bis 10 BTC pro Tag", "No ID up to 10 BTC withdrawal": "Kein Ausweis bis 10 BTC Auszahlung", "No ID up to 20,000 USDT a day": "Kein Ausweis bis 20.000 USDT pro Tag",
-  "No ID up to about $20,000 a day": "Kein Ausweis bis etwa 20.000 $ pro Tag", "No ID up to set limits": "Kein Ausweis bis zu festen Limits", "No ID, on-chain escrow": "Kein Ausweis, On-Chain-Treuhand", "No account": "Kein Konto",
-  "No account at all": "Gar kein Konto", "Phone number only": "Nur Telefonnummer", "The seller decides": "Der Verkäufer entscheidet", "Wallet only": "Nur Wallet",
-  "Outside Canada, US": "Außerhalb Kanadas und der USA", "Outside Europe": "Außerhalb Europas", "Outside US, Puerto Rico": "Außerhalb der USA und Puerto Ricos", "Outside the US": "Außerhalb der USA",
-  "Outside the southern US": "Außerhalb des Südens der USA", "Some regions": "Einige Regionen", "US": "USA", "US, Canada": "USA, Kanada", "US, UK, Singapore": "USA, Vereinigtes Königreich, Singapur", "US, for some swaps": "USA, für einige Swaps"
+  "Depends on the partner": "Hängt vom Partner ab",
+  "Email only": "Nur E-Mail",
+  "ID above small cash amounts": "Ausweis ab kleinen Bargeldbeträgen",
+  "ID above the first tier": "Ausweis ab der ersten Stufe",
+  "ID only if a swap is flagged": "Ausweis nur bei markiertem Swap",
+  "May freeze a flagged swap": "Kann markierte Swaps einfrieren",
+  "No ID": "Kein Ausweis",
+  "No ID at any amount": "Kein Ausweis bei jedem Betrag",
+  "No ID at low limits": "Kein Ausweis bei niedrigen Limits",
+  "No ID for crypto swaps": "Kein Ausweis für Krypto-Swaps",
+  "No ID up to $10,000 a day": "Kein Ausweis bis 10.000 $ pro Tag",
+  "No ID up to $700 a swap": "Kein Ausweis bis 700 $ pro Swap",
+  "No ID up to 10 BTC a day": "Kein Ausweis bis 10 BTC pro Tag",
+  "No ID up to 10 BTC withdrawal": "Kein Ausweis bis 10 BTC Auszahlung",
+  "No ID up to 20,000 USDT a day": "Kein Ausweis bis 20.000 USDT pro Tag",
+  "No ID up to about $20,000 a day": "Kein Ausweis bis etwa 20.000 $ pro Tag",
+  "No ID up to set limits": "Kein Ausweis bis zu festen Limits",
+  "No ID, on-chain escrow": "Kein Ausweis, On-Chain-Treuhand",
+  "No account": "Kein Konto",
+  "No account at all": "Gar kein Konto",
+  "Phone number only": "Nur Telefonnummer",
+  "The seller decides": "Der Verkäufer entscheidet",
+  "Wallet only": "Nur Wallet",
+  "Outside Canada, US": "Außerhalb Kanadas und der USA",
+  "Outside Europe": "Außerhalb Europas",
+  "Outside US, Puerto Rico": "Außerhalb der USA und Puerto Ricos",
+  "Outside the US": "Außerhalb der USA",
+  "Outside the southern US": "Außerhalb des Südens der USA",
+  "Some regions": "Einige Regionen",
+  "US": "USA",
+  "US, Canada": "USA, Kanada",
+  "US, UK, Singapore": "USA, Vereinigtes Königreich, Singapur",
+  "US, for some swaps": "USA, für einige Swaps"
  },
  "landings": {
-  "/exchanges": { "nav": "Börsen", "title": "Krypto-Börsen ohne KYC: Limits ohne Ausweis | DoNotKYC", "description": "Zentrale Krypto-Börsen, auf denen du ohne Ausweis handelst, mit ihren Auszahlungslimits ohne KYC, Gebühren und gesperrten Ländern.", "h1": "Krypto-Börsen ohne KYC",
-   "intro": ["Zentrale Börsen bieten Orderbücher, hohe Liquidität, Futures und Apps. Diese hier lassen dich ohne Ausweisdokument handeln, meist bis zu einem täglichen Auszahlungslimit.", "Sie verwahren dein Geld, solange es auf der Plattform liegt. Zahl danach auf dein eigenes Wallet aus und prüfe das Limit, bevor du mehr einzahlst, als es erlaubt."],
-   "faq": [["Kann eine Börse später einen Ausweis verlangen?", "Ja. Die meisten Stufen ohne KYC können bei großen Auszahlungen oder ungewöhnlicher Aktivität eine Prüfung auslösen, und Regeln ändern sich. Fang klein an und lass nur auf der Börse, womit du gerade handelst."]] },
-  "/dex": { "nav": "Dezentrale Börsen", "title": "Dezentrale Börsen (DEX) ohne KYC | DoNotKYC", "description": "Dezentrale Börsen, auf denen du direkt aus deinem Wallet handelst: keine Registrierung, kein Ausweis, deine Schlüssel bleiben bei dir.", "h1": "Dezentrale Börsen",
-   "intro": ["Eine dezentrale Börse läuft auf Smart Contracts. Du verbindest dein eigenes Wallet und handelst ohne Konto: Es gibt keine Identität anzugeben, und niemand verwahrt deine Coins.", "Zu den Handelsgebühren kommen Netzwerkgebühren, und du solltest sicher mit einem Wallet umgehen können. Manche Oberflächen sperren Länder, obwohl die Verträge offen bleiben."] },
-  "/swaps": { "nav": "Sofort-Swaps", "title": "Krypto-Sofort-Swaps ohne Konto | DoNotKYC", "description": "Tausche einen Coin gegen einen anderen ohne Konto und ohne Ausweis. Limits, Gebühren und wann ein Dienst nachfragen kann.", "h1": "Sofort-Swaps ohne Konto",
-   "intro": ["Sofort-Swap-Dienste wandeln einen Coin in einem Schritt in einen anderen um: Du sendest Coins an eine Adresse und erhältst den anderen Coin in deinem Wallet. Ein Konto ist nicht nötig.", "Ihre Marge steckt im angebotenen Kurs. Manche können einen von ihren Kontrollen markierten Swap anhalten und Informationen verlangen, bevor sie ihn freigeben: Der Eintrag sagt, wann."] },
-  "/p2p": { "nav": "P2P-Marktplätze", "title": "P2P-Bitcoin-Marktplätze ohne KYC | DoNotKYC", "description": "Kaufe und verkaufe Bitcoin direkt mit anderen Menschen per Überweisung oder Bargeld, mit Treuhand und ohne Ausweis.", "h1": "P2P-Marktplätze: Krypto von Menschen kaufen",
-   "intro": ["Peer-to-Peer-Marktplätze bringen dich mit einem Käufer oder Verkäufer zusammen. Du bezahlst die andere Person per Überweisung, Bargeld oder einer anderen akzeptierten Methode, und eine Treuhand gibt die Coins frei, sobald sie die Zahlung bestätigt.", "Deine Bank sieht weiterhin eine Überweisung an eine namentlich genannte Person. Reputation und Treuhandregeln zählen hier mehr als Gebühren: Lies sie vor deinem ersten Handel."] },
-  "/atms": { "nav": "Bitcoin-Automaten", "title": "Bitcoin-Automaten mit wenig oder ohne Ausweis | DoNotKYC", "description": "Bitcoin-Automatennetze, an denen du mit Bargeld kaufst, und die Beträge, ab denen sie einen Ausweis verlangen.", "h1": "Bitcoin-Automaten mit wenig oder ohne Ausweis",
-   "intro": ["Bitcoin-Automaten verkaufen Krypto gegen Bargeld. Viele erlauben kleine Käufe mit einer Telefonnummer oder ganz ohne Angaben und verlangen erst ab einer Schwelle einen Ausweis, festgelegt vom Betreiber und den lokalen Regeln.", "Die Gebühren liegen mehrere Prozent über dem Marktpreis. Automaten lohnen sich vor allem für kleine Beträge, wenn du Bargeld hast."] },
-  "/bridges": { "nav": "Bridges", "title": "Cross-Chain-Bridges ohne KYC | DoNotKYC", "description": "Verschiebe Krypto zwischen Blockchains aus deinem Wallet, ohne Konto und ohne Ausweis.", "h1": "Cross-Chain-Bridges",
-   "intro": ["Bridges verschieben Werte von einer Blockchain auf eine andere, direkt aus deinem Wallet. Sie verlangen keine Identität, sind aber ein häufiges Ziel von Hacks.", "Nutze etablierte Routen, prüfe Gebühren und geschätzte Dauer vor dem Bestätigen und verschiebe große Beträge in mehreren Schritten."] },
-  "/alternatives/binance": { "nav": "Binance", "title": "Binance-Alternativen ohne KYC | DoNotKYC", "description": "Binance verlangt eine Identitätsprüfung. Diese Börsen und DEX lassen dich Spot und Futures ohne Ausweis handeln.", "h1": "Binance-Alternativen ohne KYC",
-   "intro": ["Binance verlangt von jedem Nutzer eine Identitätsprüfung vor dem Handel. Wenn du es für Spot-Handel, Altcoins oder Futures genutzt hast, leisten die Börsen und dezentralen Börsen unten dasselbe ohne Ausweis oder ohne Ausweis unter einem Limit.", "Prüfe vor dem Verschieben von Geld Limit und gesperrte Länder jeder Plattform. Bedingungen ändern sich: Der Eintrag zeigt, was wir wissen."] },
-  "/alternatives/coinbase": { "nav": "Coinbase", "title": "Coinbase-Alternativen ohne KYC | DoNotKYC", "description": "Coinbase verlangt einen Ausweis für Käufe. Wege, Bitcoin und andere Coins per Karte, Überweisung oder Bargeld ohne Ausweis zu kaufen.", "h1": "Coinbase-Alternativen ohne KYC",
-   "intro": ["Coinbase verlangt ein Ausweisdokument, bevor du kaufen kannst. Wenn du dort per Karte oder Überweisung gekauft hast, nehmen diese Plattformen Fiat-Geld ohne Ausweis oder mit leichten Prüfungen an.", "Bei Fiat-Käufen greifen die Limits am schnellsten: Die meisten dieser Plattformen setzen einen Höchstbetrag ohne Ausweis."] },
-  "/alternatives/kraken": { "nav": "Kraken", "title": "Kraken-Alternativen ohne KYC | DoNotKYC", "description": "Kraken verlangt eine Identitätsprüfung für den Handel. Börsen mit KYC-freier Stufe und dezentrale Börsen ohne Ausweis.", "h1": "Kraken-Alternativen ohne KYC",
-   "intro": ["Kraken verlangt eine Identitätsprüfung, bevor du einzahlen und handeln kannst. Diese Börsen und dezentralen Börsen lassen dich ohne Ausweisdokument handeln."] },
-  "/alternatives/kucoin": { "nav": "KuCoin", "title": "KuCoin-Alternativen ohne KYC | DoNotKYC", "description": "KuCoin hat die Identitätsprüfung zur Pflicht gemacht. Wo du Altcoins heute ohne Ausweis handelst.", "h1": "KuCoin-Alternativen ohne KYC",
-   "intro": ["KuCoin hat die Identitätsprüfung für neue Nutzer zur Pflicht gemacht. Für Altcoin-Handel ohne Ausweis sind diese Börsen, dezentralen Börsen und Swap-Dienste der nächste Ersatz."] },
-  "/alternatives/revolut": { "nav": "Revolut", "title": "Krypto-Alternativen zu Revolut ohne KYC | DoNotKYC", "description": "Kaufe Krypto per Überweisung oder Karte ohne die Identitätsprüfungen einer Banking-App.", "h1": "Krypto-Alternativen zu Revolut ohne KYC",
-   "intro": ["Banking-Apps wie Revolut verknüpfen jeden Kryptokauf mit deiner geprüften Identität. Diese Plattformen lassen dich per Überweisung, Karte oder Bargeld ohne Ausweisdokument oder mit leichten Prüfungen kaufen."] },
-  "/alternatives/paypal": { "nav": "PayPal", "title": "Krypto-Alternativen zu PayPal ohne KYC | DoNotKYC", "description": "Kaufe Krypto per Karte ohne die Identitätsprüfung, die PayPal verlangt.", "h1": "Krypto-Alternativen zu PayPal ohne KYC",
-   "intro": ["PayPal verlangt eine geprüfte Identität für Kryptokäufe, und die Coins bleiben bei PayPal. Diese Dienste verkaufen Krypto per Karte und senden sie direkt an dein eigenes Wallet, bis zu ihrem Limit ohne Ausweis."] },
-  "/alternatives/crypto-com": { "nav": "Crypto.com", "title": "Crypto.com-Alternativen ohne KYC | DoNotKYC", "description": "Crypto.com verlangt einen Ausweis. Börsen und Karten-Kaufdienste mit wenig oder keiner Prüfung.", "h1": "Crypto.com-Alternativen ohne KYC",
-   "intro": ["Crypto.com verlangt eine Identitätsprüfung vor Handel oder Kauf. Diese Börsen und Kaufdienste funktionieren ohne Ausweisdokument oder ohne Ausweis unter einem Limit."] },
-  "/alternatives/robinhood": { "nav": "Robinhood", "title": "Krypto-Alternativen zu Robinhood ohne KYC | DoNotKYC", "description": "Kaufe Bitcoin ohne die Identitätsprüfung einer Broker-App: P2P-Marktplätze, Automaten und Swaps.", "h1": "Krypto-Alternativen zu Robinhood ohne KYC",
-   "intro": ["Broker-Apps wie Robinhood verlangen deine Identität und behalten deine Coins. Wenn du einfach Bitcoin kaufen und selbst halten willst, verlangen diese P2P-Marktplätze, Automaten und Swap-Dienste wenig oder keine Identität."] },
-  "/buy/bitcoin": { "nav": "Bitcoin", "title": "Bitcoin ohne KYC kaufen | DoNotKYC", "description": "Wo du Bitcoin ohne Ausweis kaufst: P2P-Marktplätze, Automaten, Lightning-Swaps und Börsen mit KYC-freier Stufe.", "h1": "Bitcoin ohne KYC kaufen",
-   "intro": ["Die diskretesten Wege zu Bitcoin sind Peer-to-Peer-Marktplätze und kleine Bargeldkäufe am Automaten. Börsen mit KYC-freier Stufe und Swap-Dienste eignen sich, wenn du bereits einen anderen Coin hast.", "Zahl auf ein Wallet aus, das du kontrollierst, sobald der Kauf abgeschlossen ist."] },
-  "/buy/monero": { "nav": "Monero", "title": "Monero (XMR) ohne KYC kaufen | DoNotKYC", "description": "Wo du Monero (XMR) ohne Ausweis bekommst: P2P-Handel und Sofort-Swaps mit XMR-Unterstützung.", "h1": "Monero ohne KYC kaufen",
-   "intro": ["Viele große Börsen haben Monero delistet. Deshalb kaufst du XMR von Person zu Person oder tauschst es per Swap aus einem anderen Coin. Diese Plattformen unterstützen XMR, ohne einen Ausweis zu verlangen."] },
-  "/pay/cash": { "nav": "Bargeld", "title": "Krypto mit Bargeld kaufen, ohne Ausweis | DoNotKYC", "description": "Kaufe Krypto mit Bargeld: Bitcoin-Automaten und P2P-Marktplätze, die Bargeld annehmen, und wie viel du ohne Ausweis kaufen kannst.", "h1": "Krypto mit Bargeld kaufen",
-   "intro": ["Bargeld hinterlässt keine Bankspur. Du kannst es an Bitcoin-Automaten nutzen, die ab einer Schwelle einen Ausweis verlangen, oder bei Verkäufern auf P2P-Marktplätzen, die Bargeld persönlich oder per Post annehmen."] },
-  "/pay/bank-transfer": { "nav": "Überweisung", "title": "Krypto per Überweisung ohne KYC kaufen | DoNotKYC", "description": "Kaufe Krypto per Überweisung, ohne der Plattform einen Ausweis zu schicken, über P2P-Marktplätze.", "h1": "Krypto per Überweisung kaufen",
-   "intro": ["Die Überweisung ist der günstigste Weg, aber deine Bank sieht, wen du bezahlst. Auf P2P-Marktplätzen bezahlst du eine andere Person, die Plattform verlangt also keinen Ausweis; der Verkäufer sieht deinen Namen auf der Überweisung."] },
-  "/pay/card": { "nav": "Karte", "title": "Krypto per Karte ohne KYC kaufen | DoNotKYC", "description": "Kaufe Krypto mit Debit- oder Kreditkarte ohne Ausweis, bis zum Limit des jeweiligen Dienstes.", "h1": "Krypto per Karte kaufen",
-   "intro": ["Kartenkäufe gehen schnell, sind aber selten anonym: Zahlungsabwickler führen eigene Prüfungen durch, und die Limits ohne Ausweis sind niedrig. Diese Dienste nehmen Karten ohne Ausweis bis zu ihrem Limit an."] }
+  "/exchanges": {
+   "nav": "Börsen",
+   "title": "Krypto-Börsen ohne KYC: Limits ohne Ausweis | DoNotKYC",
+   "description": "Zentrale Krypto-Börsen, auf denen du ohne Ausweis handelst, mit ihren Auszahlungslimits ohne KYC, Gebühren und gesperrten Ländern.",
+   "h1": "Krypto-Börsen ohne KYC",
+   "intro": [
+    "Zentrale Börsen bieten Orderbücher, hohe Liquidität, Futures und Apps. Diese hier lassen dich ohne Ausweisdokument handeln, meist bis zu einem täglichen Auszahlungslimit.",
+    "Sie verwahren dein Geld, solange es auf der Plattform liegt. Zahl danach auf dein eigenes Wallet aus und prüfe das Limit, bevor du mehr einzahlst, als es erlaubt."
+   ],
+   "faq": [
+    [
+     "Kann eine Börse später einen Ausweis verlangen?",
+     "Ja. Die meisten Stufen ohne KYC können bei großen Auszahlungen oder ungewöhnlicher Aktivität eine Prüfung auslösen, und Regeln ändern sich. Fang klein an und lass nur auf der Börse, womit du gerade handelst."
+    ]
+   ]
+  },
+  "/dex": {
+   "nav": "Dezentrale Börsen",
+   "title": "Dezentrale Börsen (DEX) ohne KYC | DoNotKYC",
+   "description": "Dezentrale Börsen, auf denen du direkt aus deinem Wallet handelst: keine Registrierung, kein Ausweis, deine Schlüssel bleiben bei dir.",
+   "h1": "Dezentrale Börsen",
+   "intro": [
+    "Eine dezentrale Börse läuft auf Smart Contracts. Du verbindest dein eigenes Wallet und handelst ohne Konto: Es gibt keine Identität anzugeben, und niemand verwahrt deine Coins.",
+    "Zu den Handelsgebühren kommen Netzwerkgebühren, und du solltest sicher mit einem Wallet umgehen können. Manche Oberflächen sperren Länder, obwohl die Verträge offen bleiben."
+   ]
+  },
+  "/swaps": {
+   "nav": "Sofort-Swaps",
+   "title": "Krypto-Sofort-Swaps ohne Konto | DoNotKYC",
+   "description": "Tausche einen Coin gegen einen anderen ohne Konto und ohne Ausweis. Limits, Gebühren und wann ein Dienst nachfragen kann.",
+   "h1": "Sofort-Swaps ohne Konto",
+   "intro": [
+    "Sofort-Swap-Dienste wandeln einen Coin in einem Schritt in einen anderen um: Du sendest Coins an eine Adresse und erhältst den anderen Coin in deinem Wallet. Ein Konto ist nicht nötig.",
+    "Ihre Marge steckt im angebotenen Kurs. Manche können einen von ihren Kontrollen markierten Swap anhalten und Informationen verlangen, bevor sie ihn freigeben: Der Eintrag sagt, wann."
+   ]
+  },
+  "/p2p": {
+   "nav": "P2P-Marktplätze",
+   "title": "P2P-Bitcoin-Marktplätze ohne KYC | DoNotKYC",
+   "description": "Kaufe und verkaufe Bitcoin direkt mit anderen Menschen per Überweisung oder Bargeld, mit Treuhand und ohne Ausweis.",
+   "h1": "P2P-Marktplätze: Krypto von Menschen kaufen",
+   "intro": [
+    "Peer-to-Peer-Marktplätze bringen dich mit einem Käufer oder Verkäufer zusammen. Du bezahlst die andere Person per Überweisung, Bargeld oder einer anderen akzeptierten Methode, und eine Treuhand gibt die Coins frei, sobald sie die Zahlung bestätigt.",
+    "Deine Bank sieht weiterhin eine Überweisung an eine namentlich genannte Person. Reputation und Treuhandregeln zählen hier mehr als Gebühren: Lies sie vor deinem ersten Handel."
+   ]
+  },
+  "/atms": {
+   "nav": "Bitcoin-Automaten",
+   "title": "Bitcoin-Automaten mit wenig oder ohne Ausweis | DoNotKYC",
+   "description": "Bitcoin-Automatennetze, an denen du mit Bargeld kaufst, und die Beträge, ab denen sie einen Ausweis verlangen.",
+   "h1": "Bitcoin-Automaten mit wenig oder ohne Ausweis",
+   "intro": [
+    "Bitcoin-Automaten verkaufen Krypto gegen Bargeld. Viele erlauben kleine Käufe mit einer Telefonnummer oder ganz ohne Angaben und verlangen erst ab einer Schwelle einen Ausweis, festgelegt vom Betreiber und den lokalen Regeln.",
+    "Die Gebühren liegen mehrere Prozent über dem Marktpreis. Automaten lohnen sich vor allem für kleine Beträge, wenn du Bargeld hast."
+   ]
+  },
+  "/bridges": {
+   "nav": "Bridges",
+   "title": "Cross-Chain-Bridges ohne KYC | DoNotKYC",
+   "description": "Verschiebe Krypto zwischen Blockchains aus deinem Wallet, ohne Konto und ohne Ausweis.",
+   "h1": "Cross-Chain-Bridges",
+   "intro": [
+    "Bridges verschieben Werte von einer Blockchain auf eine andere, direkt aus deinem Wallet. Sie verlangen keine Identität, sind aber ein häufiges Ziel von Hacks.",
+    "Nutze etablierte Routen, prüfe Gebühren und geschätzte Dauer vor dem Bestätigen und verschiebe große Beträge in mehreren Schritten."
+   ]
+  },
+  "/alternatives/binance": {
+   "nav": "Binance",
+   "title": "Binance-Alternativen ohne KYC | DoNotKYC",
+   "description": "Binance verlangt eine Identitätsprüfung. Diese Börsen und DEX lassen dich Spot und Futures ohne Ausweis handeln.",
+   "h1": "Binance-Alternativen ohne KYC",
+   "intro": [
+    "Binance verlangt von jedem Nutzer eine Identitätsprüfung vor dem Handel. Wenn du es für Spot-Handel, Altcoins oder Futures genutzt hast, leisten die Börsen und dezentralen Börsen unten dasselbe ohne Ausweis oder ohne Ausweis unter einem Limit.",
+    "Prüfe vor dem Verschieben von Geld Limit und gesperrte Länder jeder Plattform. Bedingungen ändern sich: Der Eintrag zeigt, was wir wissen."
+   ]
+  },
+  "/alternatives/coinbase": {
+   "nav": "Coinbase",
+   "title": "Coinbase-Alternativen ohne KYC | DoNotKYC",
+   "description": "Coinbase verlangt einen Ausweis für Käufe. Wege, Bitcoin und andere Coins per Karte, Überweisung oder Bargeld ohne Ausweis zu kaufen.",
+   "h1": "Coinbase-Alternativen ohne KYC",
+   "intro": [
+    "Coinbase verlangt ein Ausweisdokument, bevor du kaufen kannst. Wenn du dort per Karte oder Überweisung gekauft hast, nehmen diese Plattformen Fiat-Geld ohne Ausweis oder mit leichten Prüfungen an.",
+    "Bei Fiat-Käufen greifen die Limits am schnellsten: Die meisten dieser Plattformen setzen einen Höchstbetrag ohne Ausweis."
+   ]
+  },
+  "/alternatives/kraken": {
+   "nav": "Kraken",
+   "title": "Kraken-Alternativen ohne KYC | DoNotKYC",
+   "description": "Kraken verlangt eine Identitätsprüfung für den Handel. Börsen mit KYC-freier Stufe und dezentrale Börsen ohne Ausweis.",
+   "h1": "Kraken-Alternativen ohne KYC",
+   "intro": [
+    "Kraken verlangt eine Identitätsprüfung, bevor du einzahlen und handeln kannst. Diese Börsen und dezentralen Börsen lassen dich ohne Ausweisdokument handeln."
+   ]
+  },
+  "/alternatives/kucoin": {
+   "nav": "KuCoin",
+   "title": "KuCoin-Alternativen ohne KYC | DoNotKYC",
+   "description": "KuCoin hat die Identitätsprüfung zur Pflicht gemacht. Wo du Altcoins heute ohne Ausweis handelst.",
+   "h1": "KuCoin-Alternativen ohne KYC",
+   "intro": [
+    "KuCoin hat die Identitätsprüfung für neue Nutzer zur Pflicht gemacht. Für Altcoin-Handel ohne Ausweis sind diese Börsen, dezentralen Börsen und Swap-Dienste der nächste Ersatz."
+   ]
+  },
+  "/alternatives/revolut": {
+   "nav": "Revolut",
+   "title": "Krypto-Alternativen zu Revolut ohne KYC | DoNotKYC",
+   "description": "Kaufe Krypto per Überweisung oder Karte ohne die Identitätsprüfungen einer Banking-App.",
+   "h1": "Krypto-Alternativen zu Revolut ohne KYC",
+   "intro": [
+    "Banking-Apps wie Revolut verknüpfen jeden Kryptokauf mit deiner geprüften Identität. Diese Plattformen lassen dich per Überweisung, Karte oder Bargeld ohne Ausweisdokument oder mit leichten Prüfungen kaufen."
+   ]
+  },
+  "/alternatives/paypal": {
+   "nav": "PayPal",
+   "title": "Krypto-Alternativen zu PayPal ohne KYC | DoNotKYC",
+   "description": "Kaufe Krypto per Karte ohne die Identitätsprüfung, die PayPal verlangt.",
+   "h1": "Krypto-Alternativen zu PayPal ohne KYC",
+   "intro": [
+    "PayPal verlangt eine geprüfte Identität für Kryptokäufe, und die Coins bleiben bei PayPal. Diese Dienste verkaufen Krypto per Karte und senden sie direkt an dein eigenes Wallet, bis zu ihrem Limit ohne Ausweis."
+   ]
+  },
+  "/alternatives/crypto-com": {
+   "nav": "Crypto.com",
+   "title": "Crypto.com-Alternativen ohne KYC | DoNotKYC",
+   "description": "Crypto.com verlangt einen Ausweis. Börsen und Karten-Kaufdienste mit wenig oder keiner Prüfung.",
+   "h1": "Crypto.com-Alternativen ohne KYC",
+   "intro": [
+    "Crypto.com verlangt eine Identitätsprüfung vor Handel oder Kauf. Diese Börsen und Kaufdienste funktionieren ohne Ausweisdokument oder ohne Ausweis unter einem Limit."
+   ]
+  },
+  "/alternatives/robinhood": {
+   "nav": "Robinhood",
+   "title": "Krypto-Alternativen zu Robinhood ohne KYC | DoNotKYC",
+   "description": "Kaufe Bitcoin ohne die Identitätsprüfung einer Broker-App: P2P-Marktplätze, Automaten und Swaps.",
+   "h1": "Krypto-Alternativen zu Robinhood ohne KYC",
+   "intro": [
+    "Broker-Apps wie Robinhood verlangen deine Identität und behalten deine Coins. Wenn du einfach Bitcoin kaufen und selbst halten willst, verlangen diese P2P-Marktplätze, Automaten und Swap-Dienste wenig oder keine Identität."
+   ]
+  },
+  "/buy/bitcoin": {
+   "nav": "Bitcoin",
+   "title": "Bitcoin ohne KYC kaufen | DoNotKYC",
+   "description": "Wo du Bitcoin ohne Ausweis kaufst: P2P-Marktplätze, Automaten, Lightning-Swaps und Börsen mit KYC-freier Stufe.",
+   "h1": "Bitcoin ohne KYC kaufen",
+   "intro": [
+    "Die diskretesten Wege zu Bitcoin sind Peer-to-Peer-Marktplätze und kleine Bargeldkäufe am Automaten. Börsen mit KYC-freier Stufe und Swap-Dienste eignen sich, wenn du bereits einen anderen Coin hast.",
+    "Zahl auf ein Wallet aus, das du kontrollierst, sobald der Kauf abgeschlossen ist."
+   ]
+  },
+  "/buy/monero": {
+   "nav": "Monero",
+   "title": "Monero (XMR) ohne KYC kaufen | DoNotKYC",
+   "description": "Wo du Monero (XMR) ohne Ausweis bekommst: P2P-Handel und Sofort-Swaps mit XMR-Unterstützung.",
+   "h1": "Monero ohne KYC kaufen",
+   "intro": [
+    "Viele große Börsen haben Monero delistet. Deshalb kaufst du XMR von Person zu Person oder tauschst es per Swap aus einem anderen Coin. Diese Plattformen unterstützen XMR, ohne einen Ausweis zu verlangen."
+   ]
+  },
+  "/pay/cash": {
+   "nav": "Bargeld",
+   "title": "Krypto mit Bargeld kaufen, ohne Ausweis | DoNotKYC",
+   "description": "Kaufe Krypto mit Bargeld: Bitcoin-Automaten und P2P-Marktplätze, die Bargeld annehmen, und wie viel du ohne Ausweis kaufen kannst.",
+   "h1": "Krypto mit Bargeld kaufen",
+   "intro": [
+    "Bargeld hinterlässt keine Bankspur. Du kannst es an Bitcoin-Automaten nutzen, die ab einer Schwelle einen Ausweis verlangen, oder bei Verkäufern auf P2P-Marktplätzen, die Bargeld persönlich oder per Post annehmen."
+   ]
+  },
+  "/pay/bank-transfer": {
+   "nav": "Überweisung",
+   "title": "Krypto per Überweisung ohne KYC kaufen | DoNotKYC",
+   "description": "Kaufe Krypto per Überweisung, ohne der Plattform einen Ausweis zu schicken, über P2P-Marktplätze.",
+   "h1": "Krypto per Überweisung kaufen",
+   "intro": [
+    "Die Überweisung ist der günstigste Weg, aber deine Bank sieht, wen du bezahlst. Auf P2P-Marktplätzen bezahlst du eine andere Person, die Plattform verlangt also keinen Ausweis; der Verkäufer sieht deinen Namen auf der Überweisung."
+   ]
+  },
+  "/pay/card": {
+   "nav": "Karte",
+   "title": "Krypto per Karte ohne KYC kaufen | DoNotKYC",
+   "description": "Kaufe Krypto mit Debit- oder Kreditkarte ohne Ausweis, bis zum Limit des jeweiligen Dienstes.",
+   "h1": "Krypto per Karte kaufen",
+   "intro": [
+    "Kartenkäufe gehen schnell, sind aber selten anonym: Zahlungsabwickler führen eigene Prüfungen durch, und die Limits ohne Ausweis sind niedrig. Diese Dienste nehmen Karten ohne Ausweis bis zu ihrem Limit an."
+   ]
+  }
  },
  "pages": {
-  "methodology": { "title": "Wie wir Plattformen ohne KYC prüfen | DoNotKYC", "description": "Wie DoNotKYC Krypto-Plattformen listet: die Identitätsstufen, unsere Quellen, unser Test mit echtem Geld und wann wir einen Eintrag ändern oder entfernen.",
-   "html": "<h1>Wie wir Plattformen prüfen</h1> <p>Jeder Eintrag beantwortet zuerst eine Frage: Wie viel Identität verlangt diese Plattform, und wann? Unten steht, wie wir zu dieser Antwort kommen und wie weit wir jeden Eintrag geprüft haben.</p> <h2>Die drei Identitätsstufen</h2> <ul> <li><strong>Keine:</strong> kein Ausweisdokument und keine Kontodaten. Du verbindest ein Wallet oder handelst ohne Registrierung.</li> <li><strong>Gering:</strong> kein Ausweis unter einem genannten Limit, oder nur eine E-Mail-Adresse oder Telefonnummer.</li> <li><strong>Gestuft:</strong> Ab einer Schwelle ist ein Ausweisdokument nötig. Die Schwelle steht im Eintrag.</li> </ul> <h2>Zwei Arten von Einträgen</h2> <p><strong>Dokumentiert:</strong> Wir haben den Eintrag aus den veröffentlichten Bedingungen, FAQ und Hilfeseiten der Plattform erstellt. So beginnt jeder Eintrag.</p> <p><strong>Getestet:</strong> Wir haben ein Konto eröffnet (oder ein Wallet verbunden), einen kleinen echten Betrag über die Plattform bewegt und jede verlangte Angabe notiert. Getestete Einträge zeigen Datum und Details jedes Tests.</p> <h2>Unser Test mit echtem Geld</h2> <ol> <li>Ohne Vorbereitung hinter einem VPN registrieren und jedes verlangte Feld notieren.</li> <li>Einen kleinen Betrag mit der Zahlungsmethode einzahlen, die der Eintrag beschreibt.</li> <li>Einmal auf einem Hauptpaar handeln oder tauschen. Gebühren lesen wir vom Beleg ab, nicht von der Werbeseite.</li> <li>Auf unser eigenes Wallet auszahlen. Hier tauchen die meisten Ausweisprüfungen auf: Wir notieren das Limit und den Moment, in dem sie greift.</li> <li>Das Ergebnis mit Datum veröffentlichen. Ein Eintrag, dessen Test älter als 90 Tage ist, kommt zurück in die Warteschlange.</li> </ol> <h2>Wenn sich ein Eintrag ändert</h2> <p>Macht eine Plattform den Ausweis für ihre Kernfunktionen zur Pflicht, ändern oder entfernen wir den Eintrag. Eine geschlossene oder als Betrug gemeldete Plattform bleibt mit diesem Status sichtbar, damit Suchende die Warnung finden.</p> <p>Wir prüfen Meldungen von Nutzern, bevor wir etwas ändern. <a href=\"/submit\">Plattform vorschlagen oder Änderung melden</a>.</p> <h2>Was du nicht kaufen kannst</h2> <p>Aufnahme, Identitätsstufe und Position im Verzeichnis sind nicht käuflich. Manche „Besuchen“-Links sind Affiliate-Links, und die Seite sagt das. Gesponserte Platzierungen sind eigene Kacheln mit Werbekennzeichnung.</p>" },
-  "submit": { "title": "Plattform ohne KYC vorschlagen | DoNotKYC", "description": "Schlage eine Börse, einen Swap, einen P2P-Marktplatz oder Automaten ohne Ausweispflicht vor, oder melde einen geänderten Eintrag.",
-   "html": "<h1>Plattform vorschlagen</h1> <p>Du kennst eine Krypto-Plattform, auf der man ohne Ausweis handeln kann? Sag es uns. Die Aufnahme ist kostenlos, niemand kann sie kaufen, und Werbekunden werden nicht schneller geprüft.</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">Formular öffnen{icon}</a></p> <h2>Was wir vor der Aufnahme prüfen</h2> <ul> <li>Bedingungen, FAQ oder Hilfeseiten der Plattform nennen ihre KYC-Regeln und Limits. Ein Link zu dieser Quelle ist Pflicht.</li> <li>Die Seite funktioniert, und ihre Regeln passen zu dem, was Nutzer berichten.</li> <li>Keine glaubwürdigen Berichte über Exit-Scams, grundlos eingefrorene Gelder oder gefälschtes Volumen.</li> <li>Die Identitätsstufe (Keine, Gering oder Gestuft) lässt sich ohne Raten zuordnen.</li> </ul> <h2>Ein Eintrag ist falsch oder veraltet</h2> <p>Wenn eine gelistete Plattform jetzt einen Ausweis verlangt, Limits oder Gebühren geändert hat, neue Länder sperrt oder geschlossen ist, <a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">melde die Änderung</a>. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern.</p> <h2>Datenschutz</h2> <p>Beide Formulare sind öffentliche GitHub-Issues und brauchen ein GitHub-Konto. Gib keine persönlichen Daten an und entferne Namen und Kontonummern aus Screenshots. Ein Formular ohne Konto kommt, sobald die Seite einen eigenen Server hat.</p> <h2>Lieber werben?</h2> <p>Gesponserte Platzierungen sind von den Einträgen getrennt und gekennzeichnet. <a href=\"/#advertise\">So funktioniert Werbung</a>.</p>" },
-  "advertise": { "title": "Werben auf DoNotKYC | Gesponserte Platzierungen", "description": "Erreiche Menschen, die KYC schon meiden. Klar gekennzeichnete Kacheln, geprüfte Werbekunden, Zahlung in Krypto.",
-   "html": "<h1>Werben auf DoNotKYC</h1> <p>DoNotKYC lesen Menschen, die Krypto handeln wollen, ohne ihre Identität preiszugeben. Eine gesponserte Kachel platziert deinen Dienst neben den Plattformen, die sie vergleichen, mit dem Label Gesponsert.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Kontakt über Telegram{icon}</a></p> <h2>Platzierungen</h2> <ul> <li><strong>Kachel auf der Startseite:</strong> ein Sponsor gleichzeitig, im Abschnitt „Womit wir anfangen würden“.</li> <li><strong>Kachel auf Themenseiten:</strong> ein Sponsor pro Seite, über der Liste. Seiten: Börsen, Dezentrale Börsen, Sofort-Swaps, P2P-Marktplätze, Bitcoin-Automaten, Bridges, Bitcoin, Monero, Bargeld, Überweisung, Karte.</li> </ul> <p>Platzierungen laufen pro Kalendermonat. Vorauszahlung für 3 oder 12 Monate senkt den Monatspreis. Frag nach aktuellen Preisen und Reichweitenzahlen.</p> <h2>Die Regeln</h2> <ul> <li>Jede Kachel zeigt „Gesponsert“, und ihre Links tragen <code>rel=\"sponsored\"</code>.</li> <li>Bezahlen ändert weder einen Eintrag noch seine Identitätsstufe oder seine Position im Verzeichnis.</li> <li>Wir prüfen jeden Werbekunden vor der Annahme. Wir lehnen Dienste mit glaubwürdigen Berichten über Betrug oder eingefrorene Gelder ab, ebenso alles, was dort illegal ist, wo es angeboten wird.</li> <li>Wir können eine Kachel entfernen, wenn neue Belege für Schaden an Nutzern auftauchen. Die Bedingungen werden vor der Zahlung vereinbart.</li> </ul> <h2>So läuft es ab</h2> <ol> <li>Schick uns per Telegram deinen Dienst, die gewünschte Platzierung und die Daten.</li> <li>Wir prüfen den Dienst und antworten innerhalb weniger Tage.</li> <li>Du erhältst eine Krypto-Rechnung (Bitcoin, Lightning oder Monero).</li> <li>Nach der Zahlung geht die Kachel zum Startdatum online und verschwindet zum Enddatum automatisch. Wir erinnern dich vor dem Ende.</li> </ol>" }
+  "methodology": {
+   "title": "Wie wir Plattformen ohne KYC prüfen | DoNotKYC",
+   "description": "Wie DoNotKYC Krypto-Plattformen listet: die Identitätsstufen, unsere Quellen, unser Test mit echtem Geld und wann wir einen Eintrag ändern oder entfernen.",
+   "html": "<h1>Wie wir Plattformen prüfen</h1> <p>Jeder Eintrag beantwortet zuerst eine Frage: Wie viel Identität verlangt diese Plattform, und wann? Unten steht, wie wir zu dieser Antwort kommen und wie weit wir jeden Eintrag geprüft haben.</p> <h2>Die drei Identitätsstufen</h2> <ul> <li><strong>Keine:</strong> kein Ausweisdokument und keine Kontodaten. Du verbindest ein Wallet oder handelst ohne Registrierung.</li> <li><strong>Gering:</strong> kein Ausweis unter einem genannten Limit, oder nur eine E-Mail-Adresse oder Telefonnummer.</li> <li><strong>Gestuft:</strong> Ab einer Schwelle ist ein Ausweisdokument nötig. Die Schwelle steht im Eintrag.</li> </ul> <h2>Zwei Arten von Einträgen</h2> <p><strong>Dokumentiert:</strong> Wir haben den Eintrag aus den veröffentlichten Bedingungen, FAQ und Hilfeseiten der Plattform erstellt. So beginnt jeder Eintrag.</p> <p><strong>Getestet:</strong> Wir haben ein Konto eröffnet (oder ein Wallet verbunden), einen kleinen echten Betrag über die Plattform bewegt und jede verlangte Angabe notiert. Getestete Einträge zeigen Datum und Details jedes Tests.</p> <h2>Unser Test mit echtem Geld</h2> <ol> <li>Ohne Vorbereitung hinter einem VPN registrieren und jedes verlangte Feld notieren.</li> <li>Einen kleinen Betrag mit der Zahlungsmethode einzahlen, die der Eintrag beschreibt.</li> <li>Einmal auf einem Hauptpaar handeln oder tauschen. Gebühren lesen wir vom Beleg ab, nicht von der Werbeseite.</li> <li>Auf unser eigenes Wallet auszahlen. Hier tauchen die meisten Ausweisprüfungen auf: Wir notieren das Limit und den Moment, in dem sie greift.</li> <li>Das Ergebnis mit Datum veröffentlichen. Ein Eintrag, dessen Test älter als 90 Tage ist, kommt zurück in die Warteschlange.</li> </ol> <h2>Wenn sich ein Eintrag ändert</h2> <p>Macht eine Plattform den Ausweis für ihre Kernfunktionen zur Pflicht, ändern oder entfernen wir den Eintrag. Eine geschlossene oder als Betrug gemeldete Plattform bleibt mit diesem Status sichtbar, damit Suchende die Warnung finden.</p> <p>Wir prüfen Meldungen von Nutzern, bevor wir etwas ändern. <a href=\"/submit\">Plattform vorschlagen oder Änderung melden</a>.</p> <h2>Was du nicht kaufen kannst</h2> <p>Aufnahme, Identitätsstufe und Position im Verzeichnis sind nicht käuflich. Manche „Besuchen“-Links sind Affiliate-Links, und die Seite sagt das. Gesponserte Platzierungen sind eigene Kacheln mit Werbekennzeichnung.</p>"
+  },
+  "submit": {
+   "title": "Plattform ohne KYC vorschlagen | DoNotKYC",
+   "description": "Schlage eine Börse, einen Swap, einen P2P-Marktplatz oder Automaten ohne Ausweispflicht vor, oder melde einen geänderten Eintrag.",
+   "html": "<h1>Plattform vorschlagen</h1> <p>Du kennst eine Krypto-Plattform, auf der man ohne Ausweis handeln kann? Sag es uns. Die Aufnahme ist kostenlos, niemand kann sie kaufen, und Werbekunden werden nicht schneller geprüft.</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">Formular öffnen{icon}</a></p> <h2>Was wir vor der Aufnahme prüfen</h2> <ul> <li>Bedingungen, FAQ oder Hilfeseiten der Plattform nennen ihre KYC-Regeln und Limits. Ein Link zu dieser Quelle ist Pflicht.</li> <li>Die Seite funktioniert, und ihre Regeln passen zu dem, was Nutzer berichten.</li> <li>Keine glaubwürdigen Berichte über Exit-Scams, grundlos eingefrorene Gelder oder gefälschtes Volumen.</li> <li>Die Identitätsstufe (Keine, Gering oder Gestuft) lässt sich ohne Raten zuordnen.</li> </ul> <h2>Ein Eintrag ist falsch oder veraltet</h2> <p>Wenn eine gelistete Plattform jetzt einen Ausweis verlangt, Limits oder Gebühren geändert hat, neue Länder sperrt oder geschlossen ist, <a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">melde die Änderung</a>. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern.</p> <h2>Datenschutz</h2> <p>Beide Formulare sind öffentliche GitHub-Issues und brauchen ein GitHub-Konto. Gib keine persönlichen Daten an und entferne Namen und Kontonummern aus Screenshots. Ein Formular ohne Konto kommt, sobald die Seite einen eigenen Server hat.</p> <h2>Lieber werben?</h2> <p>Gesponserte Platzierungen sind von den Einträgen getrennt und gekennzeichnet. <a href=\"/#advertise\">So funktioniert Werbung</a>.</p>"
+  },
+  "advertise": {
+   "title": "Werben auf DoNotKYC | Gesponserte Platzierungen",
+   "description": "Erreiche Menschen, die KYC schon meiden. Klar gekennzeichnete Kacheln, geprüfte Werbekunden, Zahlung in Krypto.",
+   "html": "<h1>Werben auf DoNotKYC</h1> <p>DoNotKYC lesen Menschen, die Krypto handeln wollen, ohne ihre Identität preiszugeben. Eine gesponserte Kachel platziert deinen Dienst neben den Plattformen, die sie vergleichen, mit dem Label Gesponsert.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Kontakt über Telegram{icon}</a></p> <h2>Platzierungen</h2> <ul> <li><strong>Kachel auf der Startseite:</strong> ein Sponsor gleichzeitig, im Abschnitt „Womit wir anfangen würden“.</li> <li><strong>Kachel auf Themenseiten:</strong> ein Sponsor pro Seite, über der Liste. Seiten: Börsen, Dezentrale Börsen, Sofort-Swaps, P2P-Marktplätze, Bitcoin-Automaten, Bridges, Bitcoin, Monero, Bargeld, Überweisung, Karte.</li> </ul> <p>Platzierungen laufen pro Kalendermonat. Vorauszahlung für 3 oder 12 Monate senkt den Monatspreis. Frag nach aktuellen Preisen und Reichweitenzahlen.</p> <h2>Die Regeln</h2> <ul> <li>Jede Kachel zeigt „Gesponsert“, und ihre Links tragen <code>rel=\"sponsored\"</code>.</li> <li>Bezahlen ändert weder einen Eintrag noch seine Identitätsstufe oder seine Position im Verzeichnis.</li> <li>Wir prüfen jeden Werbekunden vor der Annahme. Wir lehnen Dienste mit glaubwürdigen Berichten über Betrug oder eingefrorene Gelder ab, ebenso alles, was dort illegal ist, wo es angeboten wird.</li> <li>Wir können eine Kachel entfernen, wenn neue Belege für Schaden an Nutzern auftauchen. Die Bedingungen werden vor der Zahlung vereinbart.</li> </ul> <h2>So läuft es ab</h2> <ol> <li>Schick uns per Telegram deinen Dienst, die gewünschte Platzierung und die Daten.</li> <li>Wir prüfen den Dienst und antworten innerhalb weniger Tage.</li> <li>Du erhältst eine Krypto-Rechnung (Bitcoin, Lightning oder Monero).</li> <li>Nach der Zahlung geht die Kachel zum Startdatum online und verschwindet zum Enddatum automatisch. Wir erinnern dich vor dem Ende.</li> </ol>"
+  }
+ },
+ "compare": {
+  "index_title": "Plattformen ohne KYC vergleichen | DoNotKYC",
+  "index_desc": "Direktvergleiche von Börsen, Swaps und P2P-Marktplätzen ohne KYC: verlangte Identität, Limits, Gebühren, Verwahrung und Verfügbarkeit.",
+  "index_h1": "Plattformen vergleichen",
+  "index_lead": "Direktvergleiche von Plattformen, die dasselbe leisten. Wähle ein Paar.",
+  "title": "{a} oder {b}: KYC, Limits und Gebühren im Vergleich | DoNotKYC",
+  "desc": "{a} oder {b}? Verlangte Identität, Limits ohne Ausweis, Gebühren, Verwahrung und Verfügbarkeit im Direktvergleich.",
+  "lead": "Zwei Plattformen, die dasselbe leisten, verglichen nach Identität, Limits, Gebühren und Verwahrung.",
+  "verdict_h": "Kurz gesagt",
+  "less_id": "{x} verlangt weniger Identität ({lx}) als {y} ({ly}).",
+  "same_id": "Beide verlangen dieselbe Identitätsstufe: {l}.",
+  "fiat_one": "Nur {x} nimmt Einzahlungen per Karte oder Bank an.",
+  "fiat_both": "Beide nehmen Einzahlungen per Karte oder Bank an.",
+  "fiat_none": "Keine nimmt Karte oder Bank an: Du brauchst Krypto für den Start.",
+  "custody_diff": "{x} lässt deine Coins in deinem Wallet; {y} verwahrt sie, während du handelst.",
+  "blocked_one": "{x} ist nicht verfügbar in: {r}.",
+  "note": "Daten aus den veröffentlichten Bedingungen jeder Plattform. Details und Quellen auf den Plattformseiten.",
+  "limit": "Limit ohne Ausweis",
+  "open": "{name} ansehen",
+  "other": "Weitere Vergleiche",
+  "link": "Vergleichen"
  }
 }
