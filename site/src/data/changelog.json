@@ -1,9 +1,42 @@
 [
-  { "date": "2026-10-18", "title": "Boltz under review: swaps suspended", "body": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. The listing stays visible with a warning and is out of our recommendations until the service is back." },
-  { "date": "2026-10-18", "title": "Synapse under review", "body": "synapseprotocol.com now redirects to hypercall.xyz/synapse. We are confirming the service and its address before updating the listing." },
-  { "date": "2026-10-18", "title": "1inch moved to 1inch.com", "body": "The listing now points to the new domain." },
-  { "date": "2026-10-18", "title": "Weekly automatic check of every listing", "body": "Every Monday a script checks that each platform's site still answers and has not moved to another domain, and lists platforms whose last real-money test is older than 90 days." },
-  { "date": "2026-10-18", "title": "Side-by-side comparisons", "body": "18 comparisons of platforms that do the same job, such as MEXC vs Bybit or Bisq vs Hodl Hodl." },
-  { "date": "2026-10-18", "title": "Site available in 9 languages", "body": "English, French, Spanish, German, Portuguese, Italian, Russian, Turkish and Chinese." },
-  { "date": "2026-10-18", "title": "New directory, one page per platform", "body": "Platforms are now sorted by how much identity they ask for (None, Light, Tiered), with a page each, topic pages and alternatives to exchanges that require ID. Data errors fixed for KCEX, DeGate and Boltz. Google Analytics and third-party logos removed: the site makes no request to any other service." }
+  {
+    "date": "2026-10-18",
+    "title": "How we make money, and a privacy policy",
+    "body": "Two new pages explain who pays DoNotKYC (affiliate links and labelled sponsored tiles, with our advertising rules) and confirm the site collects no data about visitors."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Boltz under review: swaps suspended",
+    "body": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. The listing stays visible with a warning and is out of our recommendations until the service is back."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Synapse under review",
+    "body": "synapseprotocol.com now redirects to hypercall.xyz/synapse. We are confirming the service and its address before updating the listing."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "1inch moved to 1inch.com",
+    "body": "The listing now points to the new domain."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Weekly automatic check of every listing",
+    "body": "Every Monday a script checks that each platform's site still answers and has not moved to another domain, and lists platforms whose last real-money test is older than 90 days."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Side-by-side comparisons",
+    "body": "18 comparisons of platforms that do the same job, such as MEXC vs Bybit or Bisq vs Hodl Hodl."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Site available in 9 languages",
+    "body": "English, French, Spanish, German, Portuguese, Italian, Russian, Turkish and Chinese."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "New directory, one page per platform",
+    "body": "Platforms are now sorted by how much identity they ask for (None, Light, Tiered), with a page each, topic pages and alternatives to exchanges that require ID. Data errors fixed for KCEX, DeGate and Boltz. Google Analytics and third-party logos removed: the site makes no request to any other service."
+  }
 ]

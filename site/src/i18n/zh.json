@@ -39,7 +39,9 @@
   "blog": "博客",
   "community": "社区",
   "legal": "无 KYC 平台存在风险，出问题时追索手段更少。请自行研究，从小额开始，并遵守所在地的法律和税务规定。部分“访问”链接为联盟链接，不影响目录排序。",
-  "english_only": "博客文章为英文。"
+  "english_only": "博客文章为英文。",
+  "money": "我们如何赚钱",
+  "privacy_policy": "隐私政策"
  },
  "levels": {
   "none": "无需",
@@ -508,6 +510,16 @@
    "title": "在 DoNotKYC 投放广告 | 赞助位",
    "description": "触达已在回避 KYC 的用户。明确标注的赞助位，经审核的广告主，加密货币支付。",
    "html": "<h1>在 DoNotKYC 投放广告</h1> <p>DoNotKYC 的读者希望在不交出身份的情况下交易加密货币。赞助位会把你的服务放在他们正在比较的平台旁边，并标注“赞助”。</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">通过 Telegram 联系我们{icon}</a></p> <h2>广告位</h2> <ul> <li><strong>首页广告位：</strong>同一时间只有一个赞助商，位于“我们推荐从这里开始”板块。</li> <li><strong>专题页广告位：</strong>每页一个赞助商，位于列表上方。页面包括：交易所、去中心化交易所、即时兑换、P2P 市场、比特币 ATM、跨链桥、比特币、门罗币、现金、银行转账、银行卡。</li> </ul> <p>广告位按自然月预订。预付 3 个月或 12 个月可降低月费。请咨询当前价格和受众数据。</p> <h2>规则</h2> <ul> <li>每个广告位都标有“赞助”，链接带有 <code>rel=\"sponsored\"</code>。</li> <li>付费不会改变条目、其身份等级或在目录中的位置。</li> <li>我们在接受前审核每个广告主。我们拒绝有可信诈骗或冻结资金报告的服务，以及在提供地违法的任何内容。</li> <li>如果出现损害用户的新证据，我们可以撤下广告位。条件在付款前约定。</li> </ul> <h2>流程</h2> <ol> <li>通过 Telegram 发送你的服务、想要的广告位和日期。</li> <li>我们审核服务，并在几天内回复。</li> <li>你会收到一张加密货币账单（Bitcoin、闪电网络或门罗币）。</li> <li>付款后，广告位在开始日期上线，在结束日期自动下线。到期前我们会提醒你。</li> </ol>"
+  },
+  "how-we-make-money": {
+   "title": "DoNotKYC 如何赚钱 | DoNotKYC",
+   "description": "DoNotKYC 靠推广链接和明确标注的赞助位维持运营，两者都不会改变任何条目。完整的广告规则。",
+   "html": "<h1>DoNotKYC 如何赚钱</h1><p>DoNotKYC 免费阅读，没有付费墙。网站有两种收入来源，都不会改变任何条目。</p><h2>推广链接</h2><p>部分“访问”按钮是推广链接：如果你通过它注册，平台会把部分手续费分给我们。你不需要额外付费。目前有推广链接的平台：{AFFILIATES}。VPN 指南中的 NordVPN 和 Proton VPN 链接也是推广链接。</p><p>推广链接带有 <code>rel=\"sponsored\"</code>。有推广链接的平台不会因此获得更好的身份等级、排名或描述。</p><h2 id=\"ads\">赞助位与广告政策</h2><p>企业可以付费在首页或专题页放置一个赞助位。每个赞助位都标明“赞助”，与排名列表分开，并使用 <code>rel=\"sponsored\"</code> 链接。</p><ul><li>付费永远不会改变条目、其身份等级或排名。</li><li>我们在接受前审核每个广告主，拒绝有可信诈骗或冻结资金举报的服务。</li><li>如果出现损害用户的新证据，我们会撤下赞助位。</li><li>我们不为广告主追踪访客：没有 Cookie，没有像素。</li><li>当前赞助商列在<a href=\"/advertise\">广告页面</a>。</li></ul><h2>我们不出售的东西</h2><ul><li>排名、评测或“已验证”徽章。</li><li>访客数据。我们不收集任何数据：见<a href=\"/privacy-policy\">隐私政策</a>。</li><li>删除条目或警告。</li></ul><h2>谁决定排序</h2><p>平台按照要求提供的身份信息多少排序，依据我们的<a href=\"/methodology\">方法说明</a>。任何人都可以在 GitHub 上公开指出错误：<a href=\"{REPORT_URL}\" rel=\"noopener\">报告变更</a>。</p>"
+  },
+  "privacy-policy": {
+   "title": "隐私政策 | DoNotKYC",
+   "description": "DoNotKYC 不收集你的任何数据：无统计、无 Cookie、无第三方请求。GitHub Pages 会记录什么，哪些内容留在你的设备上。",
+   "html": "<h1>隐私政策</h1><p><strong>DoNotKYC 不收集、不存储、也不出售任何关于你的数据。</strong></p><h2>本站不使用的东西</h2><ul><li>没有统计分析，没有广告追踪器，没有 Cookie。</li><li>不加载其他公司的字体、脚本或图片。所有内容都来自 www.donotkyc.com。</li><li>你在本站输入的任何内容都不会发送给我们。提交和更正通过 GitHub 进行，适用 GitHub 自己的隐私声明。</li></ul><h2>留在你设备上的内容</h2><p>如果你切换浅色和深色主题，浏览器会在本地存储中记住这个选择。站内搜索也在你的浏览器中运行：你的搜索词不会发往任何地方。</p><h2>托管</h2><p>本站托管在 GitHub Pages 上。出于安全原因，GitHub 会记录访客的 IP 地址。我们无法访问这些日志。<a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection\" rel=\"noopener\">GitHub 的说明</a>（英文）。</p><h2>指向其他网站的链接</h2><p>当你点击平台链接时，你就离开了 DoNotKYC，适用该网站的政策。推广链接会告诉平台你来自我们；它不会告诉我们任何关于你的信息。见<a href=\"/how-we-make-money\">我们如何赚钱</a>。</p><h2>变更</h2><p>本政策的变更会记录在<a href=\"/changelog\">更新日志</a>中。最后更新：2026 年 10 月 18 日。</p>"
   }
  },
  "compare": {
