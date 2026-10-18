@@ -8,7 +8,6 @@
       name="description"
       content="Public read-only JSON API for the no-KYC directory with endpoints, fields, and examples."
     />
-    <link rel="stylesheet" href="./styles.css" />
     <style>
       body {
         background: #0b0f1a;
@@ -72,9 +71,11 @@
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@donotkyc" />
+    <style>.skip-link{position:absolute;left:8px;top:-48px;z-index:1000;padding:10px 16px;background:#fff;color:#0b0f1a;font-weight:600;border-radius:6px;text-decoration:none}.skip-link:focus{top:8px}</style>
   </head>
   <body>
-    <div class="wrap">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main class="wrap" id="main">
       <h1>API Documentation</h1>
       <p>
         Simple, public, read‑only JSON served over HTTPS. No API key. Ideal for
@@ -153,7 +154,7 @@ fetch(DATA_URL)
       </div>
 
       <p><a href="./index.html">← Back to Directory</a></p>
-    </div>
+    </main>
   </body>
 </html>
 
