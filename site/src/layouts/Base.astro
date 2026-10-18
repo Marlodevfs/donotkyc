@@ -1,0 +1,118 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string; // URL canonique sans extension, ex. "/blog"
+  type?: 'website' | 'article';
+  jsonld?: object | object[];
+  nav?: 'directory' | 'blog' | 'vpn' | 'privacy' | 'security' | null;
+}
+const { title, description, path, type = 'website', jsonld, nav = null } = Astro.props;
+const site = 'https://www.donotkyc.com';
+const url = site + path;
+const lds = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+const links = [
+  { key: 'directory', href: '/', label: 'Directory' },
+  { key: 'blog', href: '/blog', label: 'Blog' },
+  { key: 'vpn', href: '/vpn-affiliation', label: 'VPN' },
+  { key: 'privacy', href: '/privacy', label: 'Privacy guide' },
+  { key: 'security', href: '/security', label: 'Security' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={url} />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="DoNotKYC" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:image" content={site + '/og-image.png'} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@donotkyc" />
+    {lds.map((ld) => <script type="application/ld+json" set:html={JSON.stringify(ld)} />)}
+    <script is:inline>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="bar">
+      <div class="wrap">
+        <a class="logo" href="/"><span class="m"><Icon name="shield-off" /></span>DoNotKYC</a>
+        <nav class="nav" id="nav" aria-label="Main">
+          {links.map((l) => <a href={l.href} aria-current={nav === l.key ? 'page' : undefined}>{l.label}</a>)}
+        </nav>
+        <div class="tools">
+          <button class="ibtn" id="theme" type="button" aria-label="Switch colour theme"><Icon name="sun-moon" /></button>
+          <button class="ibtn menu" id="menu" type="button" aria-label="Open menu" aria-controls="nav" aria-expanded="false"><Icon name="menu" /></button>
+          <a class="cta-s" href="/#advertise">Advertise</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main"><slot /></main>
+
+    <footer class="site">
+      <div class="wrap">
+        <div class="fg">
+          <div>
+            <a class="logo" href="/"><span class="m"><Icon name="shield-off" /></span>DoNotKYC</a>
+            <p>An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.</p>
+          </div>
+          <div><h4>Directory</h4><ul>
+            <li><a href="/#directory">All platforms</a></li>
+            <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Platform%20submission%3A%20" rel="noopener">Submit a platform</a></li>
+            <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Listing%20update%3A%20" rel="noopener">Report a change</a></li>
+            <li><a href="/api-docs">Open data API</a></li>
+          </ul></div>
+          <div><h4>Guides</h4><ul>
+            <li><a href="/privacy">Privacy guide</a></li>
+            <li><a href="/security">Security tips</a></li>
+            <li><a href="/vpn-affiliation">VPNs for crypto</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul></div>
+          <div><h4>Community</h4><ul>
+            <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li>
+            <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li>
+            <li><a href="https://www.tiktok.com/@donotkyc" rel="noopener">TikTok</a></li>
+            <li><a href="https://github.com/Marlodevfs/donotkyc" rel="noopener">GitHub</a></li>
+          </ul></div>
+        </div>
+        <div class="legal">
+          <p>No-KYC platforms carry risk and less recourse. Do your own research, start small, and follow your local law and tax rules. Some "Visit" links are affiliate links; they never change the order of the directory.</p>
+          <span>© 2026 DoNotKYC</span>
+        </div>
+      </div>
+    </footer>
+
+    <script is:inline>
+      (function () {
+        var root = document.documentElement, b = document.getElementById('theme');
+        function mode() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+        b.addEventListener('click', function () {
+          var next = mode() === 'dark' ? 'light' : 'dark';
+          root.dataset.theme = next;
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+        var m = document.getElementById('menu'), n = document.getElementById('nav');
+        m.addEventListener('click', function () {
+          var open = n.classList.toggle('open');
+          m.setAttribute('aria-expanded', open);
+        });
+      })();
+    </script>
+  </body>
+</html>
