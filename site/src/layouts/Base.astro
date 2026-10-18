@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
+import { reportUrl } from '../lib/platforms';
 
 interface Props {
   title: string;
@@ -74,8 +75,8 @@ const links = [
           </div>
           <div><h4>Directory</h4><ul>
             <li><a href="/#directory">All platforms</a></li>
-            <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Platform%20submission%3A%20" rel="noopener">Submit a platform</a></li>
-            <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Listing%20update%3A%20" rel="noopener">Report a change</a></li>
+            <li><a href="/submit">Submit a platform</a></li>
+            <li><a href={reportUrl()} rel="noopener">Report a change</a></li>
             <li><a href="/api-docs">Open data API</a></li>
           </ul></div>
           <div><h4>Guides</h4><ul>

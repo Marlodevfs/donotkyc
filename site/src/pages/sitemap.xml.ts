@@ -1,7 +1,7 @@
 import { platforms } from '../lib/platforms';
 
 const SITE = 'https://www.donotkyc.com';
-const PAGES = ['/', '/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs'];
+const PAGES = ['/', '/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs', '/submit'];
 
 export function GET() {
   const urls = [...PAGES, ...platforms.map((p) => `/p/${p.slug}`)];

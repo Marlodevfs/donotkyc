@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { SUBMIT_URL, reportUrl } from '../lib/platforms';
+---
+<Base title="Submit a no-KYC platform | DoNotKYC" description="Suggest a crypto exchange, swap, P2P market or ATM that lets people trade without sending ID, or report a listing that changed." path="/submit">
+  <div class="wrap page">
+    <div class="prose">
+      <h1>Submit a platform</h1>
+      <p>Know a crypto platform that lets people trade without sending ID? Tell us. Listing is free and is never for sale, and being an advertiser does not speed it up.</p>
+      <p><a class="btn" href={SUBMIT_URL} rel="noopener">Open the submission form<Icon name="arrow-up-right" /></a></p>
+
+      <h2>What we check before listing</h2>
+      <ul>
+        <li>The platform's own terms, FAQ or help pages state its KYC policy and limits. A link to that source is required.</li>
+        <li>The site works, and its policy matches what users report.</li>
+        <li>No credible reports of exit scams, frozen funds without reason, or fake volume.</li>
+        <li>The identity level (None, Light or Tiered) can be stated clearly.</li>
+      </ul>
+
+      <h2>A listing is wrong or out of date</h2>
+      <p>If a listed platform now asks for ID, changed its limits or fees, blocks new countries or closed, <a href={reportUrl()} rel="noopener">report the change</a>. Every report is checked before the listing is updated.</p>
+
+      <h2>Privacy</h2>
+      <p>Both forms are public GitHub issues and need a GitHub account. Do not include personal data, and remove names or account numbers from screenshots. A form that needs no account will come when the site moves to its own server.</p>
+
+      <h2>Want to advertise instead?</h2>
+      <p>Sponsored placements are separate from listings and always labelled. <a href="/#advertise">See how advertising works</a>.</p>
+    </div>
+  </div>
+</Base>

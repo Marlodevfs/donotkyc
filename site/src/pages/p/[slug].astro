@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import Mono from '../../components/Mono.astro';
 import Level from '../../components/Level.astro';
-import { platforms, TYPES, LEVELS, byLeastId, visitUrl, type Platform } from '../../lib/platforms';
+import { platforms, TYPES, LEVELS, byLeastId, visitUrl, reportUrl, type Platform } from '../../lib/platforms';
 
 export function getStaticPaths() {
   return platforms.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -14,7 +14,7 @@ const type = TYPES[p.type];
 const level = LEVELS[p.kyc_level].label;
 const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
 const host = new URL(p.url).hostname.replace(/^www\./, '');
-const report = `https://github.com/Marlodevfs/donotkyc/issues/new?title=${encodeURIComponent('Listing update: ' + p.name)}`;
+const report = reportUrl(p.name);
 const title = `${p.name}: KYC policy, limits and fees | DoNotKYC`;
 const description = `${p.name} is a ${type.toLowerCase()}. Identity asked: ${level} (${p.kyc_summary.toLowerCase()}). ${p.fiat_deposit ? 'Accepts card or bank deposits.' : 'Crypto only.'} Fees: ${p.fees}. Availability: ${p.supported_countries}.`;
 const jsonld = {

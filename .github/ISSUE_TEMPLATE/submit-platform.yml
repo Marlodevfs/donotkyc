@@ -1,0 +1,65 @@
+name: Submit a platform
+description: Suggest a crypto platform that lets people trade without sending ID.
+title: "Platform submission: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Listing is free and is never sold. We check every submission against the platform's own terms before adding it.
+        Do not include personal data: this issue is public.
+  - type: input
+    id: name
+    attributes: { label: Platform name, placeholder: "Example: Bisq" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Official website, placeholder: "https://" }
+    validations: { required: true }
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Exchange (CEX), Decentralised exchange (DEX), Instant swap, P2P market, Bitcoin ATM, Bridge, Other]
+    validations: { required: true }
+  - type: dropdown
+    id: kyc
+    attributes:
+      label: Identity asked
+      options:
+        - None (no ID, no account details)
+        - Light (no ID under a limit, or only email or phone)
+        - Tiered (ID required above a threshold)
+        - Not sure
+    validations: { required: true }
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits without ID
+      description: Daily or per-trade limits, and when ID is requested.
+      placeholder: "Example: no ID up to $700 per swap"
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes:
+      label: Source for the KYC policy
+      description: Link to the platform's terms, FAQ or help page that states it.
+    validations: { required: true }
+  - type: checkboxes
+    id: payments
+    attributes:
+      label: Payment methods
+      options:
+        - label: Crypto only
+        - label: Bank transfer
+        - label: Card
+        - label: Cash
+  - type: input
+    id: regions
+    attributes: { label: Countries blocked, placeholder: "Example: US, Canada" }
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Who are you?
+      options: [A user of the platform, Someone working for the platform]
+    validations: { required: true }

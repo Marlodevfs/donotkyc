@@ -303,3 +303,5 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lg-l{display:none!important}:root:not([data-theme="light"]) .lg-d{display:block!important}}
 :root[data-theme="dark"] .lg-l{display:none!important}
 :root[data-theme="dark"] .lg-d{display:block!important}
+.prose a.btn{color:var(--bg);text-decoration:none}
+.prose a.btn:hover{color:var(--on-primary)}

@@ -37,3 +37,8 @@ export const byLeastId = (a: Platform, b: Platform) =>
 
 export const visitUrl = (p: Platform) => p.affiliate_link ?? p.url;
 export const logoUrl = (p: Platform) => (p.logo ? '/' + p.logo.replace(/^\//, '') : null);
+
+const ISSUES = 'https://github.com/Marlodevfs/donotkyc/issues/new';
+export const SUBMIT_URL = `${ISSUES}?template=submit-platform.yml`;
+export const reportUrl = (name?: string) =>
+  `${ISSUES}?template=report-change.yml${name ? '&title=' + encodeURIComponent('Listing update: ' + name) : ''}`;
