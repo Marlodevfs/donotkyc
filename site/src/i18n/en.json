@@ -268,7 +268,6 @@
    "phone": "Phone number",
    "id": "ID document"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com now redirects to hypercall.xyz/synapse: we are confirming the service and its URL.",
   "status_note_boltz": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back."
  },
  "data": {

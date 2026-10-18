@@ -54,7 +54,7 @@ Identity levels: None = no ID and no account details; Light = no ID under a stat
 - [Quickex.io](https://www.donotkyc.com/p/quickex-io): Instant swap. Identity: None (no ID, no account details). No account. Crypto only. Fees: 0.5% fixed fee + network fees.
 - [SilentSwap](https://www.donotkyc.com/p/silentswap): Instant swap. Identity: None (no ID, no account details). No account. Crypto only. Fees: 1% flat fee per swap. Not available in: US.
 - [Symbiosis Finance](https://www.donotkyc.com/p/symbiosis-finance): Bridge. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Low.
-- [Synapse Protocol](https://www.donotkyc.com/p/synapse-protocol): Bridge. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Near-zero with reimbursement. UNDER REVIEW: synapseprotocol.com now redirects to hypercall.xyz/synapse: confirm the service and its URL.
+- [Synapse Protocol](https://www.donotkyc.com/p/synapse-protocol): Bridge. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Near-zero with reimbursement.
 - [Uniswap](https://www.donotkyc.com/p/uniswap): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: 0.05% - 1%.
 - [Changelly](https://www.donotkyc.com/p/changelly): Instant swap. Identity: Light (no ID under a limit, or only email/phone). Email only. Card or bank accepted. Fees: 0.25%. Not available in: US.
 - [CoinEx](https://www.donotkyc.com/p/coinex): Exchange. Identity: Light (no ID under a limit, or only email/phone). No ID up to $10,000 a day. Crypto only. Fees: 0.2%. Not available in: New York.

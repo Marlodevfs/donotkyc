@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-18",
+    "title": "Synapse back to active",
+    "body": "synapseprotocol.com now redirects to Hypercall, the team's new product, but the Synapse bridge still works at bridge.synapseprotocol.com. The listing points there and is no longer under review."
+  },
+  {
+    "date": "2026-10-18",
     "title": "How we make money, and a privacy policy",
     "body": "Two new pages explain who pays DoNotKYC (affiliate links and labelled sponsored tiles, with our advertising rules) and confirm the site collects no data about visitors."
   },

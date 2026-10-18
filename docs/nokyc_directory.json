@@ -576,7 +576,7 @@
     {
       "name": "Synapse Protocol",
       "type": "Bridge",
-      "url": "https://synapseprotocol.com",
+      "url": "https://bridge.synapseprotocol.com/",
       "kyc_tier": "None",
       "kyc_level": "none",
       "supported_countries": "Global",
@@ -596,7 +596,7 @@
       ],
       "tor": null,
       "open_source": null,
-      "status": "check",
+      "status": "active",
       "last_tested": null
     },
     {

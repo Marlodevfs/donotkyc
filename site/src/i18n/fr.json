@@ -268,7 +268,6 @@
    "phone": "Numéro de téléphone",
    "id": "Pièce d'identité"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com redirige maintenant vers hypercall.xyz/synapse : nous vérifions le service et son adresse.",
   "status_note_boltz": "Boltz a suspendu ses swaps le 3 août 2026 et son site ne répond plus. N'envoyez pas de fonds tant que le service n'est pas rétabli."
  },
  "data": {
