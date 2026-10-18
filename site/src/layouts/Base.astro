@@ -51,7 +51,7 @@ const links = [
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="bar">
       <div class="wrap">
-        <a class="logo" href="/"><span class="m"><Icon name="shield-off" /></span>DoNotKYC</a>
+        <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="63" height="44" /><img class="lg-d" src="/logo-dark.webp" alt="" width="63" height="44" /></a>
         <nav class="nav" id="nav" aria-label="Main">
           {links.map((l) => <a href={l.href} aria-current={nav === l.key ? 'page' : undefined}>{l.label}</a>)}
         </nav>
@@ -69,7 +69,7 @@ const links = [
       <div class="wrap">
         <div class="fg">
           <div>
-            <a class="logo" href="/"><span class="m"><Icon name="shield-off" /></span>DoNotKYC</a>
+            <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="63" height="44" /><img class="lg-d" src="/logo-dark.webp" alt="" width="63" height="44" /></a>
             <p>An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.</p>
           </div>
           <div><h4>Directory</h4><ul>

@@ -297,3 +297,9 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 .panel .warn{margin-top:14px}
 .prose .exchange-title{font-family:var(--h);font-weight:600;font-size:22px;letter-spacing:-.02em;color:var(--fg);margin-bottom:4px}
 .panel p strong{color:var(--fg)}
+/* logo d'origine : variante texte marine en clair, texte blanc en sombre */
+.logo img{display:block;height:44px;width:auto}
+.lg-d{display:none!important}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lg-l{display:none!important}:root:not([data-theme="light"]) .lg-d{display:block!important}}
+:root[data-theme="dark"] .lg-l{display:none!important}
+:root[data-theme="dark"] .lg-d{display:block!important}
