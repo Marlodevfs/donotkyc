@@ -52,7 +52,7 @@ const links = [
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="bar">
       <div class="wrap">
-        <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="63" height="44" /><img class="lg-d" src="/logo-dark.webp" alt="" width="63" height="44" /></a>
+        <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="74" height="52" /><img class="lg-d" src="/logo-dark.webp" alt="" width="74" height="52" /></a>
         <nav class="nav" id="nav" aria-label="Main">
           {links.map((l) => <a href={l.href} aria-current={nav === l.key ? 'page' : undefined}>{l.label}</a>)}
         </nav>
@@ -70,7 +70,7 @@ const links = [
       <div class="wrap">
         <div class="fg">
           <div>
-            <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="63" height="44" /><img class="lg-d" src="/logo-dark.webp" alt="" width="63" height="44" /></a>
+            <a class="logo" href="/" aria-label="DoNotKYC home"><img class="lg-l" src="/logo-light.webp" alt="" width="74" height="52" /><img class="lg-d" src="/logo-dark.webp" alt="" width="74" height="52" /></a>
             <p>An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.</p>
           </div>
           <div><h4>Directory</h4><ul>
@@ -79,6 +79,13 @@ const links = [
             <li><a href="/methodology">How we check</a></li>
             <li><a href={reportUrl()} rel="noopener">Report a change</a></li>
             <li><a href="/api-docs">Open data API</a></li>
+          </ul></div>
+          <div><h4>Browse</h4><ul>
+            <li><a href="/exchanges">Exchanges</a></li>
+            <li><a href="/swaps">Instant swaps</a></li>
+            <li><a href="/p2p">P2P markets</a></li>
+            <li><a href="/buy/bitcoin">Buy bitcoin</a></li>
+            <li><a href="/buy/monero">Buy Monero</a></li>
           </ul></div>
           <div><h4>Guides</h4><ul>
             <li><a href="/privacy">Privacy guide</a></li>

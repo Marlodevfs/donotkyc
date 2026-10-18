@@ -54,3 +54,5 @@ export const lastTest = (p: Platform): Test | null =>
   ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCompare(a.date))[0] ?? null;
 export const fmtDate = (iso: string) =>
   new Date(iso + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+export const CATEGORY_PATH: Record<string, string> = { CEX: '/exchanges', DEX: '/dex', 'Instant Swap': '/swaps', P2P: '/p2p', ATM: '/atms', Bridge: '/bridges' };

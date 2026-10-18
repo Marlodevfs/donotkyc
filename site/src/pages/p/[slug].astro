@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import Mono from '../../components/Mono.astro';
 import Level from '../../components/Level.astro';
-import { platforms, TYPES, LEVELS, byLeastId, visitUrl, reportUrl, CUSTODY, PAYMENTS, KYC_ASKED, lastTest, fmtDate, type Platform, type Test } from '../../lib/platforms';
+import { platforms, TYPES, LEVELS, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, CUSTODY, PAYMENTS, KYC_ASKED, lastTest, fmtDate, type Platform, type Test } from '../../lib/platforms';
 
 export function getStaticPaths() {
   return platforms.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -23,13 +23,14 @@ const jsonld = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Directory', item: site + '/' },
-    { '@type': 'ListItem', position: 2, name: p.name, item: `${site}/p/${p.slug}` },
+    { '@type': 'ListItem', position: 2, name: type, item: site + CATEGORY_PATH[p.type] },
+    { '@type': 'ListItem', position: 3, name: p.name, item: `${site}/p/${p.slug}` },
   ],
 };
 ---
 <Base title={title} description={description} path={`/p/${p.slug}`} jsonld={jsonld}>
   <div class="wrap det">
-    <nav class="crumb" aria-label="Breadcrumb"><a href="/">Directory</a><Icon name="chevron-right" size={15} /><span>{type}</span><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>
+    <nav class="crumb" aria-label="Breadcrumb"><a href="/">Directory</a><Icon name="chevron-right" size={15} /><a href={CATEGORY_PATH[p.type]}>{type}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>
     <div class="dh">
       <Mono p={p} size={72} />
       <div>

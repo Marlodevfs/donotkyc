@@ -3,9 +3,12 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Mono from '../components/Mono.astro';
 import Level from '../components/Level.astro';
-import { platforms, CATEGORIES, TYPES, LEVELS, catOf, byLeastId } from '../lib/platforms';
+import Rows from '../components/Rows.astro';
+import { LANDINGS, itemsFor } from '../data/landings';
+import { platforms, CATEGORIES, TYPES, LEVELS, byLeastId } from '../lib/platforms';
 
 const site = 'https://www.donotkyc.com';
+const alts = LANDINGS.filter((l) => l.group === 'alternative');
 const list = [...platforms].sort(byLeastId);
 const noId = platforms.filter((p) => p.kyc_level === 'none').length;
 const count = (c: (typeof CATEGORIES)[number]) => (c.key === 'all' ? platforms.length : platforms.filter((p) => c.types.includes(p.type)).length);
@@ -99,22 +102,15 @@ const jsonld = [
         </div>
       </div>
       <div class="active" id="active" aria-live="polite"></div>
-      <div class="hd" aria-hidden="true"><span>Platform</span><span>Identity asked</span><span>Card or bank</span><span>Fees</span><span>Not available in</span><span></span></div>
-      <ul class="list" id="list">
-        {list.map((p, i) => (
-          <li class="it" data-cat={catOf(p)} data-level={p.kyc_level} data-fiat={p.fiat_deposit ? '1' : '0'}
-              data-us={p.blocked && /\bUS\b/.test(p.blocked) ? '0' : '1'} data-name={p.name.toLowerCase()} data-rank={i} data-hay={hay(p)}>
-            <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={`/p/${p.slug}`}>{p.name}</a></b><small>{TYPES[p.type]}</small></div></div></div>
-            <div class="lvc"><Level level={p.kyc_level} /><span class="sub">{p.kyc_summary}</span></div>
-            <div class="c c-fiat">{p.fiat_deposit ? <b>Yes</b> : 'No'}</div>
-            <div class="c c-fee num">{p.fees}</div>
-            <div class="c c-blk">{p.blocked ?? 'Available everywhere'}</div>
-            <div class="metac"><span>{p.fiat_deposit ? 'Card or bank' : 'Crypto only'}</span><span>Fees {p.fees}</span></div>
-            <div class="goc"><a class="go" href={`/p/${p.slug}`} aria-label={`${p.name} details`}>Details<Icon name="arrow-right" size={16} /></a></div>
-          </li>
-        ))}
-      </ul>
+      <Rows items={list} id="list" hay={hay} />
       <div class="empty" id="empty" hidden>No platform matches these filters. <button type="button" data-reset>Clear all filters</button></div>
+    </section>
+
+    <section class="sec" aria-labelledby="alt-h">
+      <div class="sec-h"><h2 id="alt-h">Leaving a platform that asked for your ID?</h2><p>Each page lists the platforms in this directory that do the same job without the identity check.</p></div>
+      <ul class="idx">
+        {alts.map((l) => (<li><a href={l.path}><span class="from">Instead of</span><span class="name">{l.nav}</span><span class="alt">{itemsFor(l).length} alternatives<Icon name="arrow-right" size={16} /></span></a></li>))}
+      </ul>
     </section>
 
     <section class="sec" aria-labelledby="ft-h">
