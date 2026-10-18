@@ -39,6 +39,7 @@ const links = [
     {localized && LOCALES.map((l) => <link rel="alternate" hreflang={HREFLANG[l]} href={site + lp(l, path)} />)}
     {localized && <link rel="alternate" hreflang="x-default" href={site + path} />}
     <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="alternate" type="application/rss+xml" title="DoNotKYC changelog" href="/rss.xml" />
     <meta name="theme-color" content="#0F172A" />
     <meta property="og:type" content={type} />
     <meta property="og:site_name" content="DoNotKYC" />
@@ -97,6 +98,7 @@ const links = [
             <li><a href={L('/advertise')}>{t('footer.advertise')}</a></li>
             <li><a href={reportUrl()} rel="noopener">{t('footer.report')}</a></li>
             <li><a href="/api-docs">{t('footer.api')}</a></li>
+            <li><a href="/changelog">Changelog</a></li>
           </ul></div>
           <div><h4>{t('footer.browse')}</h4><ul>
             <li><a href={L('/exchanges')}>{t('footer.exchanges')}</a></li>

@@ -5,7 +5,7 @@ import { LOCALES, lp } from '../i18n';
 
 const SITE = 'https://www.donotkyc.com';
 const LOCALIZED = ['/', '/submit', '/methodology', '/advertise', '/compare'];
-const EN_ONLY = ['/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs'];
+const EN_ONLY = ['/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs', '/changelog'];
 
 export function GET() {
   const paths = [...LOCALIZED, ...LANDINGS.map((l) => l.path), ...platforms.map((p) => `/p/${p.slug}`), ...pairs.map((p) => `/compare/${p.slug}`)];
