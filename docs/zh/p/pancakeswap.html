@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang="zh-Hans" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>PancakeSwap：KYC 政策、限额与费用 | DoNotKYC</title><meta name="description" content="PancakeSwap 是一个去中心化交易所。身份要求：无需（仅需钱包）。仅支持加密货币。 费用：0.25%。可用地区：Global。"><link rel="canonical" href="https://www.donotkyc.com/zh/p/pancakeswap"><link rel="alternate" hreflang="en" href="https://www.donotkyc.com/p/pancakeswap"><link rel="alternate" hreflang="fr" href="https://www.donotkyc.com/fr/p/pancakeswap"><link rel="alternate" hreflang="es" href="https://www.donotkyc.com/es/p/pancakeswap"><link rel="alternate" hreflang="de" href="https://www.donotkyc.com/de/p/pancakeswap"><link rel="alternate" hreflang="pt" href="https://www.donotkyc.com/pt/p/pancakeswap"><link rel="alternate" hreflang="it" href="https://www.donotkyc.com/it/p/pancakeswap"><link rel="alternate" hreflang="ru" href="https://www.donotkyc.com/ru/p/pancakeswap"><link rel="alternate" hreflang="tr" href="https://www.donotkyc.com/tr/p/pancakeswap"><link rel="alternate" hreflang="zh-Hans" href="https://www.donotkyc.com/zh/p/pancakeswap"><link rel="alternate" hreflang="x-default" href="https://www.donotkyc.com/p/pancakeswap"><link rel="icon" href="/favicon.png" type="image/png"><meta name="theme-color" content="#0F172A"><meta property="og:type" content="website"><meta property="og:site_name" content="DoNotKYC"><meta property="og:title" content="PancakeSwap：KYC 政策、限额与费用 | DoNotKYC"><meta property="og:description" content="PancakeSwap 是一个去中心化交易所。身份要求：无需（仅需钱包）。仅支持加密货币。 费用：0.25%。可用地区：Global。"><meta property="og:url" content="https://www.donotkyc.com/zh/p/pancakeswap"><meta property="og:locale" content="zh_Hans"><meta property="og:image" content="https://www.donotkyc.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@donotkyc"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"目录","item":"https://www.donotkyc.com/zh"},{"@type":"ListItem","position":2,"name":"去中心化交易所","item":"https://www.donotkyc.com/zh/dex"},{"@type":"ListItem","position":3,"name":"PancakeSwap","item":"https://www.donotkyc.com/zh/p/pancakeswap"}]}</script><script>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script><link rel="stylesheet" href="/assets/api-docs.DLWBmbs0.css"></head> <body> <a class="skip-link" href="#main">跳到正文</a> <header class="bar"> <div class="wrap"> <a class="logo" href="/zh" aria-label="DoNotKYC 首页"><img class="lg-l" src="/logo-light.webp" alt="" width="99" height="40"><img class="lg-d" src="/logo-dark.webp" alt="" width="99" height="40"></a> <nav class="nav" id="nav" aria-label="Main"> <a href="/zh">目录</a><a href="/blog">博客</a><a href="/vpn-affiliation">VPN</a><a href="/privacy">隐私指南</a><a href="/security">安全</a> </nav> <div class="tools"> <details class="lang"> <summary aria-label="语言">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-languages"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 8 6 6" />
+  <path d="m4 14 6-6 2-3" />
+  <path d="M2 5h12" />
+  <path d="M7 2h1" />
+  <path d="m22 22-5-10-5 10" />
+  <path d="M14 18h6" />
+</svg>
+ZH</summary> <ul> <li><a href="/p/pancakeswap" hreflang="en" lang="en">English</a></li><li><a href="/fr/p/pancakeswap" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/p/pancakeswap" hreflang="es" lang="es">Español</a></li><li><a href="/de/p/pancakeswap" hreflang="de" lang="de">Deutsch</a></li><li><a href="/pt/p/pancakeswap" hreflang="pt" lang="pt">Português</a></li><li><a href="/it/p/pancakeswap" hreflang="it" lang="it">Italiano</a></li><li><a href="/ru/p/pancakeswap" hreflang="ru" lang="ru">Русский</a></li><li><a href="/tr/p/pancakeswap" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh/p/pancakeswap" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li> </ul> </details> <button class="ibtn" id="theme" type="button" aria-label="切换主题">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-sun-moon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v2" />
+  <path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+  <path d="M16 12a4 4 0 0 0-4-4" />
+  <path d="m19 5-1.256 1.256" />
+  <path d="M20 12h2" />
+</svg>
+</button> <button class="ibtn menu" id="menu" type="button" aria-label="打开菜单" aria-controls="nav" aria-expanded="false">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</button> <a class="cta-s" href="/zh/advertise">投放广告</a> </div> </div> </header> <main id="main"> <div class="wrap det"> <nav class="crumb" aria-label="Breadcrumb"><a href="/zh">目录</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<a href="/zh/dex">去中心化交易所</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<span aria-current="page">PancakeSwap</span></nav> <div class="dh"> <span class="mono" aria-hidden="true" style="width:72px;height:72px"> <img src="/logos/pancakeswap.webp" alt="" width="72" height="72" loading="lazy" decoding="async"> </span> <div> <h1>PancakeSwap</h1> <p>去中心化交易所。仅需钱包。</p> <div class="chips"><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span><span class="lvl l-plain">仅加密货币</span></div> </div> <div class="acts"> <a class="btn" href="https://pancakeswap.finance/" rel="noopener">访问 pancakeswap.finance
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span class="small">无联盟链接。</span> </div> </div>  <div class="dg"> <div> <section class="panel" aria-labelledby="kyc-h"> <h2 id="kyc-h">身份与限额</h2> <p><strong>仅需钱包.</strong></p> <div class="warn">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-triangle-alert"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+  <path d="M12 9v4" />
+  <path d="M12 17h.01" />
+</svg>
+<span>政策可能随时变更。先用小额开始，转移大额资金前请阅读平台条款。无需身份验证意味着更多隐私，但出问题时追索手段更少。</span></div> </section> <section class="panel" aria-labelledby="ft-h"><h2 id="ft-h">功能</h2><ul class="tags"><li>Yield farming</li><li>Staking</li><li>NFT Marketplace</li><li>Lottery</li></ul></section> <section class="panel" aria-labelledby="ts-h"> <h2 id="ts-h">我们的测试</h2> <p>我们还没有用真钱测试过 PancakeSwap。本条目依据其公开条款编写。 <a href="/zh/methodology">我们如何测试</a>.</p> </section> <section class="panel" aria-labelledby="rp-h"> <h2 id="rp-h">有变化吗？</h2> <p>如果 PancakeSwap 现在要求证件、修改了限额或已关闭， <a href="https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml&title=Listing%20update%3A%20PancakeSwap" rel="noopener">请在 GitHub 告诉我们</a>. 我们会核实每条反馈后再修改条目。</p> </section> </div> <div> <section class="panel" aria-labelledby="ag-h"> <h2 id="ag-h">概览</h2> <dl> <div><dt>身份要求</dt><dd>无需</dd></div> <div><dt>类型</dt><dd>去中心化交易所</dd></div> <div><dt>资金托管</dt><dd>你自己的钱包</dd></div> <div><dt>支付方式</dt><dd>加密货币</dd></div> <div><dt>费用</dt><dd class="num">0.25%</dd></div> <div><dt>可用地区</dt><dd>Global</dd></div>   <div><dt>币种</dt><dd>50+</dd></div> <div><dt>24 小时成交量</dt><dd class="num">High</dd></div> <div><dt>信誉</dt><dd>High</dd></div> </dl> </section> <section class="panel" aria-labelledby="sm-h"> <h2 id="sm-h">类似平台</h2> <ul class="sim"><li><span class="pf"><span class="mono" aria-hidden="true"> <img src="/logos/1inch.webp" alt="" width="40" height="40" loading="lazy" decoding="async"> </span><span><b><a href="/zh/p/1inch">1inch</a></b><small>仅需钱包</small></span></span><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span></li><li><span class="pf"><span class="mono" aria-hidden="true"> <img src="/logos/bim-exchange.webp" alt="" width="40" height="40" loading="lazy" decoding="async"> </span><span><b><a href="/zh/p/bim-exchange">BIM Exchange</a></b><small>仅需钱包</small></span></span><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span></li><li><span class="pf"><span class="mono" aria-hidden="true"> <img src="/logos/bisq.webp" alt="" width="40" height="40" loading="lazy" decoding="async"> </span><span><b><a href="/zh/p/bisq">Bisq</a></b><small>完全无需账户</small></span></span><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span></li><li><span class="pf"><span class="mono" aria-hidden="true"> <img src="/logos/degate.webp" alt="" width="40" height="40" loading="lazy" decoding="async"> </span><span><b><a href="/zh/p/degate">DeGate</a></b><small>仅需钱包</small></span></span><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span></li><li><span class="pf"><span class="mono" aria-hidden="true"> <img src="/logos/dydx.webp" alt="" width="40" height="40" loading="lazy" decoding="async"> </span><span><b><a href="/zh/p/dydx">dYdX</a></b><small>仅需钱包</small></span></span><span class="lvl l-none">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" />
+</svg>
+无需</span></li></ul> </section> </div> </div> </div> </main> <footer class="site"> <div class="wrap"> <div class="fg"> <div> <a class="logo" href="/zh" aria-label="DoNotKYC 首页"><img class="lg-l" src="/logo-light.webp" alt="" width="99" height="40"><img class="lg-d" src="/logo-dark.webp" alt="" width="99" height="40"></a> <p>一个独立的加密平台目录，收录无需提交身份证件即可交易的平台。仅供参考，不构成投资建议。</p> </div> <div><h4>目录</h4><ul> <li><a href="/zh#directory">全部平台</a></li> <li><a href="/zh/submit">推荐平台</a></li> <li><a href="/zh/methodology">我们如何核查</a></li> <li><a href="/zh/advertise">投放广告</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml" rel="noopener">报告变更</a></li> <li><a href="/api-docs">开放数据 API</a></li> </ul></div> <div><h4>浏览</h4><ul> <li><a href="/zh/exchanges">交易所</a></li> <li><a href="/zh/swaps">即时兑换</a></li> <li><a href="/zh/p2p">P2P 市场</a></li> <li><a href="/zh/buy/bitcoin">购买比特币</a></li> <li><a href="/zh/buy/monero">购买门罗币</a></li> </ul></div> <div><h4>指南</h4><ul> <li><a href="/privacy">隐私指南</a></li> <li><a href="/security">安全建议</a></li> <li><a href="/vpn-affiliation">加密货币 VPN</a></li> <li><a href="/blog">博客</a></li> </ul><p class="small">指南和博客为英文。</p></div> <div><h4>社区</h4><ul> <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li> <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li> <li><a href="https://www.tiktok.com/@donotkyc" rel="noopener">TikTok</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc" rel="noopener">GitHub</a></li> </ul></div> </div> <div class="legal"> <p>无 KYC 平台存在风险，出问题时追索手段更少。请自行研究，从小额开始，并遵守所在地的法律和税务规定。部分“访问”链接为联盟链接，不影响目录排序。</p> <span>© 2026 DoNotKYC</span> </div> </div> </footer> <script>
+      (function () {
+        var root = document.documentElement, b = document.getElementById('theme');
+        function mode() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+        b.addEventListener('click', function () {
+          var next = mode() === 'dark' ? 'light' : 'dark';
+          root.dataset.theme = next;
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+        var m = document.getElementById('menu'), n = document.getElementById('nav');
+        m.addEventListener('click', function () { var open = n.classList.toggle('open'); m.setAttribute('aria-expanded', open); });
+        document.addEventListener('click', function (e) { var d = document.querySelector('details.lang'); if (d && d.open && !d.contains(e.target)) d.open = false; });
+      })();
+    </script> </body> </html>
