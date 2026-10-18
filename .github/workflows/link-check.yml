@@ -1,0 +1,24 @@
+name: link-check
+# Chaque lundi : sites des plateformes (pannes, changements de domaine) et fraîcheur des tests.
+# Le rapport met à jour une seule issue « Weekly listing check » (étiquette link-check).
+on:
+  schedule: [{ cron: '0 6 * * 1' }]
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node site/scripts/check-links.mjs > report.md
+      - name: Update the weekly issue
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh label create link-check --color 5319E7 --description "Weekly automatic listing check" 2>/dev/null || true
+          n=$(gh issue list --label link-check --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then gh issue edit "$n" --body-file report.md; gh issue comment "$n" --body "Report updated $(date -u +%F)."
+          else gh issue create --title "Weekly listing check" --label link-check --body-file report.md; fi

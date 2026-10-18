@@ -438,7 +438,7 @@
     {
       "name": "1inch",
       "type": "DEX",
-      "url": "https://1inch.io",
+      "url": "https://1inch.com/",
       "kyc_tier": "None",
       "kyc_level": "none",
       "supported_countries": "Global",
@@ -909,7 +909,7 @@
       ],
       "tor": null,
       "open_source": true,
-      "status": "active",
+      "status": "check",
       "last_tested": null
     },
     {

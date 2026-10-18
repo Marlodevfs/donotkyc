@@ -29,7 +29,7 @@ const KW: Record<string, string> = {
 const hay = (p: (typeof platforms)[number]) =>
   [p.name, TYPES[p.type], t(`types.${p.type}`), p.kyc_summary, p.kyc_tier, p.supported_countries, p.cryptocurrencies, ...(p.features ?? []), p.fiat_deposit ? 'card bank fiat cash' : '', KW[p.name] ?? '']
     .join(' ').toLowerCase();
-const picks = ['bisq', 'trocador', 'boltz'].map((slug) => ({ p: platforms.find((x) => x.slug === slug)!, text: t(`home.pick_${slug}`) }));
+const picks = ['bisq', 'trocador', 'peach-bitcoin'].map((slug) => ({ p: platforms.find((x) => x.slug === slug)!, text: t(`home.pick_${slug}`) }));
 const faq = t('home.faq') as [string, string][];
 const catLabels = Object.fromEntries(CATEGORIES.map((c) => [c.key, t(`cats.${c.key}`)]));
 

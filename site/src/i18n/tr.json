@@ -75,7 +75,8 @@
   "crypto_only": "Yalnızca kripto",
   "fees_x": "Ücretler {x}",
   "details": "Ayrıntılar",
-  "details_of": "{name} ayrıntıları"
+  "details_of": "{name} ayrıntıları",
+  "check": "İnceleniyor"
  },
  "home": {
   "title": "KYC'siz kripto borsaları, takaslar ve P2P pazarları | DoNotKYC",
@@ -178,7 +179,8 @@
     "Bir kayıt güncel değil. Nasıl bildiririm?",
     "Platform sayfasındaki ya da alt bilgideki «Değişiklik bildir» bağlantısını kullan. Bir kaydı değiştirmeden önce her bildirimi kontrol ederiz."
    ]
-  ]
+  ],
+  "pick_peach-bitcoin": "Bir mobil uygulamadan başkalarıyla bitcoin al sat. Zincir üstü emanet, kimlik yok."
  },
  "sponsor": {
   "label": "Sponsorlu",
@@ -263,7 +265,8 @@
    "phone": "Telefon numarası",
    "id": "Kimlik belgesi"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com artık hypercall.xyz/synapse adresine yönlendiriyor: hizmeti ve adresini doğruluyoruz."
+  "status_note_synapse-protocol": "synapseprotocol.com artık hypercall.xyz/synapse adresine yönlendiriyor: hizmeti ve adresini doğruluyoruz.",
+  "status_note_boltz": "Boltz takaslarını 3 Ağustos 2026'da durdurdu ve sitesi artık açılmıyor. Hizmet geri gelene kadar fon gönderme."
  },
  "data": {
   "Depends on the partner": "Ortağa bağlı",

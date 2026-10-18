@@ -75,7 +75,8 @@
   "crypto_only": "Crypto only",
   "fees_x": "Fees {x}",
   "details": "Details",
-  "details_of": "{name} details"
+  "details_of": "{name} details",
+  "check": "Under review"
  },
  "home": {
   "title": "No-KYC Crypto Exchanges, Swaps and P2P Markets | DoNotKYC",
@@ -178,7 +179,8 @@
     "A listing is out of date. How do I report it?",
     "Use the \"Report a change\" link on the platform’s page, or the one in the footer. We check every report before we update a listing."
    ]
-  ]
+  ],
+  "pick_peach-bitcoin": "Buy and sell bitcoin with other people from a mobile app. On-chain escrow, no ID."
  },
  "sponsor": {
   "label": "Sponsored",
@@ -263,7 +265,8 @@
    "phone": "Phone number",
    "id": "ID document"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com now redirects to hypercall.xyz/synapse: we are confirming the service and its URL."
+  "status_note_synapse-protocol": "synapseprotocol.com now redirects to hypercall.xyz/synapse: we are confirming the service and its URL.",
+  "status_note_boltz": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back."
  },
  "data": {
   "Depends on the partner": "Depends on the partner",

@@ -5,7 +5,7 @@ const PAIRS: [string, string][] = [
   ['mexc', 'bybit'], ['mexc', 'bingx'], ['bybit', 'bingx'], ['coinex', 'mexc'], ['nonkyc-io', 'coinex'],
   ['uniswap', 'pancakeswap'], ['dydx', 'hyperliquid'], ['hyperliquid', 'edgex'], ['uniswap', '1inch'],
   ['bisq', 'hodl-hodl'], ['bisq', 'peach-bitcoin'], ['hodl-hodl', 'peach-bitcoin'], ['localcoinswap', 'hodl-hodl'],
-  ['trocador', 'stealthex'], ['changelly', 'simpleswap'], ['stealthex', 'changelly'], ['trocador', 'wizardswap'], ['boltz', 'trocador'],
+  ['trocador', 'stealthex'], ['changelly', 'simpleswap'], ['stealthex', 'changelly'], ['trocador', 'wizardswap'],
 ];
 
 export type Pair = { slug: string; a: Platform; b: Platform };

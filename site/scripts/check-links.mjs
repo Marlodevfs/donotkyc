@@ -1,0 +1,44 @@
+// Contrôle hebdomadaire : sites des plateformes + fraîcheur des tests. Écrit un rapport Markdown sur stdout.
+// Usage : node scripts/check-links.mjs > report.md   (code de sortie 0 dans tous les cas)
+import { readFileSync } from 'node:fs';
+
+const platforms = JSON.parse(readFileSync(new URL('../src/data/platforms.json', import.meta.url)));
+const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
+const host = (u) => new URL(u).hostname.replace(/^www\./, '');
+const STALE_DAYS = 90;
+const today = new Date();
+
+async function check(p) {
+  try {
+    const res = await fetch(p.url, { redirect: 'follow', headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
+    const moved = host(res.url) !== host(p.url) && !host(res.url).endsWith('.' + host(p.url));
+    // 401/403/429/503 : très souvent une protection anti-robot, pas une panne
+    const bot = [401, 403, 429, 503].includes(res.status);
+    return { p, status: res.status, final: res.url, moved, problem: moved || (!res.ok && !bot), bot };
+  } catch (e) {
+    return { p, status: e.name === 'TimeoutError' ? 'timeout' : 'error', final: '', moved: false, problem: true, bot: false, err: e.message };
+  }
+}
+
+const results = [];
+for (let i = 0; i < platforms.length; i += 8) results.push(...(await Promise.all(platforms.slice(i, i + 8).map(check))));
+
+const lastTest = (p) => (p.tests ?? []).map((t) => t.date).sort().at(-1) ?? null;
+const age = (d) => Math.floor((today - new Date(d + 'T12:00:00Z')) / 864e5);
+const stale = platforms.filter((p) => lastTest(p) && age(lastTest(p)) > STALE_DAYS);
+const never = platforms.filter((p) => !lastTest(p));
+const problems = results.filter((r) => r.problem);
+const bots = results.filter((r) => r.bot && !r.moved);
+
+const out = [];
+out.push(`Automatic check of ${today.toISOString().slice(0, 10)} (weekly, see .github/workflows/link-check.yml).`, '');
+out.push(`## Sites to check by hand: ${problems.length}`, '');
+if (problems.length) {
+  out.push('| Platform | Listed URL | Result |', '|---|---|---|');
+  for (const r of problems) out.push(`| ${r.p.name} | ${r.p.url} | ${r.moved ? `now redirects to ${r.final}` : `HTTP ${r.status}${r.err ? ` (${r.err.slice(0, 60)})` : ''}`} |`);
+} else out.push('Every listed site answered normally.');
+out.push('', `## Blocked by anti-bot protection (probably fine): ${bots.length}`, '', bots.map((r) => `${r.p.name} (${r.status})`).join(', ') || 'None.');
+out.push('', `## Tests older than ${STALE_DAYS} days: ${stale.length}`, '', stale.map((p) => `- ${p.name}: last test ${lastTest(p)}`).join('\n') || 'None.');
+out.push('', `## Never tested with real money: ${never.length}`, '', '<details><summary>Show the list</summary>', '', never.map((p) => `- ${p.name}`).join('\n'), '', '</details>');
+out.push('', 'How to record a test: see TESTING.md.');
+console.log(out.join('\n'));

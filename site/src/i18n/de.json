@@ -75,7 +75,8 @@
   "crypto_only": "Nur Krypto",
   "fees_x": "Gebühren {x}",
   "details": "Details",
-  "details_of": "Details zu {name}"
+  "details_of": "Details zu {name}",
+  "check": "In Prüfung"
  },
  "home": {
   "title": "Krypto-Börsen, Swaps und P2P-Marktplätze ohne KYC | DoNotKYC",
@@ -178,7 +179,8 @@
     "Ein Eintrag ist veraltet. Wie melde ich das?",
     "Nutze den Link „Änderung melden“ auf der Seite der Plattform oder im Footer. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern."
    ]
-  ]
+  ],
+  "pick_peach-bitcoin": "Kaufe und verkaufe Bitcoin mit anderen Menschen per App. On-Chain-Treuhand, kein Ausweis."
  },
  "sponsor": {
   "label": "Gesponsert",
@@ -263,7 +265,8 @@
    "phone": "Telefonnummer",
    "id": "Ausweisdokument"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com leitet jetzt auf hypercall.xyz/synapse weiter: Wir prüfen den Dienst und seine Adresse."
+  "status_note_synapse-protocol": "synapseprotocol.com leitet jetzt auf hypercall.xyz/synapse weiter: Wir prüfen den Dienst und seine Adresse.",
+  "status_note_boltz": "Boltz hat seine Swaps am 3. August 2026 eingestellt, die Website ist nicht mehr erreichbar. Sende kein Geld, bis der Dienst zurück ist."
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

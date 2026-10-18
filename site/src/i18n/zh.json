@@ -75,7 +75,8 @@
   "crypto_only": "仅加密货币",
   "fees_x": "费用 {x}",
   "details": "详情",
-  "details_of": "{name} 详情"
+  "details_of": "{name} 详情",
+  "check": "复查中"
  },
  "home": {
   "title": "无 KYC 加密交易所、兑换与 P2P 市场 | DoNotKYC",
@@ -178,7 +179,8 @@
     "条目过时了，怎么反馈？",
     "使用平台页面或页脚的“报告变更”链接。我们会核实每条反馈后再修改条目。"
    ]
-  ]
+  ],
+  "pick_peach-bitcoin": "通过手机应用与他人买卖比特币。链上托管，无需证件。"
  },
  "sponsor": {
   "label": "赞助",
@@ -263,7 +265,8 @@
    "phone": "手机号",
    "id": "身份证件"
   },
-  "status_note_synapse-protocol": "synapseprotocol.com 现在跳转到 hypercall.xyz/synapse：我们正在确认该服务及其网址。"
+  "status_note_synapse-protocol": "synapseprotocol.com 现在跳转到 hypercall.xyz/synapse：我们正在确认该服务及其网址。",
+  "status_note_boltz": "Boltz 已于 2026 年 8 月 3 日暂停兑换，网站已无法访问。服务恢复前请勿转入资金。"
  },
  "data": {
   "Depends on the partner": "取决于合作方",

@@ -17,7 +17,7 @@ const t = useT(lang);
     return (
       <li class="it" data-cat={catOf(p)} data-level={p.kyc_level} data-fiat={p.fiat_deposit ? '1' : '0'}
           data-us={p.blocked && /\bUS\b/.test(p.blocked) ? '0' : '1'} data-name={p.name.toLowerCase()} data-rank={i} data-hay={hay ? hay(p) + ' ' + String(summary).toLowerCase() : undefined}>
-        <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={href}>{p.name}</a></b><small>{t(`types.${p.type}`)}</small></div></div></div>
+        <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={href}>{p.name}</a>{p.status === 'check' && <span class="chk-badge">{t('list.check')}</span>}</b><small>{t(`types.${p.type}`)}</small></div></div></div>
         <div class="lvc"><Level level={p.kyc_level} lang={lang} /><span class="sub">{summary}</span></div>
         <div class="c c-fiat">{p.fiat_deposit ? <b>{t('list.yes')}</b> : t('list.no')}</div>
         <div class="c c-fee num">{p.fees}</div>
