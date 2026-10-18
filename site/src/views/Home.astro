@@ -12,6 +12,7 @@ import { useT, lp, tx, type Lang } from '../i18n';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = useT(lang);
+const sp = lang === 'zh' ? '' : ' '; // pas d'espace entre les segments en chinois
 const L = (p: string) => lp(lang, p);
 const site = 'https://www.donotkyc.com';
 const alts = LANDINGS.filter((l) => l.group === 'alternative');
@@ -46,7 +47,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
 <Base title={t('home.title')} description={t('home.description', { n: platforms.length })} path="/" lang={lang} localized nav="directory" jsonld={jsonld}>
   <div class="wrap">
     <section class="hero">
-      <h1>{t('home.h1_a')} <em>{t('home.h1_em')}</em> {t('home.h1_b')}</h1>
+      <h1>{t('home.h1_a')}{sp}<em>{t('home.h1_em')}</em>{sp}{t('home.h1_b')}</h1>
       <p>{t('home.lead', { n: platforms.length })}</p>
       <form class="search" id="sform" role="search" action="#directory">
         <label class="sbox"><Icon name="search" /><span class="vis">{t('home.search_label')}</span>
