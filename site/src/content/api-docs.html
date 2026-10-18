@@ -5,7 +5,7 @@
       </p>
 
       <h2>Base URL</h2>
-      <pre><code>https://www.donotkyc.com/nokyc_directory.json</code></pre>
+      <pre tabindex="0"><code>https://www.donotkyc.com/nokyc_directory.json</code></pre>
 
       <h2>Schema</h2>
       <p>Top-level keys:</p>
@@ -39,14 +39,14 @@
       <p><code>volume_24h</code>, <code>reputation</code> and <code>cryptocurrencies</code> can be <code>null</code> when unknown.</p>
 
       <h2>Example response</h2>
-      <pre><code>{
+      <pre tabindex="0"><code>{
   "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "https://www.mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
   "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "https://app.uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "features": ["AMM","Liquidity pools","Governance"] }]
 }</code></pre>
 
       <h2>Usage</h2>
       <h3>Client-side fetch</h3>
-      <pre><code>const DATA_URL = 'https://www.donotkyc.com/nokyc_directory.json';
+      <pre tabindex="0"><code>const DATA_URL = 'https://www.donotkyc.com/nokyc_directory.json';
 fetch(DATA_URL)
   .then(r => r.json())
   .then(data => render(data))

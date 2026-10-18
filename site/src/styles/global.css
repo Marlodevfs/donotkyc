@@ -4,9 +4,9 @@
 @import '@fontsource-variable/hanken-grotesk';
 
 :root{
-  --bg:#F4F6F9; --surface:#FFFFFF; --sunk:#EAEEF3; --fg:#0F172A; --fg-2:#475569; --fg-3:#64748B;
+  --bg:#F4F6F9; --surface:#FFFFFF; --sunk:#EAEEF3; --fg:#0F172A; --fg-2:#475569; --fg-3:#5A6779;
   --line:#DCE3EC; --line-strong:#0F172A;
-  --primary:#1E3A5F; --on-primary:#FFFFFF; --accent:#15803D; --accent-soft:#DCF5E5; --on-accent:#FFFFFF;
+  --primary:#1E3A5F; --on-primary:#FFFFFF; --accent:#15803D; --accent-soft:#DCF5E5; --accent-ink:#166534; --on-accent:#FFFFFF;
   --amber:#92580A; --amber-soft:#FCEFD6; --slate:#334155; --slate-soft:#E5E9F0; --bad:#B42318; --bad-soft:#FDE7E4;
   --h:"Hanken Grotesk Variable","Hanken Grotesk",system-ui,sans-serif; --b:"Hanken Grotesk Variable","Hanken Grotesk",system-ui,sans-serif;
   --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -15,12 +15,12 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0F172A; --surface:#141D33; --sunk:#10192E; --fg:#F8FAFC; --fg-2:#B4C0D0; --fg-3:#94A3B8;
   --line:rgba(255,255,255,.09); --line-strong:#E2E8F0;
-  --primary:#22C55E; --on-primary:#0F172A; --accent:#4ADE80; --accent-soft:rgba(34,197,94,.14); --on-accent:#0F172A;
+  --primary:#22C55E; --on-primary:#0F172A; --accent:#4ADE80; --accent-soft:rgba(34,197,94,.14); --accent-ink:#4ADE80; --on-accent:#0F172A;
   --amber:#F5C66B; --amber-soft:rgba(245,198,107,.13); --slate:#CBD5E1; --slate-soft:rgba(203,213,225,.10); --bad:#FCA5A5; --bad-soft:rgba(248,113,113,.12); color-scheme:dark;}}
 :root[data-theme="dark"]{
   --bg:#0F172A; --surface:#141D33; --sunk:#10192E; --fg:#F8FAFC; --fg-2:#B4C0D0; --fg-3:#94A3B8;
   --line:rgba(255,255,255,.09); --line-strong:#E2E8F0;
-  --primary:#22C55E; --on-primary:#0F172A; --accent:#4ADE80; --accent-soft:rgba(34,197,94,.14); --on-accent:#0F172A;
+  --primary:#22C55E; --on-primary:#0F172A; --accent:#4ADE80; --accent-soft:rgba(34,197,94,.14); --accent-ink:#4ADE80; --on-accent:#0F172A;
   --amber:#F5C66B; --amber-soft:rgba(245,198,107,.13); --slate:#CBD5E1; --slate-soft:rgba(203,213,225,.10); --bad:#FCA5A5; --bad-soft:rgba(248,113,113,.12); color-scheme:dark;}
 
 *{box-sizing:border-box}
@@ -128,7 +128,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pf a::after{content:"";position:absolute;inset:0}
 .pf small{display:block;font-size:14px;color:var(--fg-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .lvl{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 10px;font-size:14px;font-weight:600;white-space:nowrap}
-.l-none{background:var(--accent-soft);color:var(--accent)}
+.l-none{background:var(--accent-soft);color:var(--accent-ink)}
 .l-light{background:var(--amber-soft);color:var(--amber)}
 .l-tiered{background:var(--slate-soft);color:var(--slate)}
 .l-plain{background:var(--sunk);color:var(--fg-2)}
