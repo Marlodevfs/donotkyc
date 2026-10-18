@@ -1,8 +1,4 @@
 ---
-import Base from '../layouts/Base.astro';
-import body from '../content/privacy.html?raw';
-
+import Guide from '../views/Guide.astro';
 ---
-<Base title='Privacy Guide for No-KYC Crypto Users | DoNotKYC' description='Actionable privacy guide for no-KYC crypto users: OPSEC, wallets, mixing, network privacy, device hygiene.' path="/privacy" nav={'privacy'}>
-  <div class="wrap page"><article class="prose" set:html={body} /></div>
-</Base>
+<Guide page="privacy" lang="en" nav="privacy" />

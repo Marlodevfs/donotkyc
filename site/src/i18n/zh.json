@@ -39,7 +39,7 @@
   "blog": "博客",
   "community": "社区",
   "legal": "无 KYC 平台存在风险，出问题时追索手段更少。请自行研究，从小额开始，并遵守所在地的法律和税务规定。部分“访问”链接为联盟链接，不影响目录排序。",
-  "english_only": "指南和博客为英文。"
+  "english_only": "博客文章为英文。"
  },
  "levels": {
   "none": "无需",
@@ -537,5 +537,22 @@
   "description": "搜索整个目录：平台、对比、指南和文章。",
   "h1": "搜索全站",
   "lead": "本语言下的平台、指南和对比。"
+ },
+ "guides": {
+  "privacy": {
+   "title": "无 KYC 加密用户隐私指南 | DoNotKYC",
+   "description": "面向无 KYC 加密用户的实用隐私指南：OPSEC、钱包、网络隐私和设备卫生。",
+   "html": "<h1>隐私指南</h1><p>在无 KYC 平台上保护隐私的具体步骤。本文不构成任何财务或法律建议。</p><div class=\"note\"><strong>核心原则：</strong> 尽量减少你的真实身份、设备和链上活动之间的关联。</div><h2>账户与 OPSEC</h2><ul><li>用别名服务（SimpleLogin、Addy.io）为每个服务使用不同的邮箱。不要重复使用身份标识。</li><li>用本地密码管理器（KeePassXC、1Password）生成强密码，并尽量开启 TOTP。</li><li>分隔身份：交易、调研和社交账户使用不同的浏览器配置文件。</li></ul><h2>网络隐私</h2><ul><li>P2P 和敏感操作优先使用 Tor；否则使用可靠、无日志并带断网保护的 VPN。</li><li>加固浏览器：屏蔽第三方 Cookie 和指纹追踪，只在需要时使用隐私扩展。</li></ul><h2>钱包卫生</h2><ul><li>每次使用新的收款地址；不要在不同服务之间重复使用地址。</li><li>把与身份关联的币和其他币分开放在不同钱包里。</li><li>冷存储可考虑硬件钱包；核实固件和设备来源。</li></ul><h2>链上习惯</h2><ul><li>大多数区块链是透明的：根据每条链采用合适的隐私技术。</li><li>比特币方面，学习 UTXO 管理和币控制，避免地址复用。</li><li>使用跨链桥时，核实合约地址和近期审计。先用小额测试。</li></ul><h2>设备安全</h2><ul><li>保持系统和浏览器更新。开启全盘加密和安全启动。</li><li>警惕剪贴板劫持和假冒钱包扩展。尽可能校验下载文件和签名。</li></ul><h2>购买与变现</h2><ul><li>使用 P2P 时严格按托管流程操作，沟通只在平台内进行。</li><li>使用 ATM 前先比较费用和限额；留意身后有无人偷看，收据离线保存。</li></ul><h2>常见错误</h2><ul><li>在多个平台使用同一邮箱、手机号或 IP。</li><li>把托管资金和自托管资金混在一起而不追踪来源。</li><li>点击来路不明网站上的推广链接；务必核对目标域名。</li></ul><div class=\"note\">提示：隐私有程度之分，各国法规不同。请确保遵守当地法律。</div>"
+  },
+  "security": {
+   "title": "无 KYC 加密交易安全建议 | DoNotKYC",
+   "description": "无 KYC 交易安全清单：密钥、备份、钓鱼、恶意软件和操作安全。",
+   "html": "<h1>安全建议</h1><p>一份在无 KYC 平台上降低风险的检查清单。</p><div class=\"card\"><h2>密钥与备份</h2><ul><li class=\"ok\">优先自托管。助记词离线保存，绝不在陌生设备上输入。</li><li class=\"ok\">至少做两份金属或纸质备份，分别存放在不同地点。</li><li class=\"warn\">需要时使用 passphrase（BIP39）；存入资金前先演练恢复。</li></ul></div><div class=\"card\"><h2>钓鱼与冒充</h2><ul><li class=\"ok\">手动输入交易所网址，或使用已核实的书签。</li><li class=\"ok\">合约和跨链桥地址只从官方渠道获取。</li><li class=\"bad\">绝不要把助记词、私钥或验证码交给 Telegram 或 Discord 上的“客服”。</li></ul></div><div class=\"card\"><h2>恶意软件与漏洞</h2><ul><li class=\"ok\">为加密操作准备专用设备或浏览器配置文件。</li><li class=\"ok\">用只读钱包查看余额；尽量在隔离设备上签名。</li><li class=\"warn\">扫描文件，并校验所下载钱包的校验和。</li></ul></div><div class=\"card\"><h2>交易卫生</h2><ul><li class=\"ok\">通过跨链桥或 DEX 转移大额前，先用小额测试。</li><li class=\"ok\">拆分大额转账；避免可预测的时间规律。</li><li class=\"warn\">加密保存交易记录（资产、交易哈希、交易对手）。</li></ul></div><div class=\"card\"><h2>P2P 专项</h2><ul><li class=\"ok\">使用平台托管；最终结算前绝不放币。</li><li class=\"ok\">现金交易约在有监控的公共场所，必要时验钞。</li><li class=\"warn\">不要透露个人手机号；使用平台消息沟通。</li></ul></div><p>安全是一个过程，而不是一件产品。请定期回顾这份清单，并根据新的威胁调整。</p>"
+  },
+  "vpn-affiliation": {
+   "title": "在被封锁网站购买加密货币的 VPN | DoNotKYC",
+   "description": "用于访问你所在国家被封锁的交易所的 VPN 服务商，以及 VPN 能隐藏和不能隐藏的内容。",
+   "html": "<h1>在被封锁网站购买加密货币的 VPN</h1><section><p>一些国家封锁了知名加密交易所。VPN（虚拟专用网络）会向交易所隐藏你的 IP 地址，让你从另一个国家访问它。</p><p>以下是我们会优先考虑的 VPN 服务商。</p></section><section><h2>推荐的 VPN 服务商</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - 服务器网络庞大，付费套餐。 <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">获取 NordVPN</a></li><li><strong>Proton VPN</strong> - 瑞士服务商，无日志，有免费套餐。 <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">获取 Proton VPN</a></li><li><strong>Obscura VPN</strong> - 其设计让服务商无法把你的流量和付款关联起来，而不是只靠无日志承诺。 <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Obscura VPN</a></li><li><strong>Mullvad</strong> - 注册无需邮箱，接受现金和门罗币。 <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Mullvad</a></li><li><strong>Tunnelbear</strong> - 应用简单，有少量免费额度。 <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Tunnelbear</a></li><li><strong>Meile DVPN</strong> - 运行在 Sentinel 网络上的去中心化 VPN。 <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Meile DVPN</a></li><li><strong>LNVPN</strong> - 用闪电网络按小时付费，无需账户。 <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">获取 LNVPN</a></li><li><strong>Xeovo</strong> - 接受加密货币付款的无日志 VPN。 <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Xeovo</a></li></ul></section><section><h2>如何在加密交易所使用 VPN</h2><ol><li>从列表中选择一家服务商。部分链接是推广链接。</li><li>在设备上下载并安装 VPN 软件。</li><li>连接到交易所未被封锁的国家的服务器。</li><li>打开交易所进行交易。VPN 隐藏你的 IP，但不会取消交易所自身的 KYC 规则。</li></ol></section><section><h2>法律提示</h2><p>各国对 VPN 使用和加密交易的监管不同。通过 VPN 访问交易所前，请先确认当地法律。</p></section><section class=\"affiliate-disclaimer\"><p><strong>提示：</strong> NordVPN 和 Proton VPN 的链接是推广链接：DoNotKYC 可能获得佣金，你无需额外付费。这不会改变列表顺序。</p></section>"
+  }
  }
 }

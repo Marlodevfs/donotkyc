@@ -1,0 +1,13 @@
+---
+// Guides traduits : HTML anglais dans content/, autres langues dans i18n/<lang>.json (clé guides).
+import Base from '../layouts/Base.astro';
+import { dict, type Lang } from '../i18n';
+const raw = import.meta.glob('../content/*.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+interface Props { page: 'privacy' | 'security' | 'vpn-affiliation'; lang: Lang; nav: 'privacy' | 'security' | 'vpn' }
+const { page, lang, nav } = Astro.props;
+const g = dict(lang).guides[page];
+const html = lang === 'en' || !g.html ? raw[`../content/${page}.html`] : g.html;
+---
+<Base title={g.title} description={g.description} path={`/${page}`} lang={lang} localized nav={nav}>
+  <div class="wrap page"><article class="prose" set:html={html} /></div>
+</Base>

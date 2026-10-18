@@ -23,9 +23,9 @@ const L = (p: string) => lp(lang, p);
 const links = [
   { key: 'directory', href: L('/'), label: t('nav.directory') },
   { key: 'blog', href: '/blog', label: t('nav.blog') },
-  { key: 'vpn', href: '/vpn-affiliation', label: t('nav.vpn') },
-  { key: 'privacy', href: '/privacy', label: t('nav.privacy') },
-  { key: 'security', href: '/security', label: t('nav.security') },
+  { key: 'vpn', href: L('/vpn-affiliation'), label: t('nav.vpn') },
+  { key: 'privacy', href: L('/privacy'), label: t('nav.privacy') },
+  { key: 'security', href: L('/security'), label: t('nav.security') },
 ];
 ---
 <!doctype html>
@@ -109,9 +109,9 @@ const links = [
             <li><a href={L('/buy/monero')}>{t('footer.monero')}</a></li>
           </ul></div>
           <div><h4>{t('footer.guides')}</h4><ul>
-            <li><a href="/privacy">{t('footer.privacy')}</a></li>
-            <li><a href="/security">{t('footer.security')}</a></li>
-            <li><a href="/vpn-affiliation">{t('footer.vpn')}</a></li>
+            <li><a href={L('/privacy')}>{t('footer.privacy')}</a></li>
+            <li><a href={L('/security')}>{t('footer.security')}</a></li>
+            <li><a href={L('/vpn-affiliation')}>{t('footer.vpn')}</a></li>
             <li><a href="/blog">{t('footer.blog')}</a></li>
           </ul>{lang !== 'en' && <p class="small">{t('footer.english_only')}</p>}</div>
           <div><h4>{t('footer.community')}</h4><ul>

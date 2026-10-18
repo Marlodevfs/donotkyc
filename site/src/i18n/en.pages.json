@@ -203,5 +203,19 @@
    "description": "Reach people who already avoid KYC. Clearly labelled sponsored tiles, reviewed advertisers, paid in crypto.",
    "html": "<h1>Advertise on DoNotKYC</h1> <p>DoNotKYC is read by people who want to trade crypto without handing over their identity. A sponsored tile puts your service next to the platforms they compare, with a Sponsored label.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Contact us on Telegram{icon}</a></p> <h2>Placements</h2> <ul> <li><strong>Homepage tile:</strong> one sponsor at a time, in the \"Where we would start\" section.</li> <li><strong>Topic page tile:</strong> one sponsor per page, above the list. Pages include Exchanges, Decentralised exchanges, Instant swaps, P2P markets, Bitcoin ATMs, Bridges, Bitcoin, Monero, Cash, Bank transfer, Card.</li> </ul> <p>Placements run by calendar month. Prepaying 3 or 12 months reduces the monthly rate. Ask for current rates and audience figures.</p> <h2>The rules</h2> <ul> <li>Every tile says \"Sponsored\" and links with <code>rel=\"sponsored\"</code>.</li> <li>Paying does not change a listing, its identity level or its position in the directory.</li> <li>We review every advertiser before accepting. We refuse services with credible scam or frozen-funds reports, and anything illegal where it is offered.</li> <li>We can remove a tile if new evidence of harm to users appears. Conditions are agreed before payment.</li> </ul> <h2>How it works</h2> <ol> <li>Send us your service, the placement you want and the dates on Telegram.</li> <li>We review the service and reply within a few days.</li> <li>You receive a crypto invoice (Bitcoin, Lightning or Monero).</li> <li>Once paid, the tile goes live on the start date and comes down on the end date automatically. We remind you before it ends.</li> </ol>"
   }
+ },
+ "guides": {
+  "privacy": {
+   "title": "Privacy Guide for No-KYC Crypto Users | DoNotKYC",
+   "description": "Actionable privacy guide for no-KYC crypto users: OPSEC, wallets, network privacy, device hygiene."
+  },
+  "security": {
+   "title": "Security Tips for Anonymous Crypto Trading | DoNotKYC",
+   "description": "Security checklist for anonymous trading: keys, backups, phishing, malware, operational security."
+  },
+  "vpn-affiliation": {
+   "title": "VPNs for Buying Crypto on Blocked Sites | DoNotKYC",
+   "description": "VPN providers to reach crypto exchanges blocked in your country, and what a VPN does and does not hide."
+  }
  }
 }
