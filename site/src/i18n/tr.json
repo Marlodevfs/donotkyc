@@ -14,7 +14,8 @@
   "menu": "Menüyü aç",
   "skip": "İçeriğe geç",
   "language": "Dil",
-  "home": "DoNotKYC ana sayfa"
+  "home": "DoNotKYC ana sayfa",
+  "search": "Ara"
  },
  "footer": {
   "about": "Kimlik göndermeden işlem yapabileceğin kripto platformlarının bağımsız dizini. Yalnızca bilgi amaçlıdır, finansal tavsiye değildir.",
@@ -529,5 +530,11 @@
   "open": "{name} sayfasını aç",
   "other": "Diğer karşılaştırmalar",
   "link": "Karşılaştır"
+ },
+ "search": {
+  "title": "DoNotKYC içinde ara | DoNotKYC",
+  "description": "Tüm dizinde ara: platformlar, karşılaştırmalar, rehberler ve makaleler.",
+  "h1": "Tüm sitede ara",
+  "lead": "Bu dildeki platformlar, rehberler ve karşılaştırmalar."
  }
 }

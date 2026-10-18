@@ -14,7 +14,8 @@
   "menu": "Abrir menú",
   "skip": "Ir al contenido",
   "language": "Idioma",
-  "home": "Inicio de DoNotKYC"
+  "home": "Inicio de DoNotKYC",
+  "search": "Buscar"
  },
  "footer": {
   "about": "Un directorio independiente de plataformas cripto donde puedes operar sin enviar tu identificación. Solo información, no asesoramiento financiero.",
@@ -529,5 +530,11 @@
   "open": "Ver {name}",
   "other": "Otras comparativas",
   "link": "Comparar"
+ },
+ "search": {
+  "title": "Buscar en DoNotKYC | DoNotKYC",
+  "description": "Busca en todo el directorio: plataformas, comparativas, guías y artículos.",
+  "h1": "Buscar en todo el sitio",
+  "lead": "Plataformas, guías y comparativas en este idioma."
  }
 }

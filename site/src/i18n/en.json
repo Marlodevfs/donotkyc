@@ -14,7 +14,8 @@
   "menu": "Open menu",
   "skip": "Skip to content",
   "language": "Language",
-  "home": "DoNotKYC home"
+  "home": "DoNotKYC home",
+  "search": "Search"
  },
  "footer": {
   "about": "An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.",
@@ -325,5 +326,11 @@
   "open": "Open {name}",
   "other": "Other comparisons",
   "link": "Compare"
+ },
+ "search": {
+  "title": "Search DoNotKYC | DoNotKYC",
+  "description": "Search every page of the directory: platforms, comparisons, guides and articles.",
+  "h1": "Search the whole site",
+  "lead": "Platforms, guides and comparisons in this language."
  }
 }

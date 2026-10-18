@@ -14,7 +14,8 @@
   "menu": "打开菜单",
   "skip": "跳到正文",
   "language": "语言",
-  "home": "DoNotKYC 首页"
+  "home": "DoNotKYC 首页",
+  "search": "搜索"
  },
  "footer": {
   "about": "一个独立的加密平台目录，收录无需提交身份证件即可交易的平台。仅供参考，不构成投资建议。",
@@ -530,5 +531,11 @@
   "open": "查看 {name}",
   "other": "其他对比",
   "link": "对比"
+ },
+ "search": {
+  "title": "搜索 DoNotKYC | DoNotKYC",
+  "description": "搜索整个目录：平台、对比、指南和文章。",
+  "h1": "搜索全站",
+  "lead": "本语言下的平台、指南和对比。"
  }
 }

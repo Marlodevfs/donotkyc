@@ -4,12 +4,15 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && rm -f ../docs/content-assets.mjs ../docs/content-modules.mjs",
+    "build": "astro build && rm -f ../docs/content-assets.mjs ../docs/content-modules.mjs && pagefind --site ../docs --output-subdir pagefind --silent",
     "preview": "astro preview"
   },
   "dependencies": {
     "@fontsource-variable/hanken-grotesk": "5.3.0",
     "astro": "5.18.2",
     "lucide-static": "1.49.0"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
   }
 }

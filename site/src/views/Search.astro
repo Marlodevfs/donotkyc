@@ -1,0 +1,23 @@
+---
+// Recherche plein texte : index Pagefind construit au build, tout reste sur le site.
+import Base from '../layouts/Base.astro';
+import { useT, type Lang } from '../i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useT(lang);
+---
+<Base title={t('search.title')} description={t('search.description')} path="/search" lang={lang} localized>
+  <div class="wrap page">
+    <header class="lh"><h1>{t('search.h1')}</h1><p>{t('search.lead')}</p></header>
+    <div id="search" class="pf-search"></div>
+    <noscript><p class="small">JavaScript is needed for site search. The directory on the homepage works without it.</p></noscript>
+  </div>
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      var ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+      var q = new URLSearchParams(location.search).get('q'); if (q) ui.triggerSearch(q);
+    });
+  </script>
+</Base>

@@ -358,3 +358,6 @@ table.cmp{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
 @media (max-width:760px){.cmp-heads,.cmp-groups{grid-template-columns:1fr}}
 .cmp-heads .panel+.panel,.cmp-groups .panel+.panel{margin-top:0}
 .chk-badge{display:inline-block;margin-left:8px;padding:1px 8px;font-size:12px;font-weight:600;background:var(--amber-soft);color:var(--amber);vertical-align:2px;font-family:var(--b)}
+/* recherche Pagefind aux couleurs du site */
+.pf-search{margin-top:24px;--pagefind-ui-scale:.9;--pagefind-ui-primary:var(--fg);--pagefind-ui-text:var(--fg);--pagefind-ui-background:var(--surface);--pagefind-ui-border:var(--line-strong);--pagefind-ui-tag:var(--sunk);--pagefind-ui-border-width:1.5px;--pagefind-ui-border-radius:0;--pagefind-ui-font:var(--b)}
+.pf-search mark{background:var(--accent-soft);color:var(--fg)}

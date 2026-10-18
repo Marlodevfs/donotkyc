@@ -14,7 +14,8 @@
   "menu": "Apri menu",
   "skip": "Vai al contenuto",
   "language": "Lingua",
-  "home": "Home di DoNotKYC"
+  "home": "Home di DoNotKYC",
+  "search": "Cerca"
  },
  "footer": {
   "about": "Un elenco indipendente di piattaforme crypto dove fare trading senza inviare un documento. Solo informazioni, non consulenza finanziaria.",
@@ -529,5 +530,11 @@
   "open": "Vedi {name}",
   "other": "Altri confronti",
   "link": "Confronta"
+ },
+ "search": {
+  "title": "Cerca su DoNotKYC | DoNotKYC",
+  "description": "Cerca in tutto l'elenco: piattaforme, confronti, guide e articoli.",
+  "h1": "Cerca in tutto il sito",
+  "lead": "Piattaforme, guide e confronti in questa lingua."
  }
 }

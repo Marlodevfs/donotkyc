@@ -14,7 +14,8 @@
   "menu": "Menü öffnen",
   "skip": "Zum Inhalt",
   "language": "Sprache",
-  "home": "DoNotKYC Startseite"
+  "home": "DoNotKYC Startseite",
+  "search": "Suchen"
  },
  "footer": {
   "about": "Ein unabhängiges Verzeichnis von Krypto-Plattformen, auf denen du ohne Ausweis handeln kannst. Nur zur Information, keine Finanzberatung.",
@@ -529,5 +530,11 @@
   "open": "{name} ansehen",
   "other": "Weitere Vergleiche",
   "link": "Vergleichen"
+ },
+ "search": {
+  "title": "DoNotKYC durchsuchen | DoNotKYC",
+  "description": "Durchsuche das ganze Verzeichnis: Plattformen, Vergleiche, Guides und Artikel.",
+  "h1": "Die ganze Seite durchsuchen",
+  "lead": "Plattformen, Guides und Vergleiche in dieser Sprache."
  }
 }

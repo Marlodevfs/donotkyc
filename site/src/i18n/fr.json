@@ -14,7 +14,8 @@
   "menu": "Ouvrir le menu",
   "skip": "Aller au contenu",
   "language": "Langue",
-  "home": "Accueil DoNotKYC"
+  "home": "Accueil DoNotKYC",
+  "search": "Rechercher"
  },
  "footer": {
   "about": "Un annuaire indépendant des plateformes crypto où l'on peut échanger sans envoyer de pièce d'identité. Information uniquement, pas un conseil financier.",
@@ -530,5 +531,11 @@
   "open": "Voir {name}",
   "other": "Autres comparatifs",
   "link": "Comparer"
+ },
+ "search": {
+  "title": "Rechercher sur DoNotKYC | DoNotKYC",
+  "description": "Cherchez dans tout l'annuaire : plateformes, comparatifs, guides et articles.",
+  "h1": "Rechercher dans tout le site",
+  "lead": "Plateformes, guides et comparatifs dans cette langue."
  }
 }

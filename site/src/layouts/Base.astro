@@ -74,6 +74,7 @@ const links = [
               ))}
             </ul>
           </details>
+          <a class="ibtn" href={L('/search')} aria-label={t('nav.search')}><Icon name="search" /></a>
           <button class="ibtn" id="theme" type="button" aria-label={t('nav.theme')}><Icon name="sun-moon" /></button>
           <button class="ibtn menu" id="menu" type="button" aria-label={t('nav.menu')} aria-controls="nav" aria-expanded="false"><Icon name="menu" /></button>
           <a class="cta-s" href={L('/advertise')}>{t('nav.advertise')}</a>
@@ -81,7 +82,7 @@ const links = [
       </div>
     </header>
 
-    <main id="main"><slot /></main>
+    <main id="main" data-pagefind-body><slot /></main>
 
     <footer class="site">
       <div class="wrap">
