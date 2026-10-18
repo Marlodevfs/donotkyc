@@ -1,13 +1,50 @@
 ---
+// Article réécrit en 2026 : le tableau vient de platforms.json, il suit l'annuaire.
 import Base from '../layouts/Base.astro';
-import body from '../content/article1.html?raw';
+import { platforms, LEVELS, byLeastId } from '../lib/platforms';
 
-const h1 = (body.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '').replace(/<[^>]+>/g, '').trim();
-const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: h1, description: 'Discover the best No-KYC and Low-KYC crypto exchanges in 2025 for fast, private trading. Practical guide included.', image: 'https://www.donotkyc.com/article1.webp',
-  datePublished: '2025-11-10', dateModified: '2025-11-27', author: { '@type': 'Organization', name: 'DoNotKYC', url: 'https://www.donotkyc.com/' },
+const UPDATED = '2026-10-18';
+const cex = platforms.filter((p) => p.type === 'CEX').sort(byLeastId);
+const noLimit = cex.filter((p) => p.kyc_level === 'none');
+const title = 'No-KYC crypto exchanges in 2026: limits, fees and catches';
+const description = `${cex.length} centralized exchanges that let you trade without an ID document, with each one's limit, fees and blocked countries, plus how to use them without losing funds.`;
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: title, description, image: 'https://www.donotkyc.com/article1.webp',
+  datePublished: '2025-11-10', dateModified: UPDATED, author: { '@type': 'Organization', name: 'DoNotKYC', url: 'https://www.donotkyc.com/' },
   publisher: { '@type': 'Organization', name: 'DoNotKYC', logo: { '@type': 'ImageObject', url: 'https://www.donotkyc.com/og-image.png' } },
   mainEntityOfPage: 'https://www.donotkyc.com/article1' };
+const names = (ps: typeof cex) => ps.map((p) => p.name).join(' and ');
+const fiat = cex.filter((p) => p.fiat_deposit);
 ---
-<Base title='Top No-KYC and Low-KYC Crypto Exchanges in 2025 | DoNotKYC' description='Discover the best No-KYC and Low-KYC crypto exchanges in 2025 for fast, private trading. Practical guide included.' path="/article1" nav={'blog'} type="article" jsonld={jsonld}>
-  <div class="wrap page"><article class="prose" set:html={body} /></div>
+<Base title={`${title} | DoNotKYC`} description={description} path="/article1" nav="blog" type="article" jsonld={jsonld}>
+  <div class="wrap page"><article class="prose">
+    <h1>{title}</h1>
+    <p class="small">Updated <time datetime={UPDATED}>18 October 2026</time> · DoNotKYC</p>
+    <p>{cex.length} centralized exchanges in our directory let you trade without sending an ID document, at least up to a limit. The table below reads from the same data as the directory, so it changes when a listing changes.</p>
+
+    <h2>Short answer</h2>
+    <p>{names(noLimit)} ask for no ID at any amount. The others let you trade and withdraw without ID up to a daily limit, then ask for a document. Most take crypto deposits only; {names(fiat)} also accept card or bank deposits.</p>
+
+    <div class="cmp-tw"><table class="cmp">
+      <thead><tr><th>Exchange</th><th>Identity</th><th>Without ID</th><th>Fees</th><th>Not available in</th></tr></thead>
+      <tbody>{cex.map((p) => (
+        <tr><td><a href={`/p/${p.slug}`}>{p.name}</a></td><td>{LEVELS[p.kyc_level].label}</td><td>{p.kyc_summary}</td><td>{p.fees}</td><td>{p.blocked || 'None listed'}</td></tr>
+      ))}</tbody>
+    </table></div>
+
+    <h2>What "no KYC" means on an exchange</h2>
+    <p>A centralized exchange holds your coins for you. It can freeze an account and ask for ID at any moment, and it usually does so at withdrawal, after a large deposit or when your IP address comes from a blocked country. A published limit is a policy the exchange can change overnight.</p>
+    <p>We take each limit from the exchange's own help pages. We have not yet tested these exchanges with real money. When we do, the platform page shows the date, the amount and what the exchange asked for. Until then, read each limit as the exchange's claim.</p>
+
+    <h2>How to use one without losing funds</h2>
+    <ol>
+      <li>Deposit a small amount and withdraw it to your own wallet before you send more.</li>
+      <li>Keep nothing on the exchange that you are not trading today.</li>
+      <li>Turn on two-factor authentication with an app, not SMS.</li>
+      <li>If you connect through a VPN from a blocked country, know the risk: exchanges freeze accounts when they detect it, and the money stays locked until you send ID.</li>
+      <li>Check the platform page before each large move. We flag listings as under review when a site goes down or changes domain.</li>
+    </ol>
+
+    <h2>When an exchange is the wrong tool</h2>
+    <p>If you want to skip accounts entirely, an exchange is the wrong tool. <a href="/swaps">Instant swaps</a> convert one coin to another without an account, <a href="/p2p">P2P markets</a> let you buy from another person with cash or a bank transfer, and <a href="/dex">decentralized exchanges</a> trade straight from your wallet. You can compare exchanges side by side on the <a href="/compare">comparison page</a>, for example <a href="/compare/mexc-vs-bybit">MEXC vs Bybit</a>.</p>
+  </article></div>
 </Base>

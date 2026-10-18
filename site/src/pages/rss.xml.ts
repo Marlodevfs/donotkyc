@@ -3,8 +3,8 @@ import entries from '../data/changelog.json';
 const SITE = 'https://www.donotkyc.com';
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const ARTICLES = [
-  { date: '2025-11-10', title: 'Top No-KYC and Low-KYC Crypto Exchanges in 2025', link: '/article1', body: 'A practical guide to exchanges with low or optional KYC.' },
-  { date: '2025-11-10', title: 'Privacy First: Why Avoiding KYC Is Important', link: '/article2', body: 'Why KYC data is a risk and how to protect yourself.' },
+  { date: '2026-10-18', title: 'No-KYC crypto exchanges in 2026: limits, fees and catches', link: '/article1', body: 'Ten exchanges that let you trade without an ID document, with limits, fees and blocked countries.' },
+  { date: '2026-10-18', title: 'Why avoid KYC: what happens to your ID after you upload it', link: '/article2', body: 'Exchanges keep your passport scan for years, and those files leak. Real cases and how to limit your exposure.' },
 ];
 
 export function GET() {
