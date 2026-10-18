@@ -71,13 +71,7 @@
       </p>
 
       <h2>Base URL</h2>
-      <pre><code>https://your-domain.com/api/nokyc_directory.json</code></pre>
-
-      <div class="note">
-        Versioning suggestion: <code>/api/v1/nokyc_directory.json</code>. Add a
-        lightweight <code>/api/version.json</code> with
-        <code>{ "last_updated": "YYYY-MM-DD" }</code>.
-      </div>
+      <pre><code>https://www.donotkyc.com/nokyc_directory.json</code></pre>
 
       <h2>Schema</h2>
       <p>Top-level keys:</p>
@@ -96,7 +90,7 @@
         <li>
           <code>type</code> (enum: CEX, DEX, Bridge, ATM, P2P, Instant Swap)
         </li>
-        <li><code>url</code> (string, hostname)</li>
+        <li><code>url</code> (string, website URL)</li>
         <li><code>kyc_tier</code> (string)</li>
         <li>
           <code>supported_countries</code> (string; may later become array)
@@ -106,21 +100,19 @@
         <li><code>fees</code> (string)</li>
         <li><code>reputation</code> (string)</li>
         <li><code>cryptocurrencies</code> (string)</li>
-        <li>
-          <code>features</code> / <code>blockchains</code> /
-          <code>payment_methods</code> (arrays)
-        </li>
+        <li><code>features</code> (array of strings)</li>
       </ul>
+      <p><code>volume_24h</code>, <code>reputation</code> and <code>cryptocurrencies</code> can be <code>null</code> when unknown.</p>
 
       <h2>Example response</h2>
       <pre><code>{
-  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
-  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "blockchains": ["Ethereum","Polygon","Arbitrum","Optimism","BNB Chain"], "features": ["AMM","Liquidity pools","Governance"] }]
+  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "https://www.mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
+  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "https://app.uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "features": ["AMM","Liquidity pools","Governance"] }]
 }</code></pre>
 
       <h2>Usage</h2>
       <h3>Client-side fetch</h3>
-      <pre><code>const DATA_URL = '/api/nokyc_directory.json';
+      <pre><code>const DATA_URL = 'https://www.donotkyc.com/nokyc_directory.json';
 fetch(DATA_URL)
   .then(r => r.json())
   .then(data => render(data))
