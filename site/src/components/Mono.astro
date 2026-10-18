@@ -1,0 +1,9 @@
+---
+import { logoUrl, type Platform } from '../lib/platforms';
+interface Props { p: Platform; size?: number }
+const { p, size = 40 } = Astro.props;
+const src = logoUrl(p);
+---
+<span class="mono" aria-hidden="true" style={size !== 40 ? `width:${size}px;height:${size}px` : undefined}>
+  {src ? <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" /> : p.name.charAt(0)}
+</span>

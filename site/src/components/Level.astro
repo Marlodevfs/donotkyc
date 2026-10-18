@@ -1,0 +1,8 @@
+---
+import Icon from './Icon.astro';
+import { LEVELS, type Level as L } from '../lib/platforms';
+interface Props { level: L }
+const { level } = Astro.props;
+const l = LEVELS[level];
+---
+<span class={`lvl l-${level}`}><Icon name={l.icon} size={15} />{l.label}</span>

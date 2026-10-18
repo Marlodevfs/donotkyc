@@ -1,0 +1,78 @@
+<h1>API Documentation</h1>
+      <p>
+        Simple, public, read‑only JSON served over HTTPS. No API key. Ideal for
+        prototypes, research, and discovery tools.
+      </p>
+
+      <h2>Base URL</h2>
+      <pre><code>https://www.donotkyc.com/nokyc_directory.json</code></pre>
+
+      <h2>Schema</h2>
+      <p>Top-level keys:</p>
+      <div>
+        <span class="tag">centralized_exchanges</span>
+        <span class="tag">decentralized_exchanges</span>
+        <span class="tag">bridges</span>
+        <span class="tag">atms</span>
+        <span class="tag">p2p_marketplaces</span>
+        <span class="tag">instant_swaps</span>
+      </div>
+
+      <h3>Common fields</h3>
+      <ul>
+        <li><code>name</code> (string)</li>
+        <li>
+          <code>type</code> (enum: CEX, DEX, Bridge, ATM, P2P, Instant Swap)
+        </li>
+        <li><code>url</code> (string, website URL)</li>
+        <li><code>kyc_tier</code> (string)</li>
+        <li>
+          <code>supported_countries</code> (string; may later become array)
+        </li>
+        <li><code>fiat_deposit</code> (boolean)</li>
+        <li><code>volume_24h</code> (string; human readable)</li>
+        <li><code>fees</code> (string)</li>
+        <li><code>reputation</code> (string)</li>
+        <li><code>cryptocurrencies</code> (string)</li>
+        <li><code>features</code> (array of strings)</li>
+      </ul>
+      <p><code>volume_24h</code>, <code>reputation</code> and <code>cryptocurrencies</code> can be <code>null</code> when unknown.</p>
+
+      <h2>Example response</h2>
+      <pre><code>{
+  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "https://www.mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
+  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "https://app.uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "features": ["AMM","Liquidity pools","Governance"] }]
+}</code></pre>
+
+      <h2>Usage</h2>
+      <h3>Client-side fetch</h3>
+      <pre><code>const DATA_URL = 'https://www.donotkyc.com/nokyc_directory.json';
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(data => render(data))
+  .catch(console.error);</code></pre>
+
+      <h3>CORS</h3>
+      <p>
+        GitHub Pages serves static JSON with CORS allow‑all by default for GET
+        requests. Keep requests read‑only (no writes).
+      </p>
+
+      <h2>Rate limits</h2>
+      <p>
+        No strict limits, but please cache for 5–15 minutes and avoid aggressive
+        polling.
+      </p>
+
+      <h2>Attribution</h2>
+      <p>
+        If you use this dataset, link back to the homepage. For commercial use,
+        contact us.
+      </p>
+
+      <div class="note">
+        Disclaimer: Information is provided “as is” and may change without
+        notice. Always verify details on the platform’s website.
+      </div>
+
+      

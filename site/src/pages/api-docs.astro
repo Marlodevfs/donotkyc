@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../content/api-docs.html?raw';
+
+---
+<Base title='Open Data API: No-KYC Directory JSON | DoNotKYC' description='Public read-only JSON API for the no-KYC directory: endpoint, fields and examples.' path="/api-docs" nav={null}>
+  <div class="wrap page"><article class="prose" set:html={body} /></div>
+</Base>

@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../content/article1.html?raw';
+
+const h1 = (body.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '').replace(/<[^>]+>/g, '').trim();
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: h1, description: 'Discover the best No-KYC and Low-KYC crypto exchanges in 2025 for fast, private trading. Practical guide included.', image: 'https://www.donotkyc.com/article1.webp',
+  datePublished: '2025-11-10', dateModified: '2025-11-27', author: { '@type': 'Organization', name: 'DoNotKYC', url: 'https://www.donotkyc.com/' },
+  publisher: { '@type': 'Organization', name: 'DoNotKYC', logo: { '@type': 'ImageObject', url: 'https://www.donotkyc.com/og-image.png' } },
+  mainEntityOfPage: 'https://www.donotkyc.com/article1' };
+---
+<Base title='Top No-KYC and Low-KYC Crypto Exchanges in 2025 | DoNotKYC' description='Discover the best No-KYC and Low-KYC crypto exchanges in 2025 for fast, private trading. Practical guide included.' path="/article1" nav={'blog'} type="article" jsonld={jsonld}>
+  <div class="wrap page"><article class="prose" set:html={body} /></div>
+</Base>

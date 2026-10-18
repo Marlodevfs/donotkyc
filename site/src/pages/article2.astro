@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../content/article2.html?raw';
+
+const h1 = (body.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '').replace(/<[^>]+>/g, '').trim();
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: h1, description: 'Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets.', image: 'https://www.donotkyc.com/article2.webp',
+  datePublished: '2025-11-10', dateModified: '2025-11-27', author: { '@type': 'Organization', name: 'DoNotKYC', url: 'https://www.donotkyc.com/' },
+  publisher: { '@type': 'Organization', name: 'DoNotKYC', logo: { '@type': 'ImageObject', url: 'https://www.donotkyc.com/og-image.png' } },
+  mainEntityOfPage: 'https://www.donotkyc.com/article2' };
+---
+<Base title='Privacy First: Why Avoiding KYC Is Important | DoNotKYC' description='Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets.' path="/article2" nav={'blog'} type="article" jsonld={jsonld}>
+  <div class="wrap page"><article class="prose" set:html={body} /></div>
+</Base>

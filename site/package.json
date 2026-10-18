@@ -1,0 +1,16 @@
+{
+  "name": "donotkyc-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && rm -f ../docs/content-assets.mjs ../docs/content-modules.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/lexend": "5.3.0",
+    "@fontsource-variable/source-sans-3": "5.3.0",
+    "astro": "5.18.2",
+    "lucide-static": "1.49.0"
+  }
+}
