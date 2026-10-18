@@ -40,7 +40,7 @@ const jsonld = {
       </div>
       <div class="acts">
         <a class="btn" href={visitUrl(p)} rel={p.affiliate_link ? 'sponsored noopener' : 'noopener'}>Visit {host}<Icon name="arrow-up-right" /></a>
-        <span class="small">{p.affiliate_link ? 'Affiliate link. It never changes the order.' : 'No affiliate link.'}</span>
+        <span class="small">{p.affiliate_link ? 'Affiliate link. It does not change the order.' : 'No affiliate link.'}</span>
       </div>
     </div>
 
@@ -65,12 +65,12 @@ const jsonld = {
               <li><time datetime={t.date}>{fmtDate(t.date)}</time><span>{t.steps} with {t.amount} by {t.method}. {t.result}</span><b>{KYC_ASKED[t.kyc_asked]}</b></li>
             ))}</ul>
           ) : (
-            <p>We have not run a paid test on {p.name} yet. This listing is based on its published terms{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">source</a>)</>}. <a href="/methodology">How we test</a>.</p>
+            <p>We have not run a paid test on {p.name} yet. We built this listing from its published terms{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">source</a>)</>}. <a href="/methodology">How we test</a>.</p>
           )}
         </section>
         <section class="panel" aria-labelledby="rp-h">
           <h2 id="rp-h">Something changed?</h2>
-          <p>If {p.name} now asks for ID, changed its limits or closed, <a href={report} rel="noopener">tell us on GitHub</a>. Every report is checked before the listing is updated.</p>
+          <p>If {p.name} now asks for ID, changed its limits or closed, <a href={report} rel="noopener">tell us on GitHub</a>. We check every report before we update a listing.</p>
         </section>
       </div>
       <div>

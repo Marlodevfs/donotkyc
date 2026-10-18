@@ -34,11 +34,11 @@ const faq = [
   ['What is KYC?', 'Know Your Customer is the identity check regulated services run before letting you trade: ID card or passport, proof of address, sometimes a selfie. It exists for anti-money-laundering rules, and it concentrates sensitive data that can leak in a breach.'],
   ['Is trading without KYC legal?', 'It depends on where you live. Using a platform that does not ask for ID is legal in most countries, but tax and reporting rules still apply to you. Decentralised protocols face less direct oversight; you stay responsible for following your local law.'],
   ['What do None, Light and Tiered mean?', 'None: no ID and no account details. Light: no ID under a stated limit, or only an email or phone number. Tiered: ID is required above a threshold, written on each listing.'],
-  ['Which type of platform is best for beginners?', 'An exchange with a no-KYC tier is usually the easiest start. A decentralised exchange gives the most privacy and control, but you need to be comfortable with a wallet and network fees.'],
-  ['How do fees compare?', 'Exchanges often have tighter spreads and fast internal transfers. Decentralised exchanges show lower protocol fees but add network costs. Instant swaps build their margin into the quote, and ATMs add a cash-handling markup.'],
-  ['How does DoNotKYC choose platforms?', 'Listings are checked against the platform’s documentation and in-app behaviour, then reviewed periodically. If a service removes no-KYC access or makes ID mandatory for its core features, it is re-tagged or removed.'],
-  ['How does DoNotKYC make money?', 'Some "Visit" buttons are affiliate links, marked on each platform page. Future sponsored placements will always be labelled. Neither changes the order of the directory, which is sorted by the identity each platform asks for.'],
-  ['A listing is out of date. How do I report it?', 'Use the "Report a change" link on the platform\u2019s page, or the one in the footer. Every report is checked before the listing is updated.'],
+  ['Which type of platform is best for beginners?', 'Start with an exchange that has a no-KYC tier: it works like the apps you know. A decentralised exchange gives the most privacy and control, but you need to be comfortable with a wallet and network fees.'],
+  ['How do fees compare?', 'Exchanges have tighter spreads and fast internal transfers. Decentralised exchanges show lower protocol fees but add network costs. Instant swaps build their margin into the quote, and ATMs add a cash-handling markup.'],
+  ['How does DoNotKYC choose platforms?', 'We check each listing against the platform’s documentation and how the app behaves, then review it again over time. If a service removes no-KYC access or makes ID mandatory for its core features, we re-tag or remove it.'],
+  ['How does DoNotKYC make money?', 'Some "Visit" buttons are affiliate links, marked on each platform page. We label every sponsored placement. Neither changes the order of the directory, which is sorted by the identity each platform asks for.'],
+  ['A listing is out of date. How do I report it?', 'Use the "Report a change" link on the platform\u2019s page, or the one in the footer. We check every report before we update a listing.'],
 ];
 
 const jsonld = [
@@ -115,7 +115,7 @@ const jsonld = [
     </section>
 
     <section class="sec" aria-labelledby="ft-h">
-      <div class="sec-h"><h2 id="ft-h">Where we would start</h2><p>Three platforms we point people to first. Paid placements, when they come, will always be labelled and never ranked.</p></div>
+      <div class="sec-h"><h2 id="ft-h">Where we would start</h2><p>Three platforms we point people to first. We label paid placements and keep them out of the ranking.</p></div>
       <div class="feat">
         {picks.map(({ p, text }) => (
           <a class="card" href={`/p/${p.slug}`}>
@@ -131,19 +131,19 @@ const jsonld = [
     <section class="sec trust" id="how" aria-labelledby="tr-h">
       <div>
         <h2 id="tr-h">How the directory works</h2>
-        <p class="lead">Each listing shows the identity the platform asks for, its limits, the regions it blocks, its fees and whether it takes card or bank deposits. Listings are re-tagged or removed when a platform makes ID mandatory.</p>
+        <p class="lead">Each listing shows the identity the platform asks for, its limits, the regions it blocks, its fees and whether it takes card or bank deposits. We re-tag or remove a listing when the platform makes ID mandatory.</p>
       </div>
       <div>
         <ul class="types">
-          <li><Icon name="landmark" size={28} /><div><h3>Exchanges</h3><p>High liquidity, order books and mobile apps. Their no-KYC tiers usually cap withdrawals for unverified accounts.</p></div></li>
+          <li><Icon name="landmark" size={28} /><div><h3>Exchanges</h3><p>High liquidity, order books and mobile apps. Their no-KYC tiers cap withdrawals for unverified accounts.</p></div></li>
           <li><Icon name="network" size={28} /><div><h3>Decentralised exchanges</h3><p>Smart contracts, no sign-up. You trade from your own wallet and keep your keys.</p></div></li>
           <li><Icon name="repeat" size={28} /><div><h3>Instant swaps</h3><p>Quick coin-to-coin conversions without an account, the spread built into the quote.</p></div></li>
-          <li><Icon name="users" size={28} /><div><h3>P2P markets</h3><p>Buyers and sellers meet directly with local payment methods. Safety depends on escrow and reputation.</p></div></li>
-          <li><Icon name="banknote" size={28} /><div><h3>ATMs and bridges</h3><p>ATMs sell crypto for cash, often without ID under a threshold. Bridges move assets between blockchains.</p></div></li>
+          <li><Icon name="users" size={28} /><div><h3>P2P markets</h3><p>You pay another person with a local payment method. Safety depends on escrow and reputation.</p></div></li>
+          <li><Icon name="banknote" size={28} /><div><h3>ATMs and bridges</h3><p>ATMs sell crypto for cash, without ID under a threshold. Bridges move assets between blockchains.</p></div></li>
         </ul>
         <div class="rules">
-          <div class="rule"><b><Icon name="badge-check" />Order is never sold</b><p>The directory is sorted by the identity each platform asks for. Money does not change that.</p></div>
-          <div class="rule"><b><Icon name="link" />Affiliate links disclosed</b><p>Some "Visit" buttons earn us a commission. They are marked on every platform page.</p></div>
+          <div class="rule"><b><Icon name="badge-check" />Rankings are not for sale</b><p>We sort the directory by the identity each platform asks for. Paying does not move a platform.</p></div>
+          <div class="rule"><b><Icon name="link" />Affiliate links disclosed</b><p>Some "Visit" buttons earn us a commission. Each platform page says when a link is one.</p></div>
         </div>
       </div>
     </section>
@@ -163,7 +163,7 @@ const jsonld = [
 
     <section class="sec" id="advertise" aria-labelledby="ad-h">
       <div class="band">
-        <div><h2 id="ad-h">Run a privacy-friendly service?</h2><p>Sponsored tiles are clearly labelled, shown to people who already avoid KYC, and never change the order of the directory. We review every advertiser first.</p></div>
+        <div><h2 id="ad-h">Run a privacy-friendly service?</h2><p>Your tile carries a Sponsored label, reaches people who already avoid KYC, and leaves the directory order untouched. We review every advertiser first.</p></div>
         <a href="/advertise">Advertise with us<Icon name="arrow-right" size={18} /></a>
       </div>
     </section>
