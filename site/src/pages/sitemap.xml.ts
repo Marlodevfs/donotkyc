@@ -2,7 +2,7 @@ import { platforms } from '../lib/platforms';
 import { LANDINGS } from '../data/landings';
 
 const SITE = 'https://www.donotkyc.com';
-const PAGES = ['/', '/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs', '/submit', '/methodology'];
+const PAGES = ['/', '/blog', '/article1', '/article2', '/vpn-affiliation', '/privacy', '/security', '/api-docs', '/submit', '/methodology', '/advertise'];
 
 export function GET() {
   const urls = [...PAGES, ...LANDINGS.map((l) => l.path), ...platforms.map((p) => `/p/${p.slug}`)];

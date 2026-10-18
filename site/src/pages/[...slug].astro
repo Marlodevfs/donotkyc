@@ -2,6 +2,8 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Rows from '../components/Rows.astro';
+import SponsorTile from '../components/SponsorTile.astro';
+import { activeFor } from '../lib/sponsors';
 import { LANDINGS, itemsFor, GROUP_LABEL, type Landing } from '../data/landings';
 
 export function getStaticPaths() {
@@ -29,6 +31,7 @@ const jsonld = [
       {l.intro.map((t) => <p>{t}</p>)}
       <p class="small">{items.length} platforms listed, {noId} with no ID at all. Sorted by how much identity they ask for.</p>
     </header>
+    {activeFor(l.path) && <div class="sp-band"><SponsorTile slot={l.path} /></div>}
     <section class="dir" aria-label="Platforms">
       <Rows items={items} />
     </section>

@@ -1,0 +1,23 @@
+name: build
+# Vérifie que le site compile et que docs/ correspond bien aux sources commitées.
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: site } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
+      - run: npm ci
+      - run: npm run build
+      - name: docs/ is up to date
+        run: |
+          if ! git diff --quiet -- ../docs ':!../docs/sitemap.xml'; then
+            echo "::error::docs/ differs from a fresh build. Run 'npm run build' in site/ and commit docs/."
+            git status --short -- ../docs | head -20
+            exit 1
+          fi

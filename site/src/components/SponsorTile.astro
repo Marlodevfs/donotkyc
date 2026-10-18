@@ -1,0 +1,24 @@
+---
+import Icon from './Icon.astro';
+import { activeFor } from '../lib/sponsors';
+interface Props { slot: string; fallback?: boolean }
+const { slot, fallback = false } = Astro.props;
+const s = activeFor(slot);
+const host = s ? new URL(s.url).hostname.replace(/^www\./, '') : '';
+---
+{s ? (
+  <aside class="card ad" aria-label={`Sponsored: ${s.name}`}>
+    <div class="top"><span class="adl">Sponsored</span>{s.logo && <img class="sp-logo" src={'/' + s.logo} alt="" width="40" height="40" loading="lazy" />}</div>
+    <h3>{s.name}</h3>
+    <p>{s.tagline}</p>
+    <a href={s.url} rel="sponsored noopener">Visit {host}<Icon name="arrow-up-right" size={16} /></a>
+    <div class="foot"><span>Paid placement. Not tested, not ranked.</span><a href="/advertise">Why this ad?</a></div>
+  </aside>
+) : fallback && (
+  <div class="card ad">
+    <div class="top"><span class="adl">Sponsored slot</span></div>
+    <h3>Your privacy service here</h3>
+    <p>One clearly labelled tile, shown to people who already avoid KYC. Every advertiser is reviewed first.</p>
+    <a href="/advertise">How to advertise<Icon name="arrow-right" size={16} /></a>
+  </div>
+)}

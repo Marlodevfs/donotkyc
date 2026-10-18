@@ -330,3 +330,7 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 .idx .alt{margin-top:auto;font-size:15px;color:var(--fg-2);display:flex;align-items:center;gap:6px}
 .idx a:hover .name{color:var(--accent)}
 @media (max-width:900px){.idx{grid-template-columns:repeat(2,minmax(0,1fr))}.idx li:nth-child(4n){border-right:1px solid var(--line)}.idx li:nth-child(2n){border-right:0}}
+.sp-logo{width:40px;height:40px;object-fit:contain}
+.card.ad .foot a{font-weight:400;color:var(--fg-3)}
+.sp-band{margin-top:32px;max-width:520px}
+.sp-band .card{min-height:0}

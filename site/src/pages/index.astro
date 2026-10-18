@@ -4,6 +4,7 @@ import Icon from '../components/Icon.astro';
 import Mono from '../components/Mono.astro';
 import Level from '../components/Level.astro';
 import Rows from '../components/Rows.astro';
+import SponsorTile from '../components/SponsorTile.astro';
 import { LANDINGS, itemsFor } from '../data/landings';
 import { platforms, CATEGORIES, TYPES, LEVELS, byLeastId } from '../lib/platforms';
 
@@ -123,12 +124,7 @@ const jsonld = [
             <div class="foot"><span>{TYPES[p.type]}</span><span>{p.kyc_summary}</span></div>
           </a>
         ))}
-        <div class="card ad">
-          <div class="top"><span class="adl">Sponsored slot</span></div>
-          <h3>Your privacy service here</h3>
-          <p>One clearly labelled tile, shown to people who already avoid KYC. Every advertiser is reviewed first.</p>
-          <a href="#advertise">How to advertise<Icon name="arrow-right" size={16} /></a>
-        </div>
+        <SponsorTile slot="home" fallback />
       </div>
     </section>
 
@@ -168,7 +164,7 @@ const jsonld = [
     <section class="sec" id="advertise" aria-labelledby="ad-h">
       <div class="band">
         <div><h2 id="ad-h">Run a privacy-friendly service?</h2><p>Sponsored tiles are clearly labelled, shown to people who already avoid KYC, and never change the order of the directory. We review every advertiser first.</p></div>
-        <a href="https://t.me/donotkycdotcom" rel="noopener">Contact us on Telegram<Icon name="arrow-up-right" size={18} /></a>
+        <a href="/advertise">Advertise with us<Icon name="arrow-right" size={18} /></a>
       </div>
     </section>
 

@@ -1,0 +1,26 @@
+name: daily
+# Reconstruit le site chaque nuit : les tuiles sponsorisées apparaissent et expirent selon leurs dates.
+on:
+  schedule: [{ cron: '17 3 * * *' }]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
+      - run: npm ci && npm run build
+        working-directory: site
+      - name: Commit and publish if something changed
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          if git diff --quiet -- docs; then echo "Nothing changed."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs && git commit -m "Daily rebuild: sponsored placements by date" && git push
+          # un push fait avec GITHUB_TOKEN ne déclenche pas toujours Pages : on le demande explicitement
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
