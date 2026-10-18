@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
+import fontLatin from '@fontsource-variable/hanken-grotesk/files/hanken-grotesk-latin-wght-normal.woff2?url';
 import { reportUrl } from '../lib/platforms';
 import { LOCALES, HREFLANG, useT, lp, langName, type Lang } from '../i18n';
 
@@ -38,6 +39,7 @@ const links = [
     <link rel="canonical" href={url} />
     {localized && LOCALES.map((l) => <link rel="alternate" hreflang={HREFLANG[l]} href={site + lp(l, path)} />)}
     {localized && <link rel="alternate" hreflang="x-default" href={site + path} />}
+    <link rel="preload" href={fontLatin} as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="alternate" type="application/rss+xml" title="DoNotKYC changelog" href="/rss.xml" />
     <meta name="theme-color" content="#0F172A" />
@@ -67,7 +69,7 @@ const links = [
         </nav>
         <div class="tools">
           <details class="lang">
-            <summary aria-label={t('nav.language')}><Icon name="languages" />{lang.toUpperCase()}</summary>
+            <summary aria-label={`${t('nav.language')}: ${lang.toUpperCase()}`}><Icon name="languages" />{lang.toUpperCase()}</summary>
             <ul>
               {LOCALES.map((l) => (
                 <li><a href={localized ? lp(l, path) : lp(l, '/')} hreflang={HREFLANG[l]} lang={HREFLANG[l]} aria-current={l === lang ? 'true' : undefined}>{langName(l)}</a></li>
@@ -91,7 +93,7 @@ const links = [
             <a class="logo" href={L('/')} aria-label={t('nav.home')}><img class="lg-l" src="/logo-light.webp" alt="" width="99" height="40" /><img class="lg-d" src="/logo-dark.webp" alt="" width="99" height="40" /></a>
             <p>{t('footer.about')}</p>
           </div>
-          <div><h4>{t('footer.directory')}</h4><ul>
+          <div><h2>{t('footer.directory')}</h2><ul>
             <li><a href={L('/') + '#directory'}>{t('footer.all')}</a></li>
             <li><a href={L('/submit')}>{t('footer.submit')}</a></li>
             <li><a href={L('/compare')}>{t('compare.index_h1')}</a></li>
@@ -101,20 +103,20 @@ const links = [
             <li><a href="/api-docs">{t('footer.api')}</a></li>
             <li><a href="/changelog">Changelog</a></li>
           </ul></div>
-          <div><h4>{t('footer.browse')}</h4><ul>
+          <div><h2>{t('footer.browse')}</h2><ul>
             <li><a href={L('/exchanges')}>{t('footer.exchanges')}</a></li>
             <li><a href={L('/swaps')}>{t('footer.swaps')}</a></li>
             <li><a href={L('/p2p')}>{t('footer.p2p')}</a></li>
             <li><a href={L('/buy/bitcoin')}>{t('footer.bitcoin')}</a></li>
             <li><a href={L('/buy/monero')}>{t('footer.monero')}</a></li>
           </ul></div>
-          <div><h4>{t('footer.guides')}</h4><ul>
+          <div><h2>{t('footer.guides')}</h2><ul>
             <li><a href={L('/privacy')}>{t('footer.privacy')}</a></li>
             <li><a href={L('/security')}>{t('footer.security')}</a></li>
             <li><a href={L('/vpn-affiliation')}>{t('footer.vpn')}</a></li>
             <li><a href="/blog">{t('footer.blog')}</a></li>
           </ul>{lang !== 'en' && <p class="small">{t('footer.english_only')}</p>}</div>
-          <div><h4>{t('footer.community')}</h4><ul>
+          <div><h2>{t('footer.community')}</h2><ul>
             <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li>
             <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li>
             <li><a href="https://www.tiktok.com/@donotkyc" rel="noopener">TikTok</a></li>

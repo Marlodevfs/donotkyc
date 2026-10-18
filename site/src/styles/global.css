@@ -206,7 +206,7 @@ a.card:hover{border-color:var(--fg-3)}
 footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 48px;background:var(--surface)}
 .fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px}
 .fg p{color:var(--fg-2);font-size:15px;margin-top:12px;max-width:42ch}
-.fg h4{font-size:14px;color:var(--fg-3);font-weight:600;margin-bottom:10px;font-family:var(--b);letter-spacing:0}
+.fg h2{line-height:1.4;font-size:14px;color:var(--fg-3);font-weight:600;margin-bottom:10px;font-family:var(--b);letter-spacing:0}
 .fg ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:15px}
 .fg a{text-decoration:none}
 .fg a:hover{text-decoration:underline}
@@ -361,3 +361,4 @@ table.cmp{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
 /* recherche Pagefind aux couleurs du site */
 .pf-search{margin-top:24px;--pagefind-ui-scale:.9;--pagefind-ui-primary:var(--fg);--pagefind-ui-text:var(--fg);--pagefind-ui-background:var(--surface);--pagefind-ui-border:var(--line-strong);--pagefind-ui-tag:var(--sunk);--pagefind-ui-border-width:1.5px;--pagefind-ui-border-radius:0;--pagefind-ui-font:var(--b)}
 .pf-search mark{background:var(--accent-soft);color:var(--fg)}
+.it{content-visibility:auto;contain-intrinsic-size:auto 120px}
