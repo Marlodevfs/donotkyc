@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3J8P92H70R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3J8P92H70R');
-</script>
     <meta charset="utf-8" />
     <title>API Documentation | No-KYC Directory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,7 +8,6 @@
       name="description"
       content="Public read-only JSON API for the no-KYC directory with endpoints, fields, and examples."
     />
-    <link rel="stylesheet" href="./styles.css" />
     <style>
       body {
         background: #0b0f1a;
@@ -70,9 +60,22 @@
       href="/logo favico.png"
       type="image/x-icon"
     />
+      <link rel="canonical" href="https://www.donotkyc.com/api-docs" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DoNotKYC" />
+    <meta property="og:title" content="API Documentation | No-KYC Directory" />
+    <meta property="og:description" content="Public read-only JSON API for the no-KYC directory with endpoints, fields, and examples." />
+    <meta property="og:url" content="https://www.donotkyc.com/api-docs" />
+    <meta property="og:image" content="https://www.donotkyc.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@donotkyc" />
+    <style>.skip-link{position:absolute;left:8px;top:-48px;z-index:1000;padding:10px 16px;background:#fff;color:#0b0f1a;font-weight:600;border-radius:6px;text-decoration:none}.skip-link:focus{top:8px}</style>
   </head>
   <body>
-    <div class="wrap">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main class="wrap" id="main">
       <h1>API Documentation</h1>
       <p>
         Simple, public, read‑only JSON served over HTTPS. No API key. Ideal for
@@ -80,13 +83,7 @@
       </p>
 
       <h2>Base URL</h2>
-      <pre><code>https://your-domain.com/api/nokyc_directory.json</code></pre>
-
-      <div class="note">
-        Versioning suggestion: <code>/api/v1/nokyc_directory.json</code>. Add a
-        lightweight <code>/api/version.json</code> with
-        <code>{ "last_updated": "YYYY-MM-DD" }</code>.
-      </div>
+      <pre><code>https://www.donotkyc.com/nokyc_directory.json</code></pre>
 
       <h2>Schema</h2>
       <p>Top-level keys:</p>
@@ -105,7 +102,7 @@
         <li>
           <code>type</code> (enum: CEX, DEX, Bridge, ATM, P2P, Instant Swap)
         </li>
-        <li><code>url</code> (string, hostname)</li>
+        <li><code>url</code> (string, website URL)</li>
         <li><code>kyc_tier</code> (string)</li>
         <li>
           <code>supported_countries</code> (string; may later become array)
@@ -115,21 +112,19 @@
         <li><code>fees</code> (string)</li>
         <li><code>reputation</code> (string)</li>
         <li><code>cryptocurrencies</code> (string)</li>
-        <li>
-          <code>features</code> / <code>blockchains</code> /
-          <code>payment_methods</code> (arrays)
-        </li>
+        <li><code>features</code> (array of strings)</li>
       </ul>
+      <p><code>volume_24h</code>, <code>reputation</code> and <code>cryptocurrencies</code> can be <code>null</code> when unknown.</p>
 
       <h2>Example response</h2>
       <pre><code>{
-  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
-  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "blockchains": ["Ethereum","Polygon","Arbitrum","Optimism","BNB Chain"], "features": ["AMM","Liquidity pools","Governance"] }]
+  "centralized_exchanges": [{ "name": "MEXC", "type": "CEX", "url": "https://www.mexc.com", "kyc_tier": "Tiered (up to 10 BTC/day no KYC)", "supported_countries": "Global except US", "fiat_deposit": false, "volume_24h": "$6.37B", "fees": "0.025% - 0.2%", "reputation": "10/10 CoinGecko", "cryptocurrencies": "1600+", "features": ["Spot","Futures","Margin Trading"] }],
+  "decentralized_exchanges": [{ "name": "Uniswap", "type": "DEX", "url": "https://app.uniswap.org", "kyc_tier": "None", "supported_countries": "Global", "fiat_deposit": false, "volume_24h": "$4B+ TVL", "fees": "0.05% - 1%", "reputation": "High", "cryptocurrencies": "900+", "features": ["AMM","Liquidity pools","Governance"] }]
 }</code></pre>
 
       <h2>Usage</h2>
       <h3>Client-side fetch</h3>
-      <pre><code>const DATA_URL = '/api/nokyc_directory.json';
+      <pre><code>const DATA_URL = 'https://www.donotkyc.com/nokyc_directory.json';
 fetch(DATA_URL)
   .then(r => r.json())
   .then(data => render(data))
@@ -159,7 +154,7 @@ fetch(DATA_URL)
       </div>
 
       <p><a href="./index.html">← Back to Directory</a></p>
-    </div>
+    </main>
   </body>
 </html>
 
