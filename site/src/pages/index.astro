@@ -1,0 +1,235 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Mono from '../components/Mono.astro';
+import Level from '../components/Level.astro';
+import { platforms, CATEGORIES, TYPES, LEVELS, catOf, byLeastId } from '../lib/platforms';
+
+const site = 'https://www.donotkyc.com';
+const list = [...platforms].sort(byLeastId);
+const noId = platforms.filter((p) => p.kyc_level === 'none').length;
+const count = (c: (typeof CATEGORIES)[number]) => (c.key === 'all' ? platforms.length : platforms.filter((p) => c.types.includes(p.type)).length);
+
+// Mots-clés de recherche en plus des champs affichés
+const KW: Record<string, string> = {
+  Bisq: 'bitcoin cash bank sepa tor', Trocador: 'monero xmr tor', WizardSwap: 'monero xmr tor', StealthEX: 'monero xmr card',
+  Boltz: 'lightning bitcoin liquid', 'Hodl Hodl': 'bitcoin cash bank', 'Peach Bitcoin': 'bitcoin cash bank lightning',
+  LocalCoinSwap: 'cash bank gift cards', SilentSwap: 'privacy',
+};
+const hay = (p: (typeof platforms)[number]) =>
+  [p.name, TYPES[p.type], p.kyc_summary, p.kyc_tier, p.supported_countries, p.cryptocurrencies, ...(p.features ?? []), p.fiat_deposit ? 'card bank fiat cash' : '', KW[p.name] ?? '']
+    .join(' ').toLowerCase();
+
+const picks = [
+  ['bisq', 'Buy bitcoin from another person by bank transfer or cash. Open-source app, nobody holds your coins.'],
+  ['trocador', 'Compares many swap services in one request and shows each partner’s ID policy.'],
+  ['boltz', 'Move between Bitcoin, Lightning and Liquid without creating an account.'],
+].map(([slug, text]) => ({ p: platforms.find((x) => x.slug === slug)!, text }));
+
+const faq = [
+  ['What is KYC?', 'Know Your Customer is the identity check regulated services run before letting you trade: ID card or passport, proof of address, sometimes a selfie. It exists for anti-money-laundering rules, and it concentrates sensitive data that can leak in a breach.'],
+  ['Is trading without KYC legal?', 'It depends on where you live. Using a platform that does not ask for ID is legal in most countries, but tax and reporting rules still apply to you. Decentralised protocols face less direct oversight; you stay responsible for following your local law.'],
+  ['What do None, Light and Tiered mean?', 'None: no ID and no account details. Light: no ID under a stated limit, or only an email or phone number. Tiered: ID is required above a threshold, written on each listing.'],
+  ['Which type of platform is best for beginners?', 'An exchange with a no-KYC tier is usually the easiest start. A decentralised exchange gives the most privacy and control, but you need to be comfortable with a wallet and network fees.'],
+  ['How do fees compare?', 'Exchanges often have tighter spreads and fast internal transfers. Decentralised exchanges show lower protocol fees but add network costs. Instant swaps build their margin into the quote, and ATMs add a cash-handling markup.'],
+  ['How does DoNotKYC choose platforms?', 'Listings are checked against the platform’s documentation and in-app behaviour, then reviewed periodically. If a service removes no-KYC access or makes ID mandatory for its core features, it is re-tagged or removed.'],
+  ['How does DoNotKYC make money?', 'Some "Visit" buttons are affiliate links, marked on each platform page. Future sponsored placements will always be labelled. Neither changes the order of the directory, which is sorted by the identity each platform asks for.'],
+  ['A listing is out of date. How do I report it?', 'Open an issue on our GitHub with the platform name and what changed. Every report is checked before the listing is updated.'],
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'Organization', '@id': site + '/#org', name: 'DoNotKYC', url: site + '/', logo: site + '/og-image.png',
+    sameAs: ['https://x.com/donotkyc', 'https://t.me/donotkycdotcom', 'https://www.tiktok.com/@donotkyc', 'https://github.com/Marlodevfs/donotkyc'] },
+  { '@context': 'https://schema.org', '@type': 'WebSite', '@id': site + '/#website', url: site + '/', name: 'DoNotKYC', publisher: { '@id': site + '/#org' }, inLanguage: 'en' },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'No-KYC crypto platforms', numberOfItems: list.length,
+    itemListElement: list.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: `${site}/p/${p.slug}` })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base
+  title="No-KYC Crypto Exchanges, Swaps and P2P Markets | DoNotKYC"
+  description={`Compare ${platforms.length} crypto exchanges, instant swaps, P2P markets and Bitcoin ATMs that let you trade without sending ID. Identity level, limits, fees and availability for each.`}
+  path="/"
+  nav="directory"
+  jsonld={jsonld}
+>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Trade crypto <em>without ID.</em> Compare every option.</h1>
+      <p>{platforms.length} exchanges, swaps and P2P markets that skip the passport, sorted by how much identity they ask for.</p>
+      <form class="search" id="sform" role="search" action="#directory">
+        <label class="sbox"><Icon name="search" /><span class="vis">Search platforms</span>
+          <input id="q" name="q" type="search" autocomplete="off" placeholder="Search a platform, coin or payment method" />
+          <button type="submit">Search</button>
+        </label>
+        <div class="sugg"><span>Popular:</span>
+          <button type="button" data-s="monero">Monero</button>
+          <button type="button" data-s="cash">Buy with cash</button>
+          <button type="button" data-s="lightning">Lightning</button>
+          <button type="button" data-s="card">Card purchase</button>
+        </div>
+      </form>
+      <aside class="proof" aria-label="Directory facts">
+        <div><b class="num">{platforms.length}</b><span>platforms listed</span></div>
+        <div><b class="num">{noId}</b><span>ask for no ID at all</span></div>
+        <div><b class="num">6</b><span>types of platform</span></div>
+      </aside>
+    </section>
+
+    <section aria-label="Categories">
+      <div class="cats" id="cats">
+        {CATEGORIES.map((c) => (
+          <button class="cat" type="button" data-c={c.key} aria-pressed={c.key === 'all' ? 'true' : 'false'}>
+            <span class="ic-box"><Icon name={c.icon} /></span><b>{c.label}</b><small>{count(c)} listed</small>
+          </button>
+        ))}
+      </div>
+    </section>
+
+    <section class="dir" id="directory" aria-labelledby="dir-h">
+      <div class="dir-head">
+        <h2 id="dir-h">All platforms <span class="num" id="count">{list.length}</span></h2>
+        <div class="filters">
+          <button class="chip" type="button" data-f="none" aria-pressed="false"><Icon name="user-x" size={16} />No ID only</button>
+          <button class="chip" type="button" data-f="fiat" aria-pressed="false"><Icon name="credit-card" size={16} />Card or bank</button>
+          <button class="chip" type="button" data-f="us" aria-pressed="false"><Icon name="map-pin" size={16} />Works in the US</button>
+          <label class="vis" for="sort">Sort</label>
+          <select id="sort"><option value="lvl">Least ID first</option><option value="name">Name A to Z</option></select>
+        </div>
+      </div>
+      <div class="active" id="active" aria-live="polite"></div>
+      <div class="hd" aria-hidden="true"><span>Platform</span><span>Identity asked</span><span>Card or bank</span><span>Fees</span><span>Not available in</span><span></span></div>
+      <ul class="list" id="list">
+        {list.map((p, i) => (
+          <li class="it" data-cat={catOf(p)} data-level={p.kyc_level} data-fiat={p.fiat_deposit ? '1' : '0'}
+              data-us={p.blocked && /\bUS\b/.test(p.blocked) ? '0' : '1'} data-name={p.name.toLowerCase()} data-rank={i} data-hay={hay(p)}>
+            <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={`/p/${p.slug}`}>{p.name}</a></b><small>{TYPES[p.type]}</small></div></div></div>
+            <div class="lvc"><Level level={p.kyc_level} /><span class="sub">{p.kyc_summary}</span></div>
+            <div class="c c-fiat">{p.fiat_deposit ? <b>Yes</b> : 'No'}</div>
+            <div class="c c-fee num">{p.fees}</div>
+            <div class="c c-blk">{p.blocked ?? 'Available everywhere'}</div>
+            <div class="metac"><span>{p.fiat_deposit ? 'Card or bank' : 'Crypto only'}</span><span>Fees {p.fees}</span></div>
+            <div class="goc"><a class="go" href={`/p/${p.slug}`} aria-label={`${p.name} details`}>Details<Icon name="arrow-right" size={16} /></a></div>
+          </li>
+        ))}
+      </ul>
+      <div class="empty" id="empty" hidden>No platform matches these filters. <button type="button" data-reset>Clear all filters</button></div>
+    </section>
+
+    <section class="sec" aria-labelledby="ft-h">
+      <div class="sec-h"><h2 id="ft-h">Where we would start</h2><p>Three platforms we point people to first. Paid placements, when they come, will always be labelled and never ranked.</p></div>
+      <div class="feat">
+        {picks.map(({ p, text }) => (
+          <a class="card" href={`/p/${p.slug}`}>
+            <div class="top"><Mono p={p} /><Level level={p.kyc_level} /></div>
+            <h3>{p.name}</h3><p>{text}</p>
+            <div class="foot"><span>{TYPES[p.type]}</span><span>{p.kyc_summary}</span></div>
+          </a>
+        ))}
+        <div class="card ad">
+          <div class="top"><span class="adl">Sponsored slot</span></div>
+          <h3>Your privacy service here</h3>
+          <p>One clearly labelled tile, shown to people who already avoid KYC. Every advertiser is reviewed first.</p>
+          <a href="#advertise">How to advertise<Icon name="arrow-right" size={16} /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec trust" id="how" aria-labelledby="tr-h">
+      <div>
+        <h2 id="tr-h">How the directory works</h2>
+        <p class="lead">Each listing shows the identity the platform asks for, its limits, the regions it blocks, its fees and whether it takes card or bank deposits. Listings are re-tagged or removed when a platform makes ID mandatory.</p>
+      </div>
+      <div>
+        <ul class="types">
+          <li><Icon name="landmark" size={28} /><div><h3>Exchanges</h3><p>High liquidity, order books and mobile apps. Their no-KYC tiers usually cap withdrawals for unverified accounts.</p></div></li>
+          <li><Icon name="network" size={28} /><div><h3>Decentralised exchanges</h3><p>Smart contracts, no sign-up. You trade from your own wallet and keep your keys.</p></div></li>
+          <li><Icon name="repeat" size={28} /><div><h3>Instant swaps</h3><p>Quick coin-to-coin conversions without an account, the spread built into the quote.</p></div></li>
+          <li><Icon name="users" size={28} /><div><h3>P2P markets</h3><p>Buyers and sellers meet directly with local payment methods. Safety depends on escrow and reputation.</p></div></li>
+          <li><Icon name="banknote" size={28} /><div><h3>ATMs and bridges</h3><p>ATMs sell crypto for cash, often without ID under a threshold. Bridges move assets between blockchains.</p></div></li>
+        </ul>
+        <div class="rules">
+          <div class="rule"><b><Icon name="badge-check" />Order is never sold</b><p>The directory is sorted by the identity each platform asks for. Money does not change that.</p></div>
+          <div class="rule"><b><Icon name="link" />Affiliate links disclosed</b><p>Some "Visit" buttons earn us a commission. They are marked on every platform page.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec guide" aria-labelledby="gd-h">
+      <h2 id="gd-h">Choosing a no-KYC platform</h2>
+      <div class="body">
+        <p>Start from how much privacy you need and how comfortable you are with wallets. A decentralised exchange gives the most control and anonymity; an exchange with a no-KYC tier is easier and has deeper liquidity.</p>
+        <h3>Compare the total cost</h3>
+        <p>Look at trading fees, spreads and network fees together rather than the headline fee. Check that the coins and networks you need are supported, and that the platform has a clear history and answers when something goes wrong.</p>
+        <h3>Test small, then move</h3>
+        <p>Make a small test deposit, trade and withdrawal before committing larger amounts. Spread counterparty risk across platforms and keep long-term holdings in self-custody.</p>
+        <h3>Stay safe</h3>
+        <p>Use a hardware or well-audited software wallet, check URLs and contract addresses, grant wallet permissions only when needed and avoid large custodial balances. No-KYC does not remove your legal or tax obligations, and it reduces your recourse if something goes wrong.</p>
+      </div>
+    </section>
+
+    <section class="sec" id="advertise" aria-labelledby="ad-h">
+      <div class="band">
+        <div><h2 id="ad-h">Run a privacy-friendly service?</h2><p>Sponsored tiles are clearly labelled, shown to people who already avoid KYC, and never change the order of the directory. We review every advertiser first.</p></div>
+        <a href="https://t.me/donotkycdotcom" rel="noopener">Contact us on Telegram<Icon name="arrow-up-right" size={18} /></a>
+      </div>
+    </section>
+
+    <section class="sec faq" aria-labelledby="fq-h">
+      <h2 id="fq-h">Common questions</h2>
+      <div class="qs">
+        {faq.map(([q, a]) => (<details><summary>{q}<Icon name="plus" /></summary><p>{a}</p></details>))}
+      </div>
+    </section>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, sort: 'lvl' };
+      var list = document.getElementById('list'), items = Array.prototype.slice.call(list.children);
+      var q = document.getElementById('q'), cats = document.getElementById('cats');
+      var labels = { cex: 'Exchanges', dex: 'Decentralised', swap: 'Instant swaps', p2p: 'P2P markets', atm: 'ATMs and bridges' };
+      function render() {
+        var t = S.q.trim().toLowerCase(), n = 0;
+        items.forEach(function (li) {
+          var d = li.dataset;
+          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!t || d.hay.indexOf(t) !== -1);
+          li.hidden = !ok; if (ok) n++;
+        });
+        items.slice().sort(function (a, b) { return S.sort === 'name' ? a.dataset.name.localeCompare(b.dataset.name) : a.dataset.rank - b.dataset.rank; })
+          .forEach(function (li) { list.appendChild(li); });
+        document.getElementById('count').textContent = n;
+        document.getElementById('empty').hidden = n > 0;
+        var act = [];
+        if (S.cat !== 'all') act.push(labels[S.cat]); if (t) act.push('"' + S.q.trim() + '"');
+        if (S.none) act.push('No ID only'); if (S.fiat) act.push('Card or bank'); if (S.us) act.push('Works in the US');
+        var a = document.getElementById('active'); a.textContent = '';
+        if (act.length) { a.append('Filtered by ' + act.join(', ') + '. '); var b = document.createElement('button'); b.type = 'button'; b.dataset.reset = ''; b.textContent = 'Clear all'; a.append(b); }
+      }
+      cats.addEventListener('click', function (e) {
+        var b = e.target.closest('.cat'); if (!b) return; S.cat = b.dataset.c;
+        cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+        render(); document.getElementById('directory').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelectorAll('.chip[data-f]').forEach(function (c) {
+        c.addEventListener('click', function () { var f = c.dataset.f; S[f] = !S[f]; c.setAttribute('aria-pressed', S[f]); render(); });
+      });
+      document.getElementById('sort').addEventListener('change', function (e) { S.sort = e.target.value; render(); });
+      q.addEventListener('input', function () { S.q = q.value; render(); });
+      document.getElementById('sform').addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('directory').scrollIntoView({ behavior: 'smooth' }); });
+      document.querySelector('.sugg').addEventListener('click', function (e) {
+        var b = e.target.closest('[data-s]'); if (!b) return; q.value = S.q = b.dataset.s; render();
+        document.getElementById('directory').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.addEventListener('click', function (e) {
+        if (!e.target.closest('[data-reset]')) return;
+        S = { cat: 'all', q: '', none: false, fiat: false, us: false, sort: S.sort }; q.value = '';
+        document.querySelectorAll('.chip[data-f]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+        cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === 'all'); });
+        render();
+      });
+      var p = new URLSearchParams(location.search).get('q'); if (p) { q.value = S.q = p; render(); }
+    })();
+  </script>
+</Base>

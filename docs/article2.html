@@ -1,205 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets in 2025.">
- <link
-      rel="shortcut icon"
-      href="/logo favico.png"
-      type="image/x-icon"
-    />
-    <title>Privacy First: Why Avoiding KYC Is Important | DoNotKYC</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      :root {
-        --primary: #1a1a2e;
-        --secondary: #16213e;
-        --accent: #0f3460;
-        --cta: #e94560;
-        --text-light: #eaeaea;
-        --background: #0f0f1e;
-      }
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-        color: var(--text-light);
-        background: var(--background);
-        line-height: 1.7;
-      }
-      header {
-        background: var(--primary);
-        padding: 1rem 2rem;
-
-        top: 0;
-        z-index: 100;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-      }
-      .header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .logo {
-        display: flex;
-        align-items: center;
-        gap: 0.6rem;
-        font-family: Poppins;
-        font-weight: 700;
-        color: var(--text-light);
-        text-decoration: none;
-      }
-      nav a {
-        color: var(--text-light);
-        text-decoration: none;
-        margin-left: 1.2rem;
-        font-weight: 500;
-      }
-      nav a:hover {
-        color: var(--cta);
-      }
-      main {
-        max-width: 900px;
-        margin: 3rem auto;
-        padding: 0 1.25rem;
-      }
-      .back-link {
-        display: inline-block;
-        margin-bottom: 1rem;
-        color: var(--cta);
-        font-weight: 600;
-        text-decoration: none;
-      }
-      .article-title {
-        font-family: Poppins;
-        font-size: 2.2rem;
-        margin-bottom: 0.6rem;
-      }
-      .meta {
-        color: rgba(234, 234, 234, 0.6);
-        margin-bottom: 1rem;
-        font-size: 0.95rem;
-      }
-      .hero-image {
-        width: 50%; /* ✅ pas plus large que la moitié du conteneur */
-        max-width: 400px; /* ✅ limite la taille sur grands écrans */
-        height: auto; /* ✅ garde les proportions du carré */
-        border-radius: 12px;
-        margin: 0 auto 1.5rem; /* ✅ centre horizontalement + espace en bas */
-        display: block;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        object-fit: contain; /* ✅ ne coupe pas ton image */
-      }
-      h2 {
-        color: var(--cta);
-        margin-top: 1.6rem;
-        margin-bottom: 0.6rem;
-        font-size: 1.3rem;
-      }
-      p {
-        margin-bottom: 1rem;
-        color: rgba(234, 234, 234, 0.92);
-      }
-      ul {
-        margin-left: 1.2rem;
-        margin-bottom: 1rem;
-      }
-      li {
-        margin-bottom: 0.5rem;
-      }
-      .tip {
-        background: rgba(15, 52, 96, 0.18);
-        padding: 1rem;
-        border-radius: 10px;
-        margin: 1rem 0;
-        border-left: 4px solid var(--cta);
-      }
-      footer {
-        background: var(--primary);
-        padding: 2rem;
-        text-align: center;
-        color: rgba(234, 234, 234, 0.7);
-        margin-top: 3rem;
-      }
-      @media (max-width: 700px) {
-        .tip {
-          padding: 0.8rem;
-        }
-      }
-    </style>
-      <link rel="canonical" href="https://www.donotkyc.com/article2" />
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="DoNotKYC" />
-    <meta property="og:title" content="Privacy First: Why Avoiding KYC Is Important | DoNotKYC" />
-    <meta property="og:description" content="Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets in 2025." />
-    <meta property="og:url" content="https://www.donotkyc.com/article2" />
-    <meta property="og:image" content="https://www.donotkyc.com/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@donotkyc" />
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Privacy First: Why Avoiding KYC Is Important",
-  "description": "Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets in 2025.",
-  "image": "https://www.donotkyc.com/article2.webp",
-  "datePublished": "2025-11-10",
-  "dateModified": "2025-11-27",
-  "author": {
-    "@type": "Organization",
-    "name": "DoNotKYC",
-    "url": "https://www.donotkyc.com/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "DoNotKYC",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.donotkyc.com/og-image.png"
-    }
-  },
-  "mainEntityOfPage": "https://www.donotkyc.com/article2"
-}
-</script>
-    <style>.skip-link{position:absolute;left:8px;top:-48px;z-index:1000;padding:10px 16px;background:#fff;color:#0b0f1a;font-weight:600;border-radius:6px;text-decoration:none}.skip-link:focus{top:8px}</style>
-  </head>
-
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header>
-      <div class="header-content">
-        <a href="index.html" class="logo">
-          <img src="/logo+title transparent.png" alt="DoNotKYC" width="120" />
-        </a>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="blog.html" style="color: var(--cta)">Blog</a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="main">
-      <a href="blog.html" class="back-link">← Back to Blog</a>
-
-      <header class="article-header">
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Privacy First: Why Avoiding KYC Is Important | DoNotKYC</title><meta name="description" content="Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets."><link rel="canonical" href="https://www.donotkyc.com/article2"><link rel="icon" href="/favicon.png" type="image/png"><meta name="theme-color" content="#0F172A"><meta property="og:type" content="article"><meta property="og:site_name" content="DoNotKYC"><meta property="og:title" content="Privacy First: Why Avoiding KYC Is Important | DoNotKYC"><meta property="og:description" content="Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets."><meta property="og:url" content="https://www.donotkyc.com/article2"><meta property="og:image" content="https://www.donotkyc.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@donotkyc"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Privacy First: Why Avoiding KYC Is Important","description":"Learn top tips to secure your cryptocurrencies, avoid scams, and protect your digital assets.","image":"https://www.donotkyc.com/article2.webp","datePublished":"2025-11-10","dateModified":"2025-11-27","author":{"@type":"Organization","name":"DoNotKYC","url":"https://www.donotkyc.com/"},"publisher":{"@type":"Organization","name":"DoNotKYC","logo":{"@type":"ImageObject","url":"https://www.donotkyc.com/og-image.png"}},"mainEntityOfPage":"https://www.donotkyc.com/article2"}</script><script>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script><link rel="stylesheet" href="/assets/api-docs.CxPuWNZl.css"></head> <body> <a class="skip-link" href="#main">Skip to content</a> <header class="bar"> <div class="wrap"> <a class="logo" href="/"><span class="m">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-off"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m2 2 20 20" />
+  <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
+  <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+</svg>
+</span>DoNotKYC</a> <nav class="nav" id="nav" aria-label="Main"> <a href="/">Directory</a><a href="/blog" aria-current="page">Blog</a><a href="/vpn-affiliation">VPN</a><a href="/privacy">Privacy guide</a><a href="/security">Security</a> </nav> <div class="tools"> <button class="ibtn" id="theme" type="button" aria-label="Switch colour theme">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-sun-moon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v2" />
+  <path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+  <path d="M16 12a4 4 0 0 0-4-4" />
+  <path d="m19 5-1.256 1.256" />
+  <path d="M20 12h2" />
+</svg>
+</button> <button class="ibtn menu" id="menu" type="button" aria-label="Open menu" aria-controls="nav" aria-expanded="false">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</button> <a class="cta-s" href="/#advertise">Advertise</a> </div> </div> </header> <main id="main"> <div class="wrap page"><article class="prose"><header class="article-header">
         <h1 class="article-title">
           Privacy First: Why Avoiding KYC Is Important
         </h1>
         <p class="meta">
-          📅 November 9, 2025 · ✍️ DoNotKYC Team · ⏱️ 7 min read
+          November 9, 2025 · DoNotKYC Team · 7 min read
         </p>
         <img
           src="/article2.webp"
@@ -307,13 +166,36 @@
         self-custody for larger holdings, and continuous monitoring of exchange
         policies.
       </p>
-    </main>
-
-    <footer>
-      <p>
-        © 2025 DoNotKYC — Educational content only. Do your own research before
-        trading.
-      </p>
-    </footer>
-  </body>
-</html>
+</article></div> </main> <footer class="site"> <div class="wrap"> <div class="fg"> <div> <a class="logo" href="/"><span class="m">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-shield-off"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m2 2 20 20" />
+  <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
+  <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+</svg>
+</span>DoNotKYC</a> <p>An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.</p> </div> <div><h4>Directory</h4><ul> <li><a href="/#directory">All platforms</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Platform%20submission%3A%20" rel="noopener">Submit a platform</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?title=Listing%20update%3A%20" rel="noopener">Report a change</a></li> <li><a href="/api-docs">Open data API</a></li> </ul></div> <div><h4>Guides</h4><ul> <li><a href="/privacy">Privacy guide</a></li> <li><a href="/security">Security tips</a></li> <li><a href="/vpn-affiliation">VPNs for crypto</a></li> <li><a href="/blog">Blog</a></li> </ul></div> <div><h4>Community</h4><ul> <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li> <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li> <li><a href="https://www.tiktok.com/@donotkyc" rel="noopener">TikTok</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc" rel="noopener">GitHub</a></li> </ul></div> </div> <div class="legal"> <p>No-KYC platforms carry risk and less recourse. Do your own research, start small, and follow your local law and tax rules. Some "Visit" links are affiliate links; they never change the order of the directory.</p> <span>© 2026 DoNotKYC</span> </div> </div> </footer> <script>
+      (function () {
+        var root = document.documentElement, b = document.getElementById('theme');
+        function mode() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+        b.addEventListener('click', function () {
+          var next = mode() === 'dark' ? 'light' : 'dark';
+          root.dataset.theme = next;
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+        var m = document.getElementById('menu'), n = document.getElementById('nav');
+        m.addEventListener('click', function () {
+          var open = n.classList.toggle('open');
+          m.setAttribute('aria-expanded', open);
+        });
+      })();
+    </script> </body> </html>
