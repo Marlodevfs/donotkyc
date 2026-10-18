@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Mono from '../components/Mono.astro';
+import Level from '../components/Level.astro';
+import { platforms, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, lastTest, type Platform, type Test } from '../lib/platforms';
+import { useT, lp, tx, HREFLANG, type Lang } from '../i18n';
+
+interface Props { p: Platform; lang: Lang }
+const { p, lang } = Astro.props;
+const t = useT(lang);
+const L = (x: string) => lp(lang, x);
+const site = 'https://www.donotkyc.com';
+const type = t(`types.${p.type}`);
+const level = t(`levels.${p.kyc_level}`);
+const summary = tx(lang, p.kyc_summary)!;
+const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
+const host = new URL(p.url).hostname.replace(/^www\./, '');
+const last = lastTest(p);
+const tests = ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCompare(a.date));
+const fmt = (iso: string) => new Date(iso + 'T12:00:00Z').toLocaleDateString(HREFLANG[lang], { day: 'numeric', month: 'short', year: 'numeric' });
+const note = t(`platform.status_note_${p.slug}`);
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t('nav.directory'), item: site + L('/') },
+    { '@type': 'ListItem', position: 2, name: type, item: site + L(CATEGORY_PATH[p.type]) },
+    { '@type': 'ListItem', position: 3, name: p.name, item: site + L(`/p/${p.slug}`) },
+  ],
+};
+---
+<Base title={t('platform.title', { name: p.name })}
+  description={t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.toLowerCase(), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: p.supported_countries })}
+  path={`/p/${p.slug}`} lang={lang} localized jsonld={jsonld}>
+  <div class="wrap det">
+    <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L(CATEGORY_PATH[p.type])}>{type}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>
+    <div class="dh">
+      <Mono p={p} size={72} />
+      <div>
+        <h1>{p.name}</h1>
+        <p>{t('platform.lead', { type, summary })}</p>
+        <div class="chips"><Level level={p.kyc_level} lang={lang} /><span class="lvl l-plain">{p.fiat_deposit ? t('platform.card_ok') : t('platform.crypto_only')}</span>{last && <span class="lvl l-none"><Icon name="badge-check" size={15} />{t('platform.tested', { date: fmt(last.date) })}</span>}</div>
+      </div>
+      <div class="acts">
+        <a class="btn" href={visitUrl(p)} rel={p.affiliate_link ? 'sponsored noopener' : 'noopener'}>{t('platform.visit', { host })}<Icon name="arrow-up-right" /></a>
+        <span class="small">{p.affiliate_link ? t('platform.aff') : t('platform.no_aff')}</span>
+      </div>
+    </div>
+    {p.status === 'check' && <div class="warn status"><Icon name="triangle-alert" /><span><strong>{t('platform.rechecking')}</strong> {note.startsWith('platform.') ? p.status_note : note}</span></div>}
+    <div class="dg">
+      <div>
+        <section class="panel" aria-labelledby="kyc-h">
+          <h2 id="kyc-h">{t('platform.kyc_h')}</h2>
+          <p><strong>{summary}.</strong>{p.kyc_tier.toLowerCase() !== p.kyc_level && p.kyc_tier !== 'None' && <> {t('platform.listed_policy', { x: p.kyc_tier })}</>}</p>
+          <div class="warn"><Icon name="triangle-alert" /><span>{t('platform.warn')}</span></div>
+        </section>
+        {p.features.length > 0 && (
+          <section class="panel" aria-labelledby="ft-h"><h2 id="ft-h">{t('platform.features')}</h2><ul class="tags">{p.features.map((f) => <li>{f}</li>)}</ul></section>
+        )}
+        <section class="panel" aria-labelledby="ts-h">
+          <h2 id="ts-h">{t('platform.tests_h')}</h2>
+          {tests.length ? (
+            <ul class="hist">{tests.map((x) => (<li><time datetime={x.date}>{fmt(x.date)}</time><span>{t('platform.test_line', { steps: x.steps, amount: x.amount, method: x.method, result: x.result })}</span><b>{t(`platform.kyc_asked_v.${x.kyc_asked}`)}</b></li>))}</ul>
+          ) : (
+            <p>{t('platform.untested', { name: p.name })}{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">{t('platform.source')}</a>)</>} <a href={L('/methodology')}>{t('platform.how_we_test')}</a>.</p>
+          )}
+        </section>
+        <section class="panel" aria-labelledby="rp-h">
+          <h2 id="rp-h">{t('platform.changed_h')}</h2>
+          <p>{t('platform.changed_a', { name: p.name })} <a href={reportUrl(p.name)} rel="noopener">{t('platform.changed_link')}</a>. {t('platform.changed_b')}</p>
+        </section>
+      </div>
+      <div>
+        <section class="panel" aria-labelledby="ag-h">
+          <h2 id="ag-h">{t('platform.glance')}</h2>
+          <dl>
+            <div><dt>{t('platform.identity')}</dt><dd>{level}</dd></div>
+            <div><dt>{t('platform.type')}</dt><dd>{type}</dd></div>
+            <div><dt>{t('platform.custody')}</dt><dd>{t(`platform.custody_v.${p.custody}`)}</dd></div>
+            <div><dt>{t('platform.payment')}</dt><dd>{p.payment_methods.map((m) => t(`platform.payments_v.${m}`)).join(', ')}</dd></div>
+            <div><dt>{t('platform.fees')}</dt><dd class="num">{p.fees}</dd></div>
+            <div><dt>{t('platform.availability')}</dt><dd>{p.supported_countries}</dd></div>
+            {p.tor !== null && <div><dt>{t('platform.tor')}</dt><dd>{p.tor ? t('platform.yes') : t('platform.no')}</dd></div>}
+            {p.open_source !== null && <div><dt>{t('platform.oss')}</dt><dd>{p.open_source ? t('platform.yes') : t('platform.no')}</dd></div>}
+            {p.cryptocurrencies && <div><dt>{t('platform.coins')}</dt><dd>{p.cryptocurrencies}</dd></div>}
+            {p.volume_24h && <div><dt>{t('platform.volume')}</dt><dd class="num">{p.volume_24h}</dd></div>}
+            {p.reputation && <div><dt>{t('platform.reputation')}</dt><dd>{p.reputation}</dd></div>}
+          </dl>
+        </section>
+        {similar.length > 0 && (
+          <section class="panel" aria-labelledby="sm-h">
+            <h2 id="sm-h">{t('platform.similar')}</h2>
+            <ul class="sim">{similar.map((s) => (<li><span class="pf"><Mono p={s} /><span><b><a href={L(`/p/${s.slug}`)}>{s.name}</a></b><small>{tx(lang, s.kyc_summary)}</small></span></span><Level level={s.kyc_level} lang={lang} /></li>))}</ul>
+          </section>
+        )}
+      </div>
+    </div>
+  </div>
+</Base>

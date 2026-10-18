@@ -1,0 +1,7 @@
+---
+import Platform from '../../../views/Platform.astro';
+import { platforms } from '../../../lib/platforms';
+import { OTHER_LOCALES } from '../../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.flatMap((lang) => platforms.map((p) => ({ params: { lang, slug: p.slug }, props: { p } }))); }
+---
+<Platform p={Astro.props.p} lang={Astro.params.lang as any} />

@@ -1,0 +1,6 @@
+---
+import Prose from '../../views/Prose.astro';
+import { OTHER_LOCALES } from '../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.map((lang) => ({ params: { lang } })); }
+---
+<Prose page="submit" lang={Astro.params.lang as any} />

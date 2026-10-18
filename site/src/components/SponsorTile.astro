@@ -1,24 +1,26 @@
 ---
 import Icon from './Icon.astro';
 import { activeFor } from '../lib/sponsors';
-interface Props { slot: string; fallback?: boolean }
-const { slot, fallback = false } = Astro.props;
+import { useT, lp, type Lang } from '../i18n';
+interface Props { slot: string; fallback?: boolean; lang?: Lang }
+const { slot, fallback = false, lang = 'en' } = Astro.props;
+const t = useT(lang);
 const s = activeFor(slot);
 const host = s ? new URL(s.url).hostname.replace(/^www\./, '') : '';
 ---
 {s ? (
-  <aside class="card ad" aria-label={`Sponsored: ${s.name}`}>
-    <div class="top"><span class="adl">Sponsored</span>{s.logo && <img class="sp-logo" src={'/' + s.logo} alt="" width="40" height="40" loading="lazy" />}</div>
+  <aside class="card ad" aria-label={`${t('sponsor.label')}: ${s.name}`}>
+    <div class="top"><span class="adl">{t('sponsor.label')}</span>{s.logo && <img class="sp-logo" src={'/' + s.logo} alt="" width="40" height="40" loading="lazy" />}</div>
     <h3>{s.name}</h3>
     <p>{s.tagline}</p>
-    <a href={s.url} rel="sponsored noopener">Visit {host}<Icon name="arrow-up-right" size={16} /></a>
-    <div class="foot"><span>Paid placement. Not tested, not ranked.</span><a href="/advertise">Why this ad?</a></div>
+    <a href={s.url} rel="sponsored noopener">{t('sponsor.visit', { host })}<Icon name="arrow-up-right" size={16} /></a>
+    <div class="foot"><span>{t('sponsor.paid')}</span><a href={lp(lang, '/advertise')}>{t('sponsor.why')}</a></div>
   </aside>
 ) : fallback && (
   <div class="card ad">
-    <div class="top"><span class="adl">Sponsored slot</span></div>
-    <h3>Your privacy service here</h3>
-    <p>One labelled tile, seen by people who already avoid KYC. We review every advertiser first.</p>
-    <a href="/advertise">How to advertise<Icon name="arrow-right" size={16} /></a>
+    <div class="top"><span class="adl">{t('sponsor.slot')}</span></div>
+    <h3>{t('sponsor.here_h')}</h3>
+    <p>{t('sponsor.here_p')}</p>
+    <a href={lp(lang, '/advertise')}>{t('sponsor.how')}<Icon name="arrow-right" size={16} /></a>
   </div>
 )}

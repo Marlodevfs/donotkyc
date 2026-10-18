@@ -1,24 +1,30 @@
 ---
-// Lignes de l'annuaire (accueil, catégories, alternatives…). data-* sert aux filtres de l'accueil.
+// Lignes de l'annuaire (accueil, pages thématiques). data-* sert aux filtres de l'accueil.
 import Icon from './Icon.astro';
 import Mono from './Mono.astro';
 import Level from './Level.astro';
-import { TYPES, catOf, type Platform } from '../lib/platforms';
-interface Props { items: Platform[]; id?: string; hay?: (p: Platform) => string }
-const { items, id, hay } = Astro.props;
+import { catOf, type Platform } from '../lib/platforms';
+import { useT, lp, tx, type Lang } from '../i18n';
+interface Props { items: Platform[]; id?: string; hay?: (p: Platform) => string; lang?: Lang }
+const { items, id, hay, lang = 'en' } = Astro.props;
+const t = useT(lang);
 ---
-<div class="hd" aria-hidden="true"><span>Platform</span><span>Identity asked</span><span>Card or bank</span><span>Fees</span><span>Not available in</span><span></span></div>
+<div class="hd" aria-hidden="true"><span>{t('list.platform')}</span><span>{t('list.identity')}</span><span>{t('list.fiat')}</span><span>{t('list.fees')}</span><span>{t('list.blocked')}</span><span></span></div>
 <ul class="list" id={id}>
-  {items.map((p, i) => (
-    <li class="it" data-cat={catOf(p)} data-level={p.kyc_level} data-fiat={p.fiat_deposit ? '1' : '0'}
-        data-us={p.blocked && /\bUS\b/.test(p.blocked) ? '0' : '1'} data-name={p.name.toLowerCase()} data-rank={i} data-hay={hay?.(p)}>
-      <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={`/p/${p.slug}`}>{p.name}</a></b><small>{TYPES[p.type]}</small></div></div></div>
-      <div class="lvc"><Level level={p.kyc_level} /><span class="sub">{p.kyc_summary}</span></div>
-      <div class="c c-fiat">{p.fiat_deposit ? <b>Yes</b> : 'No'}</div>
-      <div class="c c-fee num">{p.fees}</div>
-      <div class="c c-blk">{p.blocked ?? 'Available everywhere'}</div>
-      <div class="metac"><span>{p.fiat_deposit ? 'Card or bank' : 'Crypto only'}</span><span>Fees {p.fees}</span></div>
-      <div class="goc"><a class="go" href={`/p/${p.slug}`} aria-label={`${p.name} details`}>Details<Icon name="arrow-right" size={16} /></a></div>
-    </li>
-  ))}
+  {items.map((p, i) => {
+    const href = lp(lang, `/p/${p.slug}`);
+    const summary = tx(lang, p.kyc_summary);
+    return (
+      <li class="it" data-cat={catOf(p)} data-level={p.kyc_level} data-fiat={p.fiat_deposit ? '1' : '0'}
+          data-us={p.blocked && /\bUS\b/.test(p.blocked) ? '0' : '1'} data-name={p.name.toLowerCase()} data-rank={i} data-hay={hay ? hay(p) + ' ' + String(summary).toLowerCase() : undefined}>
+        <div class="pfc"><div class="pf"><Mono p={p} /><div><b><a href={href}>{p.name}</a></b><small>{t(`types.${p.type}`)}</small></div></div></div>
+        <div class="lvc"><Level level={p.kyc_level} lang={lang} /><span class="sub">{summary}</span></div>
+        <div class="c c-fiat">{p.fiat_deposit ? <b>{t('list.yes')}</b> : t('list.no')}</div>
+        <div class="c c-fee num">{p.fees}</div>
+        <div class="c c-blk">{tx(lang, p.blocked) ?? t('list.everywhere')}</div>
+        <div class="metac"><span>{p.fiat_deposit ? t('list.card_or_bank') : t('list.crypto_only')}</span><span>{t('list.fees_x', { x: p.fees })}</span></div>
+        <div class="goc"><a class="go" href={href} aria-label={t('list.details_of', { name: p.name })}>{t('list.details')}<Icon name="arrow-right" size={16} /></a></div>
+      </li>
+    );
+  })}
 </ul>

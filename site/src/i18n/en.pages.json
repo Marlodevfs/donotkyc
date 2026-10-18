@@ -1,0 +1,207 @@
+{
+ "landings": {
+  "/exchanges": {
+   "nav": "Exchanges",
+   "title": "No-KYC Crypto Exchanges: Limits Without ID | DoNotKYC",
+   "description": "Centralised crypto exchanges that let you trade without sending ID, with their no-KYC withdrawal limits, fees and blocked countries.",
+   "h1": "No-KYC crypto exchanges",
+   "intro": [
+    "Centralised exchanges give you order books, deep liquidity, futures and mobile apps. The ones below let you trade without an ID document, up to a daily withdrawal limit.",
+    "They hold your funds while they are on the platform. Withdraw to your own wallet when you are done, and check the limit before depositing more than it allows."
+   ],
+   "faq": [
+    [
+     "Can an exchange ask for ID later?",
+     "Yes. Most no-KYC tiers can trigger a check on large withdrawals or unusual activity, and policies change. Start small and keep only what you are trading on the exchange."
+    ]
+   ]
+  },
+  "/dex": {
+   "nav": "Decentralised exchanges",
+   "title": "Decentralised Exchanges (DEX) Without KYC | DoNotKYC",
+   "description": "Decentralised exchanges where you trade straight from your own wallet: no sign-up, no ID, you keep your keys.",
+   "h1": "Decentralised exchanges",
+   "intro": [
+    "A decentralised exchange runs on smart contracts. You connect your own wallet and trade without an account, so there is no identity to give and nobody holds your coins.",
+    "You pay network fees on top of the trading fee, and you need to be comfortable with a wallet. Some front-ends block certain countries even though the contracts stay open."
+   ]
+  },
+  "/swaps": {
+   "nav": "Instant swaps",
+   "title": "Instant Crypto Swaps Without an Account | DoNotKYC",
+   "description": "Swap one coin for another without an account or ID. Limits, fees and when each swap service may ask questions.",
+   "h1": "Instant swaps without an account",
+   "intro": [
+    "Instant swap services convert one coin to another in a single step: you send coins to an address and receive the other coin in your wallet. No account is needed.",
+    "Their margin is built into the quoted rate. Some can pause a swap their risk checks flag and ask for information before releasing it: the listing says when."
+   ]
+  },
+  "/p2p": {
+   "nav": "P2P markets",
+   "title": "P2P Bitcoin Markets Without KYC | DoNotKYC",
+   "description": "Buy and sell bitcoin with other people by bank transfer or cash, with escrow and no ID.",
+   "h1": "P2P markets: buy crypto from people",
+   "intro": [
+    "Peer-to-peer markets put you in touch with a buyer or seller. You pay the other person with a bank transfer, cash or another method they accept, and an escrow releases the coins once they confirm.",
+    "Your bank still sees a transfer to a named person. Reputation and escrow rules matter more here than fees: read them before your first trade."
+   ]
+  },
+  "/atms": {
+   "nav": "Bitcoin ATMs",
+   "title": "Bitcoin ATMs With Low or No ID | DoNotKYC",
+   "description": "Bitcoin ATM networks where you can buy with cash, and the amounts above which they ask for ID.",
+   "h1": "Bitcoin ATMs with low or no ID",
+   "intro": [
+    "Bitcoin ATMs sell crypto for cash. Many allow small purchases with a phone number or nothing at all, then ask for ID above a threshold set by the operator and local rules.",
+    "ATM fees run several percent above the market price. They are most useful for small amounts when cash is what you have."
+   ]
+  },
+  "/bridges": {
+   "nav": "Bridges",
+   "title": "Cross-Chain Bridges Without KYC | DoNotKYC",
+   "description": "Move crypto between blockchains from your own wallet, without an account or ID.",
+   "h1": "Cross-chain bridges",
+   "intro": [
+    "Bridges move assets from one blockchain to another, straight from your wallet. They do not ask for identity, but they are a frequent target of hacks.",
+    "Prefer well-established routes, check the fees and the estimated time before confirming, and move large amounts in several steps."
+   ]
+  },
+  "/alternatives/binance": {
+   "nav": "Binance",
+   "title": "Binance Alternatives Without KYC | DoNotKYC",
+   "description": "Binance requires identity verification. These exchanges and DEXs let you trade spot and futures without sending ID.",
+   "h1": "Binance alternatives without KYC",
+   "intro": [
+    "Binance asks every user to verify their identity before trading. If you used it for spot trading, altcoins or futures, the exchanges and decentralised exchanges below do the same job with no ID, or none below a limit.",
+    "Check each platform’s limit and blocked countries before moving funds. Terms change: the listing links to the details we know."
+   ]
+  },
+  "/alternatives/coinbase": {
+   "nav": "Coinbase",
+   "title": "Coinbase Alternatives Without KYC | DoNotKYC",
+   "description": "Coinbase requires ID to buy crypto. Ways to buy bitcoin and other coins by card, bank transfer or cash without sending ID.",
+   "h1": "Coinbase alternatives without KYC",
+   "intro": [
+    "Coinbase asks for an ID document before you can buy. If you used it to buy crypto with a card or a bank transfer, these platforms accept fiat with no ID or with only light checks.",
+    "Fiat purchases are where limits bite first: most of these platforms set a maximum amount without ID."
+   ]
+  },
+  "/alternatives/kraken": {
+   "nav": "Kraken",
+   "title": "Kraken Alternatives Without KYC | DoNotKYC",
+   "description": "Kraken requires identity verification to trade. Exchanges with a no-KYC tier and decentralised exchanges that need no ID.",
+   "h1": "Kraken alternatives without KYC",
+   "intro": [
+    "Kraken requires identity verification before you can deposit and trade. These exchanges and decentralised exchanges let you trade without an ID document."
+   ]
+  },
+  "/alternatives/kucoin": {
+   "nav": "KuCoin",
+   "title": "KuCoin Alternatives Without KYC | DoNotKYC",
+   "description": "KuCoin made identity verification mandatory. Where to trade altcoins without ID now.",
+   "h1": "KuCoin alternatives without KYC",
+   "intro": [
+    "KuCoin made identity verification mandatory for new users. For altcoin trading without ID, these exchanges, decentralised exchanges and swap services are the closest replacements."
+   ]
+  },
+  "/alternatives/revolut": {
+   "nav": "Revolut",
+   "title": "Revolut Crypto Alternatives Without KYC | DoNotKYC",
+   "description": "Buy crypto by bank transfer or card without the identity checks of a banking app.",
+   "h1": "Revolut crypto alternatives without KYC",
+   "intro": [
+    "Banking apps like Revolut tie every crypto purchase to your verified identity. These platforms let you buy by bank transfer, card or cash without an ID document, or with only light checks."
+   ]
+  },
+  "/alternatives/paypal": {
+   "nav": "PayPal",
+   "title": "PayPal Crypto Alternatives Without KYC | DoNotKYC",
+   "description": "Buy crypto by card without the identity verification PayPal requires.",
+   "h1": "PayPal crypto alternatives without KYC",
+   "intro": [
+    "PayPal requires a verified identity to buy crypto, and the coins stay inside PayPal. These services sell crypto by card and send it straight to your own wallet, with no ID up to their limit."
+   ]
+  },
+  "/alternatives/crypto-com": {
+   "nav": "Crypto.com",
+   "title": "Crypto.com Alternatives Without KYC | DoNotKYC",
+   "description": "Crypto.com requires ID. Exchanges and card on-ramps that let you trade and buy with no or light ID checks.",
+   "h1": "Crypto.com alternatives without KYC",
+   "intro": [
+    "Crypto.com asks for identity verification before trading or buying. These exchanges and fiat on-ramps work with no ID document, or none below a limit."
+   ]
+  },
+  "/alternatives/robinhood": {
+   "nav": "Robinhood",
+   "title": "Robinhood Crypto Alternatives Without KYC | DoNotKYC",
+   "description": "Buy bitcoin without the identity checks of a brokerage app: P2P markets, ATMs and swaps.",
+   "h1": "Robinhood crypto alternatives without KYC",
+   "intro": [
+    "Brokerage apps like Robinhood require your identity and keep your coins. If you just want to buy bitcoin and hold it yourself, these P2P markets, ATMs and swap services are simpler and ask for little or no ID."
+   ]
+  },
+  "/buy/bitcoin": {
+   "nav": "Bitcoin",
+   "title": "Buy Bitcoin Without KYC | DoNotKYC",
+   "description": "Where to buy bitcoin without ID: P2P markets, ATMs, Lightning swaps and exchanges with no-KYC tiers.",
+   "h1": "Buy bitcoin without KYC",
+   "intro": [
+    "The most private ways to get bitcoin are peer-to-peer markets and small ATM purchases with cash. Exchanges with a no-KYC tier and swap services work if you already hold another coin.",
+    "Withdraw to a wallet you control as soon as the purchase is done."
+   ]
+  },
+  "/buy/monero": {
+   "nav": "Monero",
+   "title": "Buy Monero (XMR) Without KYC | DoNotKYC",
+   "description": "Where to get Monero (XMR) without ID: P2P trading and instant swaps that support XMR.",
+   "h1": "Buy Monero without KYC",
+   "intro": [
+    "Many large exchanges have delisted Monero, so you buy XMR peer to peer or swap it from another coin. These platforms support XMR without asking for ID."
+   ]
+  },
+  "/pay/cash": {
+   "nav": "Cash",
+   "title": "Buy Crypto With Cash, No ID | DoNotKYC",
+   "description": "Buy crypto with cash: Bitcoin ATMs and P2P markets that accept cash, and how much you can buy without ID.",
+   "h1": "Buy crypto with cash",
+   "intro": [
+    "Cash leaves no bank record. You can use it at Bitcoin ATMs, which ask for ID above a threshold, or with sellers on P2P markets who accept cash in person or by mail."
+   ]
+  },
+  "/pay/bank-transfer": {
+   "nav": "Bank transfer",
+   "title": "Buy Crypto by Bank Transfer Without KYC | DoNotKYC",
+   "description": "Buy crypto by bank transfer without sending ID to the platform, through P2P markets.",
+   "h1": "Buy crypto by bank transfer",
+   "intro": [
+    "A bank transfer is the cheapest way to buy, but your bank sees who you paid. On P2P markets you pay another person, so the platform does not ask for ID; the seller sees your name on the transfer."
+   ]
+  },
+  "/pay/card": {
+   "nav": "Card",
+   "title": "Buy Crypto by Card Without KYC | DoNotKYC",
+   "description": "Buy crypto with a debit or credit card without ID, up to each service’s limit.",
+   "h1": "Buy crypto by card",
+   "intro": [
+    "Card purchases are fast but rarely anonymous: card processors run their own checks, and limits without ID are low. These services accept cards with no ID up to their limit."
+   ]
+  }
+ },
+ "pages": {
+  "methodology": {
+   "title": "How we check no-KYC platforms | DoNotKYC",
+   "description": "How DoNotKYC lists crypto platforms: the identity levels, the sources we use, our paid test protocol and when we update or remove a listing.",
+   "html": "<h1>How we check platforms</h1> <p>Every listing answers one question first: how much identity does this platform ask for, and when? Below: how we get that answer, and how far we have checked each listing.</p> <h2>The three identity levels</h2> <ul> <li><strong>None:</strong> no ID document and no account details. You connect a wallet or trade without signing up.</li> <li><strong>Light:</strong> no ID under a stated limit, or only an email address or a phone number.</li> <li><strong>Tiered:</strong> an ID document is required above a threshold. The threshold is written on the listing.</li> </ul> <h2>Two kinds of listing</h2> <p><strong>Documented:</strong> we built the listing from the platform's published terms, FAQ and help pages. This is where every listing starts.</p> <p><strong>Tested:</strong> we opened an account (or connected a wallet), moved a small real amount through the platform and noted every piece of information we were asked for. Tested listings show the date and the details of each test.</p> <h2>Our paid test</h2> <ol> <li>Sign up with nothing prepared, behind a VPN, and note every field requested.</li> <li>Deposit a small amount, using the payment method the listing describes.</li> <li>Trade or swap once on a main pair. Fees are read from the receipt, not from the marketing page.</li> <li>Withdraw to our own wallet. This is where most ID checks appear: we note the limit and the moment it is triggered.</li> <li>Publish the result with its date. A listing tested more than 90 days ago goes back in the queue.</li> </ol> <h2>When a listing changes</h2> <p>If a platform makes ID mandatory for its core features, we re-tag or remove it. A platform that closes or is reported as a scam stays visible with that status, so people searching for it find the warning.</p> <p>We check reports from users before changing anything. <a href=\"/submit\">Submit a platform or report a change</a>.</p> <h2>What you cannot buy</h2> <p>Listing, identity level and position in the directory cannot be bought. Some \"Visit\" links are affiliate links, and the page says so. Sponsored placements sit in separate tiles labelled as advertising.</p>"
+  },
+  "submit": {
+   "title": "Submit a no-KYC platform | DoNotKYC",
+   "description": "Suggest a crypto exchange, swap, P2P market or ATM that lets people trade without sending ID, or report a listing that changed.",
+   "html": "<h1>Submit a platform</h1> <p>Know a crypto platform that lets people trade without sending ID? Tell us. Listing is free, nobody can buy it, and advertisers get no faster review.</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">Open the submission form{icon}</a></p> <h2>What we check before listing</h2> <ul> <li>The platform's own terms, FAQ or help pages state its KYC policy and limits. A link to that source is required.</li> <li>The site works, and its policy matches what users report.</li> <li>No credible reports of exit scams, frozen funds without reason, or fake volume.</li> <li>The identity level (None, Light or Tiered) fits the platform without guesswork.</li> </ul> <h2>A listing is wrong or out of date</h2> <p>If a listed platform now asks for ID, changed its limits or fees, blocks new countries or closed, <a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">report the change</a>. We check every report before we update a listing.</p> <h2>Privacy</h2> <p>Both forms are public GitHub issues and need a GitHub account. Do not include personal data, and remove names or account numbers from screenshots. A form that needs no account will come when the site moves to its own server.</p> <h2>Want to advertise instead?</h2> <p>Sponsored placements sit apart from listings and carry a label. <a href=\"/#advertise\">See how advertising works</a>.</p>"
+  },
+  "advertise": {
+   "title": "Advertise on DoNotKYC | Sponsored placements",
+   "description": "Reach people who already avoid KYC. Clearly labelled sponsored tiles, reviewed advertisers, paid in crypto.",
+   "html": "<h1>Advertise on DoNotKYC</h1> <p>DoNotKYC is read by people who want to trade crypto without handing over their identity. A sponsored tile puts your service next to the platforms they compare, with a Sponsored label.</p> <p><a class=\"btn\" href=\"https://t.me/donotkycdotcom\" rel=\"noopener\">Contact us on Telegram{icon}</a></p> <h2>Placements</h2> <ul> <li><strong>Homepage tile:</strong> one sponsor at a time, in the \"Where we would start\" section.</li> <li><strong>Topic page tile:</strong> one sponsor per page, above the list. Pages include Exchanges, Decentralised exchanges, Instant swaps, P2P markets, Bitcoin ATMs, Bridges, Bitcoin, Monero, Cash, Bank transfer, Card.</li> </ul> <p>Placements run by calendar month. Prepaying 3 or 12 months reduces the monthly rate. Ask for current rates and audience figures.</p> <h2>The rules</h2> <ul> <li>Every tile says \"Sponsored\" and links with <code>rel=\"sponsored\"</code>.</li> <li>Paying does not change a listing, its identity level or its position in the directory.</li> <li>We review every advertiser before accepting. We refuse services with credible scam or frozen-funds reports, and anything illegal where it is offered.</li> <li>We can remove a tile if new evidence of harm to users appears. Conditions are agreed before payment.</li> </ul> <h2>How it works</h2> <ol> <li>Send us your service, the placement you want and the dates on Telegram.</li> <li>We review the service and reply within a few days.</li> <li>You receive a crypto invoice (Bitcoin, Lightning or Monero).</li> <li>Once paid, the tile goes live on the start date and comes down on the end date automatically. We remind you before it ends.</li> </ol>"
+  }
+ }
+}

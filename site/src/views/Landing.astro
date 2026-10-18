@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Rows from '../components/Rows.astro';
+import SponsorTile from '../components/SponsorTile.astro';
+import { activeFor } from '../lib/sponsors';
+import { LANDINGS, itemsFor, landingText, type Landing } from '../data/landings';
+import { useT, lp, type Lang } from '../i18n';
+
+interface Props { l: Landing; lang: Lang }
+const { l, lang } = Astro.props;
+const t = useT(lang);
+const L = (p: string) => lp(lang, p);
+const x = landingText(lang, l.path);
+const site = 'https://www.donotkyc.com';
+const items = itemsFor(l);
+const noId = items.filter((p) => p.kyc_level === 'none').length;
+const related = LANDINGS.filter((y) => y.group === l.group && y.path !== l.path);
+const others = LANDINGS.filter((y) => y.group === 'category' && l.group !== 'category');
+const crumbs = [{ name: t('nav.directory'), item: site + L('/') }, { name: x.nav, item: site + L(l.path) }];
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, ...c })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: x.h1, numberOfItems: items.length,
+    itemListElement: items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: site + L(`/p/${p.slug}`) })) },
+  ...(x.faq ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang, mainEntity: x.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
+];
+---
+<Base title={x.title} description={x.description} path={l.path} lang={lang} localized jsonld={jsonld}>
+  <div class="wrap det">
+    <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} />{l.group !== 'category' && <><span>{t(`landing.groups.${l.group}`)}</span><Icon name="chevron-right" size={15} /></>}<span aria-current="page">{x.nav}</span></nav>
+    <header class="lh">
+      <h1>{x.h1}</h1>
+      {x.intro.map((p) => <p>{p}</p>)}
+      <p class="small">{t('landing.count', { n: items.length, m: noId })}</p>
+    </header>
+    {activeFor(l.path) && <div class="sp-band"><SponsorTile slot={l.path} lang={lang} /></div>}
+    <section class="dir" aria-label={x.h1}><Rows items={items} lang={lang} /></section>
+    {x.faq && (
+      <section class="sec faq" aria-labelledby="lq-h">
+        <h2 id="lq-h">{t('landing.questions')}</h2>
+        <div class="qs">{x.faq.map(([q, a]) => (<details><summary>{q}<Icon name="plus" /></summary><p>{a}</p></details>))}</div>
+      </section>
+    )}
+    <section class="sec rel" aria-labelledby="rl-h">
+      <h2 id="rl-h">{t('landing.see_also')}</h2>
+      <ul>
+        {[...related, ...others].map((y) => <li><a href={L(y.path)}>{landingText(lang, y.path).h1}</a></li>)}
+        <li><a href={L('/')}>{t('landing.all')}</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>

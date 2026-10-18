@@ -1,0 +1,7 @@
+---
+import Landing from '../../views/Landing.astro';
+import { LANDINGS } from '../../data/landings';
+import { OTHER_LOCALES } from '../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.flatMap((lang) => LANDINGS.map((l) => ({ params: { lang, slug: l.path.slice(1) }, props: { l } }))); }
+---
+<Landing l={Astro.props.l} lang={Astro.params.lang as any} />

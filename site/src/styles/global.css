@@ -334,3 +334,10 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 .card.ad .foot a{font-weight:400;color:var(--fg-3)}
 .sp-band{margin-top:32px;max-width:520px}
 .sp-band .card{min-height:0}
+details.lang{position:relative}
+details.lang summary{list-style:none;height:40px;padding:0 10px;border:1px solid var(--line);background:var(--surface);display:flex;align-items:center;gap:6px;cursor:pointer;font-size:14px;font-weight:600}
+details.lang summary::-webkit-details-marker{display:none}
+details.lang ul{position:absolute;right:0;top:46px;z-index:30;list-style:none;margin:0;padding:6px;background:var(--surface);border:1px solid var(--line);min-width:160px;display:grid}
+details.lang a{display:block;padding:8px 10px;text-decoration:none;font-size:15px}
+details.lang a:hover{background:var(--sunk)}
+details.lang a[aria-current]{font-weight:600;color:var(--accent)}

@@ -1,14 +1,6 @@
 ---
-// Icônes Lucide inlinées au build : aucune requête externe, aucun JS.
-const svgs = import.meta.glob('/node_modules/lucide-static/icons/*.svg', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+import { iconSvg } from '../lib/icons';
 interface Props { name: string; size?: number; class?: string }
 const { name, size = 18, class: cls = '' } = Astro.props;
-const raw = svgs[`/node_modules/lucide-static/icons/${name}.svg`];
-if (!raw) throw new Error(`Unknown icon: ${name}`);
-const svg = raw
-  .replace(/<!--[\s\S]*?-->/g, '')
-  .replace(/width="24"/, `width="${size}"`)
-  .replace(/height="24"/, `height="${size}"`)
-  .replace('<svg', `<svg aria-hidden="true" focusable="false" class="ic ${cls}"`);
 ---
-<Fragment set:html={svg} />
+<Fragment set:html={iconSvg(name, size, cls)} />
