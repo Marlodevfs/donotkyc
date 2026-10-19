@@ -1,13 +1,28 @@
 ---
 // Guides traduits : HTML anglais dans content/, autres langues dans i18n/<lang>.json (clé guides).
 import Base from '../layouts/Base.astro';
-import { dict, type Lang } from '../i18n';
+import { dict, useT, lp, type Lang } from '../i18n';
 const raw = import.meta.glob('../content/*.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
 interface Props { page: 'privacy' | 'security' | 'vpn-affiliation'; lang: Lang; nav: 'privacy' | 'security' }
 const { page, lang, nav } = Astro.props;
 const g = dict(lang).guides[page];
+const t = useT(lang);
+const TOOLS: Record<string, string[]> = {
+  privacy: ['email-aliases', 'vpn', 'tor', 'dns', 'leak-tests', 'wallets', 'monero-wallets', 'hardware-wallets', 'private-payments'],
+  security: ['hardware-wallets', 'wallets', 'desktop-os', 'mobile-os', 'email', 'leak-tests', 'vpn'],
+  'vpn-affiliation': [],
+};
+const links = TOOLS[page] ?? [];
 const html = lang === 'en' || !g.html ? raw[`../content/${page}.html`] : g.html;
 ---
 <Base title={g.title} description={g.description} path={`/${page}`} lang={lang} localized nav={nav}>
-  <div class="wrap page"><article class="prose" set:html={html} /></div>
+  <div class="wrap page">
+    <article class="prose" set:html={html} />
+    {links.length > 0 && (
+      <section class="prose tg" aria-labelledby="gt-h">
+        <h2 id="gt-h">{t('tools.guide_h')}</h2>
+        <ul>{links.map((k) => <li><a href={lp(lang, `/tools/${k}`)}>{dict(lang).tools.pages[k].h1}</a></li>)}</ul>
+      </section>
+    )}
+  </div>
 </Base>

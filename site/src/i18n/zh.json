@@ -578,7 +578,7 @@
   "security": {
    "title": "无 KYC 加密交易安全建议 | DoNotKYC",
    "description": "无 KYC 交易安全清单：密钥、备份、钓鱼、恶意软件和操作安全。",
-   "html": "<h1>安全建议</h1><p>一份在无 KYC 平台上降低风险的检查清单。</p><div class=\"card\"><h2>密钥与备份</h2><ul><li class=\"ok\">优先自托管。助记词离线保存，绝不在陌生设备上输入。</li><li class=\"ok\">至少做两份金属或纸质备份，分别存放在不同地点。</li><li class=\"warn\">需要时使用 passphrase（BIP39）；存入资金前先演练恢复。</li></ul></div><div class=\"card\"><h2>钓鱼与冒充</h2><ul><li class=\"ok\">手动输入交易所网址，或使用已核实的书签。</li><li class=\"ok\">合约和跨链桥地址只从官方渠道获取。</li><li class=\"bad\">绝不要把助记词、私钥或验证码交给 Telegram 或 Discord 上的“客服”。</li></ul></div><div class=\"card\"><h2>恶意软件与漏洞</h2><ul><li class=\"ok\">为加密操作准备专用设备或浏览器配置文件。</li><li class=\"ok\">用只读钱包查看余额；尽量在隔离设备上签名。</li><li class=\"warn\">扫描文件，并校验所下载钱包的校验和。</li></ul></div><div class=\"card\"><h2>交易卫生</h2><ul><li class=\"ok\">通过跨链桥或 DEX 转移大额前，先用小额测试。</li><li class=\"ok\">拆分大额转账；避免可预测的时间规律。</li><li class=\"warn\">加密保存交易记录（资产、交易哈希、交易对手）。</li></ul></div><div class=\"card\"><h2>P2P 专项</h2><ul><li class=\"ok\">使用平台托管；最终结算前绝不放币。</li><li class=\"ok\">现金交易约在有监控的公共场所，必要时验钞。</li><li class=\"warn\">不要透露个人手机号；使用平台消息沟通。</li></ul></div><p>安全是一个过程，而不是一件产品。请定期回顾这份清单，并根据新的威胁调整。</p>"
+   "html": "<h1>安全建议</h1><p>一份在无 KYC 平台上降低风险的检查清单。</p><div class=\"card\"><h2>密钥与备份</h2><ul><li class=\"ok\">优先自托管。助记词离线保存，绝不在陌生设备上输入。</li><li class=\"ok\">至少做两份金属或纸质备份，分别存放在不同地点。</li><li class=\"warn\">需要时使用 passphrase（BIP39）；存入资金前先演练恢复。</li></ul></div><div class=\"card\"><h2>钓鱼与冒充</h2><ul><li class=\"ok\">手动输入交易所网址，或使用已核实的书签。</li><li class=\"ok\">合约和跨链桥地址只从官方渠道获取。</li><li class=\"bad\">绝不要把助记词、私钥或验证码交给 Telegram 或 Discord 上的“客服”。</li></ul></div><div class=\"card\"><h2>恶意软件与漏洞</h2><ul><li class=\"ok\">为加密操作准备专用设备或浏览器配置文件。</li><li class=\"ok\">用只读钱包查看余额；尽量在隔离设备上签名。</li><li class=\"warn\">扫描文件，并校验所下载钱包的校验和。</li></ul></div><div class=\"card\"><h2>交易卫生</h2><ul><li class=\"ok\">通过跨链桥或 DEX 转移大额前，先用小额测试。</li><li class=\"ok\">拆分大额转账；避免可预测的时间规律。</li><li class=\"warn\">加密保存交易记录（资产、交易哈希、交易对手）。</li></ul></div><div class=\"card\"><h2>P2P 专项</h2><ul><li class=\"ok\">使用平台托管；最终结算前绝不放币。</li><li class=\"ok\">现金交易约在有监控的公共场所，必要时验钞。</li><li class=\"warn\">不要透露个人手机号；使用平台消息沟通。</li></ul></div><p>请定期回顾这份清单，并根据新的威胁调整。</p>"
   },
   "vpn-affiliation": {
    "title": "在被封锁网站购买加密货币的 VPN | DoNotKYC",
@@ -736,6 +736,7 @@
      "部分服务已经停止：zkSNACKs 在 2024 年 6 月 1 日关闭了其 Wasabi 协调器，JoinMarket 的代码库在 2026 年 4 月被归档。"
     ]
    }
-  }
+  },
+  "guide_h": "本指南相关工具"
  }
 }

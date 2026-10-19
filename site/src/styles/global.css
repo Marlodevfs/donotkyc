@@ -393,3 +393,6 @@ table.cmp{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
 .prose{overflow-wrap:break-word}
 .card,.ad{min-width:0;max-width:100%}.card a{white-space:normal;overflow-wrap:anywhere}
 @media (max-width:760px){.band{grid-template-columns:minmax(0,1fr)}.band a{white-space:normal;height:auto;min-height:52px;padding:12px 24px}}
+.hub a{align-content:start}
+@media (min-width:900px){.hub-3{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.hub-more{display:inline-block;padding:12px 0;font-weight:600;color:var(--fg)}

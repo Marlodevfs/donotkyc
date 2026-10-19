@@ -218,7 +218,6 @@
       "Spot trading",
       "Perpetual futures (leverage up to 150x)",
       "Copy trading",
-      "Fast KYC-free onboarding",
       "P2P market",
       "Mobile/Web app"
     ],
@@ -425,8 +424,7 @@
     "cryptocurrencies": "35+",
     "features": [
       "Perpetual futures",
-      "20x leverage",
-      "Advanced trading"
+      "20x leverage"
     ],
     "custody": "self",
     "payment_methods": [
@@ -563,9 +561,7 @@
     "cryptocurrencies": "Multiple",
     "features": [
       "DEX Aggregator",
-      "Best Rates",
-      "Smart Order Routing",
-      "Low Slippage"
+      "Smart Order Routing"
     ],
     "custody": "self",
     "payment_methods": [
@@ -733,7 +729,6 @@
     "reputation": "High",
     "cryptocurrencies": "Major assets",
     "features": [
-      "Fast transfers",
       "Staking",
       "AMM"
     ],
@@ -1067,8 +1062,7 @@
     "reputation": "Medium",
     "cryptocurrencies": "500+",
     "features": [
-      "No registration",
-      "Fast swaps"
+      "No registration"
     ],
     "custody": "self",
     "payment_methods": [
@@ -1204,10 +1198,9 @@
     "features": [
       "No registration required",
       "Supports Tor (Onion) network access",
-      "Non-custodial swaps with user's own wallets",
+      "Non-custodial swaps",
       "Floating exchange rates",
-      "24/7 customer support",
-      "Liquidity provider program with profit share"
+      "24/7 customer support"
     ],
     "custody": "self",
     "payment_methods": [
@@ -1235,14 +1228,13 @@
     "fiat_deposit": false,
     "fees": "Low (competitive)",
     "volume_24h": "Not publicly disclosed",
-    "reputation": "High - Best no-KYC platform 2025",
+    "reputation": null,
     "cryptocurrencies": "Multiple",
     "features": [
       "Mobile wallet with built-in swap",
       "Connects to multiple DEXs",
       "Multi-chain support",
-      "No registration",
-      "Mobile-first design"
+      "No registration"
     ],
     "custody": "self",
     "payment_methods": [
@@ -1315,9 +1307,8 @@
       "Instant crypto-to-crypto swaps",
       "No account or registration required",
       "Floating and fixed rates",
-      "Public API V2 for easy integration",
+      "Public API",
       "Widget embed for websites",
-      "Affiliate program (up to 50% revenue share)",
       "24/7 support"
     ],
     "custody": "self",
@@ -1380,11 +1371,11 @@
     "fiat_deposit": false,
     "fees": "1% flat fee per swap",
     "volume_24h": "Millions processed (reported $7.8M+ across 2,623 transactions as of Nov 2025)",
-    "reputation": "Emerging platform with innovative privacy features; founded by Shibtoshi (Shiba Inu whale); launched V2 in Oct 2025",
+    "reputation": null,
     "cryptocurrencies": "Multi-chain support: 8 blockchain networks including Ethereum, BSC, Polygon, Arbitrum, Optimism, Avalanche, and others. Supports major tokens across EVM-compatible chains",
     "features": [
       "No registration or KYC required",
-      "Non-custodial swaps - users keep full control of assets",
+      "Non-custodial swaps",
       "Cross-chain privacy swaps via Secret Network"
     ],
     "custody": "self",

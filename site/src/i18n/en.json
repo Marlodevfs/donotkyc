@@ -490,6 +490,7 @@
      "Some services have stopped: zkSNACKs closed its Wasabi coordinator on 1 June 2024, and the JoinMarket repository was archived in April 2026."
     ]
    }
-  }
+  },
+  "guide_h": "Tools for this guide"
  }
 }

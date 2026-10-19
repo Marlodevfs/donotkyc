@@ -7,7 +7,7 @@ import Rows from '../components/Rows.astro';
 import SponsorTile from '../components/SponsorTile.astro';
 import { LANDINGS, itemsFor, landingText } from '../data/landings';
 import { platforms, CATEGORIES, TYPES, byLeastId } from '../lib/platforms';
-import { useT, lp, tx, type Lang } from '../i18n';
+import { dict, useT, lp, tx, type Lang } from '../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -141,6 +141,16 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         <h3>{t('home.guide_h3')}</h3><p>{t('home.guide_p3')}</p>
         <h3>{t('home.guide_h4')}</h3><p>{t('home.guide_p4')}</p>
       </div>
+    </section>
+
+    <section class="sec" id="tools" aria-labelledby="tl-h">
+      <div class="sec-h"><h2 id="tl-h">{t('tools.hub_h1')}</h2><p>{t('tools.hub_intro')[0]}</p></div>
+      <ul class="hub hub-3">
+        {['vpn', 'wallets', 'hardware-wallets', 'tor', 'desktop-os', 'email'].map((k) => (
+          <li><a href={L(`/tools/${k}`)}><b>{dict(lang).tools.pages[k].h1}</b><span>{dict(lang).tools.pages[k].intro[0]}</span></a></li>
+        ))}
+      </ul>
+      <p><a class="hub-more" href={L('/tools')}>{t('tools.all')}</a></p>
     </section>
 
     <section class="sec" id="advertise" aria-labelledby="ad-h">

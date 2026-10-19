@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Proofreading pass and tools on the home page",
+    "body": "Guides and API page rewritten in plainer English, the security guide loses its closing slogan in all 9 languages, and both guides now link to the matching tool pages. The home page gets a Tools section. Promotional wording and unsourced claims are removed from a few platform listings (Best Wallet, SilentSwap and some feature tags)."
+  },
+  {
+    "date": "2026-10-19",
     "title": "CoinJoin tools page",
     "body": "A new tools page lists Wasabi and JoinMarket with what their own sites say. It notes which services have stopped: the Wasabi coordinator in June 2024 and the archived JoinMarket repository."
   },
