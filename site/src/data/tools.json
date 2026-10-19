@@ -1045,5 +1045,404 @@
   ],
   "release": "2026-04-21",
   "repo": "https://github.com/JoinMarket-Org/joinmarket-clientserver"
+ },
+ {
+  "page": "hardening",
+  "section": "browsers",
+  "slug": "mullvad-browser",
+  "name": "Mullvad Browser",
+  "url": "https://mullvad.net/en/browser",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Built with the Tor Project to minimize tracking and fingerprints.",
+   "Aims to give all users similar fingerprints and uses letterboxing.",
+   "Linux, macOS and Windows. Free whether or not you use Mullvad VPN."
+  ],
+  "release": "2026-10-14",
+  "repo": "https://github.com/mullvad/mullvad-browser"
+ },
+ {
+  "page": "hardening",
+  "section": "browsers",
+  "slug": "librewolf",
+  "name": "LibreWolf",
+  "url": "https://librewolf.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Custom version of Firefox focused on privacy, security and freedom.",
+   "Aims to remove telemetry and data collection. uBlock Origin is included.",
+   "Windows, Linux, macOS and OpenBSD."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "browsers",
+  "slug": "firefox",
+  "name": "Firefox",
+  "url": "https://www.firefox.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Made by Mozilla, which says it is not owned by shareholders.",
+   "Blocks trackers automatically. Says it will never sell your personal data.",
+   "Windows, macOS, Linux, iOS and Android.",
+   "Its page makes no open source statement."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "extensions",
+  "slug": "ublock-origin",
+  "name": "uBlock Origin",
+  "url": "https://github.com/gorhill/uBlock",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Content blocker for Chromium and Firefox, built to use little CPU and memory.",
+   "Works best on Firefox, on desktop and Android. Its Chrome Web Store listing was removed.",
+   "GPLv3 license."
+  ],
+  "release": "2026-09-16",
+  "repo": "https://github.com/gorhill/uBlock"
+ },
+ {
+  "page": "hardening",
+  "section": "search",
+  "slug": "searxng",
+  "name": "SearXNG",
+  "url": "https://docs.searxng.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free metasearch engine that gathers results from up to 264 search services.",
+   "Says users are neither tracked nor profiled. You can run your own instance or use it over Tor.",
+   "AGPL-3.0 license."
+  ],
+  "repo": "https://github.com/searxng/searxng"
+ },
+ {
+  "page": "hardening",
+  "section": "search",
+  "slug": "mojeek",
+  "name": "Mojeek",
+  "url": "https://www.mojeek.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Search engine with its own index of more than nine billion pages.",
+   "Says it has provided independent search without tracking for over 15 years."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "search",
+  "slug": "duckduckgo",
+  "name": "DuckDuckGo",
+  "url": "https://duckduckgo.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Says: \"DuckDuckGo never tracks you.\"",
+   "Says its ads run in partnership with Microsoft and that viewing them is anonymous.",
+   "The page we read does not say where its search results come from."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "passwords",
+  "slug": "keepassxc",
+  "name": "KeePassXC",
+  "url": "https://keepassxc.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Open source password manager that keeps your passwords in an offline encrypted file.",
+   "Says no data is stored on remote servers.",
+   "Windows, macOS and Linux. GPLv3 license."
+  ],
+  "release": "2026-03-10",
+  "repo": "https://github.com/keepassxreboot/keepassxc"
+ },
+ {
+  "page": "hardening",
+  "section": "passwords",
+  "slug": "keepassdx",
+  "name": "KeePassDX",
+  "url": "https://github.com/Kunzisoft/KeePassDX",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Password manager for Android that opens KeePass database files.",
+   "GPL-3.0 license."
+  ],
+  "release": "2026-10-17",
+  "repo": "https://github.com/Kunzisoft/KeePassDX"
+ },
+ {
+  "page": "hardening",
+  "section": "passwords",
+  "slug": "bitwarden",
+  "name": "Bitwarden",
+  "url": "https://bitwarden.com",
+  "identity": "account",
+  "code": "open",
+  "facts": [
+   "Open source, end-to-end encrypted password manager.",
+   "Always free for basic password management.",
+   "Says it publishes the results of its third-party security audits.",
+   "Enterprise plans can be self-hosted."
+  ],
+  "release": "2026-10-15",
+  "repo": "https://github.com/bitwarden/clients"
+ },
+ {
+  "page": "hardening",
+  "section": "passwords",
+  "slug": "proton-pass",
+  "name": "Proton Pass",
+  "url": "https://proton.me/pass",
+  "identity": "account",
+  "code": "open",
+  "facts": [
+   "End-to-end encrypted password manager with a free plan: unlimited logins, notes and cards.",
+   "The free plan includes 10 hide-my-email aliases.",
+   "Its comparison table lists Proton Pass as open source."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "two-factor",
+  "slug": "aegis",
+  "name": "Aegis Authenticator",
+  "url": "https://getaegis.app",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free, open source authenticator app for Android."
+  ],
+  "release": "2026-09-06",
+  "repo": "https://github.com/beemdevelopment/Aegis"
+ },
+ {
+  "page": "hardening",
+  "section": "two-factor",
+  "slug": "ente-auth",
+  "name": "Ente Auth",
+  "url": "https://ente.com/auth",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Open source 2FA authenticator with end-to-end encrypted cloud backups.",
+   "Apps for mobile, desktop and web. Free."
+  ],
+  "repo": "https://github.com/ente-io/ente"
+ },
+ {
+  "page": "hardening",
+  "section": "two-factor",
+  "slug": "yubikey",
+  "name": "YubiKey",
+  "url": "https://www.yubico.com/products/yubikey-5-overview/",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Security key series that supports FIDO2, U2F, smart card, OTP and OpenPGP.",
+   "Its page does not say where it is made and makes no open source statement."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "two-factor",
+  "slug": "nitrokey",
+  "name": "Nitrokey",
+  "url": "https://www.nitrokey.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "German company that sells open source security hardware, including security keys.",
+   "Says its products are made in Germany."
+  ],
+  "release": "2026-09-30",
+  "repo": "https://github.com/Nitrokey/nitrokey-3-firmware"
+ },
+ {
+  "page": "hardening",
+  "section": "messengers",
+  "slug": "simplex",
+  "name": "SimpleX Chat",
+  "url": "https://simplex.chat",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Messenger without user identifiers, not even random ones.",
+   "Says no single entity controls the network and anyone can run servers.",
+   "Desktop, iOS and Android."
+  ],
+  "release": "2026-09-26",
+  "repo": "https://github.com/simplex-chat/simplex-chat"
+ },
+ {
+  "page": "hardening",
+  "section": "messengers",
+  "slug": "signal",
+  "name": "Signal",
+  "url": "https://signal.org",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Messenger run by an independent nonprofit, with end-to-end encryption.",
+   "Built on the open source Signal Protocol.",
+   "Its page does not say whether a phone number is required."
+  ],
+  "release": "2026-10-13",
+  "repo": "https://github.com/signalapp/Signal-Android"
+ },
+ {
+  "page": "hardening",
+  "section": "messengers",
+  "slug": "briar",
+  "name": "Briar",
+  "url": "https://briarproject.org",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Peer-to-peer messaging that bypasses central servers, over Bluetooth, Wi-Fi or Tor.",
+   "Free and open source. Distributed on Google Play and F-Droid.",
+   "Its page does not say whether an account is required."
+  ],
+  "repo": "https://github.com/briar/briar"
+ },
+ {
+  "page": "hardening",
+  "section": "messengers",
+  "slug": "molly",
+  "name": "Molly",
+  "url": "https://molly.im",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Independent Signal fork for Android with a passphrase-encrypted database and Tor support through Orbot.",
+   "Says it is fully free software with no proprietary blobs."
+  ],
+  "release": "2026-07-31",
+  "repo": "https://github.com/mollyim/mollyim-android"
+ },
+ {
+  "page": "hardening",
+  "section": "encryption",
+  "slug": "veracrypt",
+  "name": "VeraCrypt",
+  "url": "https://veracrypt.io",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free open source disk encryption software for Windows, macOS and Linux, based on TrueCrypt 7.1a.",
+   "Its 1.19 release notes mention fixes from a Quarkslab audit funded by OSTIF."
+  ],
+  "release": "2026-06-12",
+  "repo": "https://github.com/veracrypt/VeraCrypt"
+ },
+ {
+  "page": "hardening",
+  "section": "encryption",
+  "slug": "cryptomator",
+  "name": "Cryptomator",
+  "url": "https://cryptomator.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Client-side encryption for the files you keep in any cloud.",
+   "Open source. The desktop download is free."
+  ],
+  "release": "2026-06-29",
+  "repo": "https://github.com/cryptomator/cryptomator"
+ },
+ {
+  "page": "hardening",
+  "section": "encryption",
+  "slug": "gnupg",
+  "name": "GnuPG",
+  "url": "https://gnupg.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free implementation of the OpenPGP standard, used from the command line.",
+   "Free software since 1997, under the GNU GPL.",
+   "A Windows version is available through Gpg4win."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "metadata",
+  "slug": "exiftool",
+  "name": "ExifTool",
+  "url": "https://exiftool.org",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Reads, writes and edits metadata in a wide variety of files.",
+   "Deletes metadata individually, in groups or altogether. Its page says removal is not guaranteed to be complete."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "metadata",
+  "slug": "mat2",
+  "name": "MAT2",
+  "url": "https://0xacab.org/jvoisin/mat2",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Metadata removal tool for many common file formats, written in Python 3.",
+   "A library with a command-line interface and file manager extensions."
+  ]
+ },
+ {
+  "page": "hardening",
+  "section": "metadata",
+  "slug": "bleachbit",
+  "name": "BleachBit",
+  "url": "https://www.bleachbit.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Open source cleaner for temporary files, browser caches, logs and traces.",
+   "Secure deletion of files. Windows and Linux.",
+   "GPLv3 license."
+  ],
+  "release": "2026-09-08",
+  "repo": "https://github.com/bleachbit/bleachbit"
+ },
+ {
+  "page": "hardening",
+  "section": "sharing",
+  "slug": "onionshare",
+  "name": "OnionShare",
+  "url": "https://onionshare.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Open source tool that shares files over Tor. It can also host an onion site or a chat.",
+   "Windows, macOS, Linux, Android and iOS. GPLv3 license."
+  ],
+  "release": "2026-10-16",
+  "repo": "https://github.com/onionshare/onionshare"
+ },
+ {
+  "page": "hardening",
+  "section": "sharing",
+  "slug": "syncthing",
+  "name": "Syncthing",
+  "url": "https://syncthing.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Continuous file synchronization between your own computers, with no central server.",
+   "Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository."
+  ],
+  "release": "2026-10-06",
+  "repo": "https://github.com/syncthing/syncthing"
  }
 ]

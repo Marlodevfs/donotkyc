@@ -741,8 +741,27 @@
      "CoinJoin, birkaç kişinin ödemelerinin gizliliğini artırmak için birlikte oluşturduğu bir Bitcoin işlemidir.",
      "Bazı hizmetler durdu: zkSNACKs Wasabi koordinatörünü 1 Haziran 2024'te kapattı ve JoinMarket deposu Nisan 2026'da arşivlendi."
     ]
+   },
+   "hardening": {
+    "name": "Gizliliği güçlendirme",
+    "h1": "Gizliliği güçlendirme",
+    "intro": [
+     "Gizliliği güçlendirmek, zaten kullandığın araçlardaki boşlukları kapatmaktır: tarayıcı, parolalar, mesajlar ve dosyalar.",
+     "Her gün kullandığından başla. Her kayıt kodun açık olup olmadığını ve senden ne istediğini söyler."
+    ]
    }
   },
-  "guide_h": "Bu rehber için araçlar"
+  "guide_h": "Bu rehber için araçlar",
+  "sections": {
+   "browsers": "Tarayıcılar",
+   "extensions": "Uzantılar",
+   "search": "Arama motorları",
+   "passwords": "Parola yöneticileri",
+   "two-factor": "İki adımlı doğrulama ve güvenlik anahtarları",
+   "messengers": "Mesajlaşma",
+   "encryption": "Şifreleme",
+   "metadata": "Meta veri temizleyiciler",
+   "sharing": "Dosya paylaşımı"
+  }
  }
 }

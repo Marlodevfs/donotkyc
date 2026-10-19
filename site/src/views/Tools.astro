@@ -2,7 +2,7 @@
 // Page d'une catégorie d'outils : liste triée par la règle unique de data/tools.ts.
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
-import { sorted, TOOL_PAGES, CHECKED, type Tool } from '../data/tools';
+import { sorted, TOOL_PAGES, CHECKED, HARDENING_SECTIONS, type Tool } from '../data/tools';
 import { dict, useT, lp, type Lang } from '../i18n';
 interface Props { page: string; lang: Lang }
 const { page, lang } = Astro.props;
@@ -10,6 +10,9 @@ const t = useT(lang);
 const L = (p: string) => lp(lang, p);
 const x = dict(lang).tools.pages[page];
 const items = sorted(page);
+const grouped = items.some((i) => i.section);
+const groups = grouped ? HARDENING_SECTIONS.map((k) => ({ key: k, items: items.filter((i) => i.section === k) })).filter((g) => g.items.length) : [{ key: '', items }];
+const H = grouped ? 'h3' : 'h2';
 const site = 'https://www.donotkyc.com';
 const idClass = { none: 'l-none', account: 'l-light', id: 'l-tiered', unstated: 'l-na' } as const;
 // Page VPN : on reprend les sections « utiliser un VPN » et « avertissement » du guide traduit (les 2 premières sections sont l'intro et l'ancienne liste).
@@ -37,11 +40,14 @@ const href = (it: Tool) => it.affiliate ?? it.url;
       <p class="small">{t('tools.sort')}</p>
       {lang !== 'en' && <p class="small">{t('tools.english')}</p>}
     </header>
-    <ol class="tl">
-      {items.map((it) => (
+    {groups.map((g) => (
+      <section class="tsec" aria-labelledby={g.key ? `s-${g.key}` : undefined}>
+        {g.key && <h2 id={`s-${g.key}`}>{dict(lang).tools.sections[g.key]}</h2>}
+      <ol class="tl">
+        {g.items.map((it) => (
         <li class="tool" id={it.slug}>
           <div class="th">
-            <h2>{it.name}</h2>
+            <H>{it.name}</H>
             <div class="tb">
               <span class={`lvl ${idClass[it.identity]}`}>{t('tools.asks')}: {t(`tools.identity.${it.identity}`)}</span>
               <span class="lvl l-code">{t('tools.code')}: {t(`tools.codes.${it.code}`)}</span>
@@ -55,8 +61,10 @@ const href = (it: Tool) => it.affiliate ?? it.url;
             <span>{t('tools.checked')} {CHECKED}</span>
           </p>
         </li>
-      ))}
-    </ol>
+        ))}
+      </ol>
+      </section>
+    ))}
     {blocked && <section class="prose tg"><Fragment set:html={blocked} /></section>}
     <section class="sec rel" aria-labelledby="tr-h">
       <h2 id="tr-h">{t('landing.see_also')}</h2>

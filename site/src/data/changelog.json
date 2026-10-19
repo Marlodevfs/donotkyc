@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Privacy hardening page",
+    "body": "A new tools page covers browsers, extensions, search engines, password managers, two-factor apps and security keys, messengers, encryption, metadata cleaners and file sharing. Same entry format and sort rule as the other tool pages."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Tapbit and BloFin corrected, CoinEx sourced",
     "body": "Tapbit's own blog says unverified accounts can withdraw up to 2 BTC, not 10 BTC. BloFin's help center sets a Basic level limit and its terms require identity information, so it moves from None to Light. CoinEx's help center confirms the 10,000 USD daily limit without ID verification."
   },

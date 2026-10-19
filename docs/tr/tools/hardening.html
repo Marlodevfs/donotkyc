@@ -1,0 +1,550 @@
+<!DOCTYPE html><html lang="tr" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Gizliliği güçlendirme | DoNotKYC</title><meta name="description" content="Gizliliği güçlendirmek, zaten kullandığın araçlardaki boşlukları kapatmaktır: tarayıcı, parolalar, mesajlar ve dosyalar."><link rel="canonical" href="https://www.donotkyc.com/tr/tools/hardening"><link rel="alternate" hreflang="en" href="https://www.donotkyc.com/tools/hardening"><link rel="alternate" hreflang="fr" href="https://www.donotkyc.com/fr/tools/hardening"><link rel="alternate" hreflang="es" href="https://www.donotkyc.com/es/tools/hardening"><link rel="alternate" hreflang="de" href="https://www.donotkyc.com/de/tools/hardening"><link rel="alternate" hreflang="pt" href="https://www.donotkyc.com/pt/tools/hardening"><link rel="alternate" hreflang="it" href="https://www.donotkyc.com/it/tools/hardening"><link rel="alternate" hreflang="ru" href="https://www.donotkyc.com/ru/tools/hardening"><link rel="alternate" hreflang="tr" href="https://www.donotkyc.com/tr/tools/hardening"><link rel="alternate" hreflang="zh-Hans" href="https://www.donotkyc.com/zh/tools/hardening"><link rel="alternate" hreflang="x-default" href="https://www.donotkyc.com/tools/hardening"><link rel="preload" href="/assets/hanken-grotesk-latin-wght-normal.CaVRRdDk.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.png" type="image/png"><link rel="alternate" type="application/rss+xml" title="DoNotKYC changelog" href="/rss.xml"><meta name="theme-color" content="#0F172A"><meta property="og:type" content="website"><meta property="og:site_name" content="DoNotKYC"><meta property="og:title" content="Gizliliği güçlendirme | DoNotKYC"><meta property="og:description" content="Gizliliği güçlendirmek, zaten kullandığın araçlardaki boşlukları kapatmaktır: tarayıcı, parolalar, mesajlar ve dosyalar."><meta property="og:url" content="https://www.donotkyc.com/tr/tools/hardening"><meta property="og:locale" content="tr"><meta property="og:image" content="https://www.donotkyc.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@donotkyc"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Dizin","item":"https://www.donotkyc.com/tr"},{"@type":"ListItem","position":2,"name":"Araçlar","item":"https://www.donotkyc.com/tr/tools"},{"@type":"ListItem","position":3,"name":"Gizliliği güçlendirme","item":"https://www.donotkyc.com/tr/tools/hardening"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Gizliliği güçlendirme","numberOfItems":27,"itemListElement":[{"@type":"ListItem","position":1,"name":"Aegis Authenticator","url":"https://getaegis.app"},{"@type":"ListItem","position":2,"name":"BleachBit","url":"https://www.bleachbit.org"},{"@type":"ListItem","position":3,"name":"Cryptomator","url":"https://cryptomator.org"},{"@type":"ListItem","position":4,"name":"GnuPG","url":"https://gnupg.org"},{"@type":"ListItem","position":5,"name":"KeePassDX","url":"https://github.com/Kunzisoft/KeePassDX"},{"@type":"ListItem","position":6,"name":"KeePassXC","url":"https://keepassxc.org"},{"@type":"ListItem","position":7,"name":"LibreWolf","url":"https://librewolf.net"},{"@type":"ListItem","position":8,"name":"Mullvad Browser","url":"https://mullvad.net/en/browser"},{"@type":"ListItem","position":9,"name":"Nitrokey","url":"https://www.nitrokey.com"},{"@type":"ListItem","position":10,"name":"OnionShare","url":"https://onionshare.org"},{"@type":"ListItem","position":11,"name":"SearXNG","url":"https://docs.searxng.org"},{"@type":"ListItem","position":12,"name":"SimpleX Chat","url":"https://simplex.chat"},{"@type":"ListItem","position":13,"name":"Syncthing","url":"https://syncthing.net"},{"@type":"ListItem","position":14,"name":"uBlock Origin","url":"https://github.com/gorhill/uBlock"},{"@type":"ListItem","position":15,"name":"VeraCrypt","url":"https://veracrypt.io"},{"@type":"ListItem","position":16,"name":"DuckDuckGo","url":"https://duckduckgo.com"},{"@type":"ListItem","position":17,"name":"ExifTool","url":"https://exiftool.org"},{"@type":"ListItem","position":18,"name":"Firefox","url":"https://www.firefox.com"},{"@type":"ListItem","position":19,"name":"MAT2","url":"https://0xacab.org/jvoisin/mat2"},{"@type":"ListItem","position":20,"name":"Mojeek","url":"https://www.mojeek.com"},{"@type":"ListItem","position":21,"name":"YubiKey","url":"https://www.yubico.com/products/yubikey-5-overview/"},{"@type":"ListItem","position":22,"name":"Bitwarden","url":"https://bitwarden.com"},{"@type":"ListItem","position":23,"name":"Proton Pass","url":"https://proton.me/pass"},{"@type":"ListItem","position":24,"name":"Briar","url":"https://briarproject.org"},{"@type":"ListItem","position":25,"name":"Ente Auth","url":"https://ente.com/auth"},{"@type":"ListItem","position":26,"name":"Molly","url":"https://molly.im"},{"@type":"ListItem","position":27,"name":"Signal","url":"https://signal.org"}]}</script><script>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script><link rel="stylesheet" href="/assets/api-docs.bfvTcmvD.css"></head> <body> <a class="skip-link" href="#main">İçeriğe geç</a> <header class="bar"> <div class="wrap"> <a class="logo" href="/tr" aria-label="DoNotKYC ana sayfa"><img class="lg-l" src="/logo-light.svg" alt="" width="116" height="40"><img class="lg-d" src="/logo-dark.svg" alt="" width="116" height="40"></a> <nav class="nav" id="nav" aria-label="Main"> <a href="/tr">Dizin</a><a href="/blog">Blog</a><a href="/tr/tools" aria-current="page">Araçlar</a><a href="/tr/privacy">Gizlilik rehberi</a><a href="/tr/security">Güvenlik</a> </nav> <div class="tools"> <details class="lang"> <summary aria-label="Dil: TR">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-languages"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 8 6 6" />
+  <path d="m4 14 6-6 2-3" />
+  <path d="M2 5h12" />
+  <path d="M7 2h1" />
+  <path d="m22 22-5-10-5 10" />
+  <path d="M14 18h6" />
+</svg>
+TR</summary> <ul> <li><a href="/tools/hardening" hreflang="en" lang="en">English</a></li><li><a href="/fr/tools/hardening" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/tools/hardening" hreflang="es" lang="es">Español</a></li><li><a href="/de/tools/hardening" hreflang="de" lang="de">Deutsch</a></li><li><a href="/pt/tools/hardening" hreflang="pt" lang="pt">Português</a></li><li><a href="/it/tools/hardening" hreflang="it" lang="it">Italiano</a></li><li><a href="/ru/tools/hardening" hreflang="ru" lang="ru">Русский</a></li><li><a href="/tr/tools/hardening" hreflang="tr" lang="tr" aria-current="true">Türkçe</a></li><li><a href="/zh/tools/hardening" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li> </ul> </details> <a class="ibtn" href="/tr/search" aria-label="Ara">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" />
+</svg>
+</a> <button class="ibtn" id="theme" type="button" aria-label="Temayı değiştir">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-sun-moon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v2" />
+  <path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+  <path d="M16 12a4 4 0 0 0-4-4" />
+  <path d="m19 5-1.256 1.256" />
+  <path d="M20 12h2" />
+</svg>
+</button> <button class="ibtn menu" id="menu" type="button" aria-label="Menüyü aç" aria-controls="nav" aria-expanded="false">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</button> <a class="cta-s" href="/tr/advertise">Reklam ver</a> </div> </div> </header> <main id="main" data-pagefind-body> <div class="wrap det"> <nav class="crumb" aria-label="Breadcrumb"><a href="/tr">Dizin</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<a href="/tr/tools">Araçlar</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<span aria-current="page">Gizliliği güçlendirme</span></nav> <header class="lh"> <h1>Gizliliği güçlendirme</h1> <p>Gizliliği güçlendirmek, zaten kullandığın araçlardaki boşlukları kapatmaktır: tarayıcı, parolalar, mesajlar ve dosyalar.</p><p>Her gün kullandığından başla. Her kayıt kodun açık olup olmadığını ve senden ne istediğini söyler.</p> <p class="small">Sıra: aracın senden ne istediği (hiçbir şey, bir hesap, kimlik), sonra açık kod kapalı koddan önce, sonra alfabetik. Ortaklık bağlantıları ve sponsorlar bunu değiştirmez.</p> <p class="small">Kayıtlar İngilizcedir.</p> </header> <section class="tsec" aria-labelledby="s-browsers"> <h2 id="s-browsers">Tarayıcılar</h2> <ol class="tl"> <li class="tool" id="librewolf"> <div class="th"> <h3>LibreWolf</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Custom version of Firefox focused on privacy, security and freedom.</li><li>Aims to remove telemetry and data collection. uBlock Origin is included.</li><li>Windows, Linux, macOS and OpenBSD.</li></ul> <p class="tm"> <a class="go" href="https://librewolf.net" rel="noopener" target="_blank">LibreWolf sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="mullvad-browser"> <div class="th"> <h3>Mullvad Browser</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Built with the Tor Project to minimize tracking and fingerprints.</li><li>Aims to give all users similar fingerprints and uses letterboxing.</li><li>Linux, macOS and Windows. Free whether or not you use Mullvad VPN.</li></ul> <p class="tm"> <a class="go" href="https://mullvad.net/en/browser" rel="noopener" target="_blank">Mullvad Browser sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/mullvad/mullvad-browser" rel="noopener">2026-10-14</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="firefox"> <div class="th"> <h3>Firefox</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Made by Mozilla, which says it is not owned by shareholders.</li><li>Blocks trackers automatically. Says it will never sell your personal data.</li><li>Windows, macOS, Linux, iOS and Android.</li><li>Its page makes no open source statement.</li></ul> <p class="tm"> <a class="go" href="https://www.firefox.com" rel="noopener" target="_blank">Firefox sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-extensions"> <h2 id="s-extensions">Uzantılar</h2> <ol class="tl"> <li class="tool" id="ublock-origin"> <div class="th"> <h3>uBlock Origin</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Content blocker for Chromium and Firefox, built to use little CPU and memory.</li><li>Works best on Firefox, on desktop and Android. Its Chrome Web Store listing was removed.</li><li>GPLv3 license.</li></ul> <p class="tm"> <a class="go" href="https://github.com/gorhill/uBlock" rel="noopener" target="_blank">uBlock Origin sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/gorhill/uBlock" rel="noopener">2026-09-16</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-search"> <h2 id="s-search">Arama motorları</h2> <ol class="tl"> <li class="tool" id="searxng"> <div class="th"> <h3>SearXNG</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Free metasearch engine that gathers results from up to 264 search services.</li><li>Says users are neither tracked nor profiled. You can run your own instance or use it over Tor.</li><li>AGPL-3.0 license.</li></ul> <p class="tm"> <a class="go" href="https://docs.searxng.org" rel="noopener" target="_blank">SearXNG sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="duckduckgo"> <div class="th"> <h3>DuckDuckGo</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Says: &quot;DuckDuckGo never tracks you.&quot;</li><li>Says its ads run in partnership with Microsoft and that viewing them is anonymous.</li><li>The page we read does not say where its search results come from.</li></ul> <p class="tm"> <a class="go" href="https://duckduckgo.com" rel="noopener" target="_blank">DuckDuckGo sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="mojeek"> <div class="th"> <h3>Mojeek</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Search engine with its own index of more than nine billion pages.</li><li>Says it has provided independent search without tracking for over 15 years.</li></ul> <p class="tm"> <a class="go" href="https://www.mojeek.com" rel="noopener" target="_blank">Mojeek sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-passwords"> <h2 id="s-passwords">Parola yöneticileri</h2> <ol class="tl"> <li class="tool" id="keepassdx"> <div class="th"> <h3>KeePassDX</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Password manager for Android that opens KeePass database files.</li><li>GPL-3.0 license.</li></ul> <p class="tm"> <a class="go" href="https://github.com/Kunzisoft/KeePassDX" rel="noopener" target="_blank">KeePassDX sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/Kunzisoft/KeePassDX" rel="noopener">2026-10-17</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="keepassxc"> <div class="th"> <h3>KeePassXC</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Open source password manager that keeps your passwords in an offline encrypted file.</li><li>Says no data is stored on remote servers.</li><li>Windows, macOS and Linux. GPLv3 license.</li></ul> <p class="tm"> <a class="go" href="https://keepassxc.org" rel="noopener" target="_blank">KeePassXC sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/keepassxreboot/keepassxc" rel="noopener">2026-03-10</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="bitwarden"> <div class="th"> <h3>Bitwarden</h3> <div class="tb"> <span class="lvl l-light">İstediği: bir hesap</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Open source, end-to-end encrypted password manager.</li><li>Always free for basic password management.</li><li>Says it publishes the results of its third-party security audits.</li><li>Enterprise plans can be self-hosted.</li></ul> <p class="tm"> <a class="go" href="https://bitwarden.com" rel="noopener" target="_blank">Bitwarden sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/bitwarden/clients" rel="noopener">2026-10-15</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="proton-pass"> <div class="th"> <h3>Proton Pass</h3> <div class="tb"> <span class="lvl l-light">İstediği: bir hesap</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>End-to-end encrypted password manager with a free plan: unlimited logins, notes and cards.</li><li>The free plan includes 10 hide-my-email aliases.</li><li>Its comparison table lists Proton Pass as open source.</li></ul> <p class="tm"> <a class="go" href="https://proton.me/pass" rel="noopener" target="_blank">Proton Pass sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-two-factor"> <h2 id="s-two-factor">İki adımlı doğrulama ve güvenlik anahtarları</h2> <ol class="tl"> <li class="tool" id="aegis"> <div class="th"> <h3>Aegis Authenticator</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Free, open source authenticator app for Android.</li></ul> <p class="tm"> <a class="go" href="https://getaegis.app" rel="noopener" target="_blank">Aegis Authenticator sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/beemdevelopment/Aegis" rel="noopener">2026-09-06</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="nitrokey"> <div class="th"> <h3>Nitrokey</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>German company that sells open source security hardware, including security keys.</li><li>Says its products are made in Germany.</li></ul> <p class="tm"> <a class="go" href="https://www.nitrokey.com" rel="noopener" target="_blank">Nitrokey sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/Nitrokey/nitrokey-3-firmware" rel="noopener">2026-09-30</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="yubikey"> <div class="th"> <h3>YubiKey</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Security key series that supports FIDO2, U2F, smart card, OTP and OpenPGP.</li><li>Its page does not say where it is made and makes no open source statement.</li></ul> <p class="tm"> <a class="go" href="https://www.yubico.com/products/yubikey-5-overview/" rel="noopener" target="_blank">YubiKey sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="ente-auth"> <div class="th"> <h3>Ente Auth</h3> <div class="tb"> <span class="lvl l-na">İstediği: belirtilmemiş</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Open source 2FA authenticator with end-to-end encrypted cloud backups.</li><li>Apps for mobile, desktop and web. Free.</li></ul> <p class="tm"> <a class="go" href="https://ente.com/auth" rel="noopener" target="_blank">Ente Auth sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-messengers"> <h2 id="s-messengers">Mesajlaşma</h2> <ol class="tl"> <li class="tool" id="simplex"> <div class="th"> <h3>SimpleX Chat</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Messenger without user identifiers, not even random ones.</li><li>Says no single entity controls the network and anyone can run servers.</li><li>Desktop, iOS and Android.</li></ul> <p class="tm"> <a class="go" href="https://simplex.chat" rel="noopener" target="_blank">SimpleX Chat sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/simplex-chat/simplex-chat" rel="noopener">2026-09-26</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="briar"> <div class="th"> <h3>Briar</h3> <div class="tb"> <span class="lvl l-na">İstediği: belirtilmemiş</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Peer-to-peer messaging that bypasses central servers, over Bluetooth, Wi-Fi or Tor.</li><li>Free and open source. Distributed on Google Play and F-Droid.</li><li>Its page does not say whether an account is required.</li></ul> <p class="tm"> <a class="go" href="https://briarproject.org" rel="noopener" target="_blank">Briar sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="molly"> <div class="th"> <h3>Molly</h3> <div class="tb"> <span class="lvl l-na">İstediği: belirtilmemiş</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Independent Signal fork for Android with a passphrase-encrypted database and Tor support through Orbot.</li><li>Says it is fully free software with no proprietary blobs.</li></ul> <p class="tm"> <a class="go" href="https://molly.im" rel="noopener" target="_blank">Molly sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/mollyim/mollyim-android" rel="noopener">2026-07-31</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="signal"> <div class="th"> <h3>Signal</h3> <div class="tb"> <span class="lvl l-na">İstediği: belirtilmemiş</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Messenger run by an independent nonprofit, with end-to-end encryption.</li><li>Built on the open source Signal Protocol.</li><li>Its page does not say whether a phone number is required.</li></ul> <p class="tm"> <a class="go" href="https://signal.org" rel="noopener" target="_blank">Signal sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/signalapp/Signal-Android" rel="noopener">2026-10-13</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-encryption"> <h2 id="s-encryption">Şifreleme</h2> <ol class="tl"> <li class="tool" id="cryptomator"> <div class="th"> <h3>Cryptomator</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Client-side encryption for the files you keep in any cloud.</li><li>Open source. The desktop download is free.</li></ul> <p class="tm"> <a class="go" href="https://cryptomator.org" rel="noopener" target="_blank">Cryptomator sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/cryptomator/cryptomator" rel="noopener">2026-06-29</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="gnupg"> <div class="th"> <h3>GnuPG</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Free implementation of the OpenPGP standard, used from the command line.</li><li>Free software since 1997, under the GNU GPL.</li><li>A Windows version is available through Gpg4win.</li></ul> <p class="tm"> <a class="go" href="https://gnupg.org" rel="noopener" target="_blank">GnuPG sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="veracrypt"> <div class="th"> <h3>VeraCrypt</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Free open source disk encryption software for Windows, macOS and Linux, based on TrueCrypt 7.1a.</li><li>Its 1.19 release notes mention fixes from a Quarkslab audit funded by OSTIF.</li></ul> <p class="tm"> <a class="go" href="https://veracrypt.io" rel="noopener" target="_blank">VeraCrypt sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/veracrypt/VeraCrypt" rel="noopener">2026-06-12</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-metadata"> <h2 id="s-metadata">Meta veri temizleyiciler</h2> <ol class="tl"> <li class="tool" id="bleachbit"> <div class="th"> <h3>BleachBit</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Open source cleaner for temporary files, browser caches, logs and traces.</li><li>Secure deletion of files. Windows and Linux.</li><li>GPLv3 license.</li></ul> <p class="tm"> <a class="go" href="https://www.bleachbit.org" rel="noopener" target="_blank">BleachBit sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/bleachbit/bleachbit" rel="noopener">2026-09-08</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="exiftool"> <div class="th"> <h3>ExifTool</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Reads, writes and edits metadata in a wide variety of files.</li><li>Deletes metadata individually, in groups or altogether. Its page says removal is not guaranteed to be complete.</li></ul> <p class="tm"> <a class="go" href="https://exiftool.org" rel="noopener" target="_blank">ExifTool sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="mat2"> <div class="th"> <h3>MAT2</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: belirtilmemiş</span>  </div> </div> <ul class="tf"><li>Metadata removal tool for many common file formats, written in Python 3.</li><li>A library with a command-line interface and file manager extensions.</li></ul> <p class="tm"> <a class="go" href="https://0xacab.org/jvoisin/mat2" rel="noopener" target="_blank">MAT2 sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section><section class="tsec" aria-labelledby="s-sharing"> <h2 id="s-sharing">Dosya paylaşımı</h2> <ol class="tl"> <li class="tool" id="onionshare"> <div class="th"> <h3>OnionShare</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Open source tool that shares files over Tor. It can also host an onion site or a chat.</li><li>Windows, macOS, Linux, Android and iOS. GPLv3 license.</li></ul> <p class="tm"> <a class="go" href="https://onionshare.org" rel="noopener" target="_blank">OnionShare sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/onionshare/onionshare" rel="noopener">2026-10-16</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li><li class="tool" id="syncthing"> <div class="th"> <h3>Syncthing</h3> <div class="tb"> <span class="lvl l-none">İstediği: hiçbir şey</span> <span class="lvl l-code">Kod: açık kaynak</span>  </div> </div> <ul class="tf"><li>Continuous file synchronization between your own computers, with no central server.</li><li>Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository.</li></ul> <p class="tm"> <a class="go" href="https://syncthing.net" rel="noopener" target="_blank">Syncthing sitesine git
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Son sürüm: <a href="https://github.com/syncthing/syncthing" rel="noopener">2026-10-06</a></span> <span>Kontrol tarihi 2026-10-19</span> </p> </li> </ol> </section>  <section class="sec rel" aria-labelledby="tr-h"> <h2 id="tr-h">Ayrıca bak</h2> <ul> <li><a href="/tr/tools/vpn">VPN sağlayıcıları</a></li><li><a href="/tr/tools/tor">Tor ve anonim ağlar</a></li><li><a href="/tr/tools/dns">Şifreli DNS</a></li><li><a href="/tr/tools/leak-tests">VPN ve Tor sızıntı testleri</a></li><li><a href="/tr/tools/routers">Yönlendirici ve güvenlik duvarı yazılımları</a></li><li><a href="/tr/tools/wallets">Bitcoin cüzdanları</a></li><li><a href="/tr/tools/hardware-wallets">Donanım cüzdanları</a></li><li><a href="/tr/tools/monero-wallets">Monero cüzdanları</a></li><li><a href="/tr/tools/coinjoin">CoinJoin araçları</a></li><li><a href="/tr/tools/privacy-coins">Gizlilik coin&#39;leri</a></li><li><a href="/tr/tools/private-payments">Gizli ödemeler</a></li><li><a href="/tr/tools/desktop-os">Bilgisayarlar için işletim sistemleri</a></li><li><a href="/tr/tools/mobile-os">Telefonlar için işletim sistemleri</a></li><li><a href="/tr/tools/email">Gizli e-posta sağlayıcıları</a></li><li><a href="/tr/tools/email-aliases">E-posta takma ad hizmetleri</a></li> <li><a href="/tr/tools">Tüm araçlar</a></li> <li><a href="/tr/methodology">Nasıl kontrol ediyoruz</a></li> <li><a href="/tr/how-we-make-money">Nasıl para kazanıyoruz</a></li> </ul> </section> </div> </main> <footer class="site"> <div class="wrap"> <div class="fg"> <div> <a class="logo" href="/tr" aria-label="DoNotKYC ana sayfa"><img class="lg-l" src="/logo-light.svg" alt="" width="116" height="40"><img class="lg-d" src="/logo-dark.svg" alt="" width="116" height="40"></a> <p>Kimlik göndermeden işlem yapabileceğin kripto platformlarının bağımsız dizini. Yalnızca bilgi amaçlıdır, finansal tavsiye değildir.</p> </div> <div><h2>Dizin</h2><ul> <li><a href="/tr#directory">Tüm platformlar</a></li> <li><a href="/tr/submit">Platform öner</a></li> <li><a href="/tr/compare">Platformları karşılaştır</a></li> <li><a href="/tr/methodology">Nasıl kontrol ediyoruz</a></li> <li><a href="/tr/advertise">Reklam ver</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml" rel="noopener">Değişiklik bildir</a></li> <li><a href="/api-docs">Açık veri API&#39;si</a></li> <li><a href="/changelog">Changelog</a></li> <li><a href="/tr/how-we-make-money">Nasıl para kazanıyoruz</a></li> <li><a href="/tr/privacy-policy">Gizlilik</a></li> </ul></div> <div><h2>Keşfet</h2><ul> <li><a href="/tr/exchanges">Borsalar</a></li> <li><a href="/tr/swaps">Anında takas</a></li> <li><a href="/tr/p2p">P2P pazarları</a></li> <li><a href="/tr/buy/bitcoin">Bitcoin al</a></li> <li><a href="/tr/buy/monero">Monero al</a></li> </ul></div> <div><h2>Rehberler</h2><ul> <li><a href="/tr/privacy">Gizlilik rehberi</a></li> <li><a href="/tr/security">Güvenlik ipuçları</a></li> <li><a href="/tr/tools">Araçlar</a></li> <li><a href="/tr/tools/vpn">Kripto için VPN</a></li> <li><a href="/blog">Blog</a></li> </ul><p class="small">Blog yazıları İngilizcedir.</p></div> <div><h2>Topluluk</h2><ul> <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li> <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc" rel="noopener">GitHub</a></li> </ul></div> </div> <div class="legal"> <p>KYC&#39;siz platformlar risk taşır ve daha az başvuru imkânı sunar. Kendi araştırmanı yap, küçük başla ve ülkenin yasalarına ve vergi kurallarına uy. Bazı «Ziyaret et» bağlantıları ortaklık bağlantısıdır. Dizinin sırasını değiştirmezler.</p> <span>© 2026 DoNotKYC · ❤️ ve ☕ ile <a href="https://github.com/Marlodevfs" rel="noopener">Marlodevfs</a> tarafından yapıldı</span> </div> </div> </footer> <script data-goatcounter="https://donotkyc.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> <noscript><img src="https://donotkyc.goatcounter.com/count?p=%2Ftr%2Ftools%2Fhardening" alt="" width="1" height="1"></noscript> <script>
+      (function () {
+        var root = document.documentElement, b = document.getElementById('theme');
+        function mode() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+        b.addEventListener('click', function () {
+          var next = mode() === 'dark' ? 'light' : 'dark';
+          root.dataset.theme = next;
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+        var m = document.getElementById('menu'), n = document.getElementById('nav');
+        m.addEventListener('click', function () { var open = n.classList.toggle('open'); m.setAttribute('aria-expanded', open); });
+        document.addEventListener('click', function (e) { var d = document.querySelector('details.lang'); if (d && d.open && !d.contains(e.target)) d.open = false; });
+      })();
+    </script> </body> </html>

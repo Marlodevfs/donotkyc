@@ -741,8 +741,27 @@
      "Ein CoinJoin ist eine Bitcoin-Transaktion, die mehrere Personen gemeinsam bauen, um die Privatsphäre ihrer Zahlungen zu verbessern.",
      "Einige Dienste wurden eingestellt: zkSNACKs schloss seinen Wasabi-Koordinator am 1. Juni 2024, und das JoinMarket-Repository wurde im April 2026 archiviert."
     ]
+   },
+   "hardening": {
+    "name": "Privatsphäre absichern",
+    "h1": "Privatsphäre absichern",
+    "intro": [
+     "Absichern heißt, die Lücken in den Werkzeugen zu schließen, die du schon nutzt: Browser, Passwörter, Nachrichten und Dateien.",
+     "Fang mit dem an, was du täglich benutzt. Jeder Eintrag zeigt, ob sein Code offen ist und was er von dir verlangt."
+    ]
    }
   },
-  "guide_h": "Werkzeuge zu diesem Guide"
+  "guide_h": "Werkzeuge zu diesem Guide",
+  "sections": {
+   "browsers": "Browser",
+   "extensions": "Erweiterungen",
+   "search": "Suchmaschinen",
+   "passwords": "Passwortmanager",
+   "two-factor": "Zwei-Faktor und Sicherheitsschlüssel",
+   "messengers": "Messenger",
+   "encryption": "Verschlüsselung",
+   "metadata": "Metadaten-Bereinigung",
+   "sharing": "Dateien teilen"
+  }
  }
 }

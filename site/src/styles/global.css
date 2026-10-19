@@ -396,3 +396,5 @@ table.cmp{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
 .hub a{align-content:start}
 @media (min-width:900px){.hub-3{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .hub-more{display:inline-block;padding:12px 0;font-weight:600;color:var(--fg)}
+.tool h3{font-size:22px;letter-spacing:-.02em;margin:0}
+.tsec{margin-top:40px}.tsec>h2{font-size:26px;letter-spacing:-.02em;margin:0}.tsec .tl{margin-top:16px}
