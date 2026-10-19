@@ -329,7 +329,8 @@
   "Global except US, Georgia, India": "Весь мир, кроме США, Грузии и Индии",
   "US, Georgia, India": "США, Грузия, Индия",
   "175+ countries": "175+ стран",
-  "Not stated": "Не указано"
+  "Not stated": "Не указано",
+  "No ID up to 2 BTC": "Без документа до 2 BTC"
  },
  "landings": {
   "/exchanges": {

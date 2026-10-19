@@ -329,7 +329,8 @@
   "Global except US, Georgia, India": "全球（美国、格鲁吉亚、印度除外）",
   "US, Georgia, India": "美国、格鲁吉亚、印度",
   "175+ countries": "175+ 个国家",
-  "Not stated": "未说明"
+  "Not stated": "未说明",
+  "No ID up to 2 BTC": "最高 2 BTC 无需身份证件"
  },
  "landings": {
   "/exchanges": {

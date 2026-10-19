@@ -89,7 +89,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://support.coinex.com/hc/en-us/articles/360034457433-How-to-Increase-Withdrawal-Limit-",
     "tests": []
   },
   {
@@ -193,8 +193,8 @@
     "affiliate_link": null,
     "logo": "logos/tapbit.webp",
     "kyc_level": "light",
-    "kyc_summary": "No ID up to 10 BTC withdrawal",
-    "kyc_tier": "None (10 BTC/60 BTC withdrawal, KYC only for large limits)",
+    "kyc_summary": "No ID up to 2 BTC",
+    "kyc_tier": "None (2 BTC without verification, per Tapbit's own blog)",
     "supported_countries": "Global except restrictions",
     "blocked": "Some regions",
     "fiat_deposit": true,
@@ -216,7 +216,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://blog.tapbit.com/how-to-complete-kyc-verification-on-tapbit/",
     "tests": []
   },
   {
@@ -293,9 +293,9 @@
     "url": "https://www.blofin.com",
     "affiliate_link": null,
     "logo": "logos/blofin.webp",
-    "kyc_level": "none",
-    "kyc_summary": "No ID at any amount",
-    "kyc_tier": "No KYC required",
+    "kyc_level": "light",
+    "kyc_summary": "ID can be required at any time",
+    "kyc_tier": "Basic level limit of 20,000 USDT a day; terms require identity information",
     "supported_countries": "Global",
     "blocked": null,
     "fiat_deposit": false,
@@ -315,7 +315,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://support.blofin.com/hc/en-us/articles/7296238795279-TERMS-OF-USE",
     "tests": []
   },
   {

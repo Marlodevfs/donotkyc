@@ -329,7 +329,8 @@
   "Global except US, Georgia, India": "ABD, Gürcistan ve Hindistan hariç tüm dünya",
   "US, Georgia, India": "ABD, Gürcistan, Hindistan",
   "175+ countries": "175+ ülke",
-  "Not stated": "Belirtilmemiş"
+  "Not stated": "Belirtilmemiş",
+  "No ID up to 2 BTC": "2 BTC'ye kadar kimliksiz"
  },
  "landings": {
   "/exchanges": {

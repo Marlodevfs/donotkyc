@@ -56,7 +56,6 @@ Each entry quotes the maker's own site and states what the tool asks of you and 
 - [Best Wallet](https://www.donotkyc.com/p/best-wallet): Instant swap. Identity: None (no ID, no account details). No account. Crypto only. Fees: Low (competitive).
 - [BIM Exchange](https://www.donotkyc.com/p/bim-exchange): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Card or bank accepted. Fees: 0.1% - 0.5% (via Kyber/Bungee).
 - [Bisq](https://www.donotkyc.com/p/bisq): Decentralised exchange. Identity: None (no ID, no account details). No account at all. Card or bank accepted. Fees: Variable.
-- [BloFin](https://www.donotkyc.com/p/blofin): Exchange. Identity: None (no ID, no account details). No ID at any amount. Crypto only. Fees: 0.02% maker / 0.06% taker.
 - [Boltz](https://www.donotkyc.com/p/boltz): Instant swap. Identity: None (no ID, no account details). No account. Crypto only. Fees: 0.25%. UNDER REVIEW: Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back.
 - [DeGate](https://www.donotkyc.com/p/degate): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Card or bank accepted. Fees: 0.01% stable coins; 0.1% for gas tokens; 0.25% Most CEX-listed tokens; 0.99% all others.
 - [dYdX](https://www.donotkyc.com/p/dydx): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: 0.02% - 0.05%. Not available in: US, Canada.
@@ -74,6 +73,7 @@ Each entry quotes the maker's own site and states what the tool asks of you and 
 - [Symbiosis Finance](https://www.donotkyc.com/p/symbiosis-finance): Bridge. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Low.
 - [Synapse Protocol](https://www.donotkyc.com/p/synapse-protocol): Bridge. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Near-zero with reimbursement.
 - [Uniswap](https://www.donotkyc.com/p/uniswap): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: 0.05% - 1%.
+- [BloFin](https://www.donotkyc.com/p/blofin): Exchange. Identity: Light (no ID under a limit, or only email/phone). ID can be required at any time. Crypto only. Fees: 0.02% maker / 0.06% taker.
 - [Changelly](https://www.donotkyc.com/p/changelly): Instant swap. Identity: Light (no ID under a limit, or only email/phone). ID can be required at any time. Card or bank accepted. Fees: 0.25%. Not available in: US.
 - [ChangeNOW](https://www.donotkyc.com/p/changenow): Instant swap. Identity: Light (no ID under a limit, or only email/phone). ID only if a swap is flagged. Card or bank accepted. Fees: Included in the rate. Not available in: Not stated.
 - [CoinEx](https://www.donotkyc.com/p/coinex): Exchange. Identity: Light (no ID under a limit, or only email/phone). No ID up to $10,000 a day. Crypto only. Fees: 0.2%. Not available in: New York.
@@ -84,7 +84,7 @@ Each entry quotes the maker's own site and states what the tool asks of you and 
 - [RockitCoin](https://www.donotkyc.com/p/rockitcoin): Bitcoin ATM. Identity: Light (no ID under a limit, or only email/phone). Phone number only. Card or bank accepted. Fees: Spread + $1-2. Not available in: Outside US, Puerto Rico.
 - [SimpleSwap](https://www.donotkyc.com/p/simpleswap): Instant swap. Identity: Light (no ID under a limit, or only email/phone). ID only if a swap is flagged. Crypto only. Fees: Variable. Not available in: US.
 - [StealthEX](https://www.donotkyc.com/p/stealthex): Instant swap. Identity: Light (no ID under a limit, or only email/phone). ID can be required, no limit published. Card or bank accepted. Fees: 0.25% - 0.5% (varies by pair & network).
-- [Tapbit](https://www.donotkyc.com/p/tapbit): Exchange. Identity: Light (no ID under a limit, or only email/phone). No ID up to 10 BTC withdrawal. Card or bank accepted. Fees: 0.1% spot, 0.02% maker | 0.06% taker futures. Not available in: Some regions.
+- [Tapbit](https://www.donotkyc.com/p/tapbit): Exchange. Identity: Light (no ID under a limit, or only email/phone). No ID up to 2 BTC. Card or bank accepted. Fees: 0.1% spot, 0.02% maker | 0.06% taker futures. Not available in: Some regions.
 - [Trocador](https://www.donotkyc.com/p/trocador): Instant swap. Identity: Light (no ID under a limit, or only email/phone). Depends on the partner. Card or bank accepted. Fees: Included in partner rate; network + partner fees in quote.
 - [WizardSwap](https://www.donotkyc.com/p/wizardswap): Instant swap. Identity: Light (no ID under a limit, or only email/phone). May freeze a flagged swap. Crypto only. Fees: Approx. 2.2% flat fee, with possibility to earn fee rebate by providing liquidity.
 - [BingX](https://www.donotkyc.com/p/bingx): Exchange. Identity: Tiered (ID above a threshold). ID above the first tier. Crypto only. Fees: 0.075% - 0.2%. Not available in: US.
