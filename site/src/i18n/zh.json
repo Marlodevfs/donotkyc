@@ -616,7 +616,10 @@
   "Open source tool that shares files over Tor. It can also host an onion site or a chat.": "通过 Tor 分享文件的开源工具。也可以托管洋葱网站或聊天室。",
   "Windows, macOS, Linux, Android and iOS. GPLv3 license.": "Windows、macOS、Linux、Android 和 iOS。GPLv3 许可证。",
   "Continuous file synchronization between your own computers, with no central server.": "在你自己的电脑之间持续同步文件，没有中心服务器。",
-  "Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository.": "Windows、macOS、Linux、FreeBSD 等。据其仓库，采用 MPL-2.0 许可证。"
+  "Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository.": "Windows、macOS、Linux、FreeBSD 等。据其仓库，采用 MPL-2.0 许可证。",
+  "ID optional, purchases held 7 days without it": "身份证件可选，不提供则购买款项滞留 7 天",
+  "ID required for every purchase": "每次购买都需要身份证件",
+  "ID verification required": "需要身份验证"
  },
  "landings": {
   "/exchanges": {

@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "ATM and swap listings checked against their own pages",
+    "body": "Bitcoin Depot now asks for ID at every purchase at its US kiosks, per its own press release, and Coinstar's wallet provider checks ID before you receive the coins. Mt Pelerin treats ID as optional but holds unverified purchases for 7 days. GhostSwap, SilentSwap, Rockitcoin, WizardSwap, LibertyX, Bitcoin Well, Trocador and OpenPeer now link the page that backs their listing."
+  },
+  {
     "date": "2026-10-19",
     "title": "Tool entries translated into eight languages",
     "body": "The facts on all 103 tool entries are now translated into French, Spanish, German, Portuguese, Italian, Russian, Turkish and Chinese. A note still appears on a page if any entry has no translation yet."

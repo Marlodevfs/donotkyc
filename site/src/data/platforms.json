@@ -259,9 +259,9 @@
     "url": "https://www.mtpelerin.com",
     "affiliate_link": null,
     "logo": "logos/mt-pelerin.webp",
-    "kyc_level": "tiered",
-    "kyc_summary": "No ID up to set limits",
-    "kyc_tier": "Tiered (up to certain limits no KYC)",
+    "kyc_level": "light",
+    "kyc_summary": "ID optional, purchases held 7 days without it",
+    "kyc_tier": "Optional verification. Purchases are withheld 7 days without it. Advanced KYC above six figures",
     "supported_countries": "Europe, Switzerland",
     "blocked": "Outside Europe",
     "fiat_deposit": true,
@@ -283,7 +283,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://www.mtpelerin.com/faq",
     "tests": []
   },
   {
@@ -635,7 +635,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://ghostswap.io/",
     "tests": []
   },
   {
@@ -737,8 +737,8 @@
     "affiliate_link": null,
     "logo": "logos/coinstar-bitcoin-machines.webp",
     "kyc_level": "tiered",
-    "kyc_summary": "ID above small cash amounts",
-    "kyc_tier": "Intermediate",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "The wallet provider checks your ID before you can access the coins; the phone number must match your account",
     "supported_countries": "US only",
     "blocked": "Outside the US",
     "fiat_deposit": true,
@@ -753,7 +753,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/",
     "tests": []
   },
   {
@@ -780,7 +780,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits",
     "tests": []
   },
   {
@@ -807,7 +807,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://www.rockitcoin.com/faq",
     "tests": []
   },
   {
@@ -818,8 +818,8 @@
     "affiliate_link": null,
     "logo": "logos/bitcoin-depot.webp",
     "kyc_level": "tiered",
-    "kyc_summary": "ID above small cash amounts",
-    "kyc_tier": "Intermediate",
+    "kyc_summary": "ID required for every purchase",
+    "kyc_tier": "ID verification required for every transaction at its US kiosks (phased in from late 2025)",
     "supported_countries": "US (South)",
     "blocked": "Outside the southern US",
     "fiat_deposit": true,
@@ -834,7 +834,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id",
     "tests": []
   },
   {
@@ -861,7 +861,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/",
     "tests": []
   },
   {
@@ -977,7 +977,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://docs.openpeer.xyz/openpeer-docs/troubleshooting/faq",
     "tests": []
   },
   {
@@ -1136,7 +1136,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://wizardswap.io/faq",
     "tests": []
   },
   {
@@ -1205,7 +1205,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://trocador.app/en/termsofuse/",
     "tests": []
   },
   {
@@ -1302,7 +1302,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://silentswap.com/",
     "tests": []
   },
   {

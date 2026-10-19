@@ -616,7 +616,10 @@
   "Open source tool that shares files over Tor. It can also host an onion site or a chat.": "Herramienta de código abierto que comparte archivos por Tor. También puede alojar un sitio onion o un chat.",
   "Windows, macOS, Linux, Android and iOS. GPLv3 license.": "Windows, macOS, Linux, Android e iOS. Licencia GPLv3.",
   "Continuous file synchronization between your own computers, with no central server.": "Sincronización continua de archivos entre tus propios ordenadores, sin servidor central.",
-  "Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository.": "Windows, macOS, Linux, FreeBSD y más. Licencia MPL-2.0, según su repositorio."
+  "Windows, macOS, Linux, FreeBSD and more. MPL-2.0 license, per its repository.": "Windows, macOS, Linux, FreeBSD y más. Licencia MPL-2.0, según su repositorio.",
+  "ID optional, purchases held 7 days without it": "Identificación opcional, compras retenidas 7 días sin ella",
+  "ID required for every purchase": "Identificación exigida en cada compra",
+  "ID verification required": "Verificación de identidad exigida"
  },
  "landings": {
   "/exchanges": {
