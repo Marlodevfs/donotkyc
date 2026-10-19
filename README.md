@@ -4,7 +4,7 @@ Directory of crypto platforms that let you trade without sending ID: https://www
 
 ## How the site is built
 
-- Source: `site/` (Astro, static). Built HTML goes to `docs/`, which GitHub Pages serves from `main`.
+- Source: `site/` (Astro, static). A local build writes HTML to `docs/` (not committed). On every push to `main`, GitHub Actions builds the site and publishes it to GitHub Pages.
 - Data: one file, `site/src/data/platforms.json`. The homepage, the 42 platform pages (`/p/<slug>`),
   the sitemap and the public API (`/nokyc_directory.json`) are all generated from it.
 - No tracker, no third-party request: fonts, icons and logos are served from the site.
@@ -18,7 +18,7 @@ npm run dev        # preview on http://localhost:4321
 npm run build      # writes ../docs
 ```
 
-Commit both `site/` and `docs/`, then push to `main`: the site updates in about a minute.
+Commit `site/` and push to `main`: the site updates in a few minutes.
 
 To add or edit a platform, edit `site/src/data/platforms.json` (`kyc_level` is `none`, `light` or `tiered`)
 and put its logo, if any, in `site/public/logos/<slug>.webp`.

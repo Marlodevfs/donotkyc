@@ -38,4 +38,4 @@ Add an entry to the platform's `tests` array:
 
 The platform page then shows "Tested <date>" and the test history automatically. Listings tested more than 90 days ago will be flagged for a new test.
 
-Then: `cd site && npm run build`, commit `site/` and `docs/`, push to `main`.
+Then commit `site/` and push to `main`. GitHub builds and publishes the site.

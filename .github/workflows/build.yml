@@ -1,9 +1,7 @@
 name: build
-# Vérifie que le site compile et que docs/ correspond bien aux sources commitées.
+# Vérifie que le site compile (sur les pull requests ; le déploiement est dans deploy.yml).
 on:
   pull_request:
-  push:
-    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,11 +12,3 @@ jobs:
         with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
       - run: npm ci
       - run: npm run build
-      - name: docs/ is up to date
-        run: |
-          # l'index de recherche (docs/pagefind) change à chaque build : on ne le compare pas
-          if ! git diff --quiet -- ../docs ':!../docs/pagefind'; then
-            echo "::error::docs/ differs from a fresh build. Run 'npm run build' in site/ and commit docs/."
-            git status --short -- ../docs ':!../docs/pagefind' | head -20
-            exit 1
-          fi

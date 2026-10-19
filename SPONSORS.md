@@ -24,7 +24,7 @@ Tiles are driven by `site/src/data/sponsors.json`. A nightly GitHub Action rebui
 - `logo` (optional): 96x96 WebP in `site/public/sponsors/`.
 - `tagline`: one sentence, factual, no claims we cannot check.
 
-Then `cd site && npm run build`, commit `site/` and `docs/`, push.
+Then commit `site/` and push. GitHub builds the site and publishes it; the nightly rebuild also applies the start and end dates.
 
 ## Payments are tracked outside this repo
 

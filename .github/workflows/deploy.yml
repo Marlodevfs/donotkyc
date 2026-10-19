@@ -1,8 +1,9 @@
 name: deploy
-# Construit le site et le publie sur GitHub Pages sans commiter docs/.
-# Lancé à la main pour l'instant. Une fois Pages réglé sur « GitHub Actions » (Settings > Pages > Source),
-# on ajoutera les déclencheurs push sur main et la reconstruction nocturne, puis on retirera docs/ du dépôt.
+# Construit le site et le publie sur GitHub Pages (source : GitHub Actions). docs/ n'est plus commité.
+# Chaque push sur main déploie ; la reconstruction de 03:17 UTC fait apparaître et expirer les tuiles sponsorisées selon leurs dates.
 on:
+  push: { branches: [main] }
+  schedule: [{ cron: '17 3 * * *' }]
   workflow_dispatch:
 permissions:
   contents: read

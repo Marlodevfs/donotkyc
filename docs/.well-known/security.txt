@@ -1,4 +1,0 @@
-Contact: https://github.com/Marlodevfs/donotkyc/issues/new
-Expires: 2027-10-19T00:00:00.000Z
-Preferred-Languages: en, fr
-Canonical: https://www.donotkyc.com/.well-known/security.txt
