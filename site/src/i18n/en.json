@@ -134,7 +134,7 @@
   "t_p2p_h": "P2P markets",
   "t_p2p_p": "You pay another person with a local payment method. Safety depends on escrow and reputation.",
   "t_atm_h": "ATMs and bridges",
-  "t_atm_p": "ATMs sell crypto for cash, without ID under a threshold. Bridges move assets between blockchains.",
+  "t_atm_p": "ATMs sell crypto for cash. Some ask for ID only above a threshold, others on every purchase. Bridges move assets between blockchains.",
   "r1_h": "Rankings are not for sale",
   "r1_p": "We sort the directory by the identity each platform asks for. Paying does not move a platform.",
   "r2_h": "Affiliate links disclosed",

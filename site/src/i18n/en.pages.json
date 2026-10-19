@@ -52,7 +52,7 @@
    "description": "Bitcoin ATM networks where you can buy with cash, and the amounts above which they ask for ID.",
    "h1": "Bitcoin ATMs with low or no ID",
    "intro": [
-    "Bitcoin ATMs sell crypto for cash. Many allow small purchases with a phone number or nothing at all, then ask for ID above a threshold set by the operator and local rules.",
+    "Bitcoin ATMs sell crypto for cash. Some accept small purchases with a phone number only and ask for ID above a threshold set by the operator and local rules. Others ask for ID on every purchase: each listing says which.",
     "ATM fees run several percent above the market price. They are most useful for small amounts when cash is what you have."
    ]
   },
