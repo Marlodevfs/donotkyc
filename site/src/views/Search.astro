@@ -9,7 +9,7 @@ const t = useT(lang);
 <Base title={t('search.title')} description={t('search.description')} path="/search" lang={lang} localized>
   <div class="wrap page">
     <header class="lh"><h1>{t('search.h1')}</h1><p>{t('search.lead')}</p></header>
-    <div id="search" class="pf-search"></div>
+    <div id="search" class="pf-search" data-label={t('search.h1')}></div>
     <noscript><p class="small">JavaScript is needed for site search. The directory on the homepage works without it.</p></noscript>
   </div>
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
@@ -17,6 +17,7 @@ const t = useT(lang);
   <script is:inline>
     window.addEventListener('DOMContentLoaded', function () {
       var ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+      var inp = document.querySelector('#search input'); if (inp) inp.setAttribute('aria-label', document.getElementById('search').dataset.label);
       var q = new URLSearchParams(location.search).get('q'); if (q) ui.triggerSearch(q);
     });
   </script>

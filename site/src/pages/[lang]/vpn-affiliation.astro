@@ -1,6 +1,7 @@
 ---
-import Guide from '../../views/Guide.astro';
+import Redirect from '../../views/Redirect.astro';
 import { OTHER_LOCALES } from '../../i18n';
 export function getStaticPaths() { return OTHER_LOCALES.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params;
 ---
-<Guide page="vpn-affiliation" lang={Astro.params.lang as any} nav="vpn" />
+<Redirect to={`/${lang}/tools/vpn`} />

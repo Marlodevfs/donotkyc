@@ -15,7 +15,8 @@
   "skip": "Vai al contenuto",
   "language": "Lingua",
   "home": "Home di DoNotKYC",
-  "search": "Cerca"
+  "search": "Cerca",
+  "tools": "Strumenti"
  },
  "footer": {
   "about": "Un elenco indipendente di piattaforme crypto dove fare trading senza inviare un documento. Solo informazioni, non consulenza finanziaria.",
@@ -583,6 +584,118 @@
    "title": "VPN per comprare cripto su siti bloccati | DoNotKYC",
    "description": "Provider VPN per accedere agli exchange bloccati nel tuo paese, e cosa una VPN nasconde e cosa no.",
    "html": "<h1>VPN per comprare cripto su siti bloccati</h1><section><p>Alcuni paesi bloccano exchange cripto noti. Una VPN (rete privata virtuale) nasconde il tuo indirizzo IP all'exchange e ti permette di accedervi da un altro paese.</p><p>Questi sono i provider VPN che guarderemmo per primi.</p></section><section><h2>Provider VPN consigliati</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - Grande rete di server, piani a pagamento. <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Prendi NordVPN</a></li><li><strong>Proton VPN</strong> - Provider svizzero senza log, con piano gratuito. <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Prendi Proton VPN</a></li><li><strong>Obscura VPN</strong> - Progettata perché il provider non possa collegare il tuo traffico al tuo pagamento, invece di affidarsi a una promessa di non conservare log. <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi Obscura VPN</a></li><li><strong>Mullvad</strong> - Iscrizione senza email, accetta contanti e Monero. <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi Mullvad</a></li><li><strong>Tunnelbear</strong> - App semplici e un piccolo piano gratuito. <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi Tunnelbear</a></li><li><strong>Meile DVPN</strong> - VPN decentralizzata sulla rete Sentinel. <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi Meile DVPN</a></li><li><strong>LNVPN</strong> - Pagamento a ore con Lightning, senza account. <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi LNVPN</a></li><li><strong>Xeovo</strong> - VPN senza log che accetta pagamenti in cripto. <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Prendi Xeovo</a></li></ul></section><section><h2>Come usare una VPN con un exchange cripto</h2><ol><li>Scegli un provider dalla lista. Alcuni link sono di affiliazione.</li><li>Scarica e installa il software VPN sul tuo dispositivo.</li><li>Connettiti a un server in un paese dove l'exchange non è bloccato.</li><li>Apri l'exchange e fai trading. La VPN nasconde il tuo IP; non elimina le regole KYC dell'exchange.</li></ol></section><section><h2>Avvertenza legale</h2><p>L'uso delle VPN e il trading di cripto sono regolati in modo diverso in ogni paese. Verifica la legge locale prima di usare una VPN per accedere a un exchange.</p></section><section class=\"affiliate-disclaimer\"><p><strong>Avvertenza:</strong> I link a NordVPN e Proton VPN sono di affiliazione: DoNotKYC può ricevere una commissione senza costi aggiuntivi per te. Non cambia l'ordine di questa lista.</p></section>"
+  }
+ },
+ "tools": {
+  "name": "Strumenti",
+  "hub_h1": "Strumenti per le crypto private",
+  "hub_intro": [
+   "Wallet, VPN, Tor e gli altri strumenti che si usano accanto a una piattaforma senza KYC.",
+   "Ogni scheda riporta ciò che il produttore scrive sul proprio sito. Uno sponsor non compra mai un posto in queste pagine."
+  ],
+  "sort": "Ordine: ciò che lo strumento ti chiede (niente, un account, un documento), poi codice aperto prima di quello chiuso, poi ordine alfabetico. I link di affiliazione e gli sponsor non lo cambiano.",
+  "english": "Le schede sono in inglese.",
+  "asks": "Chiede",
+  "identity": {
+   "none": "niente",
+   "account": "un account",
+   "id": "un documento",
+   "unstated": "non indicato"
+  },
+  "code": "Codice",
+  "codes": {
+   "open": "open source",
+   "partial": "in parte aperto",
+   "proprietary": "chiuso",
+   "unstated": "non indicato"
+  },
+  "affiliate": "Link di affiliazione",
+  "visit": "Visita {name}",
+  "release": "Ultima versione:",
+  "checked": "Verificato il",
+  "all": "Tutti gli strumenti",
+  "groups": {
+   "network": "Privacy di rete",
+   "crypto": "Crypto privata"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "Fornitori di VPN",
+    "intro": [
+     "Una VPN nasconde il tuo indirizzo IP alla piattaforma e il tuo traffico al tuo provider internet. In cambio ti fidi dell'azienda della VPN.",
+     "Guarda come paghi e cosa dice l'azienda di registrare."
+    ]
+   },
+   "tor": {
+    "name": "Tor e reti",
+    "h1": "Tor e reti anonime",
+    "intro": [
+     "Queste reti fanno passare il tuo traffico da altri computer prima della destinazione. Sono più lente di una VPN."
+    ]
+   },
+   "dns": {
+    "name": "DNS cifrato",
+    "h1": "DNS cifrato",
+    "intro": [
+     "Il DNS trasforma il nome di un sito in un indirizzo. Un DNS cifrato impedisce al tuo provider di leggere queste richieste. Le legge invece il resolver che scegli."
+    ]
+   },
+   "leak-tests": {
+    "name": "Test di perdita",
+    "h1": "Test di perdita per VPN e Tor",
+    "intro": [
+     "Apri una di queste pagine dopo aver collegato una VPN o Tor. Mostra l'indirizzo IP e il server DNS che il web vede.",
+     "Diversi di questi siti appartengono ad aziende di VPN."
+    ]
+   },
+   "routers": {
+    "name": "Router",
+    "h1": "Software per router e firewall",
+    "intro": [
+     "Il software per router permette di impostare regole VPN e DNS per tutta la rete di casa."
+    ]
+   },
+   "wallets": {
+    "name": "Wallet Bitcoin",
+    "h1": "Wallet Bitcoin",
+    "intro": [
+     "In un wallet self-custody le chiavi sono tue, quindi nessuna piattaforma può chiederti un documento per muovere le tue monete.",
+     "Comprare dentro un wallet passa di solito da una terza parte che può chiedere un documento."
+    ]
+   },
+   "hardware-wallets": {
+    "name": "Wallet hardware",
+    "h1": "Wallet hardware",
+    "intro": [
+     "Un wallet hardware tiene le tue chiavi su un dispositivo separato.",
+     "Ogni scheda indica se il produttore dichiara il codice aperto."
+    ]
+   },
+   "monero-wallets": {
+    "name": "Wallet Monero",
+    "h1": "Wallet Monero",
+    "intro": [
+     "Wallet per Monero (XMR) su computer e telefono.",
+     "Ogni scheda mostra l'ultima versione quando il codice è su GitHub."
+    ]
+   },
+   "privacy-coins": {
+    "name": "Monete private",
+    "h1": "Monete private",
+    "intro": [
+     "Monete pensate per nascondere importi, mittenti o destinatari.",
+     "Ogni scheda cita la descrizione del progetto stesso."
+    ]
+   },
+   "private-payments": {
+    "name": "Pagamenti privati",
+    "h1": "Pagamenti privati",
+    "intro": [
+     "Modi di pagare online senza dare al venditore la tua carta o il tuo numero di telefono.",
+     "Alcuni chiedono un documento. La scheda lo dice."
+    ]
+   }
   }
  }
 }

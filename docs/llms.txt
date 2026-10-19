@@ -32,6 +32,19 @@ Identity levels: None = no ID and no account details; Light = no ID under a stat
 - https://www.donotkyc.com/pay/bank-transfer
 - https://www.donotkyc.com/pay/card
 
+## Tool pages
+Each entry quotes the maker's own site and states what the tool asks of you and whether its code is open. Sorted by one rule, never by affiliation or sponsorship.
+- https://www.donotkyc.com/tools/vpn
+- https://www.donotkyc.com/tools/tor
+- https://www.donotkyc.com/tools/dns
+- https://www.donotkyc.com/tools/leak-tests
+- https://www.donotkyc.com/tools/routers
+- https://www.donotkyc.com/tools/wallets
+- https://www.donotkyc.com/tools/hardware-wallets
+- https://www.donotkyc.com/tools/monero-wallets
+- https://www.donotkyc.com/tools/privacy-coins
+- https://www.donotkyc.com/tools/private-payments
+
 ## Platforms
 - [1inch](https://www.donotkyc.com/p/1inch): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Variable (aggregator).
 - [AceChange](https://www.donotkyc.com/p/acechange): Instant swap. Identity: None (no ID, no account details). No ID for crypto swaps. Card or bank accepted. Fees: 0.5%+ for swaps. Not available in: US, for some swaps.

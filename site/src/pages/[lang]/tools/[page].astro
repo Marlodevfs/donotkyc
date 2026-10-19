@@ -1,0 +1,7 @@
+---
+import Tools from '../../../views/Tools.astro';
+import { TOOL_PAGES } from '../../../data/tools';
+import { OTHER_LOCALES } from '../../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.flatMap((lang) => TOOL_PAGES.map((p) => ({ params: { lang, page: p.key } }))); }
+---
+<Tools page={Astro.params.page!} lang={Astro.params.lang as any} />

@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Tools section: VPN, Tor, DNS, wallets and more",
+    "body": "Ten new pages list the tools people use next to a no-KYC platform: VPNs, Tor and other networks, encrypted DNS, leak tests, routers, Bitcoin, hardware and Monero wallets, privacy coins and private payments. Each entry quotes the maker's own site, says what the tool asks of you and whether its code is open, and follows one sort rule. The old VPN guide now lives on the VPN page."
+  },
+  {
+    "date": "2026-10-19",
     "title": "KYC claims corrected for 4 platforms",
     "body": "We compared our listings with the platforms' own policies. Changelly and StealthEX publish identity-check policies, so they no longer read \"email only\" or \"no ID up to $700\". LocalCoinSwap can ask for ID after a dispute or an alert. Bybit lets unverified accounts withdraw up to 20,000 USDT a day but asks for ID to trade. Seven listings now link the policy page they rely on."
   },

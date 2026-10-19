@@ -3,7 +3,7 @@
 import Base from '../layouts/Base.astro';
 import { dict, type Lang } from '../i18n';
 const raw = import.meta.glob('../content/*.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
-interface Props { page: 'privacy' | 'security' | 'vpn-affiliation'; lang: Lang; nav: 'privacy' | 'security' | 'vpn' }
+interface Props { page: 'privacy' | 'security' | 'vpn-affiliation'; lang: Lang; nav: 'privacy' | 'security' }
 const { page, lang, nav } = Astro.props;
 const g = dict(lang).guides[page];
 const html = lang === 'en' || !g.html ? raw[`../content/${page}.html`] : g.html;

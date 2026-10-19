@@ -15,7 +15,8 @@
   "skip": "Aller au contenu",
   "language": "Langue",
   "home": "Accueil DoNotKYC",
-  "search": "Rechercher"
+  "search": "Rechercher",
+  "tools": "Outils"
  },
  "footer": {
   "about": "Un annuaire indépendant des plateformes crypto où l'on peut échanger sans envoyer de pièce d'identité. Information uniquement, pas un conseil financier.",
@@ -583,6 +584,118 @@
    "title": "VPN pour acheter de la crypto sur des sites bloqués | DoNotKYC",
    "description": "Les fournisseurs VPN pour accéder aux exchanges bloqués dans votre pays, et ce qu'un VPN cache ou ne cache pas.",
    "html": "<h1>VPN pour acheter de la crypto sur des sites bloqués</h1><section><p>Certains pays bloquent des exchanges crypto connus. Un VPN (réseau privé virtuel) cache votre adresse IP à l'exchange et vous permet d'y accéder depuis un autre pays.</p><p>Voici les fournisseurs VPN que nous regarderions en premier.</p></section><section><h2>Fournisseurs VPN recommandés</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - Grand réseau de serveurs, offres payantes. <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Obtenir NordVPN</a></li><li><strong>Proton VPN</strong> - Fournisseur suisse sans journaux, avec une offre gratuite. <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Obtenir Proton VPN</a></li><li><strong>Obscura VPN</strong> - Conçu pour que le fournisseur ne puisse pas relier votre trafic à votre paiement, au lieu de reposer sur une promesse sans journaux. <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir Obscura VPN</a></li><li><strong>Mullvad</strong> - Inscription sans e-mail, accepte les espèces et le Monero. <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir Mullvad</a></li><li><strong>Tunnelbear</strong> - Applis simples et petite offre gratuite. <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir Tunnelbear</a></li><li><strong>Meile DVPN</strong> - VPN décentralisé sur le réseau Sentinel. <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir Meile DVPN</a></li><li><strong>LNVPN</strong> - Paiement à l'heure en Lightning, sans compte. <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir LNVPN</a></li><li><strong>Xeovo</strong> - VPN sans journaux qui accepte les paiements en crypto. <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Obtenir Xeovo</a></li></ul></section><section><h2>Utiliser un VPN avec un exchange crypto</h2><ol><li>Choisissez un fournisseur dans la liste. Certains liens sont des liens d'affiliation.</li><li>Téléchargez et installez le logiciel VPN sur votre appareil.</li><li>Connectez-vous à un serveur dans un pays où l'exchange n'est pas bloqué.</li><li>Ouvrez l'exchange et échangez. Un VPN cache votre adresse IP ; il ne supprime pas les règles KYC propres à l'exchange.</li></ol></section><section><h2>Avertissement juridique</h2><p>L'usage des VPN et le trading crypto sont encadrés différemment selon les pays. Vérifiez votre loi locale avant d'utiliser un VPN pour accéder à un exchange.</p></section><section class=\"affiliate-disclaimer\"><p><strong>Avertissement :</strong> Les liens NordVPN et Proton VPN sont des liens d'affiliation : DoNotKYC peut toucher une commission sans surcoût pour vous. Cela ne change pas l'ordre de cette liste.</p></section>"
+  }
+ },
+ "tools": {
+  "name": "Outils",
+  "hub_h1": "Outils pour la crypto privée",
+  "hub_intro": [
+   "Wallets, VPN, Tor et les autres outils qu'on utilise à côté d'une plateforme sans KYC.",
+   "Chaque fiche reprend ce que le fabricant écrit sur son propre site. Un sponsor n'achète jamais une place sur ces pages."
+  ],
+  "sort": "Ordre : ce que l'outil vous demande (rien, un compte, une pièce d'identité), puis code ouvert avant code fermé, puis ordre alphabétique. Les liens d'affiliation et les sponsors ne le changent pas.",
+  "english": "Les fiches sont en anglais.",
+  "asks": "Demande",
+  "identity": {
+   "none": "rien",
+   "account": "un compte",
+   "id": "une pièce d'identité",
+   "unstated": "non indiqué"
+  },
+  "code": "Code",
+  "codes": {
+   "open": "open source",
+   "partial": "partiellement ouvert",
+   "proprietary": "fermé",
+   "unstated": "non indiqué"
+  },
+  "affiliate": "Lien d'affiliation",
+  "visit": "Visiter {name}",
+  "release": "Dernière version :",
+  "checked": "Vérifié le",
+  "all": "Tous les outils",
+  "groups": {
+   "network": "Confidentialité réseau",
+   "crypto": "Crypto privée"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "Fournisseurs de VPN",
+    "intro": [
+     "Un VPN cache votre adresse IP à la plateforme et votre trafic à votre fournisseur d'accès. Vous faites alors confiance à l'entreprise du VPN.",
+     "Regardez comment vous payez et ce que l'entreprise dit conserver comme journaux."
+    ]
+   },
+   "tor": {
+    "name": "Tor et réseaux",
+    "h1": "Tor et réseaux anonymes",
+    "intro": [
+     "Ces réseaux font passer votre trafic par d'autres ordinateurs avant sa destination. Ils sont plus lents qu'un VPN."
+    ]
+   },
+   "dns": {
+    "name": "DNS chiffré",
+    "h1": "DNS chiffré",
+    "intro": [
+     "Le DNS transforme un nom de site en adresse. Un DNS chiffré empêche votre fournisseur d'accès de lire ces requêtes. C'est le résolveur que vous choisissez qui les lit."
+    ]
+   },
+   "leak-tests": {
+    "name": "Tests de fuite",
+    "h1": "Tests de fuite pour VPN et Tor",
+    "intro": [
+     "Ouvrez l'une de ces pages après avoir connecté un VPN ou Tor. Elle montre l'adresse IP et le serveur DNS que voit le web.",
+     "Plusieurs de ces sites appartiennent à des entreprises de VPN."
+    ]
+   },
+   "routers": {
+    "name": "Routeurs",
+    "h1": "Logiciels de routeur et de pare-feu",
+    "intro": [
+     "Un logiciel de routeur permet de fixer des règles VPN et DNS pour tout le réseau de la maison."
+    ]
+   },
+   "wallets": {
+    "name": "Wallets Bitcoin",
+    "h1": "Wallets Bitcoin",
+    "intro": [
+     "Dans un wallet en auto-garde, vous détenez les clés : aucune plateforme ne peut vous demander une pièce d'identité pour déplacer vos coins.",
+     "Acheter dans un wallet passe en général par un tiers qui peut demander une pièce d'identité."
+    ]
+   },
+   "hardware-wallets": {
+    "name": "Wallets matériels",
+    "h1": "Wallets matériels",
+    "intro": [
+     "Un wallet matériel garde vos clés sur un appareil séparé.",
+     "Chaque fiche indique si le fabricant dit que son code est ouvert."
+    ]
+   },
+   "monero-wallets": {
+    "name": "Wallets Monero",
+    "h1": "Wallets Monero",
+    "intro": [
+     "Wallets pour Monero (XMR) sur ordinateur et téléphone.",
+     "Chaque fiche montre sa dernière version quand le code est sur GitHub."
+    ]
+   },
+   "privacy-coins": {
+    "name": "Monnaies privées",
+    "h1": "Monnaies privées",
+    "intro": [
+     "Des monnaies conçues pour cacher les montants, les expéditeurs ou les destinataires.",
+     "Chaque fiche cite la description du projet lui-même."
+    ]
+   },
+   "private-payments": {
+    "name": "Paiements privés",
+    "h1": "Paiements privés",
+    "intro": [
+     "Des moyens de payer en ligne sans donner à un marchand votre carte ou votre numéro de téléphone.",
+     "Certains demandent une pièce d'identité. La fiche le dit."
+    ]
+   }
   }
  }
 }

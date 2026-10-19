@@ -1,0 +1,6 @@
+---
+import ToolsHub from '../../../views/ToolsHub.astro';
+import { OTHER_LOCALES } from '../../../i18n';
+export function getStaticPaths() { return OTHER_LOCALES.map((lang) => ({ params: { lang } })); }
+---
+<ToolsHub lang={Astro.params.lang as any} />

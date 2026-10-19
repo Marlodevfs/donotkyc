@@ -15,7 +15,8 @@
   "skip": "跳到正文",
   "language": "语言",
   "home": "DoNotKYC 首页",
-  "search": "搜索"
+  "search": "搜索",
+  "tools": "工具"
  },
  "footer": {
   "about": "一个独立的加密平台目录，收录无需提交身份证件即可交易的平台。仅供参考，不构成投资建议。",
@@ -583,6 +584,118 @@
    "title": "在被封锁网站购买加密货币的 VPN | DoNotKYC",
    "description": "用于访问你所在国家被封锁的交易所的 VPN 服务商，以及 VPN 能隐藏和不能隐藏的内容。",
    "html": "<h1>在被封锁网站购买加密货币的 VPN</h1><section><p>一些国家封锁了知名加密交易所。VPN（虚拟专用网络）会向交易所隐藏你的 IP 地址，让你从另一个国家访问它。</p><p>以下是我们会优先考虑的 VPN 服务商。</p></section><section><h2>推荐的 VPN 服务商</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - 服务器网络庞大，付费套餐。 <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">获取 NordVPN</a></li><li><strong>Proton VPN</strong> - 瑞士服务商，无日志，有免费套餐。 <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">获取 Proton VPN</a></li><li><strong>Obscura VPN</strong> - 其设计让服务商无法把你的流量和付款关联起来，而不是只靠无日志承诺。 <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Obscura VPN</a></li><li><strong>Mullvad</strong> - 注册无需邮箱，接受现金和门罗币。 <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Mullvad</a></li><li><strong>Tunnelbear</strong> - 应用简单，有少量免费额度。 <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Tunnelbear</a></li><li><strong>Meile DVPN</strong> - 运行在 Sentinel 网络上的去中心化 VPN。 <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Meile DVPN</a></li><li><strong>LNVPN</strong> - 用闪电网络按小时付费，无需账户。 <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">获取 LNVPN</a></li><li><strong>Xeovo</strong> - 接受加密货币付款的无日志 VPN。 <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">获取 Xeovo</a></li></ul></section><section><h2>如何在加密交易所使用 VPN</h2><ol><li>从列表中选择一家服务商。部分链接是推广链接。</li><li>在设备上下载并安装 VPN 软件。</li><li>连接到交易所未被封锁的国家的服务器。</li><li>打开交易所进行交易。VPN 隐藏你的 IP，但不会取消交易所自身的 KYC 规则。</li></ol></section><section><h2>法律提示</h2><p>各国对 VPN 使用和加密交易的监管不同。通过 VPN 访问交易所前，请先确认当地法律。</p></section><section class=\"affiliate-disclaimer\"><p><strong>提示：</strong> NordVPN 和 Proton VPN 的链接是推广链接：DoNotKYC 可能获得佣金，你无需额外付费。这不会改变列表顺序。</p></section>"
+  }
+ },
+ "tools": {
+  "name": "工具",
+  "hub_h1": "隐私加密货币工具",
+  "hub_intro": [
+   "钱包、VPN、Tor，以及在无 KYC 平台旁常用的其他工具。",
+   "每个条目转述厂商在自己网站上写的内容。赞助商从不在这些页面上买位置。"
+  ],
+  "sort": "排序：工具向你要什么（什么都不要、账户、证件），然后开源在闭源之前，最后按字母顺序。推广链接和赞助商不会改变排序。",
+  "english": "条目为英文。",
+  "asks": "要求",
+  "identity": {
+   "none": "无",
+   "account": "账户",
+   "id": "证件",
+   "unstated": "未说明"
+  },
+  "code": "代码",
+  "codes": {
+   "open": "开源",
+   "partial": "部分开源",
+   "proprietary": "闭源",
+   "unstated": "未说明"
+  },
+  "affiliate": "推广链接",
+  "visit": "访问 {name}",
+  "release": "最新版本：",
+  "checked": "检查日期",
+  "all": "全部工具",
+  "groups": {
+   "network": "网络隐私",
+   "crypto": "隐私加密货币"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "VPN 服务商",
+    "intro": [
+     "VPN 向平台隐藏你的 IP 地址，向网络服务商隐藏你的流量。代价是你要信任 VPN 公司。",
+     "看看你如何付款，以及公司自称记录什么。"
+    ]
+   },
+   "tor": {
+    "name": "Tor 与网络",
+    "h1": "Tor 与匿名网络",
+    "intro": [
+     "这些网络让你的流量先经过其他计算机再到达目的地。速度比 VPN 慢。"
+    ]
+   },
+   "dns": {
+    "name": "加密 DNS",
+    "h1": "加密 DNS",
+    "intro": [
+     "DNS 把网站名称转换成地址。加密 DNS 让你的网络服务商读不到这些请求，读到它们的是你选的解析器。"
+    ]
+   },
+   "leak-tests": {
+    "name": "泄漏测试",
+    "h1": "VPN 与 Tor 泄漏测试",
+    "intro": [
+     "连接 VPN 或 Tor 后，打开其中一个页面。它会显示网络看到的 IP 地址和 DNS 服务器。",
+     "其中几个网站属于 VPN 公司。"
+    ]
+   },
+   "routers": {
+    "name": "路由器",
+    "h1": "路由器与防火墙软件",
+    "intro": [
+     "路由器软件可以为整个家庭网络设置 VPN 和 DNS 规则。"
+    ]
+   },
+   "wallets": {
+    "name": "比特币钱包",
+    "h1": "比特币钱包",
+    "intro": [
+     "在自托管钱包里，密钥由你掌握，所以没有平台能要求你出示证件才能转移你的币。",
+     "在钱包内购买通常经过可能要求证件的第三方。"
+    ]
+   },
+   "hardware-wallets": {
+    "name": "硬件钱包",
+    "h1": "硬件钱包",
+    "intro": [
+     "硬件钱包把你的密钥保存在独立设备上。",
+     "每个条目显示厂商是否称其代码开源。"
+    ]
+   },
+   "monero-wallets": {
+    "name": "门罗币钱包",
+    "h1": "门罗币钱包",
+    "intro": [
+     "电脑和手机上的门罗币（XMR）钱包。",
+     "代码在 GitHub 上时，条目会显示最新版本。"
+    ]
+   },
+   "privacy-coins": {
+    "name": "隐私币",
+    "h1": "隐私币",
+    "intro": [
+     "旨在隐藏金额、发送方或接收方的币。",
+     "每个条目引用项目自己的描述。"
+    ]
+   },
+   "private-payments": {
+    "name": "隐私支付",
+    "h1": "隐私支付",
+    "intro": [
+     "在线付款时不向商家提供银行卡或手机号的方法。",
+     "有些需要证件。条目会注明。"
+    ]
+   }
   }
  }
 }

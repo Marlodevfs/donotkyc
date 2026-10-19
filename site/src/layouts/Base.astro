@@ -13,7 +13,7 @@ interface Props {
   localized?: boolean;     // la page existe dans toutes les langues (hreflang + sélecteur)
   type?: 'website' | 'article';
   jsonld?: object | object[];
-  nav?: 'directory' | 'blog' | 'vpn' | 'privacy' | 'security' | null;
+  nav?: 'directory' | 'blog' | 'tools' | 'privacy' | 'security' | null;
 }
 const { title, description, path, lang = 'en', localized = false, type = 'website', jsonld, nav = null } = Astro.props;
 const t = useT(lang);
@@ -24,7 +24,7 @@ const L = (p: string) => lp(lang, p);
 const links = [
   { key: 'directory', href: L('/'), label: t('nav.directory') },
   { key: 'blog', href: '/blog', label: t('nav.blog') },
-  { key: 'vpn', href: L('/vpn-affiliation'), label: t('nav.vpn') },
+  { key: 'tools', href: L('/tools'), label: t('nav.tools') },
   { key: 'privacy', href: L('/privacy'), label: t('nav.privacy') },
   { key: 'security', href: L('/security'), label: t('nav.security') },
 ];
@@ -116,7 +116,8 @@ const links = [
           <div><h2>{t('footer.guides')}</h2><ul>
             <li><a href={L('/privacy')}>{t('footer.privacy')}</a></li>
             <li><a href={L('/security')}>{t('footer.security')}</a></li>
-            <li><a href={L('/vpn-affiliation')}>{t('footer.vpn')}</a></li>
+            <li><a href={L('/tools')}>{t('nav.tools')}</a></li>
+            <li><a href={L('/tools/vpn')}>{t('footer.vpn')}</a></li>
             <li><a href="/blog">{t('footer.blog')}</a></li>
           </ul>{lang !== 'en' && <p class="small">{t('footer.english_only')}</p>}</div>
           <div><h2>{t('footer.community')}</h2><ul>

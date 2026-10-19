@@ -15,7 +15,8 @@
   "skip": "Skip to content",
   "language": "Language",
   "home": "DoNotKYC home",
-  "search": "Search"
+  "search": "Search",
+  "tools": "Tools"
  },
  "footer": {
   "about": "An independent directory of crypto platforms that let you trade without sending ID. Information only, not financial advice.",
@@ -338,5 +339,117 @@
   "description": "Search every page of the directory: platforms, comparisons, guides and articles.",
   "h1": "Search the whole site",
   "lead": "Platforms, guides and comparisons in this language."
+ },
+ "tools": {
+  "name": "Tools",
+  "hub_h1": "Tools for private crypto",
+  "hub_intro": [
+   "Wallets, VPNs, Tor and the other tools people use next to a no-KYC platform.",
+   "Each entry quotes what the maker says on its own site. A sponsor never buys a place on these pages."
+  ],
+  "sort": "Order: what the tool asks of you (nothing, an account, ID), then open code before closed code, then A to Z. Affiliate links and sponsors never change it.",
+  "english": "Entries are in English.",
+  "asks": "Asks of you",
+  "identity": {
+   "none": "nothing",
+   "account": "an account",
+   "id": "ID",
+   "unstated": "not stated"
+  },
+  "code": "Code",
+  "codes": {
+   "open": "open source",
+   "partial": "partly open",
+   "proprietary": "closed",
+   "unstated": "not stated"
+  },
+  "affiliate": "Affiliate link",
+  "visit": "Visit {name}",
+  "release": "Latest release:",
+  "checked": "Checked",
+  "all": "All tools",
+  "groups": {
+   "network": "Network privacy",
+   "crypto": "Private crypto"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "VPN providers",
+    "intro": [
+     "A VPN hides your IP address from the platform you use and your traffic from your internet provider. You now trust the VPN company instead.",
+     "Check how you pay and what the company says it logs."
+    ]
+   },
+   "tor": {
+    "name": "Tor and networks",
+    "h1": "Tor and anonymous networks",
+    "intro": [
+     "These networks pass your traffic through other computers before it reaches its destination. They run slower than a VPN."
+    ]
+   },
+   "dns": {
+    "name": "Encrypted DNS",
+    "h1": "Encrypted DNS",
+    "intro": [
+     "DNS turns a site name into an address. Encrypted DNS stops your internet provider from reading those requests. The resolver you pick reads them instead."
+    ]
+   },
+   "leak-tests": {
+    "name": "Leak tests",
+    "h1": "VPN and Tor leak tests",
+    "intro": [
+     "Open one of these pages after you connect a VPN or Tor. It shows the IP address and DNS server the web sees.",
+     "Several of these sites belong to VPN companies."
+    ]
+   },
+   "routers": {
+    "name": "Routers",
+    "h1": "Router and firewall software",
+    "intro": [
+     "Router software lets you set VPN and DNS rules for your whole home network."
+    ]
+   },
+   "wallets": {
+    "name": "Bitcoin wallets",
+    "h1": "Bitcoin wallets",
+    "intro": [
+     "In a self-custody wallet you hold the keys, so no platform can ask you for ID to move your coins.",
+     "Buying inside a wallet usually goes through a third party that may ask for ID."
+    ]
+   },
+   "hardware-wallets": {
+    "name": "Hardware wallets",
+    "h1": "Hardware wallets",
+    "intro": [
+     "A hardware wallet keeps your keys on a separate device.",
+     "Each entry shows whether the maker says its code is open."
+    ]
+   },
+   "monero-wallets": {
+    "name": "Monero wallets",
+    "h1": "Monero wallets",
+    "intro": [
+     "Wallets for Monero (XMR) on desktop and phone.",
+     "Each entry shows its latest release when the code is on GitHub."
+    ]
+   },
+   "privacy-coins": {
+    "name": "Privacy coins",
+    "h1": "Privacy coins",
+    "intro": [
+     "Coins built to hide amounts, senders or recipients.",
+     "Each entry quotes the project's own description."
+    ]
+   },
+   "private-payments": {
+    "name": "Private payments",
+    "h1": "Private payments",
+    "intro": [
+     "Ways to pay online without giving a merchant your card or phone number.",
+     "Some of them ask for ID. The entry says so."
+    ]
+   }
+  }
  }
 }

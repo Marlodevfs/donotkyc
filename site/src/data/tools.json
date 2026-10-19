@@ -1,0 +1,714 @@
+[
+ {
+  "page": "vpn",
+  "slug": "mullvad",
+  "name": "Mullvad",
+  "url": "https://mullvad.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "5 euros a month, VAT included.",
+   "Pay with cash, Bitcoin, Bitcoin Cash, Monero, bank wire, card, PayPal and more.",
+   "No email: your account is a random number.",
+   "Says it has had external audits since 2018, the latest in 2024."
+  ],
+  "release": "2026-09-30",
+  "repo": "https://github.com/mullvad/mullvadvpn-app"
+ },
+ {
+  "page": "vpn",
+  "slug": "ivpn",
+  "name": "IVPN",
+  "url": "https://www.ivpn.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Sign-up needs no email.",
+   "Pay with cash, Monero or Bitcoin.",
+   "Says it has had eight audits since 2019.",
+   "Says of itself: \"We don't promise anonymity.\"",
+   "IVPN Limited is registered in Gibraltar."
+  ],
+  "release": "2026-10-08",
+  "repo": "https://github.com/ivpn/desktop-app"
+ },
+ {
+  "page": "vpn",
+  "slug": "obscura",
+  "name": "Obscura VPN",
+  "url": "https://obscura.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "8 dollars a month.",
+   "Pay with card, Bitcoin over Lightning or Monero.",
+   "Two-party relay: Obscura passes your connection to a Mullvad exit server and cannot read it.",
+   "App code is public. Its site mentions no audit."
+  ]
+ },
+ {
+  "page": "vpn",
+  "slug": "proton-vpn",
+  "name": "Proton VPN",
+  "url": "https://protonvpn.com",
+  "identity": "account",
+  "code": "open",
+  "facts": [
+   "Pay with card, PayPal, Bitcoin, cash or bank transfer. Bitcoin needs a free account first.",
+   "Says its apps are open source and independently audited.",
+   "Says Swiss law lets it keep no connection logs."
+  ],
+  "affiliate": "https://go.getproton.me/SH24f",
+  "release": "2026-10-14",
+  "repo": "https://github.com/ProtonVPN/android-app"
+ },
+ {
+  "page": "vpn",
+  "slug": "nordvpn",
+  "name": "NordVPN",
+  "url": "https://nordvpn.com",
+  "identity": "account",
+  "code": "partial",
+  "facts": [
+   "Pay with cryptocurrency (Bitcoin, Ethereum, Litecoin and a stablecoin), card or PayPal.",
+   "Says independent firms audited its no-logs claim five times, the latest in 2024.",
+   "Its Linux apps are open source. Its Trust Center does not say the same for other platforms.",
+   "Company based in Panama."
+  ],
+  "affiliate": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902",
+  "release": "2026-10-13",
+  "repo": "https://github.com/NordSecurity/nordvpn-linux"
+ },
+ {
+  "page": "vpn",
+  "slug": "xeovo",
+  "name": "Xeovo",
+  "url": "https://xeovo.com/products/vpn",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "No email needed.",
+   "Pay with cash, Monero, Bitcoin, Litecoin, card or PayPal.",
+   "4.99 euros a month, less on longer plans.",
+   "Says it has a strict no-log policy.",
+   "Company based in Finland."
+  ]
+ },
+ {
+  "page": "vpn",
+  "slug": "lnvpn",
+  "name": "LNVPN",
+  "url": "https://nadanada.me/",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "lnvpn.net now redirects to nadanada.me.",
+   "\"No account, no email, no ID checks, no KYC.\"",
+   "Pay with Bitcoin, Lightning, Monero or Zcash, from one day to one year. About 3 dollars a month.",
+   "Says it never logs activity or connection data on its infrastructure."
+  ]
+ },
+ {
+  "page": "vpn",
+  "slug": "tunnelbear",
+  "name": "TunnelBear",
+  "url": "https://www.tunnelbear.com/",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "Free plan with 2 GB of data. Unlimited plan from 3.33 dollars a month.",
+   "Its payment page shows Visa, Mastercard and American Express.",
+   "Its site does not say whether an email or an account is needed."
+  ]
+ },
+ {
+  "page": "vpn",
+  "slug": "meile",
+  "name": "Meile dVPN",
+  "url": "https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "Decentralised VPN on the Sentinel blockchain.",
+   "Pay in cryptocurrency only. Fiat money is not accepted.",
+   "Desktop apps for Windows, macOS, Ubuntu, Debian, Fedora and Arch.",
+   "Its page links to GitHub but states no license."
+  ]
+ },
+ {
+  "page": "tor",
+  "slug": "tor-browser",
+  "name": "Tor Browser",
+  "url": "https://www.torproject.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free browser for desktop and Android.",
+   "The Tor Project also offers Tor VPN, in beta on Android."
+  ]
+ },
+ {
+  "page": "tor",
+  "slug": "orbot",
+  "name": "Orbot",
+  "url": "https://orbot.app",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Sends traffic from any app on Android and iOS through Tor.",
+   "Android lets you pick which apps use Tor.",
+   "Supports bridges and onion services."
+  ],
+  "release": "2026-10-09",
+  "repo": "https://github.com/guardianproject/orbot"
+ },
+ {
+  "page": "tor",
+  "slug": "onion-browser",
+  "name": "Onion Browser",
+  "url": "https://onionbrowser.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Browser for iOS that connects through Tor. Free.",
+   "Made by Mike Tigas, Benjamin Erhart and the Guardian Project."
+  ],
+  "release": "2026-10-19",
+  "repo": "https://github.com/OnionBrowser/OnionBrowser"
+ },
+ {
+  "page": "tor",
+  "slug": "snowflake",
+  "name": "Snowflake",
+  "url": "https://snowflake.torproject.org",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Connects you to Tor where Tor is blocked.",
+   "Routes through volunteer proxies in uncensored countries and looks like a video or voice call."
+  ]
+ },
+ {
+  "page": "tor",
+  "slug": "i2p",
+  "name": "I2P",
+  "url": "https://i2p.net/en/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Decentralised network for private websites, messaging and file sharing.",
+   "Software is open source."
+  ],
+  "release": "2026-07-24",
+  "repo": "https://github.com/i2p/i2p.i2p"
+ },
+ {
+  "page": "tor",
+  "slug": "freenet",
+  "name": "Freenet",
+  "url": "https://www.hyphanet.org/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Peer-to-peer network for censorship-resistant publishing and communication, running since 1999.",
+   "The project calls itself Hyphanet, formerly Freenet.",
+   "Windows, Linux, macOS and other Unix systems."
+  ],
+  "release": "2026-09-04",
+  "repo": "https://github.com/hyphanet/fred"
+ },
+ {
+  "page": "dns",
+  "slug": "quad9",
+  "name": "Quad9",
+  "url": "https://quad9.net",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Free. No sign-up, no account.",
+   "Says no data containing your IP address is ever logged in any Quad9 system.",
+   "Run by a not-for-profit foundation based in Zurich.",
+   "Blocks known malicious domains."
+  ]
+ },
+ {
+  "page": "dns",
+  "slug": "control-d",
+  "name": "Control D",
+  "url": "https://controld.com",
+  "identity": "account",
+  "code": "unstated",
+  "facts": [
+   "Supports DNS over HTTPS/3, TLS and QUIC.",
+   "Keeps query logs for 30 days on every plan.",
+   "Free trial without a card, then priced per device.",
+   "Its site does not state the company's jurisdiction."
+  ]
+ },
+ {
+  "page": "dns",
+  "slug": "nextdns",
+  "name": "NextDNS",
+  "url": "https://nextdns.io",
+  "identity": "account",
+  "code": "unstated",
+  "facts": [
+   "Blocks threats, ads and trackers. Supports DNS over HTTPS and TLS.",
+   "You set log retention from one hour to two years, or turn logs off.",
+   "You pick where logs are stored: United States, European Union, United Kingdom or Switzerland.",
+   "You can start without signing up, but need an account to save settings."
+  ]
+ },
+ {
+  "page": "dns",
+  "slug": "rethinkdns",
+  "name": "RethinkDNS",
+  "url": "https://rethinkdns.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "DNS resolver and firewall app for Android.",
+   "The app is free. The cloud DNS has a free and a paid tier.",
+   "Supports DNS over HTTPS and TLS and more than 190 blocklists."
+  ]
+ },
+ {
+  "page": "dns",
+  "slug": "dnscrypt-proxy",
+  "name": "DNSCrypt-Proxy",
+  "url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Flexible DNS proxy for DNSCrypt v2, DNS over HTTPS, Anonymized DNSCrypt and Oblivious DoH.",
+   "Pre-built binaries for Android, BSD, Linux, macOS and Windows.",
+   "ISC license."
+  ],
+  "repo": "https://github.com/DNSCrypt/dnscrypt-proxy"
+ },
+ {
+  "page": "dns",
+  "slug": "unbound",
+  "name": "Unbound",
+  "url": "https://nlnetlabs.nl/projects/unbound/about/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Validating, recursive, caching DNS resolver."
+  ],
+  "release": "2026-09-16",
+  "repo": "https://github.com/NLnetLabs/unbound"
+ },
+ {
+  "page": "dns",
+  "slug": "pi-hole",
+  "name": "Pi-hole",
+  "url": "https://pi-hole.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Network-wide ad blocking."
+  ],
+  "release": "2026-10-17",
+  "repo": "https://github.com/pi-hole/pi-hole"
+ },
+ {
+  "page": "leak-tests",
+  "slug": "ipleak",
+  "name": "ipleak.net",
+  "url": "https://ipleak.net",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Tests your IP addresses, DNS resolvers, WebRTC and torrent exposure.",
+   "Runs on AirVPN, a VPN company."
+  ]
+ },
+ {
+  "page": "leak-tests",
+  "slug": "dnsleaktest",
+  "name": "dnsleaktest.com",
+  "url": "https://www.dnsleaktest.com/",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "DNS leak test that also shows your IP address and approximate location.",
+   "Its footer names IVPN Limited."
+  ]
+ },
+ {
+  "page": "leak-tests",
+  "slug": "cover-your-tracks",
+  "name": "Cover Your Tracks",
+  "url": "https://coveryourtracks.eff.org/",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Shows how trackers see your browser and which of its traits identify you.",
+   "Run by the Electronic Frontier Foundation."
+  ]
+ },
+ {
+  "page": "leak-tests",
+  "slug": "amiunique",
+  "name": "AmIUnique",
+  "url": "https://amiunique.org/",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Checks your browser fingerprint.",
+   "Research project listing a French university contact (Lille)."
+  ]
+ },
+ {
+  "page": "leak-tests",
+  "slug": "mullvad-check",
+  "name": "Mullvad Check",
+  "url": "https://mullvad.net/en/check",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Tests for DNS and WebRTC leaks. Needs JavaScript.",
+   "Run by Mullvad, a VPN company."
+  ]
+ },
+ {
+  "page": "routers",
+  "slug": "openwrt",
+  "name": "OpenWrt",
+  "url": "https://openwrt.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Linux operating system for routers and other embedded devices, extended with packages.",
+   "GPL-2.0 license."
+  ],
+  "release": "2026-10-18",
+  "repo": "https://github.com/openwrt/openwrt"
+ },
+ {
+  "page": "routers",
+  "slug": "opnsense",
+  "name": "OPNsense",
+  "url": "https://opnsense.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Open source firewall and routing platform.",
+   "BSD 2-clause license."
+  ],
+  "repo": "https://github.com/opnsense/core"
+ },
+ {
+  "page": "wallets",
+  "slug": "sparrow",
+  "name": "Sparrow",
+  "url": "https://sparrowwallet.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Bitcoin wallet for desktop with Tor built in.",
+   "Works with the common hardware wallets, over USB or air-gapped.",
+   "Full control of coins and fees. Connects to Bitcoin Core or private Electrum servers.",
+   "Apache 2 license."
+  ],
+  "release": "2026-09-17",
+  "repo": "https://github.com/sparrowwallet/sparrow"
+ },
+ {
+  "page": "wallets",
+  "slug": "electrum",
+  "name": "Electrum",
+  "url": "https://electrum.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Bitcoin wallet for Linux, Windows, macOS and Android.",
+   "Says your private keys are encrypted and never leave your computer.",
+   "Supports cold storage, multisig and recovery from a seed phrase.",
+   "MIT license."
+  ],
+  "repo": "https://github.com/spesmilo/electrum"
+ },
+ {
+  "page": "wallets",
+  "slug": "wasabi",
+  "name": "Wasabi",
+  "url": "https://wasabiwallet.io",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Bitcoin wallet for desktop with Tor and CoinJoin.",
+   "Coinjoin coordinators are third parties that you must find yourself.",
+   "Desktop only: Windows, macOS and Linux. No mobile app.",
+   "MIT license."
+  ],
+  "release": "2026-10-13",
+  "repo": "https://github.com/WalletWasabi/WalletWasabi"
+ },
+ {
+  "page": "wallets",
+  "slug": "edge",
+  "name": "Edge",
+  "url": "https://edge.app",
+  "identity": "account",
+  "code": "open",
+  "facts": [
+   "Self-custody wallet for iOS, Android and the web.",
+   "Sign up with a username and password. Its page does not mention email.",
+   "Buying inside the app goes through partners (Banxa, MoonPay, Paybis). Its page does not mention KYC."
+  ],
+  "release": "2026-10-01",
+  "repo": "https://github.com/EdgeApp/edge-react-gui"
+ },
+ {
+  "page": "wallets",
+  "slug": "cake-wallet",
+  "name": "Cake Wallet",
+  "url": "https://cakewallet.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Non-custodial wallet for Bitcoin, Monero, Litecoin, Ethereum, Zcash and more.",
+   "iOS, Android and Linux.",
+   "Buying and swapping happen through third parties at their rates and terms.",
+   "MIT license."
+  ],
+  "release": "2026-10-12",
+  "repo": "https://github.com/cake-tech/cake_wallet"
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "trezor",
+  "name": "Trezor",
+  "url": "https://trezor.io",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Says its code and design are 100% open source. Sold since 2013.",
+   "Says private keys are generated in the device and held only by you.",
+   "Its page cites no independent audit."
+  ],
+  "repo": "https://github.com/trezor/trezor-firmware"
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "bitbox",
+  "name": "BitBox",
+  "url": "https://bitbox.swiss",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Swiss hardware wallet. The Bitcoin-only edition runs firmware that supports only Bitcoin.",
+   "Says the firmware is open source with reproducible builds and a bug bounty.",
+   "Our checker could not open this site, so these points come from the page as indexed by a search engine."
+  ],
+  "release": "2026-08-31",
+  "repo": "https://github.com/BitBoxSwiss/bitbox02-firmware"
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "satochip",
+  "name": "Satochip",
+  "url": "https://satochip.io",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Hardware wallet in the form of an NFC smartcard with an EAL6+ certified secure element.",
+   "Says its software is open source.",
+   "Its page lists no price."
+  ],
+  "repo": "https://github.com/Toporin/SatochipApplet"
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "keepkey",
+  "name": "KeepKey",
+  "url": "https://keepkey.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Hardware wallet sold by KEEPKEY LLC, founded in 2014.",
+   "Says its firmware is open source and the hardware fully auditable."
+  ],
+  "release": "2026-10-16",
+  "repo": "https://github.com/keepkey/keepkey-firmware"
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "ledger",
+  "name": "Ledger",
+  "url": "https://www.ledger.com",
+  "identity": "none",
+  "code": "proprietary",
+  "facts": [
+   "Non-custodial hardware wallets with a secure element chip.",
+   "Its site calls the Ledger operating system proprietary and makes no open source claim."
+  ]
+ },
+ {
+  "page": "hardware-wallets",
+  "slug": "imkey",
+  "name": "imKey",
+  "url": "https://imkey.im",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Hardware wallet with an Infineon secure element certified CC EAL6+.",
+   "Its site does not name a manufacturer and does not mention open source."
+  ]
+ },
+ {
+  "page": "monero-wallets",
+  "slug": "monero-gui",
+  "name": "Monero (official wallet)",
+  "url": "https://www.getmonero.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "The official Monero client, downloaded from getmonero.org.",
+   "The site links to the project's source code on GitHub."
+  ],
+  "release": "2026-10-17",
+  "repo": "https://github.com/monero-project/monero"
+ },
+ {
+  "page": "monero-wallets",
+  "slug": "feather",
+  "name": "Feather Wallet",
+  "url": "https://featherwallet.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free, open source Monero wallet for Linux, Tails, Windows and macOS.",
+   "Built to be easy for beginners, configurable for stricter threat models.",
+   "BSD-3 license."
+  ],
+  "release": "2025-04-14",
+  "repo": "https://github.com/feather-wallet/feather"
+ },
+ {
+  "page": "monero-wallets",
+  "slug": "cake-wallet-xmr",
+  "name": "Cake Wallet",
+  "url": "https://cakewallet.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Non-custodial wallet that also holds Monero. iOS, Android and Linux.",
+   "MIT license."
+  ],
+  "release": "2026-10-12",
+  "repo": "https://github.com/cake-tech/cake_wallet"
+ },
+ {
+  "page": "monero-wallets",
+  "slug": "monerujo",
+  "name": "Monerujo",
+  "url": "https://www.monerujo.app/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free, open source Monero wallet for Android.",
+   "Offers KYC-free swaps through Exolix.",
+   "Its footer reads \"© 2024\"."
+  ],
+  "release": "2025-06-17",
+  "repo": "https://github.com/m2049r/xmrwallet"
+ },
+ {
+  "page": "monero-wallets",
+  "slug": "aeonujo",
+  "name": "Aeonujo",
+  "url": "https://github.com/monerujo-io/aeonwallet",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Android wallet for Aeon, published by the Monerujo organisation on GitHub.",
+   "Described as \"monerujoAE: An Android AEON Wallet\". Apache 2 license.",
+   "No dedicated website. Last code change: May 2021."
+  ],
+  "repo": "https://github.com/monerujo-io/aeonwallet"
+ },
+ {
+  "page": "privacy-coins",
+  "slug": "monero",
+  "name": "Monero",
+  "url": "https://www.getmonero.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Describes itself as a private, decentralised cryptocurrency that keeps finances confidential.",
+   "Source code on GitHub."
+  ],
+  "release": "2026-10-17",
+  "repo": "https://github.com/monero-project/monero"
+ },
+ {
+  "page": "privacy-coins",
+  "slug": "zcash",
+  "name": "Zcash",
+  "url": "https://z.cash",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Describes itself as encrypted electronic cash and the first cryptocurrency with zero-knowledge encryption.",
+   "Wallets named on its site: Zodl (Zashi) and Edge.",
+   "The original zcash/zcash repository on GitHub is archived."
+  ],
+  "repo": "https://github.com/zcash/zcash"
+ },
+ {
+  "page": "privacy-coins",
+  "slug": "firo",
+  "name": "Firo",
+  "url": "https://firo.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Describes itself as a digital currency focused on privacy, built on Lelantus Spark.",
+   "Says balances, history and recipients are hidden by default.",
+   "MIT license."
+  ],
+  "release": "2026-10-16",
+  "repo": "https://github.com/firoorg/firo"
+ },
+ {
+  "page": "private-payments",
+  "slug": "mysudo",
+  "name": "MySudo",
+  "url": "https://mysudo.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "App that gives each identity its own phone number, email address and virtual cards.",
+   "Says it never requires your personal email or phone number to get started.",
+   "Phone numbers in the United States, United Kingdom and Canada (limited). UK numbers require legal identity information."
+  ]
+ },
+ {
+  "page": "private-payments",
+  "slug": "coincards",
+  "name": "Coincards",
+  "url": "https://coincards.com",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "Buy gift cards, top-ups and prepaid vouchers with Bitcoin. No bank required.",
+   "Over 20 countries.",
+   "Its page does not mention accounts or KYC."
+  ]
+ },
+ {
+  "page": "private-payments",
+  "slug": "privacy-com",
+  "name": "Privacy.com",
+  "url": "https://privacy.com",
+  "identity": "id",
+  "code": "unstated",
+  "facts": [
+   "Virtual cards that hide your real payment details from merchants.",
+   "United States residents only. Requires a KYC check and a US bank account."
+  ]
+ }
+]

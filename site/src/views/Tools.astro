@@ -1,0 +1,71 @@
+---
+// Page d'une catégorie d'outils : liste triée par la règle unique de data/tools.ts.
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { sorted, TOOL_PAGES, CHECKED, type Tool } from '../data/tools';
+import { dict, useT, lp, type Lang } from '../i18n';
+interface Props { page: string; lang: Lang }
+const { page, lang } = Astro.props;
+const t = useT(lang);
+const L = (p: string) => lp(lang, p);
+const x = dict(lang).tools.pages[page];
+const items = sorted(page);
+const site = 'https://www.donotkyc.com';
+const idClass = { none: 'l-none', account: 'l-light', id: 'l-tiered', unstated: 'l-na' } as const;
+// Page VPN : on reprend les sections « utiliser un VPN » et « avertissement » du guide traduit (les 2 premières sections sont l'intro et l'ancienne liste).
+let blocked = '';
+if (page === 'vpn') {
+  const raw = import.meta.glob('../content/vpn-affiliation.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+  const g = dict(lang).guides['vpn-affiliation'];
+  const html = lang === 'en' || !g.html ? Object.values(raw)[0] : g.html;
+  blocked = (html.match(/<section[\s\S]*?<\/section>/g) ?? []).slice(2).join('');
+}
+const crumbs = [{ name: t('nav.directory'), item: site + L('/') }, { name: t('tools.name'), item: site + L('/tools') }, { name: x.name, item: site + L(`/tools/${page}`) }];
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, ...c })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: x.h1, numberOfItems: items.length,
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: it.url })) },
+];
+const href = (it: Tool) => it.affiliate ?? it.url;
+---
+<Base title={`${x.h1} | DoNotKYC`} description={x.intro[0]} path={`/tools/${page}`} lang={lang} localized nav="tools" jsonld={jsonld}>
+  <div class="wrap det">
+    <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L('/tools')}>{t('tools.name')}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{x.name}</span></nav>
+    <header class="lh">
+      <h1>{x.h1}</h1>
+      {x.intro.map((p: string) => <p>{p}</p>)}
+      <p class="small">{t('tools.sort')}</p>
+      {lang !== 'en' && <p class="small">{t('tools.english')}</p>}
+    </header>
+    <ol class="tl">
+      {items.map((it) => (
+        <li class="tool" id={it.slug}>
+          <div class="th">
+            <h2>{it.name}</h2>
+            <div class="tb">
+              <span class={`lvl ${idClass[it.identity]}`}>{t('tools.asks')}: {t(`tools.identity.${it.identity}`)}</span>
+              <span class="lvl l-code">{t('tools.code')}: {t(`tools.codes.${it.code}`)}</span>
+              {it.affiliate && <span class="lvl l-aff">{t('tools.affiliate')}</span>}
+            </div>
+          </div>
+          <ul class="tf">{it.facts.map((f) => <li>{f}</li>)}</ul>
+          <p class="tm">
+            <a class="go" href={href(it)} rel={it.affiliate ? 'sponsored noopener noreferrer' : 'noopener'} target="_blank">{t('tools.visit', { name: it.name })}<Icon name="arrow-up-right" size={16} /></a>
+            {it.release && it.repo && <span>{t('tools.release')} <a href={it.repo} rel="noopener">{it.release}</a></span>}
+            <span>{t('tools.checked')} {CHECKED}</span>
+          </p>
+        </li>
+      ))}
+    </ol>
+    {blocked && <section class="prose tg"><Fragment set:html={blocked} /></section>}
+    <section class="sec rel" aria-labelledby="tr-h">
+      <h2 id="tr-h">{t('landing.see_also')}</h2>
+      <ul>
+        {TOOL_PAGES.filter((p) => p.key !== page).map((p) => <li><a href={L(`/tools/${p.key}`)}>{dict(lang).tools.pages[p.key].h1}</a></li>)}
+        <li><a href={L('/tools')}>{t('tools.all')}</a></li>
+        <li><a href={L('/methodology')}>{t('footer.how')}</a></li>
+        <li><a href={L('/how-we-make-money')}>{t('footer.money')}</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>

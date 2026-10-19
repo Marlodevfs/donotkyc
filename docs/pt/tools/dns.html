@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="pt" dir="ltr"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>DNS criptografado | DoNotKYC</title><meta name="description" content="O DNS transforma o nome de um site em endereço. O DNS criptografado impede seu provedor de internet de ler esses pedidos. Quem os lê é o resolvedor que você escolher."><link rel="canonical" href="https://www.donotkyc.com/pt/tools/dns"><link rel="alternate" hreflang="en" href="https://www.donotkyc.com/tools/dns"><link rel="alternate" hreflang="fr" href="https://www.donotkyc.com/fr/tools/dns"><link rel="alternate" hreflang="es" href="https://www.donotkyc.com/es/tools/dns"><link rel="alternate" hreflang="de" href="https://www.donotkyc.com/de/tools/dns"><link rel="alternate" hreflang="pt" href="https://www.donotkyc.com/pt/tools/dns"><link rel="alternate" hreflang="it" href="https://www.donotkyc.com/it/tools/dns"><link rel="alternate" hreflang="ru" href="https://www.donotkyc.com/ru/tools/dns"><link rel="alternate" hreflang="tr" href="https://www.donotkyc.com/tr/tools/dns"><link rel="alternate" hreflang="zh-Hans" href="https://www.donotkyc.com/zh/tools/dns"><link rel="alternate" hreflang="x-default" href="https://www.donotkyc.com/tools/dns"><link rel="preload" href="/assets/hanken-grotesk-latin-wght-normal.CaVRRdDk.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.png" type="image/png"><link rel="alternate" type="application/rss+xml" title="DoNotKYC changelog" href="/rss.xml"><meta name="theme-color" content="#0F172A"><meta property="og:type" content="website"><meta property="og:site_name" content="DoNotKYC"><meta property="og:title" content="DNS criptografado | DoNotKYC"><meta property="og:description" content="O DNS transforma o nome de um site em endereço. O DNS criptografado impede seu provedor de internet de ler esses pedidos. Quem os lê é o resolvedor que você escolher."><meta property="og:url" content="https://www.donotkyc.com/pt/tools/dns"><meta property="og:locale" content="pt"><meta property="og:image" content="https://www.donotkyc.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@donotkyc"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Diretório","item":"https://www.donotkyc.com/pt"},{"@type":"ListItem","position":2,"name":"Ferramentas","item":"https://www.donotkyc.com/pt/tools"},{"@type":"ListItem","position":3,"name":"DNS criptografado","item":"https://www.donotkyc.com/pt/tools/dns"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"DNS criptografado","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"name":"DNSCrypt-Proxy","url":"https://github.com/DNSCrypt/dnscrypt-proxy"},{"@type":"ListItem","position":2,"name":"Pi-hole","url":"https://pi-hole.net"},{"@type":"ListItem","position":3,"name":"RethinkDNS","url":"https://rethinkdns.com"},{"@type":"ListItem","position":4,"name":"Unbound","url":"https://nlnetlabs.nl/projects/unbound/about/"},{"@type":"ListItem","position":5,"name":"Quad9","url":"https://quad9.net"},{"@type":"ListItem","position":6,"name":"Control D","url":"https://controld.com"},{"@type":"ListItem","position":7,"name":"NextDNS","url":"https://nextdns.io"}]}</script><script>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script><link rel="stylesheet" href="/assets/api-docs.DuD6YaIh.css"></head> <body> <a class="skip-link" href="#main">Ir para o conteúdo</a> <header class="bar"> <div class="wrap"> <a class="logo" href="/pt" aria-label="Início do DoNotKYC"><img class="lg-l" src="/logo-light.svg" alt="" width="116" height="40"><img class="lg-d" src="/logo-dark.svg" alt="" width="116" height="40"></a> <nav class="nav" id="nav" aria-label="Main"> <a href="/pt">Diretório</a><a href="/blog">Blog</a><a href="/pt/tools" aria-current="page">Ferramentas</a><a href="/pt/privacy">Guia de privacidade</a><a href="/pt/security">Segurança</a> </nav> <div class="tools"> <details class="lang"> <summary aria-label="Idioma: PT">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-languages"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 8 6 6" />
+  <path d="m4 14 6-6 2-3" />
+  <path d="M2 5h12" />
+  <path d="M7 2h1" />
+  <path d="m22 22-5-10-5 10" />
+  <path d="M14 18h6" />
+</svg>
+PT</summary> <ul> <li><a href="/tools/dns" hreflang="en" lang="en">English</a></li><li><a href="/fr/tools/dns" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/tools/dns" hreflang="es" lang="es">Español</a></li><li><a href="/de/tools/dns" hreflang="de" lang="de">Deutsch</a></li><li><a href="/pt/tools/dns" hreflang="pt" lang="pt" aria-current="true">Português</a></li><li><a href="/it/tools/dns" hreflang="it" lang="it">Italiano</a></li><li><a href="/ru/tools/dns" hreflang="ru" lang="ru">Русский</a></li><li><a href="/tr/tools/dns" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh/tools/dns" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li> </ul> </details> <a class="ibtn" href="/pt/search" aria-label="Buscar">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" />
+</svg>
+</a> <button class="ibtn" id="theme" type="button" aria-label="Mudar tema">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-sun-moon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v2" />
+  <path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+  <path d="M16 12a4 4 0 0 0-4-4" />
+  <path d="m19 5-1.256 1.256" />
+  <path d="M20 12h2" />
+</svg>
+</button> <button class="ibtn menu" id="menu" type="button" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-menu"
+  xmlns="http://www.w3.org/2000/svg"
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</button> <a class="cta-s" href="/pt/advertise">Anunciar</a> </div> </div> </header> <main id="main" data-pagefind-body> <div class="wrap det"> <nav class="crumb" aria-label="Breadcrumb"><a href="/pt">Diretório</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<a href="/pt/tools">Ferramentas</a>
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-chevron-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="15"
+  height="15"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+<span aria-current="page">DNS criptografado</span></nav> <header class="lh"> <h1>DNS criptografado</h1> <p>O DNS transforma o nome de um site em endereço. O DNS criptografado impede seu provedor de internet de ler esses pedidos. Quem os lê é o resolvedor que você escolher.</p> <p class="small">Ordem: o que a ferramenta pede de você (nada, uma conta, um documento de identidade), depois código aberto antes de fechado, depois ordem alfabética. Links de afiliado e patrocinadores não a mudam.</p> <p class="small">As fichas estão em inglês.</p> </header> <ol class="tl"> <li class="tool" id="dnscrypt-proxy"> <div class="th"> <h2>DNSCrypt-Proxy</h2> <div class="tb"> <span class="lvl l-none">Pede: nada</span> <span class="lvl l-code">Código: código aberto</span>  </div> </div> <ul class="tf"><li>Flexible DNS proxy for DNSCrypt v2, DNS over HTTPS, Anonymized DNSCrypt and Oblivious DoH.</li><li>Pre-built binaries for Android, BSD, Linux, macOS and Windows.</li><li>ISC license.</li></ul> <p class="tm"> <a class="go" href="https://github.com/DNSCrypt/dnscrypt-proxy" rel="noopener" target="_blank">Visitar DNSCrypt-Proxy
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="pi-hole"> <div class="th"> <h2>Pi-hole</h2> <div class="tb"> <span class="lvl l-none">Pede: nada</span> <span class="lvl l-code">Código: código aberto</span>  </div> </div> <ul class="tf"><li>Network-wide ad blocking.</li></ul> <p class="tm"> <a class="go" href="https://pi-hole.net" rel="noopener" target="_blank">Visitar Pi-hole
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Última versão: <a href="https://github.com/pi-hole/pi-hole" rel="noopener">2026-10-17</a></span> <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="rethinkdns"> <div class="th"> <h2>RethinkDNS</h2> <div class="tb"> <span class="lvl l-none">Pede: nada</span> <span class="lvl l-code">Código: código aberto</span>  </div> </div> <ul class="tf"><li>DNS resolver and firewall app for Android.</li><li>The app is free. The cloud DNS has a free and a paid tier.</li><li>Supports DNS over HTTPS and TLS and more than 190 blocklists.</li></ul> <p class="tm"> <a class="go" href="https://rethinkdns.com" rel="noopener" target="_blank">Visitar RethinkDNS
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="unbound"> <div class="th"> <h2>Unbound</h2> <div class="tb"> <span class="lvl l-none">Pede: nada</span> <span class="lvl l-code">Código: código aberto</span>  </div> </div> <ul class="tf"><li>Validating, recursive, caching DNS resolver.</li></ul> <p class="tm"> <a class="go" href="https://nlnetlabs.nl/projects/unbound/about/" rel="noopener" target="_blank">Visitar Unbound
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a> <span>Última versão: <a href="https://github.com/NLnetLabs/unbound" rel="noopener">2026-09-16</a></span> <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="quad9"> <div class="th"> <h2>Quad9</h2> <div class="tb"> <span class="lvl l-none">Pede: nada</span> <span class="lvl l-code">Código: não informado</span>  </div> </div> <ul class="tf"><li>Free. No sign-up, no account.</li><li>Says no data containing your IP address is ever logged in any Quad9 system.</li><li>Run by a not-for-profit foundation based in Zurich.</li><li>Blocks known malicious domains.</li></ul> <p class="tm"> <a class="go" href="https://quad9.net" rel="noopener" target="_blank">Visitar Quad9
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="control-d"> <div class="th"> <h2>Control D</h2> <div class="tb"> <span class="lvl l-light">Pede: uma conta</span> <span class="lvl l-code">Código: não informado</span>  </div> </div> <ul class="tf"><li>Supports DNS over HTTPS/3, TLS and QUIC.</li><li>Keeps query logs for 30 days on every plan.</li><li>Free trial without a card, then priced per device.</li><li>Its site does not state the company&#39;s jurisdiction.</li></ul> <p class="tm"> <a class="go" href="https://controld.com" rel="noopener" target="_blank">Visitar Control D
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Verificado em 2026-10-19</span> </p> </li><li class="tool" id="nextdns"> <div class="th"> <h2>NextDNS</h2> <div class="tb"> <span class="lvl l-light">Pede: uma conta</span> <span class="lvl l-code">Código: não informado</span>  </div> </div> <ul class="tf"><li>Blocks threats, ads and trackers. Supports DNS over HTTPS and TLS.</li><li>You set log retention from one hour to two years, or turn logs off.</li><li>You pick where logs are stored: United States, European Union, United Kingdom or Switzerland.</li><li>You can start without signing up, but need an account to save settings.</li></ul> <p class="tm"> <a class="go" href="https://nextdns.io" rel="noopener" target="_blank">Visitar NextDNS
+<svg aria-hidden="true" focusable="false" class="ic "
+  class="lucide lucide-arrow-up-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7h10v10" />
+  <path d="M7 17 17 7" />
+</svg>
+</a>  <span>Verificado em 2026-10-19</span> </p> </li> </ol>  <section class="sec rel" aria-labelledby="tr-h"> <h2 id="tr-h">Veja também</h2> <ul> <li><a href="/pt/tools/vpn">Provedores de VPN</a></li><li><a href="/pt/tools/tor">Tor e redes anônimas</a></li><li><a href="/pt/tools/leak-tests">Testes de vazamento para VPN e Tor</a></li><li><a href="/pt/tools/routers">Software de roteador e firewall</a></li><li><a href="/pt/tools/wallets">Carteiras Bitcoin</a></li><li><a href="/pt/tools/hardware-wallets">Carteiras de hardware</a></li><li><a href="/pt/tools/monero-wallets">Carteiras Monero</a></li><li><a href="/pt/tools/privacy-coins">Moedas privadas</a></li><li><a href="/pt/tools/private-payments">Pagamentos privados</a></li> <li><a href="/pt/tools">Todas as ferramentas</a></li> <li><a href="/pt/methodology">Como verificamos</a></li> <li><a href="/pt/how-we-make-money">Como ganhamos dinheiro</a></li> </ul> </section> </div> </main> <footer class="site"> <div class="wrap"> <div class="fg"> <div> <a class="logo" href="/pt" aria-label="Início do DoNotKYC"><img class="lg-l" src="/logo-light.svg" alt="" width="116" height="40"><img class="lg-d" src="/logo-dark.svg" alt="" width="116" height="40"></a> <p>Um diretório independente de plataformas cripto onde você negocia sem enviar documento de identidade. Apenas informação, não é aconselhamento financeiro.</p> </div> <div><h2>Diretório</h2><ul> <li><a href="/pt#directory">Todas as plataformas</a></li> <li><a href="/pt/submit">Sugerir uma plataforma</a></li> <li><a href="/pt/compare">Comparar plataformas</a></li> <li><a href="/pt/methodology">Como verificamos</a></li> <li><a href="/pt/advertise">Anunciar</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml" rel="noopener">Informar uma mudança</a></li> <li><a href="/api-docs">API de dados abertos</a></li> <li><a href="/changelog">Changelog</a></li> <li><a href="/pt/how-we-make-money">Como ganhamos dinheiro</a></li> <li><a href="/pt/privacy-policy">Privacidade</a></li> </ul></div> <div><h2>Explorar</h2><ul> <li><a href="/pt/exchanges">Exchanges</a></li> <li><a href="/pt/swaps">Swaps instantâneos</a></li> <li><a href="/pt/p2p">Mercados P2P</a></li> <li><a href="/pt/buy/bitcoin">Comprar bitcoin</a></li> <li><a href="/pt/buy/monero">Comprar Monero</a></li> </ul></div> <div><h2>Guias</h2><ul> <li><a href="/pt/privacy">Guia de privacidade</a></li> <li><a href="/pt/security">Dicas de segurança</a></li> <li><a href="/pt/tools">Ferramentas</a></li> <li><a href="/pt/tools/vpn">VPNs para cripto</a></li> <li><a href="/blog">Blog</a></li> </ul><p class="small">Os artigos do blog estão em inglês.</p></div> <div><h2>Comunidade</h2><ul> <li><a href="https://x.com/donotkyc" rel="noopener">X</a></li> <li><a href="https://t.me/donotkycdotcom" rel="noopener">Telegram</a></li> <li><a href="https://www.tiktok.com/@donotkyc" rel="noopener">TikTok</a></li> <li><a href="https://github.com/Marlodevfs/donotkyc" rel="noopener">GitHub</a></li> </ul></div> </div> <div class="legal"> <p>Plataformas sem KYC envolvem riscos e menos recursos. Pesquise por conta própria, comece pequeno e siga a lei e as regras fiscais do seu país. Alguns links «Visitar» são links de afiliado. Eles não mudam a ordem do diretório.</p> <span>© 2026 DoNotKYC · Feito com ❤️ e ☕ por <a href="https://github.com/Marlodevfs" rel="noopener">Marlodevfs</a></span> </div> </div> </footer> <script data-goatcounter="https://donotkyc.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> <noscript><img src="https://donotkyc.goatcounter.com/count?p=%2Fpt%2Ftools%2Fdns" alt="" width="1" height="1"></noscript> <script>
+      (function () {
+        var root = document.documentElement, b = document.getElementById('theme');
+        function mode() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+        b.addEventListener('click', function () {
+          var next = mode() === 'dark' ? 'light' : 'dark';
+          root.dataset.theme = next;
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+        var m = document.getElementById('menu'), n = document.getElementById('nav');
+        m.addEventListener('click', function () { var open = n.classList.toggle('open'); m.setAttribute('aria-expanded', open); });
+        document.addEventListener('click', function (e) { var d = document.querySelector('details.lang'); if (d && d.open && !d.contains(e.target)) d.open = false; });
+      })();
+    </script> </body> </html>

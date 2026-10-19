@@ -1,6 +1,7 @@
 import { platforms, TYPES, byLeastId } from '../lib/platforms';
 import { LANDINGS } from '../data/landings';
 import { pairs } from '../data/compare';
+import { TOOL_PAGES } from '../data/tools';
 import { LOCALES } from '../i18n';
 
 // Résumé lisible par les IA (convention llms.txt), généré depuis les mêmes données que le site.
@@ -26,6 +27,10 @@ Identity levels: None = no ID and no account details; Light = no ID under a stat
 
 ## Topic pages
 ${LANDINGS.map((l) => `- ${SITE}${l.path}`).join('\n')}
+
+## Tool pages
+Each entry quotes the maker's own site and states what the tool asks of you and whether its code is open. Sorted by one rule, never by affiliation or sponsorship.
+${TOOL_PAGES.map((p) => `- ${SITE}/tools/${p.key}`).join('\n')}
 
 ## Platforms
 ${list}

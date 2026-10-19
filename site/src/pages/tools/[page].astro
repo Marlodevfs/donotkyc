@@ -1,0 +1,6 @@
+---
+import Tools from '../../views/Tools.astro';
+import { TOOL_PAGES } from '../../data/tools';
+export function getStaticPaths() { return TOOL_PAGES.map((p) => ({ params: { page: p.key } })); }
+---
+<Tools page={Astro.params.page!} lang="en" />

@@ -15,7 +15,8 @@
   "skip": "İçeriğe geç",
   "language": "Dil",
   "home": "DoNotKYC ana sayfa",
-  "search": "Ara"
+  "search": "Ara",
+  "tools": "Araçlar"
  },
  "footer": {
   "about": "Kimlik göndermeden işlem yapabileceğin kripto platformlarının bağımsız dizini. Yalnızca bilgi amaçlıdır, finansal tavsiye değildir.",
@@ -583,6 +584,118 @@
    "title": "Engelli sitelerde kripto almak için VPN | DoNotKYC",
    "description": "Ülkende engellenen borsalara erişmek için VPN sağlayıcıları ve bir VPN'in neyi gizleyip neyi gizlemediği.",
    "html": "<h1>Engelli sitelerde kripto almak için VPN</h1><section><p>Bazı ülkeler bilinen kripto borsalarını engeller. VPN (sanal özel ağ) IP adresini borsadan gizler ve ona başka bir ülkeden erişmeni sağlar.</p><p>İlk bakacağımız VPN sağlayıcıları bunlar.</p></section><section><h2>Önerilen VPN sağlayıcıları</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - Geniş sunucu ağı, ücretli paketler. <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">NordVPN al</a></li><li><strong>Proton VPN</strong> - Kayıt tutmayan, ücretsiz paketi olan İsviçreli sağlayıcı. <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Proton VPN al</a></li><li><strong>Obscura VPN</strong> - Kayıt tutmama sözüne güvenmek yerine, sağlayıcının trafiğini ödemenle eşleştiremeyeceği şekilde tasarlandı. <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Obscura VPN al</a></li><li><strong>Mullvad</strong> - E-postasız kayıt, nakit ve Monero kabul eder. <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">Mullvad al</a></li><li><strong>Tunnelbear</strong> - Basit uygulamalar ve küçük bir ücretsiz paket. <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Tunnelbear al</a></li><li><strong>Meile DVPN</strong> - Sentinel ağında çalışan merkeziyetsiz VPN. <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">Meile DVPN al</a></li><li><strong>LNVPN</strong> - Lightning ile saatlik ödeme, hesap yok. <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">LNVPN al</a></li><li><strong>Xeovo</strong> - Kripto ödeme kabul eden, kayıt tutmayan VPN. <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Xeovo al</a></li></ul></section><section><h2>Kripto borsasıyla VPN nasıl kullanılır</h2><ol><li>Listeden bir sağlayıcı seç. Bazı bağlantılar ortaklık bağlantısıdır.</li><li>VPN yazılımını cihazına indir ve kur.</li><li>Borsanın engelli olmadığı bir ülkedeki sunucuya bağlan.</li><li>Borsayı aç ve işlem yap. VPN IP'ni gizler; borsanın kendi KYC kurallarını kaldırmaz.</li></ol></section><section><h2>Yasal uyarı</h2><p>VPN kullanımı ve kripto alım satımı ülkeden ülkeye farklı düzenlenir. Bir borsaya VPN ile erişmeden önce yerel yasaları kontrol et.</p></section><section class=\"affiliate-disclaimer\"><p><strong>Uyarı:</strong> NordVPN ve Proton VPN bağlantıları ortaklık bağlantısıdır: DoNotKYC sana ek maliyet olmadan komisyon kazanabilir. Bu, listenin sırasını değiştirmez.</p></section>"
+  }
+ },
+ "tools": {
+  "name": "Araçlar",
+  "hub_h1": "Gizli kripto için araçlar",
+  "hub_intro": [
+   "Cüzdanlar, VPN, Tor ve KYC'siz bir platformun yanında kullanılan diğer araçlar.",
+   "Her kayıt, üreticinin kendi sitesinde yazdığını aktarır. Sponsor bu sayfalarda asla yer satın alamaz."
+  ],
+  "sort": "Sıra: aracın senden ne istediği (hiçbir şey, bir hesap, kimlik), sonra açık kod kapalı koddan önce, sonra alfabetik. Ortaklık bağlantıları ve sponsorlar bunu değiştirmez.",
+  "english": "Kayıtlar İngilizcedir.",
+  "asks": "İstediği",
+  "identity": {
+   "none": "hiçbir şey",
+   "account": "bir hesap",
+   "id": "kimlik",
+   "unstated": "belirtilmemiş"
+  },
+  "code": "Kod",
+  "codes": {
+   "open": "açık kaynak",
+   "partial": "kısmen açık",
+   "proprietary": "kapalı",
+   "unstated": "belirtilmemiş"
+  },
+  "affiliate": "Ortaklık bağlantısı",
+  "visit": "{name} sitesine git",
+  "release": "Son sürüm:",
+  "checked": "Kontrol tarihi",
+  "all": "Tüm araçlar",
+  "groups": {
+   "network": "Ağ gizliliği",
+   "crypto": "Gizli kripto"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "VPN sağlayıcıları",
+    "intro": [
+     "VPN, IP adresini platformdan ve trafiğini internet sağlayıcından gizler. Karşılığında VPN şirketine güvenirsin.",
+     "Nasıl ödediğine ve şirketin neyi kaydettiğini söylediğine bak."
+    ]
+   },
+   "tor": {
+    "name": "Tor ve ağlar",
+    "h1": "Tor ve anonim ağlar",
+    "intro": [
+     "Bu ağlar trafiğini hedefe varmadan önce başka bilgisayarlardan geçirir. VPN'den daha yavaştırlar."
+    ]
+   },
+   "dns": {
+    "name": "Şifreli DNS",
+    "h1": "Şifreli DNS",
+    "intro": [
+     "DNS, bir site adını adrese çevirir. Şifreli DNS internet sağlayıcının bu istekleri okumasını engeller. Onları seçtiğin çözümleyici okur."
+    ]
+   },
+   "leak-tests": {
+    "name": "Sızıntı testleri",
+    "h1": "VPN ve Tor sızıntı testleri",
+    "intro": [
+     "VPN veya Tor'a bağlandıktan sonra bu sayfalardan birini aç. Web'in gördüğü IP adresini ve DNS sunucusunu gösterir.",
+     "Bu sitelerden birkaçı VPN şirketlerine aittir."
+    ]
+   },
+   "routers": {
+    "name": "Yönlendiriciler",
+    "h1": "Yönlendirici ve güvenlik duvarı yazılımları",
+    "intro": [
+     "Yönlendirici yazılımı, tüm ev ağın için VPN ve DNS kuralları koymanı sağlar."
+    ]
+   },
+   "wallets": {
+    "name": "Bitcoin cüzdanları",
+    "h1": "Bitcoin cüzdanları",
+    "intro": [
+     "Kendi saklamalı bir cüzdanda anahtarlar sendedir, bu yüzden hiçbir platform coin'lerini taşımak için senden kimlik isteyemez.",
+     "Cüzdan içinden satın alma genelde kimlik isteyebilen bir üçüncü tarafa gider."
+    ]
+   },
+   "hardware-wallets": {
+    "name": "Donanım cüzdanları",
+    "h1": "Donanım cüzdanları",
+    "intro": [
+     "Donanım cüzdanı anahtarlarını ayrı bir cihazda tutar.",
+     "Her kayıt, üreticinin kodunun açık olduğunu söyleyip söylemediğini gösterir."
+    ]
+   },
+   "monero-wallets": {
+    "name": "Monero cüzdanları",
+    "h1": "Monero cüzdanları",
+    "intro": [
+     "Bilgisayar ve telefonda Monero (XMR) cüzdanları.",
+     "Kod GitHub'daysa her kayıt son sürümü gösterir."
+    ]
+   },
+   "privacy-coins": {
+    "name": "Gizlilik coin'leri",
+    "h1": "Gizlilik coin'leri",
+    "intro": [
+     "Tutarları, göndericileri veya alıcıları gizlemek için tasarlanmış coin'ler.",
+     "Her kayıt projenin kendi tanımını aktarır."
+    ]
+   },
+   "private-payments": {
+    "name": "Gizli ödemeler",
+    "h1": "Gizli ödemeler",
+    "intro": [
+     "Satıcıya kartını veya telefon numaranı vermeden çevrimiçi ödeme yolları.",
+     "Bazıları kimlik ister. Kayıt bunu söyler."
+    ]
+   }
   }
  }
 }

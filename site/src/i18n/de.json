@@ -15,7 +15,8 @@
   "skip": "Zum Inhalt",
   "language": "Sprache",
   "home": "DoNotKYC Startseite",
-  "search": "Suchen"
+  "search": "Suchen",
+  "tools": "Werkzeuge"
  },
  "footer": {
   "about": "Ein unabhängiges Verzeichnis von Krypto-Plattformen, auf denen du ohne Ausweis handeln kannst. Nur zur Information, keine Finanzberatung.",
@@ -583,6 +584,118 @@
    "title": "VPNs für Krypto auf gesperrten Seiten | DoNotKYC",
    "description": "VPN-Anbieter für Börsen, die in deinem Land gesperrt sind, und was ein VPN verbirgt und was nicht.",
    "html": "<h1>VPNs für Krypto auf gesperrten Seiten</h1><section><p>Manche Länder sperren bekannte Krypto-Börsen. Ein VPN (virtuelles privates Netzwerk) verbirgt deine IP-Adresse vor der Börse und lässt dich aus einem anderen Land zugreifen.</p><p>Diese VPN-Anbieter würden wir uns zuerst ansehen.</p></section><section><h2>Empfohlene VPN-Anbieter</h2><ul class=\"vpn-list\"><li><strong>NordVPN</strong> - Großes Servernetz, kostenpflichtige Tarife. <a href=\"https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134573&url_id=902\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">NordVPN holen</a></li><li><strong>Proton VPN</strong> - Schweizer Anbieter ohne Logs, mit Gratis-Tarif. <a href=\"https://go.getproton.me/SH24f\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Proton VPN holen</a></li><li><strong>Obscura VPN</strong> - So gebaut, dass der Anbieter deinen Traffic nicht mit deiner Zahlung verknüpfen kann, statt nur No-Logs zu versprechen. <a href=\"https://obscura.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Obscura VPN holen</a></li><li><strong>Mullvad</strong> - Anmeldung ohne E-Mail, akzeptiert Bargeld und Monero. <a href=\"https://mullvad.net/en\" target=\"_blank\" rel=\"noopener noreferrer\">Mullvad holen</a></li><li><strong>Tunnelbear</strong> - Einfache Apps und ein kleiner Gratis-Tarif. <a href=\"https://www.tunnelbear.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Tunnelbear holen</a></li><li><strong>Meile DVPN</strong> - Dezentrales VPN im Sentinel-Netzwerk. <a href=\"https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/\" target=\"_blank\" rel=\"noopener noreferrer\">Meile DVPN holen</a></li><li><strong>LNVPN</strong> - Bezahlung pro Stunde per Lightning, ohne Konto. <a href=\"https://lnvpn.net/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">LNVPN holen</a></li><li><strong>Xeovo</strong> - No-Logs-VPN, das Krypto-Zahlungen akzeptiert. <a href=\"https://xeovo.com/products/vpn\" target=\"_blank\" rel=\"noopener noreferrer\">Xeovo holen</a></li></ul></section><section><h2>So nutzt du ein VPN mit einer Krypto-Börse</h2><ol><li>Wähle einen Anbieter aus der Liste. Einige Links sind Affiliate-Links.</li><li>Lade die VPN-Software herunter und installiere sie.</li><li>Verbinde dich mit einem Server in einem Land, in dem die Börse nicht gesperrt ist.</li><li>Öffne die Börse und handle. Ein VPN verbirgt deine IP; die KYC-Regeln der Börse selbst bleiben bestehen.</li></ol></section><section><h2>Rechtlicher Hinweis</h2><p>VPN-Nutzung und Krypto-Handel sind je nach Land unterschiedlich geregelt. Prüfe dein lokales Recht, bevor du per VPN auf eine Börse zugreifst.</p></section><section class=\"affiliate-disclaimer\"><p><strong>Hinweis:</strong> Die Links zu NordVPN und Proton VPN sind Affiliate-Links: DoNotKYC kann eine Provision erhalten, ohne Mehrkosten für dich. Die Reihenfolge der Liste ändert das nicht.</p></section>"
+  }
+ },
+ "tools": {
+  "name": "Werkzeuge",
+  "hub_h1": "Werkzeuge für private Krypto",
+  "hub_intro": [
+   "Wallets, VPN, Tor und die anderen Werkzeuge, die man neben einer Plattform ohne KYC nutzt.",
+   "Jeder Eintrag gibt wieder, was der Hersteller auf seiner eigenen Seite schreibt. Ein Sponsor kauft sich nie einen Platz auf diesen Seiten."
+  ],
+  "sort": "Reihenfolge: was das Werkzeug von dir verlangt (nichts, ein Konto, einen Ausweis), dann offener vor geschlossenem Code, dann alphabetisch. Affiliate-Links und Sponsoren ändern sie nicht.",
+  "english": "Die Einträge sind auf Englisch.",
+  "asks": "Verlangt",
+  "identity": {
+   "none": "nichts",
+   "account": "ein Konto",
+   "id": "einen Ausweis",
+   "unstated": "nicht angegeben"
+  },
+  "code": "Code",
+  "codes": {
+   "open": "Open Source",
+   "partial": "teilweise offen",
+   "proprietary": "geschlossen",
+   "unstated": "nicht angegeben"
+  },
+  "affiliate": "Affiliate-Link",
+  "visit": "{name} besuchen",
+  "release": "Letzte Version:",
+  "checked": "Geprüft am",
+  "all": "Alle Werkzeuge",
+  "groups": {
+   "network": "Netzwerk-Privatsphäre",
+   "crypto": "Private Krypto"
+  },
+  "pages": {
+   "vpn": {
+    "name": "VPN",
+    "h1": "VPN-Anbieter",
+    "intro": [
+     "Ein VPN versteckt deine IP-Adresse vor der Plattform und deinen Datenverkehr vor deinem Internetanbieter. Dafür vertraust du der VPN-Firma.",
+     "Prüfe, wie du zahlst und was die Firma nach eigener Aussage protokolliert."
+    ]
+   },
+   "tor": {
+    "name": "Tor und Netzwerke",
+    "h1": "Tor und anonyme Netzwerke",
+    "intro": [
+     "Diese Netzwerke leiten deinen Datenverkehr über andere Rechner, bevor er sein Ziel erreicht. Sie sind langsamer als ein VPN."
+    ]
+   },
+   "dns": {
+    "name": "Verschlüsseltes DNS",
+    "h1": "Verschlüsseltes DNS",
+    "intro": [
+     "DNS wandelt einen Seitennamen in eine Adresse um. Verschlüsseltes DNS hindert deinen Internetanbieter daran, diese Anfragen zu lesen. Stattdessen liest sie der Resolver, den du wählst."
+    ]
+   },
+   "leak-tests": {
+    "name": "Leak-Tests",
+    "h1": "Leak-Tests für VPN und Tor",
+    "intro": [
+     "Öffne eine dieser Seiten, nachdem du ein VPN oder Tor verbunden hast. Sie zeigt die IP-Adresse und den DNS-Server, die das Web sieht.",
+     "Mehrere dieser Seiten gehören VPN-Firmen."
+    ]
+   },
+   "routers": {
+    "name": "Router",
+    "h1": "Router- und Firewall-Software",
+    "intro": [
+     "Mit Router-Software legst du VPN- und DNS-Regeln für dein ganzes Heimnetz fest."
+    ]
+   },
+   "wallets": {
+    "name": "Bitcoin-Wallets",
+    "h1": "Bitcoin-Wallets",
+    "intro": [
+     "In einem Self-Custody-Wallet hältst du die Schlüssel, daher kann keine Plattform einen Ausweis verlangen, um deine Coins zu bewegen.",
+     "Kaufen in einem Wallet läuft meist über einen Dritten, der einen Ausweis verlangen kann."
+    ]
+   },
+   "hardware-wallets": {
+    "name": "Hardware-Wallets",
+    "h1": "Hardware-Wallets",
+    "intro": [
+     "Ein Hardware-Wallet hält deine Schlüssel auf einem getrennten Gerät.",
+     "Jeder Eintrag zeigt, ob der Hersteller seinen Code als offen bezeichnet."
+    ]
+   },
+   "monero-wallets": {
+    "name": "Monero-Wallets",
+    "h1": "Monero-Wallets",
+    "intro": [
+     "Wallets für Monero (XMR) auf Desktop und Handy.",
+     "Jeder Eintrag zeigt seine letzte Version, wenn der Code auf GitHub liegt."
+    ]
+   },
+   "privacy-coins": {
+    "name": "Privacy-Coins",
+    "h1": "Privacy-Coins",
+    "intro": [
+     "Coins, die Beträge, Absender oder Empfänger verbergen sollen.",
+     "Jeder Eintrag zitiert die Beschreibung des Projekts selbst."
+    ]
+   },
+   "private-payments": {
+    "name": "Private Zahlungen",
+    "h1": "Private Zahlungen",
+    "intro": [
+     "Wege, online zu bezahlen, ohne dem Händler deine Karte oder Telefonnummer zu geben.",
+     "Manche verlangen einen Ausweis. Der Eintrag sagt es."
+    ]
+   }
   }
  }
 }
