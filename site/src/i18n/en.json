@@ -370,7 +370,8 @@
   "all": "All tools",
   "groups": {
    "network": "Network privacy",
-   "crypto": "Private crypto"
+   "crypto": "Private crypto",
+   "devices": "Devices and accounts"
   },
   "pages": {
    "vpn": {
@@ -448,6 +449,37 @@
     "intro": [
      "Ways to pay online without giving a merchant your card or phone number.",
      "Some of them ask for ID. The entry says so."
+    ]
+   },
+   "desktop-os": {
+    "name": "Desktop systems",
+    "h1": "Operating systems for computers",
+    "intro": [
+     "Your operating system sees everything you do. These range from ordinary Linux distributions to systems built to leave no trace.",
+     "Several start from a USB stick or inside a virtual machine, so you can try them without wiping your computer."
+    ]
+   },
+   "mobile-os": {
+    "name": "Phone systems",
+    "h1": "Operating systems for phones",
+    "intro": [
+     "Each system below replaces the Android that ships on your phone. Check the device list first: each one runs on a short list of models.",
+     "Each entry says which devices it runs on."
+    ]
+   },
+   "email": {
+    "name": "E-mail",
+    "h1": "Private e-mail providers",
+    "intro": [
+     "An e-mail provider stores your messages and knows who you talk to. These providers say how they encrypt, where they sit and what they ask at sign-up.",
+     "Check what the provider asks at sign-up and how you can pay."
+    ]
+   },
+   "email-aliases": {
+    "name": "E-mail aliases",
+    "h1": "E-mail alias services",
+    "intro": [
+     "An alias forwards mail to your real inbox, so a site never sees your real address. You turn an alias off as soon as it gets spam."
     ]
    }
   }

@@ -616,7 +616,8 @@
   "all": "Todas as ferramentas",
   "groups": {
    "network": "Privacidade de rede",
-   "crypto": "Cripto privada"
+   "crypto": "Cripto privada",
+   "devices": "Dispositivos e contas"
   },
   "pages": {
    "vpn": {
@@ -694,6 +695,37 @@
     "intro": [
      "Formas de pagar online sem dar ao comerciante seu cartão ou número de telefone.",
      "Alguns pedem documento. A ficha informa."
+    ]
+   },
+   "desktop-os": {
+    "name": "Sistemas de computador",
+    "h1": "Sistemas operacionais para computador",
+    "intro": [
+     "Seu sistema operacional vê tudo o que você faz. Estes vão de distribuições Linux comuns a sistemas feitos para não deixar rastro.",
+     "Vários iniciam por um pendrive USB ou dentro de uma máquina virtual, então você pode testá-los sem apagar o computador."
+    ]
+   },
+   "mobile-os": {
+    "name": "Sistemas de celular",
+    "h1": "Sistemas operacionais para celular",
+    "intro": [
+     "Cada sistema abaixo substitui o Android que vem no seu celular. Veja primeiro a lista de aparelhos: cada um roda só em poucos modelos.",
+     "Cada ficha indica em quais aparelhos ele funciona."
+    ]
+   },
+   "email": {
+    "name": "E-mail",
+    "h1": "Provedores de e-mail privado",
+    "intro": [
+     "Um provedor de e-mail guarda suas mensagens e sabe com quem você fala. Estes provedores dizem como criptografam, onde ficam e o que pedem no cadastro.",
+     "Veja o que o provedor pede no cadastro e como você pode pagar."
+    ]
+   },
+   "email-aliases": {
+    "name": "Aliases de e-mail",
+    "h1": "Serviços de alias de e-mail",
+    "intro": [
+     "Um alias encaminha o e-mail para sua caixa real, então um site nunca vê seu endereço real. Você desliga um alias assim que ele recebe spam."
     ]
    }
   }

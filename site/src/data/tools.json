@@ -710,5 +710,309 @@
    "Virtual cards that hide your real payment details from merchants.",
    "United States residents only. Requires a KYC check and a US bank account."
   ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "tails",
+  "name": "Tails",
+  "url": "https://tails.net",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Starts from a USB stick instead of Windows, macOS or Linux.",
+   "Uses the Tor network for everything you do online.",
+   "Says it leaves no trace on the computer when you shut it down.",
+   "Free software that independent researchers can verify."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "whonix",
+  "name": "Whonix",
+  "url": "https://www.whonix.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Routes all internet traffic through Tor with a dual-VM design.",
+   "Runs on Windows, Linux, macOS, Qubes, KVM, USB, ISO and Raspberry Pi.",
+   "Says all its source code uses OSI approved licenses."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "qubes",
+  "name": "Qubes OS",
+  "url": "https://www.qubes-os.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free and open source system built on compartmentalization.",
+   "Brings the security of the Xen hypervisor to personal computers.",
+   "Its home page links to a separate page for hardware requirements."
+  ],
+  "repo": "https://github.com/QubesOS/qubes-core-admin"
+ },
+ {
+  "page": "desktop-os",
+  "slug": "kicksecure",
+  "name": "Kicksecure",
+  "url": "https://www.kicksecure.com",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Secure by default system based on Debian.",
+   "Runs on a physical computer, from a USB stick or in a virtual machine.",
+   "Says all its source code uses OSI approved licenses."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "secureblue",
+  "name": "secureblue",
+  "url": "https://secureblue.dev",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Security-focused desktop and server Linux system built on Fedora Atomic Desktop images.",
+   "Developed as an open source project. Apache 2 license."
+  ],
+  "repo": "https://github.com/secureblue/secureblue"
+ },
+ {
+  "page": "desktop-os",
+  "slug": "fedora",
+  "name": "Fedora Workstation",
+  "url": "https://fedoraproject.org/workstation/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "GNOME desktop built on open source technology.",
+   "Says it is free, has no ads and that your data belongs to you."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "opensuse",
+  "name": "openSUSE Tumbleweed",
+  "url": "https://get.opensuse.org/tumbleweed/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Continuously updated: you install it once.",
+   "Its page links to the source code and to a license page."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "arch",
+  "name": "Arch Linux",
+  "url": "https://archlinux.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Independently developed x86-64 GNU/Linux distribution with a rolling release.",
+   "Minimal base system: you add only the software you need."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "nixos",
+  "name": "NixOS",
+  "url": "https://nixos.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Linux system configured declaratively with Nix.",
+   "Says a package that works on one machine works on another.",
+   "Nix is LGPL 2.1 and Nixpkgs is MIT."
+  ],
+  "repo": "https://github.com/NixOS/nix"
+ },
+ {
+  "page": "desktop-os",
+  "slug": "debian",
+  "name": "Debian",
+  "url": "https://www.debian.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Calls itself a complete Free Operating System, built by a community of people."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "openbsd",
+  "name": "OpenBSD",
+  "url": "https://www.openbsd.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free, multi-platform Unix-like operating system based on 4.4BSD.",
+   "Says: \"Only two remote holes in the default install, in a heck of a long time!\"",
+   "Developed by volunteers and funded by donations."
+  ]
+ },
+ {
+  "page": "desktop-os",
+  "slug": "freebsd",
+  "name": "FreeBSD",
+  "url": "https://www.freebsd.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Operating system known for network performance and stability.",
+   "BSD-style license that allows redistribution and modification."
+  ]
+ },
+ {
+  "page": "mobile-os",
+  "slug": "grapheneos",
+  "name": "GrapheneOS",
+  "url": "https://grapheneos.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Privacy and security focused mobile system that runs Android apps.",
+   "Supports Pixel devices only, from the Pixel 6 series to the Pixel 10a.",
+   "Says it will never include Google Play services or microG.",
+   "Non-profit open source project."
+  ]
+ },
+ {
+  "page": "mobile-os",
+  "slug": "calyxos",
+  "name": "CalyxOS",
+  "url": "https://calyxos.org",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Android system focused on privacy and security.",
+   "Supports Pixel 6 to 10a, Fairphone 5 and 6, some Motorola phones and the SHIFTphone 8.",
+   "Offers microG as an option. Its latest news item, dated 1 October 2026, is the Android 17 rollout.",
+   "Links to its source code on GitLab."
+  ]
+ },
+ {
+  "page": "mobile-os",
+  "slug": "eos",
+  "name": "/e/OS",
+  "url": "https://e.foundation/e-os/",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Open source mobile system with selected apps.",
+   "Says its Android core has no Google apps or Google services accessing your data.",
+   "Installs on supported devices through a web installer."
+  ]
+ },
+ {
+  "page": "mobile-os",
+  "slug": "lineageos",
+  "name": "LineageOS",
+  "url": "https://lineageos.org",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Android distribution with a wide list of supported phones, from Pixel and Samsung to Fairphone.",
+   "Its device wiki says a device that is not listed is not supported.",
+   "Our checker could not open the main site, so these points come from its device wiki."
+  ]
+ },
+ {
+  "page": "email",
+  "slug": "posteo",
+  "name": "Posteo",
+  "url": "https://posteo.de/en",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "1 euro a month.",
+   "Pay anonymously: its page says no payment data connects to an account.",
+   "Says it collects no personal information at sign-up.",
+   "Based in Berlin, with servers in German data centres.",
+   "Supports PGP and S/MIME encryption."
+  ]
+ },
+ {
+  "page": "email",
+  "slug": "proton-mail",
+  "name": "Proton Mail",
+  "url": "https://proton.me/mail",
+  "identity": "account",
+  "code": "open",
+  "facts": [
+   "Free plan with 1 GB and one address.",
+   "End-to-end and zero-access encryption.",
+   "Open source apps for web, Windows, macOS, Linux, Android and iPhone.",
+   "Headquartered in Switzerland.",
+   "Its page does not say whether sign-up needs a phone number."
+  ]
+ },
+ {
+  "page": "email",
+  "slug": "tuta",
+  "name": "Tuta",
+  "url": "https://tuta.com",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Free plan. Paid plans add custom domains.",
+   "End-to-end encryption with post-quantum algorithms.",
+   "Says all its clients are open source. Made in Germany.",
+   "Its page does not say what sign-up requires."
+  ]
+ },
+ {
+  "page": "email",
+  "slug": "mailbox-org",
+  "name": "Mailbox.org",
+  "url": "https://mailbox.org/en/",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "From 1 euro a month. 30-day free trial, no free plan.",
+   "Data stored in German data centres.",
+   "Its page does not state sign-up requirements or accepted payment methods."
+  ]
+ },
+ {
+  "page": "email",
+  "slug": "disroot",
+  "name": "Disroot",
+  "url": "https://disroot.org/en",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "Email, cloud, chat, pads and more from a platform funded by donations.",
+   "Says: no tracking, no ads, no profiling, no data mining.",
+   "Its page does not state sign-up rules or jurisdiction."
+  ]
+ },
+ {
+  "page": "email-aliases",
+  "slug": "addy-io",
+  "name": "addy.io",
+  "url": "https://addy.io",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Creates aliases that forward to your real inbox. You can turn off any alias that gets spammy.",
+   "Free plan: unlimited standard aliases, 10 shared-domain aliases, 1 recipient and 10 MB of bandwidth a month.",
+   "Paid plans from 1 dollar a month, billed yearly.",
+   "Open source, with a self-hosting option."
+  ]
+ },
+ {
+  "page": "email-aliases",
+  "slug": "simplelogin",
+  "name": "SimpleLogin",
+  "url": "https://simplelogin.io",
+  "identity": "unstated",
+  "code": "open",
+  "facts": [
+   "Email aliases that forward to your inbox and let you reply from the alias.",
+   "Says it is 100% open source, with the code on GitHub.",
+   "Product of Proton AG, a Swiss company."
+  ]
  }
 ]

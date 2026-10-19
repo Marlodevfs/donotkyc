@@ -616,7 +616,8 @@
   "all": "Todas las herramientas",
   "groups": {
    "network": "Privacidad de red",
-   "crypto": "Cripto privada"
+   "crypto": "Cripto privada",
+   "devices": "Dispositivos y cuentas"
   },
   "pages": {
    "vpn": {
@@ -694,6 +695,37 @@
     "intro": [
      "Formas de pagar en línea sin dar al comercio tu tarjeta o tu número de teléfono.",
      "Algunas piden identificación. La ficha lo dice."
+    ]
+   },
+   "desktop-os": {
+    "name": "Sistemas de escritorio",
+    "h1": "Sistemas operativos para ordenador",
+    "intro": [
+     "Tu sistema operativo ve todo lo que haces. Estos van desde distribuciones Linux corrientes hasta sistemas hechos para no dejar rastro.",
+     "Varios arrancan desde un USB o dentro de una máquina virtual, así que puedes probarlos sin borrar tu ordenador."
+    ]
+   },
+   "mobile-os": {
+    "name": "Sistemas de móvil",
+    "h1": "Sistemas operativos para móvil",
+    "intro": [
+     "Cada sistema de abajo sustituye al Android que trae tu móvil. Mira primero la lista de dispositivos: cada uno funciona solo en unos pocos modelos.",
+     "Cada ficha indica en qué dispositivos funciona."
+    ]
+   },
+   "email": {
+    "name": "Correo electrónico",
+    "h1": "Proveedores de correo privado",
+    "intro": [
+     "Un proveedor de correo guarda tus mensajes y sabe con quién hablas. Estos proveedores dicen cómo cifran, dónde están y qué piden al registrarte.",
+     "Mira qué pide el proveedor al registrarte y cómo puedes pagar."
+    ]
+   },
+   "email-aliases": {
+    "name": "Alias de correo",
+    "h1": "Servicios de alias de correo",
+    "intro": [
+     "Un alias reenvía el correo a tu bandeja real, así que un sitio nunca ve tu dirección real. Apagas un alias en cuanto recibe spam."
     ]
    }
   }

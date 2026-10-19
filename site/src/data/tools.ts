@@ -7,13 +7,14 @@ export interface Tool {
   page: string; slug: string; name: string; url: string; identity: Identity; code: Code; facts: string[];
   affiliate?: string; release?: string; repo?: string; note?: string;
 }
-export interface ToolPage { key: string; group: 'network' | 'crypto'; }
+export interface ToolPage { key: string; group: 'network' | 'crypto' | 'devices'; }
 
 export const TOOL_PAGES: ToolPage[] = [
   { key: 'vpn', group: 'network' }, { key: 'tor', group: 'network' }, { key: 'dns', group: 'network' },
   { key: 'leak-tests', group: 'network' }, { key: 'routers', group: 'network' },
   { key: 'wallets', group: 'crypto' }, { key: 'hardware-wallets', group: 'crypto' }, { key: 'monero-wallets', group: 'crypto' },
   { key: 'privacy-coins', group: 'crypto' }, { key: 'private-payments', group: 'crypto' },
+  { key: 'desktop-os', group: 'devices' }, { key: 'mobile-os', group: 'devices' }, { key: 'email', group: 'devices' }, { key: 'email-aliases', group: 'devices' },
 ];
 
 // Règle de tri unique : ce que l'outil demande (rien, un compte, une pièce d'identité, non indiqué), puis code ouvert d'abord, puis A à Z.

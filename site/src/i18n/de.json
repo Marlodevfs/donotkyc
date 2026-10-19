@@ -616,7 +616,8 @@
   "all": "Alle Werkzeuge",
   "groups": {
    "network": "Netzwerk-Privatsphäre",
-   "crypto": "Private Krypto"
+   "crypto": "Private Krypto",
+   "devices": "Geräte und Konten"
   },
   "pages": {
    "vpn": {
@@ -694,6 +695,37 @@
     "intro": [
      "Wege, online zu bezahlen, ohne dem Händler deine Karte oder Telefonnummer zu geben.",
      "Manche verlangen einen Ausweis. Der Eintrag sagt es."
+    ]
+   },
+   "desktop-os": {
+    "name": "Desktop-Systeme",
+    "h1": "Betriebssysteme für Computer",
+    "intro": [
+     "Dein Betriebssystem sieht alles, was du tust. Diese reichen von gewöhnlichen Linux-Distributionen bis zu Systemen, die keine Spuren hinterlassen sollen.",
+     "Mehrere starten von einem USB-Stick oder in einer virtuellen Maschine, du kannst sie also testen, ohne deinen Rechner zu löschen."
+    ]
+   },
+   "mobile-os": {
+    "name": "Handy-Systeme",
+    "h1": "Betriebssysteme für Handys",
+    "intro": [
+     "Jedes System unten ersetzt das Android, das auf deinem Handy ausgeliefert wird. Sieh zuerst in die Geräteliste: Jedes läuft nur auf wenigen Modellen.",
+     "Jeder Eintrag nennt die Geräte, auf denen es läuft."
+    ]
+   },
+   "email": {
+    "name": "E-Mail",
+    "h1": "Private E-Mail-Anbieter",
+    "intro": [
+     "Ein E-Mail-Anbieter speichert deine Nachrichten und weiß, mit wem du schreibst. Diese Anbieter sagen, wie sie verschlüsseln, wo sie sitzen und was sie bei der Anmeldung verlangen.",
+     "Prüfe, was der Anbieter bei der Anmeldung verlangt und wie du zahlen kannst."
+    ]
+   },
+   "email-aliases": {
+    "name": "E-Mail-Aliase",
+    "h1": "E-Mail-Alias-Dienste",
+    "intro": [
+     "Ein Alias leitet Post an dein echtes Postfach weiter, daher sieht eine Seite nie deine echte Adresse. Du schaltest einen Alias ab, sobald er Spam bekommt."
     ]
    }
   }

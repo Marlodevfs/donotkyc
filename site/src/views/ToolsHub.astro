@@ -9,7 +9,7 @@ const t = useT(lang);
 const L = (p: string) => lp(lang, p);
 const d = dict(lang).tools;
 const site = 'https://www.donotkyc.com';
-const groups = ['network', 'crypto'] as const;
+const groups = ['network', 'crypto', 'devices'] as const;
 const jsonld = [{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: t('nav.directory'), item: site + L('/') }, { '@type': 'ListItem', position: 2, name: d.name, item: site + L('/tools') }] }];
 ---
 <Base title={`${d.hub_h1} | DoNotKYC`} description={d.hub_intro[0]} path="/tools" lang={lang} localized nav="tools" jsonld={jsonld}>

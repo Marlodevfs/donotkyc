@@ -44,6 +44,10 @@ Each entry quotes the maker's own site and states what the tool asks of you and 
 - https://www.donotkyc.com/tools/monero-wallets
 - https://www.donotkyc.com/tools/privacy-coins
 - https://www.donotkyc.com/tools/private-payments
+- https://www.donotkyc.com/tools/desktop-os
+- https://www.donotkyc.com/tools/mobile-os
+- https://www.donotkyc.com/tools/email
+- https://www.donotkyc.com/tools/email-aliases
 
 ## Platforms
 - [1inch](https://www.donotkyc.com/p/1inch): Decentralised exchange. Identity: None (no ID, no account details). Wallet only. Crypto only. Fees: Variable (aggregator).

@@ -616,7 +616,8 @@
   "all": "Tüm araçlar",
   "groups": {
    "network": "Ağ gizliliği",
-   "crypto": "Gizli kripto"
+   "crypto": "Gizli kripto",
+   "devices": "Cihazlar ve hesaplar"
   },
   "pages": {
    "vpn": {
@@ -694,6 +695,37 @@
     "intro": [
      "Satıcıya kartını veya telefon numaranı vermeden çevrimiçi ödeme yolları.",
      "Bazıları kimlik ister. Kayıt bunu söyler."
+    ]
+   },
+   "desktop-os": {
+    "name": "Bilgisayar sistemleri",
+    "h1": "Bilgisayarlar için işletim sistemleri",
+    "intro": [
+     "İşletim sistemin yaptığın her şeyi görür. Bunlar sıradan Linux dağıtımlarından iz bırakmamak için yapılmış sistemlere kadar uzanır.",
+     "Birçoğu USB bellekten ya da sanal makinede açılır, böylece bilgisayarını silmeden deneyebilirsin."
+    ]
+   },
+   "mobile-os": {
+    "name": "Telefon sistemleri",
+    "h1": "Telefonlar için işletim sistemleri",
+    "intro": [
+     "Aşağıdaki her sistem telefonunda gelen Android'in yerini alır. Önce cihaz listesine bak: her biri yalnızca birkaç modelde çalışır.",
+     "Her kayıt hangi cihazlarda çalıştığını söyler."
+    ]
+   },
+   "email": {
+    "name": "E-posta",
+    "h1": "Gizli e-posta sağlayıcıları",
+    "intro": [
+     "E-posta sağlayıcısı iletilerini saklar ve kimle yazıştığını bilir. Bu sağlayıcılar nasıl şifrelediklerini, nerede olduklarını ve kayıtta ne istediklerini söyler.",
+     "Sağlayıcının kayıtta ne istediğine ve nasıl ödeyebileceğine bak."
+    ]
+   },
+   "email-aliases": {
+    "name": "E-posta takma adları",
+    "h1": "E-posta takma ad hizmetleri",
+    "intro": [
+     "Takma ad, postayı gerçek gelen kutuna iletir, bu yüzden bir site gerçek adresini hiç görmez. Spam almaya başlayan bir takma adı kapatırsın."
     ]
    }
   }

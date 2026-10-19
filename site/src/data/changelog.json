@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Tools: operating systems, e-mail and aliases",
+    "body": "Four more tool pages: desktop systems (Tails, Whonix, Qubes OS and more), phone systems (GrapheneOS, CalyxOS, /e/OS, LineageOS), private e-mail providers and e-mail alias services. Same entry format and same sort rule as the other tool pages."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Tools section: VPN, Tor, DNS, wallets and more",
     "body": "Ten new pages list the tools people use next to a no-KYC platform: VPNs, Tor and other networks, encrypted DNS, leak tests, routers, Bitcoin, hardware and Monero wallets, privacy coins and private payments. Each entry quotes the maker's own site, says what the tool asks of you and whether its code is open, and follows one sort rule. The old VPN guide now lives on the VPN page."
   },

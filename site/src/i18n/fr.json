@@ -616,7 +616,8 @@
   "all": "Tous les outils",
   "groups": {
    "network": "Confidentialité réseau",
-   "crypto": "Crypto privée"
+   "crypto": "Crypto privée",
+   "devices": "Appareils et comptes"
   },
   "pages": {
    "vpn": {
@@ -694,6 +695,37 @@
     "intro": [
      "Des moyens de payer en ligne sans donner à un marchand votre carte ou votre numéro de téléphone.",
      "Certains demandent une pièce d'identité. La fiche le dit."
+    ]
+   },
+   "desktop-os": {
+    "name": "Systèmes ordinateur",
+    "h1": "Systèmes d'exploitation pour ordinateur",
+    "intro": [
+     "Votre système d'exploitation voit tout ce que vous faites. Ceux-ci vont des distributions Linux ordinaires à des systèmes conçus pour ne laisser aucune trace.",
+     "Plusieurs se lancent depuis une clé USB ou dans une machine virtuelle : vous pouvez les essayer sans effacer votre ordinateur."
+    ]
+   },
+   "mobile-os": {
+    "name": "Systèmes téléphone",
+    "h1": "Systèmes d'exploitation pour téléphone",
+    "intro": [
+     "Chaque système ci-dessous remplace l'Android livré avec votre téléphone. Regardez d'abord la liste des appareils : chacun ne tourne que sur une courte liste de modèles.",
+     "Chaque fiche indique sur quels appareils il fonctionne."
+    ]
+   },
+   "email": {
+    "name": "E-mail",
+    "h1": "Fournisseurs d'e-mail privés",
+    "intro": [
+     "Un fournisseur d'e-mail garde vos messages et sait avec qui vous parlez. Ces fournisseurs disent comment ils chiffrent, où ils se trouvent et ce qu'ils demandent à l'inscription.",
+     "Regardez ce que le fournisseur demande à l'inscription et comment vous pouvez payer."
+    ]
+   },
+   "email-aliases": {
+    "name": "Alias e-mail",
+    "h1": "Services d'alias e-mail",
+    "intro": [
+     "Un alias transfère le courrier vers votre vraie boîte : un site ne voit jamais votre vraie adresse. Vous coupez un alias dès qu'il reçoit du spam."
     ]
    }
   }
