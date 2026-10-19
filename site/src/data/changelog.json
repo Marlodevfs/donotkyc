@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "Cookie-free visit counter",
+    "body": "DoNotKYC now counts visits with GoatCounter, an open-source counter with no cookies and no personal data. The privacy policy explains what it records."
+  },
+  {
     "date": "2026-10-18",
     "title": "Synapse back to active",
     "body": "synapseprotocol.com now redirects to Hypercall, the team's new product, but the Synapse bridge still works at bridge.synapseprotocol.com. The listing points there and is no longer under review."
