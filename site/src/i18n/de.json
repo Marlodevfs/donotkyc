@@ -727,6 +727,14 @@
     "intro": [
      "Ein Alias leitet Post an dein echtes Postfach weiter, daher sieht eine Seite nie deine echte Adresse. Du schaltest einen Alias ab, sobald er Spam bekommt."
     ]
+   },
+   "coinjoin": {
+    "name": "CoinJoin",
+    "h1": "CoinJoin-Werkzeuge",
+    "intro": [
+     "Ein CoinJoin ist eine Bitcoin-Transaktion, die mehrere Personen gemeinsam bauen, um die Privatsphäre ihrer Zahlungen zu verbessern.",
+     "Einige Dienste wurden eingestellt: zkSNACKs schloss seinen Wasabi-Koordinator am 1. Juni 2024, und das JoinMarket-Repository wurde im April 2026 archiviert."
+    ]
    }
   }
  }

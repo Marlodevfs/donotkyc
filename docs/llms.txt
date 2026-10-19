@@ -42,6 +42,7 @@ Each entry quotes the maker's own site and states what the tool asks of you and 
 - https://www.donotkyc.com/tools/wallets
 - https://www.donotkyc.com/tools/hardware-wallets
 - https://www.donotkyc.com/tools/monero-wallets
+- https://www.donotkyc.com/tools/coinjoin
 - https://www.donotkyc.com/tools/privacy-coins
 - https://www.donotkyc.com/tools/private-payments
 - https://www.donotkyc.com/tools/desktop-os

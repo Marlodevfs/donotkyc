@@ -1014,5 +1014,36 @@
    "Says it is 100% open source, with the code on GitHub.",
    "Product of Proton AG, a Swiss company."
   ]
+ },
+ {
+  "page": "coinjoin",
+  "slug": "wasabi-coinjoin",
+  "name": "Wasabi",
+  "url": "https://wasabiwallet.io",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Desktop Bitcoin wallet with Tor, coin control and CoinJoin through the WabiSabi protocol.",
+   "Says CoinJoin coordination is run by third parties that you must find yourself.",
+   "Windows, macOS and Linux. No mobile app.",
+   "MIT license."
+  ],
+  "release": "2026-10-13",
+  "repo": "https://github.com/WalletWasabi/WalletWasabi"
+ },
+ {
+  "page": "coinjoin",
+  "slug": "joinmarket",
+  "name": "JoinMarket",
+  "url": "https://github.com/JoinMarket-Org/joinmarket-clientserver",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Software that creates CoinJoin transactions through a market: makers wait to take part, takers pay them a fee.",
+   "The repository has been archived since April 2026 and its README says it is not recommended for use.",
+   "GPL-3.0 license."
+  ],
+  "release": "2026-04-21",
+  "repo": "https://github.com/JoinMarket-Org/joinmarket-clientserver"
  }
 ]

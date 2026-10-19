@@ -727,6 +727,14 @@
     "intro": [
      "Um alias encaminha o e-mail para sua caixa real, então um site nunca vê seu endereço real. Você desliga um alias assim que ele recebe spam."
     ]
+   },
+   "coinjoin": {
+    "name": "CoinJoin",
+    "h1": "Ferramentas CoinJoin",
+    "intro": [
+     "Um CoinJoin é uma transação de Bitcoin que várias pessoas montam juntas para melhorar a privacidade dos pagamentos.",
+     "Alguns serviços pararam: a zkSNACKs encerrou seu coordenador do Wasabi em 1º de junho de 2024, e o repositório do JoinMarket foi arquivado em abril de 2026."
+    ]
    }
   }
  }

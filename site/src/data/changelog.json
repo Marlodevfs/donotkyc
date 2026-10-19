@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "CoinJoin tools page",
+    "body": "A new tools page lists Wasabi and JoinMarket with what their own sites say. It notes which services have stopped: the Wasabi coordinator in June 2024 and the archived JoinMarket repository."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Tools: operating systems, e-mail and aliases",
     "body": "Four more tool pages: desktop systems (Tails, Whonix, Qubes OS and more), phone systems (GrapheneOS, CalyxOS, /e/OS, LineageOS), private e-mail providers and e-mail alias services. Same entry format and same sort rule as the other tool pages."
   },

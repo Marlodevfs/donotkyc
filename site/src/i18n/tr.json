@@ -727,6 +727,14 @@
     "intro": [
      "Takma ad, postayı gerçek gelen kutuna iletir, bu yüzden bir site gerçek adresini hiç görmez. Spam almaya başlayan bir takma adı kapatırsın."
     ]
+   },
+   "coinjoin": {
+    "name": "CoinJoin",
+    "h1": "CoinJoin araçları",
+    "intro": [
+     "CoinJoin, birkaç kişinin ödemelerinin gizliliğini artırmak için birlikte oluşturduğu bir Bitcoin işlemidir.",
+     "Bazı hizmetler durdu: zkSNACKs Wasabi koordinatörünü 1 Haziran 2024'te kapattı ve JoinMarket deposu Nisan 2026'da arşivlendi."
+    ]
    }
   }
  }

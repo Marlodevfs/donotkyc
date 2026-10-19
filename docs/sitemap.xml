@@ -19,6 +19,7 @@
   <url><loc>https://www.donotkyc.com/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/tools/desktop-os</loc></url>
@@ -122,6 +123,7 @@
   <url><loc>https://www.donotkyc.com/fr/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/fr/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/fr/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/fr/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/fr/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/fr/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/fr/tools/desktop-os</loc></url>
@@ -225,6 +227,7 @@
   <url><loc>https://www.donotkyc.com/es/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/es/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/es/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/es/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/es/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/es/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/es/tools/desktop-os</loc></url>
@@ -328,6 +331,7 @@
   <url><loc>https://www.donotkyc.com/de/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/de/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/de/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/de/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/de/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/de/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/de/tools/desktop-os</loc></url>
@@ -431,6 +435,7 @@
   <url><loc>https://www.donotkyc.com/pt/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/pt/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/pt/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/pt/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/pt/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/pt/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/pt/tools/desktop-os</loc></url>
@@ -534,6 +539,7 @@
   <url><loc>https://www.donotkyc.com/it/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/it/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/it/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/it/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/it/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/it/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/it/tools/desktop-os</loc></url>
@@ -637,6 +643,7 @@
   <url><loc>https://www.donotkyc.com/ru/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/ru/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/ru/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/ru/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/ru/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/ru/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/ru/tools/desktop-os</loc></url>
@@ -740,6 +747,7 @@
   <url><loc>https://www.donotkyc.com/tr/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/tr/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/tr/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/tr/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/tr/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/tr/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/tr/tools/desktop-os</loc></url>
@@ -843,6 +851,7 @@
   <url><loc>https://www.donotkyc.com/zh/tools/wallets</loc></url>
   <url><loc>https://www.donotkyc.com/zh/tools/hardware-wallets</loc></url>
   <url><loc>https://www.donotkyc.com/zh/tools/monero-wallets</loc></url>
+  <url><loc>https://www.donotkyc.com/zh/tools/coinjoin</loc></url>
   <url><loc>https://www.donotkyc.com/zh/tools/privacy-coins</loc></url>
   <url><loc>https://www.donotkyc.com/zh/tools/private-payments</loc></url>
   <url><loc>https://www.donotkyc.com/zh/tools/desktop-os</loc></url>
