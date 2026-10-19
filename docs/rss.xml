@@ -6,79 +6,86 @@
     <description>Changes to the DoNotKYC directory of no-KYC crypto platforms.</description>
     <language>en</language>
     <item>
-      <title>Versioned API and security contact</title>
+      <title>KYC claims corrected for 4 platforms</title>
       <link>https://www.donotkyc.com/changelog#0</link>
       <guid isPermaLink="false">https://www.donotkyc.com/changelog#0-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+      <description>We compared our listings with the platforms' own policies. Changelly and StealthEX publish identity-check policies, so they no longer read "email only" or "no ID up to $700". LocalCoinSwap can ask for ID after a dispute or an alert. Bybit lets unverified accounts withdraw up to 20,000 USDT a day but asks for ID to trade. Seven listings now link the policy page they rely on.</description>
+    </item>
+    <item>
+      <title>Versioned API and security contact</title>
+      <link>https://www.donotkyc.com/changelog#1</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#1-2026-10-19</guid>
       <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
       <description>The directory is now also served at /api/v1/platforms.json, one flat list with every field. A security.txt file tells researchers where to report a problem, and robots.txt names the AI crawlers that are welcome.</description>
     </item>
     <item>
       <title>Cookie-free visit counter</title>
-      <link>https://www.donotkyc.com/changelog#1</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#1-2026-10-19</guid>
+      <link>https://www.donotkyc.com/changelog#2</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#2-2026-10-19</guid>
       <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
       <description>DoNotKYC now counts visits with GoatCounter, an open-source counter with no cookies and no personal data. The privacy policy explains what it records.</description>
     </item>
     <item>
       <title>Synapse back to active</title>
-      <link>https://www.donotkyc.com/changelog#2</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#2-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#3</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#3-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>synapseprotocol.com now redirects to Hypercall, the team's new product, but the Synapse bridge still works at bridge.synapseprotocol.com. The listing points there and is no longer under review.</description>
     </item>
     <item>
       <title>How we make money, and a privacy policy</title>
-      <link>https://www.donotkyc.com/changelog#3</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#3-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#4</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#4-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>Two new pages explain who pays DoNotKYC (affiliate links and labelled sponsored tiles, with our advertising rules) and confirm the site collects no data about visitors.</description>
     </item>
     <item>
       <title>Boltz under review: swaps suspended</title>
-      <link>https://www.donotkyc.com/changelog#4</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#4-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#5</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#5-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. The listing stays visible with a warning and is out of our recommendations until the service is back.</description>
     </item>
     <item>
       <title>Synapse under review</title>
-      <link>https://www.donotkyc.com/changelog#5</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#5-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#6</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#6-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>synapseprotocol.com now redirects to hypercall.xyz/synapse. We are confirming the service and its address before updating the listing.</description>
     </item>
     <item>
       <title>1inch moved to 1inch.com</title>
-      <link>https://www.donotkyc.com/changelog#6</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#6-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#7</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#7-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>The listing now points to the new domain.</description>
     </item>
     <item>
       <title>Weekly automatic check of every listing</title>
-      <link>https://www.donotkyc.com/changelog#7</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#7-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#8</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#8-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>Every Monday a script checks that each platform's site still answers and has not moved to another domain, and lists platforms whose last real-money test is older than 90 days.</description>
     </item>
     <item>
       <title>Side-by-side comparisons</title>
-      <link>https://www.donotkyc.com/changelog#8</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#8-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#9</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#9-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>18 comparisons of platforms that do the same job, such as MEXC vs Bybit or Bisq vs Hodl Hodl.</description>
     </item>
     <item>
       <title>Site available in 9 languages</title>
-      <link>https://www.donotkyc.com/changelog#9</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#9-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#10</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#10-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>English, French, Spanish, German, Portuguese, Italian, Russian, Turkish and Chinese.</description>
     </item>
     <item>
       <title>New directory, one page per platform</title>
-      <link>https://www.donotkyc.com/changelog#10</link>
-      <guid isPermaLink="false">https://www.donotkyc.com/changelog#10-2026-10-18</guid>
+      <link>https://www.donotkyc.com/changelog#11</link>
+      <guid isPermaLink="false">https://www.donotkyc.com/changelog#11-2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>Platforms are now sorted by how much identity they ask for (None, Light, Tiered), with a page each, topic pages and alternatives to exchanges that require ID. Data errors fixed for KCEX, DeGate and Boltz. Google Analytics and third-party logos removed: the site makes no request to any other service.</description>
     </item>

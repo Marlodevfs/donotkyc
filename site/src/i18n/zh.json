@@ -305,7 +305,11 @@
   "US": "美国",
   "US, Canada": "美国、加拿大",
   "US, UK, Singapore": "美国、英国、新加坡",
-  "US, for some swaps": "美国（部分兑换）"
+  "US, for some swaps": "美国（部分兑换）",
+  "ID can be required at any time": "随时可能要求提供身份证件",
+  "ID can be required, no limit published": "可能要求提供身份证件，未公布额度",
+  "No ID unless there is a dispute or an alert": "无需身份证件，除非出现纠纷或风险提示",
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "每日最多提现 20,000 USDT 无需身份证件，交易需要身份证件"
  },
  "landings": {
   "/exchanges": {

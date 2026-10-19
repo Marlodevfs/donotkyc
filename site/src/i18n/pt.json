@@ -304,7 +304,11 @@
   "US": "EUA",
   "US, Canada": "EUA, Canadá",
   "US, UK, Singapore": "EUA, Reino Unido, Singapura",
-  "US, for some swaps": "EUA, em alguns swaps"
+  "US, for some swaps": "EUA, em alguns swaps",
+  "ID can be required at any time": "Pode ser exigido um documento de identidade a qualquer momento",
+  "ID can be required, no limit published": "Pode ser exigido um documento de identidade, sem limite publicado",
+  "No ID unless there is a dispute or an alert": "Sem identidade, exceto em caso de disputa ou alerta",
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Sem identidade para sacar até 20 000 USDT por dia, identidade para negociar"
  },
  "landings": {
   "/exchanges": {

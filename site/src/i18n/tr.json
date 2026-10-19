@@ -304,7 +304,11 @@
   "US": "ABD",
   "US, Canada": "ABD, Kanada",
   "US, UK, Singapore": "ABD, Birleşik Krallık, Singapur",
-  "US, for some swaps": "ABD, bazı takaslar için"
+  "US, for some swaps": "ABD, bazı takaslar için",
+  "ID can be required at any time": "Kimlik belgesi her an istenebilir",
+  "ID can be required, no limit published": "Kimlik belgesi istenebilir, yayımlanmış limit yok",
+  "No ID unless there is a dispute or an alert": "Anlaşmazlık veya uyarı dışında kimlik yok",
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Günde 20.000 USDT'ye kadar çekim kimliksiz, işlem için kimlik gerekir"
  },
  "landings": {
   "/exchanges": {

@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "KYC claims corrected for 4 platforms",
+    "body": "We compared our listings with the platforms' own policies. Changelly and StealthEX publish identity-check policies, so they no longer read \"email only\" or \"no ID up to $700\". LocalCoinSwap can ask for ID after a dispute or an alert. Bybit lets unverified accounts withdraw up to 20,000 USDT a day but asks for ID to trade. Seven listings now link the policy page they rely on."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Versioned API and security contact",
     "body": "The directory is now also served at /api/v1/platforms.json, one flat list with every field. A security.txt file tells researchers where to report a problem, and robots.txt names the AI crawlers that are welcome."
   },

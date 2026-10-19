@@ -40,8 +40,8 @@
     "affiliate_link": "https://partner.bybit.com/b/58129",
     "logo": "logos/bybit.webp",
     "kyc_level": "tiered",
-    "kyc_summary": "No ID up to 20,000 USDT a day",
-    "kyc_tier": "Tiered (20,000 USDT/day no KYC)",
+    "kyc_summary": "No ID to withdraw up to 20,000 USDT a day, ID to trade",
+    "kyc_tier": "Tiered (withdrawals up to 20,000 USDT/day without KYC, ID to trade)",
     "supported_countries": "Global except US, UK, Singapore",
     "blocked": "US, UK, Singapore",
     "fiat_deposit": false,
@@ -62,7 +62,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://cointelegraph.com/news/bybit-to-introduce-mandatory-kyc-requirements-starting-may-8",
     "tests": []
   },
   {
@@ -995,8 +995,8 @@
     "affiliate_link": null,
     "logo": "logos/localcoinswap.webp",
     "kyc_level": "none",
-    "kyc_summary": "No ID",
-    "kyc_tier": "None",
+    "kyc_summary": "No ID unless there is a dispute or an alert",
+    "kyc_tier": "None unless a dispute or an alert",
     "supported_countries": "Global",
     "blocked": null,
     "fiat_deposit": true,
@@ -1016,7 +1016,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://localcoinswap.com/terms-of-service",
     "tests": []
   },
   {
@@ -1089,8 +1089,8 @@
     "affiliate_link": null,
     "logo": "logos/changelly.webp",
     "kyc_level": "light",
-    "kyc_summary": "Email only",
-    "kyc_tier": "Email only",
+    "kyc_summary": "ID can be required at any time",
+    "kyc_tier": "Risk-based ID checks",
     "supported_countries": "Global except US",
     "blocked": "US",
     "fiat_deposit": true,
@@ -1111,7 +1111,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://changelly.com/aml-kyc",
     "tests": []
   },
   {
@@ -1154,8 +1154,8 @@
     "affiliate_link": null,
     "logo": "logos/stealthex.webp",
     "kyc_level": "light",
-    "kyc_summary": "No ID up to $700 a swap",
-    "kyc_tier": "No KYC up to $700/transaction",
+    "kyc_summary": "ID can be required, no limit published",
+    "kyc_tier": "ID checks under its AML policy, no limit published",
     "supported_countries": "Global",
     "blocked": null,
     "fiat_deposit": true,
@@ -1181,7 +1181,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://stealthex.io/kyc-aml/",
     "tests": []
   },
   {

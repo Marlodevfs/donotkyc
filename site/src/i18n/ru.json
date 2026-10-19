@@ -305,7 +305,11 @@
   "US": "США",
   "US, Canada": "США, Канада",
   "US, UK, Singapore": "США, Великобритания, Сингапур",
-  "US, for some swaps": "США, для части обменов"
+  "US, for some swaps": "США, для части обменов",
+  "ID can be required at any time": "Документ, удостоверяющий личность, могут потребовать в любой момент",
+  "ID can be required, no limit published": "Документ могут потребовать, лимит не опубликован",
+  "No ID unless there is a dispute or an alert": "Без документа, кроме споров и тревожных сигналов",
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Вывод до 20 000 USDT в день без документа, для торговли документ нужен"
  },
  "landings": {
   "/exchanges": {

@@ -305,7 +305,11 @@
   "US": "US",
   "US, Canada": "US, Canada",
   "US, UK, Singapore": "US, UK, Singapore",
-  "US, for some swaps": "US, for some swaps"
+  "US, for some swaps": "US, for some swaps",
+  "ID can be required at any time": "ID can be required at any time",
+  "ID can be required, no limit published": "ID can be required, no limit published",
+  "No ID unless there is a dispute or an alert": "No ID unless there is a dispute or an alert",
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "No ID to withdraw up to 20,000 USDT a day, ID to trade"
  },
  "compare": {
   "index_title": "Compare no-KYC platforms side by side | DoNotKYC",
