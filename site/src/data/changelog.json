@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Two instant swaps added, volume and reputation lines removed",
+    "body": "FixedFloat and ChangeNOW join the directory, each with the page of its own terms or FAQ as the source. Both ask for ID only when a swap is flagged. The \"24h volume\" and \"Reputation\" lines are gone from the listings and the API: they were not dated and partly subjective. The TikTok link is removed."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Proofreading pass and tools on the home page",
     "body": "Guides and API page rewritten in plainer English, the security guide loses its closing slogan in all 9 languages, and both guides now link to the matching tool pages. The home page gets a Tools section. Promotional wording and unsourced claims are removed from a few platform listings (Best Wallet, SilentSwap and some feature tags)."
   },

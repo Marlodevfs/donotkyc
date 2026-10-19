@@ -24,7 +24,7 @@ if (rank(a) !== rank(b)) {
 } else verdict.push(t('compare.same_id', { l: lvl(a) }));
 if (a.fiat_deposit !== b.fiat_deposit) verdict.push(t('compare.fiat_one', { x: (a.fiat_deposit ? a : b).name }));
 else verdict.push(t(a.fiat_deposit ? 'compare.fiat_both' : 'compare.fiat_none'));
-if (a.custody !== b.custody && a.custody !== 'none' && b.custody !== 'none') {
+if (a.custody !== b.custody && ![a.custody, b.custody].some((c) => c === 'none' || c === 'unstated')) {
   const [x, y] = a.custody === 'self' ? [a, b] : [b, a];
   verdict.push(t('compare.custody_diff', { x: x.name, y: y.name }));
 }

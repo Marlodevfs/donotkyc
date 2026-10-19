@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "Your wallet",
    "custodial": "Platform holds funds",
-   "none": "Not applicable (cash)"
+   "none": "Not applicable (cash)",
+   "unstated": "Not stated"
   },
   "payments_v": {
    "crypto": "Crypto",

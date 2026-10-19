@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "你自己的钱包",
    "custodial": "平台保管资金",
-   "none": "不适用（现金）"
+   "none": "不适用（现金）",
+   "unstated": "未说明"
   },
   "payments_v": {
    "crypto": "加密货币",
@@ -324,7 +325,11 @@
   "US (South)": "美国（南部）",
   "Canada, US": "加拿大、美国",
   "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "全球（法币支持 160 多个国家，加密货币兑换覆盖全球，部分兑换在美国等禁止地区除外）",
-  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "全球（美国除外：自 2025 年 10 月 V2 上线起，明确禁止美国用户）"
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "全球（美国除外：自 2025 年 10 月 V2 上线起，明确禁止美国用户）",
+  "Global except US, Georgia, India": "全球（美国、格鲁吉亚、印度除外）",
+  "US, Georgia, India": "美国、格鲁吉亚、印度",
+  "175+ countries": "175+ 个国家",
+  "Not stated": "未说明"
  },
  "landings": {
   "/exchanges": {

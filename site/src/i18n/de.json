@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "Dein Wallet",
    "custodial": "Plattform verwahrt",
-   "none": "Entfällt (Bargeld)"
+   "none": "Entfällt (Bargeld)",
+   "unstated": "Nicht angegeben"
   },
   "payments_v": {
    "crypto": "Krypto",
@@ -324,7 +325,11 @@
   "Canada, US": "Kanada, USA",
   "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Weltweit (über 160 Länder für Fiat, Krypto-Swaps weltweit außer in verbotenen Rechtsordnungen wie den USA bei manchen Swaps)",
   "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Weltweit (außer USA: US-Nutzer sind seit dem Start von V2 im Oktober 2025 ausdrücklich ausgeschlossen)",
-  "New York": "New York"
+  "New York": "New York",
+  "Global except US, Georgia, India": "Weltweit außer USA, Georgien, Indien",
+  "US, Georgia, India": "USA, Georgien, Indien",
+  "175+ countries": "175+ Länder",
+  "Not stated": "Nicht angegeben"
  },
  "landings": {
   "/exchanges": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 42,
+  "count": 44,
   "platforms": [
     {
       "slug": "mexc",
@@ -1265,6 +1265,65 @@
       "kyc_source": null,
       "tests": [],
       "page": "https://www.donotkyc.com/p/silentswap"
+    },
+    {
+      "tor": null,
+      "open_source": null,
+      "status": "active",
+      "status_note": null,
+      "tests": [],
+      "slug": "fixedfloat",
+      "name": "FixedFloat",
+      "type": "Instant Swap",
+      "url": "https://ff.io",
+      "kyc_level": "light",
+      "kyc_summary": "ID only if a swap is flagged",
+      "kyc_tier": "No account. ID if the source of funds is not shown",
+      "supported_countries": "Global except US, Georgia, India",
+      "blocked": "US, Georgia, India",
+      "fiat_deposit": false,
+      "fees": "1% fixed rate, 0.5% floating rate",
+      "cryptocurrencies": null,
+      "features": [
+        "No registration",
+        "Non-custodial"
+      ],
+      "custody": "self",
+      "payment_methods": [
+        "crypto"
+      ],
+      "kyc_source": "https://ff.io/terms-of-service",
+      "page": "https://www.donotkyc.com/p/fixedfloat"
+    },
+    {
+      "tor": null,
+      "open_source": null,
+      "status": "active",
+      "status_note": null,
+      "tests": [],
+      "slug": "changenow",
+      "name": "ChangeNOW",
+      "type": "Instant Swap",
+      "url": "https://changenow.io",
+      "kyc_level": "light",
+      "kyc_summary": "ID only if a swap is flagged",
+      "kyc_tier": "No account for swaps. ID if flagged. Card purchase rules not stated",
+      "supported_countries": "175+ countries",
+      "blocked": "Not stated",
+      "fiat_deposit": true,
+      "fees": "Included in the rate",
+      "cryptocurrencies": "1000+",
+      "features": [
+        "No account for swaps",
+        "Buy with card (47+ fiat currencies)"
+      ],
+      "custody": "unstated",
+      "payment_methods": [
+        "crypto",
+        "fiat"
+      ],
+      "kyc_source": "https://changenow.io/faq",
+      "page": "https://www.donotkyc.com/p/changenow"
     }
   ]
 }

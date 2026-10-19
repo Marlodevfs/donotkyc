@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "Ваш кошелёк",
    "custodial": "Средства у платформы",
-   "none": "Неприменимо (наличные)"
+   "none": "Неприменимо (наличные)",
+   "unstated": "Не указано"
   },
   "payments_v": {
    "crypto": "Крипта",
@@ -324,7 +325,11 @@
   "US (South)": "США (юг)",
   "Canada, US": "Канада, США",
   "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Весь мир (более 160 стран для фиата, крипто-обмены везде, кроме запрещённых юрисдикций, например США для некоторых обменов)",
-  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Весь мир (кроме США: пользователям из США доступ прямо запрещён с запуска V2 в октябре 2025)"
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Весь мир (кроме США: пользователям из США доступ прямо запрещён с запуска V2 в октябре 2025)",
+  "Global except US, Georgia, India": "Весь мир, кроме США, Грузии и Индии",
+  "US, Georgia, India": "США, Грузия, Индия",
+  "175+ countries": "175+ стран",
+  "Not stated": "Не указано"
  },
  "landings": {
   "/exchanges": {

@@ -1021,6 +1021,53 @@
       "open_source": null,
       "status": "active",
       "last_tested": null
+    },
+    {
+      "name": "FixedFloat",
+      "type": "Instant Swap",
+      "url": "https://ff.io",
+      "kyc_tier": "No account. ID if the source of funds is not shown",
+      "kyc_level": "light",
+      "supported_countries": "Global except US, Georgia, India",
+      "fiat_deposit": false,
+      "fees": "1% fixed rate, 0.5% floating rate",
+      "cryptocurrencies": null,
+      "features": [
+        "No registration",
+        "Non-custodial"
+      ],
+      "custody": "self",
+      "payment_methods": [
+        "crypto"
+      ],
+      "tor": null,
+      "open_source": null,
+      "status": "active",
+      "last_tested": null
+    },
+    {
+      "name": "ChangeNOW",
+      "type": "Instant Swap",
+      "url": "https://changenow.io",
+      "kyc_tier": "No account for swaps. ID if flagged. Card purchase rules not stated",
+      "kyc_level": "light",
+      "supported_countries": "175+ countries",
+      "fiat_deposit": true,
+      "fees": "Included in the rate",
+      "cryptocurrencies": "1000+",
+      "features": [
+        "No account for swaps",
+        "Buy with card (47+ fiat currencies)"
+      ],
+      "custody": "unstated",
+      "payment_methods": [
+        "crypto",
+        "fiat"
+      ],
+      "tor": null,
+      "open_source": null,
+      "status": "active",
+      "last_tested": null
     }
   ]
 }

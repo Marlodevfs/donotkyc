@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "Tu wallet",
    "custodial": "La plataforma guarda los fondos",
-   "none": "No aplica (efectivo)"
+   "none": "No aplica (efectivo)",
+   "unstated": "No indicado"
   },
   "payments_v": {
    "crypto": "Cripto",
@@ -324,7 +325,11 @@
   "Canada, US": "Canadá, EE. UU.",
   "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Todo el mundo (más de 160 países en fiat, swaps cripto en todo el mundo salvo jurisdicciones prohibidas como EE. UU. en algunos swaps)",
   "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Todo el mundo (excepto EE. UU.: los usuarios estadounidenses están prohibidos de forma expresa desde el lanzamiento de V2 en octubre de 2025)",
-  "New York": "Nueva York"
+  "New York": "Nueva York",
+  "Global except US, Georgia, India": "Todo el mundo excepto EE. UU., Georgia e India",
+  "US, Georgia, India": "EE. UU., Georgia, India",
+  "175+ countries": "175+ países",
+  "Not stated": "No indicado"
  },
  "landings": {
   "/exchanges": {

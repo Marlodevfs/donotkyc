@@ -254,7 +254,8 @@
   "custody_v": {
    "self": "Senin cüzdanın",
    "custodial": "Fonları platform tutar",
-   "none": "Geçerli değil (nakit)"
+   "none": "Geçerli değil (nakit)",
+   "unstated": "Belirtilmemiş"
   },
   "payments_v": {
    "crypto": "Kripto",
@@ -324,7 +325,11 @@
   "Canada, US": "Kanada, ABD",
   "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Tüm dünya (fiat için 160'tan fazla ülke; bazı takaslarda ABD gibi yasaklı bölgeler dışında dünya genelinde kripto takasları)",
   "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Tüm dünya (ABD hariç: ABD'li kullanıcılar V2 lansmanından beri, Ekim 2025, açıkça yasaklı)",
-  "New York": "New York"
+  "New York": "New York",
+  "Global except US, Georgia, India": "ABD, Gürcistan ve Hindistan hariç tüm dünya",
+  "US, Georgia, India": "ABD, Gürcistan, Hindistan",
+  "175+ countries": "175+ ülke",
+  "Not stated": "Belirtilmemiş"
  },
  "landings": {
   "/exchanges": {

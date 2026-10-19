@@ -45,7 +45,7 @@ export const reportUrl = (name?: string) =>
 
 export type Test = { date: string; amount: string; method: string; steps: string; kyc_asked: 'none' | 'email' | 'phone' | 'id'; result: string };
 
-export const CUSTODY: Record<string, string> = { self: 'Your wallet', custodial: 'Platform holds funds', none: 'Not applicable (cash)' };
+export const CUSTODY: Record<string, string> = { self: 'Your wallet', custodial: 'Platform holds funds', none: 'Not applicable (cash)', unstated: 'Not stated' };
 export const PAYMENTS: Record<string, string> = { crypto: 'Crypto', bank: 'Bank transfer', card: 'Card', cash: 'Cash', 'gift-card': 'Gift cards', fiat: 'Card or bank' };
 export const KYC_ASKED: Record<string, string> = { none: 'Nothing', email: 'Email only', phone: 'Phone number', id: 'ID document' };
 
