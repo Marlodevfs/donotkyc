@@ -29,7 +29,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://www.mexc.com/support/articles/17827791519717",
     "tests": []
   },
   {
@@ -160,7 +160,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://bingx.com/support/articles/33457408621593/",
     "tests": []
   },
   {
@@ -472,7 +472,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://bisq.network/faq",
     "tests": []
   },
   {
@@ -953,7 +953,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://hodlhodl.com/faq",
     "tests": []
   },
   {
@@ -984,7 +984,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://peachbitcoin.com/terms-and-conditions/",
     "tests": []
   },
   {
@@ -1078,7 +1078,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://simpleswap.io/aml-kyc",
     "tests": []
   },
   {
@@ -1362,7 +1362,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://acechange.io/our-aml-kyc-rule/",
     "tests": []
   },
   {

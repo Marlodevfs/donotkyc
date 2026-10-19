@@ -30,7 +30,7 @@
       "open_source": null,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://www.mexc.com/support/articles/17827791519717",
       "tests": [],
       "page": "https://www.donotkyc.com/p/mexc"
     },
@@ -157,7 +157,7 @@
       "open_source": null,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://bingx.com/support/articles/33457408621593/",
       "tests": [],
       "page": "https://www.donotkyc.com/p/bingx"
     },
@@ -460,7 +460,7 @@
       "open_source": true,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://bisq.network/faq",
       "tests": [],
       "page": "https://www.donotkyc.com/p/bisq"
     },
@@ -926,7 +926,7 @@
       "open_source": null,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://hodlhodl.com/faq",
       "tests": [],
       "page": "https://www.donotkyc.com/p/hodl-hodl"
     },
@@ -956,7 +956,7 @@
       "open_source": true,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://peachbitcoin.com/terms-and-conditions/",
       "tests": [],
       "page": "https://www.donotkyc.com/p/peach-bitcoin"
     },
@@ -1047,7 +1047,7 @@
       "open_source": null,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://simpleswap.io/aml-kyc",
       "tests": [],
       "page": "https://www.donotkyc.com/p/simpleswap"
     },
@@ -1323,7 +1323,7 @@
       "open_source": null,
       "status": "active",
       "status_note": null,
-      "kyc_source": null,
+      "kyc_source": "https://acechange.io/our-aml-kyc-rule/",
       "tests": [],
       "page": "https://www.donotkyc.com/p/acechange"
     },
