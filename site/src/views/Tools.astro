@@ -3,7 +3,7 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { sorted, TOOL_PAGES, CHECKED, HARDENING_SECTIONS, type Tool } from '../data/tools';
-import { dict, useT, lp, type Lang } from '../i18n';
+import { dict, useT, lp, tx, type Lang } from '../i18n';
 interface Props { page: string; lang: Lang }
 const { page, lang } = Astro.props;
 const t = useT(lang);
@@ -38,7 +38,7 @@ const href = (it: Tool) => it.affiliate ?? it.url;
       <h1>{x.h1}</h1>
       {x.intro.map((p: string) => <p>{p}</p>)}
       <p class="small">{t('tools.sort')}</p>
-      {lang !== 'en' && <p class="small">{t('tools.english')}</p>}
+      {lang !== 'en' && items.some((i) => i.facts.some((f) => tx(lang, f) === f)) && <p class="small">{t('tools.english')}</p>}
     </header>
     {groups.map((g) => (
       <section class="tsec" aria-labelledby={g.key ? `s-${g.key}` : undefined}>
@@ -54,7 +54,7 @@ const href = (it: Tool) => it.affiliate ?? it.url;
               {it.affiliate && <span class="lvl l-aff">{t('tools.affiliate')}</span>}
             </div>
           </div>
-          <ul class="tf">{it.facts.map((f) => <li>{f}</li>)}</ul>
+          <ul class="tf">{it.facts.map((f) => <li>{tx(lang, f)}</li>)}</ul>
           <p class="tm">
             <a class="go" href={href(it)} rel={it.affiliate ? 'sponsored noopener noreferrer' : 'noopener'} target="_blank">{t('tools.visit', { name: it.name })}<Icon name="arrow-up-right" size={16} /></a>
             {it.release && it.repo && <span>{t('tools.release')} <a href={it.repo} rel="noopener">{it.release}</a></span>}

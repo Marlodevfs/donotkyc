@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Tool entries translated into eight languages",
+    "body": "The facts on all 103 tool entries are now translated into French, Spanish, German, Portuguese, Italian, Russian, Turkish and Chinese. A note still appears on a page if any entry has no translation yet."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Privacy hardening page",
     "body": "A new tools page covers browsers, extensions, search engines, password managers, two-factor apps and security keys, messengers, encryption, metadata cleaners and file sharing. Same entry format and sort rule as the other tool pages."
   },
