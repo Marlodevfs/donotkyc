@@ -173,7 +173,7 @@
    ],
    [
     "Wie wählt DoNotKYC Plattformen aus?",
-    "Wir prüfen jeden Eintrag anhand der Dokumentation der Plattform und ihres Verhaltens in der App und kontrollieren ihn regelmäßig erneut. Wenn ein Dienst den Zugang ohne KYC streicht oder den Ausweis für seine Kernfunktionen zur Pflicht macht, ändern oder entfernen wir den Eintrag."
+    "Wir erstellen jeden Eintrag aus den Bedingungen und Hilfeseiten der Plattform und prüfen ihn später erneut. Ein Test mit echtem Geld, falls wir einen machen, ist im Eintrag datiert. Wenn ein Dienst den Zugang ohne KYC streicht oder für seine Kernfunktionen einen Ausweis verlangt, stufen wir den Eintrag um oder entfernen ihn."
    ],
    [
     "Wie verdient DoNotKYC Geld?",
@@ -211,7 +211,7 @@
  },
  "platform": {
   "title": "{name}: KYC-Regeln, Limits und Gebühren | DoNotKYC",
-  "description": "{name} ist ein(e) {type}. Verlangte Identität: {level} ({summary}). {fiat} Gebühren: {fees}. Verfügbarkeit: {countries}.",
+  "description": "{name}: {type}. Verlangte Identität: {level} ({summary}). {fiat} Gebühren: {fees}. Verfügbarkeit: {countries}.",
   "fiat_yes": "Nimmt Einzahlungen per Karte oder Bank an.",
   "fiat_no": "Nur Krypto.",
   "lead": "{type}. {summary}.",
@@ -317,7 +317,7 @@
    "description": "Zentrale Krypto-Börsen, auf denen du ohne Ausweis handelst, mit ihren Auszahlungslimits ohne KYC, Gebühren und gesperrten Ländern.",
    "h1": "Krypto-Börsen ohne KYC",
    "intro": [
-    "Zentrale Börsen bieten Orderbücher, hohe Liquidität, Futures und Apps. Diese hier lassen dich ohne Ausweisdokument handeln, meist bis zu einem täglichen Auszahlungslimit.",
+    "Zentralisierte Börsen bieten Orderbücher, hohe Liquidität, Futures und Mobile-Apps. Die folgenden verlangen unter einem angegebenen Limit keinen Ausweis. Manche verlangen ihn trotzdem, bevor du handeln kannst, also lies jeden Eintrag.",
     "Sie verwahren dein Geld, solange es auf der Plattform liegt. Zahl danach auf dein eigenes Wallet aus und prüfe das Limit, bevor du mehr einzahlst, als es erlaubt."
    ],
    "faq": [
@@ -384,7 +384,7 @@
    "h1": "Binance-Alternativen ohne KYC",
    "intro": [
     "Binance verlangt von jedem Nutzer eine Identitätsprüfung vor dem Handel. Wenn du es für Spot-Handel, Altcoins oder Futures genutzt hast, leisten die Börsen und dezentralen Börsen unten dasselbe ohne Ausweis oder ohne Ausweis unter einem Limit.",
-    "Prüfe vor dem Verschieben von Geld Limit und gesperrte Länder jeder Plattform. Bedingungen ändern sich: Der Eintrag zeigt, was wir wissen."
+    "Prüfe vor Einzahlungen das Limit und die gesperrten Länder jeder Plattform. Bedingungen ändern sich: Lies die Seite der Plattform, bevor du einzahlst."
    ]
   },
   "/alternatives/coinbase": {
@@ -521,7 +521,7 @@
   },
   "privacy-policy": {
    "title": "Datenschutzerklärung | DoNotKYC",
-   "description": "DoNotKYC sammelt keine Daten über dich: keine Analytics, keine Cookies, keine Anfragen an Dritte. Was GitHub Pages protokolliert und was auf deinem Gerät bleibt.",
+   "description": "DoNotKYC verkauft keine Daten und speichert keine personenbezogenen Daten über dich. Keine Cookies, nur ein Besucherzähler ohne Cookies. Was GitHub Pages protokolliert und was auf deinem Gerät bleibt.",
    "html": "<h1>Datenschutzerklärung</h1><p><strong>DoNotKYC verkauft keine Daten und speichert keine personenbezogenen Daten über dich.</strong></p><h2>Was die Seite nicht nutzt</h2><ul><li>Keine Werbe-Tracker, keine Cookies.</li><li>Schriften, Bilder und Code kommen von www.donotkyc.com. Das einzige externe Skript ist der unten beschriebene Besucherzähler.</li><li>Nichts, was du hier eintippst, wird an uns gesendet. Einreichungen und Korrekturen laufen über GitHub, unter GitHubs eigener Datenschutzerklärung.</li></ul><h2>Was auf deinem Gerät bleibt</h2><p>Wenn du zwischen hellem und dunklem Design wechselst, merkt sich dein Browser die Wahl im lokalen Speicher. Auch die Seitensuche läuft in deinem Browser: deine Suchanfragen gehen nirgendwohin.</p><h2>Besucherzähler</h2><p>Wir zählen Besuche mit <a href=\"https://www.goatcounter.com/\" rel=\"noopener\">GoatCounter</a>, einem Open-Source-Zähler ohne Cookies. Er erfasst die geöffnete Seite, die verweisende Seite, Browser, Land und Bildschirmgröße, nie deinen Namen oder etwas, das dir von Seite zu Seite folgt. Wir wollen nur wissen, wie viele Menschen die Seite lesen.</p><h2>Hosting</h2><p>Die Seite läuft auf GitHub Pages. GitHub protokolliert aus Sicherheitsgründen die IP-Adresse der Besucher. Wir haben keinen Zugriff auf diese Protokolle. <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection\" rel=\"noopener\">Erklärung von GitHub</a> (auf Englisch).</p><h2>Links zu anderen Seiten</h2><p>Wenn du einem Plattform-Link folgst, verlässt du DoNotKYC und es gilt die Richtlinie dieser Seite. Ein Affiliate-Link sagt der Plattform, dass du von uns kommst; uns verrät er nichts über dich. Siehe <a href=\"/how-we-make-money\">wie wir Geld verdienen</a>.</p><h2>Änderungen</h2><p>Änderungen dieser Erklärung stehen im <a href=\"/changelog\">Changelog</a>. Zuletzt aktualisiert am 18. Oktober 2026.</p>"
   }
  },
@@ -556,7 +556,7 @@
  "guides": {
   "privacy": {
    "title": "Datenschutz-Guide für Krypto ohne KYC | DoNotKYC",
-   "description": "Praktischer Datenschutz-Guide für Krypto ohne KYC: OPSEC, Wallets, Netzwerk, Gerätehygiene.",
+   "description": "Datenschutz-Leitfaden für Krypto-Nutzer ohne KYC: Wallets, Netzwerkprivatsphäre und Geräte-Hygiene.",
    "html": "<h1>Datenschutz-Guide</h1><p>Konkrete Schritte, um deine Privatsphäre auf Plattformen ohne KYC zu schützen. Nichts hier ist Finanz- oder Rechtsberatung.</p><div class=\"note\"><strong>Grundprinzip:</strong> Halte die Verbindungen zwischen deiner echten Identität, deinen Geräten und deiner On-Chain-Aktivität so gering wie möglich.</div><h2>Konten und OPSEC</h2><ul><li>Nutze pro Dienst eine eigene E-Mail-Adresse über Aliase (SimpleLogin, Addy.io). Verwende Kennungen nicht doppelt.</li><li>Erzeuge starke Passwörter mit einem lokalen Manager (KeePassXC, 1Password) und aktiviere TOTP, wo möglich.</li><li>Trenne deine Identitäten: eigene Browserprofile für Trading, Recherche und soziale Netzwerke.</li></ul><h2>Netzwerk-Privatsphäre</h2><ul><li>Nutze Tor für P2P und sensible Aktionen; sonst ein seriöses No-Logs-VPN mit Kill Switch.</li><li>Härte deinen Browser: blockiere Drittanbieter-Cookies und Fingerprinting, nutze Datenschutz-Erweiterungen nur bei Bedarf.</li></ul><h2>Wallet-Hygiene</h2><ul><li>Nutze jedes Mal eine neue Empfangsadresse; verwende keine Adresse für mehrere Dienste.</li><li>Trenne Coins, die mit deiner Identität verknüpft sind, in eigenen Wallets von den übrigen.</li><li>Erwäge eine Hardware-Wallet für Cold Storage; prüfe Firmware und Herkunft des Geräts.</li></ul><h2>On-Chain-Praxis</h2><ul><li>Die meisten Blockchains sind transparent: nutze die Datenschutztechniken, die zur jeweiligen Chain passen.</li><li>Lerne bei Bitcoin UTXO-Verwaltung und Coin Control und vermeide Adresswiederverwendung.</li><li>Wenn du Bridges nutzt, prüfe Vertragsadressen und aktuelle Audits. Fang mit kleinen Testbeträgen an.</li></ul><h2>Gerätesicherheit</h2><ul><li>Halte System und Browser aktuell. Aktiviere Festplattenverschlüsselung und Secure Boot.</li><li>Achte auf Zwischenablage-Hijacking und gefälschte Wallet-Erweiterungen. Prüfe Downloads und Signaturen, wo möglich.</li></ul><h2>Kaufen und auszahlen</h2><ul><li>Halte dich bei P2P genau an die Escrow-Anweisungen und kommuniziere nur über die Plattform.</li><li>Vergleiche bei Automaten vorher Gebühren und Limits; achte auf neugierige Blicke und bewahre Belege offline auf.</li></ul><h2>Häufige Fehler</h2><ul><li>Dieselbe E-Mail, Telefonnummer oder IP auf mehreren Plattformen nutzen.</li><li>Verwahrte und selbst verwahrte Coins mischen, ohne ihre Herkunft zu verfolgen.</li><li>Affiliate-Links von unbekannten Seiten anklicken; prüfe immer die Zieldomain.</li></ul><div class=\"note\">Hinweis: Privatsphäre ist eine Frage des Grades, und die Regeln unterscheiden sich je nach Land. Halte dich an das lokale Recht.</div>"
   },
   "security": {

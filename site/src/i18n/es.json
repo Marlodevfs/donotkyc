@@ -145,7 +145,7 @@
   "guide_h3": "Prueba con poco y luego avanza",
   "guide_p3": "Haz un depósito, una operación y un retiro de prueba antes de mover cantidades mayores. Reparte el riesgo entre plataformas y guarda tus fondos a largo plazo en autocustodia.",
   "guide_h4": "Mantente seguro",
-  "guide_p4": "Usa un wallet de hardware o un wallet de software auditado, verifica las URL y las direcciones de contrato, concede permisos solo cuando haga falta y evita saldos grandes en plataformas. Sin KYC no elimina tus obligaciones legales ni fiscales, y reduce tus recursos si algo sale mal.",
+  "guide_p4": "Usa un wallet de hardware o un wallet de software auditado, verifica las URL y las direcciones de contrato, concede permisos solo cuando haga falta y evita saldos grandes en plataformas. La ausencia de KYC no elimina tus obligaciones legales ni fiscales, y reduce tus recursos si algo sale mal.",
   "ad_h": "¿Tienes un servicio que respeta la privacidad?",
   "ad_p": "Tu ficha lleva la etiqueta Patrocinado, llega a gente que ya evita el KYC y no altera el orden del directorio. Revisamos a cada anunciante antes de aceptarlo.",
   "ad_btn": "Anunciarte en DoNotKYC",
@@ -173,7 +173,7 @@
    ],
    [
     "¿Cómo elige DoNotKYC las plataformas?",
-    "Contrastamos cada ficha con la documentación de la plataforma y con cómo se comporta la app, y la revisamos con el tiempo. Si un servicio elimina el acceso sin KYC o hace obligatoria la identificación para lo esencial, cambiamos o retiramos su ficha."
+    "Creamos cada ficha a partir de las condiciones y las páginas de ayuda de la plataforma, y la revisamos con el tiempo. Una prueba de pago, cuando la hacemos, lleva su fecha en la ficha. Si un servicio quita el acceso sin KYC o hace obligatoria la identidad para lo esencial, cambiamos o retiramos su ficha."
    ],
    [
     "¿Cómo gana dinero DoNotKYC?",
@@ -211,7 +211,7 @@
  },
  "platform": {
   "title": "{name}: política KYC, límites y comisiones | DoNotKYC",
-  "description": "{name} es un {type}. Identidad pedida: {level} ({summary}). {fiat} Comisiones: {fees}. Disponibilidad: {countries}.",
+  "description": "{name}: {type}. Identidad pedida: {level} ({summary}). {fiat} Comisiones: {fees}. Disponibilidad: {countries}.",
   "fiat_yes": "Acepta depósitos con tarjeta o banco.",
   "fiat_no": "Solo cripto.",
   "lead": "{type}. {summary}.",
@@ -317,7 +317,7 @@
    "description": "Exchanges centralizados donde operar sin identificación, con sus límites de retiro sin KYC, comisiones y países bloqueados.",
    "h1": "Exchanges cripto sin KYC",
    "intro": [
-    "Los exchanges centralizados ofrecen libros de órdenes, alta liquidez, futuros y apps móviles. Estos permiten operar sin documento de identidad, hasta un límite de retiro diario.",
+    "Los exchanges centralizados ofrecen libros de órdenes, mucha liquidez, futuros y apps móviles. Los de abajo no piden documento de identidad bajo un límite indicado. Algunos sí lo piden antes de poder operar, así que lee cada ficha.",
     "Guardan tus fondos mientras están en la plataforma. Retira a tu propio wallet cuando termines y revisa el límite antes de depositar más de lo que permite."
    ],
    "faq": [
@@ -384,7 +384,7 @@
    "h1": "Alternativas a Binance sin KYC",
    "intro": [
     "Binance pide a cada usuario verificar su identidad antes de operar. Si lo usabas para el trading al contado, las altcoins o los futuros, estos exchanges y exchanges descentralizados hacen lo mismo sin identificación, o sin ella por debajo de un límite.",
-    "Revisa el límite y los países bloqueados de cada plataforma antes de mover fondos. Las condiciones cambian: la ficha recoge lo que sabemos."
+    "Comprueba el límite y los países bloqueados de cada plataforma antes de mover fondos. Las condiciones cambian: lee la página de la plataforma antes de depositar."
    ]
   },
   "/alternatives/coinbase": {
@@ -521,7 +521,7 @@
   },
   "privacy-policy": {
    "title": "Política de privacidad | DoNotKYC",
-   "description": "DoNotKYC no recoge datos sobre ti: ni analítica, ni cookies, ni peticiones a terceros. Qué registra GitHub Pages y qué queda en tu dispositivo.",
+   "description": "DoNotKYC no vende datos ni guarda datos personales sobre ti. Sin cookies y con un único contador de visitas sin cookies. Qué registra GitHub Pages y qué queda en tu dispositivo.",
    "html": "<h1>Política de privacidad</h1><p><strong>DoNotKYC no vende datos y no guarda ningún dato personal sobre ti.</strong></p><h2>Lo que el sitio no usa</h2><ul><li>Ni rastreadores publicitarios, ni cookies.</li><li>Las fuentes, imágenes y el código vienen de www.donotkyc.com. El único script externo es el contador de visitas descrito abajo.</li><li>Nada de lo que escribes en este sitio nos llega. Las propuestas y correcciones pasan por GitHub, bajo la política de privacidad de GitHub.</li></ul><h2>Lo que queda en tu dispositivo</h2><p>Si cambias entre tema claro y oscuro, tu navegador guarda la elección en el almacenamiento local. La búsqueda del sitio también funciona en tu navegador: tus consultas no van a ninguna parte.</p><h2>Contador de visitas</h2><p>Contamos las visitas con <a href=\"https://www.goatcounter.com/\" rel=\"noopener\">GoatCounter</a>, un contador de código abierto sin cookies. Registra la página abierta, el sitio de origen, el navegador, el país y el tamaño de pantalla, nunca tu nombre ni nada que te siga de un sitio a otro. Lo usamos para saber cuánta gente lee el sitio.</p><h2>Alojamiento</h2><p>El sitio está alojado en GitHub Pages. GitHub registra la dirección IP de los visitantes por seguridad. No tenemos acceso a esos registros. <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection\" rel=\"noopener\">Explicación de GitHub</a> (en inglés).</p><h2>Enlaces a otros sitios</h2><p>Al seguir el enlace de una plataforma, sales de DoNotKYC y se aplica la política de ese sitio. Un enlace de afiliado le dice a la plataforma que vienes de nosotros; a nosotros no nos dice nada de ti. Ver <a href=\"/how-we-make-money\">cómo ganamos dinero</a>.</p><h2>Cambios</h2><p>Los cambios de esta política aparecen en el <a href=\"/changelog\">registro de cambios</a>. Última actualización: 18 de octubre de 2026.</p>"
   }
  },
@@ -556,7 +556,7 @@
  "guides": {
   "privacy": {
    "title": "Guía de privacidad para usuarios de cripto sin KYC | DoNotKYC",
-   "description": "Guía práctica de privacidad para cripto sin KYC: OPSEC, wallets, privacidad de red e higiene de dispositivos.",
+   "description": "Guía de privacidad para usuarios de cripto sin KYC: wallets, privacidad de red e higiene de dispositivos.",
    "html": "<h1>Guía de privacidad</h1><p>Pasos concretos para proteger tu privacidad en plataformas sin KYC. Nada de esto es asesoramiento financiero ni legal.</p><div class=\"note\"><strong>Principio básico:</strong> reduce al mínimo los vínculos entre tu identidad real, tus dispositivos y tu actividad on-chain.</div><h2>Cuentas y OPSEC</h2><ul><li>Usa un correo distinto por servicio con alias (SimpleLogin, Addy.io). No reutilices identificadores.</li><li>Genera contraseñas fuertes con un gestor local (KeePassXC, 1Password) y activa TOTP cuando sea posible.</li><li>Separa identidades: perfiles de navegador distintos para trading, investigación y redes sociales.</li></ul><h2>Privacidad de red</h2><ul><li>Usa Tor para P2P y acciones sensibles; si no, una VPN fiable sin registros y con kill switch.</li><li>Refuerza tu navegador: bloquea cookies de terceros y el fingerprinting, y usa extensiones de privacidad solo cuando hagan falta.</li></ul><h2>Higiene de wallets</h2><ul><li>Usa direcciones de recepción nuevas; no reutilices una dirección entre servicios.</li><li>Separa en wallets distintos los fondos ligados a tu identidad de los que no lo están.</li><li>Valora un wallet de hardware para almacenamiento en frío; verifica el firmware y la procedencia.</li></ul><h2>Prácticas on-chain</h2><ul><li>La mayoría de blockchains son transparentes: usa las técnicas de privacidad adecuadas a cada cadena.</li><li>En Bitcoin, aprende gestión de UTXO y coin control, y evita reutilizar direcciones.</li><li>Si usas bridges, verifica las direcciones de contrato y las auditorías recientes. Empieza con importes de prueba pequeños.</li></ul><h2>Seguridad del dispositivo</h2><ul><li>Mantén el sistema y el navegador actualizados. Activa el cifrado completo del disco y el arranque seguro.</li><li>Cuidado con el secuestro del portapapeles y las extensiones de wallet falsas. Verifica descargas y firmas cuando puedas.</li></ul><h2>Comprar y retirar</h2><ul><li>En P2P, sigue al pie de la letra las instrucciones del escrow y mantén la conversación dentro de la plataforma.</li><li>En cajeros, compara comisiones y límites antes; vigila que nadie mire y guarda los recibos fuera de línea.</li></ul><h2>Errores comunes</h2><ul><li>Reutilizar correos, teléfonos o IP en varias plataformas.</li><li>Mezclar fondos en custodia y en autocustodia sin seguir su procedencia.</li><li>Hacer clic en enlaces de afiliado de sitios desconocidos; verifica siempre el dominio de destino.</li></ul><div class=\"note\">Aviso: la privacidad es una cuestión de grado y las normas cambian según el país. Asegúrate de cumplir la ley local.</div>"
   },
   "security": {

@@ -173,7 +173,7 @@
    ],
    [
     "How does DoNotKYC choose platforms?",
-    "We check each listing against the platform’s documentation and how the app behaves, then review it again over time. If a service removes no-KYC access or makes ID mandatory for its core features, we re-tag or remove it."
+    "We build each listing from the platform's own terms and help pages, then re-check it over time. A paid test, when we run one, is dated on the listing. If a service removes no-KYC access or makes ID mandatory for its core features, we re-tag or remove it."
    ],
    [
     "How does DoNotKYC make money?",
@@ -211,7 +211,7 @@
  },
  "platform": {
   "title": "{name}: KYC policy, limits and fees | DoNotKYC",
-  "description": "{name} is a {type}. Identity asked: {level} ({summary}). {fiat} Fees: {fees}. Availability: {countries}.",
+  "description": "{name}: {type}. Identity asked: {level} ({summary}). {fiat} Fees: {fees}. Availability: {countries}.",
   "fiat_yes": "Accepts card or bank deposits.",
   "fiat_no": "Crypto only.",
   "lead": "{type}. {summary}.",
