@@ -85,8 +85,6 @@ const jsonld = {
             {p.tor !== null && <div><dt>{t('platform.tor')}</dt><dd>{p.tor ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.open_source !== null && <div><dt>{t('platform.oss')}</dt><dd>{p.open_source ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.cryptocurrencies && <div><dt>{t('platform.coins')}</dt><dd>{p.cryptocurrencies}</dd></div>}
-            {p.volume_24h && <div><dt>{t('platform.volume')}</dt><dd class="num">{p.volume_24h}</dd></div>}
-            {p.reputation && <div><dt>{t('platform.reputation')}</dt><dd>{p.reputation}</dd></div>}
           </dl>
         </section>
         {cmps.length > 0 && (

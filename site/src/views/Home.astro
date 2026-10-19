@@ -35,7 +35,7 @@ const catLabels = Object.fromEntries(CATEGORIES.map((c) => [c.key, t(`cats.${c.k
 
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'Organization', '@id': site + '/#org', name: 'DoNotKYC', url: site + '/', logo: site + '/og-image.png',
-    sameAs: ['https://x.com/donotkyc', 'https://t.me/donotkycdotcom', 'https://www.tiktok.com/@donotkyc', 'https://github.com/Marlodevfs/donotkyc'] },
+    sameAs: ['https://x.com/donotkyc', 'https://t.me/donotkycdotcom', 'https://github.com/Marlodevfs/donotkyc'] },
   { '@context': 'https://schema.org', '@type': 'WebSite', '@id': site + '/#website', url: site + L('/'), name: 'DoNotKYC', publisher: { '@id': site + '/#org' }, inLanguage: lang },
   { '@context': 'https://schema.org', '@type': 'ItemList', name: t('home.title'), numberOfItems: list.length,
     itemListElement: list.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: site + L(`/p/${p.slug}`) })) },

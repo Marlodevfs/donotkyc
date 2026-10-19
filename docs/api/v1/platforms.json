@@ -14,8 +14,6 @@
       "blocked": "US",
       "fiat_deposit": false,
       "fees": "0.025% - 0.2%",
-      "volume_24h": "$6.37B",
-      "reputation": "10/10 CoinGecko",
       "cryptocurrencies": "1600+",
       "features": [
         "Spot",
@@ -46,8 +44,6 @@
       "blocked": "US, UK, Singapore",
       "fiat_deposit": false,
       "fees": "0.01% - 0.1%",
-      "volume_24h": "$7.07B",
-      "reputation": "10/10 CoinGecko",
       "cryptocurrencies": "400+",
       "features": [
         "Spot",
@@ -78,8 +74,6 @@
       "blocked": "New York",
       "fiat_deposit": false,
       "fees": "0.2%",
-      "volume_24h": "$491M",
-      "reputation": "8/10 CoinGecko",
       "cryptocurrencies": "600+",
       "features": [
         "Spot",
@@ -110,8 +104,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.2%",
-      "volume_24h": "$71.9M",
-      "reputation": "8/10 CoinGecko",
       "cryptocurrencies": "190+",
       "features": [
         "Spot",
@@ -141,8 +133,6 @@
       "blocked": "US",
       "fiat_deposit": false,
       "fees": "0.075% - 0.2%",
-      "volume_24h": "$1.31B",
-      "reputation": "9/10 CoinGecko",
       "cryptocurrencies": "500+",
       "features": [
         "Spot",
@@ -173,8 +163,6 @@
       "blocked": "US",
       "fiat_deposit": false,
       "fees": "0.01% - 0.05%",
-      "volume_24h": "N/A",
-      "reputation": "Medium",
       "cryptocurrencies": "5+",
       "features": [
         "Crypto",
@@ -206,8 +194,6 @@
       "blocked": "Some regions",
       "fiat_deposit": true,
       "fees": "0.1% spot, 0.02% maker | 0.06% taker futures",
-      "volume_24h": "Variable, $1B+",
-      "reputation": "8/10 CoinGecko, high security",
       "cryptocurrencies": "700+",
       "features": [
         "Spot trading",
@@ -241,8 +227,6 @@
       "blocked": "Some regions",
       "fiat_deposit": false,
       "fees": "0% spot, 0.02% taker futures, 0% maker futures",
-      "volume_24h": "Variable, $500M+",
-      "reputation": "Good (low fees, new plateform)",
       "cryptocurrencies": "80+",
       "features": [
         "Spot trading (no fees)",
@@ -275,8 +259,6 @@
       "blocked": "Outside Europe",
       "fiat_deposit": true,
       "fees": "Low fees",
-      "volume_24h": "",
-      "reputation": "FINMA regulated",
       "cryptocurrencies": "Major cryptocurrencies",
       "features": [
         "Spot",
@@ -310,8 +292,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.02% maker / 0.06% taker",
-      "volume_24h": "",
-      "reputation": "1M+ users",
       "cryptocurrencies": "Multiple",
       "features": [
         "Spot",
@@ -343,8 +323,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.05% - 1%",
-      "volume_24h": "$4B+ TVL",
-      "reputation": "High",
       "cryptocurrencies": "900+",
       "features": [
         "AMM",
@@ -375,8 +353,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.25%",
-      "volume_24h": "High",
-      "reputation": "High",
       "cryptocurrencies": "50+",
       "features": [
         "Yield farming",
@@ -408,8 +384,6 @@
       "blocked": "US, Canada",
       "fiat_deposit": false,
       "fees": "0.02% - 0.05%",
-      "volume_24h": "High",
-      "reputation": "High",
       "cryptocurrencies": "35+",
       "features": [
         "Perpetual futures",
@@ -439,8 +413,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "Variable",
-      "volume_24h": "Low",
-      "reputation": "High (Privacy focused)",
       "cryptocurrencies": "30+",
       "features": [
         "P2P trading",
@@ -474,8 +446,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.02% maker / 0.05% taker",
-      "volume_24h": "High ($743M – $4.9B)",
-      "reputation": "High (DeFi, new platform, rising adoption)",
       "cryptocurrencies": "90+",
       "features": [
         "Perpetual futures",
@@ -508,8 +478,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Low",
-      "volume_24h": "High - 25% DEX market share",
-      "reputation": "High - Fastest growing DEX 2024",
       "cryptocurrencies": "Multiple",
       "features": [
         "Perpetual Contracts",
@@ -541,8 +509,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Variable (aggregator)",
-      "volume_24h": "",
-      "reputation": "High",
       "cryptocurrencies": "Multiple",
       "features": [
         "DEX Aggregator",
@@ -572,8 +538,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "0.01% stable coins; 0.1% for gas tokens; 0.25% Most CEX-listed tokens; 0.99% all others",
-      "volume_24h": "NA",
-      "reputation": "Rising; strong privacy, audited, DAO governance",
       "cryptocurrencies": "Multichain tokens",
       "features": [
         "Multi-chain",
@@ -606,8 +570,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "0.1% - 0.5% (via Kyber/Bungee)",
-      "volume_24h": "N/A (DeFi aggregator)",
-      "reputation": "Medium-High",
       "cryptocurrencies": "1000+",
       "features": [
         "DeFi Aggregator",
@@ -641,8 +603,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "<0.5%",
-      "volume_24h": "N/A",
-      "reputation": "Medium",
       "cryptocurrencies": "1500+",
       "features": [
         "Cross-chain swaps",
@@ -673,8 +633,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Variable (gas dependent)",
-      "volume_24h": "High",
-      "reputation": "High",
       "cryptocurrencies": "Many",
       "features": [
         "Token transfers",
@@ -705,8 +663,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Near-zero with reimbursement",
-      "volume_24h": "Medium",
-      "reputation": "High",
       "cryptocurrencies": "Major assets",
       "features": [
         "Staking",
@@ -736,8 +692,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Low",
-      "volume_24h": "Medium",
-      "reputation": "Medium",
       "cryptocurrencies": "Many",
       "features": [
         "Automatic routing",
@@ -767,8 +721,6 @@
       "blocked": "Outside the US",
       "fiat_deposit": true,
       "fees": "4-11%",
-      "volume_24h": "N/A",
-      "reputation": "High",
       "cryptocurrencies": "BTC, ETH, LTC, DOGE, USDC, 8+",
       "features": [],
       "custody": "none",
@@ -795,8 +747,6 @@
       "blocked": "Outside the US",
       "fiat_deposit": true,
       "fees": "8%",
-      "volume_24h": "N/A",
-      "reputation": "High",
       "cryptocurrencies": "BTC",
       "features": [],
       "custody": "none",
@@ -823,8 +773,6 @@
       "blocked": "Outside US, Puerto Rico",
       "fiat_deposit": true,
       "fees": "Spread + $1-2",
-      "volume_24h": "N/A",
-      "reputation": "High",
       "cryptocurrencies": "BTC, BCH, LTC, ETH",
       "features": [],
       "custody": "none",
@@ -851,8 +799,6 @@
       "blocked": "Outside the southern US",
       "fiat_deposit": true,
       "fees": "Variable",
-      "volume_24h": "N/A",
-      "reputation": "Medium",
       "cryptocurrencies": "BTC, LTC, ETH",
       "features": [],
       "custody": "none",
@@ -879,8 +825,6 @@
       "blocked": "Outside Canada, US",
       "fiat_deposit": true,
       "fees": "Variable",
-      "volume_24h": "N/A",
-      "reputation": "Medium",
       "cryptocurrencies": "BTC",
       "features": [],
       "custody": "none",
@@ -907,8 +851,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "Variable",
-      "volume_24h": "Low",
-      "reputation": "High",
       "cryptocurrencies": "BTC",
       "features": [],
       "custody": "self",
@@ -937,8 +879,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "Free to sell",
-      "volume_24h": "Low",
-      "reputation": "Medium",
       "cryptocurrencies": "BTC",
       "features": [],
       "custody": "self",
@@ -967,8 +907,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "Low",
-      "volume_24h": "Low",
-      "reputation": "Medium",
       "cryptocurrencies": "Multiple",
       "features": [],
       "custody": "self",
@@ -998,8 +936,6 @@
       "blocked": "US",
       "fiat_deposit": true,
       "fees": "Low",
-      "volume_24h": "Low",
-      "reputation": "Medium",
       "cryptocurrencies": "10+",
       "features": [],
       "custody": "self",
@@ -1027,8 +963,6 @@
       "blocked": "US",
       "fiat_deposit": false,
       "fees": "Variable",
-      "volume_24h": "Medium",
-      "reputation": "Medium",
       "cryptocurrencies": "500+",
       "features": [
         "No registration"
@@ -1057,8 +991,6 @@
       "blocked": "US",
       "fiat_deposit": true,
       "fees": "0.25%",
-      "volume_24h": "Medium",
-      "reputation": "High",
       "cryptocurrencies": "200+",
       "features": [
         "P2P",
@@ -1089,8 +1021,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.25%",
-      "volume_24h": "High",
-      "reputation": "High",
       "cryptocurrencies": "1+",
       "features": [
         "P2P",
@@ -1120,8 +1050,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "0.25% - 0.5% (varies by pair & network)",
-      "volume_24h": "Not disclosed",
-      "reputation": "Popular in privacy communities, strong aggregator ratings",
       "cryptocurrencies": "2000+",
       "features": [
         "Instant cross-chain swaps",
@@ -1157,8 +1085,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Approx. 2.2% flat fee, with possibility to earn fee rebate by providing liquidity",
-      "volume_24h": "Not publicly disclosed",
-      "reputation": "Mixed reviews; praised for privacy and instant swaps, some concerns on support and liquidity",
       "cryptocurrencies": "Supports privacy coins such as Monero (XMR), Dash, Zcash, Particl, PIVX, Firo, and more",
       "features": [
         "No registration required",
@@ -1191,8 +1117,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "Low (competitive)",
-      "volume_24h": "Not publicly disclosed",
-      "reputation": null,
       "cryptocurrencies": "Multiple",
       "features": [
         "Mobile wallet with built-in swap",
@@ -1224,8 +1148,6 @@
       "blocked": null,
       "fiat_deposit": true,
       "fees": "Included in partner rate; network + partner fees in quote",
-      "volume_24h": "Not disclosed",
-      "reputation": "Privacy-focused aggregator with partner ratings and limited guarantee",
       "cryptocurrencies": "60+",
       "features": [
         "Exchange aggregator (multiple instant exchanges)",
@@ -1262,8 +1184,6 @@
       "blocked": null,
       "fiat_deposit": false,
       "fees": "0.5% fixed fee + network fees",
-      "volume_24h": "Not disclosed",
-      "reputation": "Established instant swap service with API/widget integration and affiliate program",
       "cryptocurrencies": "100+",
       "features": [
         "Instant crypto-to-crypto swaps",
@@ -1297,8 +1217,6 @@
       "blocked": "US, for some swaps",
       "fiat_deposit": true,
       "fees": "0.5%+ for swaps",
-      "volume_24h": "Medium",
-      "reputation": "High",
       "cryptocurrencies": "1000+",
       "features": [
         "No KYC swaps",
@@ -1330,8 +1248,6 @@
       "blocked": "US",
       "fiat_deposit": false,
       "fees": "1% flat fee per swap",
-      "volume_24h": "Millions processed (reported $7.8M+ across 2,623 transactions as of Nov 2025)",
-      "reputation": null,
       "cryptocurrencies": "Multi-chain support: 8 blockchain networks including Ethereum, BSC, Polygon, Arbitrum, Optimism, Avalanche, and others. Supports major tokens across EVM-compatible chains",
       "features": [
         "No registration or KYC required",

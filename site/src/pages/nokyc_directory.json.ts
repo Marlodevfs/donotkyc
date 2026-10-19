@@ -11,8 +11,8 @@ export function GET() {
   for (const p of platforms) {
     out[KEYS[p.type]].push({
       name: p.name, type: p.type, url: p.url, kyc_tier: p.kyc_tier, kyc_level: p.kyc_level,
-      supported_countries: p.supported_countries, fiat_deposit: p.fiat_deposit, volume_24h: p.volume_24h,
-      fees: p.fees, reputation: p.reputation, cryptocurrencies: p.cryptocurrencies, features: p.features,
+      supported_countries: p.supported_countries, fiat_deposit: p.fiat_deposit,
+      fees: p.fees, cryptocurrencies: p.cryptocurrencies, features: p.features,
       custody: p.custody, payment_methods: p.payment_methods, tor: p.tor, open_source: p.open_source,
       status: p.status, last_tested: p.tests?.length ? [...p.tests].map((t: { date: string }) => t.date).sort().at(-1) : null,
     });
