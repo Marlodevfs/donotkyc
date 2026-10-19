@@ -362,3 +362,4 @@ table.cmp{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
 .pf-search{margin-top:24px;--pagefind-ui-scale:.9;--pagefind-ui-primary:var(--fg);--pagefind-ui-text:var(--fg);--pagefind-ui-background:var(--surface);--pagefind-ui-border:var(--line-strong);--pagefind-ui-tag:var(--sunk);--pagefind-ui-border-width:1.5px;--pagefind-ui-border-radius:0;--pagefind-ui-font:var(--b)}
 .pf-search mark{background:var(--accent-soft);color:var(--fg)}
 .it{content-visibility:auto;contain-intrinsic-size:auto 120px}
+@media (max-width:380px){.tools{gap:4px}details.lang summary{padding:0 8px}}
