@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Advertise page: free for now, in exchange for a mention",
+    "body": "Until we have 30 days of audience figures, a sponsored tile is free if your site mentions that DoNotKYC features you and links to donotkyc.com. We publish prices after that."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Two instant swaps added, volume and reputation lines removed",
     "body": "FixedFloat and ChangeNOW join the directory, each with the page of its own terms or FAQ as the source. Both ask for ID only when a swap is flagged. The \"24h volume\" and \"Reputation\" lines are gone from the listings and the API: they were not dated and partly subjective. The TikTok link is removed."
   },
