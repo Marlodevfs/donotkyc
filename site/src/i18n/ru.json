@@ -309,7 +309,21 @@
   "ID can be required at any time": "Документ, удостоверяющий личность, могут потребовать в любой момент",
   "ID can be required, no limit published": "Документ могут потребовать, лимит не опубликован",
   "No ID unless there is a dispute or an alert": "Без документа, кроме споров и тревожных сигналов",
-  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Вывод до 20 000 USDT в день без документа, для торговли документ нужен"
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Вывод до 20 000 USDT в день без документа, для торговли документ нужен",
+  "Global": "Весь мир",
+  "Global except US": "Весь мир, кроме США",
+  "Global except restrictions": "Весь мир, кроме ограничений",
+  "US only": "Только США",
+  "Global except US, UK, Singapore": "Весь мир, кроме США, Великобритании и Сингапура",
+  "Global except US (NY)": "Весь мир, кроме США (Нью-Йорк)",
+  "Europe, Switzerland": "Европа, Швейцария",
+  "Global except US, Canada": "Весь мир, кроме США и Канады",
+  "Global (depends on wallet and IP restrictions)": "Весь мир (зависит от ограничений кошелька и IP)",
+  "US, Puerto Rico": "США, Пуэрто-Рико",
+  "US (South)": "США (юг)",
+  "Canada, US": "Канада, США",
+  "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Весь мир (более 160 стран для фиата, крипто-обмены везде, кроме запрещённых юрисдикций, например США для некоторых обменов)",
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Весь мир (кроме США: пользователям из США доступ прямо запрещён с запуска V2 в октябре 2025)"
  },
  "landings": {
   "/exchanges": {

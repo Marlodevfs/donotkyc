@@ -295,7 +295,7 @@
   "Phone number only": "仅需手机号",
   "The seller decides": "由卖家决定",
   "Wallet only": "仅需钱包",
-  "New York": "纽约",
+  "New York": "纽约州",
   "Outside Canada, US": "加拿大和美国以外",
   "Outside Europe": "欧洲以外",
   "Outside US, Puerto Rico": "美国和波多黎各以外",
@@ -309,7 +309,21 @@
   "ID can be required at any time": "随时可能要求提供身份证件",
   "ID can be required, no limit published": "可能要求提供身份证件，未公布额度",
   "No ID unless there is a dispute or an alert": "无需身份证件，除非出现纠纷或风险提示",
-  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "每日最多提现 20,000 USDT 无需身份证件，交易需要身份证件"
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "每日最多提现 20,000 USDT 无需身份证件，交易需要身份证件",
+  "Global": "全球",
+  "Global except US": "全球（美国除外）",
+  "Global except restrictions": "全球（有限制的地区除外）",
+  "US only": "仅限美国",
+  "Global except US, UK, Singapore": "全球（美国、英国、新加坡除外）",
+  "Global except US (NY)": "全球（美国纽约州除外）",
+  "Europe, Switzerland": "欧洲、瑞士",
+  "Global except US, Canada": "全球（美国、加拿大除外）",
+  "Global (depends on wallet and IP restrictions)": "全球（取决于钱包和 IP 限制）",
+  "US, Puerto Rico": "美国、波多黎各",
+  "US (South)": "美国（南部）",
+  "Canada, US": "加拿大、美国",
+  "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "全球（法币支持 160 多个国家，加密货币兑换覆盖全球，部分兑换在美国等禁止地区除外）",
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "全球（美国除外：自 2025 年 10 月 V2 上线起，明确禁止美国用户）"
  },
  "landings": {
   "/exchanges": {

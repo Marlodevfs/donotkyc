@@ -296,7 +296,7 @@
   "The seller decides": "Satıcı karar verir",
   "Wallet only": "Yalnızca cüzdan",
   "Outside Canada, US": "Kanada ve ABD dışında",
-  "Outside Europe": "Avrupa dışında",
+  "Outside Europe": "Avrupa dışı",
   "Outside US, Puerto Rico": "ABD ve Porto Riko dışında",
   "Outside the US": "ABD dışında",
   "Outside the southern US": "ABD'nin güneyi dışında",
@@ -308,7 +308,22 @@
   "ID can be required at any time": "Kimlik belgesi her an istenebilir",
   "ID can be required, no limit published": "Kimlik belgesi istenebilir, yayımlanmış limit yok",
   "No ID unless there is a dispute or an alert": "Anlaşmazlık veya uyarı dışında kimlik yok",
-  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Günde 20.000 USDT'ye kadar çekim kimliksiz, işlem için kimlik gerekir"
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Günde 20.000 USDT'ye kadar çekim kimliksiz, işlem için kimlik gerekir",
+  "Global": "Tüm dünya",
+  "Global except US": "ABD hariç tüm dünya",
+  "Global except restrictions": "Kısıtlamalar hariç tüm dünya",
+  "US only": "Yalnızca ABD",
+  "Global except US, UK, Singapore": "ABD, Birleşik Krallık ve Singapur hariç tüm dünya",
+  "Global except US (NY)": "ABD (New York) hariç tüm dünya",
+  "Europe, Switzerland": "Avrupa, İsviçre",
+  "Global except US, Canada": "ABD ve Kanada hariç tüm dünya",
+  "Global (depends on wallet and IP restrictions)": "Tüm dünya (cüzdan ve IP kısıtlamalarına bağlı)",
+  "US, Puerto Rico": "ABD, Porto Riko",
+  "US (South)": "ABD (güney)",
+  "Canada, US": "Kanada, ABD",
+  "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Tüm dünya (fiat için 160'tan fazla ülke; bazı takaslarda ABD gibi yasaklı bölgeler dışında dünya genelinde kripto takasları)",
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Tüm dünya (ABD hariç: ABD'li kullanıcılar V2 lansmanından beri, Ekim 2025, açıkça yasaklı)",
+  "New York": "New York"
  },
  "landings": {
   "/exchanges": {

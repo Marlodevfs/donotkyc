@@ -32,7 +32,7 @@ const jsonld = {
 };
 ---
 <Base title={t('platform.title', { name: p.name })}
-  description={t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.toLowerCase(), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: p.supported_countries })}
+  description={t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.toLowerCase(), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: tx(lang, p.supported_countries) })}
   path={`/p/${p.slug}`} lang={lang} localized jsonld={jsonld}>
   <div class="wrap det">
     <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L(CATEGORY_PATH[p.type])}>{type}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>
@@ -81,7 +81,7 @@ const jsonld = {
             <div><dt>{t('platform.custody')}</dt><dd>{t(`platform.custody_v.${p.custody}`)}</dd></div>
             <div><dt>{t('platform.payment')}</dt><dd>{p.payment_methods.map((m) => t(`platform.payments_v.${m}`)).join(', ')}</dd></div>
             <div><dt>{t('platform.fees')}</dt><dd class="num">{p.fees}</dd></div>
-            <div><dt>{t('platform.availability')}</dt><dd>{p.supported_countries}</dd></div>
+            <div><dt>{t('platform.availability')}</dt><dd>{tx(lang, p.supported_countries)}</dd></div>
             {p.tor !== null && <div><dt>{t('platform.tor')}</dt><dd>{p.tor ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.open_source !== null && <div><dt>{t('platform.oss')}</dt><dd>{p.open_source ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.cryptocurrencies && <div><dt>{t('platform.coins')}</dt><dd>{p.cryptocurrencies}</dd></div>}

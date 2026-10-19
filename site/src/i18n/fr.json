@@ -297,7 +297,7 @@
   "Wallet only": "Wallet seulement",
   "New York": "New York",
   "Outside Canada, US": "Hors Canada et États-Unis",
-  "Outside Europe": "Hors Europe",
+  "Outside Europe": "Hors d'Europe",
   "Outside US, Puerto Rico": "Hors États-Unis et Porto Rico",
   "Outside the US": "Hors États-Unis",
   "Outside the southern US": "Hors sud des États-Unis",
@@ -309,7 +309,21 @@
   "ID can be required at any time": "Une pièce d'identité peut être exigée à tout moment",
   "ID can be required, no limit published": "Une pièce d'identité peut être exigée, aucune limite publiée",
   "No ID unless there is a dispute or an alert": "Sans identité, sauf litige ou alerte",
-  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Sans identité pour retirer jusqu'à 20 000 USDT par jour, identité pour trader"
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Sans identité pour retirer jusqu'à 20 000 USDT par jour, identité pour trader",
+  "Global": "Monde entier",
+  "Global except US": "Monde entier sauf États-Unis",
+  "Global except restrictions": "Monde entier sauf restrictions",
+  "US only": "États-Unis uniquement",
+  "Global except US, UK, Singapore": "Monde entier sauf États-Unis, Royaume-Uni, Singapour",
+  "Global except US (NY)": "Monde entier sauf États-Unis (New York)",
+  "Europe, Switzerland": "Europe, Suisse",
+  "Global except US, Canada": "Monde entier sauf États-Unis, Canada",
+  "Global (depends on wallet and IP restrictions)": "Monde entier (selon les restrictions du wallet et de l'IP)",
+  "US, Puerto Rico": "États-Unis, Porto Rico",
+  "US (South)": "États-Unis (Sud)",
+  "Canada, US": "Canada, États-Unis",
+  "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "Monde entier (plus de 160 pays en fiat, swaps crypto partout sauf juridictions interdites comme les États-Unis pour certains swaps)",
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "Monde entier (sauf États-Unis : les utilisateurs américains sont explicitement bannis depuis le lancement de V2 en octobre 2025)"
  },
  "landings": {
   "/exchanges": {

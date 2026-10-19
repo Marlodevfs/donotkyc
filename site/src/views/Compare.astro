@@ -38,7 +38,7 @@ const rows: [string, (p: typeof a) => string][] = [
   [t('platform.payment'), (p) => p.payment_methods.map((m) => t(`platform.payments_v.${m}`)).join(', ')],
   [t('platform.custody'), (p) => t(`platform.custody_v.${p.custody}`)],
   [t('platform.fees'), (p) => p.fees],
-  [t('platform.availability'), (p) => p.supported_countries],
+  [t('platform.availability'), (p) => tx(lang, p.supported_countries)!],
   [t('list.blocked'), (p) => tx(lang, p.blocked) ?? t('list.everywhere')],
   [t('platform.tor'), (p) => (p.tor === null ? '?' : p.tor ? t('list.yes') : t('list.no'))],
   [t('platform.oss'), (p) => (p.open_source === null ? '?' : p.open_source ? t('list.yes') : t('list.no'))],

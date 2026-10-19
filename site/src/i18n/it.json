@@ -308,7 +308,22 @@
   "ID can be required at any time": "Un documento d'identità può essere richiesto in qualsiasi momento",
   "ID can be required, no limit published": "Un documento d'identità può essere richiesto, nessun limite pubblicato",
   "No ID unless there is a dispute or an alert": "Senza identità, tranne in caso di disputa o allerta",
-  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Senza identità per prelevare fino a 20 000 USDT al giorno, identità per fare trading"
+  "No ID to withdraw up to 20,000 USDT a day, ID to trade": "Senza identità per prelevare fino a 20 000 USDT al giorno, identità per fare trading",
+  "Global": "In tutto il mondo",
+  "Global except US": "In tutto il mondo tranne gli USA",
+  "Global except restrictions": "In tutto il mondo salvo restrizioni",
+  "US only": "Solo USA",
+  "Global except US, UK, Singapore": "In tutto il mondo tranne USA, Regno Unito e Singapore",
+  "Global except US (NY)": "In tutto il mondo tranne gli USA (New York)",
+  "Europe, Switzerland": "Europa, Svizzera",
+  "Global except US, Canada": "In tutto il mondo tranne USA e Canada",
+  "Global (depends on wallet and IP restrictions)": "In tutto il mondo (secondo le restrizioni di wallet e IP)",
+  "US, Puerto Rico": "USA, Porto Rico",
+  "US (South)": "USA (Sud)",
+  "Canada, US": "Canada, USA",
+  "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)": "In tutto il mondo (oltre 160 paesi per il fiat, swap crypto ovunque tranne nelle giurisdizioni vietate come gli USA per alcuni swap)",
+  "Global (except USA - US users explicitly banned since V2 launch Oct 2025)": "In tutto il mondo (tranne gli USA: gli utenti americani sono espressamente vietati dal lancio di V2 a ottobre 2025)",
+  "New York": "New York"
  },
  "landings": {
   "/exchanges": {
