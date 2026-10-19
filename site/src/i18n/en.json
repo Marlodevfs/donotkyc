@@ -41,7 +41,8 @@
   "legal": "No-KYC platforms carry risk and less recourse. Do your own research, start small, and follow your local law and tax rules. Some \"Visit\" links are affiliate links. They do not change the order of the directory.",
   "english_only": "Guides and blog are in English.",
   "money": "How we make money",
-  "privacy_policy": "Privacy policy"
+  "privacy_policy": "Privacy policy",
+  "made_by": "Made with ❤️ and ☕ by {name}"
  },
  "levels": {
   "none": "None",

@@ -41,7 +41,8 @@
   "legal": "Les plateformes sans KYC comportent des risques et moins de recours. Faites vos propres recherches, commencez petit et respectez la loi et la fiscalité de votre pays. Certains liens « Visiter » sont des liens d'affiliation. Ils ne changent pas l'ordre de l'annuaire.",
   "english_only": "Les articles du blog sont en anglais.",
   "money": "Comment on gagne de l'argent",
-  "privacy_policy": "Confidentialité"
+  "privacy_policy": "Confidentialité",
+  "made_by": "Fait avec ❤️ et ☕ par {name}"
  },
  "levels": {
   "none": "Aucune",

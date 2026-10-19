@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-19",
+    "title": "Versioned API and security contact",
+    "body": "The directory is now also served at /api/v1/platforms.json, one flat list with every field. A security.txt file tells researchers where to report a problem, and robots.txt names the AI crawlers that are welcome."
+  },
+  {
+    "date": "2026-10-19",
     "title": "Cookie-free visit counter",
     "body": "DoNotKYC now counts visits with GoatCounter, an open-source counter with no cookies and no personal data. The privacy policy explains what it records."
   },

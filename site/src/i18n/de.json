@@ -41,7 +41,8 @@
   "legal": "Plattformen ohne KYC bergen Risiken und bieten weniger Schutz. Recherchiere selbst, fang klein an und halte dich an die Gesetze und Steuerregeln deines Landes. Manche „Besuchen“-Links sind Affiliate-Links. Sie ändern die Reihenfolge des Verzeichnisses nicht.",
   "english_only": "Die Blogartikel sind auf Englisch.",
   "money": "Wie wir Geld verdienen",
-  "privacy_policy": "Datenschutz"
+  "privacy_policy": "Datenschutz",
+  "made_by": "Mit ❤️ und ☕ gemacht von {name}"
  },
  "levels": {
   "none": "Keine",
