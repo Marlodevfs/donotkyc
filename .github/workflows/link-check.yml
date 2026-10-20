@@ -1,5 +1,5 @@
 name: link-check
-# Chaque lundi : sites des plateformes (pannes, changements de domaine) et fraîcheur des tests.
+# Chaque lundi : sites des plateformes (pannes, changements de domaine), pages source des fiches et fraîcheur des faits des outils.
 # Le rapport met à jour une seule issue « Weekly listing check » (étiquette link-check).
 on:
   schedule: [{ cron: '0 6 * * 1' }]
