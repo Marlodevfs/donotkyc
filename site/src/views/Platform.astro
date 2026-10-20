@@ -64,7 +64,7 @@ const jsonld = {
           {tests.length ? (
             <ul class="hist">{tests.map((x) => (<li><time datetime={x.date}>{fmt(x.date)}</time><span>{t('platform.test_line', { steps: x.steps, amount: x.amount, method: x.method, result: x.result })}</span><b>{t(`platform.kyc_asked_v.${x.kyc_asked}`)}</b></li>))}</ul>
           ) : (
-            <p>{t('platform.untested', { name: p.name })}{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">{t('platform.source')}</a>)</>} <a href={L('/methodology')}>{t('platform.how_we_test')}</a>.</p>
+            <p>{p.kyc_source ? t('platform.untested', { name: p.name }) : t('platform.nosource', { name: p.name })}{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">{t('platform.source')}</a>)</>} <a href={L('/methodology')}>{t('platform.how_we_test')}</a>.</p>
           )}
         </section>
         <section class="panel" aria-labelledby="rp-h">

@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-10-20",
+    "title": "No real-money tests: method page and listings updated",
+    "body": "We do not test platforms with real money. The method page no longer describes a paid test, and each listing now says where its information comes from and links the source page when we have one."
+  }, {
+    "date": "2026-10-20",
     "title": "ATM and swap listings checked against their own pages",
     "body": "Bitcoin Depot now asks for ID at every purchase at its US kiosks, per its own press release, and Coinstar's wallet provider checks ID before you receive the coins. Mt Pelerin treats ID as optional but holds unverified purchases for 7 days. GhostSwap, SilentSwap, Rockitcoin, WizardSwap, LibertyX, Bitcoin Well, Trocador and OpenPeer now link the page that backs their listing."
   },
@@ -92,7 +96,7 @@
   {
     "date": "2026-10-18",
     "title": "Weekly automatic check of every listing",
-    "body": "Every Monday a script checks that each platform's site still answers and has not moved to another domain, and lists platforms whose last real-money test is older than 90 days."
+    "body": "Every Monday a script checks that each platform's site still answers and has not moved to another domain."
   },
   {
     "date": "2026-10-18",

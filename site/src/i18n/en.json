@@ -192,7 +192,7 @@
   "label": "Sponsored",
   "slot": "Sponsored slot",
   "visit": "Visit {host}",
-  "paid": "Paid placement. Not tested, not ranked.",
+  "paid": "Paid placement. Not ranked.",
   "why": "Why this ad?",
   "here_h": "Your privacy service here",
   "here_p": "One labelled tile, seen by people who already avoid KYC. We review every advertiser first.",
@@ -228,10 +228,10 @@
   "listed_policy": "Listed policy: {x}.",
   "warn": "Policies change without notice. Start with a small amount, and check the platform's own terms before moving larger sums. Platforms without ID checks give you privacy and less recourse if something goes wrong.",
   "features": "Features",
-  "tests_h": "Our tests",
-  "untested": "We have not run a paid test on {name} yet. We built this listing from its published terms.",
+  "tests_h": "Source",
+  "untested": "This listing is built from the terms and help pages {name} publishes.",
   "source": "source",
-  "how_we_test": "How we test",
+  "how_we_test": "How we check",
   "test_line": "{steps} with {amount} by {method}. {result}",
   "changed_h": "Something changed?",
   "changed_a": "If {name} now asks for ID, changed its limits or closed,",
@@ -272,7 +272,8 @@
    "phone": "Phone number",
    "id": "ID document"
   },
-  "status_note_boltz": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back."
+  "status_note_boltz": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back.",
+  "nosource": "No source page is linked to this listing yet. Check {name} directly before you rely on it."
  },
  "data": {
   "Depends on the partner": "Depends on the partner",
