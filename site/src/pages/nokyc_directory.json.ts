@@ -14,7 +14,7 @@ export function GET() {
       supported_countries: p.supported_countries, fiat_deposit: p.fiat_deposit,
       fees: p.fees, cryptocurrencies: p.cryptocurrencies, features: p.features,
       custody: p.custody, payment_methods: p.payment_methods, tor: p.tor, open_source: p.open_source,
-      status: p.status, last_tested: p.tests?.length ? [...p.tests].map((t: { date: string }) => t.date).sort().at(-1) : null,
+      status: p.status,
     });
   }
   return new Response(JSON.stringify(out, null, 2) + '\n', { headers: { 'Content-Type': 'application/json' } });
