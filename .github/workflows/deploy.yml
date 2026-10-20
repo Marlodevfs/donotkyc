@@ -48,5 +48,5 @@ jobs:
           echo "$n changed page(s)"
           if [ "$n" -gt 0 ]; then
             jq -n --slurpfile u changed-urls.json '{host:"www.donotkyc.com",key:"bd29d299b7cafbbb70342632b3481b70",keyLocation:"https://www.donotkyc.com/bd29d299b7cafbbb70342632b3481b70.txt",urlList:$u[0]}' > body.json
-            curl -sS -X POST https://api.indexnow.org/IndexNow -H 'Content-Type: application/json; charset=utf-8' -d @body.json -w 'IndexNow answered HTTP %{http_code}\n'
+            curl -sS --fail-with-body -X POST https://api.indexnow.org/IndexNow -H 'Content-Type: application/json; charset=utf-8' -d @body.json -w 'IndexNow answered HTTP %{http_code}\n'
           fi
