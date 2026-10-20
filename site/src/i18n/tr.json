@@ -621,7 +621,8 @@
   "ID optional, purchases held 7 days without it": "Kimlik isteğe bağlı, kimliksiz alımlar 7 gün bekletilir",
   "ID required for every purchase": "Her alımda kimlik istenir",
   "ID verification required": "Kimlik doğrulaması istenir",
-  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Doğrulanmadı: yardım merkezi günde 30 BTC çekimden itibaren temel doğrulama istiyor, diğer kaynaklar bunun altında gerekmediğini söylüyor"
+  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Doğrulanmadı: yardım merkezi günde 30 BTC çekimden itibaren temel doğrulama istiyor, diğer kaynaklar bunun altında gerekmediğini söylüyor",
+  "No ID up to $700": "700 $'a kadar kimliksiz"
  },
  "landings": {
   "/exchanges": {

@@ -621,7 +621,8 @@
   "ID optional, purchases held 7 days without it": "Ausweis optional, Käufe ohne ihn 7 Tage zurückgehalten",
   "ID required for every purchase": "Ausweis bei jedem Kauf verlangt",
   "ID verification required": "Identitätsprüfung verlangt",
-  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Nicht bestätigt: Das Hilfecenter verlangt eine Basisverifizierung ab 30 BTC Abhebung pro Tag, andere Quellen sagen, darunter sei keine nötig"
+  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Nicht bestätigt: Das Hilfecenter verlangt eine Basisverifizierung ab 30 BTC Abhebung pro Tag, andere Quellen sagen, darunter sei keine nötig",
+  "No ID up to $700": "Ohne Ausweis bis 700 $"
  },
  "landings": {
   "/exchanges": {
