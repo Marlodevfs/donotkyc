@@ -3,6 +3,6 @@ import Base from '../layouts/Base.astro';
 import body from '../content/blog.html?raw';
 
 ---
-<Base title='Blog: no-KYC crypto guides and news | DoNotKYC' description='Guides and insights on no-KYC crypto exchanges, privacy and safe trading.' path="/blog" nav={'blog'}>
+<Base title='Blog: no-KYC crypto guides and news | DoNotKYC' description='Guides and insights on no-KYC crypto exchanges, privacy and safe trading.' path="/blog" nav={'blog'} schema="CollectionPage">
   <div class="wrap page"><article class="prose" set:html={body} /></div>
 </Base>

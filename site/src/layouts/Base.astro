@@ -13,13 +13,17 @@ interface Props {
   localized?: boolean;     // la page existe dans toutes les langues (hreflang + sélecteur)
   type?: 'website' | 'article';
   jsonld?: object | object[];
+  schema?: 'WebPage' | 'AboutPage' | 'CollectionPage';  // ajoute un bloc JSON-LD décrivant la page elle-même
+  about?: object;           // entité dont parle la page (schema.org), ex. la plateforme d'une fiche
   nav?: 'directory' | 'blog' | 'tools' | 'privacy' | 'security' | null;
 }
-const { title, description, path, lang = 'en', localized = false, type = 'website', jsonld, nav = null } = Astro.props;
+const { title, description, path, lang = 'en', localized = false, type = 'website', jsonld, nav = null, schema, about } = Astro.props;
 const t = useT(lang);
 const site = 'https://www.donotkyc.com';
 const url = site + lp(lang, path);
 const lds = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+if (schema) lds.unshift({ '@context': 'https://schema.org', '@type': schema, url, name: title, description, inLanguage: HREFLANG[lang],
+  isPartOf: { '@type': 'WebSite', name: 'DoNotKYC', url: site + '/' }, ...(about ? { about } : {}) });
 const L = (p: string) => lp(lang, p);
 const links = [
   { key: 'directory', href: L('/'), label: t('nav.directory') },

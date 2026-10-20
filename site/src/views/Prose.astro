@@ -18,7 +18,7 @@ const html = (d.html as string)
   .replaceAll('{SUBMIT_URL}', SUBMIT_URL).replaceAll('{REPORT_URL}', reportUrl());
 const current = page === 'advertise' ? activeSponsors() : [];
 ---
-<Base title={d.title} description={d.description} path={`/${page}`} lang={lang} localized>
+<Base title={d.title} description={d.description} path={`/${page}`} lang={lang} localized schema={page === 'about' ? 'AboutPage' : 'WebPage'}>
   <div class="wrap page"><div class="prose">
     <Fragment set:html={html} />
     {page === 'advertise' && (

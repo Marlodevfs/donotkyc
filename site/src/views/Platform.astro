@@ -21,6 +21,7 @@ const fit = (s: string, n = 158) => {
   for (const part of s.split(/(?<=[.。])\s+|(?<=。)/)) { if ((out + part).length > n) break; out += (out ? ' ' : '') + part; }
   return out || s.slice(0, n - 1) + '…';
 };
+const PAY_PAGE: Record<string, string> = { cash: '/pay/cash', card: '/pay/card', bank: '/pay/bank-transfer' }; // pages thématiques liées depuis la fiche
 const summary = tx(lang, p.kyc_summary)!;
 const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
 const host = new URL(p.url).hostname.replace(/^www\./, '');
@@ -29,6 +30,7 @@ const tests = ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCo
 const fmt = (iso: string) => new Date(iso + 'T12:00:00Z').toLocaleDateString(HREFLANG[lang], { day: 'numeric', month: 'short', year: 'numeric' });
 const note = t(`platform.status_note_${p.slug}`);
 const cmps = pairsFor(p.slug);
+const officialUrl = (() => { const u = new URL(p.url); return u.origin + (u.pathname === '/' ? '' : u.pathname); })(); // sans paramètres de suivi
 const jsonld = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: [
@@ -40,14 +42,14 @@ const jsonld = {
 ---
 <Base title={t('platform.title', { name: p.name })}
   description={fit(t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.charAt(0).toLowerCase() + summary.slice(1), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: tx(lang, p.supported_countries) }))}
-  path={`/p/${p.slug}`} lang={lang} localized jsonld={jsonld}>
+  path={`/p/${p.slug}`} lang={lang} localized jsonld={jsonld} schema="WebPage" about={{ '@type': 'Organization', name: p.name, url: officialUrl }}>
   <div class="wrap det">
     <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L(CATEGORY_PATH[p.type])}>{type}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>
     <div class="dh">
       <Mono p={p} size={72} />
       <div>
         <h1>{p.name}</h1>
-        <p>{t('platform.lead', { type, summary })}</p>
+        <p>{t('platform.lead', { name: p.name, type: lang === 'tr' ? type.toLocaleLowerCase('tr') : type, level, summary })}</p>
         <div class="chips"><Level level={p.kyc_level} lang={lang} /><span class="lvl l-plain">{p.fiat_deposit ? t('platform.card_ok') : t('platform.crypto_only')}</span>{last && <span class="lvl l-none"><Icon name="badge-check" size={15} />{t('platform.tested', { date: fmt(last.date) })}</span>}</div>
       </div>
       <div class="acts">
@@ -86,7 +88,7 @@ const jsonld = {
             <div><dt>{t('platform.identity')}</dt><dd>{level}</dd></div>
             <div><dt>{t('platform.type')}</dt><dd>{type}</dd></div>
             <div><dt>{t('platform.custody')}</dt><dd>{t(`platform.custody_v.${p.custody}`)}</dd></div>
-            <div><dt>{t('platform.payment')}</dt><dd>{p.payment_methods.map((m) => t(`platform.payments_v.${m}`)).join(', ')}</dd></div>
+            <div><dt>{t('platform.payment')}</dt><dd>{p.payment_methods.map((m, i) => (<>{i > 0 && ', '}{PAY_PAGE[m] ? <a href={L(PAY_PAGE[m])}>{t(`platform.payments_v.${m}`)}</a> : t(`platform.payments_v.${m}`)}</>))}</dd></div>
             <div><dt>{t('platform.fees')}</dt><dd class="num">{p.fees}</dd></div>
             <div><dt>{t('platform.availability')}</dt><dd>{tx(lang, p.supported_countries)}</dd></div>
             {p.tor !== null && <div><dt>{t('platform.tor')}</dt><dd>{p.tor ? t('platform.yes') : t('platform.no')}</dd></div>}

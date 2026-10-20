@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "Kaufe und verkaufe Bitcoin mit anderen Menschen per App. On-Chain-Treuhand, kein Ausweis.",
-  "coffee_note": "Eine Spende kauft nichts: Kein Eintrag, Rang oder Test ändert sich."
+  "coffee_note": "Eine Spende kauft nichts: Kein Eintrag, Rang oder Test ändert sich.",
+  "pay_h": "Kaufen nach Coin oder Zahlungsmethode",
+  "pay_p": "Jede Seite listet nur die Plattformen, die das unterstützen.",
+  "coin_from": "Kaufen",
+  "pay_from": "Zahlen per"
  },
  "sponsor": {
   "label": "Gesponsert",
@@ -217,7 +221,7 @@
   "description": "{name}: {type}. Verlangte Identität: {level} ({summary}). {fiat} Gebühren: {fees}. Verfügbarkeit: {countries}.",
   "fiat_yes": "Nimmt Einzahlungen per Karte oder Bank an.",
   "fiat_no": "Nur Krypto.",
-  "lead": "{type}. {summary}.",
+  "lead": "{name}: {type}. Verlangte Identität: {level}. {summary}.",
   "card_ok": "Karte oder Bank möglich",
   "crypto_only": "Nur Krypto",
   "tested": "Getestet am {date}",

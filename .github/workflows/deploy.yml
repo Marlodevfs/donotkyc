@@ -19,6 +19,10 @@ jobs:
         with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
       - run: npm ci && npm run build
         working-directory: site
+      - run: node scripts/indexnow.mjs
+        working-directory: site
+      - uses: actions/upload-artifact@v4
+        with: { name: changed-urls, path: changed-urls.json }
       - uses: actions/upload-pages-artifact@v3
         with: { path: docs }
   deploy:
@@ -31,3 +35,18 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  # Prévient Bing, Yandex, Seznam et Naver des pages modifiées (IndexNow). Un échec ne bloque pas le déploiement.
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: changed-urls }
+      - run: |
+          n=$(jq length changed-urls.json)
+          echo "$n changed page(s)"
+          if [ "$n" -gt 0 ]; then
+            jq -n --slurpfile u changed-urls.json '{host:"www.donotkyc.com",key:"bd29d299b7cafbbb70342632b3481b70",keyLocation:"https://www.donotkyc.com/bd29d299b7cafbbb70342632b3481b70.txt",urlList:$u[0]}' > body.json
+            curl -sS -X POST https://api.indexnow.org/IndexNow -H 'Content-Type: application/json; charset=utf-8' -d @body.json -w 'IndexNow answered HTTP %{http_code}\n'
+          fi

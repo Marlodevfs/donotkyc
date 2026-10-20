@@ -25,6 +25,7 @@ Identity levels: None = no ID and no account details; Light = no ID under a stat
 - [Compare platforms](${SITE}/compare): ${pairs.length} side-by-side comparisons
 - [Changelog](${SITE}/changelog): dated changes to listings
 - [Open data](${SITE}/nokyc_directory.json): the full directory as JSON
+- [Full data](${SITE}/llms-full.txt): every platform and tool with its listed facts, as plain text
 
 ## Topic pages
 ${LANDINGS.map((l) => `- ${SITE}${l.path}`).join('\n')}

@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "通过手机应用与他人买卖比特币。链上托管，无需证件。",
-  "coffee_note": "捐赠不能买到任何东西：条目、排名和评测都不会改变。"
+  "coffee_note": "捐赠不能买到任何东西：条目、排名和评测都不会改变。",
+  "pay_h": "按币种或支付方式购买",
+  "pay_p": "每个页面只列出支持该方式的平台。",
+  "coin_from": "购买",
+  "pay_from": "支付方式"
  },
  "sponsor": {
   "label": "赞助",
@@ -217,7 +221,7 @@
   "description": "{name} 是一个{type}。身份要求：{level}（{summary}）。{fiat} 费用：{fees}。可用地区：{countries}。",
   "fiat_yes": "支持银行卡或银行入金。",
   "fiat_no": "仅支持加密货币。",
-  "lead": "{type}。{summary}。",
+  "lead": "{name} 是一个{type}。身份要求：{level}。{summary}。",
   "card_ok": "支持银行卡或银行",
   "crypto_only": "仅加密货币",
   "tested": "测试于 {date}",

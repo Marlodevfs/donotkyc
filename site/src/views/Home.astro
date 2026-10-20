@@ -16,6 +16,7 @@ const sp = lang === 'zh' ? '' : ' '; // pas d'espace entre les segments en chino
 const L = (p: string) => lp(lang, p);
 const site = 'https://www.donotkyc.com';
 const alts = LANDINGS.filter((l) => l.group === 'alternative');
+const buys = LANDINGS.filter((l) => l.group === 'coin' || l.group === 'payment');
 const list = [...platforms].sort(byLeastId);
 const noId = platforms.filter((p) => p.kyc_level === 'none').length;
 const count = (c: (typeof CATEGORIES)[number]) => (c.key === 'all' ? platforms.length : platforms.filter((p) => c.types.includes(p.type)).length);
@@ -96,6 +97,13 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       <div class="active" id="active" aria-live="polite"></div>
       <Rows items={list} id="list" hay={hay} lang={lang} />
       <div class="empty" id="empty" hidden>{t('home.empty')} <button type="button" data-reset>{t('home.clear_filters')}</button></div>
+    </section>
+
+    <section class="sec" aria-labelledby="pay-h">
+      <div class="sec-h"><h2 id="pay-h">{t('home.pay_h')}</h2><p>{t('home.pay_p')}</p></div>
+      <ul class="idx n5">
+        {buys.map((l) => (<li><a href={L(l.path)}><span class="from">{t(l.group === 'coin' ? 'home.coin_from' : 'home.pay_from')}</span><span class="name">{landingText(lang, l.path).nav}</span><span class="alt">{t('cats.listed', { n: itemsFor(l).length })}<Icon name="arrow-right" size={16} /></span></a></li>))}
+      </ul>
     </section>
 
     <section class="sec" aria-labelledby="alt-h">

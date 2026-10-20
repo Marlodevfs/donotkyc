@@ -8,7 +8,7 @@ const { lang } = Astro.props;
 const t = useT(lang);
 const groups = Object.keys(TYPES).map((ty) => ({ ty, items: pairs.filter((p) => p.a.type === ty) })).filter((g) => g.items.length);
 ---
-<Base title={t('compare.index_title')} description={t('compare.index_desc')} path="/compare" lang={lang} localized>
+<Base title={t('compare.index_title')} description={t('compare.index_desc')} path="/compare" lang={lang} localized schema="CollectionPage">
   <div class="wrap det">
     <header class="lh"><h1>{t('compare.index_h1')}</h1><p>{t('compare.index_lead')}</p></header>
     <div class="cmp-groups">

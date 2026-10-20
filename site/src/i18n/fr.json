@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "Achetez et vendez du bitcoin entre particuliers depuis une appli mobile. Escrow on-chain, sans identité.",
-  "coffee_note": "Un don n'achète rien : aucune fiche, aucun rang, aucun avis ne change."
+  "coffee_note": "Un don n'achète rien : aucune fiche, aucun rang, aucun avis ne change.",
+  "pay_h": "Acheter selon la crypto ou le moyen de paiement",
+  "pay_p": "Chaque page ne liste que les plateformes qui le permettent.",
+  "coin_from": "Acheter",
+  "pay_from": "Payer par"
  },
  "sponsor": {
   "label": "Sponsorisé",
@@ -217,7 +221,7 @@
   "description": "{name} : {type}. Identité demandée : {level} ({summary}). {fiat} Frais : {fees}. Disponibilité : {countries}.",
   "fiat_yes": "Accepte les dépôts par carte ou virement.",
   "fiat_no": "Crypto uniquement.",
-  "lead": "{type}. {summary}.",
+  "lead": "{name} : {type}. Identité demandée : {level}. {summary}.",
   "card_ok": "Carte ou banque acceptée",
   "crypto_only": "Crypto uniquement",
   "tested": "Testé le {date}",

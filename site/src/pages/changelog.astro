@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import entries from '../data/changelog.json';
 const fmt = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
-<Base title="Changelog: what changed in the directory | DoNotKYC" description="Every change to the DoNotKYC directory, dated: platforms added, removed, flagged or updated." path="/changelog">
+<Base title="Changelog: what changed in the directory | DoNotKYC" description="Every change to the DoNotKYC directory, dated: platforms added, removed, flagged or updated." path="/changelog" schema="CollectionPage">
   <div class="wrap page"><div class="prose">
     <h1>Changelog</h1>
     <p>Every change to the directory, dated. Subscribe with <a href="/rss.xml">RSS</a>.</p>

@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "Compre e venda bitcoin com outras pessoas por um app. Escrow on-chain, sem documento.",
-  "coffee_note": "Uma doação não compra nada: nenhuma listagem, posição ou análise muda."
+  "coffee_note": "Uma doação não compra nada: nenhuma listagem, posição ou análise muda.",
+  "pay_h": "Comprar por moeda ou forma de pagamento",
+  "pay_p": "Cada página lista só as plataformas que oferecem isso.",
+  "coin_from": "Comprar",
+  "pay_from": "Pagar com"
  },
  "sponsor": {
   "label": "Patrocinado",
@@ -217,7 +221,7 @@
   "description": "{name}: {type}. Identidade pedida: {level} ({summary}). {fiat} Taxas: {fees}. Disponibilidade: {countries}.",
   "fiat_yes": "Aceita depósitos por cartão ou banco.",
   "fiat_no": "Só cripto.",
-  "lead": "{type}. {summary}.",
+  "lead": "{name}: {type}. Identidade pedida: {level}. {summary}.",
   "card_ok": "Aceita cartão ou banco",
   "crypto_only": "Só cripto",
   "tested": "Testado em {date}",

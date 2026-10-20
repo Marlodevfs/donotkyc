@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "Bir mobil uygulamadan başkalarıyla bitcoin al sat. Zincir üstü emanet, kimlik yok.",
-  "coffee_note": "Bağış hiçbir şey satın almaz: hiçbir liste, sıralama ya da inceleme değişmez."
+  "coffee_note": "Bağış hiçbir şey satın almaz: hiçbir liste, sıralama ya da inceleme değişmez.",
+  "pay_h": "Coin veya ödeme yöntemine göre satın al",
+  "pay_p": "Her sayfa yalnızca bunu destekleyen platformları listeler.",
+  "coin_from": "Satın al",
+  "pay_from": "Ödeme"
  },
  "sponsor": {
   "label": "Sponsorlu",
@@ -217,7 +221,7 @@
   "description": "{name} bir {type}. İstenen kimlik: {level} ({summary}). {fiat} Ücretler: {fees}. Erişim: {countries}.",
   "fiat_yes": "Kart veya banka ile yatırım kabul eder.",
   "fiat_no": "Yalnızca kripto.",
-  "lead": "{type}. {summary}.",
+  "lead": "{name} bir {type}. İstenen kimlik: {level}. {summary}.",
   "card_ok": "Kart veya banka kabul edilir",
   "crypto_only": "Yalnızca kripto",
   "tested": "{date} tarihinde test edildi",

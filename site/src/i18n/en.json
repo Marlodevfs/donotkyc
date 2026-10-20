@@ -187,7 +187,11 @@
    ]
   ],
   "pick_peach-bitcoin": "Buy and sell bitcoin with other people from a mobile app. On-chain escrow, no ID.",
-  "coffee_note": "A donation buys nothing: no listing, rank or review changes."
+  "coffee_note": "A donation buys nothing: no listing, rank or review changes.",
+  "pay_h": "Buy by coin or payment method",
+  "pay_p": "Each page lists only the platforms that support it.",
+  "coin_from": "Buy",
+  "pay_from": "Pay by"
  },
  "sponsor": {
   "label": "Sponsored",
@@ -217,7 +221,7 @@
   "description": "{name}: {type}. Identity asked: {level} ({summary}). {fiat} Fees: {fees}. Availability: {countries}.",
   "fiat_yes": "Accepts card or bank deposits.",
   "fiat_no": "Crypto only.",
-  "lead": "{type}. {summary}.",
+  "lead": "{name}: {type}. Identity asked: {level}. {summary}.",
   "card_ok": "Card or bank accepted",
   "crypto_only": "Crypto only",
   "tested": "Tested {date}",
