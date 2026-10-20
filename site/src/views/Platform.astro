@@ -14,6 +14,13 @@ const L = (x: string) => lp(lang, x);
 const site = 'https://www.donotkyc.com';
 const type = t(`types.${p.type}`);
 const level = t(`levels.${p.kyc_level}`);
+// Meta description : on garde des phrases entières jusqu'à 158 caractères (Google coupe au-delà).
+const fit = (s: string, n = 158) => {
+  if (s.length <= n) return s;
+  let out = '';
+  for (const part of s.split(/(?<=[.。])\s+|(?<=。)/)) { if ((out + part).length > n) break; out += (out ? ' ' : '') + part; }
+  return out || s.slice(0, n - 1) + '…';
+};
 const summary = tx(lang, p.kyc_summary)!;
 const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
 const host = new URL(p.url).hostname.replace(/^www\./, '');
@@ -32,7 +39,7 @@ const jsonld = {
 };
 ---
 <Base title={t('platform.title', { name: p.name })}
-  description={t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.toLowerCase(), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: tx(lang, p.supported_countries) })}
+  description={fit(t('platform.description', { name: p.name, type: type.toLowerCase(), level, summary: summary.charAt(0).toLowerCase() + summary.slice(1), fiat: p.fiat_deposit ? t('platform.fiat_yes') : t('platform.fiat_no'), fees: p.fees, countries: tx(lang, p.supported_countries) }))}
   path={`/p/${p.slug}`} lang={lang} localized jsonld={jsonld}>
   <div class="wrap det">
     <nav class="crumb" aria-label="Breadcrumb"><a href={L('/')}>{t('nav.directory')}</a><Icon name="chevron-right" size={15} /><a href={L(CATEGORY_PATH[p.type])}>{type}</a><Icon name="chevron-right" size={15} /><span aria-current="page">{p.name}</span></nav>

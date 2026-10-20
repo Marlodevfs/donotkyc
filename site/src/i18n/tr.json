@@ -175,7 +175,7 @@
    ],
    [
     "DoNotKYC platformları nasıl seçiyor?",
-    "Her kaydı platformun kendi koşullarından ve yardım sayfalarından hazırlıyor, sonra zaman içinde yeniden kontrol ediyoruz. Ücretli bir test yaptığımızda tarihi kayıtta yazar. Bir hizmet KYC'siz erişimi kaldırırsa ya da temel işlevler için kimliği zorunlu kılarsa kaydı yeniden etiketler veya kaldırırız."
+    "Her kaydı platformun kendi koşullarından ve yardım sayfalarından hazırlıyor, sonra zaman içinde yeniden kontrol ediyoruz. Platformları gerçek parayla test etmiyoruz. Kimlik seviyesi için bir kaynak sayfamız olduğunda, kayıt ona bağlantı verir. Bir hizmet KYC'siz erişimi kaldırırsa ya da temel işlevler için kimliği zorunlu kılarsa kaydı yeniden etiketler veya kaldırırız."
    ],
    [
     "DoNotKYC nasıl para kazanıyor?",

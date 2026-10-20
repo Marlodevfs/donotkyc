@@ -175,7 +175,7 @@
    ],
    [
     "Como o DoNotKYC escolhe as plataformas?",
-    "Montamos cada ficha a partir dos termos e das páginas de ajuda da plataforma e a revisamos com o tempo. Um teste pago, quando fazemos um, aparece datado na ficha. Se um serviço retira o acesso sem KYC ou torna a identidade obrigatória para o essencial, alteramos ou removemos a ficha."
+    "Montamos cada ficha a partir dos termos e das páginas de ajuda da plataforma e a revisamos com o tempo. Não testamos as plataformas com dinheiro real. Quando temos uma página de origem para o nível de identidade, a ficha aponta para ela. Se um serviço retira o acesso sem KYC ou torna a identidade obrigatória para o essencial, alteramos ou removemos a ficha."
    ],
    [
     "Como o DoNotKYC ganha dinheiro?",

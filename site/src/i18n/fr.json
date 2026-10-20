@@ -175,7 +175,7 @@
    ],
    [
     "Comment DoNotKYC choisit-il les plateformes ?",
-    "Nous construisons chaque fiche à partir des conditions et des pages d'aide de la plateforme, puis nous la revoyons dans le temps. Un test payant, quand nous en faisons un, est daté sur la fiche. Si un service supprime l'accès sans KYC ou rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche."
+    "Nous construisons chaque fiche à partir des conditions et des pages d'aide de la plateforme, puis nous la revoyons dans le temps. Nous ne testons pas les plateformes avec de l'argent réel. Quand nous avons une page source pour le niveau d'identité, la fiche y renvoie. Si un service supprime l'accès sans KYC ou rend l'identité obligatoire pour l'essentiel, nous modifions ou retirons sa fiche."
    ],
    [
     "Comment DoNotKYC gagne-t-il de l'argent ?",
