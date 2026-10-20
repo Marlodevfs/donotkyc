@@ -29,7 +29,6 @@ for (let i = 0; i < all.length; i += 8) results.push(...(await Promise.all(all.s
 const lastTest = (p) => (p.tests ?? []).map((t) => t.date).sort().at(-1) ?? null;
 const age = (d) => Math.floor((today - new Date(d + 'T12:00:00Z')) / 864e5);
 const stale = platforms.filter((p) => lastTest(p) && age(lastTest(p)) > STALE_DAYS);
-const never = platforms.filter((p) => !lastTest(p));
 const problems = results.filter((r) => r.problem);
 const bots = results.filter((r) => r.bot && !r.moved);
 
@@ -45,6 +44,4 @@ if (problems.length) {
 out.push('', `## Blocked by anti-bot protection (probably fine): ${bots.length}`, '', bots.map((r) => `${r.p.name} (${r.status})`).join(', ') || 'None.');
 out.push('', `## Tool facts: last checked ${checkedOn ?? 'unknown'}${toolAge !== null && toolAge > TOOL_FACTS_DAYS ? ` (${toolAge} days ago: re-read the tools' own sites)` : ''}`);
 out.push('', `## Tests older than ${STALE_DAYS} days: ${stale.length}`, '', stale.map((p) => `- ${p.name}: last test ${lastTest(p)}`).join('\n') || 'None.');
-out.push('', `## Never tested with real money: ${never.length}`, '', '<details><summary>Show the list</summary>', '', never.map((p) => `- ${p.name}`).join('\n'), '', '</details>');
-out.push('', 'How to record a test: see TESTING.md.');
 console.log(out.join('\n'));
