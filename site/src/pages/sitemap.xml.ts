@@ -5,7 +5,7 @@ import { TOOL_PAGES } from '../data/tools';
 import { LOCALES, lp } from '../i18n';
 
 const SITE = 'https://www.donotkyc.com';
-const LOCALIZED = ['/', '/submit', '/methodology', '/advertise', '/compare', '/search', '/privacy', '/security', '/how-we-make-money', '/privacy-policy'];
+const LOCALIZED = ['/', '/submit', '/methodology', '/advertise', '/compare', '/search', '/privacy', '/security', '/how-we-make-money', '/privacy-policy', '/about'];
 const EN_ONLY = ['/blog', '/article1', '/article2', '/api-docs', '/changelog'];
 
 export function GET() {

@@ -5,7 +5,7 @@ import { iconSvg } from '../lib/icons';
 import { SUBMIT_URL, reportUrl, platforms } from '../lib/platforms';
 import { activeSponsors } from '../lib/sponsors';
 import { dict, useT, lp, type Lang } from '../i18n';
-interface Props { page: 'methodology' | 'submit' | 'advertise' | 'how-we-make-money' | 'privacy-policy'; lang: Lang }
+interface Props { page: 'methodology' | 'submit' | 'advertise' | 'how-we-make-money' | 'privacy-policy' | 'about'; lang: Lang }
 const { page, lang } = Astro.props;
 const t = useT(lang);
 const d = dict(lang).pages[page];
@@ -13,7 +13,7 @@ const icon = iconSvg('arrow-up-right');
 // Liens internes du HTML traduit : on les fait pointer vers la bonne langue
 const html = (d.html as string)
   .replaceAll('{icon}', icon)
-  .replace(/href="\/(submit|methodology|advertise|how-we-make-money|privacy-policy|privacy|security)?(#[\w-]+)?"/g, (_m, p, h) => `href="${lp(lang, '/' + (p ?? ''))}${h ?? ''}"`)
+  .replace(/href="\/(submit|methodology|advertise|how-we-make-money|privacy-policy|about|privacy|security)?(#[\w-]+)?"/g, (_m, p, h) => `href="${lp(lang, '/' + (p ?? ''))}${h ?? ''}"`)
   .replaceAll('{AFFILIATES}', platforms.filter((p) => p.affiliate_link).map((p) => `<a href="${lp(lang, '/p/' + p.slug)}">${p.name}</a>`).join(', '))
   .replaceAll('{SUBMIT_URL}', SUBMIT_URL).replaceAll('{REPORT_URL}', reportUrl());
 const current = page === 'advertise' ? activeSponsors() : [];

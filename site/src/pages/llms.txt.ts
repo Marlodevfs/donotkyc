@@ -21,6 +21,7 @@ Identity levels: None = no ID and no account details; Light = no ID under a stat
 ## Key pages
 - [Directory](${SITE}/): every platform, filterable by type, identity level, card or bank deposit and US availability
 - [How we check platforms](${SITE}/methodology): identity levels, sources and the real-money test protocol
+- [About and contact](${SITE}/about): who runs the project, how it is funded, how to reach us
 - [Compare platforms](${SITE}/compare): ${pairs.length} side-by-side comparisons
 - [Changelog](${SITE}/changelog): dated changes to listings
 - [Open data](${SITE}/nokyc_directory.json): the full directory as JSON

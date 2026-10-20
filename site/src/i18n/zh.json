@@ -19,7 +19,7 @@
   "tools": "工具"
  },
  "footer": {
-  "about": "一个独立的加密平台目录，收录无需提交身份证件即可交易的平台。仅供参考，不构成投资建议。",
+  "about": "关于与联系",
   "directory": "目录",
   "all": "全部平台",
   "submit": "推荐平台",
@@ -834,6 +834,11 @@
    "title": "隐私政策 | DoNotKYC",
    "description": "DoNotKYC 不出售数据，也不保存关于你的个人数据。没有 Cookie，只有一个不用 Cookie 的访问计数器。GitHub Pages 会记录什么，哪些内容留在你的设备上。",
    "html": "<h1>隐私政策</h1><p><strong>DoNotKYC 不出售数据，也不保存任何关于你的个人数据。</strong></p><h2>本站不使用的东西</h2><ul><li>没有广告追踪器，没有 Cookie。</li><li>字体、图片和代码都来自 www.donotkyc.com。唯一的外部脚本是下面说明的访问计数器。</li><li>你在本站输入的任何内容都不会发送给我们。提交和更正通过 GitHub 进行，适用 GitHub 自己的隐私声明。</li></ul><h2>留在你设备上的内容</h2><p>如果你切换浅色和深色主题，浏览器会在本地存储中记住这个选择。站内搜索也在你的浏览器中运行：你的搜索词不会发往任何地方。</p><h2>访问计数器</h2><p>我们用 <a href=\"https://www.goatcounter.com/\" rel=\"noopener\">GoatCounter</a> 统计访问量，这是一个不使用 Cookie 的开源计数器。它记录被打开的页面、来源网站、浏览器、国家和屏幕尺寸，不记录你的姓名，也不会跨站跟踪你。我们只是想知道有多少人在读这个网站。</p><h2>托管</h2><p>本站托管在 GitHub Pages 上。出于安全原因，GitHub 会记录访客的 IP 地址。我们无法访问这些日志。<a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection\" rel=\"noopener\">GitHub 的说明</a>（英文）。</p><h2>指向其他网站的链接</h2><p>当你点击平台链接时，你就离开了 DoNotKYC，适用该网站的政策。推广链接会告诉平台你来自我们；它不会告诉我们任何关于你的信息。见<a href=\"/how-we-make-money\">我们如何赚钱</a>。</p><h2>变更</h2><p>本政策的变更会记录在<a href=\"/changelog\">更新日志</a>中。最后更新：2026 年 10 月 19 日。</p>"
+  },
+  "about": {
+   "title": "关于与联系 | DoNotKYC",
+   "description": "DoNotKYC 是由 Marlodevfs 和 khalil-xmr 运营的社区项目。网站做什么、如何运作资金，以及如何联系我们。",
+   "html": "<h1>关于与联系</h1><p>DoNotKYC 是社区项目，不是公司。由 <a href=\"https://github.com/Marlodevfs\" rel=\"noopener\">Marlodevfs</a> 和 <a href=\"https://github.com/khalil-xmr\" rel=\"noopener\">khalil-xmr</a> 运营。代码和每一次修改都公开在 <a href=\"https://github.com/Marlodevfs/donotkyc\" rel=\"noopener\">GitHub 仓库</a> 中，任何人都可以提出修正。</p><h2>网站做什么</h2><p>网站列出加密平台和隐私工具，并直接说明每一个向你要求什么：无需身份、需要账户，或需要证件。信息来自各服务的官方网站，条目里标有来源和核查日期。<a href=\"/methodology\">我们如何核查</a>解释了各个等级。</p><h2>资金来源</h2><p>联盟链接和带标签的赞助板块。两者都不会改变列表顺序或条目内容。详情见<a href=\"/how-we-make-money\">我们如何赚钱</a>。</p><h2>你的数据</h2><p>没有账户、没有 Cookie、没有表单。访问量的统计不做追踪。见<a href=\"/privacy-policy\">隐私政策</a>。</p><h2>联系我们</h2><ul><li>缺少某个平台：<a href=\"{SUBMIT_URL}\" rel=\"noopener\">在 GitHub 上提交</a>。</li><li>某条信息有误或已过期：<a href=\"{REPORT_URL}\" rel=\"noopener\">报告变更</a>。</li><li>提问、合作或广告：请联系 <a href=\"https://t.me/donotkyc55\" rel=\"noopener\">Telegram 上的 @donotkyc55</a>。</li><li>安全问题：同样请通过 Telegram，并且不要在公开的 issue 中写技术细节。</li></ul><p>目前我们没有公开的联系邮箱。</p><h2>我们不做的事</h2><p>我们不提供财务或法律建议。任何平台都不能花钱买更高的排名、评测或“已验证”标识。</p>"
   }
  },
  "compare": {
