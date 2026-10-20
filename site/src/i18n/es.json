@@ -186,7 +186,8 @@
     "Usa el enlace «Informar de un cambio» en la ficha de la plataforma o el del pie de página. Revisamos cada aviso antes de modificar una ficha."
    ]
   ],
-  "pick_peach-bitcoin": "Compra y vende bitcoin con otras personas desde una app móvil. Escrow on-chain, sin identificación."
+  "pick_peach-bitcoin": "Compra y vende bitcoin con otras personas desde una app móvil. Escrow on-chain, sin identificación.",
+  "coffee_note": "Una donación no compra nada: ningún listado, posición ni reseña cambia."
  },
  "sponsor": {
   "label": "Patrocinado",

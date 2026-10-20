@@ -186,7 +186,8 @@
     "Nutze den Link „Änderung melden“ auf der Seite der Plattform oder im Footer. Wir prüfen jede Meldung, bevor wir einen Eintrag ändern."
    ]
   ],
-  "pick_peach-bitcoin": "Kaufe und verkaufe Bitcoin mit anderen Menschen per App. On-Chain-Treuhand, kein Ausweis."
+  "pick_peach-bitcoin": "Kaufe und verkaufe Bitcoin mit anderen Menschen per App. On-Chain-Treuhand, kein Ausweis.",
+  "coffee_note": "Eine Spende kauft nichts: Kein Eintrag, Rang oder Test ändert sich."
  },
  "sponsor": {
   "label": "Gesponsert",

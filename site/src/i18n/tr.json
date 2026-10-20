@@ -186,7 +186,8 @@
     "Platform sayfasındaki ya da alt bilgideki «Değişiklik bildir» bağlantısını kullan. Bir kaydı değiştirmeden önce her bildirimi kontrol ederiz."
    ]
   ],
-  "pick_peach-bitcoin": "Bir mobil uygulamadan başkalarıyla bitcoin al sat. Zincir üstü emanet, kimlik yok."
+  "pick_peach-bitcoin": "Bir mobil uygulamadan başkalarıyla bitcoin al sat. Zincir üstü emanet, kimlik yok.",
+  "coffee_note": "Bağış hiçbir şey satın almaz: hiçbir liste, sıralama ya da inceleme değişmez."
  },
  "sponsor": {
   "label": "Sponsorlu",

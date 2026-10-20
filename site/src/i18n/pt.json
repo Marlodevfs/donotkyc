@@ -186,7 +186,8 @@
     "Use o link «Informar uma mudança» na ficha da plataforma ou no rodapé. Conferimos cada aviso antes de alterar uma ficha."
    ]
   ],
-  "pick_peach-bitcoin": "Compre e venda bitcoin com outras pessoas por um app. Escrow on-chain, sem documento."
+  "pick_peach-bitcoin": "Compre e venda bitcoin com outras pessoas por um app. Escrow on-chain, sem documento.",
+  "coffee_note": "Uma doação não compra nada: nenhuma listagem, posição ou análise muda."
  },
  "sponsor": {
   "label": "Patrocinado",

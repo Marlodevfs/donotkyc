@@ -186,7 +186,8 @@
     "Usa il link «Segnala una modifica» nella scheda della piattaforma o quello a fondo pagina. Controlliamo ogni segnalazione prima di modificare una scheda."
    ]
   ],
-  "pick_peach-bitcoin": "Compra e vendi bitcoin con altre persone da un'app. Escrow on-chain, senza documento."
+  "pick_peach-bitcoin": "Compra e vendi bitcoin con altre persone da un'app. Escrow on-chain, senza documento.",
+  "coffee_note": "Una donazione non compra nulla: nessuna scheda, posizione o recensione cambia."
  },
  "sponsor": {
   "label": "Sponsorizzato",
