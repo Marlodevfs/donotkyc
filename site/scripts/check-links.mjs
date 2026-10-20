@@ -14,8 +14,8 @@ async function check(p) {
   try {
     const res = await fetch(p.url, { redirect: 'follow', headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
     const moved = host(res.url) !== host(p.url) && !host(res.url).endsWith('.' + host(p.url));
-    // 401/403/429/503 : très souvent une protection anti-robot, pas une panne
-    const bot = [401, 403, 429, 503].includes(res.status);
+    // 401/403/429/451/503 : très souvent une protection anti-robot, pas une panne
+    const bot = [401, 403, 429, 451, 503].includes(res.status);
     return { p, status: res.status, final: res.url, moved, problem: moved || (!res.ok && !bot), bot };
   } catch (e) {
     return { p, status: e.name === 'TimeoutError' ? 'timeout' : 'error', final: '', moved: false, problem: true, bot: false, err: e.message };
