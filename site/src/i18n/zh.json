@@ -622,8 +622,9 @@
   "ID optional, purchases held 7 days without it": "身份证件可选，不提供则购买款项滞留 7 天",
   "ID required for every purchase": "每次购买都需要身份证件",
   "ID verification required": "需要身份验证",
-  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "未确认：帮助中心要求每日提现达到 30 BTC 时进行基础验证，其他来源则称低于该数额无需验证",
-  "No ID up to $700": "700 美元以内无需证件"
+  "No ID up to $700": "700 美元以内无需证件",
+  "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "未确认：帮助中心称基础验证将每日提现额度定为 30 BTC，未说明未验证时的额度",
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "无需身份证件；注册需要电子邮件。银行卡购买通过第三方进行，第三方可能要求提供身份证件"
  },
  "landings": {
   "/exchanges": {

@@ -622,8 +622,9 @@
   "ID optional, purchases held 7 days without it": "Identificación opcional, compras retenidas 7 días sin ella",
   "ID required for every purchase": "Identificación exigida en cada compra",
   "ID verification required": "Verificación de identidad exigida",
-  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Sin confirmar: el centro de ayuda pide una verificación básica a partir de 30 BTC retirados al día, mientras que otras fuentes dicen que no hace falta por debajo de esa cifra",
-  "No ID up to $700": "Sin identificación hasta 700 $"
+  "No ID up to $700": "Sin identificación hasta 700 $",
+  "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "No confirmado: el centro de ayuda indica que la verificación básica fija el límite diario de retiro en 30 BTC y no indica el límite sin verificación",
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Sin identidad; el registro pide un correo electrónico. Las compras con tarjeta pasan por un tercero que puede pedir identificación"
  },
  "landings": {
   "/exchanges": {

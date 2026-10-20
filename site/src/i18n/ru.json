@@ -622,8 +622,9 @@
   "ID optional, purchases held 7 days without it": "Документ необязателен, без него покупки задерживаются на 7 дней",
   "ID required for every purchase": "Документ требуется при каждой покупке",
   "ID verification required": "Требуется проверка личности",
-  "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that": "Не подтверждено: справочный центр требует базовую верификацию от 30 BTC вывода в сутки, а другие источники пишут, что ниже этого порога она не нужна",
-  "No ID up to $700": "Без документов до 700 $"
+  "No ID up to $700": "Без документов до 700 $",
+  "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Не подтверждено: в центре помощи сказано, что базовая верификация задаёт суточный лимит вывода в 30 BTC, а лимит без верификации не указан",
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Документ не нужен; для регистрации нужен адрес электронной почты. Покупки картой идут через стороннего поставщика, который может запросить документ"
  },
  "landings": {
   "/exchanges": {

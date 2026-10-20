@@ -1,9 +1,15 @@
 [
   {
     "date": "2026-10-20",
+    "title": "Best Wallet corrected, KCEX and PrimeXBT sources added",
+    "body": "Best Wallet moves from No ID to Light: its own site says to sign up with an email, and card purchases go through a third party that may ask for ID. KCEX now links its help article, which gives 30 BTC a day as the limit for basic verification and does not state the limit without it. PrimeXBT now links its help article, which gives $20,000 per 24 hours as the withdrawal limit before verification."
+  },
+  {
+    "date": "2026-10-20",
     "title": "No real-money tests: method page and listings updated",
     "body": "We do not test platforms with real money. The method page no longer describes a paid test, and each listing now says where its information comes from and links the source page when we have one."
-  }, {
+  },
+  {
     "date": "2026-10-20",
     "title": "ATM and swap listings checked against their own pages",
     "body": "Bitcoin Depot now asks for ID at every purchase at its US kiosks, per its own press release, and Coinstar's wallet provider checks ID before you receive the coins. Mt Pelerin treats ID as optional but holds unverified purchases for 7 days. GhostSwap, SilentSwap, Rockitcoin, WizardSwap, LibertyX, Bitcoin Well, Trocador and OpenPeer now link the page that backs their listing."

@@ -182,7 +182,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account",
     "tests": []
   },
   {
@@ -228,7 +228,7 @@
     "logo": "logos/kcex.webp",
     "kyc_level": "light",
     "kyc_summary": "No ID at low limits",
-    "kyc_tier": "Not confirmed: the help center asks for basic verification at 30 BTC withdrawn per day, while other sources say none is needed below that",
+    "kyc_tier": "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification",
     "supported_countries": "Global except restrictions",
     "blocked": "Some regions",
     "fiat_deposit": false,
@@ -249,7 +249,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://www.kcex.com/en-us/support/articles/24159228562585",
     "tests": []
   },
   {
@@ -1146,9 +1146,9 @@
     "url": "https://bestwallet.com",
     "affiliate_link": null,
     "logo": "logos/best-wallet.webp",
-    "kyc_level": "none",
-    "kyc_summary": "No account",
-    "kyc_tier": "None",
+    "kyc_level": "light",
+    "kyc_summary": "Email only",
+    "kyc_tier": "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID",
     "supported_countries": "Global",
     "blocked": null,
     "fiat_deposit": false,
@@ -1157,8 +1157,7 @@
     "features": [
       "Mobile wallet with built-in swap",
       "Connects to multiple DEXs",
-      "Multi-chain support",
-      "No registration"
+      "Multi-chain support"
     ],
     "custody": "self",
     "payment_methods": [
@@ -1168,7 +1167,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
+    "kyc_source": "https://bestwallet.com/terms",
     "tests": []
   },
   {
