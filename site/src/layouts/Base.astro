@@ -129,7 +129,7 @@ const links = [
         </div>
         <div class="legal">
           <p>{t('footer.legal')}</p>
-          <span>© 2026 DoNotKYC · {t('footer.made_by').split('{name}')[0]}<a href="https://github.com/Marlodevfs" rel="noopener">Marlodevfs</a>{t('footer.made_by').split('{name}')[1]}</span>
+          <span>© 2026 DoNotKYC · <Fragment set:html={t('footer.made_by').replace('☕', `<a href="https://buymeacoffee.com/donotkyc" rel="noopener" title="${t('footer.coffee')}" aria-label="${t('footer.coffee')}">☕</a>`).replace('{name}', '<a href="https://github.com/Marlodevfs" rel="noopener">Marlodevfs</a>')} /></span>
         </div>
       </div>
     </footer>
