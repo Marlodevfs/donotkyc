@@ -315,7 +315,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.blofin.com/hc/en-us/articles/7296238795279-TERMS-OF-USE",
+    "kyc_source": "https://blofin.com/en/support/articles/7296238795279-TERMS-OF-USE",
     "tests": []
   },
   {
@@ -442,7 +442,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bisq.network/faq",
+    "kyc_source": "https://bisq.wiki/Frequently_asked_questions",
     "tests": []
   },
   {
