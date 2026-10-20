@@ -9,7 +9,7 @@
   "vpn": "VPN",
   "privacy": "隐私指南",
   "security": "安全",
-  "advertise": "投放广告",
+  "advertise": "获得展示",
   "theme": "切换主题",
   "menu": "打开菜单",
   "skip": "跳到正文",
@@ -25,7 +25,7 @@
   "submit": "推荐平台",
   "report": "报告变更",
   "how": "我们如何核查",
-  "advertise": "投放广告",
+  "advertise": "获得展示",
   "api": "开放数据 API",
   "browse": "浏览",
   "exchanges": "交易所",
@@ -150,7 +150,7 @@
   "guide_p4": "使用硬件钱包或经过审计的软件钱包，核对网址和合约地址，只在需要时授予钱包权限，避免在平台上留存大额余额。无 KYC 不会免除你的法律和纳税义务，出问题时你的追索手段也更少。",
   "ad_h": "你的服务尊重隐私吗？",
   "ad_p": "你的广告位带有“赞助”标签，面向已在回避 KYC 的用户，不影响目录排序。我们会事先审核每个广告主。",
-  "ad_btn": "在 DoNotKYC 投放广告",
+  "ad_btn": "在 DoNotKYC 获得展示",
   "faq_h": "常见问题",
   "faq": [
    [
@@ -196,7 +196,7 @@
   "why": "为什么显示这条广告？",
   "here_h": "你的服务可以在这里",
   "here_p": "一个带标签的广告位，面向已在回避 KYC 的用户。我们会事先审核每个广告主。",
-  "how": "如何投放广告",
+  "how": "如何获得展示",
   "current_h": "当前赞助商",
   "none_running": "目前没有进行中的赞助位。"
  },
@@ -825,14 +825,14 @@
    "html": "<h1>推荐平台</h1> <p>知道某个无需提交证件就能交易的加密平台？告诉我们。收录免费，无法购买，广告主也不会被优先审核。</p> <p><a class=\"btn\" href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=submit-platform.yml\" rel=\"noopener\">打开表单{icon}</a></p> <h2>收录前我们核查什么</h2> <ul> <li>平台的条款、常见问题或帮助页面写明了其 KYC 政策和限额。必须提供该来源链接。</li> <li>网站正常运行，政策与用户反馈一致。</li> <li>没有可信的卷款跑路、无故冻结资金或虚假交易量的报告。</li> <li>身份等级（无需、轻度或分级）可以明确判定，无需猜测。</li> </ul> <h2>条目有误或已过时</h2> <p>如果已收录的平台现在要求证件、修改了限额或费用、封锁了新国家或已关闭，请<a href=\"https://github.com/Marlodevfs/donotkyc/issues/new?template=report-change.yml\" rel=\"noopener\">报告变更</a>。我们会核实每条反馈后再修改条目。</p> <h2>隐私</h2> <p>两个表单都是公开的 GitHub issue，需要 GitHub 账户。请勿填写个人信息，并遮住截图中的姓名和账号。网站迁到自有服务器后会提供无需账户的表单。 如果 GitHub 账户不方便，请通过 <a href=\"https://t.me/donotkyc55\" rel=\"noopener\">Telegram</a> 联系我们。</p> <h2>想投放广告？</h2> <p>赞助位与条目分开，并带有标签。<a href=\"/#advertise\">了解广告如何运作</a>。</p>"
   },
   "advertise": {
-   "title": "在 DoNotKYC 投放广告 | 赞助位",
+   "title": "在 DoNotKYC 获得展示 | 赞助位",
    "description": "触达已经回避 KYC 的人。带标注的赞助位，经过审核的广告主。目前免费，换取你的网站对 DoNotKYC 的一处提及。",
-   "html": "<h1>在 DoNotKYC 投放广告</h1> <p>DoNotKYC 的读者希望在不交出身份的情况下交易加密货币。赞助位会把你的服务放在他们正在比较的平台旁边，并标注“赞助”。</p> <p><a class=\"btn\" href=\"https://t.me/donotkyc55\" rel=\"noopener\">通过 Telegram 联系我们{icon}</a></p> <h2>目前免费，换取一处提及</h2> <p>积累满 30 天的受众数据后，我们会公布价格。在此之前，广告位免费。作为交换，你的网站需要在广告位上线期间注明 DoNotKYC 推荐了你，并附上指向 donotkyc.com 的链接。你的读者能看到你被收录在哪里，我们的读者也能看到你。</p> <ul> <li>写上“DoNotKYC 推荐”（或“DoNotKYC 赞助位”）。</li> <li>放在你的首页，或访客能从首页进入的页面，并附指向 donotkyc.com 的普通链接。</li> <li>广告位上线前我们会检查这处提及。如果它消失了，广告位会下线。</li> </ul> <h2>广告位</h2> <ul> <li><strong>首页广告位：</strong>同一时间只有一个赞助商，位于“我们推荐从这里开始”板块。</li> <li><strong>专题页广告位：</strong>每页一个赞助商，位于列表上方。页面包括：交易所、去中心化交易所、即时兑换、P2P 市场、比特币 ATM、跨链桥、比特币、门罗币、现金、银行转账、银行卡。</li> </ul>  <h2>规则</h2> <ul> <li>每个广告位都标有“赞助”，链接带有 <code>rel=\"sponsored\"</code>。</li> <li>付费不会改变条目、其身份等级或在目录中的位置。</li> <li>我们在接受前审核每个广告主。我们拒绝有可信诈骗或冻结资金报告的服务，以及在提供地违法的任何内容。</li> <li>如果出现损害用户的新证据，我们可以撤下广告位。 条件在广告位上线前约定。</li> </ul> <h2>流程</h2> <ol> <li>通过 Telegram 发送你的服务、想要的广告位和日期。</li> <li>我们审核服务并回复。</li> <li>我们商定日期，以及你的提及放在哪里。</li> <li>广告位在开始日期上线，在结束日期下线。</li> </ol>"
+   "html": "<h1>在 DoNotKYC 获得展示</h1> <p>DoNotKYC 的读者希望在不交出身份的情况下交易加密货币。赞助位会把你的服务放在他们正在比较的平台旁边，并标注“赞助”。</p> <p><a class=\"btn\" href=\"https://t.me/donotkyc55\" rel=\"noopener\">通过 Telegram 联系我们{icon}</a></p> <h2>目前免费，换取一处提及</h2> <p>积累满 30 天的受众数据后，我们会公布价格。在此之前，广告位免费。作为交换，你的网站需要在广告位上线期间注明 DoNotKYC 推荐了你，并附上指向 donotkyc.com 的链接。你的读者能看到你被收录在哪里，我们的读者也能看到你。</p> <ul> <li>写上“DoNotKYC 推荐”（或“DoNotKYC 赞助位”）。</li> <li>放在你的首页，或访客能从首页进入的页面，并附指向 donotkyc.com 的普通链接。</li> <li>广告位上线前我们会检查这处提及。如果它消失了，广告位会下线。</li> </ul> <h2>广告位</h2> <ul> <li><strong>首页广告位：</strong>同一时间只有一个赞助商，位于“我们推荐从这里开始”板块。</li> <li><strong>专题页广告位：</strong>每页一个赞助商，位于列表上方。页面包括：交易所、去中心化交易所、即时兑换、P2P 市场、比特币 ATM、跨链桥、比特币、门罗币、现金、银行转账、银行卡。</li> </ul>  <h2>规则</h2> <ul> <li>每个广告位都标有“赞助”，链接带有 <code>rel=\"sponsored\"</code>。</li> <li>付费不会改变条目、其身份等级或在目录中的位置。</li> <li>我们在接受前审核每个广告主。我们拒绝有可信诈骗或冻结资金报告的服务，以及在提供地违法的任何内容。</li> <li>如果出现损害用户的新证据，我们可以撤下广告位。 条件在广告位上线前约定。</li> </ul> <h2>流程</h2> <ol> <li>通过 Telegram 发送你的服务、想要的广告位和日期。</li> <li>我们审核服务并回复。</li> <li>我们商定日期，以及你的提及放在哪里。</li> <li>广告位在开始日期上线，在结束日期下线。</li> </ol>"
   },
   "how-we-make-money": {
    "title": "DoNotKYC 如何赚钱 | DoNotKYC",
    "description": "DoNotKYC 靠推广链接和明确标注的赞助位维持运营，两者都不会改变任何条目。完整的广告规则。",
-   "html": "<h1>DoNotKYC 如何赚钱</h1><p>DoNotKYC 是由 <a href=\"https://github.com/Marlodevfs\" rel=\"noopener\">Marlodevfs</a> 开发和维护的社区项目。代码和每次改动都在 GitHub 上公开。 DoNotKYC 免费阅读，没有付费墙。网站有三种收入来源，都不会改变任何条目。</p><h2>推广链接</h2><p>部分“访问”按钮是推广链接：如果你通过它注册，平台会把部分手续费分给我们。你不需要额外付费。目前有推广链接的平台：{AFFILIATES}。VPN 指南中的 NordVPN 和 Proton VPN 链接也是推广链接。</p><p>推广链接带有 <code>rel=\"sponsored\"</code>。有推广链接的平台不会因此获得更好的身份等级、排名或描述。</p><h2 id=\"ads\">赞助位与广告政策</h2><p>企业可以付费在首页或专题页放置一个赞助位。每个赞助位都标明“赞助”，与排名列表分开，并使用 <code>rel=\"sponsored\"</code> 链接。</p><ul><li>付费永远不会改变条目、其身份等级或排名。</li><li>我们在接受前审核每个广告主，拒绝有可信诈骗或冻结资金举报的服务。</li><li>如果出现损害用户的新证据，我们会撤下赞助位。</li><li>我们不为广告主追踪访客：没有 Cookie，没有像素。</li><li>当前赞助商列在<a href=\"/advertise\">广告页面</a>。</li></ul><h2>捐赠</h2><p>你可以在 <a href=\"https://buymeacoffee.com/donotkyc\" rel=\"noopener\">Buy Me a Coffee</a> 上请我们喝杯咖啡来支持项目。捐赠买不到任何东西：不会改变任何条目、排名或评测。</p><h2>我们不出售的东西</h2><ul><li>排名、评测或“已验证”徽章。</li><li>访客数据。我们从不出售，网站统计访问时不使用 cookie：见<a href=\"/privacy-policy\">隐私政策</a>。</li><li>删除条目或警告。</li></ul><h2>谁决定排序</h2><p>平台按照要求提供的身份信息多少排序，依据我们的<a href=\"/methodology\">方法说明</a>。任何人都可以在 GitHub 上公开指出错误：<a href=\"{REPORT_URL}\" rel=\"noopener\">报告变更</a>。</p>"
+   "html": "<h1>DoNotKYC 如何赚钱</h1><p>DoNotKYC 是由 <a href=\"https://github.com/Marlodevfs\" rel=\"noopener\">Marlodevfs</a> 开发和维护的社区项目。代码和每次改动都在 GitHub 上公开。 DoNotKYC 免费阅读，没有付费墙。网站有三种收入来源，都不会改变任何条目。</p><h2>推广链接</h2><p>部分“访问”按钮是推广链接：如果你通过它注册，平台会把部分手续费分给我们。你不需要额外付费。目前有推广链接的平台：{AFFILIATES}。VPN 指南中的 NordVPN 和 Proton VPN 链接也是推广链接。</p><p>推广链接带有 <code>rel=\"sponsored\"</code>。有推广链接的平台不会因此获得更好的身份等级、排名或描述。</p><h2 id=\"ads\">赞助位与广告政策</h2><p>企业可以付费在首页或专题页放置一个赞助位。每个赞助位都标明“赞助”，与排名列表分开，并使用 <code>rel=\"sponsored\"</code> 链接。</p><ul><li>付费永远不会改变条目、其身份等级或排名。工具页面也一样：赞助商无法在其中购买位置。</li><li>我们在接受前审核每个广告主，拒绝有可信诈骗或冻结资金举报的服务。</li><li>如果出现损害用户的新证据，我们会撤下赞助位。</li><li>我们不为广告主追踪访客：没有 Cookie，没有像素。</li><li>当前赞助商列在<a href=\"/advertise\">“获得展示”页面</a>。</li></ul><h2>捐赠</h2><p>你可以在 <a href=\"https://buymeacoffee.com/donotkyc\" rel=\"noopener\">Buy Me a Coffee</a> 上请我们喝杯咖啡来支持项目。捐赠买不到任何东西：不会改变任何条目、排名或评测。</p><h2>我们不出售的东西</h2><ul><li>排名、评测或“已验证”徽章。</li><li>访客数据。我们从不出售，网站统计访问时不使用 cookie：见<a href=\"/privacy-policy\">隐私政策</a>。</li><li>删除条目或警告。</li></ul><h2>谁决定排序</h2><p>平台按照要求提供的身份信息多少排序，依据我们的<a href=\"/methodology\">方法说明</a>。任何人都可以在 GitHub 上公开指出错误：<a href=\"{REPORT_URL}\" rel=\"noopener\">报告变更</a>。</p>"
   },
   "privacy-policy": {
    "title": "隐私政策 | DoNotKYC",

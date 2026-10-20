@@ -9,7 +9,7 @@
   "vpn": "VPN",
   "privacy": "Privacy guide",
   "security": "Security",
-  "advertise": "Advertise",
+  "advertise": "Be featured",
   "theme": "Switch colour theme",
   "menu": "Open menu",
   "skip": "Skip to content",
@@ -25,7 +25,7 @@
   "submit": "Submit a platform",
   "report": "Report a change",
   "how": "How we check",
-  "advertise": "Advertise",
+  "advertise": "Be featured",
   "api": "Open data API",
   "browse": "Browse",
   "exchanges": "Exchanges",
@@ -150,7 +150,7 @@
   "guide_p4": "Use a hardware or well-audited software wallet, check URLs and contract addresses, grant wallet permissions only when needed and avoid large custodial balances. No-KYC does not remove your legal or tax obligations, and it reduces your recourse if something goes wrong.",
   "ad_h": "Run a privacy-friendly service?",
   "ad_p": "Your tile carries a Sponsored label, reaches people who already avoid KYC, and leaves the directory order untouched. We review every advertiser first.",
-  "ad_btn": "Advertise on DoNotKYC",
+  "ad_btn": "Be featured on DoNotKYC",
   "faq_h": "Common questions",
   "faq": [
    [
@@ -196,7 +196,7 @@
   "why": "Why this ad?",
   "here_h": "Your privacy service here",
   "here_p": "One labelled tile, seen by people who already avoid KYC. We review every advertiser first.",
-  "how": "How to advertise",
+  "how": "How to be featured",
   "current_h": "Current sponsors",
   "none_running": "No sponsored placement is running right now."
  },
