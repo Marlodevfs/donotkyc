@@ -224,7 +224,6 @@
   "lead": "{name} 是一个{type}。身份要求：{level}。{summary}。",
   "card_ok": "支持银行卡或银行",
   "crypto_only": "仅加密货币",
-  "tested": "测试于 {date}",
   "visit": "访问 {host}",
   "aff": "联盟链接，不影响排序。",
   "no_aff": "无联盟链接。",
@@ -233,11 +232,7 @@
   "listed_policy": "公布的政策：{x}。",
   "warn": "政策可能随时变更。先用小额开始，转移大额资金前请阅读平台条款。无需身份验证意味着更多隐私，但出问题时追索手段更少。",
   "features": "功能",
-  "tests_h": "来源",
-  "untested": "本条目依据 {name} 公布的条款和帮助页面编写。",
   "source": "来源",
-  "how_we_test": "我们如何核查",
-  "test_line": "{steps}：{amount}，方式：{method}。{result}",
   "changed_h": "有变化吗？",
   "changed_a": "如果 {name} 现在要求证件、修改了限额或已关闭，",
   "changed_link": "请在 GitHub 告诉我们",
@@ -252,8 +247,6 @@
   "tor": "Tor 访问",
   "oss": "开源",
   "coins": "币种",
-  "volume": "24 小时成交量",
-  "reputation": "信誉",
   "similar": "类似平台",
   "yes": "是",
   "no": "否",
@@ -271,14 +264,11 @@
    "gift-card": "礼品卡",
    "fiat": "银行卡或银行"
   },
-  "kyc_asked_v": {
-   "none": "无",
-   "email": "仅邮箱",
-   "phone": "手机号",
-   "id": "身份证件"
-  },
   "status_note_boltz": "Boltz 已于 2026 年 8 月 3 日暂停兑换，网站已无法访问。服务恢复前请勿转入资金。",
-  "nosource": "本条目暂未链接来源页面。请在信赖前直接向 {name} 核实。"
+  "nosource": "本条目暂未链接来源页面。请在信赖前直接向 {name} 核实。",
+  "source_h": "来源",
+  "from_pages": "本条目依据 {name} 公布的条款和帮助页面编写。",
+  "how_we_check": "我们如何核查"
  },
  "data": {
   "Depends on the partner": "取决于合作方",

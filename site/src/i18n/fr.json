@@ -224,7 +224,6 @@
   "lead": "{name} : {type}. Identité demandée : {level}. {summary}.",
   "card_ok": "Carte ou banque acceptée",
   "crypto_only": "Crypto uniquement",
-  "tested": "Testé le {date}",
   "visit": "Visiter {host}",
   "aff": "Lien d'affiliation. Il ne change pas l'ordre.",
   "no_aff": "Pas de lien d'affiliation.",
@@ -233,11 +232,7 @@
   "listed_policy": "Politique annoncée : {x}.",
   "warn": "Les politiques changent sans préavis. Commencez par un petit montant et lisez les conditions de la plateforme avant de déplacer de grosses sommes. Sans vérification d'identité, vous gagnez en confidentialité mais vous avez moins de recours en cas de problème.",
   "features": "Fonctionnalités",
-  "tests_h": "Source",
-  "untested": "Cette fiche repose sur les conditions et les pages d'aide que {name} publie.",
   "source": "source",
-  "how_we_test": "Comment nous vérifions",
-  "test_line": "{steps} avec {amount} par {method}. {result}",
   "changed_h": "Quelque chose a changé ?",
   "changed_a": "Si {name} demande maintenant une identité, a modifié ses limites ou a fermé,",
   "changed_link": "signalez-le sur GitHub",
@@ -252,8 +247,6 @@
   "tor": "Accès Tor",
   "oss": "Open source",
   "coins": "Cryptos",
-  "volume": "Volume 24 h",
-  "reputation": "Réputation",
   "similar": "Plateformes similaires",
   "yes": "Oui",
   "no": "Non",
@@ -271,14 +264,11 @@
    "gift-card": "Cartes cadeaux",
    "fiat": "Carte ou banque"
   },
-  "kyc_asked_v": {
-   "none": "Rien",
-   "email": "E-mail seulement",
-   "phone": "Numéro de téléphone",
-   "id": "Pièce d'identité"
-  },
   "status_note_boltz": "Boltz a suspendu ses swaps le 3 août 2026 et son site ne répond plus. N'envoyez pas de fonds tant que le service n'est pas rétabli.",
-  "nosource": "Aucune page source n'est liée à cette fiche pour l'instant. Vérifiez directement auprès de {name} avant de vous y fier."
+  "nosource": "Aucune page source n'est liée à cette fiche pour l'instant. Vérifiez directement auprès de {name} avant de vous y fier.",
+  "source_h": "Source",
+  "from_pages": "Cette fiche repose sur les conditions et les pages d'aide que {name} publie.",
+  "how_we_check": "Comment nous vérifions"
  },
  "data": {
   "Depends on the partner": "Dépend du partenaire",

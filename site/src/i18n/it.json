@@ -224,7 +224,6 @@
   "lead": "{name}: {type}. Identità richiesta: {level}. {summary}.",
   "card_ok": "Accetta carta o banca",
   "crypto_only": "Solo crypto",
-  "tested": "Testato il {date}",
   "visit": "Visita {host}",
   "aff": "Link di affiliazione. Non cambia l'ordine.",
   "no_aff": "Nessun link di affiliazione.",
@@ -233,11 +232,7 @@
   "listed_policy": "Politica dichiarata: {x}.",
   "warn": "Le politiche cambiano senza preavviso. Inizia con un importo piccolo e leggi i termini della piattaforma prima di spostare somme maggiori. Senza verifica d'identità guadagni privacy ma hai meno tutele se qualcosa va storto.",
   "features": "Funzionalità",
-  "tests_h": "Fonte",
-  "untested": "Questa scheda si basa sui termini e sulle pagine di aiuto che {name} pubblica.",
   "source": "fonte",
-  "how_we_test": "Come verifichiamo",
-  "test_line": "{steps} con {amount} tramite {method}. {result}",
   "changed_h": "È cambiato qualcosa?",
   "changed_a": "Se {name} ora chiede un documento, ha cambiato i limiti o ha chiuso,",
   "changed_link": "dicci su GitHub",
@@ -252,8 +247,6 @@
   "tor": "Accesso Tor",
   "oss": "Open source",
   "coins": "Monete",
-  "volume": "Volume 24 h",
-  "reputation": "Reputazione",
   "similar": "Piattaforme simili",
   "yes": "Sì",
   "no": "No",
@@ -271,14 +264,11 @@
    "gift-card": "Gift card",
    "fiat": "Carta o banca"
   },
-  "kyc_asked_v": {
-   "none": "Niente",
-   "email": "Solo email",
-   "phone": "Numero di telefono",
-   "id": "Documento d'identità"
-  },
   "status_note_boltz": "Boltz ha sospeso gli swap il 3 agosto 2026 e il sito non risponde più. Non inviare fondi finché il servizio non riprende.",
-  "nosource": "Per questa scheda non è ancora collegata una pagina di origine. Verifica direttamente con {name} prima di fidarti."
+  "nosource": "Per questa scheda non è ancora collegata una pagina di origine. Verifica direttamente con {name} prima di fidarti.",
+  "source_h": "Fonte",
+  "from_pages": "Questa scheda si basa sui termini e sulle pagine di aiuto che {name} pubblica.",
+  "how_we_check": "Come verifichiamo"
  },
  "data": {
   "Depends on the partner": "Dipende dal partner",

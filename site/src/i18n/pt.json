@@ -224,7 +224,6 @@
   "lead": "{name}: {type}. Identidade pedida: {level}. {summary}.",
   "card_ok": "Aceita cartão ou banco",
   "crypto_only": "Só cripto",
-  "tested": "Testado em {date}",
   "visit": "Visitar {host}",
   "aff": "Link de afiliado. Não muda a ordem.",
   "no_aff": "Sem link de afiliado.",
@@ -233,11 +232,7 @@
   "listed_policy": "Política divulgada: {x}.",
   "warn": "As políticas mudam sem aviso. Comece com pouco e leia os termos da plataforma antes de mover valores maiores. Sem verificação de identidade você ganha privacidade, mas tem menos recursos se algo der errado.",
   "features": "Recursos",
-  "tests_h": "Fonte",
-  "untested": "Esta ficha se baseia nos termos e nas páginas de ajuda que a {name} publica.",
   "source": "fonte",
-  "how_we_test": "Como verificamos",
-  "test_line": "{steps} com {amount} por {method}. {result}",
   "changed_h": "Algo mudou?",
   "changed_a": "Se a {name} agora pede documento, mudou os limites ou fechou,",
   "changed_link": "avise no GitHub",
@@ -252,8 +247,6 @@
   "tor": "Acesso via Tor",
   "oss": "Código aberto",
   "coins": "Moedas",
-  "volume": "Volume 24 h",
-  "reputation": "Reputação",
   "similar": "Plataformas parecidas",
   "yes": "Sim",
   "no": "Não",
@@ -271,14 +264,11 @@
    "gift-card": "Cartões-presente",
    "fiat": "Cartão ou banco"
   },
-  "kyc_asked_v": {
-   "none": "Nada",
-   "email": "Só e-mail",
-   "phone": "Telefone",
-   "id": "Documento de identidade"
-  },
   "status_note_boltz": "A Boltz suspendeu seus swaps em 3 de agosto de 2026 e o site não responde mais. Não envie fundos até o serviço voltar.",
-  "nosource": "Esta ficha ainda não tem página de origem ligada. Confirme diretamente com a {name} antes de confiar."
+  "nosource": "Esta ficha ainda não tem página de origem ligada. Confirme diretamente com a {name} antes de confiar.",
+  "source_h": "Fonte",
+  "from_pages": "Esta ficha se baseia nos termos e nas páginas de ajuda que a {name} publica.",
+  "how_we_check": "Como verificamos"
  },
  "data": {
   "Depends on the partner": "Depende do parceiro",

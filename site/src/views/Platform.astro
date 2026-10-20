@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Mono from '../components/Mono.astro';
 import Level from '../components/Level.astro';
-import { platforms, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, lastTest, type Platform, type Test } from '../lib/platforms';
+import { platforms, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, type Platform } from '../lib/platforms';
 import { useT, lp, tx, HREFLANG, type Lang } from '../i18n';
 import { pairsFor } from '../data/compare';
 
@@ -25,9 +25,6 @@ const PAY_PAGE: Record<string, string> = { cash: '/pay/cash', card: '/pay/card',
 const summary = tx(lang, p.kyc_summary)!;
 const similar = platforms.filter((x) => x.type === p.type && x.slug !== p.slug).sort(byLeastId).slice(0, 5);
 const host = new URL(p.url).hostname.replace(/^www\./, '');
-const last = lastTest(p);
-const tests = ((p.tests ?? []) as Test[]).slice().sort((a, b) => b.date.localeCompare(a.date));
-const fmt = (iso: string) => new Date(iso + 'T12:00:00Z').toLocaleDateString(HREFLANG[lang], { day: 'numeric', month: 'short', year: 'numeric' });
 const note = t(`platform.status_note_${p.slug}`);
 const cmps = pairsFor(p.slug);
 const officialUrl = (() => { const u = new URL(p.url); return u.origin + (u.pathname === '/' ? '' : u.pathname); })(); // sans paramètres de suivi
@@ -50,7 +47,7 @@ const jsonld = {
       <div>
         <h1>{p.name}</h1>
         <p>{t('platform.lead', { name: p.name, type: lang === 'tr' ? type.toLocaleLowerCase('tr') : type, level, summary })}</p>
-        <div class="chips"><Level level={p.kyc_level} lang={lang} /><span class="lvl l-plain">{p.fiat_deposit ? t('platform.card_ok') : t('platform.crypto_only')}</span>{last && <span class="lvl l-none"><Icon name="badge-check" size={15} />{t('platform.tested', { date: fmt(last.date) })}</span>}</div>
+        <div class="chips"><Level level={p.kyc_level} lang={lang} /><span class="lvl l-plain">{p.fiat_deposit ? t('platform.card_ok') : t('platform.crypto_only')}</span></div>
       </div>
       <div class="acts">
         <a class="btn" href={visitUrl(p)} rel={p.affiliate_link ? 'sponsored noopener' : 'noopener'}>{t('platform.visit', { host })}<Icon name="arrow-up-right" /></a>
@@ -68,13 +65,9 @@ const jsonld = {
         {p.features.length > 0 && (
           <section class="panel" aria-labelledby="ft-h"><h2 id="ft-h">{t('platform.features')}</h2><ul class="tags">{p.features.map((f) => <li>{f}</li>)}</ul></section>
         )}
-        <section class="panel" aria-labelledby="ts-h">
-          <h2 id="ts-h">{t('platform.tests_h')}</h2>
-          {tests.length ? (
-            <ul class="hist">{tests.map((x) => (<li><time datetime={x.date}>{fmt(x.date)}</time><span>{t('platform.test_line', { steps: x.steps, amount: x.amount, method: x.method, result: x.result })}</span><b>{t(`platform.kyc_asked_v.${x.kyc_asked}`)}</b></li>))}</ul>
-          ) : (
-            <p>{p.kyc_source ? t('platform.untested', { name: p.name }) : t('platform.nosource', { name: p.name })}{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">{t('platform.source')}</a>)</>} <a href={L('/methodology')}>{t('platform.how_we_test')}</a>.</p>
-          )}
+        <section class="panel" aria-labelledby="src-h">
+          <h2 id="src-h">{t('platform.source_h')}</h2>
+          <p>{p.kyc_source ? t('platform.from_pages', { name: p.name }) : t('platform.nosource', { name: p.name })}{p.kyc_source && <> (<a href={p.kyc_source} rel="noopener">{t('platform.source')}</a>)</>} <a href={L('/methodology')}>{t('platform.how_we_check')}</a>.</p>
         </section>
         <section class="panel" aria-labelledby="rp-h">
           <h2 id="rp-h">{t('platform.changed_h')}</h2>

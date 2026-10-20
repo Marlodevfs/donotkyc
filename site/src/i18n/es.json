@@ -224,7 +224,6 @@
   "lead": "{name}: {type}. Identidad pedida: {level}. {summary}.",
   "card_ok": "Acepta tarjeta o banco",
   "crypto_only": "Solo cripto",
-  "tested": "Probado el {date}",
   "visit": "Visitar {host}",
   "aff": "Enlace de afiliado. No cambia el orden.",
   "no_aff": "Sin enlace de afiliado.",
@@ -233,11 +232,7 @@
   "listed_policy": "Política publicada: {x}.",
   "warn": "Las políticas cambian sin aviso. Empieza con poco y lee las condiciones de la plataforma antes de mover sumas grandes. Sin verificación de identidad ganas privacidad pero tienes menos recursos si algo sale mal.",
   "features": "Funciones",
-  "tests_h": "Fuente",
-  "untested": "Esta ficha se basa en las condiciones y las páginas de ayuda que publica {name}.",
   "source": "fuente",
-  "how_we_test": "Cómo comprobamos",
-  "test_line": "{steps} con {amount} por {method}. {result}",
   "changed_h": "¿Algo ha cambiado?",
   "changed_a": "Si {name} ahora pide identificación, cambió sus límites o cerró,",
   "changed_link": "avísanos en GitHub",
@@ -252,8 +247,6 @@
   "tor": "Acceso por Tor",
   "oss": "Código abierto",
   "coins": "Criptos",
-  "volume": "Volumen 24 h",
-  "reputation": "Reputación",
   "similar": "Plataformas similares",
   "yes": "Sí",
   "no": "No",
@@ -271,14 +264,11 @@
    "gift-card": "Tarjetas regalo",
    "fiat": "Tarjeta o banco"
   },
-  "kyc_asked_v": {
-   "none": "Nada",
-   "email": "Solo correo",
-   "phone": "Número de teléfono",
-   "id": "Documento de identidad"
-  },
   "status_note_boltz": "Boltz suspendió sus swaps el 3 de agosto de 2026 y su web ya no responde. No envíes fondos hasta que el servicio vuelva.",
-  "nosource": "Esta ficha aún no enlaza ninguna página de origen. Compruébalo directamente con {name} antes de fiarte."
+  "nosource": "Esta ficha aún no enlaza ninguna página de origen. Compruébalo directamente con {name} antes de fiarte.",
+  "source_h": "Fuente",
+  "from_pages": "Esta ficha se basa en las condiciones y las páginas de ayuda que publica {name}.",
+  "how_we_check": "Cómo comprobamos"
  },
  "data": {
   "Depends on the partner": "Depende del socio",

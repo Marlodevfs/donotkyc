@@ -224,7 +224,6 @@
   "lead": "{name}: {type}. Verlangte Identität: {level}. {summary}.",
   "card_ok": "Karte oder Bank möglich",
   "crypto_only": "Nur Krypto",
-  "tested": "Getestet am {date}",
   "visit": "{host} besuchen",
   "aff": "Affiliate-Link. Ändert die Reihenfolge nicht.",
   "no_aff": "Kein Affiliate-Link.",
@@ -233,11 +232,7 @@
   "listed_policy": "Angegebene Regel: {x}.",
   "warn": "Regeln ändern sich ohne Vorwarnung. Fang mit einem kleinen Betrag an und lies die Bedingungen der Plattform, bevor du größere Summen bewegst. Ohne Identitätsprüfung gewinnst du Privatsphäre, hast aber weniger Möglichkeiten, wenn etwas schiefgeht.",
   "features": "Funktionen",
-  "tests_h": "Quelle",
-  "untested": "Dieser Eintrag beruht auf den Bedingungen und Hilfeseiten, die {name} veröffentlicht.",
   "source": "Quelle",
-  "how_we_test": "So prüfen wir",
-  "test_line": "{steps} mit {amount} per {method}. {result}",
   "changed_h": "Hat sich etwas geändert?",
   "changed_a": "Wenn {name} jetzt einen Ausweis verlangt, die Limits geändert hat oder geschlossen ist,",
   "changed_link": "sag es uns auf GitHub",
@@ -252,8 +247,6 @@
   "tor": "Tor-Zugang",
   "oss": "Open Source",
   "coins": "Coins",
-  "volume": "24h-Volumen",
-  "reputation": "Reputation",
   "similar": "Ähnliche Plattformen",
   "yes": "Ja",
   "no": "Nein",
@@ -271,14 +264,11 @@
    "gift-card": "Geschenkkarten",
    "fiat": "Karte oder Bank"
   },
-  "kyc_asked_v": {
-   "none": "Nichts",
-   "email": "Nur E-Mail",
-   "phone": "Telefonnummer",
-   "id": "Ausweisdokument"
-  },
   "status_note_boltz": "Boltz hat seine Swaps am 3. August 2026 eingestellt, die Website ist nicht mehr erreichbar. Sende kein Geld, bis der Dienst zurück ist.",
-  "nosource": "Für diesen Eintrag ist noch keine Quellseite verlinkt. Prüfen Sie direkt bei {name}, bevor Sie sich darauf verlassen."
+  "nosource": "Für diesen Eintrag ist noch keine Quellseite verlinkt. Prüfen Sie direkt bei {name}, bevor Sie sich darauf verlassen.",
+  "source_h": "Quelle",
+  "from_pages": "Dieser Eintrag beruht auf den Bedingungen und Hilfeseiten, die {name} veröffentlicht.",
+  "how_we_check": "So prüfen wir"
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

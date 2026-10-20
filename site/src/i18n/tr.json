@@ -224,7 +224,6 @@
   "lead": "{name} bir {type}. İstenen kimlik: {level}. {summary}.",
   "card_ok": "Kart veya banka kabul edilir",
   "crypto_only": "Yalnızca kripto",
-  "tested": "{date} tarihinde test edildi",
   "visit": "{host} sitesine git",
   "aff": "Ortaklık bağlantısı. Sırayı değiştirmez.",
   "no_aff": "Ortaklık bağlantısı yok.",
@@ -233,11 +232,7 @@
   "listed_policy": "Yayınlanan politika: {x}.",
   "warn": "Politikalar haber verilmeden değişir. Küçük bir tutarla başla ve büyük tutarları taşımadan önce platformun koşullarını oku. Kimlik doğrulaması olmayan platformlar gizlilik sağlar, ama bir sorun çıktığında daha az başvuru imkânı sunar.",
   "features": "Özellikler",
-  "tests_h": "Kaynak",
-  "untested": "Bu kayıt, {name} tarafından yayımlanan koşullara ve yardım sayfalarına dayanıyor.",
   "source": "kaynak",
-  "how_we_test": "Nasıl kontrol ediyoruz",
-  "test_line": "{steps}: {amount}, {method} ile. {result}",
   "changed_h": "Bir şey değişti mi?",
   "changed_a": "{name} artık kimlik istiyorsa, limitlerini değiştirdiyse veya kapandıysa,",
   "changed_link": "GitHub'da bize bildir",
@@ -252,8 +247,6 @@
   "tor": "Tor erişimi",
   "oss": "Açık kaynak",
   "coins": "Coinler",
-  "volume": "24 saatlik hacim",
-  "reputation": "İtibar",
   "similar": "Benzer platformlar",
   "yes": "Evet",
   "no": "Hayır",
@@ -271,14 +264,11 @@
    "gift-card": "Hediye kartları",
    "fiat": "Kart veya banka"
   },
-  "kyc_asked_v": {
-   "none": "Hiçbir şey",
-   "email": "Yalnızca e-posta",
-   "phone": "Telefon numarası",
-   "id": "Kimlik belgesi"
-  },
   "status_note_boltz": "Boltz takaslarını 3 Ağustos 2026'da durdurdu ve sitesi artık açılmıyor. Hizmet geri gelene kadar fon gönderme.",
-  "nosource": "Bu kayıt için henüz bağlı bir kaynak sayfası yok. Güvenmeden önce doğrudan {name} ile kontrol et."
+  "nosource": "Bu kayıt için henüz bağlı bir kaynak sayfası yok. Güvenmeden önce doğrudan {name} ile kontrol et.",
+  "source_h": "Kaynak",
+  "from_pages": "Bu kayıt, {name} tarafından yayımlanan koşullara ve yardım sayfalarına dayanıyor.",
+  "how_we_check": "Nasıl kontrol ediyoruz"
  },
  "data": {
   "Depends on the partner": "Ortağa bağlı",

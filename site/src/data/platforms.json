@@ -27,8 +27,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.mexc.com/support/articles/17827791519717",
-    "tests": []
+    "kyc_source": "https://www.mexc.com/support/articles/17827791519717"
   },
   {
     "slug": "bybit",
@@ -58,8 +57,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://cointelegraph.com/news/bybit-to-introduce-mandatory-kyc-requirements-starting-may-8",
-    "tests": []
+    "kyc_source": "https://cointelegraph.com/news/bybit-to-introduce-mandatory-kyc-requirements-starting-may-8"
   },
   {
     "slug": "coinex",
@@ -89,8 +87,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.coinex.com/hc/en-us/articles/360034457433-How-to-Increase-Withdrawal-Limit-",
-    "tests": []
+    "kyc_source": "https://support.coinex.com/hc/en-us/articles/360034457433-How-to-Increase-Withdrawal-Limit-"
   },
   {
     "slug": "nonkyc-io",
@@ -119,8 +116,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "bingx",
@@ -150,8 +146,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bingx.com/support/articles/33457408621593/",
-    "tests": []
+    "kyc_source": "https://bingx.com/support/articles/33457408621593/"
   },
   {
     "slug": "primexbt",
@@ -182,8 +177,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account",
-    "tests": []
+    "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account"
   },
   {
     "slug": "tapbit",
@@ -216,8 +210,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://blog.tapbit.com/how-to-complete-kyc-verification-on-tapbit/",
-    "tests": []
+    "kyc_source": "https://blog.tapbit.com/how-to-complete-kyc-verification-on-tapbit/"
   },
   {
     "slug": "kcex",
@@ -249,8 +242,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.kcex.com/en-us/support/articles/24159228562585",
-    "tests": []
+    "kyc_source": "https://www.kcex.com/en-us/support/articles/24159228562585"
   },
   {
     "slug": "mt-pelerin",
@@ -283,8 +275,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.mtpelerin.com/faq",
-    "tests": []
+    "kyc_source": "https://www.mtpelerin.com/faq"
   },
   {
     "slug": "blofin",
@@ -315,8 +306,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://blofin.com/en/support/articles/7296238795279-TERMS-OF-USE",
-    "tests": []
+    "kyc_source": "https://blofin.com/en/support/articles/7296238795279-TERMS-OF-USE"
   },
   {
     "slug": "uniswap",
@@ -346,8 +336,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "pancakeswap",
@@ -378,8 +367,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "dydx",
@@ -408,8 +396,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "bisq",
@@ -442,8 +429,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bisq.wiki/Frequently_asked_questions",
-    "tests": []
+    "kyc_source": "https://bisq.wiki/Frequently_asked_questions"
   },
   {
     "slug": "edgex",
@@ -475,8 +461,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "hyperliquid",
@@ -507,8 +492,7 @@
     "open_source": false,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "1inch",
@@ -537,8 +521,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "degate",
@@ -570,8 +553,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "bim-exchange",
@@ -604,8 +586,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "ghostswap",
@@ -635,8 +616,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://ghostswap.io/",
-    "tests": []
+    "kyc_source": "https://ghostswap.io/"
   },
   {
     "slug": "portal-bridge",
@@ -666,8 +646,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "synapse-protocol",
@@ -696,8 +675,7 @@
     "open_source": null,
     "status": "active",
     "status_note": "The team now focuses on Hypercall; the bridge still works (checked 2026-10-18).",
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "symbiosis-finance",
@@ -726,8 +704,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "coinstar-bitcoin-machines",
@@ -753,8 +730,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/",
-    "tests": []
+    "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/"
   },
   {
     "slug": "libertyx-atm",
@@ -780,8 +756,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits",
-    "tests": []
+    "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits"
   },
   {
     "slug": "rockitcoin",
@@ -807,8 +782,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.rockitcoin.com/faq",
-    "tests": []
+    "kyc_source": "https://www.rockitcoin.com/faq"
   },
   {
     "slug": "bitcoin-depot",
@@ -834,8 +808,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id",
-    "tests": []
+    "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id"
   },
   {
     "slug": "bitcoin-well",
@@ -861,8 +834,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/",
-    "tests": []
+    "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/"
   },
   {
     "slug": "hodl-hodl",
@@ -890,8 +862,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://hodlhodl.com/faq",
-    "tests": []
+    "kyc_source": "https://hodlhodl.com/faq"
   },
   {
     "slug": "peach-bitcoin",
@@ -919,8 +890,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://peachbitcoin.com/terms-and-conditions/",
-    "tests": []
+    "kyc_source": "https://peachbitcoin.com/terms-and-conditions/"
   },
   {
     "slug": "localcoinswap",
@@ -949,8 +919,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://localcoinswap.com/terms-of-service",
-    "tests": []
+    "kyc_source": "https://localcoinswap.com/terms-of-service"
   },
   {
     "slug": "openpeer",
@@ -977,8 +946,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.openpeer.xyz/openpeer-docs/troubleshooting/faq",
-    "tests": []
+    "kyc_source": "https://docs.openpeer.xyz/openpeer-docs/troubleshooting/faq"
   },
   {
     "slug": "simpleswap",
@@ -1006,8 +974,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://simpleswap.io/aml-kyc",
-    "tests": []
+    "kyc_source": "https://simpleswap.io/aml-kyc"
   },
   {
     "slug": "changelly",
@@ -1037,8 +1004,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://changelly.com/aml-kyc",
-    "tests": []
+    "kyc_source": "https://changelly.com/aml-kyc"
   },
   {
     "slug": "boltz",
@@ -1067,8 +1033,7 @@
     "open_source": true,
     "status": "check",
     "status_note": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back.",
-    "kyc_source": null,
-    "tests": []
+    "kyc_source": null
   },
   {
     "slug": "stealthex",
@@ -1103,8 +1068,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://stealthex.io/kyc-aml/",
-    "tests": []
+    "kyc_source": "https://stealthex.io/kyc-aml/"
   },
   {
     "slug": "wizardswap",
@@ -1136,8 +1100,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://wizardswap.io/faq",
-    "tests": []
+    "kyc_source": "https://wizardswap.io/faq"
   },
   {
     "slug": "best-wallet",
@@ -1167,8 +1130,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bestwallet.com/terms",
-    "tests": []
+    "kyc_source": "https://bestwallet.com/terms"
   },
   {
     "slug": "trocador",
@@ -1204,8 +1166,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://trocador.app/en/termsofuse/",
-    "tests": []
+    "kyc_source": "https://trocador.app/en/termsofuse/"
   },
   {
     "slug": "quickex-io",
@@ -1238,8 +1199,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://chainwire.org/2025/12/16/quickex-announces-enhancements-to-instant-crypto-exchange-services/",
-    "tests": []
+    "kyc_source": "https://chainwire.org/2025/12/16/quickex-announces-enhancements-to-instant-crypto-exchange-services/"
   },
   {
     "slug": "acechange",
@@ -1270,8 +1230,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://acechange.io/our-aml-kyc-rule/",
-    "tests": []
+    "kyc_source": "https://acechange.io/our-aml-kyc-rule/"
   },
   {
     "slug": "silentswap",
@@ -1301,8 +1260,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://silentswap.com/",
-    "tests": []
+    "kyc_source": "https://silentswap.com/"
   },
   {
     "affiliate_link": null,
@@ -1310,7 +1268,6 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "tests": [],
     "slug": "fixedfloat",
     "name": "FixedFloat",
     "type": "Instant Swap",
@@ -1340,7 +1297,6 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "tests": [],
     "slug": "changenow",
     "name": "ChangeNOW",
     "type": "Instant Swap",
