@@ -621,7 +621,8 @@
   "No ID up to $700": "700 美元以内无需证件",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "未确认：帮助中心称基础验证将每日提现额度定为 30 BTC，未说明未验证时的额度",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "无需身份证件；注册需要电子邮件。银行卡购买通过第三方进行，第三方可能要求提供身份证件",
-  "Email signup, checks not detailed": "邮箱注册，审核细节未说明"
+  "Email signup, says it collects no ID": "邮箱注册，称不收集身份证件",
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "朝鲜、伊朗、叙利亚、古巴、俄罗斯、白俄罗斯、克里米亚、顿涅茨克、卢甘斯克、阿富汗、缅甸"
  },
  "landings": {
   "/exchanges": {

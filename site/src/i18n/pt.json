@@ -621,7 +621,8 @@
   "No ID up to $700": "Sem identidade até US$ 700",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Não confirmado: a central de ajuda diz que a verificação básica define o limite diário de saque em 30 BTC e não informa o limite sem verificação",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Sem identidade; o cadastro pede um e-mail. As compras com cartão passam por um terceiro que pode pedir identificação",
-  "Email signup, checks not detailed": "Cadastro por e-mail, verificações não detalhadas"
+  "Email signup, says it collects no ID": "Cadastro por e-mail, diz não coletar documento de identidade",
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Coreia do Norte, Irã, Síria, Cuba, Rússia, Bielorrússia, Crimeia, Donetsk, Luhansk, Afeganistão, Mianmar"
  },
  "landings": {
   "/exchanges": {

@@ -621,7 +621,8 @@
   "No ID up to $700": "Ohne Ausweis bis 700 $",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Nicht bestätigt: Das Hilfecenter nennt für die Basisverifizierung ein tägliches Auszahlungslimit von 30 BTC und nennt kein Limit ohne Verifizierung",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Kein Ausweis; die Anmeldung braucht eine E-Mail-Adresse. Kartenkäufe laufen über einen Dritten, der einen Ausweis verlangen kann",
-  "Email signup, checks not detailed": "Anmeldung per E-Mail, Prüfungen nicht näher beschrieben"
+  "Email signup, says it collects no ID": "Anmeldung per E-Mail, nach eigener Angabe ohne Ausweis",
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Nordkorea, Iran, Syrien, Kuba, Russland, Belarus, Krim, Donezk, Luhansk, Afghanistan, Myanmar"
  },
  "landings": {
   "/exchanges": {

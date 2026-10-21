@@ -621,7 +621,8 @@
   "No ID up to $700": "700 $'a kadar kimliksiz",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Doğrulanmadı: yardım merkezi, temel doğrulamanın günlük çekim limitini 30 BTC yaptığını söylüyor; doğrulamasız limiti belirtmiyor",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Kimlik gerekmez; kayıt için e-posta gerekir. Kartla alımlar, kimlik isteyebilen üçüncü bir taraf üzerinden yapılır",
-  "Email signup, checks not detailed": "E-postayla kayıt, kontroller açıklanmamış"
+  "Email signup, says it collects no ID": "E-postayla kayıt, kimlik toplamadığını söylüyor",
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Kuzey Kore, İran, Suriye, Küba, Rusya, Belarus, Kırım, Donetsk, Luhansk, Afganistan, Myanmar"
  },
  "landings": {
   "/exchanges": {

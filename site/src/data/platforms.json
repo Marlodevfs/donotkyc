@@ -1329,12 +1329,12 @@
     "affiliate_link": null,
     "logo": null,
     "kyc_level": "light",
-    "kyc_summary": "Email signup, checks not detailed",
-    "kyc_tier": "Not confirmed: signup needs only an email and the site says \"no residency paperwork for standard use\"; availability stays subject to onboarding, eligibility checks and AML requirements, and the terms do not say when ID is asked",
+    "kyc_summary": "Email signup, says it collects no ID",
+    "kyc_tier": "Not confirmed: its privacy policy says it collects no government ID and its countries page says signup needs only an email, but the site also says availability is subject to onboarding, eligibility checks and AML requirements, and no page says when ID is asked",
     "supported_countries": "Global except restrictions",
-    "blocked": "Some regions",
+    "blocked": "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar",
     "fiat_deposit": false,
-    "fees": "5% + $10 card",
+    "fees": "5% to 3% + $10 card",
     "cryptocurrencies": "135+",
     "features": [
       "Virtual prepaid card",
@@ -1349,6 +1349,6 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://waldenpay.com/countries"
+    "kyc_source": "https://waldenpay.com/privacy"
   }
 ]
