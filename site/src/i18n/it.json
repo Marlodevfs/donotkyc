@@ -651,7 +651,11 @@
   "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "USA, Cuba, Iran, Corea del Nord, Crimea, Sudan, Siria, Bangladesh, Bolivia",
   "US, Cuba, Iran, Syria and others": "USA, Cuba, Iran, Siria e altri",
   "US, China, Cuba, Iran, North Korea, Syria and others": "USA, Cina, Cuba, Iran, Corea del Nord, Siria e altri",
-  "US, China, Russia and others": "USA, Cina, Russia e altri"
+  "US, China, Russia and others": "USA, Cina, Russia e altri",
+  "No ID up to 10,000 USDT a day": "Nessun documento fino a 10.000 USDT al giorno",
+  "No ID up to 5 BTC a day": "Nessun documento fino a 5 BTC al giorno",
+  "No ID up to 200,000 USDT a day": "Nessun documento fino a 200.000 USDT al giorno",
+  "Withdrawal limit without ID unclear": "Limite di prelievo senza documento poco chiaro"
  },
  "landings": {
   "/exchanges": {

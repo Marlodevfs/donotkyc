@@ -651,7 +651,11 @@
   "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "ABD, Küba, İran, Kuzey Kore, Kırım, Sudan, Suriye, Bangladeş, Bolivya",
   "US, Cuba, Iran, Syria and others": "ABD, Küba, İran, Suriye ve diğerleri",
   "US, China, Cuba, Iran, North Korea, Syria and others": "ABD, Çin, Küba, İran, Kuzey Kore, Suriye ve diğerleri",
-  "US, China, Russia and others": "ABD, Çin, Rusya ve diğerleri"
+  "US, China, Russia and others": "ABD, Çin, Rusya ve diğerleri",
+  "No ID up to 10,000 USDT a day": "Günde 10.000 USDT'ye kadar kimlik yok",
+  "No ID up to 5 BTC a day": "Günde 5 BTC'ye kadar kimlik yok",
+  "No ID up to 200,000 USDT a day": "Günde 200.000 USDT'ye kadar kimlik yok",
+  "Withdrawal limit without ID unclear": "Kimliksiz çekim limiti belirsiz"
  },
  "landings": {
   "/exchanges": {

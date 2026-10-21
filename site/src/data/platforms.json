@@ -2501,5 +2501,298 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.velora.xyz/terms/terms-of-use"
+  },
+  {
+    "slug": "weex",
+    "name": "WEEX",
+    "type": "CEX",
+    "url": "https://www.weex.com/",
+    "affiliate_link": null,
+    "logo": "logos/weex.webp",
+    "kyc_level": "light",
+    "kyc_summary": "No ID up to 10,000 USDT a day",
+    "kyc_tier": "Its own articles say you can deposit, trade and withdraw up to 10,000 USDT a day without KYC, and the cap rises with VIP level. Abnormal-activity rules can require KYC before withdrawals resume",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures",
+      "Earn"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.weex.com/wiki/article/does-weex-exchange-require-kyc-9943"
+  },
+  {
+    "slug": "toobit",
+    "name": "Toobit",
+    "type": "CEX",
+    "url": "https://www.toobit.com/",
+    "affiliate_link": null,
+    "logo": "logos/toobit.webp",
+    "kyc_level": "light",
+    "kyc_summary": "No ID up to 5 BTC a day",
+    "kyc_tier": "Not confirmed. Its verification page lists 5 BTC per 24 hours for accounts with registration only, while its business KYC page lists up to 20,000 USDT a day without KYC",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "P2P",
+      "Launchpad"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.toobit.com/en-US/support/verification-benefits-at-toobit"
+  },
+  {
+    "slug": "xt-com",
+    "name": "XT.com",
+    "type": "CEX",
+    "url": "https://www.xt.com/",
+    "affiliate_link": null,
+    "logo": "logos/xt-com.webp",
+    "kyc_level": "light",
+    "kyc_summary": "No ID up to 200,000 USDT a day",
+    "kyc_tier": "Not confirmed. Its Withdrawal Limit Guide lists 200,000 USDT a day for unverified users, while another XT guide lists completed KYC as a requirement to withdraw",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Margin",
+      "Derivatives",
+      "Trading bots"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://support.xt.com/hc/en-us/articles/41878045265561-Withdrawal-Limit-Guide"
+  },
+  {
+    "slug": "bitunix",
+    "name": "Bitunix",
+    "type": "CEX",
+    "url": "https://www.bitunix.com/",
+    "affiliate_link": null,
+    "logo": "logos/bitunix.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Withdrawal limit without ID unclear",
+    "kyc_tier": "Not confirmed. Its KYC tiers page says withdrawals unlock after Level 1, while its withdrawal FAQ gives about 10,000 USD a day without KYC",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bitunix.com/hub/helpcenter/article/kyc-tiers-and-benefits?id=126"
+  },
+  {
+    "slug": "coinw",
+    "name": "CoinW",
+    "type": "CEX",
+    "url": "https://www.coinw.com/",
+    "affiliate_link": null,
+    "logo": "logos/coinw.webp",
+    "kyc_level": "light",
+    "kyc_summary": "ID can be required at any time",
+    "kyc_tier": "KYC is optional for trading and raises withdrawal limits, per its help center. It reserves the right to ask for ID at any time if risk control triggers",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.coinw.com/help-center/faq/kyc/2025-08-14/frequently-askedquestions-individual-kyc/6380"
+  },
+  {
+    "slug": "htx",
+    "name": "HTX",
+    "type": "CEX",
+    "url": "https://www.htx.com/",
+    "affiliate_link": null,
+    "logo": "logos/htx.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Withdrawal limit without ID unclear",
+    "kyc_tier": "Not confirmed. Its KYC guide says Level 1 unlocks deposits and withdrawals, while older notices set withdrawal limits for users without ID verification, and the current figure is not in the pages checked",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "600+",
+    "features": [],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.htx.com/support/34923604793845/"
+  },
+  {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX",
+    "url": "https://www.bitget.com/",
+    "affiliate_link": null,
+    "logo": "logos/bitget.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "Its academy guide says accounts without Level 1 cannot deposit, trade or withdraw. Level 1 asks for a government ID and Level 2 adds proof of address",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures",
+      "Earn"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bitget.com/academy/your-quick-guide-to-kyc-on-bitget"
+  },
+  {
+    "slug": "gate",
+    "name": "Gate",
+    "type": "CEX",
+    "url": "https://www.gate.io/",
+    "affiliate_link": null,
+    "logo": "logos/gate.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "KYC is required before you can deposit or withdraw, per its help pages. Withdrawal limits rise with KYC1 and KYC2",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.gate.com/en-eu/help/guide/kyc/227945"
+  },
+  {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX",
+    "url": "https://phemex.com/",
+    "affiliate_link": null,
+    "logo": "logos/phemex.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "No withdrawals without KYC. Its KYC guide lists a 0 USDT 24-hour limit for unverified accounts, and says crypto deposits and limited trading may still work",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Futures",
+      "Trading bots"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://phemex.com/help-center/articles/phemex-identity-verification-kyc-guide"
+  },
+  {
+    "slug": "bitmart",
+    "name": "BitMart",
+    "type": "CEX",
+    "url": "https://www.bitmart.com/",
+    "affiliate_link": null,
+    "logo": "logos/bitmart.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "Identity verification is required before the first withdrawal, per its help pages. Level 2 adds a government ID, proof of address and a face check",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "1700+",
+    "features": [
+      "Spot",
+      "P2P",
+      "Prepaid card"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bitmart.com/en-US/support/articles/7949433565211/7949448889115/360053944573"
   }
 ]

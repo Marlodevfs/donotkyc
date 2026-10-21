@@ -651,7 +651,11 @@
   "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "USA, Kuba, Iran, Nordkorea, Krim, Sudan, Syrien, Bangladesch, Bolivien",
   "US, Cuba, Iran, Syria and others": "USA, Kuba, Iran, Syrien und weitere",
   "US, China, Cuba, Iran, North Korea, Syria and others": "USA, China, Kuba, Iran, Nordkorea, Syrien und weitere",
-  "US, China, Russia and others": "USA, China, Russland und weitere"
+  "US, China, Russia and others": "USA, China, Russland und weitere",
+  "No ID up to 10,000 USDT a day": "Kein Ausweis bis 10.000 USDT pro Tag",
+  "No ID up to 5 BTC a day": "Kein Ausweis bis 5 BTC pro Tag",
+  "No ID up to 200,000 USDT a day": "Kein Ausweis bis 200.000 USDT pro Tag",
+  "Withdrawal limit without ID unclear": "Auszahlungslimit ohne Ausweis unklar"
  },
  "landings": {
   "/exchanges": {
