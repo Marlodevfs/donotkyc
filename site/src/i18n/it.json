@@ -633,7 +633,13 @@
   "Selected regions": "Regioni selezionate",
   "Sanctioned jurisdictions": "Giurisdizioni sotto sanzioni",
   "Outside supported regions": "Fuori dalle regioni supportate",
-  "US (new sign-ups paused)": "USA (nuove registrazioni sospese)"
+  "US (new sign-ups paused)": "USA (nuove registrazioni sospese)",
+  "No KYC for the wallet, ID for the card": "Nessun KYC per il wallet, documento per la carta",
+  "ID verification after you buy the card": "Verifica dell'identità dopo l'acquisto della carta",
+  "US except New York": "USA, tranne New York",
+  "Outside the United States and New York": "Fuori dagli USA e da New York",
+  "US, mainland China, Russia and others": "USA, Cina continentale, Russia e altri",
+  "200+ regions": "Oltre 200 regioni"
  },
  "landings": {
   "/exchanges": {

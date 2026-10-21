@@ -633,7 +633,13 @@
   "Selected regions": "Отдельные регионы",
   "Sanctioned jurisdictions": "Страны и территории под санкциями",
   "Outside supported regions": "Вне поддерживаемых регионов",
-  "US (new sign-ups paused)": "США (новые регистрации приостановлены)"
+  "US (new sign-ups paused)": "США (новые регистрации приостановлены)",
+  "No KYC for the wallet, ID for the card": "Кошелёк без KYC, для карты нужен документ",
+  "ID verification after you buy the card": "Проверка личности после покупки карты",
+  "US except New York": "США, кроме Нью-Йорка",
+  "Outside the United States and New York": "Вне США и штата Нью-Йорк",
+  "US, mainland China, Russia and others": "США, материковый Китай, Россия и другие",
+  "200+ regions": "Более 200 регионов"
  },
  "landings": {
   "/exchanges": {

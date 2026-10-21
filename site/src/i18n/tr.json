@@ -633,7 +633,13 @@
   "Selected regions": "Seçili bölgeler",
   "Sanctioned jurisdictions": "Yaptırım uygulanan ülkeler ve bölgeler",
   "Outside supported regions": "Desteklenen bölgeler dışında",
-  "US (new sign-ups paused)": "ABD (yeni kayıtlar durduruldu)"
+  "US (new sign-ups paused)": "ABD (yeni kayıtlar durduruldu)",
+  "No KYC for the wallet, ID for the card": "Cüzdan için KYC yok, kart için kimlik gerekli",
+  "ID verification after you buy the card": "Kartı aldıktan sonra kimlik doğrulaması",
+  "US except New York": "ABD, New York hariç",
+  "Outside the United States and New York": "ABD ve New York dışında",
+  "US, mainland China, Russia and others": "ABD, Çin anakarası, Rusya ve diğerleri",
+  "200+ regions": "200'den fazla bölge"
  },
  "landings": {
   "/exchanges": {

@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-21",
+    "title": "Phantom Cash, RedotPay and Tria added to crypto cards",
+    "body": "Phantom Cash says its wallet needs no KYC, but the debit card requires identity verification, and it is open in the US except New York. RedotPay makes ID verification mandatory for every user and is closed to US residents. Tria asks for KYC after you buy your first card. The crypto cards page now lists ten cards."
+  },
+  {
+    "date": "2026-10-21",
     "title": "Crypto cards get their own page and filter",
     "body": "Seven crypto cards are now listed: WaldenPay, Kripicard, Bitget Wallet Card, Bleap, KAST, Oobit and MetaMask Card. Nearly all ask for ID, and each listing quotes what the card's own pages say about it. To make room on the home page, the filters now pair swaps with bridges, and P2P markets with ATMs."
   },

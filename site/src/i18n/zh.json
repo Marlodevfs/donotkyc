@@ -633,7 +633,13 @@
   "Selected regions": "部分地区",
   "Sanctioned jurisdictions": "受制裁的国家和地区",
   "Outside supported regions": "不在支持地区内",
-  "US (new sign-ups paused)": "美国（暂停新注册）"
+  "US (new sign-ups paused)": "美国（暂停新注册）",
+  "No KYC for the wallet, ID for the card": "钱包无需 KYC，办卡需要证件",
+  "ID verification after you buy the card": "购卡后验证身份",
+  "US except New York": "美国（纽约州除外）",
+  "Outside the United States and New York": "美国和纽约州以外",
+  "US, mainland China, Russia and others": "美国、中国大陆、俄罗斯等",
+  "200+ regions": "200 多个地区"
  },
  "landings": {
   "/exchanges": {

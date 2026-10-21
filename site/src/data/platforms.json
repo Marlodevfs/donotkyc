@@ -1525,5 +1525,94 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://support.metamask.io/trade/metamask-card/getting-started-with-card/"
+  },
+  {
+    "slug": "phantom-cash",
+    "name": "Phantom Cash",
+    "type": "Card",
+    "url": "https://phantom.com/cash",
+    "affiliate_link": null,
+    "logo": "logos/phantom-cash.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "No KYC for the wallet, ID for the card",
+    "kyc_tier": "The wallet and the Phantom Cash balance need no KYC, but bank transfers, direct deposit and the debit card require identity verification through Stripe, per its FAQ",
+    "supported_countries": "US except New York",
+    "blocked": "Outside the United States and New York",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Virtual prepaid Visa card",
+      "Apple Pay and Google Pay",
+      "Built on Solana"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://phantom.com/cash"
+  },
+  {
+    "slug": "redotpay",
+    "name": "RedotPay",
+    "type": "Card",
+    "url": "https://www.redotpay.com/",
+    "affiliate_link": null,
+    "logo": "logos/redotpay.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification at signup",
+    "kyc_tier": "Identity verification is mandatory for every user: its help center asks for a full legal name, date of birth and a government ID (passport, ID card or driver's license) through Sumsub",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, mainland China, Russia and others",
+    "fiat_deposit": false,
+    "fees": "Published in its help center",
+    "cryptocurrencies": "",
+    "features": [
+      "Virtual or physical card",
+      "Stablecoin-based"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://helpcenter.redotpay.com/en/articles/10339264-understanding-identity-verification"
+  },
+  {
+    "slug": "tria",
+    "name": "Tria",
+    "type": "Card",
+    "url": "https://www.tria.so/",
+    "affiliate_link": null,
+    "logo": "logos/tria.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification after you buy the card",
+    "kyc_tier": "KYC after you buy your first card: personal details, a live photo and ID documents, and the application fails if your country does not match your documents",
+    "supported_countries": "200+ regions",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": false,
+    "fees": "Annual membership, price shown in the app",
+    "cryptocurrencies": "1000+",
+    "features": [
+      "Lite, Pro and Max cards",
+      "Self-custodial app",
+      "Cashback by membership tier"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://help.tria.so/en/articles/14034407-kyc-know-your-customer"
   }
 ]
