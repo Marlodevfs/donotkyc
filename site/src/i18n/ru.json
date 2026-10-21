@@ -640,7 +640,8 @@
   "Outside the United States and New York": "Вне США и штата Нью-Йорк",
   "US, mainland China, Russia and others": "США, материковый Китай, Россия и другие",
   "200+ regions": "Более 200 регионов",
-  "US and other regions not on its list": "США и другие регионы вне списка"
+  "US and other regions not on its list": "США и другие регионы вне списка",
+  "ID verification when you apply": "Проверка личности при заказе карты"
  },
  "landings": {
   "/exchanges": {
