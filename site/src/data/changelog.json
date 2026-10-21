@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-21",
+    "title": "New tools page: anonymous VPS",
+    "body": "The tools section now has a page for VPS hosts that take an email address and crypto: rdp.monster, Njalla, BitLaunch, PrivateAlps and FlokiNET. Each entry quotes what the host says on its own site about sign-up, payment, location and refunds. Those claims are the hosts' own and we have not tested them."
+  },
+  {
+    "date": "2026-10-21",
     "title": "Xnvia added to Cash and P2P",
     "body": "Xnvia is a P2P marketplace with escrow and a 1% fee per transaction. Its support center says identity verification is mandatory, so it sits near the bottom of the list. The page with its restricted countries could not be read, and the listing says so."
   },

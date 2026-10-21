@@ -1444,5 +1444,80 @@
   ],
   "release": "2026-10-06",
   "repo": "https://github.com/syncthing/syncthing"
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "rdp-monster",
+  "name": "rdp.monster",
+  "url": "https://rdp.monster",
+  "identity": "account",
+  "code": "proprietary",
+  "facts": [
+   "Windows and Linux VPS from 8.99 dollars a month, delivered in about 10 seconds.",
+   "Sign-up needs an email. It says it asks for no ID, phone or selfie.",
+   "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.",
+   "Run by Stellar Group SAS, a French company registered in April 2023.",
+   "Refunds are issued as account credit only."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "njalla",
+  "name": "Njalla",
+  "url": "https://njal.la/servers/",
+  "identity": "account",
+  "code": "proprietary",
+  "facts": [
+   "VPS from 15 euros a month, on servers in Sweden at undisclosed locations.",
+   "Sign up with an email or XMPP.",
+   "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.",
+   "Outgoing SMTP is blocked and network scanning is banned.",
+   "Its team also works on the IPredator VPN service."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "bitlaunch",
+  "name": "BitLaunch",
+  "url": "https://bitlaunch.io/anonymous-vps/",
+  "identity": "account",
+  "code": "proprietary",
+  "facts": [
+   "Sign-up needs an email and a password.",
+   "Pay by the hour with Bitcoin, Litecoin or Ethereum.",
+   "Rents its own servers and resells DigitalOcean, Vultr and Linode machines.",
+   "Says it destroys your data when you delete a server or account."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "privatealps",
+  "name": "PrivateAlps",
+  "url": "https://privatealps.net/en",
+  "identity": "account",
+  "code": "proprietary",
+  "facts": [
+   "Linux VPS from 12.9 euros a month, in five regions.",
+   "Says it is Swiss-owned.",
+   "Says it requires no KYC.",
+   "Pay with Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney or 50+ other coins.",
+   "Says payments are final. When it refunds, it usually gives account credit.",
+   "Has a Tor mirror of its site."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "flokinet",
+  "name": "FlokiNET",
+  "url": "https://flokinet.is/vps",
+  "identity": "account",
+  "code": "proprietary",
+  "facts": [
+   "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.",
+   "Sign-up needs only a working email address.",
+   "Pay with crypto or cash sent by post.",
+   "Prepaid: a service ends when you stop paying.",
+   "Says it keeps no access or backdoor to your server."
+  ]
  }
 ]

@@ -658,7 +658,32 @@
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "США, Канада, Япония, Китай, Сингапур, Куба, Иран, Северная Корея и другие",
   "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "США, Канада, Франция, Китай, Япония, Куба, Северная Корея, Сирия и другие",
   "No ID for the wallet, ID to buy and swap": "Кошелёк без документов, для покупки и обмена нужен документ",
-  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Китай, Беларусь, Куба, Иран, Северная Корея, Сирия и другие"
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Китай, Беларусь, Куба, Иран, Северная Корея, Сирия и другие",
+  "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.": "VPS от 7,99 евро в месяц, в Румынии, Исландии, Нидерландах и Финляндии.",
+  "Sign-up needs only a working email address.": "Для регистрации нужен только рабочий адрес электронной почты.",
+  "Pay with crypto or cash sent by post.": "Оплата криптой или наличными по почте.",
+  "Prepaid: a service ends when you stop paying.": "Предоплата: услуга заканчивается, когда вы перестаёте платить.",
+  "Says it keeps no access or backdoor to your server.": "Заявляет, что не оставляет себе доступа или бэкдора к вашему серверу.",
+  "Sign-up needs an email and a password.": "Для регистрации нужны адрес почты и пароль.",
+  "Pay by the hour with Bitcoin, Litecoin or Ethereum.": "Почасовая оплата в Bitcoin, Litecoin или Ethereum.",
+  "Rents its own servers and resells DigitalOcean, Vultr and Linode machines.": "Сдаёт собственные серверы и перепродаёт машины DigitalOcean, Vultr и Linode.",
+  "Says it destroys your data when you delete a server or account.": "Заявляет, что уничтожает ваши данные при удалении сервера или аккаунта.",
+  "VPS from 15 euros a month, on servers in Sweden at undisclosed locations.": "VPS от 15 евро в месяц, на серверах в Швеции, местоположение которых не раскрывается.",
+  "Sign up with an email or XMPP.": "Регистрация по почте или через XMPP.",
+  "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.": "Оплата в Bitcoin, Litecoin, Monero, Ethereum или через PayPal.",
+  "Outgoing SMTP is blocked and network scanning is banned.": "Исходящий SMTP заблокирован, сканирование сетей запрещено.",
+  "Its team also works on the IPredator VPN service.": "Та же команда работает над VPN-сервисом IPredator.",
+  "Linux VPS from 12.9 euros a month, in five regions.": "Linux VPS от 12,9 евро в месяц, в пяти регионах.",
+  "Says it is Swiss-owned.": "Заявляет, что принадлежит швейцарцам.",
+  "Says it requires no KYC.": "Заявляет, что KYC не требуется.",
+  "Pay with Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney or 50+ other coins.": "Оплата в Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney или более чем 50 других монетах.",
+  "Says payments are final. When it refunds, it usually gives account credit.": "Заявляет, что платежи не возвращаются. Если возврат есть, обычно это кредит на счёт.",
+  "Has a Tor mirror of its site.": "У сайта есть зеркало в Tor.",
+  "Windows and Linux VPS from 8.99 dollars a month, delivered in about 10 seconds.": "VPS на Windows и Linux от 8,99 доллара в месяц, выдача примерно за 10 секунд.",
+  "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "Для регистрации нужна почта. Заявляет, что не просит документ, телефон и селфи.",
+  "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "Оплата в Bitcoin, USDT, Litecoin, Monero, картой или через PayPal.",
+  "Run by Stellar Group SAS, a French company registered in April 2023.": "Управляет Stellar Group SAS, французская компания, зарегистрирована в апреле 2023 года.",
+  "Refunds are issued as account credit only.": "Возврат только в виде кредита на счёт."
  },
  "landings": {
   "/exchanges": {
@@ -1091,6 +1116,14 @@
     "intro": [
      "Усилить приватность значит закрыть дыры в инструментах, которыми вы уже пользуетесь: браузер, пароли, сообщения и файлы.",
      "Начните с того, чем пользуетесь каждый день. В каждой карточке указано, открыт ли код и что инструмент у вас требует."
+    ]
+   },
+   "anonymous-vps": {
+    "name": "Анонимные VPS",
+    "h1": "Провайдеры анонимных VPS",
+    "intro": [
+     "VPS — это сервер, который вы арендуете и настраиваете сами. Хостеры ниже принимают адрес почты и крипту и заявляют, что не просят документов. Сервер вы всё равно доверяете хостеру, поэтому важны его журналы и его юридический адрес.",
+     "Смотрите, где стоят серверы, как вы платите и что запрещает хостер."
     ]
    }
   },

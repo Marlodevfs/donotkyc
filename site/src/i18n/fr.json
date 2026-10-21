@@ -658,7 +658,32 @@
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "États-Unis, Canada, Japon, Chine, Singapour, Cuba, Iran, Corée du Nord et autres",
   "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "États-Unis, Canada, France, Chine, Japon, Cuba, Corée du Nord, Syrie et autres",
   "No ID for the wallet, ID to buy and swap": "Sans identité pour le portefeuille, identité pour acheter et swapper",
-  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Chine, Biélorussie, Cuba, Iran, Corée du Nord, Syrie et autres"
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Chine, Biélorussie, Cuba, Iran, Corée du Nord, Syrie et autres",
+  "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.": "VPS à partir de 7,99 euros par mois, en Roumanie, en Islande, aux Pays-Bas et en Finlande.",
+  "Sign-up needs only a working email address.": "L'inscription demande seulement une adresse email valide.",
+  "Pay with crypto or cash sent by post.": "Paiement en crypto ou en espèces envoyées par la poste.",
+  "Prepaid: a service ends when you stop paying.": "Prépayé : le service s'arrête quand vous cessez de payer.",
+  "Says it keeps no access or backdoor to your server.": "Dit ne garder aucun accès ni porte dérobée sur votre serveur.",
+  "Sign-up needs an email and a password.": "L'inscription demande un email et un mot de passe.",
+  "Pay by the hour with Bitcoin, Litecoin or Ethereum.": "Paiement à l'heure en Bitcoin, Litecoin ou Ethereum.",
+  "Rents its own servers and resells DigitalOcean, Vultr and Linode machines.": "Loue ses propres serveurs et revend des machines DigitalOcean, Vultr et Linode.",
+  "Says it destroys your data when you delete a server or account.": "Dit détruire vos données quand vous supprimez un serveur ou le compte.",
+  "VPS from 15 euros a month, on servers in Sweden at undisclosed locations.": "VPS à partir de 15 euros par mois, sur des serveurs en Suède dont l'emplacement n'est pas communiqué.",
+  "Sign up with an email or XMPP.": "Inscription par email ou par XMPP.",
+  "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.": "Paiement en Bitcoin, Litecoin, Monero, Ethereum ou par PayPal.",
+  "Outgoing SMTP is blocked and network scanning is banned.": "Le SMTP sortant est bloqué et le scan de réseaux est interdit.",
+  "Its team also works on the IPredator VPN service.": "Son équipe travaille aussi sur le service VPN IPredator.",
+  "Linux VPS from 12.9 euros a month, in five regions.": "VPS Linux à partir de 12,9 euros par mois, dans cinq régions.",
+  "Says it is Swiss-owned.": "Se dit détenu par des Suisses.",
+  "Says it requires no KYC.": "Dit n'exiger aucun KYC.",
+  "Pay with Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney or 50+ other coins.": "Paiement en Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney ou plus de 50 autres cryptos.",
+  "Says payments are final. When it refunds, it usually gives account credit.": "Dit que les paiements sont définitifs. Quand il rembourse, c'est en général sous forme de crédit.",
+  "Has a Tor mirror of its site.": "Son site a un miroir Tor.",
+  "Windows and Linux VPS from 8.99 dollars a month, delivered in about 10 seconds.": "VPS Windows et Linux à partir de 8,99 dollars par mois, livrés en une dizaine de secondes.",
+  "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "L'inscription demande un email. Il dit ne réclamer ni pièce d'identité, ni téléphone, ni selfie.",
+  "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "Paiement en Bitcoin, USDT, Litecoin, Monero, par carte ou par PayPal.",
+  "Run by Stellar Group SAS, a French company registered in April 2023.": "Exploité par Stellar Group SAS, une société française immatriculée en avril 2023.",
+  "Refunds are issued as account credit only.": "Les remboursements se font uniquement en crédit sur le compte."
  },
  "landings": {
   "/exchanges": {
@@ -1091,6 +1116,14 @@
     "intro": [
      "Renforcer sa vie privée, c'est boucher les failles des outils que vous utilisez déjà : navigateur, mots de passe, messages et fichiers.",
      "Commencez par ce que vous utilisez tous les jours. Chaque fiche indique si son code est ouvert et ce qu'elle vous demande."
+    ]
+   },
+   "anonymous-vps": {
+    "name": "VPS anonymes",
+    "h1": "Fournisseurs de VPS anonymes",
+    "intro": [
+     "Un VPS est un serveur que vous louez et gérez vous-même. Les hébergeurs ci-dessous acceptent une adresse email et la crypto, et disent ne demander aucune pièce d'identité. Vous faites quand même confiance à l'hébergeur pour votre serveur, donc ses journaux et son adresse légale comptent.",
+     "Regardez où se trouvent les serveurs, comment vous payez et ce que l'hébergeur interdit."
     ]
    }
   },

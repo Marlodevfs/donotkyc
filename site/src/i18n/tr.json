@@ -658,7 +658,32 @@
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "ABD, Kanada, Japonya, Çin, Singapur, Küba, İran, Kuzey Kore ve diğerleri",
   "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "ABD, Kanada, Fransa, Çin, Japonya, Küba, Kuzey Kore, Suriye ve diğerleri",
   "No ID for the wallet, ID to buy and swap": "Cüzdan için kimlik yok, satın alma ve takas için kimlik gerekli",
-  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Çin, Belarus, Küba, İran, Kuzey Kore, Suriye ve diğerleri"
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Çin, Belarus, Küba, İran, Kuzey Kore, Suriye ve diğerleri",
+  "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.": "Aylık 7,99 eurodan başlayan VPS, Romanya, İzlanda, Hollanda ve Finlandiya'da.",
+  "Sign-up needs only a working email address.": "Kayıt için çalışan bir e-posta adresi yeterli.",
+  "Pay with crypto or cash sent by post.": "Ödeme kripto ile ya da postayla gönderilen nakitle yapılır.",
+  "Prepaid: a service ends when you stop paying.": "Ön ödemeli: ödemeyi bıraktığınızda hizmet sona erer.",
+  "Says it keeps no access or backdoor to your server.": "Sunucunuza erişim veya arka kapı bırakmadığını söylüyor.",
+  "Sign-up needs an email and a password.": "Kayıt için bir e-posta ve bir parola gerekir.",
+  "Pay by the hour with Bitcoin, Litecoin or Ethereum.": "Saatlik ödeme Bitcoin, Litecoin veya Ethereum ile yapılır.",
+  "Rents its own servers and resells DigitalOcean, Vultr and Linode machines.": "Kendi sunucularını kiralıyor ve DigitalOcean, Vultr ve Linode makinelerini yeniden satıyor.",
+  "Says it destroys your data when you delete a server or account.": "Bir sunucuyu veya hesabı sildiğinizde verilerinizi yok ettiğini söylüyor.",
+  "VPS from 15 euros a month, on servers in Sweden at undisclosed locations.": "Aylık 15 eurodan başlayan VPS, İsveç'te konumu açıklanmayan sunucularda.",
+  "Sign up with an email or XMPP.": "E-posta veya XMPP ile kayıt olunur.",
+  "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.": "Ödeme Bitcoin, Litecoin, Monero, Ethereum veya PayPal ile yapılır.",
+  "Outgoing SMTP is blocked and network scanning is banned.": "Giden SMTP engellidir ve ağ taraması yasaktır.",
+  "Its team also works on the IPredator VPN service.": "Ekibi IPredator VPN hizmeti üzerinde de çalışıyor.",
+  "Linux VPS from 12.9 euros a month, in five regions.": "Aylık 12,9 eurodan başlayan Linux VPS, beş bölgede.",
+  "Says it is Swiss-owned.": "İsviçre'ye ait olduğunu söylüyor.",
+  "Says it requires no KYC.": "KYC istemediğini söylüyor.",
+  "Pay with Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney or 50+ other coins.": "Ödeme Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney veya 50'den fazla başka coin ile yapılır.",
+  "Says payments are final. When it refunds, it usually gives account credit.": "Ödemelerin kesin olduğunu söylüyor. İade ederse genellikle hesap kredisi verir.",
+  "Has a Tor mirror of its site.": "Sitesinin bir Tor yansısı var.",
+  "Windows and Linux VPS from 8.99 dollars a month, delivered in about 10 seconds.": "Aylık 8,99 dolardan başlayan Windows ve Linux VPS, yaklaşık 10 saniyede teslim.",
+  "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "Kayıt için bir e-posta gerekir. Kimlik, telefon veya selfie istemediğini söylüyor.",
+  "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "Ödeme Bitcoin, USDT, Litecoin, Monero, kart veya PayPal ile yapılır.",
+  "Run by Stellar Group SAS, a French company registered in April 2023.": "Nisan 2023'te kurulan Fransız şirketi Stellar Group SAS tarafından işletiliyor.",
+  "Refunds are issued as account credit only.": "İadeler yalnızca hesap kredisi olarak yapılır."
  },
  "landings": {
   "/exchanges": {
@@ -1091,6 +1116,14 @@
     "intro": [
      "Gizliliği güçlendirmek, zaten kullandığın araçlardaki boşlukları kapatmaktır: tarayıcı, parolalar, mesajlar ve dosyalar.",
      "Her gün kullandığından başla. Her kayıt kodun açık olup olmadığını ve senden ne istediğini söyler."
+    ]
+   },
+   "anonymous-vps": {
+    "name": "Anonim VPS",
+    "h1": "Anonim VPS sağlayıcıları",
+    "intro": [
+     "VPS, kiralayıp kendiniz yönettiğiniz bir sunucudur. Aşağıdaki sağlayıcılar e-posta adresi ve kripto kabul eder ve kimlik istemediklerini söyler. Sunucunuzu yine de sağlayıcıya emanet edersiniz, bu yüzden kayıtları ve yasal adresi önemlidir.",
+     "Sunucuların nerede durduğuna, nasıl ödediğinize ve sağlayıcının neyi yasakladığına bakın."
     ]
    }
   },

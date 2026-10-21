@@ -11,7 +11,7 @@ export interface ToolPage { key: string; group: 'network' | 'crypto' | 'devices'
 
 export const TOOL_PAGES: ToolPage[] = [
   { key: 'vpn', group: 'network' }, { key: 'tor', group: 'network' }, { key: 'dns', group: 'network' },
-  { key: 'leak-tests', group: 'network' }, { key: 'routers', group: 'network' },
+  { key: 'leak-tests', group: 'network' }, { key: 'routers', group: 'network' }, { key: 'anonymous-vps', group: 'network' },
   { key: 'wallets', group: 'crypto' }, { key: 'hardware-wallets', group: 'crypto' }, { key: 'monero-wallets', group: 'crypto' },
   { key: 'coinjoin', group: 'crypto' }, { key: 'privacy-coins', group: 'crypto' }, { key: 'private-payments', group: 'crypto' },
   { key: 'desktop-os', group: 'devices' }, { key: 'mobile-os', group: 'devices' }, { key: 'email', group: 'devices' }, { key: 'email-aliases', group: 'devices' }, { key: 'hardening', group: 'devices' },

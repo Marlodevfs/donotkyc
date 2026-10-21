@@ -658,7 +658,32 @@
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "美国、加拿大、日本、中国、新加坡、古巴、伊朗、朝鲜等",
   "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "美国、加拿大、法国、中国、日本、古巴、朝鲜、叙利亚等",
   "No ID for the wallet, ID to buy and swap": "钱包无需证件，购买和兑换需要证件",
-  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "中国、白俄罗斯、古巴、伊朗、朝鲜、叙利亚等"
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "中国、白俄罗斯、古巴、伊朗、朝鲜、叙利亚等",
+  "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.": "VPS 每月 7.99 欧元起，位于罗马尼亚、冰岛、荷兰和芬兰。",
+  "Sign-up needs only a working email address.": "注册只需要一个可用的邮箱地址。",
+  "Pay with crypto or cash sent by post.": "可用加密货币付款，或邮寄现金。",
+  "Prepaid: a service ends when you stop paying.": "预付费：停止付款后服务即终止。",
+  "Says it keeps no access or backdoor to your server.": "称不保留对你服务器的任何访问权限或后门。",
+  "Sign-up needs an email and a password.": "注册需要邮箱和密码。",
+  "Pay by the hour with Bitcoin, Litecoin or Ethereum.": "按小时计费，可用比特币、莱特币或以太坊付款。",
+  "Rents its own servers and resells DigitalOcean, Vultr and Linode machines.": "出租自有服务器，同时转售 DigitalOcean、Vultr 和 Linode 的服务器。",
+  "Says it destroys your data when you delete a server or account.": "称删除服务器或账户后会销毁你的数据。",
+  "VPS from 15 euros a month, on servers in Sweden at undisclosed locations.": "VPS 每月 15 欧元起，服务器位于瑞典，具体位置不公开。",
+  "Sign up with an email or XMPP.": "可用邮箱或 XMPP 注册。",
+  "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.": "可用比特币、莱特币、门罗币、以太坊或 PayPal 付款。",
+  "Outgoing SMTP is blocked and network scanning is banned.": "出站 SMTP 被屏蔽，禁止扫描网络。",
+  "Its team also works on the IPredator VPN service.": "其团队也参与 IPredator VPN 服务。",
+  "Linux VPS from 12.9 euros a month, in five regions.": "Linux VPS 每月 12.9 欧元起，覆盖五个地区。",
+  "Says it is Swiss-owned.": "称公司归瑞士人所有。",
+  "Says it requires no KYC.": "称无需 KYC。",
+  "Pay with Bitcoin, Litecoin, Ethereum, Monero, PerfectMoney or 50+ other coins.": "可用比特币、莱特币、以太坊、门罗币、PerfectMoney 或另外 50 多种币付款。",
+  "Says payments are final. When it refunds, it usually gives account credit.": "称付款一经支付不予退还。若退款，通常以账户余额形式返还。",
+  "Has a Tor mirror of its site.": "网站提供 Tor 镜像。",
+  "Windows and Linux VPS from 8.99 dollars a month, delivered in about 10 seconds.": "Windows 和 Linux VPS 每月 8.99 美元起，约 10 秒交付。",
+  "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "注册需要邮箱。称不要求证件、手机号或自拍。",
+  "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "可用比特币、USDT、莱特币、门罗币、银行卡或 PayPal 付款。",
+  "Run by Stellar Group SAS, a French company registered in April 2023.": "由法国公司 Stellar Group SAS 运营，2023 年 4 月注册。",
+  "Refunds are issued as account credit only.": "退款仅以账户余额形式发放。"
  },
  "landings": {
   "/exchanges": {
@@ -1091,6 +1116,14 @@
     "intro": [
      "隐私加固就是补上你已在使用的工具中的漏洞：浏览器、密码、消息和文件。",
      "先从每天使用的开始。每个条目说明代码是否开源，以及它向你要求什么。"
+    ]
+   },
+   "anonymous-vps": {
+    "name": "匿名 VPS",
+    "h1": "匿名 VPS 服务商",
+    "intro": [
+     "VPS 是你租用并自行管理的服务器。下面的服务商接受邮箱和加密货币，并称不要求身份证件。你仍然要把服务器交给服务商，所以它的日志和注册地很重要。",
+     "看看服务器在哪里、怎么付款，以及服务商禁止什么。"
     ]
    }
   },
