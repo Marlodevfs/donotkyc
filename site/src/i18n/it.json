@@ -57,7 +57,8 @@
   "Instant Swap": "Swap istantaneo",
   "P2P": "Mercato P2P",
   "Bridge": "Bridge",
-  "ATM": "Bancomat bitcoin"
+  "ATM": "Bancomat bitcoin",
+  "Card": "Carta crypto"
  },
  "cats": {
   "all": "Tutte le piattaforme",
@@ -619,7 +620,8 @@
   "ID verification required": "Verifica d'identità richiesta",
   "No ID up to $700": "Nessun documento fino a 700 $",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Non confermato: il centro assistenza indica che la verifica di base fissa il limite giornaliero di prelievo a 30 BTC e non indica il limite senza verifica",
-  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Nessun documento; la registrazione richiede un'e-mail. Gli acquisti con carta passano da una terza parte che può chiedere un documento"
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Nessun documento; la registrazione richiede un'e-mail. Gli acquisti con carta passano da una terza parte che può chiedere un documento",
+  "Email signup, checks not detailed": "Registrazione via e-mail, controlli non dettagliati"
  },
  "landings": {
   "/exchanges": {

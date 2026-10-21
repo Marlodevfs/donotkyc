@@ -57,7 +57,8 @@
   "Instant Swap": "Мгновенный обмен",
   "P2P": "P2P-площадка",
   "Bridge": "Мост",
-  "ATM": "Биткоин-банкомат"
+  "ATM": "Биткоин-банкомат",
+  "Card": "Криптокарта"
  },
  "cats": {
   "all": "Все платформы",
@@ -619,7 +620,8 @@
   "ID verification required": "Требуется проверка личности",
   "No ID up to $700": "Без документов до 700 $",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Не подтверждено: в центре помощи сказано, что базовая верификация задаёт суточный лимит вывода в 30 BTC, а лимит без верификации не указан",
-  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Документ не нужен; для регистрации нужен адрес электронной почты. Покупки картой идут через стороннего поставщика, который может запросить документ"
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Документ не нужен; для регистрации нужен адрес электронной почты. Покупки картой идут через стороннего поставщика, который может запросить документ",
+  "Email signup, checks not detailed": "Регистрация по e-mail, проверки не описаны"
  },
  "landings": {
   "/exchanges": {

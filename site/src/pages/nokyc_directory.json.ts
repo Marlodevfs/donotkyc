@@ -3,7 +3,7 @@ import { platforms } from '../lib/platforms';
 // API publique (format documenté sur /api-docs), générée depuis la même source que le site.
 const KEYS: Record<string, string> = {
   CEX: 'centralized_exchanges', DEX: 'decentralized_exchanges', Bridge: 'bridges',
-  ATM: 'atms', P2P: 'p2p_marketplaces', 'Instant Swap': 'instant_swaps',
+  ATM: 'atms', P2P: 'p2p_marketplaces', 'Instant Swap': 'instant_swaps', Card: 'crypto_cards',
 };
 
 export function GET() {

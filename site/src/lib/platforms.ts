@@ -18,6 +18,7 @@ export const TYPES: Record<string, string> = {
   P2P: 'P2P market',
   Bridge: 'Bridge',
   ATM: 'Bitcoin ATM',
+  Card: 'Crypto card',
 };
 
 // Catégories de l'accueil : ATM et bridges partagent une tuile
@@ -30,7 +31,7 @@ export const CATEGORIES = [
   { key: 'atm', label: 'ATMs and bridges', icon: 'banknote', types: ['ATM', 'Bridge'] },
 ];
 
-export const catOf = (p: Platform) => CATEGORIES.find((c) => c.types.includes(p.type))!.key;
+export const catOf = (p: Platform) => CATEGORIES.find((c) => c.types.includes(p.type))?.key ?? 'all';
 
 export const byLeastId = (a: Platform, b: Platform) =>
   LEVELS[a.kyc_level].rank - LEVELS[b.kyc_level].rank || a.name.localeCompare(b.name);
@@ -46,4 +47,4 @@ export const reportUrl = (name?: string) =>
 
 
 
-export const CATEGORY_PATH: Record<string, string> = { CEX: '/exchanges', DEX: '/dex', 'Instant Swap': '/swaps', P2P: '/p2p', ATM: '/atms', Bridge: '/bridges' };
+export const CATEGORY_PATH: Record<string, string> = { CEX: '/exchanges', DEX: '/dex', 'Instant Swap': '/swaps', P2P: '/p2p', ATM: '/atms', Bridge: '/bridges', Card: '/' };

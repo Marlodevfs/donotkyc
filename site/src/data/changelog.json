@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-21",
+    "title": "WaldenPay added, with a new Crypto card type",
+    "body": "WaldenPay is a virtual prepaid card you top up with crypto. Its site asks only for an email at signup and does not say when ID is requested, so it is listed as Light with the policy marked not confirmed. It charges from 5% to top up and $10 to issue the card. Cards are a new type in the directory."
+  },
+  {
     "date": "2026-10-20",
     "title": "Best Wallet corrected, KCEX and PrimeXBT sources added",
     "body": "Best Wallet moves from No ID to Light: its own site says to sign up with an email, and card purchases go through a third party that may ask for ID. KCEX now links its help article, which gives 30 BTC a day as the limit for basic verification and does not state the limit without it. PrimeXBT now links its help article, which gives $20,000 per 24 hours as the withdrawal limit before verification."

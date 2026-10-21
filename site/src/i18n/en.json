@@ -57,7 +57,8 @@
   "Instant Swap": "Instant swap",
   "P2P": "P2P market",
   "Bridge": "Bridge",
-  "ATM": "Bitcoin ATM"
+  "ATM": "Bitcoin ATM",
+  "Card": "Crypto card"
  },
  "cats": {
   "all": "All platforms",

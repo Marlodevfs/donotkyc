@@ -57,7 +57,8 @@
   "Instant Swap": "Swap instantâneo",
   "P2P": "Mercado P2P",
   "Bridge": "Bridge",
-  "ATM": "Caixa bitcoin"
+  "ATM": "Caixa bitcoin",
+  "Card": "Cartão cripto"
  },
  "cats": {
   "all": "Todas as plataformas",
@@ -619,7 +620,8 @@
   "ID verification required": "Verificação de identidade exigida",
   "No ID up to $700": "Sem identidade até US$ 700",
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Não confirmado: a central de ajuda diz que a verificação básica define o limite diário de saque em 30 BTC e não informa o limite sem verificação",
-  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Sem identidade; o cadastro pede um e-mail. As compras com cartão passam por um terceiro que pode pedir identificação"
+  "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Sem identidade; o cadastro pede um e-mail. As compras com cartão passam por um terceiro que pode pedir identificação",
+  "Email signup, checks not detailed": "Cadastro por e-mail, verificações não detalhadas"
  },
  "landings": {
   "/exchanges": {

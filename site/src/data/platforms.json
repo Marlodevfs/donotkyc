@@ -1320,5 +1320,35 @@
       "fiat"
     ],
     "kyc_source": "https://changenow.io/faq"
+  },
+  {
+    "slug": "waldenpay",
+    "name": "WaldenPay",
+    "type": "Card",
+    "url": "https://waldenpay.com/",
+    "affiliate_link": null,
+    "logo": null,
+    "kyc_level": "light",
+    "kyc_summary": "Email signup, checks not detailed",
+    "kyc_tier": "Not confirmed: signup needs only an email and the site says \"no residency paperwork for standard use\"; availability stays subject to onboarding, eligibility checks and AML requirements, and the terms do not say when ID is asked",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Some regions",
+    "fiat_deposit": false,
+    "fees": "5% + $10 card",
+    "cryptocurrencies": "135+",
+    "features": [
+      "Virtual prepaid card",
+      "Apple Pay and Google Pay",
+      "Telegram bot"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://waldenpay.com/countries"
   }
 ]
