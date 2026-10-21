@@ -36,6 +36,14 @@ export const catOf = (p: Platform) => CATEGORIES.find((c) => c.types.includes(p.
 export const byLeastId = (a: Platform, b: Platform) =>
   LEVELS[a.kyc_level].rank - LEVELS[b.kyc_level].rank || a.name.localeCompare(b.name);
 
+// Vrai si la fiche couvre les États-Unis. Une liste nommée de pays (« US only », « Europe, Switzerland »)
+// décide seule ; sinon (« Global… », « 200+ regions »), le champ « non disponible » dit si les États-Unis en sont exclus.
+export const worksInUS = (p: Platform) => {
+  const s = p.supported_countries ?? '';
+  if (!/^(Global|Selected|Depends|\d)/.test(s)) return /\bUS\b/.test(s);
+  return !/\bUS\b/.test(p.blocked ?? '');
+};
+
 export const visitUrl = (p: Platform) => p.affiliate_link ?? p.url;
 export const logoUrl = (p: Platform) => (p.logo ? '/' + p.logo.replace(/^\//, '') : null);
 

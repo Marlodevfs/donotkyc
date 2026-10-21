@@ -59,7 +59,7 @@ const jsonld = {
       <div>
         <section class="panel" aria-labelledby="kyc-h">
           <h2 id="kyc-h">{t('platform.kyc_h')}</h2>
-          <p><strong>{summary}.</strong>{p.kyc_tier.toLowerCase() !== p.kyc_level && p.kyc_tier !== 'None' && <> {t('platform.listed_policy', { x: tx(lang, p.kyc_tier) })}</>}</p>
+          <p><strong>{summary}.</strong>{p.kyc_tier.toLowerCase() !== p.kyc_level && p.kyc_tier !== 'None' && <>{' '}{t('platform.listed_policy', { x: tx(lang, p.kyc_tier) })}</>}</p>
           <div class="warn"><Icon name="triangle-alert" /><span>{t('platform.warn')}</span></div>
         </section>
         {p.features.length > 0 && (
