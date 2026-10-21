@@ -8,7 +8,7 @@ const { page, lang, nav } = Astro.props;
 const g = dict(lang).guides[page];
 const t = useT(lang);
 const TOOLS: Record<string, string[]> = {
-  privacy: ['hardening', 'email-aliases', 'vpn', 'tor', 'dns', 'leak-tests', 'wallets', 'monero-wallets', 'hardware-wallets', 'private-payments'],
+  privacy: ['hardening', 'email-aliases', 'vpn', 'anonymous-vps', 'tor', 'dns', 'leak-tests', 'wallets', 'monero-wallets', 'hardware-wallets', 'private-payments'],
   security: ['hardware-wallets', 'wallets', 'desktop-os', 'mobile-os', 'email', 'leak-tests', 'vpn'],
   'vpn-affiliation': [],
 };
