@@ -1885,5 +1885,358 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.bitstop.co/help-center/buying-tiers-and-daily-limits"
+  },
+  {
+    "slug": "sideshift",
+    "name": "SideShift",
+    "type": "Instant Swap",
+    "url": "https://sideshift.ai/",
+    "affiliate_link": null,
+    "logo": "logos/sideshift.webp",
+    "kyc_level": "light",
+    "kyc_summary": "May freeze a flagged swap",
+    "kyc_tier": "No account for swaps, per its coin pages. Its terms say an automated risk system checks every transaction and can freeze a swap, and its privacy policy says it may ask for more information to review one",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "No account for swaps",
+      "Direct to wallet",
+      "API for wallets and apps"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://sideshift.ai/legal"
+  },
+  {
+    "slug": "exolix",
+    "name": "Exolix",
+    "type": "Instant Swap",
+    "url": "https://exolix.com/",
+    "affiliate_link": null,
+    "logo": "logos/exolix.webp",
+    "kyc_level": "light",
+    "kyc_summary": "ID only if a swap is flagged",
+    "kyc_tier": "No personal data is needed to complete a swap, per its FAQ. Its AML/KYC policy is risk based, and a flagged transaction can lead to requests for documents",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "No fee line, fixed rate",
+    "cryptocurrencies": "",
+    "features": [
+      "Fixed-rate swaps",
+      "Non-custodial design"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://exolix.com/faq"
+  },
+  {
+    "slug": "godex",
+    "name": "Godex",
+    "type": "Instant Swap",
+    "url": "https://godex.io/",
+    "affiliate_link": null,
+    "logo": "logos/godex.webp",
+    "kyc_level": "light",
+    "kyc_summary": "No account",
+    "kyc_tier": "No registration and no personal data, per its FAQ. Its AML/KYC policy mentions enhanced due diligence for high-risk customers",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "300+",
+    "features": [
+      "No registration",
+      "Order data deleted after two weeks"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://godex.io/faq"
+  },
+  {
+    "slug": "houdini-swap",
+    "name": "Houdini Swap",
+    "type": "Instant Swap",
+    "url": "https://houdiniswap.com/",
+    "affiliate_link": null,
+    "logo": "logos/houdini-swap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "No accounts or KYC, per its site. It also describes AML/ATF controls, OFAC sanctions screening and geo-blocking",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "120+ chains",
+      "Non-custodial aggregator",
+      "Gasless option"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://houdiniswap.com/"
+  },
+  {
+    "slug": "swapzone",
+    "name": "Swapzone",
+    "type": "Instant Swap",
+    "url": "https://swapzone.io/",
+    "affiliate_link": null,
+    "logo": "logos/swapzone.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Depends on the partner",
+    "kyc_tier": "Swapzone says it needs no registration and no KYC. Its partner exchanges set their own rules, and some may ask for ID",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "0% Swapzone fee, partner fees in the rate",
+    "cryptocurrencies": "",
+    "features": [
+      "Aggregates partner exchanges",
+      "No registration",
+      "Buy with card through partners"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://swapzone.io/learn"
+  },
+  {
+    "slug": "husher",
+    "name": "Husher",
+    "type": "Instant Swap",
+    "url": "https://www.husher.io/",
+    "affiliate_link": null,
+    "logo": "logos/husher.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "No accounts or KYC, per its docs. It routes trades to third-party exchange providers",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Web and Telegram",
+      "Non-custodial routing",
+      "Optional ZEC or XMR route"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.husher.io/"
+  },
+  {
+    "slug": "across",
+    "name": "Across",
+    "type": "Bridge",
+    "url": "https://across.to/",
+    "affiliate_link": null,
+    "logo": "logos/across.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms describe a non-custodial interface used with your own wallet, and they bar sanctioned persons and residents of comprehensively sanctioned jurisdictions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Variable (route and gas)",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Non-custodial interface",
+      "Cross-chain transfers"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://across.to/terms-of-service"
+  },
+  {
+    "slug": "stargate",
+    "name": "Stargate",
+    "type": "Bridge",
+    "url": "https://stargate.finance/",
+    "affiliate_link": null,
+    "logo": "logos/stargate.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms describe a non-custodial application that connects you to blockchain protocols, and they bar sanctioned persons",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Variable (route and gas)",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Non-custodial application",
+      "Cross-chain transfers"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://stargate.finance/terms"
+  },
+  {
+    "slug": "debridge",
+    "name": "deBridge",
+    "type": "Bridge",
+    "url": "https://debridge.com/",
+    "affiliate_link": null,
+    "logo": "logos/debridge.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its support pages describe a non-custodial protocol, and say its compliance team can cooperate when legally required",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Variable (route and gas)",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Non-custodial protocol",
+      "Cross-chain transfers and OTC orders"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://debridge.com/support/"
+  },
+  {
+    "slug": "squid",
+    "name": "Squid",
+    "type": "Bridge",
+    "url": "https://www.squidrouter.com/",
+    "affiliate_link": null,
+    "logo": "logos/squid.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms describe non-custodial services and bar persons on sanctions lists",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Variable, zero on stablecoin swaps",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Non-custodial services",
+      "Cross-chain swaps"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.squidrouter.com/terms"
+  },
+  {
+    "slug": "jumper",
+    "name": "Jumper",
+    "type": "Bridge",
+    "url": "https://jumper.xyz/",
+    "affiliate_link": null,
+    "logo": "logos/jumper.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its guides say no account or KYC is required and every transaction is non-custodial",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Aggregates 29 bridges",
+      "60+ chains"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://jumper.xyz/learn/crypto-bridge"
+  },
+  {
+    "slug": "rubic",
+    "name": "Rubic",
+    "type": "Bridge",
+    "url": "https://rubic.exchange/",
+    "affiliate_link": null,
+    "logo": "logos/rubic.webp",
+    "kyc_level": "light",
+    "kyc_summary": "ID only if a swap is flagged",
+    "kyc_tier": "KYC is not required to start an exchange, per its docs, and funds stay in your wallet. A partially centralized provider can ask for KYC if it flags a transaction",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "0% Rubic fee under $100",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Aggregates DEXs, bridges and providers",
+      "Funds stay in your wallet"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.rubic.finance/rubic/overview/overview"
   }
 ]

@@ -647,7 +647,8 @@
   "Phone number up to CA$4,975 a day": "Номер телефона до 4 975 канадских долларов в день",
   "ID at registration, first purchase up to $300": "Документ при регистрации, первая покупка до 300 $",
   "Phone number, ID for larger purchases": "Номер телефона, документ для крупных покупок",
-  "Verification at signup, more ID for higher limits": "Проверка при регистрации, для высоких лимитов нужно больше данных"
+  "Verification at signup, more ID for higher limits": "Проверка при регистрации, для высоких лимитов нужно больше данных",
+  "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "США, Куба, Иран, Северная Корея, Крым, Судан, Сирия, Бангладеш, Боливия"
  },
  "landings": {
   "/exchanges": {

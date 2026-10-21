@@ -647,7 +647,8 @@
   "Phone number up to CA$4,975 a day": "Günde 4.975 CAD'ye kadar telefon numarası",
   "ID at registration, first purchase up to $300": "Kayıtta kimlik, ilk alım 300 $'a kadar",
   "Phone number, ID for larger purchases": "Telefon numarası, büyük alımlarda kimlik",
-  "Verification at signup, more ID for higher limits": "Kayıtta doğrulama, yüksek limitler için daha fazla kimlik"
+  "Verification at signup, more ID for higher limits": "Kayıtta doğrulama, yüksek limitler için daha fazla kimlik",
+  "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "ABD, Küba, İran, Kuzey Kore, Kırım, Sudan, Suriye, Bangladeş, Bolivya"
  },
  "landings": {
   "/exchanges": {
