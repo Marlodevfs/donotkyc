@@ -652,7 +652,11 @@
   "US, China, Cuba, Iran, North Korea, Syria and others": "美国、中国、古巴、伊朗、朝鲜、叙利亚等",
   "US, China, Russia and others": "美国、中国、俄罗斯等",
   "No ID up to 5 BTC a day": "每日 5 BTC 内无需证件",
-  "Withdrawal limit without ID unclear": "未验证身份的提现限额不明确"
+  "Withdrawal limit without ID unclear": "未验证身份的提现限额不明确",
+  "No ID up to 10,000 USDT a day": "每日 1 万 USDT 内无需证件",
+  "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "美国、中国、新加坡、古巴、伊朗、朝鲜、叙利亚等",
+  "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "美国、加拿大、日本、中国、新加坡、古巴、伊朗、朝鲜等",
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "美国、加拿大、法国、中国、日本、古巴、朝鲜、叙利亚等"
  },
  "landings": {
   "/exchanges": {

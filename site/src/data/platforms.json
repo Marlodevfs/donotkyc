@@ -2675,5 +2675,328 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.bitmart.com/en-US/support/articles/7949433565211/7949448889115/360053944573"
+  },
+  {
+    "slug": "weex",
+    "name": "WEEX",
+    "type": "CEX",
+    "url": "https://www.weex.com/",
+    "affiliate_link": null,
+    "logo": "logos/weex.webp",
+    "kyc_level": "light",
+    "kyc_summary": "No ID up to 10,000 USDT a day",
+    "kyc_tier": "Its VIP table lists a 24-hour withdrawal limit of 10,000 for unverified accounts at VIP 0, against 1,000,000 for verified ones, and higher unverified limits at higher VIP levels",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Spot 0.1%, futures 0.02% maker and 0.08% taker",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures",
+      "Earn"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.weex.com/learn/articles/weex-vip-benefits-newly-upgraded-836"
+  },
+  {
+    "slug": "coinw",
+    "name": "CoinW",
+    "type": "CEX",
+    "url": "https://www.coinw.com/",
+    "affiliate_link": null,
+    "logo": "logos/coinw.webp",
+    "kyc_level": "light",
+    "kyc_summary": "ID can be required at any time",
+    "kyc_tier": "Some products require at least primary verification, and CoinW may require KYC before approving a withdrawal. Its KYC page lists 10 BTC a day for Primary and 100 BTC a day for Advanced verification, and no figure for unverified accounts",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Spot",
+      "Futures"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.coinw.com/help-center/faq/kyc/2025-08-14/frequently-askedquestions-individual-kyc/6380"
+  },
+  {
+    "slug": "cow-swap",
+    "name": "CoW Swap",
+    "type": "DEX",
+    "url": "https://cow.fi/",
+    "affiliate_link": null,
+    "logo": "logos/cow-swap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms say the interface and the protocol are non-custodial and that it never takes custody of your assets, and they bar users in sanctioned jurisdictions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "MEV-protected batch swaps",
+      "Wallet connection only"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://cow.fi/legal/cowswap-terms"
+  },
+  {
+    "slug": "curve",
+    "name": "Curve",
+    "type": "DEX",
+    "url": "https://www.curve.finance/",
+    "affiliate_link": null,
+    "logo": "logos/curve.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms have you connect a third-party wallet, and bar users under UN, US, EU or Swiss sanctions and users in countries embargoed or restricted by the Swiss SECO",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Swaps and liquidity pools",
+      "Lending (LlamaLend)"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.curve.finance/dex/ethereum/legal?tab=terms"
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "type": "DEX",
+    "url": "https://jup.ag/",
+    "affiliate_link": null,
+    "logo": "logos/jupiter.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked on the web interface. Its terms have a non-custodial section and list prohibited localities, while the separate Jupiter Mobile terms reserve the right to run KYC and AML checks",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, China, Singapore, Cuba, Iran, North Korea, Syria and others",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Interface to an open-source protocol",
+      "Mobile app"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://developers.jup.ag/docs/legal/terms-of-use"
+  },
+  {
+    "slug": "sunswap",
+    "name": "SunSwap",
+    "type": "DEX",
+    "url": "https://sunswap.com/",
+    "affiliate_link": null,
+    "logo": "logos/sunswap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms call the interface purely non-custodial and bar sanctioned persons and residents of listed regions, including the US, Canada, Japan, China and Singapore",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "TRON DEX",
+      "Automated liquidity"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.sunswap.com/docs/SunSwap_Terms_of_Use_en.pdf"
+  },
+  {
+    "slug": "matcha",
+    "name": "Matcha",
+    "type": "DEX",
+    "url": "https://matcha.xyz/",
+    "affiliate_link": null,
+    "logo": "logos/matcha.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms say you keep full custody of your tokens in your own wallet and that it never takes custody, and they bar sanctioned users and users in jurisdictions embargoed by the United States",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Fees can apply on some networks",
+    "cryptocurrencies": "Many",
+    "features": [
+      "DEX aggregator by 0x"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://matcha.xyz/terms"
+  },
+  {
+    "slug": "basicswap",
+    "name": "BasicSwap",
+    "type": "DEX",
+    "url": "https://basicswapdex.com/",
+    "affiliate_link": null,
+    "logo": "logos/basicswap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No account at all",
+    "kyc_tier": "None. Its site says there is no custodian and no account, and that swaps settle peer to peer on-chain",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "0% protocol fee",
+    "cryptocurrencies": "BTC, XMR and 12 more",
+    "features": [
+      "Atomic swaps",
+      "Distributed order book",
+      "Open source"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://basicswapdex.com/"
+  },
+  {
+    "slug": "eigenwallet",
+    "name": "eigenwallet",
+    "type": "DEX",
+    "url": "https://eigenwallet.org/",
+    "affiliate_link": null,
+    "logo": "logos/eigenwallet.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None. Its site says swaps have protocol-guaranteed safety with no kyc ever, and that there are no accounts to sign up for. It was formerly called UnstoppableSwap",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "BTC, XMR",
+    "features": [
+      "Bitcoin to Monero atomic swaps",
+      "Everything runs over Tor",
+      "Buy Monero with EUR via SEPA (EU only)"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "bank"
+    ],
+    "tor": true,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://eigenwallet.org/"
+  },
+  {
+    "slug": "swapuz",
+    "name": "Swapuz",
+    "type": "Instant Swap",
+    "url": "https://swapuz.com/",
+    "affiliate_link": null,
+    "logo": "logos/swapuz.webp",
+    "kyc_level": "light",
+    "kyc_summary": "ID only if a swap is flagged",
+    "kyc_tier": "Signing in is optional and gives discounts. Its terms describe a risk-based AML/KYC policy, and Swapuz can suspend an order and ask for source-of-funds documents, an identity document with a selfie, or a message signed with the sending address",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "759+",
+    "features": [
+      "Optional account for discounts",
+      "Web3 wallet connection"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://swapuz.com/terms-of-use"
+  },
+  {
+    "slug": "cyphergoat",
+    "name": "CypherGoat",
+    "type": "Instant Swap",
+    "url": "https://cyphergoat.com/",
+    "affiliate_link": null,
+    "logo": "logos/cyphergoat.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Depends on the partner",
+    "kyc_tier": "No account, email or sign-up on its own interface, per its site. Partner exchanges apply their own account and verification policies",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Typically 0.4% to 0.6%",
+    "cryptocurrencies": "100+",
+    "features": [
+      "Compares 28 exchange partners",
+      "Tor supported",
+      "Open source"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": true,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://cyphergoat.com/"
   }
 ]

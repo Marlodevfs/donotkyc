@@ -652,7 +652,11 @@
   "US, China, Cuba, Iran, North Korea, Syria and others": "США, Китай, Куба, Иран, Северная Корея, Сирия и другие",
   "US, China, Russia and others": "США, Китай, Россия и другие",
   "No ID up to 5 BTC a day": "Без документов до 5 BTC в день",
-  "Withdrawal limit without ID unclear": "Лимит вывода без документов неясен"
+  "Withdrawal limit without ID unclear": "Лимит вывода без документов неясен",
+  "No ID up to 10,000 USDT a day": "Без документов до 10 000 USDT в день",
+  "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "США, Китай, Сингапур, Куба, Иран, Северная Корея, Сирия и другие",
+  "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "США, Канада, Япония, Китай, Сингапур, Куба, Иран, Северная Корея и другие",
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "США, Канада, Франция, Китай, Япония, Куба, Северная Корея, Сирия и другие"
  },
  "landings": {
   "/exchanges": {
