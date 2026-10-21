@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Borsalar",
    "title": "KYC'siz kripto borsaları: kimliksiz limitler | DoNotKYC",
-   "description": "Kimlik göndermeden işlem yapılabilen merkezi borsalar; KYC'siz çekim limitleri, ücretler ve engellenen ülkeler.",
+   "description": "Kimliksiz kullanımdan tam KYC'ye doğru sıralanmış merkezi borsalar; KYC'siz çekim limitleri, ücretler ve engellenen ülkeler.",
    "h1": "KYC'siz kripto borsaları",
    "intro": [
-    "Merkezi borsalar emir defteri, yüksek likidite, vadeli işlemler ve mobil uygulamalar sunar. Aşağıdakiler belirtilen limitin altında kimlik belgesi istemez. Bazıları işlem yapmadan önce yine de kimlik ister, bu yüzden her kaydı oku.",
+    "Merkezi borsalar emir defteri, yüksek likidite, vadeli işlemler ve mobil uygulamalar sunar. Listenin üstündekiler belirtilen limitin altında kimlik belgesi istemez. Daha aşağıdakilerin bazıları işlem yapmadan veya çekim yapmadan önce kimlik ister. Liste en az kimlik isteyenden en çok isteyene doğru gider, bu yüzden her kaydı oku.",
     "Fonların platformda kaldıkça onlar tarafından tutulur. İşin bitince kendi cüzdanına çek ve limitin izin verdiğinden fazlasını yatırmadan önce limiti kontrol et."
    ],
    "faq": [

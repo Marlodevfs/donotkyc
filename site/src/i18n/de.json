@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Börsen",
    "title": "Krypto-Börsen ohne KYC: Limits ohne Ausweis | DoNotKYC",
-   "description": "Zentrale Krypto-Börsen, auf denen du ohne Ausweis handelst, mit ihren Auszahlungslimits ohne KYC, Gebühren und gesperrten Ländern.",
+   "description": "Zentrale Krypto-Börsen, sortiert von ohne Ausweis bis zu vollständigem KYC, mit ihren Auszahlungslimits ohne KYC, Gebühren und gesperrten Ländern.",
    "h1": "Krypto-Börsen ohne KYC",
    "intro": [
-    "Zentralisierte Börsen bieten Orderbücher, hohe Liquidität, Futures und Mobile-Apps. Die folgenden verlangen unter einem angegebenen Limit keinen Ausweis. Manche verlangen ihn trotzdem, bevor du handeln kannst, also lies jeden Eintrag.",
+    "Zentralisierte Börsen bieten Orderbücher, hohe Liquidität, Futures und Mobile-Apps. Die oberen verlangen unter einem angegebenen Limit keinen Ausweis. Weiter unten verlangen manche ihn, bevor du handeln oder abheben kannst. Die Liste geht vom geringsten zum höchsten Aufwand, also lies jeden Eintrag.",
     "Sie verwahren dein Geld, solange es auf der Plattform liegt. Zahl danach auf dein eigenes Wallet aus und prüfe das Limit, bevor du mehr einzahlst, als es erlaubt."
    ],
    "faq": [

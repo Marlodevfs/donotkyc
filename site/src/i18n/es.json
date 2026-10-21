@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Exchanges",
    "title": "Exchanges cripto sin KYC: límites sin identificación | DoNotKYC",
-   "description": "Exchanges centralizados donde operar sin identificación, con sus límites de retiro sin KYC, comisiones y países bloqueados.",
+   "description": "Exchanges centralizados ordenados de sin identificación a KYC completo, con sus límites de retiro sin KYC, comisiones y países bloqueados.",
    "h1": "Exchanges cripto sin KYC",
    "intro": [
-    "Los exchanges centralizados ofrecen libros de órdenes, mucha liquidez, futuros y apps móviles. Los de abajo no piden documento de identidad bajo un límite indicado. Algunos sí lo piden antes de poder operar, así que lee cada ficha.",
+    "Los exchanges centralizados ofrecen libros de órdenes, mucha liquidez, futuros y apps móviles. Los de arriba no piden documento de identidad bajo un límite indicado. Más abajo, algunos lo piden antes de poder operar o retirar. La lista va de menos a más exigente, así que lee cada ficha.",
     "Guardan tus fondos mientras están en la plataforma. Retira a tu propio wallet cuando termines y revisa el límite antes de depositar más de lo que permite."
    ],
    "faq": [

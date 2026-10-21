@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Exchange",
    "title": "Exchange crypto senza KYC: limiti senza documento | DoNotKYC",
-   "description": "Exchange centralizzati dove fare trading senza documento, con limiti di prelievo senza KYC, commissioni e paesi bloccati.",
+   "description": "Exchange centralizzati ordinati da senza documento a KYC completo, con limiti di prelievo senza KYC, commissioni e paesi bloccati.",
    "h1": "Exchange crypto senza KYC",
    "intro": [
-    "Gli exchange centralizzati offrono order book, molta liquidità, futures e app mobili. Quelli sotto non chiedono un documento d'identità entro un limite indicato. Alcuni lo chiedono comunque prima di poter fare trading, quindi leggi ogni scheda.",
+    "Gli exchange centralizzati offrono order book, molta liquidità, futures e app mobili. Quelli in alto non chiedono un documento d'identità entro un limite indicato. Più in basso, alcuni lo chiedono prima di poter fare trading o prelevare. La lista va dal meno al più esigente, quindi leggi ogni scheda.",
     "Custodiscono i tuoi fondi finché restano sulla piattaforma. Preleva sul tuo wallet quando hai finito e controlla il limite prima di depositare più di quanto consente."
    ],
    "faq": [

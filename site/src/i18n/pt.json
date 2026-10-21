@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Exchanges",
    "title": "Exchanges cripto sem KYC: limites sem documento | DoNotKYC",
-   "description": "Exchanges centralizadas onde você negocia sem documento, com limites de saque sem KYC, taxas e países bloqueados.",
+   "description": "Exchanges centralizadas, ordenadas de sem documento até KYC completo, com limites de saque sem KYC, taxas e países bloqueados.",
    "h1": "Exchanges cripto sem KYC",
    "intro": [
-    "As corretoras centralizadas oferecem livros de ordens, muita liquidez, futuros e apps móveis. As abaixo não pedem documento de identidade até um limite indicado. Algumas ainda pedem antes de você poder negociar, então leia cada ficha.",
+    "As corretoras centralizadas oferecem livros de ordens, muita liquidez, futuros e apps móveis. As de cima não pedem documento de identidade até um limite indicado. Mais abaixo, algumas pedem antes de você poder negociar ou sacar. A lista vai da menos à mais exigente, então leia cada ficha.",
     "Elas guardam seus fundos enquanto estão na plataforma. Saque para sua própria carteira ao terminar e confira o limite antes de depositar mais do que ele permite."
    ],
    "faq": [

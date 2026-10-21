@@ -3,10 +3,10 @@
   "/exchanges": {
    "nav": "Exchanges",
    "title": "No-KYC Crypto Exchanges: Limits Without ID | DoNotKYC",
-   "description": "Centralised crypto exchanges that let you trade without sending ID, with their no-KYC withdrawal limits, fees and blocked countries.",
+   "description": "Centralised crypto exchanges sorted from no ID to full KYC, with their no-KYC withdrawal limits, fees and blocked countries.",
    "h1": "No-KYC crypto exchanges",
    "intro": [
-    "Centralised exchanges give you order books, deep liquidity, futures and mobile apps. The ones below ask for no ID document under a stated limit. Some still ask for ID before you can trade, so read each listing.",
+    "Centralised exchanges give you order books, deep liquidity, futures and mobile apps. The ones at the top ask for no ID document under a stated limit. Further down, some ask for ID before you can trade or withdraw. The list runs from least to most ID, so read each listing.",
     "They hold your funds while they are on the platform. Withdraw to your own wallet when you are done, and check the limit before depositing more than it allows."
    ],
    "faq": [

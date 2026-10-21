@@ -3093,5 +3093,36 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://zerion.io/terms-conditions"
+  },
+  {
+    "slug": "swapspace",
+    "name": "SwapSpace",
+    "type": "Instant Swap",
+    "url": "https://swapspace.co/",
+    "affiliate_link": null,
+    "logo": "logos/swapspace.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Depends on the partner",
+    "kyc_tier": "Per its FAQ, most exchanges can be completed without verification, but a provider may request KYC or AML checks based on its own policies and the transaction details, and the exchange can pause until the information is reviewed. Each provider shows how likely verification is before you proceed",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Aggregates exchange providers",
+      "Buy crypto with a card",
+      "Swap tracker"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://swapspace.co/faq#kycAmlVerification"
   }
 ]

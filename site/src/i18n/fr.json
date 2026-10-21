@@ -664,10 +664,10 @@
   "/exchanges": {
    "nav": "Exchanges",
    "title": "Exchanges crypto sans KYC : limites sans identité | DoNotKYC",
-   "description": "Les exchanges centralisés où l'on échange sans pièce d'identité, avec leurs limites de retrait sans KYC, leurs frais et les pays bloqués.",
+   "description": "Les exchanges centralisés, classés de l'absence de pièce d'identité au KYC complet, avec leurs limites de retrait sans KYC, leurs frais et les pays bloqués.",
    "h1": "Exchanges crypto sans KYC",
    "intro": [
-    "Les exchanges centralisés offrent des carnets d'ordres, une forte liquidité, des contrats à terme et des applis mobiles. Ceux-ci ne demandent aucune pièce d'identité sous une limite indiquée. Certains en exigent une avant de pouvoir trader : lisez chaque fiche.",
+    "Les exchanges centralisés offrent des carnets d'ordres, une forte liquidité, des contrats à terme et des applis mobiles. Ceux du haut ne demandent aucune pièce d'identité sous une limite indiquée. Plus bas, certains en exigent une avant de pouvoir trader ou retirer. La liste va du moins au plus exigeant : lisez chaque fiche.",
     "Ils détiennent vos fonds tant qu'ils sont sur la plateforme. Retirez vers votre propre wallet une fois terminé, et vérifiez la limite avant de déposer plus qu'elle ne permet."
    ],
    "faq": [
