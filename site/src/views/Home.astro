@@ -119,7 +119,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
             <div class="foot"><span>{t(`types.${p.type}`)}</span><span>{tx(lang, p.kyc_summary)}</span></div>
           </a>
         ))}
-        <SponsorTile slot="home" fallback lang={lang} />
+        <SponsorTile slot="home" lang={lang} />
       </div>
     </section>
 

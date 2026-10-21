@@ -153,6 +153,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .sec-h h2{font-size:clamp(28px,3.4vw,40px);max-width:20ch}
 .sec-h p{color:var(--fg-2);max-width:46ch}
 .feat{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.feat:not(:has(.ad)){grid-template-columns:repeat(3,minmax(0,1fr))}
 .card{display:flex;flex-direction:column;gap:14px;padding:24px;background:var(--surface);border:1px solid var(--line);text-decoration:none;min-height:260px}
 a.card:hover{border-color:var(--fg-3)}
 .card .top{display:flex;justify-content:space-between;align-items:start;gap:8px}
@@ -162,8 +163,8 @@ a.card:hover{border-color:var(--fg-3)}
 .card.ad{background:var(--sunk);border-style:dashed}
 .card.ad .adl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2)}
 .card.ad a{font-weight:600;display:inline-flex;gap:6px;align-items:center}
-@media (max-width:1000px){.feat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.feat{grid-template-columns:1fr}.card{min-height:0}}
+@media (max-width:1000px){.feat,.feat:not(:has(.ad)){grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.feat,.feat:not(:has(.ad)){grid-template-columns:1fr}.card{min-height:0}}
 
 .trust{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
 .trust h2{font-size:clamp(28px,3.4vw,40px)}
