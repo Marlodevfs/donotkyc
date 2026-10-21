@@ -640,7 +640,14 @@
   "US, mainland China, Russia and others": "ABD, Çin anakarası, Rusya ve diğerleri",
   "200+ regions": "200'den fazla bölge",
   "US and other regions not on its list": "ABD ve listede olmayan diğer bölgeler",
-  "ID verification when you apply": "Kart başvurusunda kimlik doğrulaması"
+  "ID verification when you apply": "Kart başvurusunda kimlik doğrulaması",
+  "Depends on the node": "Düğüme bağlı",
+  "Canada": "Kanada",
+  "Outside Canada": "Kanada dışında",
+  "Phone number up to CA$4,975 a day": "Günde 4.975 CAD'ye kadar telefon numarası",
+  "ID at registration, first purchase up to $300": "Kayıtta kimlik, ilk alım 300 $'a kadar",
+  "Phone number, ID for larger purchases": "Telefon numarası, büyük alımlarda kimlik",
+  "Verification at signup, more ID for higher limits": "Kayıtta doğrulama, yüksek limitler için daha fazla kimlik"
  },
  "landings": {
   "/exchanges": {

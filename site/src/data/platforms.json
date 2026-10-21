@@ -1614,5 +1614,276 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://help.tria.so/en/articles/14034407-kyc-know-your-customer"
+  },
+  {
+    "slug": "robosats",
+    "name": "RoboSats",
+    "type": "P2P",
+    "url": "https://learn.robosats.org/",
+    "affiliate_link": null,
+    "logo": "logos/robosats.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None",
+    "supported_countries": "Global",
+    "blocked": null,
+    "fiat_deposit": true,
+    "fees": "0.2%",
+    "cryptocurrencies": "BTC",
+    "features": [
+      "Lightning escrow",
+      "Tor only",
+      "Any fiat payment method"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "bank",
+      "cash"
+    ],
+    "tor": true,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://learn.robosats.org/"
+  },
+  {
+    "slug": "mostro",
+    "name": "Mostro",
+    "type": "P2P",
+    "url": "https://mostro.network/",
+    "affiliate_link": null,
+    "logo": "logos/mostro.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None",
+    "supported_countries": "Depends on the node",
+    "blocked": null,
+    "fiat_deposit": true,
+    "fees": "About 0.3%, set by each node",
+    "cryptocurrencies": "BTC",
+    "features": [
+      "Lightning and Nostr",
+      "Independent nodes",
+      "Bank, cash or mobile payment"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "bank",
+      "cash"
+    ],
+    "tor": null,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://mostro.network/"
+  },
+  {
+    "slug": "vexl",
+    "name": "Vexl",
+    "type": "P2P",
+    "url": "https://vexl.it/",
+    "affiliate_link": null,
+    "logo": "logos/vexl.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None",
+    "supported_countries": "Not stated",
+    "blocked": null,
+    "fiat_deposit": true,
+    "fees": "No app fee, set by each offer",
+    "cryptocurrencies": "BTC",
+    "features": [
+      "Trade through your contacts",
+      "Meet in person or online",
+      "Independent security audit"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://vexl.it/"
+  },
+  {
+    "slug": "lnp2pbot",
+    "name": "lnp2pBot",
+    "type": "P2P",
+    "url": "https://lnp2pbot.com/",
+    "affiliate_link": null,
+    "logo": "logos/lnp2pbot.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None",
+    "supported_countries": "Not stated",
+    "blocked": null,
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "BTC",
+    "features": [
+      "Telegram bot",
+      "Lightning hold invoices",
+      "Local communities"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://lnp2pbot.com/"
+  },
+  {
+    "slug": "retoswap",
+    "name": "RetoSwap",
+    "type": "P2P",
+    "url": "https://retoswap.com/",
+    "affiliate_link": null,
+    "logo": "logos/retoswap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No ID",
+    "kyc_tier": "None",
+    "supported_countries": "Global",
+    "blocked": null,
+    "fiat_deposit": true,
+    "fees": "0.1% maker, 0.8% crypto taker, 2% fiat taker",
+    "cryptocurrencies": "XMR, BTC, ETH, USDT, LTC, BCH",
+    "features": [
+      "Monero first",
+      "Desktop and Android client",
+      "Built-in arbitration"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "bank",
+      "cash"
+    ],
+    "tor": true,
+    "open_source": true,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://retoswap.com/"
+  },
+  {
+    "slug": "localcoin",
+    "name": "Localcoin",
+    "type": "ATM",
+    "url": "https://localcoinatm.com/",
+    "affiliate_link": null,
+    "logo": "logos/localcoin.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "Phone number up to CA$4,975 a day",
+    "kyc_tier": "Phone number only up to CA$4,975 a day. ID, a selfie and a questionnaire raise the daily limit to CA$14,925",
+    "supported_countries": "Canada",
+    "blocked": "Outside Canada",
+    "fiat_deposit": true,
+    "fees": "Flat fee plus a fee built into the price",
+    "cryptocurrencies": "",
+    "features": [
+      "Buy and sell at the ATM",
+      "INTERAC e-Transfer sales"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "cash"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://localcoinatm.com/faq"
+  },
+  {
+    "slug": "byte-federal",
+    "name": "Byte Federal",
+    "type": "ATM",
+    "url": "https://www.bytefederal.com/",
+    "affiliate_link": null,
+    "logo": "logos/byte-federal.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID at registration, first purchase up to $300",
+    "kyc_tier": "ID at registration. The first transaction is capped at $300, and the limit rises to $29,500 a day once you register with a driver's license, passport or other government photo ID",
+    "supported_countries": "Selected regions",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "BTC, Lightning, ETH and more",
+    "features": [
+      "ATM, wallet and vault",
+      "Bitcoin Lightning"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "cash"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bytefederal.com/faq"
+  },
+  {
+    "slug": "athena-bitcoin",
+    "name": "Athena Bitcoin",
+    "type": "ATM",
+    "url": "https://athenabitcoin.com/",
+    "affiliate_link": null,
+    "logo": "logos/athena-bitcoin.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "Phone number, ID for larger purchases",
+    "kyc_tier": "A phone number verified by SMS starts the purchase. Its FAQ says a valid ID is required for larger transactions to meet compliance rules",
+    "supported_countries": "Selected regions",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "BTC",
+    "features": [
+      "Buy at an ATM, online or in the app"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "cash"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://athenabitcoin.com/faqs/"
+  },
+  {
+    "slug": "bitstop",
+    "name": "Bitstop",
+    "type": "ATM",
+    "url": "https://www.bitstop.co/",
+    "affiliate_link": null,
+    "logo": "logos/bitstop.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "Verification at signup, more ID for higher limits",
+    "kyc_tier": "Two tiers. Basic covers most everyday purchases, and Gold has a much higher daily limit but requires additional identity verification. Limits vary by state",
+    "supported_countries": "US only",
+    "blocked": "Outside the US",
+    "fiat_deposit": true,
+    "fees": "15% to 25% at most ATMs, set by state in some",
+    "cryptocurrencies": "BTC, ETH, DOGE, stablecoins and gold tokens",
+    "features": [
+      "Bitcoin, Ethereum, Dogecoin and stablecoins",
+      "Gold-backed tokens"
+    ],
+    "custody": "none",
+    "payment_methods": [
+      "cash"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bitstop.co/help-center/buying-tiers-and-daily-limits"
   }
 ]

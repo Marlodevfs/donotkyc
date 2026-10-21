@@ -640,7 +640,14 @@
   "US, mainland China, Russia and others": "美国、中国大陆、俄罗斯等",
   "200+ regions": "200 多个地区",
   "US and other regions not on its list": "美国及名单之外的其他地区",
-  "ID verification when you apply": "申请时验证身份"
+  "ID verification when you apply": "申请时验证身份",
+  "Depends on the node": "取决于节点",
+  "Canada": "加拿大",
+  "Outside Canada": "加拿大以外",
+  "Phone number up to CA$4,975 a day": "每天 4,975 加元以内只需手机号",
+  "ID at registration, first purchase up to $300": "注册时验证身份，首笔购买最高 300 美元",
+  "Phone number, ID for larger purchases": "手机号，大额购买需要证件",
+  "Verification at signup, more ID for higher limits": "注册时验证，更高限额需要更多身份资料"
  },
  "landings": {
   "/exchanges": {
