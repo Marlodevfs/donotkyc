@@ -656,7 +656,9 @@
   "No ID up to 10,000 USDT a day": "Sans identité jusqu'à 10 000 USDT par jour",
   "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "États-Unis, Chine, Singapour, Cuba, Iran, Corée du Nord, Syrie et autres",
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "États-Unis, Canada, Japon, Chine, Singapour, Cuba, Iran, Corée du Nord et autres",
-  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "États-Unis, Canada, France, Chine, Japon, Cuba, Corée du Nord, Syrie et autres"
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "États-Unis, Canada, France, Chine, Japon, Cuba, Corée du Nord, Syrie et autres",
+  "No ID for the wallet, ID to buy and swap": "Sans identité pour le portefeuille, identité pour acheter et swapper",
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Chine, Biélorussie, Cuba, Iran, Corée du Nord, Syrie et autres"
  },
  "landings": {
   "/exchanges": {

@@ -2998,5 +2998,100 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://cyphergoat.com/"
+  },
+  {
+    "slug": "blockchain-com",
+    "name": "Blockchain.com",
+    "type": "Instant Swap",
+    "url": "https://www.blockchain.com/wallet",
+    "affiliate_link": null,
+    "logo": "logos/blockchain-com.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "No ID for the wallet, ID to buy and swap",
+    "kyc_tier": "The DeFi Wallet is non-custodial and needs no identity verification, per its help center, and swaps on its integrated DEX settle on-chain. Buying, selling and the Swap product require identity verification (Full Access), and the Trading Account is a separate custodial service",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "",
+    "features": [
+      "Non-custodial DeFi Wallet",
+      "Swap in the wallet or in the Trading Account",
+      "Earn rewards"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://support.blockchain.com/hc/en-us/articles/360050550572-What-is-the-difference-between-DeFi-Wallet-and-Trading-Account"
+  },
+  {
+    "slug": "myetherwallet",
+    "name": "MyEtherWallet",
+    "type": "Instant Swap",
+    "url": "https://www.myetherwallet.com/",
+    "affiliate_link": null,
+    "logo": "logos/myetherwallet.webp",
+    "kyc_level": "light",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "Its terms say you do not create an account and transfer no assets to MEW, and that MEW does not control, custody or store them. Swaps run through partner exchanges, while buying and selling go through integrated onboarding providers whose checks its pages do not describe",
+    "supported_countries": "Global except restrictions",
+    "blocked": "China, Belarus, Cuba, Iran, North Korea, Syria and others",
+    "fiat_deposit": true,
+    "fees": "Not stated",
+    "cryptocurrencies": "ETH and ERC-20 tokens",
+    "features": [
+      "Self-custody wallet",
+      "Swap through partner exchanges",
+      "Buy and sell through providers",
+      "Staking"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "card"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.myetherwallet.com/terms-of-service"
+  },
+  {
+    "slug": "zerion",
+    "name": "Zerion",
+    "type": "Instant Swap",
+    "url": "https://zerion.io/",
+    "affiliate_link": null,
+    "logo": "logos/zerion.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None. Its terms describe an unhosted, non-custodial wallet whose private keys stay on your device, and they contain no identity verification clause. Purchases made through its links go to third-party providers, and residents of sanctioned jurisdictions are barred",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": true,
+    "fees": "Swap and bridge fees can apply",
+    "cryptocurrencies": "",
+    "features": [
+      "Self-custodial wallet",
+      "Swap and bridge",
+      "Perps trading",
+      "Premium plan"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto",
+      "card",
+      "bank"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://zerion.io/terms-conditions"
   }
 ]

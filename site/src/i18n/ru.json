@@ -656,7 +656,9 @@
   "No ID up to 10,000 USDT a day": "Без документов до 10 000 USDT в день",
   "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "США, Китай, Сингапур, Куба, Иран, Северная Корея, Сирия и другие",
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "США, Канада, Япония, Китай, Сингапур, Куба, Иран, Северная Корея и другие",
-  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "США, Канада, Франция, Китай, Япония, Куба, Северная Корея, Сирия и другие"
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "США, Канада, Франция, Китай, Япония, Куба, Северная Корея, Сирия и другие",
+  "No ID for the wallet, ID to buy and swap": "Кошелёк без документов, для покупки и обмена нужен документ",
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "Китай, Беларусь, Куба, Иран, Северная Корея, Сирия и другие"
  },
  "landings": {
   "/exchanges": {

@@ -656,7 +656,9 @@
   "No ID up to 10,000 USDT a day": "Kein Ausweis bis 10.000 USDT pro Tag",
   "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "USA, China, Singapur, Kuba, Iran, Nordkorea, Syrien und weitere",
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "USA, Kanada, Japan, China, Singapur, Kuba, Iran, Nordkorea und weitere",
-  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "USA, Kanada, Frankreich, China, Japan, Kuba, Nordkorea, Syrien und weitere"
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "USA, Kanada, Frankreich, China, Japan, Kuba, Nordkorea, Syrien und weitere",
+  "No ID for the wallet, ID to buy and swap": "Kein Ausweis fürs Wallet, Ausweis zum Kaufen und Swappen",
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "China, Belarus, Kuba, Iran, Nordkorea, Syrien und weitere"
  },
  "landings": {
   "/exchanges": {

@@ -656,7 +656,9 @@
   "No ID up to 10,000 USDT a day": "每日 1 万 USDT 内无需证件",
   "US, China, Singapore, Cuba, Iran, North Korea, Syria and others": "美国、中国、新加坡、古巴、伊朗、朝鲜、叙利亚等",
   "US, Canada, Japan, China, Singapore, Cuba, Iran, North Korea and others": "美国、加拿大、日本、中国、新加坡、古巴、伊朗、朝鲜等",
-  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "美国、加拿大、法国、中国、日本、古巴、朝鲜、叙利亚等"
+  "US, Canada, France, China, Japan, Cuba, North Korea, Syria and others": "美国、加拿大、法国、中国、日本、古巴、朝鲜、叙利亚等",
+  "No ID for the wallet, ID to buy and swap": "钱包无需证件，购买和兑换需要证件",
+  "China, Belarus, Cuba, Iran, North Korea, Syria and others": "中国、白俄罗斯、古巴、伊朗、朝鲜、叙利亚等"
  },
  "landings": {
   "/exchanges": {
