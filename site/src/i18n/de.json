@@ -64,9 +64,9 @@
   "all": "Alle Plattformen",
   "cex": "Börsen",
   "dex": "Dezentral",
-  "swap": "Sofort-Swaps",
-  "p2p": "P2P-Marktplätze",
-  "atm": "Automaten und Bridges",
+  "swap": "Swaps und Bridges",
+  "cash": "Bargeld und P2P",
+  "card": "Krypto-Karten",
   "listed": "{n} gelistet"
  },
  "list": {
@@ -131,12 +131,12 @@
   "t_cex_p": "Hohe Liquidität, Orderbücher und Apps. Ihre Stufen ohne KYC begrenzen Auszahlungen für nicht verifizierte Konten.",
   "t_dex_h": "Dezentrale Börsen",
   "t_dex_p": "Smart Contracts, keine Registrierung. Du handelst aus deinem eigenen Wallet und behältst deine Schlüssel.",
-  "t_swap_h": "Sofort-Swaps",
-  "t_swap_p": "Schneller Tausch von Coin zu Coin ohne Konto, die Marge steckt im Kurs.",
-  "t_p2p_h": "P2P-Marktplätze",
-  "t_p2p_p": "Du bezahlst eine andere Person mit einer lokalen Zahlungsmethode. Sicherheit hängt von Treuhand und Reputation ab.",
-  "t_atm_h": "Automaten und Bridges",
-  "t_atm_p": "Automaten verkaufen Krypto gegen Bargeld. Manche verlangen erst ab einer Schwelle einen Ausweis, andere bei jedem Kauf. Bridges bewegen Werte zwischen Blockchains.",
+  "t_swap_h": "Sofort-Swaps und Bridges",
+  "t_swap_p": "Schneller Tausch von Coin zu Coin ohne Konto, die Marge steckt im Kurs. Bridges bewegen Werte zwischen Blockchains.",
+  "t_cash_h": "P2P-Marktplätze und Automaten",
+  "t_cash_p": "Auf P2P-Marktplätzen bezahlst du eine andere Person mit einer lokalen Zahlungsmethode, die Sicherheit hängt von Treuhand und Reputation ab. Automaten verkaufen Krypto gegen Bargeld: Manche verlangen erst ab einer Schwelle einen Ausweis, andere bei jedem Kauf.",
+  "t_card_h": "Krypto-Karten",
+  "t_card_p": "Karten, die du mit Krypto auflädst und überall nutzt, wo Visa oder Mastercard akzeptiert wird. Fast alle verlangen einen Ausweis: Jeder Eintrag sagt, wann.",
   "r1_h": "Rankings sind nicht käuflich",
   "r1_p": "Wir sortieren das Verzeichnis nach der Identität, die jede Plattform verlangt. Bezahlen schiebt keine Plattform nach oben.",
   "r2_h": "Affiliate-Links gekennzeichnet",
@@ -622,7 +622,18 @@
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Nicht bestätigt: Das Hilfecenter nennt für die Basisverifizierung ein tägliches Auszahlungslimit von 30 BTC und nennt kein Limit ohne Verifizierung",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Kein Ausweis; die Anmeldung braucht eine E-Mail-Adresse. Kartenkäufe laufen über einen Dritten, der einen Ausweis verlangen kann",
   "Email signup, says it collects no ID": "Anmeldung per E-Mail, nach eigener Angabe ohne Ausweis",
-  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Nordkorea, Iran, Syrien, Kuba, Russland, Belarus, Krim, Donezk, Luhansk, Afghanistan, Myanmar"
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Nordkorea, Iran, Syrien, Kuba, Russland, Belarus, Krim, Donezk, Luhansk, Afghanistan, Myanmar",
+  "Email signup, but its site says KYC is required": "Anmeldung per E-Mail, laut Website aber KYC-Pflicht",
+  "ID verification at signup": "Identitätsprüfung bei der Anmeldung",
+  "Government ID required": "Ausweis erforderlich",
+  "Depends on region and partners": "Je nach Region und Partnern",
+  "50+ countries and regions": "Über 50 Länder und Regionen",
+  "Europe, Mexico and Brazil": "Europa, Mexiko und Brasilien",
+  "80+ countries": "Über 80 Länder",
+  "Selected regions": "Ausgewählte Regionen",
+  "Sanctioned jurisdictions": "Sanktionierte Länder und Gebiete",
+  "Outside supported regions": "Außerhalb unterstützter Regionen",
+  "US (new sign-ups paused)": "USA (Neuanmeldungen pausiert)"
  },
  "landings": {
   "/exchanges": {
@@ -809,6 +820,16 @@
    "h1": "Krypto per Karte kaufen",
    "intro": [
     "Kartenkäufe gehen schnell, sind aber selten anonym: Zahlungsabwickler führen eigene Prüfungen durch, und die Limits ohne Ausweis sind niedrig. Diese Dienste nehmen Karten ohne Ausweis bis zu ihrem Limit an."
+   ]
+  },
+  "/cards": {
+   "nav": "Krypto-Karten",
+   "title": "Krypto-Karten und welchen Ausweis sie verlangen | DoNotKYC",
+   "description": "Karten, die du mit Krypto auflädst, und die Identitätsprüfungen, die jede vor dem Bezahlen verlangt.",
+   "h1": "Krypto-Karten und ihre Identitätsprüfungen",
+   "intro": [
+    "Eine Krypto-Karte ist eine Visa- oder Mastercard-Karte, die du mit Krypto auflädst und überall nutzt, wo das Netzwerk akzeptiert wird.",
+    "Fast alle prüfen deine Identität, weil die Unternehmen, die Karten ausgeben, Aufsichtsbehörden unterstehen. Jeder Eintrag zitiert, was die Seiten der Karte zur Identität sagen, und nennt es, wenn sie unklar bleiben. Prüfe Gebühren, Limits und unterstützte Länder, bevor du Geld einzahlst."
    ]
   }
  },

@@ -64,9 +64,9 @@
   "all": "Tüm platformlar",
   "cex": "Borsalar",
   "dex": "Merkeziyetsiz",
-  "swap": "Anında takas",
-  "p2p": "P2P pazarları",
-  "atm": "ATM'ler ve köprüler",
+  "swap": "Takaslar ve köprüler",
+  "cash": "Nakit ve P2P",
+  "card": "Kripto kartlar",
   "listed": "{n} listelendi"
  },
  "list": {
@@ -131,12 +131,12 @@
   "t_cex_p": "Yüksek likidite, emir defterleri ve mobil uygulamalar. KYC'siz kademeleri doğrulanmamış hesaplarda çekimi sınırlar.",
   "t_dex_h": "Merkeziyetsiz borsalar",
   "t_dex_p": "Akıllı sözleşmeler, kayıt yok. Kendi cüzdanından işlem yapar, anahtarlarını kendin tutarsın.",
-  "t_swap_h": "Anında takas",
-  "t_swap_p": "Hesapsız hızlı coin dönüşümü; marj fiyata dahil.",
-  "t_p2p_h": "P2P pazarları",
-  "t_p2p_p": "Başka bir kişiye yerel bir ödeme yöntemiyle ödersin. Güvenlik emanet sistemine ve itibara bağlıdır.",
-  "t_atm_h": "ATM'ler ve köprüler",
-  "t_atm_p": "ATM'ler kripto parayı nakit karşılığında satar. Bazıları yalnızca bir eşiğin üstünde, bazıları her alımda kimlik ister. Köprüler varlıkları blok zincirleri arasında taşır.",
+  "t_swap_h": "Anında takas ve köprüler",
+  "t_swap_p": "Hesapsız hızlı coin dönüşümü; marj fiyata dahil. Köprüler varlıkları blok zincirleri arasında taşır.",
+  "t_cash_h": "P2P pazarları ve ATM'ler",
+  "t_cash_p": "P2P pazarlarında başka bir kişiye yerel bir ödeme yöntemiyle ödersin; güvenlik emanet sistemine ve itibara bağlıdır. ATM'ler kripto parayı nakit karşılığında satar: bazıları yalnızca bir eşiğin üstünde, bazıları her alımda kimlik ister.",
+  "t_card_h": "Kripto kartlar",
+  "t_card_p": "Kriptoyla yüklediğin ve Visa ya da Mastercard'ın kabul edildiği her yerde kullandığın kartlar. Neredeyse hepsi kimlik ister: her kayıt ne zaman istediğini belirtir.",
   "r1_h": "Sıralama satılık değil",
   "r1_p": "Dizini her platformun istediği kimliğe göre sıralarız. Ödeme yapmak bir platformu yukarı taşımaz.",
   "r2_h": "Ortaklık bağlantıları belirtilir",
@@ -622,7 +622,18 @@
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Doğrulanmadı: yardım merkezi, temel doğrulamanın günlük çekim limitini 30 BTC yaptığını söylüyor; doğrulamasız limiti belirtmiyor",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Kimlik gerekmez; kayıt için e-posta gerekir. Kartla alımlar, kimlik isteyebilen üçüncü bir taraf üzerinden yapılır",
   "Email signup, says it collects no ID": "E-postayla kayıt, kimlik toplamadığını söylüyor",
-  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Kuzey Kore, İran, Suriye, Küba, Rusya, Belarus, Kırım, Donetsk, Luhansk, Afganistan, Myanmar"
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Kuzey Kore, İran, Suriye, Küba, Rusya, Belarus, Kırım, Donetsk, Luhansk, Afganistan, Myanmar",
+  "Email signup, but its site says KYC is required": "E-postayla kayıt, ancak site KYC'nin zorunlu olduğunu söylüyor",
+  "ID verification at signup": "Kayıtta kimlik doğrulaması",
+  "Government ID required": "Kimlik belgesi zorunlu",
+  "Depends on region and partners": "Bölgeye ve ortaklara bağlı",
+  "50+ countries and regions": "50'den fazla ülke ve bölge",
+  "Europe, Mexico and Brazil": "Avrupa, Meksika ve Brezilya",
+  "80+ countries": "80'den fazla ülke",
+  "Selected regions": "Seçili bölgeler",
+  "Sanctioned jurisdictions": "Yaptırım uygulanan ülkeler ve bölgeler",
+  "Outside supported regions": "Desteklenen bölgeler dışında",
+  "US (new sign-ups paused)": "ABD (yeni kayıtlar durduruldu)"
  },
  "landings": {
   "/exchanges": {
@@ -809,6 +820,16 @@
    "h1": "Kartla kripto al",
    "intro": [
     "Kartla alım hızlıdır ama nadiren anonimdir: ödeme kuruluşları kendi kontrollerini yapar ve kimliksiz limitler düşüktür. Bu hizmetler limitlerine kadar kimliksiz kart kabul eder."
+   ]
+  },
+  "/cards": {
+   "nav": "Kripto kartlar",
+   "title": "Kripto kartlar ve istedikleri kimlik | DoNotKYC",
+   "description": "Kriptoyla yüklediğin kartlar ve her birinin harcamadan önce istediği kimlik kontrolleri.",
+   "h1": "Kripto kartlar ve kimlik kontrolleri",
+   "intro": [
+    "Kripto kart, kriptoyla yüklediğin ve ağın kabul edildiği her yerde kullandığın bir Visa ya da Mastercard kartıdır.",
+    "Neredeyse hepsi kimliğini doğrular, çünkü kart çıkaran şirketler düzenleyici kurumlara bağlıdır. Her kayıt, kartın kendi sayfalarında kimlik hakkında yazanı aktarır ve sayfalar belirsizse bunu belirtir. Para yüklemeden önce ücretleri, limitleri ve desteklenen ülkeleri kontrol et."
    ]
   }
  },

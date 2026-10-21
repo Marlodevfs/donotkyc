@@ -64,9 +64,9 @@
   "all": "Todas las plataformas",
   "cex": "Exchanges",
   "dex": "Descentralizados",
-  "swap": "Swaps instantáneos",
-  "p2p": "Mercados P2P",
-  "atm": "Cajeros y bridges",
+  "swap": "Swaps y bridges",
+  "cash": "Efectivo y P2P",
+  "card": "Tarjetas cripto",
   "listed": "{n} listadas"
  },
  "list": {
@@ -131,12 +131,12 @@
   "t_cex_p": "Alta liquidez, libros de órdenes y apps móviles. Sus niveles sin KYC limitan los retiros de las cuentas no verificadas.",
   "t_dex_h": "Exchanges descentralizados",
   "t_dex_p": "Contratos inteligentes, sin registro. Operas desde tu propio wallet y guardas tus claves.",
-  "t_swap_h": "Swaps instantáneos",
-  "t_swap_p": "Conversiones rápidas de una cripto a otra sin cuenta, con el margen incluido en la cotización.",
-  "t_p2p_h": "Mercados P2P",
-  "t_p2p_p": "Pagas a otra persona con un método de pago local. La seguridad depende del escrow y la reputación.",
-  "t_atm_h": "Cajeros y bridges",
-  "t_atm_p": "Los cajeros venden cripto a cambio de efectivo. Algunos piden identificación solo por encima de un umbral, otros en cada compra. Los bridges mueven activos entre blockchains.",
+  "t_swap_h": "Swaps instantáneos y bridges",
+  "t_swap_p": "Conversiones rápidas de una cripto a otra sin cuenta, con el margen incluido en la cotización. Los bridges mueven activos entre blockchains.",
+  "t_cash_h": "Mercados P2P y cajeros",
+  "t_cash_p": "En los mercados P2P pagas a otra persona con un método de pago local, y la seguridad depende del escrow y la reputación. Los cajeros venden cripto a cambio de efectivo: algunos piden identificación solo por encima de un umbral, otros en cada compra.",
+  "t_card_h": "Tarjetas cripto",
+  "t_card_p": "Tarjetas que cargas con cripto y usas donde se acepte Visa o Mastercard. Casi todas piden identificación: cada ficha indica cuándo.",
   "r1_h": "La clasificación no se vende",
   "r1_p": "Ordenamos el directorio según la identidad que pide cada plataforma. Pagar no sube a ninguna plataforma.",
   "r2_h": "Enlaces de afiliado indicados",
@@ -622,7 +622,18 @@
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "No confirmado: el centro de ayuda indica que la verificación básica fija el límite diario de retiro en 30 BTC y no indica el límite sin verificación",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Sin identidad; el registro pide un correo electrónico. Las compras con tarjeta pasan por un tercero que puede pedir identificación",
   "Email signup, says it collects no ID": "Registro con correo, dice no recopilar documento de identidad",
-  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Corea del Norte, Irán, Siria, Cuba, Rusia, Bielorrusia, Crimea, Donetsk, Lugansk, Afganistán, Myanmar"
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Corea del Norte, Irán, Siria, Cuba, Rusia, Bielorrusia, Crimea, Donetsk, Lugansk, Afganistán, Myanmar",
+  "Email signup, but its site says KYC is required": "Registro con correo, pero su web dice que el KYC es obligatorio",
+  "ID verification at signup": "Verificación de identidad al registrarse",
+  "Government ID required": "Documento de identidad obligatorio",
+  "Depends on region and partners": "Según región y socios",
+  "50+ countries and regions": "Más de 50 países y regiones",
+  "Europe, Mexico and Brazil": "Europa, México y Brasil",
+  "80+ countries": "Más de 80 países",
+  "Selected regions": "Regiones seleccionadas",
+  "Sanctioned jurisdictions": "Jurisdicciones sancionadas",
+  "Outside supported regions": "Fuera de las regiones admitidas",
+  "US (new sign-ups paused)": "EE. UU. (altas nuevas suspendidas)"
  },
  "landings": {
   "/exchanges": {
@@ -809,6 +820,16 @@
    "h1": "Comprar cripto con tarjeta",
    "intro": [
     "La compra con tarjeta es rápida pero rara vez anónima: los procesadores de pago hacen sus propios controles y los límites sin identificación son bajos. Estos servicios aceptan tarjeta sin identificación hasta su límite."
+   ]
+  },
+  "/cards": {
+   "nav": "Tarjetas cripto",
+   "title": "Tarjetas cripto y la identificación que piden | DoNotKYC",
+   "description": "Tarjetas que cargas con cripto y los controles de identidad que cada una pide antes de poder gastar.",
+   "h1": "Tarjetas cripto y sus controles de identidad",
+   "intro": [
+    "Una tarjeta cripto es una tarjeta Visa o Mastercard que cargas con cripto y usas donde se acepte la red.",
+    "Casi todas verifican tu identidad, porque las empresas que emiten tarjetas responden ante reguladores. Cada ficha cita lo que dicen las páginas de la tarjeta sobre la identidad, y lo indica cuando no queda claro. Revisa comisiones, límites y países admitidos antes de cargar dinero."
    ]
   }
  },

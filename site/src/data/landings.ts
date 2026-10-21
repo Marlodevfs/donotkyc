@@ -23,6 +23,8 @@ export const LANDINGS: Landing[] = [
     filter: (p) => p.type === 'ATM' },
   { path: '/bridges', group: 'category',
     filter: (p) => p.type === 'Bridge' },
+  { path: '/cards', group: 'category',
+    filter: (p) => p.type === 'Card' },
 
   // Alternatives aux plateformes qui exigent une pièce d'identité
   { path: '/alternatives/binance', group: 'alternative',

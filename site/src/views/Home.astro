@@ -65,7 +65,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       <aside class="proof" aria-label={t('home.facts')}>
         <div><b class="num">{platforms.length}</b><span>{t('home.f_listed')}</span></div>
         <div><b class="num">{noId}</b><span>{t('home.f_noid')}</span></div>
-        <div><b class="num">6</b><span>{t('home.f_types')}</span></div>
+        <div><b class="num">{Object.keys(TYPES).length}</b><span>{t('home.f_types')}</span></div>
       </aside>
       <div class="bmc">
         <a href="https://buymeacoffee.com/donotkyc" target="_blank" rel="noopener noreferrer" aria-label={t('footer.coffee')}><img src="/bmc-button.png" width="220" height="62" alt="Buy me a coffee" /></a>
@@ -134,7 +134,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       </div>
       <div>
         <ul class="types">
-          {[['landmark', 'cex'], ['network', 'dex'], ['repeat', 'swap'], ['users', 'p2p'], ['banknote', 'atm']].map(([ic, k]) => (
+          {[['landmark', 'cex'], ['network', 'dex'], ['repeat', 'swap'], ['users', 'cash'], ['credit-card', 'card']].map(([ic, k]) => (
             <li><Icon name={ic} size={28} /><div><h3>{t(`home.t_${k}_h`)}</h3><p>{t(`home.t_${k}_p`)}</p></div></li>
           ))}
         </ul>

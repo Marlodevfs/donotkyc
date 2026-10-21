@@ -1350,5 +1350,180 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://waldenpay.com/privacy"
+  },
+  {
+    "slug": "kripicard",
+    "name": "Kripicard",
+    "type": "Card",
+    "url": "https://kripicard.com/",
+    "affiliate_link": null,
+    "logo": "logos/kripicard.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "Email signup, but its site says KYC is required",
+    "kyc_tier": "Not confirmed: signup asks for an email and password and the homepage says \"No paperwork\", but its supported-countries page says \"KYC is required everywhere we operate\" and its terms let it request KYC and source-of-funds documents",
+    "supported_countries": "Depends on region and partners",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "4% top-up + $5 card",
+    "cryptocurrencies": "150+",
+    "features": [
+      "Virtual Visa or Mastercard",
+      "Apple Pay, Google Pay and Samsung Pay"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://home.kripicard.com/kripicard-supported-countries"
+  },
+  {
+    "slug": "bitget-wallet-card",
+    "name": "Bitget Wallet Card",
+    "type": "Card",
+    "url": "https://web3.bitget.com/en/card",
+    "affiliate_link": null,
+    "logo": "logos/bitget-wallet-card.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification at signup",
+    "kyc_tier": "ID verification when you apply: the card page says to apply online and verify your identity, and approval can take as little as a minute",
+    "supported_countries": "50+ countries and regions",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": false,
+    "fees": "No annual or monthly fee",
+    "cryptocurrencies": "USDT, USDC, ETH, SOL",
+    "features": [
+      "Up to 3% assetback",
+      "Visa or Mastercard"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://web3.bitget.com/en/card"
+  },
+  {
+    "slug": "bleap",
+    "name": "Bleap",
+    "type": "Card",
+    "url": "https://www.bleap.finance/",
+    "affiliate_link": null,
+    "logo": "logos/bleap.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification at signup",
+    "kyc_tier": "KYC in the Bleap app before you can order the card: its FAQ says a quick identity verification, usually under 5 minutes",
+    "supported_countries": "Europe, Mexico and Brazil",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": false,
+    "fees": "No card or monthly fee, 0% FX markup",
+    "cryptocurrencies": "",
+    "features": [
+      "Cashback up to 20% in USDC",
+      "Free ATM withdrawals",
+      "Self-custodial app"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.bleap.finance/"
+  },
+  {
+    "slug": "kast",
+    "name": "KAST",
+    "type": "Card",
+    "url": "https://www.kast.xyz/",
+    "affiliate_link": null,
+    "logo": "logos/kast.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification at signup",
+    "kyc_tier": "KYC in the KAST app: its terms say you pick your country when completing KYC, and its FAQ says it uses identity verification",
+    "supported_countries": "Selected regions",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": false,
+    "fees": "Free, or $1,000 and $10,000 a year by tier",
+    "cryptocurrencies": "",
+    "features": [
+      "Visa card, virtual or physical",
+      "Cashback 1.5% to 3% by tier"
+    ],
+    "custody": "custodial",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.kast.xyz/en/legal/terms-and-conditions-of-service"
+  },
+  {
+    "slug": "oobit",
+    "name": "Oobit",
+    "type": "Card",
+    "url": "https://www.oobit.com/",
+    "affiliate_link": null,
+    "logo": "logos/oobit.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "Government ID required",
+    "kyc_tier": "Verification required for every user: its FAQ asks for a government-issued photo ID, and sometimes proof of address",
+    "supported_countries": "80+ countries",
+    "blocked": "Outside supported regions",
+    "fiat_deposit": false,
+    "fees": "1% per card payment (min $0.25)",
+    "cryptocurrencies": "21",
+    "features": [
+      "Pays from your own wallet",
+      "Apple Pay and Google Wallet"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.oobit.com/faq"
+  },
+  {
+    "slug": "metamask-card",
+    "name": "MetaMask Card",
+    "type": "Card",
+    "url": "https://metamask.io/card",
+    "affiliate_link": null,
+    "logo": "logos/metamask-card.webp",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification at signup",
+    "kyc_tier": "KYC at signup through Crypto Life, which runs the card account: setup includes an email, a phone number and identity verification, and proof of residency is required",
+    "supported_countries": "Selected regions",
+    "blocked": "US (new sign-ups paused)",
+    "fiat_deposit": false,
+    "fees": "Free virtual card, Metal $199 a year",
+    "cryptocurrencies": "mUSD, USDC, USDT, wETH, EURe, GBPe",
+    "features": [
+      "Virtual or Metal card",
+      "mUSD back on purchases"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://support.metamask.io/trade/metamask-card/getting-started-with-card/"
   }
 ]

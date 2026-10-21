@@ -21,14 +21,14 @@ export const TYPES: Record<string, string> = {
   Card: 'Crypto card',
 };
 
-// Catégories de l'accueil : ATM et bridges partagent une tuile
+// Catégories de l'accueil : swaps + bridges, P2P + ATM partagent une tuile
 export const CATEGORIES = [
   { key: 'all', label: 'All platforms', icon: 'layout-grid', types: [] as string[] },
   { key: 'cex', label: 'Exchanges', icon: 'landmark', types: ['CEX'] },
   { key: 'dex', label: 'Decentralised', icon: 'network', types: ['DEX'] },
-  { key: 'swap', label: 'Instant swaps', icon: 'repeat', types: ['Instant Swap'] },
-  { key: 'p2p', label: 'P2P markets', icon: 'users', types: ['P2P'] },
-  { key: 'atm', label: 'ATMs and bridges', icon: 'banknote', types: ['ATM', 'Bridge'] },
+  { key: 'swap', label: 'Swaps and bridges', icon: 'repeat', types: ['Instant Swap', 'Bridge'] },
+  { key: 'cash', label: 'Cash and P2P', icon: 'banknote', types: ['P2P', 'ATM'] },
+  { key: 'card', label: 'Crypto cards', icon: 'credit-card', types: ['Card'] },
 ];
 
 export const catOf = (p: Platform) => CATEGORIES.find((c) => c.types.includes(p.type))?.key ?? 'all';
@@ -47,4 +47,4 @@ export const reportUrl = (name?: string) =>
 
 
 
-export const CATEGORY_PATH: Record<string, string> = { CEX: '/exchanges', DEX: '/dex', 'Instant Swap': '/swaps', P2P: '/p2p', ATM: '/atms', Bridge: '/bridges', Card: '/' };
+export const CATEGORY_PATH: Record<string, string> = { CEX: '/exchanges', DEX: '/dex', 'Instant Swap': '/swaps', P2P: '/p2p', ATM: '/atms', Bridge: '/bridges', Card: '/cards' };

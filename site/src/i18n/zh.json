@@ -64,9 +64,9 @@
   "all": "全部平台",
   "cex": "交易所",
   "dex": "去中心化",
-  "swap": "即时兑换",
-  "p2p": "P2P 市场",
-  "atm": "ATM 与跨链桥",
+  "swap": "兑换与跨链桥",
+  "cash": "现金与 P2P",
+  "card": "加密卡",
   "listed": "已收录 {n} 个"
  },
  "list": {
@@ -131,12 +131,12 @@
   "t_cex_p": "流动性高，有订单簿和手机应用。其无 KYC 等级会限制未验证账户的提现额度。",
   "t_dex_h": "去中心化交易所",
   "t_dex_p": "智能合约，无需注册。你从自己的钱包交易，私钥由你保管。",
-  "t_swap_h": "即时兑换",
-  "t_swap_p": "无需账户即可快速换币，差价已计入报价。",
-  "t_p2p_h": "P2P 市场",
-  "t_p2p_p": "你用本地支付方式付款给另一个人。安全取决于托管机制和信誉。",
-  "t_atm_h": "ATM 与跨链桥",
-  "t_atm_p": "ATM 用现金出售加密货币。有些只在超过门槛时要求证件，有些每次购买都要。跨链桥在区块链之间转移资产。",
+  "t_swap_h": "即时兑换与跨链桥",
+  "t_swap_p": "无需账户即可快速换币，差价已计入报价。跨链桥在区块链之间转移资产。",
+  "t_cash_h": "P2P 市场与 ATM",
+  "t_cash_p": "在 P2P 市场，你用本地支付方式付款给另一个人，安全取决于托管机制和信誉。ATM 用现金出售加密货币：有些只在超过门槛时要求证件，有些每次购买都要。",
+  "t_card_h": "加密卡",
+  "t_card_p": "用加密货币充值、在接受 Visa 或 Mastercard 的地方使用的卡。几乎都要求证件，每个条目都会写明何时需要。",
   "r1_h": "排名不出售",
   "r1_p": "我们按每个平台要求的身份信息排序。付费不会让任何平台排名上升。",
   "r2_h": "联盟链接会注明",
@@ -622,7 +622,18 @@
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "未确认：帮助中心称基础验证将每日提现额度定为 30 BTC，未说明未验证时的额度",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "无需身份证件；注册需要电子邮件。银行卡购买通过第三方进行，第三方可能要求提供身份证件",
   "Email signup, says it collects no ID": "邮箱注册，称不收集身份证件",
-  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "朝鲜、伊朗、叙利亚、古巴、俄罗斯、白俄罗斯、克里米亚、顿涅茨克、卢甘斯克、阿富汗、缅甸"
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "朝鲜、伊朗、叙利亚、古巴、俄罗斯、白俄罗斯、克里米亚、顿涅茨克、卢甘斯克、阿富汗、缅甸",
+  "Email signup, but its site says KYC is required": "可用邮箱注册，但官网称必须完成 KYC",
+  "ID verification at signup": "注册时验证身份",
+  "Government ID required": "必须提供身份证件",
+  "Depends on region and partners": "取决于地区和合作方",
+  "50+ countries and regions": "50 多个国家和地区",
+  "Europe, Mexico and Brazil": "欧洲、墨西哥和巴西",
+  "80+ countries": "80 多个国家",
+  "Selected regions": "部分地区",
+  "Sanctioned jurisdictions": "受制裁的国家和地区",
+  "Outside supported regions": "不在支持地区内",
+  "US (new sign-ups paused)": "美国（暂停新注册）"
  },
  "landings": {
   "/exchanges": {
@@ -809,6 +820,16 @@
    "h1": "银行卡购买加密货币",
    "intro": [
     "银行卡购买很快，但很少匿名：支付机构会做自己的检查，无证件限额也较低。这些服务在其限额内接受银行卡且无需证件。"
+   ]
+  },
+  "/cards": {
+   "nav": "加密卡",
+   "title": "加密卡及其身份要求 | DoNotKYC",
+   "description": "用加密货币充值的卡，以及每张卡在消费前要求的身份验证。",
+   "h1": "加密卡及其身份验证",
+   "intro": [
+    "加密卡是用加密货币充值的 Visa 或 Mastercard 卡，在接受该网络的地方都能使用。",
+    "几乎所有卡都会验证身份，因为发卡公司受监管机构约束。每个条目引用卡片自家页面对身份的说明，页面含糊时也会注明。充值前请先确认费用、限额和支持的国家。"
    ]
   }
  },

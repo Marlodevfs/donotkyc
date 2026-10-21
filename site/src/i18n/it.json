@@ -64,9 +64,9 @@
   "all": "Tutte le piattaforme",
   "cex": "Exchange",
   "dex": "Decentralizzati",
-  "swap": "Swap istantanei",
-  "p2p": "Mercati P2P",
-  "atm": "Bancomat e bridge",
+  "swap": "Swap e bridge",
+  "cash": "Contanti e P2P",
+  "card": "Carte crypto",
   "listed": "{n} in elenco"
  },
  "list": {
@@ -131,12 +131,12 @@
   "t_cex_p": "Alta liquidità, order book e app. I loro livelli senza KYC limitano i prelievi degli account non verificati.",
   "t_dex_h": "Exchange decentralizzati",
   "t_dex_p": "Smart contract, nessuna registrazione. Fai trading dal tuo wallet e tieni le tue chiavi.",
-  "t_swap_h": "Swap istantanei",
-  "t_swap_p": "Conversioni rapide da una moneta all'altra senza account, con il margine incluso nella quotazione.",
-  "t_p2p_h": "Mercati P2P",
-  "t_p2p_p": "Paghi un'altra persona con un metodo di pagamento locale. La sicurezza dipende da escrow e reputazione.",
-  "t_atm_h": "Bancomat e bridge",
-  "t_atm_p": "Gli sportelli vendono crypto in cambio di contanti. Alcuni chiedono un documento solo oltre una soglia, altri a ogni acquisto. I bridge spostano asset tra blockchain.",
+  "t_swap_h": "Swap istantanei e bridge",
+  "t_swap_p": "Conversioni rapide da una moneta all'altra senza account, con il margine incluso nella quotazione. I bridge spostano asset tra blockchain.",
+  "t_cash_h": "Mercati P2P e bancomat",
+  "t_cash_p": "Nei mercati P2P paghi un'altra persona con un metodo di pagamento locale e la sicurezza dipende da escrow e reputazione. Gli sportelli vendono crypto in cambio di contanti: alcuni chiedono un documento solo oltre una soglia, altri a ogni acquisto.",
+  "t_card_h": "Carte crypto",
+  "t_card_p": "Carte che ricarichi con crypto e usi ovunque sia accettato Visa o Mastercard. Quasi tutte chiedono un documento: ogni scheda dice quando.",
   "r1_h": "La classifica non è in vendita",
   "r1_p": "Ordiniamo l'elenco in base all'identità che chiede ogni piattaforma. Pagare non fa salire nessuno.",
   "r2_h": "Link di affiliazione dichiarati",
@@ -622,7 +622,18 @@
   "Not confirmed: the help center says basic verification sets the daily withdrawal limit at 30 BTC and does not state the limit without verification": "Non confermato: il centro assistenza indica che la verifica di base fissa il limite giornaliero di prelievo a 30 BTC e non indica il limite senza verifica",
   "No ID; sign-up needs an email. Card purchases go through a third party that may ask for ID": "Nessun documento; la registrazione richiede un'e-mail. Gli acquisti con carta passano da una terza parte che può chiedere un documento",
   "Email signup, says it collects no ID": "Registrazione via e-mail, dichiara di non raccogliere documenti",
-  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Corea del Nord, Iran, Siria, Cuba, Russia, Bielorussia, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar"
+  "North Korea, Iran, Syria, Cuba, Russia, Belarus, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar": "Corea del Nord, Iran, Siria, Cuba, Russia, Bielorussia, Crimea, Donetsk, Luhansk, Afghanistan, Myanmar",
+  "Email signup, but its site says KYC is required": "Registrazione via e-mail, ma il sito dice che il KYC è obbligatorio",
+  "ID verification at signup": "Verifica dell'identità alla registrazione",
+  "Government ID required": "Documento d'identità richiesto",
+  "Depends on region and partners": "Dipende da regione e partner",
+  "50+ countries and regions": "Oltre 50 paesi e regioni",
+  "Europe, Mexico and Brazil": "Europa, Messico e Brasile",
+  "80+ countries": "Oltre 80 paesi",
+  "Selected regions": "Regioni selezionate",
+  "Sanctioned jurisdictions": "Giurisdizioni sotto sanzioni",
+  "Outside supported regions": "Fuori dalle regioni supportate",
+  "US (new sign-ups paused)": "USA (nuove registrazioni sospese)"
  },
  "landings": {
   "/exchanges": {
@@ -809,6 +820,16 @@
    "h1": "Comprare crypto con carta",
    "intro": [
     "L'acquisto con carta è veloce ma raramente anonimo: i processori di pagamento fanno i propri controlli e i limiti senza documento sono bassi. Questi servizi accettano la carta senza documento fino al loro limite."
+   ]
+  },
+  "/cards": {
+   "nav": "Carte crypto",
+   "title": "Carte crypto e il documento che chiedono | DoNotKYC",
+   "description": "Carte che ricarichi con crypto e i controlli d'identità che ognuna chiede prima di poter spendere.",
+   "h1": "Carte crypto e controlli d'identità",
+   "intro": [
+    "Una carta crypto è una carta Visa o Mastercard che ricarichi con crypto e usi ovunque il circuito sia accettato.",
+    "Quasi tutte verificano la tua identità, perché le società che emettono carte rispondono ai regolatori. Ogni scheda riporta ciò che le pagine della carta dicono sull'identità e lo segnala quando restano poco chiare. Controlla commissioni, limiti e paesi supportati prima di caricare denaro."
    ]
   }
  },

@@ -185,6 +185,16 @@
    "intro": [
     "Card purchases are fast but rarely anonymous: card processors run their own checks, and limits without ID are low. These services accept cards with no ID up to their limit."
    ]
+  },
+  "/cards": {
+   "nav": "Crypto cards",
+   "title": "Crypto Cards and the ID They Ask For | DoNotKYC",
+   "description": "Crypto cards you fund with crypto, and the identity checks each one asks for before you can spend.",
+   "h1": "Crypto cards and their ID checks",
+   "intro": [
+    "A crypto card is a Visa or Mastercard card you fund with crypto and spend wherever the network is accepted.",
+    "Nearly all of them check your identity, because the companies that issue cards answer to regulators. Each listing quotes what the card's own pages say about ID, and says so when they are unclear. Check fees, limits and country support before you load money."
+   ]
   }
  },
  "pages": {
