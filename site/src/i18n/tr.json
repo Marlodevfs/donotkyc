@@ -683,7 +683,11 @@
   "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "Kayıt için bir e-posta gerekir. Kimlik, telefon veya selfie istemediğini söylüyor.",
   "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "Ödeme Bitcoin, USDT, Litecoin, Monero, kart veya PayPal ile yapılır.",
   "Run by Stellar Group SAS, a French company registered in April 2023.": "Nisan 2023'te kurulan Fransız şirketi Stellar Group SAS tarafından işletiliyor.",
-  "Refunds are issued as account credit only.": "İadeler yalnızca hesap kredisi olarak yapılır."
+  "Refunds are issued as account credit only.": "İadeler yalnızca hesap kredisi olarak yapılır.",
+  "US, Canada, UK and sanctioned jurisdictions": "ABD, Kanada, Birleşik Krallık ve yaptırım altındaki ülkeler",
+  "US, Ontario and sanctioned jurisdictions": "ABD, Ontario ve yaptırım altındaki ülkeler",
+  "US, Cuba, Iran, North Korea, Syria and others": "ABD, Küba, İran, Kuzey Kore, Suriye ve diğerleri",
+  "France": "Fransa"
  },
  "landings": {
   "/exchanges": {

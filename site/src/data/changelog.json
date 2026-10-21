@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-21",
+    "title": "13 listings re-read against their own terms",
+    "body": "We re-read the terms of 13 listings that had no source page: Uniswap, PancakeSwap, dYdX, edgeX, Hyperliquid, 1inch, DeGate, BIM Exchange, Portal Bridge, Synapse Protocol, Symbiosis, Nonkyc.io and Boltz. Each now links its source. Corrections: dYdX also bars the United Kingdom, edgeX and Hyperliquid bar the US and Ontario, Symbiosis bars the US, and BIM Exchange moves to light because its fiat services run through providers that can ask for KYC. Nonkyc.io now blocks users in France, and its no-ID claim still has no readable source."
+  },
+  {
+    "date": "2026-10-21",
     "title": "New tools page: anonymous VPS",
     "body": "The tools section now has a page for VPS hosts that take an email address and crypto: rdp.monster, Njalla, BitLaunch, PrivateAlps and FlokiNET. Each entry quotes what the host says on its own site about sign-up, payment, location and refunds. Those claims are the hosts' own and we have not tested them."
   },

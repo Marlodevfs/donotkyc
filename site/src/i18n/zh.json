@@ -683,7 +683,11 @@
   "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "注册需要邮箱。称不要求证件、手机号或自拍。",
   "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "可用比特币、USDT、莱特币、门罗币、银行卡或 PayPal 付款。",
   "Run by Stellar Group SAS, a French company registered in April 2023.": "由法国公司 Stellar Group SAS 运营，2023 年 4 月注册。",
-  "Refunds are issued as account credit only.": "退款仅以账户余额形式发放。"
+  "Refunds are issued as account credit only.": "退款仅以账户余额形式发放。",
+  "US, Canada, UK and sanctioned jurisdictions": "美国、加拿大、英国及受制裁地区",
+  "US, Ontario and sanctioned jurisdictions": "美国、安大略省及受制裁地区",
+  "US, Cuba, Iran, North Korea, Syria and others": "美国、古巴、伊朗、朝鲜、叙利亚等",
+  "France": "法国"
  },
  "landings": {
   "/exchanges": {

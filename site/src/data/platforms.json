@@ -98,9 +98,9 @@
     "logo": "logos/nonkyc-io.webp",
     "kyc_level": "none",
     "kyc_summary": "No ID at any amount",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "Not confirmed. Its site now shows only a notice that it has stopped serving users in France, and its policy pages could not be read from there",
+    "supported_countries": "Global except restrictions",
+    "blocked": "France",
     "fiat_deposit": false,
     "fees": "0.2%",
     "cryptocurrencies": "190+",
@@ -116,7 +116,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://nonkyc.io/"
   },
   {
     "slug": "bingx",
@@ -317,9 +317,9 @@
     "logo": "logos/uniswap.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked on the web interface. Its terms say Uniswap Labs has no custody of your wallet, and bar users under sanctions or in comprehensively sanctioned places. Some token sales can ask for identity checks through third-party services",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "0.05% - 1%",
     "cryptocurrencies": "900+",
@@ -336,7 +336,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://support.uniswap.org/hc/en-us/articles/30935100859661-Uniswap-Labs-Terms-of-Service"
   },
   {
     "slug": "pancakeswap",
@@ -347,9 +347,9 @@
     "logo": "logos/pancakeswap.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms say it has no custody of your wallet and bar users under sanctions or in sanctioned places. A separate country list, including the US, applies to its Initial Farm Offerings",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "0.25%",
     "cryptocurrencies": "50+",
@@ -367,7 +367,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://pancakeswap.finance/terms-of-service"
   },
   {
     "slug": "dydx",
@@ -378,9 +378,9 @@
     "logo": "logos/dydx.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global except US, Canada",
-    "blocked": "US, Canada",
+    "kyc_tier": "None asked. Its terms bar users in the United States, Canada, the United Kingdom and other restricted jurisdictions, and users under sanctions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Canada, UK and sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "0.02% - 0.05%",
     "cryptocurrencies": "35+",
@@ -388,7 +388,7 @@
       "Perpetual futures",
       "20x leverage"
     ],
-    "custody": "self",
+    "custody": "unstated",
     "payment_methods": [
       "crypto"
     ],
@@ -396,7 +396,7 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://www.dydx.xyz/legal/terms-of-use"
   },
   {
     "slug": "bisq",
@@ -440,9 +440,9 @@
     "logo": "logos/edgex.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None (wallet only, no KYC)",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms say it holds no custody and that you need a non-custodial or MPC wallet, and bar users in the United States, Ontario and sanctioned jurisdictions, VPNs included",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Ontario and sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "0.02% maker / 0.05% taker",
     "cryptocurrencies": "90+",
@@ -461,7 +461,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://pro.edgex.exchange/userterms"
   },
   {
     "slug": "hyperliquid",
@@ -472,9 +472,9 @@
     "logo": "logos/hyperliquid.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms say you must use a non-custodial wallet, and bar users in the United States, Ontario and sanctioned jurisdictions, VPNs included",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Ontario and sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "Low",
     "cryptocurrencies": "Multiple",
@@ -492,7 +492,7 @@
     "open_source": false,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://app.hyperliquid.xyz/terms"
   },
   {
     "slug": "1inch",
@@ -503,9 +503,9 @@
     "logo": "logos/1inch.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms say access is not restricted by country, including for users in the United States, and bar sanctioned localities and sanctioned wallets",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "Variable (aggregator)",
     "cryptocurrencies": "Multiple",
@@ -521,7 +521,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://1inch.com/assets/1inch_com_terms_of_use.pdf"
   },
   {
     "slug": "degate",
@@ -532,9 +532,9 @@
     "logo": "logos/degate.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None (self-custody wallet, no account required)",
-    "supported_countries": "Global (depends on wallet and IP restrictions)",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms call DeGate a non-custodial wallet interface that never holds your keys, and require that you are not on a sanctions or restricted-party list",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
     "fiat_deposit": true,
     "fees": "0.01% stable coins; 0.1% for gas tokens; 0.25% Most CEX-listed tokens; 0.99% all others",
     "cryptocurrencies": "Multichain tokens",
@@ -553,7 +553,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://degate.com/en/terms"
   },
   {
     "slug": "bim-exchange",
@@ -562,11 +562,11 @@
     "url": "https://exchange.bim.finance/buy",
     "affiliate_link": null,
     "logo": "logos/bim-exchange.webp",
-    "kyc_level": "none",
-    "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_level": "light",
+    "kyc_summary": "Depends on the partner",
+    "kyc_tier": "BIM asks for nothing itself. Its terms call it a non-custodial interface, but the fiat on-ramp and off-ramp services it links to are run by independent providers that may require KYC, AML checks and limits",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
     "fiat_deposit": true,
     "fees": "0.1% - 0.5% (via Kyber/Bungee)",
     "cryptocurrencies": "1000+",
@@ -586,7 +586,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://exchange.bim.finance/en/terms-services"
   },
   {
     "slug": "ghostswap",
@@ -627,9 +627,9 @@
     "logo": null,
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms say the services are non-custodial and bar users under sanctions or in comprehensively sanctioned places",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "Variable (gas dependent)",
     "cryptocurrencies": "Many",
@@ -646,7 +646,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://portalbridge.com/terms-of-service"
   },
   {
     "slug": "synapse-protocol",
@@ -657,9 +657,9 @@
     "logo": null,
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms call the site a purely non-custodial interface and bar users under sanctions or in comprehensively sanctioned places",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "Near-zero with reimbursement",
     "cryptocurrencies": "Major assets",
@@ -675,7 +675,7 @@
     "open_source": null,
     "status": "active",
     "status_note": "The team now focuses on Hypercall; the bridge still works (checked 2026-10-18).",
-    "kyc_source": null
+    "kyc_source": "https://explorer.synapseprotocol.com/terms"
   },
   {
     "slug": "symbiosis-finance",
@@ -686,9 +686,9 @@
     "logo": "logos/symbiosis-finance.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "None asked. Its terms bar users in the United States and in a list of restricted territories, VPNs included, and users under sanctions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Cuba, Iran, North Korea, Syria and others",
     "fiat_deposit": false,
     "fees": "Low",
     "cryptocurrencies": "Many",
@@ -696,7 +696,7 @@
       "Automatic routing",
       "Cross-chain swaps"
     ],
-    "custody": "self",
+    "custody": "unstated",
     "payment_methods": [
       "crypto"
     ],
@@ -704,7 +704,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": null
+    "kyc_source": "https://symbiosis.finance/terms-of-use"
   },
   {
     "slug": "coinstar-bitcoin-machines",
@@ -1015,9 +1015,9 @@
     "logo": "logos/boltz.webp",
     "kyc_level": "none",
     "kyc_summary": "No account",
-    "kyc_tier": "No KYC",
-    "supported_countries": "Global",
-    "blocked": null,
+    "kyc_tier": "Its code repository calls the service non-custodial. Its web app now says swaps are disabled until further notice, so no current policy page exists",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
     "fiat_deposit": false,
     "fees": "0.25%",
     "cryptocurrencies": "1+",
@@ -1033,7 +1033,7 @@
     "open_source": true,
     "status": "check",
     "status_note": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back.",
-    "kyc_source": null
+    "kyc_source": "https://github.com/BoltzExchange/boltz-web-app"
   },
   {
     "slug": "stealthex",

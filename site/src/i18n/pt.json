@@ -683,7 +683,11 @@
   "Sign-up needs an email. It says it asks for no ID, phone or selfie.": "O cadastro exige um email. Diz que não pede documento, telefone nem selfie.",
   "Pay with Bitcoin, USDT, Litecoin, Monero, card or PayPal.": "Pagamento em Bitcoin, USDT, Litecoin, Monero, cartão ou PayPal.",
   "Run by Stellar Group SAS, a French company registered in April 2023.": "Operado pela Stellar Group SAS, empresa francesa registrada em abril de 2023.",
-  "Refunds are issued as account credit only.": "Os reembolsos são feitos apenas em crédito na conta."
+  "Refunds are issued as account credit only.": "Os reembolsos são feitos apenas em crédito na conta.",
+  "US, Canada, UK and sanctioned jurisdictions": "EUA, Canadá, Reino Unido e jurisdições sancionadas",
+  "US, Ontario and sanctioned jurisdictions": "EUA, Ontário e jurisdições sancionadas",
+  "US, Cuba, Iran, North Korea, Syria and others": "EUA, Cuba, Irã, Coreia do Norte, Síria e outros",
+  "France": "França"
  },
  "landings": {
   "/exchanges": {
