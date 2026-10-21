@@ -648,7 +648,10 @@
   "ID at registration, first purchase up to $300": "Ausweis bei der Registrierung, erster Kauf bis 300 $",
   "Phone number, ID for larger purchases": "Telefonnummer, Ausweis bei größeren Käufen",
   "Verification at signup, more ID for higher limits": "Prüfung bei der Anmeldung, mehr Ausweis für höhere Limits",
-  "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "USA, Kuba, Iran, Nordkorea, Krim, Sudan, Syrien, Bangladesch, Bolivien"
+  "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "USA, Kuba, Iran, Nordkorea, Krim, Sudan, Syrien, Bangladesch, Bolivien",
+  "US, Cuba, Iran, Syria and others": "USA, Kuba, Iran, Syrien und weitere",
+  "US, China, Cuba, Iran, North Korea, Syria and others": "USA, China, Kuba, Iran, Nordkorea, Syrien und weitere",
+  "US, China, Russia and others": "USA, China, Russland und weitere"
  },
  "landings": {
   "/exchanges": {

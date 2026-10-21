@@ -2238,5 +2238,268 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://docs.rubic.finance/rubic/overview/overview"
+  },
+  {
+    "slug": "thorchain",
+    "name": "THORChain",
+    "type": "DEX",
+    "url": "https://thorchain.org/",
+    "affiliate_link": null,
+    "logo": "logos/thorchain.webp",
+    "kyc_level": "none",
+    "kyc_summary": "No account at all",
+    "kyc_tier": "None. Its terms say no KYC is needed and that it will never ask for a picture ID, phone number or home address, and its FAQ says it needs no accounts or registration",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Variable, paid in RUNE",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Cross-chain swaps",
+      "Swap from your own wallet",
+      "No sign-up"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://thorchain.org/terms-of-use"
+  },
+  {
+    "slug": "cow-swap",
+    "name": "CoW Swap",
+    "type": "DEX",
+    "url": "https://cow.fi/",
+    "affiliate_link": null,
+    "logo": "logos/cow-swap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms say it never takes custody of your assets and bar users in sanctioned jurisdictions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "MEV-protected batch swaps",
+      "Wallet connection only"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://cow.fi/legal/cowswap-terms"
+  },
+  {
+    "slug": "raydium",
+    "name": "Raydium",
+    "type": "DEX",
+    "url": "https://raydium.io/",
+    "affiliate_link": null,
+    "logo": "logos/raydium.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its swap page lists restricted jurisdictions, including the US, that users must confirm they are not in, and its docs call the protocol non-custodial smart contracts",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, Cuba, Iran, Syria and others",
+    "fiat_deposit": false,
+    "fees": "0.25% on most pools",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Solana AMM",
+      "Permissionless pools",
+      "Token launches"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.raydium.io/getting-started/faq"
+  },
+  {
+    "slug": "sushi",
+    "name": "Sushi",
+    "type": "DEX",
+    "url": "https://www.sushi.com/",
+    "affiliate_link": null,
+    "logo": "logos/sushi.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms bar restricted persons and restricted jurisdictions, and ban VPNs used to get around them",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "0.3% on v2 pools",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Multi-chain swaps",
+      "Cross-chain swap"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.sushi.com/legal/terms-of-service"
+  },
+  {
+    "slug": "kyberswap",
+    "name": "KyberSwap",
+    "type": "DEX",
+    "url": "https://kyberswap.com/",
+    "affiliate_link": null,
+    "logo": "logos/kyberswap.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its blog calls it a non-custodial, no-KYC platform, and its FAQ lists excluded jurisdictions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Some regions",
+    "fiat_deposit": false,
+    "fees": "No swap fee, limit orders 0.01% to 1%",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Aggregator",
+      "Limit orders",
+      "Cross-chain swaps"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://blog.kyberswap.com/how-to-swap-on-kyberswap-com-a-beginner-friendly-guide-to-best-rate-token-swaps/"
+  },
+  {
+    "slug": "dodo",
+    "name": "DODO",
+    "type": "DEX",
+    "url": "https://dodoex.io/",
+    "affiliate_link": null,
+    "logo": "logos/dodo.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms bar users in China, the United States and its territories, Cuba, Iran, North Korea, Syria and others, and block IP addresses from those regions",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, China, Cuba, Iran, North Korea, Syria and others",
+    "fiat_deposit": false,
+    "fees": "None for now",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Swaps and liquidity pools"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.dodoex.io/en/home/terms-of-service"
+  },
+  {
+    "slug": "meteora",
+    "name": "Meteora",
+    "type": "DEX",
+    "url": "https://www.meteora.ag/",
+    "affiliate_link": null,
+    "logo": "logos/meteora.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked. Its terms call it a non-custodial protocol and bar residents of restricted territories, including the United States, China and Russia, and VPN use to get around them",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, China, Russia and others",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Solana liquidity pools",
+      "Non-custodial protocol"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.meteora.ag/resources/legal/terms-of-service"
+  },
+  {
+    "slug": "orca",
+    "name": "Orca",
+    "type": "DEX",
+    "url": "https://www.orca.so/",
+    "affiliate_link": null,
+    "logo": "logos/orca.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "None asked for standard pools. Its docs list locations where the app is blocked, and say regulated assets follow their issuers' eligibility rules, which can include identity checks",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Sanctioned jurisdictions",
+    "fiat_deposit": false,
+    "fees": "0.01% to 2% by pool tier",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Solana concentrated liquidity",
+      "Permissioned pools for regulated assets"
+    ],
+    "custody": "unstated",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://docs.orca.so/support/blocked-regions"
+  },
+  {
+    "slug": "velora",
+    "name": "Velora",
+    "type": "DEX",
+    "url": "https://www.velora.xyz/",
+    "affiliate_link": null,
+    "logo": "logos/velora.webp",
+    "kyc_level": "none",
+    "kyc_summary": "Wallet only",
+    "kyc_tier": "No KYC is described for users. Its terms bar users where token transactions are restricted, and its RFQ quotes come from KYC-validated market makers",
+    "supported_countries": "Global except restrictions",
+    "blocked": "Some regions",
+    "fiat_deposit": false,
+    "fees": "0.15% in the app, 0.01% on most stablecoin pairs",
+    "cryptocurrencies": "Many",
+    "features": [
+      "Intents-based swaps",
+      "Aggregator"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://www.velora.xyz/terms/terms-of-use"
   }
 ]
