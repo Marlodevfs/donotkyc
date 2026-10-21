@@ -1327,7 +1327,7 @@
     "type": "Card",
     "url": "https://waldenpay.com/",
     "affiliate_link": null,
-    "logo": null,
+    "logo": "logos/waldenpay.webp",
     "kyc_level": "light",
     "kyc_summary": "Email signup, says it collects no ID",
     "kyc_tier": "Not confirmed: its privacy policy says it collects no government ID and its countries page says signup needs only an email, but the site also says availability is subject to onboarding, eligibility checks and AML requirements, and no page says when ID is asked",
