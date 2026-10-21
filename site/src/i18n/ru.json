@@ -649,12 +649,9 @@
   "Phone number, ID for larger purchases": "Номер телефона, документ для крупных покупок",
   "Verification at signup, more ID for higher limits": "Проверка при регистрации, для высоких лимитов нужно больше данных",
   "US, Cuba, Iran, North Korea, Crimea, Sudan, Syria, Bangladesh, Bolivia": "США, Куба, Иран, Северная Корея, Крым, Судан, Сирия, Бангладеш, Боливия",
-  "US, Cuba, Iran, Syria and others": "США, Куба, Иран, Сирия и другие",
   "US, China, Cuba, Iran, North Korea, Syria and others": "США, Китай, Куба, Иран, Северная Корея, Сирия и другие",
   "US, China, Russia and others": "США, Китай, Россия и другие",
-  "No ID up to 10,000 USDT a day": "Без документов до 10 000 USDT в день",
   "No ID up to 5 BTC a day": "Без документов до 5 BTC в день",
-  "No ID up to 200,000 USDT a day": "Без документов до 200 000 USDT в день",
   "Withdrawal limit without ID unclear": "Лимит вывода без документов неясен"
  },
  "landings": {

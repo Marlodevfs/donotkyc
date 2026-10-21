@@ -1900,7 +1900,7 @@
     "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
     "fees": "Not stated",
-    "cryptocurrencies": "",
+    "cryptocurrencies": "300+",
     "features": [
       "No account for swaps",
       "Direct to wallet",
@@ -2053,7 +2053,7 @@
     "features": [
       "Web and Telegram",
       "Non-custodial routing",
-      "Optional ZEC or XMR route"
+      "Optional privacy routes"
     ],
     "custody": "self",
     "payment_methods": [
@@ -2270,35 +2270,6 @@
     "kyc_source": "https://thorchain.org/terms-of-use"
   },
   {
-    "slug": "cow-swap",
-    "name": "CoW Swap",
-    "type": "DEX",
-    "url": "https://cow.fi/",
-    "affiliate_link": null,
-    "logo": "logos/cow-swap.webp",
-    "kyc_level": "none",
-    "kyc_summary": "Wallet only",
-    "kyc_tier": "None asked. Its terms say it never takes custody of your assets and bar users in sanctioned jurisdictions",
-    "supported_countries": "Global except restrictions",
-    "blocked": "Sanctioned jurisdictions",
-    "fiat_deposit": false,
-    "fees": "Not stated",
-    "cryptocurrencies": "Many",
-    "features": [
-      "MEV-protected batch swaps",
-      "Wallet connection only"
-    ],
-    "custody": "self",
-    "payment_methods": [
-      "crypto"
-    ],
-    "tor": null,
-    "open_source": null,
-    "status": "active",
-    "status_note": null,
-    "kyc_source": "https://cow.fi/legal/cowswap-terms"
-  },
-  {
     "slug": "raydium",
     "name": "Raydium",
     "type": "DEX",
@@ -2307,15 +2278,14 @@
     "logo": "logos/raydium.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None asked. Its swap page lists restricted jurisdictions, including the US, that users must confirm they are not in, and its docs call the protocol non-custodial smart contracts",
-    "supported_countries": "Global except restrictions",
-    "blocked": "US, Cuba, Iran, Syria and others",
+    "kyc_tier": "No ID step is described. Its docs tell users to connect a non-custodial Solana wallet",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
     "fiat_deposit": false,
     "fees": "0.25% on most pools",
     "cryptocurrencies": "Many",
     "features": [
       "Solana AMM",
-      "Permissionless pools",
       "Token launches"
     ],
     "custody": "self",
@@ -2327,35 +2297,6 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://docs.raydium.io/getting-started/faq"
-  },
-  {
-    "slug": "sushi",
-    "name": "Sushi",
-    "type": "DEX",
-    "url": "https://www.sushi.com/",
-    "affiliate_link": null,
-    "logo": "logos/sushi.webp",
-    "kyc_level": "none",
-    "kyc_summary": "Wallet only",
-    "kyc_tier": "None asked. Its terms bar restricted persons and restricted jurisdictions, and ban VPNs used to get around them",
-    "supported_countries": "Global except restrictions",
-    "blocked": "Sanctioned jurisdictions",
-    "fiat_deposit": false,
-    "fees": "0.3% on v2 pools",
-    "cryptocurrencies": "Many",
-    "features": [
-      "Multi-chain swaps",
-      "Cross-chain swap"
-    ],
-    "custody": "unstated",
-    "payment_methods": [
-      "crypto"
-    ],
-    "tor": null,
-    "open_source": null,
-    "status": "active",
-    "status_note": null,
-    "kyc_source": "https://www.sushi.com/legal/terms-of-service"
   },
   {
     "slug": "kyberswap",
@@ -2370,7 +2311,7 @@
     "supported_countries": "Global except restrictions",
     "blocked": "Some regions",
     "fiat_deposit": false,
-    "fees": "No swap fee, limit orders 0.01% to 1%",
+    "fees": "No interface swap fee, gas applies",
     "cryptocurrencies": "Many",
     "features": [
       "Aggregator",
@@ -2431,7 +2372,7 @@
     "fees": "Not stated",
     "cryptocurrencies": "Many",
     "features": [
-      "Solana liquidity pools",
+      "Liquidity pools",
       "Non-custodial protocol"
     ],
     "custody": "self",
@@ -2453,15 +2394,14 @@
     "logo": "logos/orca.webp",
     "kyc_level": "none",
     "kyc_summary": "Wallet only",
-    "kyc_tier": "None asked for standard pools. Its docs list locations where the app is blocked, and say regulated assets follow their issuers' eligibility rules, which can include identity checks",
+    "kyc_tier": "None asked. Its docs list locations where the app is blocked, citing sanctions and FATF high-risk designations",
     "supported_countries": "Global except restrictions",
     "blocked": "Sanctioned jurisdictions",
     "fiat_deposit": false,
-    "fees": "0.01% to 2% by pool tier",
+    "fees": "Set by each pool",
     "cryptocurrencies": "Many",
     "features": [
-      "Solana concentrated liquidity",
-      "Permissioned pools for regulated assets"
+      "Solana concentrated liquidity"
     ],
     "custody": "unstated",
     "payment_methods": [
@@ -2503,36 +2443,6 @@
     "kyc_source": "https://www.velora.xyz/terms/terms-of-use"
   },
   {
-    "slug": "weex",
-    "name": "WEEX",
-    "type": "CEX",
-    "url": "https://www.weex.com/",
-    "affiliate_link": null,
-    "logo": "logos/weex.webp",
-    "kyc_level": "light",
-    "kyc_summary": "No ID up to 10,000 USDT a day",
-    "kyc_tier": "Its own articles say you can deposit, trade and withdraw up to 10,000 USDT a day without KYC, and the cap rises with VIP level. Abnormal-activity rules can require KYC before withdrawals resume",
-    "supported_countries": "Not stated",
-    "blocked": "Not stated",
-    "fiat_deposit": false,
-    "fees": "Not stated",
-    "cryptocurrencies": "",
-    "features": [
-      "Spot",
-      "Futures",
-      "Earn"
-    ],
-    "custody": "custodial",
-    "payment_methods": [
-      "crypto"
-    ],
-    "tor": null,
-    "open_source": null,
-    "status": "active",
-    "status_note": null,
-    "kyc_source": "https://www.weex.com/wiki/article/does-weex-exchange-require-kyc-9943"
-  },
-  {
     "slug": "toobit",
     "name": "Toobit",
     "type": "CEX",
@@ -2541,7 +2451,7 @@
     "logo": "logos/toobit.webp",
     "kyc_level": "light",
     "kyc_summary": "No ID up to 5 BTC a day",
-    "kyc_tier": "Not confirmed. Its verification page lists 5 BTC per 24 hours for accounts with registration only, while its business KYC page lists up to 20,000 USDT a day without KYC",
+    "kyc_tier": "Its verification page lists a 24-hour withdrawal limit of 5 BTC for accounts with registration only and for Basic verification, and 50 BTC for Advanced verification",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": true,
@@ -2571,8 +2481,8 @@
     "affiliate_link": null,
     "logo": "logos/xt-com.webp",
     "kyc_level": "light",
-    "kyc_summary": "No ID up to 200,000 USDT a day",
-    "kyc_tier": "Not confirmed. Its Withdrawal Limit Guide lists 200,000 USDT a day for unverified users, while another XT guide lists completed KYC as a requirement to withdraw",
+    "kyc_summary": "Withdrawal limit without ID unclear",
+    "kyc_tier": "Its blog says KYC unlocks higher withdrawal limits and fiat deposits and withdrawals. It does not state a limit for unverified accounts",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": false,
@@ -2592,7 +2502,7 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.xt.com/hc/en-us/articles/41878045265561-Withdrawal-Limit-Guide"
+    "kyc_source": "https://www.xt.com/en/blog/post/how-to-register-and-complete-kyc-verification-on-xt-com"
   },
   {
     "slug": "bitunix",
@@ -2603,7 +2513,7 @@
     "logo": "logos/bitunix.webp",
     "kyc_level": "light",
     "kyc_summary": "Withdrawal limit without ID unclear",
-    "kyc_tier": "Not confirmed. Its KYC tiers page says withdrawals unlock after Level 1, while its withdrawal FAQ gives about 10,000 USD a day without KYC",
+    "kyc_tier": "Not confirmed. Its KYC tiers page says withdrawals unlock after Level 1, while its withdrawal FAQ gives a daily limit of about 10,000 USD for accounts with one security method enabled and does not mention KYC for that tier",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": false,
@@ -2624,44 +2534,15 @@
     "kyc_source": "https://www.bitunix.com/hub/helpcenter/article/kyc-tiers-and-benefits?id=126"
   },
   {
-    "slug": "coinw",
-    "name": "CoinW",
-    "type": "CEX",
-    "url": "https://www.coinw.com/",
-    "affiliate_link": null,
-    "logo": "logos/coinw.webp",
-    "kyc_level": "light",
-    "kyc_summary": "ID can be required at any time",
-    "kyc_tier": "KYC is optional for trading and raises withdrawal limits, per its help center. It reserves the right to ask for ID at any time if risk control triggers",
-    "supported_countries": "Not stated",
-    "blocked": "Not stated",
-    "fiat_deposit": false,
-    "fees": "Not stated",
-    "cryptocurrencies": "",
-    "features": [
-      "Spot",
-      "Futures"
-    ],
-    "custody": "custodial",
-    "payment_methods": [
-      "crypto"
-    ],
-    "tor": null,
-    "open_source": null,
-    "status": "active",
-    "status_note": null,
-    "kyc_source": "https://www.coinw.com/help-center/faq/kyc/2025-08-14/frequently-askedquestions-individual-kyc/6380"
-  },
-  {
     "slug": "htx",
     "name": "HTX",
     "type": "CEX",
     "url": "https://www.htx.com/",
     "affiliate_link": null,
     "logo": "logos/htx.webp",
-    "kyc_level": "light",
-    "kyc_summary": "Withdrawal limit without ID unclear",
-    "kyc_tier": "Not confirmed. Its KYC guide says Level 1 unlocks deposits and withdrawals, while older notices set withdrawal limits for users without ID verification, and the current figure is not in the pages checked",
+    "kyc_level": "tiered",
+    "kyc_summary": "ID verification required",
+    "kyc_tier": "Its KYC guide says Level 1 (nationality, ID number, name and date of birth) unlocks deposits and withdrawals, and Level 2 asks for photos of an ID document. It does not state a limit for unverified accounts",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": false,
@@ -2687,7 +2568,7 @@
     "logo": "logos/bitget.webp",
     "kyc_level": "tiered",
     "kyc_summary": "ID verification required",
-    "kyc_tier": "Its academy guide says accounts without Level 1 cannot deposit, trade or withdraw. Level 1 asks for a government ID and Level 2 adds proof of address",
+    "kyc_tier": "Its academy guide says accounts without Level 1 identity verification cannot deposit, trade, withdraw or use P2P. Level 1 takes a government ID and a facial recognition check",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": false,
@@ -2717,7 +2598,7 @@
     "logo": "logos/gate.webp",
     "kyc_level": "tiered",
     "kyc_summary": "ID verification required",
-    "kyc_tier": "KYC is required before you can deposit or withdraw, per its help pages. Withdrawal limits rise with KYC1 and KYC2",
+    "kyc_tier": "On Gate EU, KYC is mandatory before deposits or withdrawals, per its help page. Withdrawals flagged by risk management can require a further check (KYC2)",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": false,
@@ -2773,7 +2654,7 @@
     "logo": "logos/bitmart.webp",
     "kyc_level": "tiered",
     "kyc_summary": "ID verification required",
-    "kyc_tier": "Identity verification is required before the first withdrawal, per its help pages. Level 2 adds a government ID, proof of address and a face check",
+    "kyc_tier": "Identity verification is required before the first withdrawal, per its help pages. Level 1 allows deposits and withdrawals up to 0.06 BTC a day but no trading, and Level 2 unlocks trading and higher limits",
     "supported_countries": "Not stated",
     "blocked": "Not stated",
     "fiat_deposit": true,
