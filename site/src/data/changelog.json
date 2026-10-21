@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-21",
+    "title": "Xnvia added to Cash and P2P",
+    "body": "Xnvia is a P2P marketplace with escrow and a 1% fee per transaction. Its support center says identity verification is mandatory, so it sits near the bottom of the list. The page with its restricted countries could not be read, and the listing says so."
+  },
+  {
+    "date": "2026-10-21",
     "title": "51 platforms added: the directory now lists 105",
     "body": "Ten exchanges (Toobit, XT.com, Bitunix, HTX, Bitget, Gate, Phemex, BitMart, WEEX, CoinW), fourteen decentralised exchanges (THORChain, Raydium, KyberSwap, DODO, Meteora, Orca, Velora, CoW Swap, Curve, Jupiter, SunSwap, Matcha, BasicSwap, eigenwallet), twelve instant swaps and swap wallets (SideShift, Exolix, Godex, Houdini Swap, Swapzone, Husher, Swapuz, CypherGoat, Blockchain.com, MyEtherWallet, Zerion, SwapSpace), six bridges and aggregators (Across, Stargate, deBridge, Squid, Jumper, Rubic), five P2P markets (RoboSats, Mostro, Vexl, lnp2pBot, RetoSwap) and four Bitcoin ATM networks (Localcoin, Byte Federal, Athena Bitcoin, Bitstop). Each listing quotes what the platform's own pages say about ID and links the page. Where those pages contradict each other, the listing says so. Five of the new exchanges ask for ID before you can withdraw."
   },
