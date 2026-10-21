@@ -639,7 +639,8 @@
   "US except New York": "EUA, exceto Nova York",
   "Outside the United States and New York": "Fora dos EUA e de Nova York",
   "US, mainland China, Russia and others": "EUA, China continental, Rússia e outros",
-  "200+ regions": "Mais de 200 regiões"
+  "200+ regions": "Mais de 200 regiões",
+  "US and other regions not on its list": "EUA e outras regiões fora da lista"
  },
  "landings": {
   "/exchanges": {

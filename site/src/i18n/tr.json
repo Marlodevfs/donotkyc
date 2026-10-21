@@ -639,7 +639,8 @@
   "US except New York": "ABD, New York hariç",
   "Outside the United States and New York": "ABD ve New York dışında",
   "US, mainland China, Russia and others": "ABD, Çin anakarası, Rusya ve diğerleri",
-  "200+ regions": "200'den fazla bölge"
+  "200+ regions": "200'den fazla bölge",
+  "US and other regions not on its list": "ABD ve listede olmayan diğer bölgeler"
  },
  "landings": {
   "/exchanges": {

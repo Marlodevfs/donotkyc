@@ -639,7 +639,8 @@
   "US except New York": "美国（纽约州除外）",
   "Outside the United States and New York": "美国和纽约州以外",
   "US, mainland China, Russia and others": "美国、中国大陆、俄罗斯等",
-  "200+ regions": "200 多个地区"
+  "200+ regions": "200 多个地区",
+  "US and other regions not on its list": "美国及名单之外的其他地区"
  },
  "landings": {
   "/exchanges": {
