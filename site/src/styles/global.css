@@ -214,6 +214,10 @@ footer.site{margin-top:96px;border-top:1px solid var(--line);padding-block:40px 
 .fg ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:15px}
 .fg a{text-decoration:none}
 .fg a:hover{text-decoration:underline}
+.fg .fbmc{display:inline-block;margin-top:20px}
+.fg .fbmc img{display:block;width:160px;height:auto;border-radius:8px}
+.fg .fbmc:hover{text-decoration:none;opacity:.9}
+.fg .fbmc:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .legal{margin-top:32px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:14px;color:var(--fg-3)}
 .legal p{max-width:80ch}
 @media (max-width:760px){.fg{grid-template-columns:1fr 1fr}.fg>div:first-child{grid-column:1/-1}}
