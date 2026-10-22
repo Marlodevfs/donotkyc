@@ -270,7 +270,8 @@
   "from_pages": "Dieser Eintrag beruht auf den Bedingungen und Hilfeseiten, die {name} veröffentlicht.",
   "how_we_check": "So prüfen wir",
   "note_h": "Hinweis",
-  "status_note_nonkyc-io": "Nonkyc.io gibt an, Nutzer in Frankreich auf Grundlage des französischen Finanzrechts nicht mehr zu bedienen. Die Website ist aus Frankreich nicht mehr erreichbar."
+  "status_note_nonkyc-io": "Nonkyc.io gibt an, Nutzer in Frankreich auf Grundlage des französischen Finanzrechts nicht mehr zu bedienen. Die Website ist aus Frankreich nicht mehr erreichbar.",
+  "status_note_synapse-protocol": "Die Website von Synapse leitet jetzt auf Hypercall weiter, ein Produkt für den Optionshandel. Die Bridge ist von dieser Seite aus weiterhin verlinkt (geprüft am 21. Oktober 2026)."
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

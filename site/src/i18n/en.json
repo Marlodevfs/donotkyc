@@ -270,7 +270,8 @@
   "from_pages": "This listing is built from the terms and help pages {name} publishes.",
   "how_we_check": "How we check",
   "note_h": "Note",
-  "status_note_nonkyc-io": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France."
+  "status_note_nonkyc-io": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France.",
+  "status_note_synapse-protocol": "Synapse's website now redirects to Hypercall, an options trading product. The bridge is still linked from that page (checked 21 October 2026)."
  },
  "data": {
   "Depends on the partner": "Depends on the partner",

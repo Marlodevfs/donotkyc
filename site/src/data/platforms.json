@@ -674,7 +674,7 @@
     "tor": null,
     "open_source": null,
     "status": "active",
-    "status_note": "The team now focuses on Hypercall; the bridge still works (checked 2026-10-18).",
+    "status_note": "Synapse's website now redirects to Hypercall, an options trading product. The bridge is still linked from that page (checked 21 October 2026).",
     "kyc_source": "https://explorer.synapseprotocol.com/terms"
   },
   {

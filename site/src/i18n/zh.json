@@ -270,7 +270,8 @@
   "from_pages": "本条目依据 {name} 公布的条款和帮助页面编写。",
   "how_we_check": "我们如何核查",
   "note_h": "说明",
-  "status_note_nonkyc-io": "Nonkyc.io 称已根据法国金融法规停止为法国用户提供服务。其网站在法国已无法访问。"
+  "status_note_nonkyc-io": "Nonkyc.io 称已根据法国金融法规停止为法国用户提供服务。其网站在法国已无法访问。",
+  "status_note_synapse-protocol": "Synapse 的网站现在会跳转到期权交易产品 Hypercall。该页面上仍保留桥接服务的链接（2026 年 10 月 21 日核查）。"
  },
  "data": {
   "Depends on the partner": "取决于合作方",

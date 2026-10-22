@@ -270,7 +270,8 @@
   "from_pages": "Bu kayıt, {name} tarafından yayımlanan koşullara ve yardım sayfalarına dayanıyor.",
   "how_we_check": "Nasıl kontrol ediyoruz",
   "note_h": "Not",
-  "status_note_nonkyc-io": "Nonkyc.io, Fransız finans mevzuatı gereği Fransa'daki kullanıcılara hizmeti bıraktığını söylüyor. Site artık Fransa'dan erişilemiyor."
+  "status_note_nonkyc-io": "Nonkyc.io, Fransız finans mevzuatı gereği Fransa'daki kullanıcılara hizmeti bıraktığını söylüyor. Site artık Fransa'dan erişilemiyor.",
+  "status_note_synapse-protocol": "Synapse'in sitesi artık bir opsiyon işlemi ürünü olan Hypercall'a yönlendiriyor. Köprü o sayfadan hâlâ bağlantılı (21 Ekim 2026'da kontrol edildi)."
  },
  "data": {
   "Depends on the partner": "Ortağa bağlı",

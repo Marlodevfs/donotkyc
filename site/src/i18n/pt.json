@@ -270,7 +270,8 @@
   "from_pages": "Esta ficha se baseia nos termos e nas páginas de ajuda que a {name} publica.",
   "how_we_check": "Como verificamos",
   "note_h": "Nota",
-  "status_note_nonkyc-io": "A Nonkyc.io diz ter deixado de atender usuários na França, com base na lei financeira francesa. O site não é mais acessível a partir da França."
+  "status_note_nonkyc-io": "A Nonkyc.io diz ter deixado de atender usuários na França, com base na lei financeira francesa. O site não é mais acessível a partir da França.",
+  "status_note_synapse-protocol": "O site da Synapse agora redireciona para a Hypercall, um produto de negociação de opções. A ponte continua com link nessa página (verificado em 21 de outubro de 2026)."
  },
  "data": {
   "Depends on the partner": "Depende do parceiro",
