@@ -55,6 +55,7 @@ const jsonld = {
       </div>
     </div>
     {p.status === 'check' && <div class="warn status"><Icon name="triangle-alert" /><span><strong>{t('platform.rechecking')}</strong> {note.startsWith('platform.') ? p.status_note : note}</span></div>}
+    {p.status === 'active' && note && <div class="warn status"><Icon name="triangle-alert" /><span><strong>{t('platform.note_h')}</strong> {note}</span></div>}
     <div class="dg">
       <div>
         <section class="panel" aria-labelledby="kyc-h">

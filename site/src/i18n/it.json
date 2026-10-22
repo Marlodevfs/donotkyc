@@ -268,7 +268,9 @@
   "nosource": "Per questa scheda non è ancora collegata una pagina di origine. Verifica direttamente con {name} prima di fidarti.",
   "source_h": "Fonte",
   "from_pages": "Questa scheda si basa sui termini e sulle pagine di aiuto che {name} pubblica.",
-  "how_we_check": "Come verifichiamo"
+  "how_we_check": "Come verifichiamo",
+  "note_h": "Nota",
+  "status_note_nonkyc-io": "Nonkyc.io dichiara di aver smesso di servire gli utenti in Francia, in base alla legge finanziaria francese. Il sito non è più raggiungibile dalla Francia."
  },
  "data": {
   "Depends on the partner": "Dipende dal partner",

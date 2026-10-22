@@ -268,7 +268,9 @@
   "nosource": "Esta ficha ainda não tem página de origem ligada. Confirme diretamente com a {name} antes de confiar.",
   "source_h": "Fonte",
   "from_pages": "Esta ficha se baseia nos termos e nas páginas de ajuda que a {name} publica.",
-  "how_we_check": "Como verificamos"
+  "how_we_check": "Como verificamos",
+  "note_h": "Nota",
+  "status_note_nonkyc-io": "A Nonkyc.io diz ter deixado de atender usuários na França, com base na lei financeira francesa. O site não é mais acessível a partir da França."
  },
  "data": {
   "Depends on the partner": "Depende do parceiro",

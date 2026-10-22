@@ -268,7 +268,9 @@
   "nosource": "No source page is linked to this listing yet. Check {name} directly before you rely on it.",
   "source_h": "Source",
   "from_pages": "This listing is built from the terms and help pages {name} publishes.",
-  "how_we_check": "How we check"
+  "how_we_check": "How we check",
+  "note_h": "Note",
+  "status_note_nonkyc-io": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France."
  },
  "data": {
   "Depends on the partner": "Depends on the partner",

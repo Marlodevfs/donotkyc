@@ -268,7 +268,9 @@
   "nosource": "Für diesen Eintrag ist noch keine Quellseite verlinkt. Prüfen Sie direkt bei {name}, bevor Sie sich darauf verlassen.",
   "source_h": "Quelle",
   "from_pages": "Dieser Eintrag beruht auf den Bedingungen und Hilfeseiten, die {name} veröffentlicht.",
-  "how_we_check": "So prüfen wir"
+  "how_we_check": "So prüfen wir",
+  "note_h": "Hinweis",
+  "status_note_nonkyc-io": "Nonkyc.io gibt an, Nutzer in Frankreich auf Grundlage des französischen Finanzrechts nicht mehr zu bedienen. Die Website ist aus Frankreich nicht mehr erreichbar."
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

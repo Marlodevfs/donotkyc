@@ -268,7 +268,9 @@
   "nosource": "本条目暂未链接来源页面。请在信赖前直接向 {name} 核实。",
   "source_h": "来源",
   "from_pages": "本条目依据 {name} 公布的条款和帮助页面编写。",
-  "how_we_check": "我们如何核查"
+  "how_we_check": "我们如何核查",
+  "note_h": "说明",
+  "status_note_nonkyc-io": "Nonkyc.io 称已根据法国金融法规停止为法国用户提供服务。其网站在法国已无法访问。"
  },
  "data": {
   "Depends on the partner": "取决于合作方",

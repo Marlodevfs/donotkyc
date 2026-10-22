@@ -115,7 +115,7 @@
     "tor": null,
     "open_source": null,
     "status": "active",
-    "status_note": null,
+    "status_note": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France.",
     "kyc_source": "https://nonkyc.io/legal/terms"
   },
   {

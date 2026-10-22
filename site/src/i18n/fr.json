@@ -268,7 +268,9 @@
   "nosource": "Aucune page source n'est liée à cette fiche pour l'instant. Vérifiez directement auprès de {name} avant de vous y fier.",
   "source_h": "Source",
   "from_pages": "Cette fiche repose sur les conditions et les pages d'aide que {name} publie.",
-  "how_we_check": "Comment nous vérifions"
+  "how_we_check": "Comment nous vérifions",
+  "note_h": "Note",
+  "status_note_nonkyc-io": "Nonkyc.io indique avoir cessé de servir les utilisateurs en France, en application du droit financier français. Son site n'est plus accessible depuis la France."
  },
  "data": {
   "Depends on the partner": "Dépend du partenaire",
