@@ -271,7 +271,8 @@
   "how_we_check": "Nasıl kontrol ediyoruz",
   "note_h": "Not",
   "status_note_nonkyc-io": "Nonkyc.io, Fransız finans mevzuatı gereği Fransa'daki kullanıcılara hizmeti bıraktığını söylüyor. Site artık Fransa'dan erişilemiyor.",
-  "status_note_synapse-protocol": "Synapse'in sitesi artık bir opsiyon işlemi ürünü olan Hypercall'a yönlendiriyor. Köprü o sayfadan hâlâ bağlantılı (21 Ekim 2026'da kontrol edildi)."
+  "status_note_synapse-protocol": "Synapse'in sitesi artık bir opsiyon işlemi ürünü olan Hypercall'a yönlendiriyor. Köprü o sayfadan hâlâ bağlantılı (21 Ekim 2026'da kontrol edildi).",
+  "status_note_acechange": "Kartla veya havaleyle alımlar ve fiat paraya çekimler askıya alındı, yeniden açılış tarihi açıklanmadı. Takaslar hâlâ çalışıyor. AML sayfası ABD, AEA ve Birleşik Krallık'ı engellenen bölgeler arasında sayıyor (22 Ekim 2026'da kontrol edildi)."
  },
  "data": {
   "Depends on the partner": "Ortağa bağlı",
@@ -690,7 +691,8 @@
   "US, Canada, UK and sanctioned jurisdictions": "ABD, Kanada, Birleşik Krallık ve yaptırım altındaki ülkeler",
   "US, Ontario and sanctioned jurisdictions": "ABD, Ontario ve yaptırım altındaki ülkeler",
   "US, Cuba, Iran, North Korea, Syria and others": "ABD, Küba, İran, Kuzey Kore, Suriye ve diğerleri",
-  "France": "Fransa"
+  "France": "Fransa",
+  "US, EEA, UK, Russia, Belarus and sanctioned jurisdictions": "ABD, AEA, Birleşik Krallık, Rusya, Belarus ve yaptırım altındaki ülkeler"
  },
  "landings": {
   "/exchanges": {

@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-22",
+    "title": "AceChange: card purchases paused, blocked regions corrected",
+    "body": "AceChange's own pages say card and bank purchases and cash-outs are paused, with no reopening date, so it no longer shows under card payments. Its AML page lists the United States, the EEA, the United Kingdom, Russia and Belarus as blocked regions, which the listing now says. Crypto swaps run through FixedFloat and can trigger KYC case by case, so the listing moves from none to light."
+  },
+  {
+    "date": "2026-10-22",
     "title": "Nonkyc.io review notice lifted",
     "body": "Nonkyc.io's own terms say it requires no personal identification or verification. We read them in an archived copy dated 19 October 2026, because the site now blocks access from France. The listing keeps France in its unavailable countries and now links the terms as its source."
   },

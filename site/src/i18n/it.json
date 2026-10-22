@@ -271,7 +271,8 @@
   "how_we_check": "Come verifichiamo",
   "note_h": "Nota",
   "status_note_nonkyc-io": "Nonkyc.io dichiara di aver smesso di servire gli utenti in Francia, in base alla legge finanziaria francese. Il sito non è più raggiungibile dalla Francia.",
-  "status_note_synapse-protocol": "Il sito di Synapse ora reindirizza a Hypercall, un prodotto per il trading di opzioni. Il bridge è ancora collegato da quella pagina (verificato il 21 ottobre 2026)."
+  "status_note_synapse-protocol": "Il sito di Synapse ora reindirizza a Hypercall, un prodotto per il trading di opzioni. Il bridge è ancora collegato da quella pagina (verificato il 21 ottobre 2026).",
+  "status_note_acechange": "Gli acquisti con carta o bonifico e i prelievi in valuta fiat sono sospesi, senza data di ripresa annunciata. Gli swap funzionano ancora. La sua pagina AML indica Stati Uniti, SEE e Regno Unito tra le regioni bloccate (verificato il 22 ottobre 2026)."
  },
  "data": {
   "Depends on the partner": "Dipende dal partner",
@@ -690,7 +691,8 @@
   "US, Canada, UK and sanctioned jurisdictions": "USA, Canada, Regno Unito e giurisdizioni sotto sanzioni",
   "US, Ontario and sanctioned jurisdictions": "USA, Ontario e giurisdizioni sotto sanzioni",
   "US, Cuba, Iran, North Korea, Syria and others": "USA, Cuba, Iran, Corea del Nord, Siria e altri",
-  "France": "Francia"
+  "France": "Francia",
+  "US, EEA, UK, Russia, Belarus and sanctioned jurisdictions": "USA, SEE, Regno Unito, Russia, Bielorussia e giurisdizioni sotto sanzioni"
  },
  "landings": {
   "/exchanges": {

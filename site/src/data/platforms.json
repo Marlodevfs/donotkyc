@@ -1208,28 +1208,27 @@
     "url": "https://www.acechange.io",
     "affiliate_link": null,
     "logo": "logos/acechange.webp",
-    "kyc_level": "none",
-    "kyc_summary": "No ID for crypto swaps",
-    "kyc_tier": "No KYC for crypto swaps",
-    "supported_countries": "Global (160+ countries for fiat, crypto swaps worldwide except prohibited jurisdictions like US for some swaps)",
-    "blocked": "US, for some swaps",
-    "fiat_deposit": true,
+    "kyc_level": "light",
+    "kyc_summary": "ID only if a swap is flagged",
+    "kyc_tier": "No ID asked for crypto swaps, which run through FixedFloat, but its AML page says a swap can trigger KYC case by case. Card and bank purchases, now paused, needed mandatory KYC through its partner Transak",
+    "supported_countries": "Global except restrictions",
+    "blocked": "US, EEA, UK, Russia, Belarus and sanctioned jurisdictions",
+    "fiat_deposit": false,
     "fees": "0.5%+ for swaps",
     "cryptocurrencies": "1000+",
     "features": [
-      "No KYC swaps",
-      "Instant swap",
-      "Fiat gateway"
+      "Swaps through FixedFloat",
+      "No account for swaps",
+      "Card and bank purchases paused"
     ],
     "custody": "self",
     "payment_methods": [
-      "crypto",
-      "card"
+      "crypto"
     ],
     "tor": null,
     "open_source": null,
     "status": "active",
-    "status_note": null,
+    "status_note": "Card and bank purchases and cash-outs are paused, with no reopening date announced. Swaps still work. Its AML page lists the United States, the EEA and the United Kingdom among blocked regions (checked 22 October 2026).",
     "kyc_source": "https://acechange.io/our-aml-kyc-rule/"
   },
   {
