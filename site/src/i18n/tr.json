@@ -268,8 +268,7 @@
   "nosource": "Bu kayıt için henüz bağlı bir kaynak sayfası yok. Güvenmeden önce doğrudan {name} ile kontrol et.",
   "source_h": "Kaynak",
   "from_pages": "Bu kayıt, {name} tarafından yayımlanan koşullara ve yardım sayfalarına dayanıyor.",
-  "how_we_check": "Nasıl kontrol ediyoruz",
-  "status_note_nonkyc-io": "Nonkyc.io sitesi artık yalnızca Fransa'daki kullanıcılara hizmeti bıraktığını söyleyen bir duyuru gösteriyor. Politika sayfaları okunamadı, bu yüzden kimlik istemediği iddiası doğrulanmadı."
+  "how_we_check": "Nasıl kontrol ediyoruz"
  },
  "data": {
   "Depends on the partner": "Ortağa bağlı",

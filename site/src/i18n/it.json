@@ -268,8 +268,7 @@
   "nosource": "Per questa scheda non è ancora collegata una pagina di origine. Verifica direttamente con {name} prima di fidarti.",
   "source_h": "Fonte",
   "from_pages": "Questa scheda si basa sui termini e sulle pagine di aiuto che {name} pubblica.",
-  "how_we_check": "Come verifichiamo",
-  "status_note_nonkyc-io": "Il sito di Nonkyc.io mostra ora solo un avviso: ha smesso di servire gli utenti in Francia. Le sue pagine di policy non si sono potute leggere, quindi la promessa di non chiedere documenti non è confermata."
+  "how_we_check": "Come verifichiamo"
  },
  "data": {
   "Depends on the partner": "Dipende dal partner",

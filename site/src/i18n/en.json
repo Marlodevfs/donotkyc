@@ -268,8 +268,7 @@
   "nosource": "No source page is linked to this listing yet. Check {name} directly before you rely on it.",
   "source_h": "Source",
   "from_pages": "This listing is built from the terms and help pages {name} publishes.",
-  "how_we_check": "How we check",
-  "status_note_nonkyc-io": "Nonkyc.io's site now shows only a notice that it has stopped serving users in France. Its policy pages could not be read, so its no-ID claim is unconfirmed."
+  "how_we_check": "How we check"
  },
  "data": {
   "Depends on the partner": "Depends on the partner",

@@ -98,7 +98,7 @@
     "logo": "logos/nonkyc-io.webp",
     "kyc_level": "none",
     "kyc_summary": "No ID at any amount",
-    "kyc_tier": "Not confirmed. Its site now shows only a notice that it has stopped serving users in France, and its policy pages could not be read from there",
+    "kyc_tier": "None asked. Its terms call it a non-KYC exchange that requires no personal identification or verification. It monitors deposits and withdrawals and can restrict accounts during an investigation. We read an archived copy of the terms dated 19 October 2026, because the site now blocks France",
     "supported_countries": "Global except restrictions",
     "blocked": "France",
     "fiat_deposit": false,
@@ -114,9 +114,9 @@
     ],
     "tor": null,
     "open_source": null,
-    "status": "check",
-    "status_note": "Nonkyc.io's site now shows only a notice that it has stopped serving users in France. Its policy pages could not be read, so its no-ID claim is unconfirmed.",
-    "kyc_source": "https://nonkyc.io/"
+    "status": "active",
+    "status_note": null,
+    "kyc_source": "https://nonkyc.io/legal/terms"
   },
   {
     "slug": "bingx",

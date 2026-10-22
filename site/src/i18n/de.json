@@ -268,8 +268,7 @@
   "nosource": "Für diesen Eintrag ist noch keine Quellseite verlinkt. Prüfen Sie direkt bei {name}, bevor Sie sich darauf verlassen.",
   "source_h": "Quelle",
   "from_pages": "Dieser Eintrag beruht auf den Bedingungen und Hilfeseiten, die {name} veröffentlicht.",
-  "how_we_check": "So prüfen wir",
-  "status_note_nonkyc-io": "Die Website von Nonkyc.io zeigt jetzt nur noch einen Hinweis, dass der Dienst Nutzer in Frankreich nicht mehr bedient. Seine Richtlinienseiten ließen sich nicht lesen, das Versprechen ohne Ausweis ist daher unbestätigt."
+  "how_we_check": "So prüfen wir"
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

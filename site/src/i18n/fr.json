@@ -268,8 +268,7 @@
   "nosource": "Aucune page source n'est liée à cette fiche pour l'instant. Vérifiez directement auprès de {name} avant de vous y fier.",
   "source_h": "Source",
   "from_pages": "Cette fiche repose sur les conditions et les pages d'aide que {name} publie.",
-  "how_we_check": "Comment nous vérifions",
-  "status_note_nonkyc-io": "Le site de Nonkyc.io n'affiche plus qu'un avis disant qu'il a cessé de servir les utilisateurs en France. Ses pages de politique n'ont pas pu être lues : sa promesse de ne demander aucune identité n'est pas confirmée."
+  "how_we_check": "Comment nous vérifions"
  },
  "data": {
   "Depends on the partner": "Dépend du partenaire",

@@ -268,8 +268,7 @@
   "nosource": "本条目暂未链接来源页面。请在信赖前直接向 {name} 核实。",
   "source_h": "来源",
   "from_pages": "本条目依据 {name} 公布的条款和帮助页面编写。",
-  "how_we_check": "我们如何核查",
-  "status_note_nonkyc-io": "Nonkyc.io 的网站现在只显示一则通知，称已停止为法国用户提供服务。其政策页面无法读取，因此它“无需证件”的说法尚未得到确认。"
+  "how_we_check": "我们如何核查"
  },
  "data": {
   "Depends on the partner": "取决于合作方",
