@@ -3124,37 +3124,5 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://swapspace.co/faq#kycAmlVerification"
-  },
-  {
-    "slug": "xnvia",
-    "name": "Xnvia",
-    "type": "P2P",
-    "url": "https://www.xnvia.com/",
-    "affiliate_link": null,
-    "logo": "logos/xnvia.webp",
-    "kyc_level": "tiered",
-    "kyc_summary": "ID verification required",
-    "kyc_tier": "Its support center says identity verification is mandatory, and its terms allow extra checks depending on account, activity and location. The page listing restricted countries could not be read",
-    "supported_countries": "Not stated",
-    "blocked": "Not stated",
-    "fiat_deposit": true,
-    "fees": "1% per transaction",
-    "cryptocurrencies": "USDT, BTC, ETH",
-    "features": [
-      "P2P marketplace with escrow",
-      "Minimum trade 10 USD",
-      "Bank payment guides by country",
-      "Business tools for cash shops and remittance firms"
-    ],
-    "custody": "none",
-    "payment_methods": [
-      "crypto",
-      "bank"
-    ],
-    "tor": null,
-    "open_source": null,
-    "status": "active",
-    "status_note": null,
-    "kyc_source": "https://support.xnvia.com/en/blog/mandatoryidentityverification"
   }
 ]

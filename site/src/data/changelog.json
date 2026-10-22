@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "Xnvia removed from the directory",
+    "body": "Xnvia's sign-up page now says registration is limited to invited users, and access is requested by email. A listing nobody can sign up to does not help readers, so we removed it. We will list it again once registration is open."
+  },
+  {
     "date": "2026-10-21",
     "title": "13 listings re-read against their own terms",
     "body": "We re-read the terms of 13 listings that had no source page: Uniswap, PancakeSwap, dYdX, edgeX, Hyperliquid, 1inch, DeGate, BIM Exchange, Portal Bridge, Synapse Protocol, Symbiosis, Nonkyc.io and Boltz. Each now links its source. Corrections: dYdX also bars the United Kingdom, edgeX and Hyperliquid bar the US and Ontario, Symbiosis bars the US, and BIM Exchange moves to light because its fiat services run through providers that can ask for KYC. Nonkyc.io now blocks users in France, and its no-ID claim still has no readable source."
