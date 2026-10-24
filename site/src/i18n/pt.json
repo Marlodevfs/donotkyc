@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Sua carteira",
    "custodial": "A plataforma guarda os fundos",
-   "none": "Não se aplica (dinheiro)",
+   "none": "Não se aplica",
    "unstated": "Não informado"
   },
   "payments_v": {

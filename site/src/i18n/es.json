@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Tu wallet",
    "custodial": "La plataforma guarda los fondos",
-   "none": "No aplica (efectivo)",
+   "none": "No aplica",
    "unstated": "No indicado"
   },
   "payments_v": {

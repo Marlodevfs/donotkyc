@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "你自己的钱包",
    "custodial": "平台保管资金",
-   "none": "不适用（现金）",
+   "none": "不适用",
    "unstated": "未说明"
   },
   "payments_v": {

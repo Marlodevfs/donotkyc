@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Il tuo wallet",
    "custodial": "La piattaforma custodisce i fondi",
-   "none": "Non applicabile (contanti)",
+   "none": "Non applicabile",
    "unstated": "Non indicato"
   },
   "payments_v": {

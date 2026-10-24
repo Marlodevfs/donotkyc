@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Votre wallet",
    "custodial": "La plateforme détient les fonds",
-   "none": "Sans objet (espèces)",
+   "none": "Sans objet",
    "unstated": "Non indiqué"
   },
   "payments_v": {

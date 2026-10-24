@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Senin cüzdanın",
    "custodial": "Fonları platform tutar",
-   "none": "Geçerli değil (nakit)",
+   "none": "Geçerli değil",
    "unstated": "Belirtilmemiş"
   },
   "payments_v": {

@@ -265,7 +265,7 @@
   "custody_v": {
    "self": "Dein Wallet",
    "custodial": "Plattform verwahrt",
-   "none": "Entfällt (Bargeld)",
+   "none": "Entfällt",
    "unstated": "Nicht angegeben"
   },
   "payments_v": {
