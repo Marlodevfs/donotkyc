@@ -16,7 +16,7 @@ const platformText = [...platforms].sort(byLeastId).map((p) => [
   p.kyc_tier && p.kyc_tier !== 'None' ? `- Listed policy: ${p.kyc_tier}.` : '',
   `- Source for the identity level: ${p.kyc_source ?? 'none linked yet'}`,
   `- Available in: ${p.supported_countries}.${p.blocked ? ` Not available in: ${p.blocked}.` : ''}`,
-  `- Card or bank deposit: ${p.fiat_deposit ? 'yes' : 'no'}. Payment methods: ${p.payment_methods.join(', ')}.`,
+  `- Cash, card or bank payment: ${p.fiat_deposit ? 'yes' : 'no'}. Payment methods: ${p.payment_methods.join(', ')}.`,
   `- Fees: ${p.fees}`,
   `- Custody: ${CUSTODY[p.custody]}`,
   p.status !== 'active' || p.status_note ? `- Status: ${p.status === 'active' ? 'active' : 'under review'}${p.status_note ? `. ${p.status_note}` : ''}` : '',

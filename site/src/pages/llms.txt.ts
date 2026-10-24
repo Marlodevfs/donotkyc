@@ -10,7 +10,7 @@ const LEVEL = { none: 'None (no ID, no account details)', light: 'Light (no ID u
 
 export function GET() {
   const list = [...platforms].sort(byLeastId)
-    .map((p) => `- [${p.name}](${SITE}/p/${p.slug}): ${TYPES[p.type]}. Identity: ${LEVEL[p.kyc_level]}. ${p.kyc_summary}. ${p.fiat_deposit ? 'Card or bank accepted' : 'Crypto only'}. Fees: ${p.fees}.${p.blocked ? ` Not available in: ${p.blocked}.` : ''}${p.status === 'check' ? ` UNDER REVIEW: ${p.status_note}` : ''}`)
+    .map((p) => `- [${p.name}](${SITE}/p/${p.slug}): ${TYPES[p.type]}. Identity: ${LEVEL[p.kyc_level]}. ${p.kyc_summary}. ${p.fiat_deposit ? 'Cash, card or bank accepted' : 'Crypto only'}. Fees: ${p.fees}.${p.blocked ? ` Not available in: ${p.blocked}.` : ''}${p.status === 'check' ? ` UNDER REVIEW: ${p.status_note}` : ''}`)
     .join('\n');
   const text = `# DoNotKYC
 
@@ -19,7 +19,7 @@ export function GET() {
 Identity levels: None = no ID and no account details; Light = no ID under a stated limit, or only an email or phone number; Tiered = ID required above a threshold.
 
 ## Key pages
-- [Directory](${SITE}/): every platform, filterable by type, identity level, card or bank deposit and US availability
+- [Directory](${SITE}/): every platform, filterable by type, identity level, cash, card or bank payment and US availability
 - [How we check platforms](${SITE}/methodology): identity levels and where the facts come from
 - [About and contact](${SITE}/about): who runs the project, how it is funded, how to reach us
 - [Compare platforms](${SITE}/compare): ${pairs.length} side-by-side comparisons
