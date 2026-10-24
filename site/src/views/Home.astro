@@ -43,7 +43,7 @@ const jsonld = [
   { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang,
     mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
-const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us') };
+const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us'), cash: t('home.chip_cash'), bank: t('home.chip_bank'), card: t('home.chip_card'), hide: t('home.chip_hide') };
 ---
 <Base title={t('home.title')} description={t('home.description', { n: platforms.length })} path="/" lang={lang} localized nav="directory" jsonld={jsonld}>
   <div class="wrap">
@@ -86,6 +86,11 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
           <button class="chip" type="button" data-f="none" aria-pressed="false"><Icon name="user-x" size={16} />{t('home.chip_none')}</button>
           <button class="chip" type="button" data-f="fiat" aria-pressed="false"><Icon name="credit-card" size={16} />{t('home.chip_fiat')}</button>
           <button class="chip" type="button" data-f="us" aria-pressed="false"><Icon name="map-pin" size={16} />{t('home.chip_us')}</button>
+          <button class="chip" type="button" data-p="cash" aria-pressed="false">{t('home.chip_cash')}</button>
+          <button class="chip" type="button" data-p="bank" aria-pressed="false">{t('home.chip_bank')}</button>
+          <button class="chip" type="button" data-p="card" aria-pressed="false">{t('home.chip_card')}</button>
+          <button class="chip" type="button" data-f="allpay" aria-pressed="false">{t('home.chip_all')}</button>
+          <button class="chip" type="button" data-f="hide" aria-pressed="false">{t('home.chip_hide')}</button>
           <label class="vis" for="sort">{t('home.sort')}</label>
           <select id="sort"><option value="lvl">{t('home.sort_lvl')}</option><option value="name">{t('home.sort_name')}</option></select>
         </div>
@@ -180,14 +185,18 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
   <script is:inline>
     (function () {
       var I = JSON.parse(document.getElementById('i18n').textContent);
-      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, sort: 'lvl' };
+      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, sort: 'lvl' };
       var list = document.getElementById('list'), items = Array.prototype.slice.call(list.children);
       var q = document.getElementById('q'), cats = document.getElementById('cats');
+      function payOk(v) {
+        var have = (v || '').split(' ');
+        return S.allpay ? S.pay.every(function (x) { return have.indexOf(x) !== -1; }) : S.pay.some(function (x) { return have.indexOf(x) !== -1; });
+      }
       function render() {
         var t = S.q.trim().toLowerCase(), n = 0;
         items.forEach(function (li) {
           var d = li.dataset;
-          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!t || d.hay.indexOf(t) !== -1);
+          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!S.pay.length || payOk(d.pay)) && (!S.hide || d.status !== 'check') && (!t || d.hay.indexOf(t) !== -1);
           li.hidden = !ok; if (ok) n++;
         });
         items.slice().sort(function (a, b) { return S.sort === 'name' ? a.dataset.name.localeCompare(b.dataset.name) : a.dataset.rank - b.dataset.rank; })
@@ -196,7 +205,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         document.getElementById('empty').hidden = n > 0;
         var act = [];
         if (S.cat !== 'all') act.push(I.labels[S.cat]); if (t) act.push('"' + S.q.trim() + '"');
-        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us);
+        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us); S.pay.forEach(function (x) { act.push(I[x]); }); if (S.hide) act.push(I.hide);
         var a = document.getElementById('active'); a.textContent = '';
         if (act.length) { a.append(I.filteredBy.replace('{x}', act.join(', ')) + ' '); var b = document.createElement('button'); b.type = 'button'; b.dataset.reset = ''; b.textContent = I.clear; a.append(b); }
       }
@@ -208,6 +217,12 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       document.querySelectorAll('.chip[data-f]').forEach(function (c) {
         c.addEventListener('click', function () { var f = c.dataset.f; S[f] = !S[f]; c.setAttribute('aria-pressed', S[f]); render(); });
       });
+      document.querySelectorAll('.chip[data-p]').forEach(function (c) {
+        c.addEventListener('click', function () {
+          var k = c.dataset.p, i = S.pay.indexOf(k); if (i === -1) S.pay.push(k); else S.pay.splice(i, 1);
+          c.setAttribute('aria-pressed', i === -1); render();
+        });
+      });
       document.getElementById('sort').addEventListener('change', function (e) { S.sort = e.target.value; render(); });
       q.addEventListener('input', function () { S.q = q.value; render(); });
       document.getElementById('sform').addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('directory').scrollIntoView({ behavior: 'smooth' }); });
@@ -217,8 +232,8 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       });
       document.addEventListener('click', function (e) {
         if (!e.target.closest('[data-reset]')) return;
-        S = { cat: 'all', q: '', none: false, fiat: false, us: false, sort: S.sort }; q.value = '';
-        document.querySelectorAll('.chip[data-f]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+        S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, sort: S.sort }; q.value = '';
+        document.querySelectorAll('.chip[data-f], .chip[data-p]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
         cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === 'all'); });
         render();
       });
