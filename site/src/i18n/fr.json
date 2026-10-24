@@ -1134,6 +1134,14 @@
      "Un VPS est un serveur que vous louez et gérez vous-même. Les hébergeurs ci-dessous acceptent une adresse email et la crypto, et disent ne demander aucune pièce d'identité. Vous faites quand même confiance à l'hébergeur pour votre serveur, donc ses journaux et son adresse légale comptent.",
      "Regardez où se trouvent les serveurs, comment vous payez et ce que l'hébergeur interdit."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS et eSIM",
+    "h1": "Numéros SMS et eSIM anonymes",
+    "intro": [
+     "Une eSIM est une ligne de téléphone que vous installez en scannant un code, donc rien n'est expédié. Un numéro virtuel reçoit des codes SMS sans que vous donniez le vôtre. Les services ci-dessous disent ne demander aucune pièce d'identité.",
+     "Regardez ce que chaque offre permet : données seules, SMS seuls ou appels aussi. Certaines banques et grandes applications refusent ces numéros. Un réseau mobile voit quand même votre téléphone et sa connexion."
+    ]
    }
   },
   "guide_h": "Outils pour ce guide",

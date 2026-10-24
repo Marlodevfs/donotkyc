@@ -1134,6 +1134,14 @@
      "Ein VPS ist ein Server, den Sie mieten und selbst betreiben. Die Anbieter unten nehmen eine E-Mail-Adresse und Krypto und sagen, dass sie keinen Ausweis verlangen. Sie vertrauen dem Anbieter trotzdem Ihren Server an, deshalb zählen seine Protokolle und sein Rechtssitz.",
      "Prüfen Sie, wo die Server stehen, wie Sie zahlen und was der Anbieter verbietet."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS und eSIM",
+    "h1": "Anonyme SMS-Nummern und eSIMs",
+    "intro": [
+     "Eine eSIM ist ein Mobilfunkanschluss, den Sie per Code-Scan einrichten, es wird also nichts verschickt. Eine virtuelle Nummer empfängt SMS-Codes, ohne dass Sie Ihre eigene Nummer nennen. Die Dienste unten sagen, dass sie keinen Ausweis verlangen.",
+     "Prüfen Sie, was jedes Angebot kann: nur Daten, nur SMS oder auch Anrufe. Manche Banken und große Apps lehnen solche Nummern ab. Ein Mobilfunknetz sieht Ihr Telefon und seine Verbindung trotzdem."
+    ]
    }
   },
   "guide_h": "Werkzeuge zu diesem Guide",

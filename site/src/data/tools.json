@@ -97,7 +97,7 @@
  {
   "page": "vpn",
   "slug": "lnvpn",
-  "name": "LNVPN",
+  "name": "nadanada",
   "url": "https://nadanada.me/",
   "identity": "none",
   "code": "unstated",
@@ -1518,6 +1518,80 @@
    "Pay with crypto or cash sent by post.",
    "Prepaid: a service ends when you stop paying.",
    "Says it keeps no access or backdoor to your server."
+  ]
+ },
+ {
+  "page": "sms-esim",
+  "slug": "simsup",
+  "name": "simsup",
+  "url": "https://simsup.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Data-only eSIMs for 130+ destinations, from 0.96 euros.",
+   "An Estonian phone number for calls, SMS and data costs 29.95 euros a year.",
+   "Says it asks for no account, no ID and no KYC. Email is optional and only used to send the order link.",
+   "Pay with Bitcoin (on-chain or Lightning) or Monero. Other coins are swapped at checkout through Trocador.",
+   "The data eSIM cannot receive calls, SMS or bank codes.",
+   "Refund or replacement within 7 days if the eSIM is not installed."
+  ]
+ },
+ {
+  "page": "sms-esim",
+  "slug": "crypton-sh",
+  "name": "Crypton.sh",
+  "url": "https://crypton.sh",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "SMS verification codes at 1.50 euros each. Virtual numbers from 5 euros a month. Travel eSIM from 1.08 euros a month.",
+   "Says it asks for no name, no email and no KYC. Sign-up uses an account number.",
+   "Pay with crypto (it recommends Monero and Bitcoin), card or bank transfer.",
+   "Says it cannot read your messages. Its FAQ admits that some metadata, such as dates, is not encrypted.",
+   "Its FAQ says virtual numbers are not for 2FA, banking or social-app verification."
+  ]
+ },
+ {
+  "page": "sms-esim",
+  "slug": "nadanada",
+  "name": "nadanada",
+  "url": "https://nadanada.me",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "eSIM data plans for 200+ countries and regions, from 0.99 dollars.",
+   "UK rental phone number with unlimited incoming SMS, 12 dollars for 3 months. eSIMs with calls and SMS are also offered.",
+   "Says \"No account. No email. No ID.\" and no KYC.",
+   "Pay with Bitcoin (including Lightning), Monero, Zcash, ETH, USDT, USDC or card.",
+   "Also sells a VPN, listed on the VPN page; it was called LNVPN until it changed its name."
+  ]
+ },
+ {
+  "page": "sms-esim",
+  "slug": "monerosms",
+  "name": "MoneroSMS",
+  "url": "https://monerosms.com",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "US virtual number at 3.60 dollars a month. Each message is billed when sent or received.",
+   "US numbers only. Short codes do not always work.",
+   "Pay with Bitcoin, fiat or altcoins, manually for now. It calls Monero the most private method.",
+   "Says Tor and VPNs are allowed and recommended.",
+   "Refunds are generally not given."
+  ]
+ },
+ {
+  "page": "sms-esim",
+  "slug": "sms4sats",
+  "name": "sms4sats",
+  "url": "https://sms4sats.com",
+  "identity": "unstated",
+  "code": "unstated",
+  "facts": [
+   "Temporary numbers to receive SMS verification codes. Tabs for Receive, Rent and Email.",
+   "Pay a Lightning invoice, then the number and code appear.",
+   "Price and availability are shown before you create the order."
   ]
  }
 ]

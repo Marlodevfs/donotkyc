@@ -1134,6 +1134,14 @@
      "Un VPS è un server che affitti e gestisci da solo. Gli host qui sotto accettano un indirizzo email e cripto, e dicono di non chiedere alcun documento. Affidi comunque il server all'host, quindi contano i suoi log e la sua sede legale.",
      "Controlla dove si trovano i server, come si paga e che cosa vieta l'host."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS ed eSIM",
+    "h1": "Numeri SMS ed eSIM anonimi",
+    "intro": [
+     "Una eSIM è una linea telefonica che installi inquadrando un codice, quindi non viene spedito nulla. Un numero virtuale riceve codici SMS senza che tu dia il tuo. I servizi qui sotto dicono di non chiedere alcun documento.",
+     "Controlla cosa permette ogni piano: solo dati, solo SMS o anche chiamate. Alcune banche e app grandi rifiutano questi numeri. Una rete mobile vede comunque il tuo telefono e la sua connessione."
+    ]
    }
   },
   "guide_h": "Strumenti per questa guida",

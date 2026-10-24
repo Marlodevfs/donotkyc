@@ -1134,6 +1134,14 @@
      "VPS, kiralayıp kendiniz yönettiğiniz bir sunucudur. Aşağıdaki sağlayıcılar e-posta adresi ve kripto kabul eder ve kimlik istemediklerini söyler. Sunucunuzu yine de sağlayıcıya emanet edersiniz, bu yüzden kayıtları ve yasal adresi önemlidir.",
      "Sunucuların nerede durduğuna, nasıl ödediğinize ve sağlayıcının neyi yasakladığına bakın."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS ve eSIM",
+    "h1": "Anonim SMS numaraları ve eSIM'ler",
+    "intro": [
+     "eSIM, bir kodu tarayarak kurduğunuz telefon hattıdır, yani size hiçbir şey postalanmaz. Sanal numara, kendi numaranızı vermeden SMS kodlarını alır. Aşağıdaki hizmetler kimlik istemediklerini söyler.",
+     "Her planın neyi yapabildiğine bakın: yalnızca veri, yalnızca SMS ya da aramalar da. Bazı bankalar ve büyük uygulamalar bu numaraları reddeder. Mobil şebeke yine de telefonunuzu ve bağlantısını görür."
+    ]
    }
   },
   "guide_h": "Bu rehber için araçlar",

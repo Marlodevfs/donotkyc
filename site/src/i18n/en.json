@@ -507,6 +507,14 @@
      "A VPS is a server you rent and run yourself. The hosts below take an email address and crypto, and say they ask for no ID. You still trust the host with your server, so its logs and its legal address matter.",
      "Check where the servers sit, how you pay and what the host bans."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS and eSIM",
+    "h1": "Anonymous SMS numbers and eSIMs",
+    "intro": [
+     "An eSIM is a phone line you install by scanning a code, so nothing ships to you. A virtual number receives SMS codes without giving out your own number. The services below say they ask for no ID.",
+     "Check what each plan can do: data only, texts only or calls too. Some numbers are refused by banks and big apps. A mobile network still sees your phone and its connection."
+    ]
    }
   },
   "guide_h": "Tools for this guide",

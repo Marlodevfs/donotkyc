@@ -14,7 +14,7 @@ export const TOOL_PAGES: ToolPage[] = [
   { key: 'leak-tests', group: 'network' }, { key: 'routers', group: 'network' }, { key: 'anonymous-vps', group: 'network' },
   { key: 'wallets', group: 'crypto' }, { key: 'hardware-wallets', group: 'crypto' }, { key: 'monero-wallets', group: 'crypto' },
   { key: 'coinjoin', group: 'crypto' }, { key: 'privacy-coins', group: 'crypto' }, { key: 'private-payments', group: 'crypto' },
-  { key: 'desktop-os', group: 'devices' }, { key: 'mobile-os', group: 'devices' }, { key: 'email', group: 'devices' }, { key: 'email-aliases', group: 'devices' }, { key: 'hardening', group: 'devices' },
+  { key: 'desktop-os', group: 'devices' }, { key: 'mobile-os', group: 'devices' }, { key: 'email', group: 'devices' }, { key: 'email-aliases', group: 'devices' }, { key: 'sms-esim', group: 'devices' }, { key: 'hardening', group: 'devices' },
 ];
 
 // Règle de tri unique : ce que l'outil demande (rien, un compte, une pièce d'identité, non indiqué), puis code ouvert d'abord, puis A à Z.

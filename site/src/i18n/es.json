@@ -1134,6 +1134,14 @@
      "Un VPS es un servidor que alquilas y administras tú mismo. Los proveedores de abajo aceptan un correo y cripto, y dicen que no piden documento de identidad. Aun así confías tu servidor al proveedor, así que importan sus registros y su domicilio legal.",
      "Mira dónde están los servidores, cómo se paga y qué prohíbe el proveedor."
     ]
+   },
+   "sms-esim": {
+    "name": "SMS y eSIM",
+    "h1": "Números SMS y eSIM anónimos",
+    "intro": [
+     "Una eSIM es una línea de teléfono que instalas escaneando un código, así que no se envía nada. Un número virtual recibe códigos SMS sin que des el tuyo. Los servicios de abajo dicen que no piden documento de identidad.",
+     "Mira qué permite cada plan: solo datos, solo SMS o también llamadas. Algunos bancos y apps grandes rechazan estos números. Una red móvil sigue viendo tu teléfono y su conexión."
+    ]
    }
   },
   "guide_h": "Herramientas para esta guía",
