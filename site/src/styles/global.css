@@ -93,6 +93,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .cats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid var(--line);background:var(--surface)}
 .cat{display:flex;flex-direction:column;gap:10px;padding:20px;border:0;border-right:1px solid var(--line);text-align:left;background:none;cursor:pointer;min-height:148px}
 .cat:last-child{border-right:0}
+a.cat{text-decoration:none;color:inherit}
+.trow{margin-top:24px}
+.trow-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px}
+.trow-h h2{font-size:15px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3)}
+.trow-h a{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--fg);text-decoration:none}
+.trow-h a:hover{text-decoration:underline}
 .cat .ic-box{width:40px;height:40px;display:grid;place-items:center;background:var(--sunk);color:var(--fg)}
 .cat b{font-family:var(--h);font-weight:600;font-size:17px;letter-spacing:-.01em}
 .cat small{color:var(--fg-2);font-size:14px;margin-top:auto}

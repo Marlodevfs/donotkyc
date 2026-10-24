@@ -6,6 +6,7 @@ import Level from '../components/Level.astro';
 import Rows from '../components/Rows.astro';
 import SponsorTile from '../components/SponsorTile.astro';
 import { LANDINGS, itemsFor, landingText } from '../data/landings';
+import { sorted } from '../data/tools';
 import { platforms, CATEGORIES, TYPES, byLeastId } from '../lib/platforms';
 import { dict, useT, lp, tx, type Lang } from '../i18n';
 
@@ -32,6 +33,7 @@ const hay = (p: (typeof platforms)[number]) =>
     .join(' ').toLowerCase();
 const picks = ['bisq', 'trocador', 'peach-bitcoin'].map((slug) => ({ p: platforms.find((x) => x.slug === slug)!, text: t(`home.pick_${slug}`) }));
 const faq = t('home.faq') as [string, string][];
+const toolRow = [['vpn', 'shield'], ['email', 'mail'], ['email-aliases', 'at-sign'], ['sms-esim', 'smartphone'], ['anonymous-vps', 'server'], ['tor', 'globe']] as const;
 const catLabels = Object.fromEntries(CATEGORIES.map((c) => [c.key, t(`cats.${c.key}`)]));
 
 const jsonld = [
@@ -75,6 +77,17 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
           <button class="cat" type="button" data-c={c.key} aria-pressed={c.key === 'all' ? 'true' : 'false'}>
             <span class="ic-box"><Icon name={c.icon} /></span><b>{catLabels[c.key]}</b><small>{t('cats.listed', { n: count(c) })}</small>
           </button>
+        ))}
+      </div>
+    </section>
+
+    <section class="trow" aria-labelledby="trow-h">
+      <div class="trow-h"><h2 id="trow-h">{dict(lang).tools.name}</h2><a href={L('/tools')}>{t('tools.all')}<Icon name="arrow-right" size={16} /></a></div>
+      <div class="cats">
+        {toolRow.map(([k, icon]) => (
+          <a class="cat" href={L(`/tools/${k}`)}>
+            <span class="ic-box"><Icon name={icon} /></span><b>{dict(lang).tools.pages[k].name}</b><small>{t('cats.listed', { n: sorted(k).length })}</small>
+          </a>
         ))}
       </div>
     </section>
