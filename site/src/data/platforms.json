@@ -28,7 +28,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.mexc.com/support/articles/17827791519717",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "bybit",
@@ -151,7 +153,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://bingx.com/support/articles/33457408621593/",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "primexbt",
@@ -183,7 +187,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "tapbit",
@@ -284,7 +290,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.mtpelerin.com/faq",
-    "coins": []
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "blofin",
@@ -443,7 +452,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://bisq.wiki/Frequently_asked_questions",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "edgex",
@@ -636,7 +647,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://ghostswap.io/",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "portal-bridge",
@@ -754,7 +768,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "libertyx-atm",
@@ -781,7 +797,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "rockitcoin",
@@ -808,7 +826,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.rockitcoin.com/faq",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "bitcoin-depot",
@@ -835,7 +855,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "bitcoin-well",
@@ -862,7 +884,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/",
-    "coins": []
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "hodl-hodl",
@@ -1453,7 +1478,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://home.kripicard.com/kripicard-supported-countries",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "bitget-wallet-card",
@@ -1931,7 +1959,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.bytefederal.com/faq",
-    "coins": []
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "athena-bitcoin",
@@ -1960,7 +1991,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://athenabitcoin.com/faqs/",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "bitstop",
@@ -1990,7 +2023,9 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://www.bitstop.co/help-center/buying-tiers-and-daily-limits",
-    "coins": []
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "sideshift",
@@ -2366,7 +2401,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://docs.rubic.finance/rubic/overview/overview",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "thorchain",
@@ -2393,11 +2431,14 @@
       "crypto"
     ],
     "tor": null,
-    "open_source": null,
+    "open_source": true,
     "status": "active",
     "status_note": null,
     "kyc_source": "https://thorchain.org/terms-of-use",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "raydium",
@@ -3059,7 +3100,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://basicswapdex.com/",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "eigenwallet",
@@ -3091,7 +3135,10 @@
     "status": "active",
     "status_note": null,
     "kyc_source": "https://eigenwallet.org/",
-    "coins": []
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "swapuz",
