@@ -1513,13 +1513,16 @@
   "identity": "account",
   "code": "proprietary",
   "facts": [
-   "VPS from 7.99 euros a month, in Romania, Iceland, the Netherlands and Finland.",
-   "Sign-up needs only a working email address.",
-   "Pay with crypto or cash sent by post.",
-   "Prepaid: a service ends when you stop paying.",
+   "VPS from 7.99 euros a month in Romania. Iceland, the Netherlands and Finland are also listed, without prices on its VPS page.",
+   "Says any valid email address is enough to be a customer. Its privacy policy says it collects your full name, billing and contact details.",
+   "Pay with bank transfer, Bitcoin, Litecoin, Ethereum, Monero, Dash, cash by post, PayPal, paysafecard, Wise, card or Proton Wallet. Crypto, bank transfer and cash by post carry no fee.",
+   "Says an invoice shows only a number, without account details.",
+   "Keeps the IP address and time of each visit, accounting records for 7 years, and network access logs for as long as it decides.",
    "Says it keeps no access or backdoor to your server.",
-   "Its privacy policy says it collects your full name, billing and contact details, and keeps the IP address and time of each visit."
-  ]
+   "Customer data stored on its servers needs a court order from the country where it is stored, it says.",
+   "Prepaid: a service ends when you stop paying."
+  ],
+  "checked": "2026-10-24"
  },
  {
   "page": "sms-esim",
