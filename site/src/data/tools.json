@@ -129,7 +129,7 @@
   "identity": "unstated",
   "code": "unstated",
   "facts": [
-   "Decentralised VPN on the Sentinel blockchain.",
+   "Decentralized VPN on the Sentinel blockchain.",
    "Pay in cryptocurrency only. Fiat money is not accepted.",
    "Desktop apps for Windows, macOS, Ubuntu, Debian, Fedora and Arch.",
    "Its page links to GitHub but states no license."
@@ -196,7 +196,7 @@
   "identity": "none",
   "code": "open",
   "facts": [
-   "Decentralised network for private websites, messaging and file sharing.",
+   "Decentralized network for private websites, messaging and file sharing.",
    "Software is open source."
   ],
   "release": "2026-07-24",
@@ -624,7 +624,7 @@
   "identity": "none",
   "code": "open",
   "facts": [
-   "Android wallet for Aeon, published by the Monerujo organisation on GitHub.",
+   "Android wallet for Aeon, published by the Monerujo organization on GitHub.",
    "Described as \"monerujoAE: An Android AEON Wallet\". Apache 2 license.",
    "No dedicated website. Last code change: May 2021."
   ],
@@ -638,7 +638,7 @@
   "identity": "none",
   "code": "open",
   "facts": [
-   "Describes itself as a private, decentralised cryptocurrency that keeps finances confidential.",
+   "Describes itself as a private, decentralized cryptocurrency that keeps finances confidential.",
    "Source code on GitHub."
   ],
   "release": "2026-10-17",
@@ -929,7 +929,7 @@
    "1 euro a month.",
    "Pay anonymously: its page says no payment data connects to an account.",
    "Says it collects no personal information at sign-up.",
-   "Based in Berlin, with servers in German data centres.",
+   "Based in Berlin, with servers in German data centers.",
    "Supports PGP and S/MIME encryption."
   ]
  },
@@ -971,7 +971,7 @@
   "code": "unstated",
   "facts": [
    "From 1 euro a month. 30-day free trial, no free plan.",
-   "Data stored in German data centres.",
+   "Data stored in German data centers.",
    "Its page does not state sign-up requirements or accepted payment methods."
   ]
  },
@@ -1530,7 +1530,7 @@
   "facts": [
    "Data-only eSIMs for 130+ destinations, from 0.96 euros.",
    "An Estonian phone number for calls, SMS and data costs 29.95 euros a year.",
-   "Says it asks for no account, no ID and no KYC. Email is optional and only used to send the order link.",
+   "Says it asks for no account, no ID and no KYC. Email is optional and used to send the order link.",
    "Pay with Bitcoin (on-chain or Lightning) or Monero. Other coins are swapped at checkout through Trocador.",
    "The data eSIM cannot receive calls, SMS or bank codes.",
    "Refund or replacement within 7 days if the eSIM is not installed."
@@ -1548,7 +1548,7 @@
    "SMS verification codes at 1.50 euros each. Virtual numbers from 5 euros a month. Travel eSIM from 1.08 euros a month.",
    "Says it asks for no name, no email and no KYC. Sign-up uses an account number.",
    "Pay with crypto (it recommends Monero and Bitcoin), card or bank transfer.",
-   "Says it cannot read your messages. Its FAQ admits that some metadata, such as dates, is not encrypted.",
+   "Says it cannot read your messages. Its FAQ says some metadata, such as dates, is not encrypted.",
    "Its FAQ says virtual numbers are not for 2FA, banking or social-app verification."
   ],
   "checked": "2026-10-24"
@@ -1628,7 +1628,7 @@
    "IncogNET is the legal registrant: \"we technically own the domain, which you control\". You can ask it to switch the registration to your own details.",
    "WHOIS privacy and free DNS are included.",
    "Needs only an email address for an account. Pay with Monero, Bitcoin, Litecoin or Dogecoin, other coins through Trocador, or PayPal and ACH.",
-   "Most extensions are reviewed by hand, which it says can take 12 hours or more."
+   "Reviews most extensions by hand, which it says can take 12 hours or more."
   ]
  },
  {

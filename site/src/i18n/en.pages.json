@@ -3,10 +3,10 @@
   "/exchanges": {
    "nav": "Exchanges",
    "title": "No-KYC Crypto Exchanges: Limits Without ID | DoNotKYC",
-   "description": "Centralised crypto exchanges sorted from no ID to full KYC, with their no-KYC withdrawal limits, fees and blocked countries.",
+   "description": "Centralized crypto exchanges sorted from no ID to full KYC, with their no-KYC withdrawal limits, fees and blocked countries.",
    "h1": "No-KYC crypto exchanges",
    "intro": [
-    "Centralised exchanges give you order books, deep liquidity, futures and mobile apps. The ones at the top ask for no ID document under a stated limit. Further down, some ask for ID before you can trade or withdraw. The list runs from least to most ID, so read each listing.",
+    "Centralized exchanges give you order books, deep liquidity, futures and mobile apps. The ones at the top ask for no ID document under a stated limit. Further down, some ask for ID before you can trade or withdraw. The list runs from least to most ID, so read each listing.",
     "They hold your funds while they are on the platform. Withdraw to your own wallet when you are done, and check the limit before depositing more than it allows."
    ],
    "faq": [
@@ -17,12 +17,12 @@
    ]
   },
   "/dex": {
-   "nav": "Decentralised exchanges",
-   "title": "Decentralised Exchanges (DEX) Without KYC | DoNotKYC",
-   "description": "Decentralised exchanges where you trade straight from your own wallet: no sign-up, no ID, you keep your keys.",
-   "h1": "Decentralised exchanges",
+   "nav": "Decentralized exchanges",
+   "title": "Decentralized Exchanges (DEX) Without KYC | DoNotKYC",
+   "description": "Decentralized exchanges where you trade straight from your own wallet: no sign-up, no ID, you keep your keys.",
+   "h1": "Decentralized exchanges",
    "intro": [
-    "A decentralised exchange runs on smart contracts. You connect your own wallet and trade without an account, so there is no identity to give and nobody holds your coins.",
+    "A decentralized exchange runs on smart contracts. You connect your own wallet and trade without an account, so there is no identity to give and nobody holds your coins.",
     "You pay network fees on top of the trading fee, and you need to be comfortable with a wallet. Some front-ends block certain countries even though the contracts stay open."
    ]
   },
@@ -72,7 +72,7 @@
    "description": "Binance requires identity verification. These exchanges and DEXs let you trade spot and futures without sending ID.",
    "h1": "Binance alternatives without KYC",
    "intro": [
-    "Binance asks every user to verify their identity before trading. If you used it for spot trading, altcoins or futures, the exchanges and decentralised exchanges below do the same job with no ID, or none below a limit.",
+    "Binance asks every user to verify their identity before trading. If you used it for spot trading, altcoins or futures, the exchanges and decentralized exchanges below do the same job with no ID, or none below a limit.",
     "Check each platform's limit and blocked countries before moving funds. Terms change, so read the platform's own page before you deposit."
    ]
   },
@@ -89,10 +89,10 @@
   "/alternatives/kraken": {
    "nav": "Kraken",
    "title": "Kraken Alternatives Without KYC | DoNotKYC",
-   "description": "Kraken requires identity verification to trade. Exchanges with a no-KYC tier and decentralised exchanges that need no ID.",
+   "description": "Kraken requires identity verification to trade. Exchanges with a no-KYC tier and decentralized exchanges that need no ID.",
    "h1": "Kraken alternatives without KYC",
    "intro": [
-    "Kraken requires identity verification before you can deposit and trade. These exchanges and decentralised exchanges let you trade without an ID document."
+    "Kraken requires identity verification before you can deposit and trade. These exchanges and decentralized exchanges let you trade without an ID document."
    ]
   },
   "/alternatives/kucoin": {
@@ -101,7 +101,7 @@
    "description": "KuCoin made identity verification mandatory. Where to trade altcoins without ID now.",
    "h1": "KuCoin alternatives without KYC",
    "intro": [
-    "KuCoin made identity verification mandatory for new users. For altcoin trading without ID, these exchanges, decentralised exchanges and swap services are the closest replacements."
+    "KuCoin made identity verification mandatory for new users. For altcoin trading without ID, these exchanges, decentralized exchanges and swap services are the closest replacements."
    ]
   },
   "/alternatives/revolut": {
@@ -211,7 +211,7 @@
   "advertise": {
    "title": "Be featured on DoNotKYC | Sponsored placements",
    "description": "Reach people who already avoid KYC. Labelled sponsored tiles, reviewed advertisers. Free for now in exchange for a mention of DoNotKYC on your site.",
-   "html": "<h1>Be featured on DoNotKYC</h1> <p>DoNotKYC is read by people who want to trade crypto without handing over their identity. A sponsored tile puts your service next to the platforms they compare, with a Sponsored label.</p> <p><a class=\"btn\" href=\"https://t.me/donotkyc55\" rel=\"noopener\">Contact us on Telegram{icon}</a></p> <h2>Free for now, in exchange for a mention</h2> <p>We will publish prices once we have 30 days of audience figures. Until then a tile costs nothing. In return, your site shows that DoNotKYC features you, with a link to donotkyc.com, for as long as the tile runs. Your readers see where you are listed, and ours see you.</p> <ul> <li>Write \"Featured on DoNotKYC\" (or \"Sponsored placement on DoNotKYC\").</li> <li>Put it on your home page or on a page your visitors reach from it, with a normal link to donotkyc.com.</li> <li>We check the mention before the tile goes live. If it disappears, the tile comes down.</li> </ul> <h2>Placements</h2> <ul> <li><strong>Homepage tile:</strong> one sponsor at a time, in the \"Where we would start\" section.</li> <li><strong>Topic page tile:</strong> one sponsor per page, above the list. Pages include Exchanges, Decentralised exchanges, Instant swaps, P2P markets, Bitcoin ATMs, Bridges, Bitcoin, Monero, Cash, Bank transfer, Card.</li> </ul>  <h2>The rules</h2> <ul> <li>Every tile says \"Sponsored\" and links with <code>rel=\"sponsored\"</code>.</li> <li>Paying does not change a listing, its identity level or its position in the directory.</li> <li>We review every advertiser before accepting. We refuse services with credible scam or frozen-funds reports, and anything illegal where it is offered.</li> <li>We can remove a tile if new evidence of harm to users appears. Conditions are agreed before the tile goes live.</li> </ul> <h2>How it works</h2> <ol> <li>Send us your service, the placement you want and the dates on Telegram.</li> <li>We review the service and reply.</li> <li>We agree the dates and where your mention goes.</li> <li>The tile goes live on the start date and comes down on the end date.</li> </ol>"
+   "html": "<h1>Be featured on DoNotKYC</h1> <p>DoNotKYC is read by people who want to trade crypto without handing over their identity. A sponsored tile puts your service next to the platforms they compare, with a Sponsored label.</p> <p><a class=\"btn\" href=\"https://t.me/donotkyc55\" rel=\"noopener\">Contact us on Telegram{icon}</a></p> <h2>Free for now, in exchange for a mention</h2> <p>We will publish prices once we have 30 days of audience figures. Until then a tile costs nothing. In return, your site shows that DoNotKYC features you, with a link to donotkyc.com, for as long as the tile runs. Your readers see where you are listed, and ours see you.</p> <ul> <li>Write \"Featured on DoNotKYC\" (or \"Sponsored placement on DoNotKYC\").</li> <li>Put it on your home page or on a page your visitors reach from it, with a normal link to donotkyc.com.</li> <li>We check the mention before the tile goes live. If it disappears, the tile comes down.</li> </ul> <h2>Placements</h2> <ul> <li><strong>Homepage tile:</strong> one sponsor at a time, in the \"Where we would start\" section.</li> <li><strong>Topic page tile:</strong> one sponsor per page, above the list. Pages include Exchanges, Decentralized exchanges, Instant swaps, P2P markets, Bitcoin ATMs, Bridges, Bitcoin, Monero, Cash, Bank transfer, Card.</li> </ul>  <h2>The rules</h2> <ul> <li>Every tile says \"Sponsored\" and links with <code>rel=\"sponsored\"</code>.</li> <li>Paying does not change a listing, its identity level or its position in the directory.</li> <li>We review every advertiser before accepting. We refuse services with credible scam or frozen-funds reports, and anything illegal where it is offered.</li> <li>We can remove a tile if new evidence of harm to users appears. Conditions are agreed before the tile goes live.</li> </ul> <h2>How it works</h2> <ol> <li>Send us your service, the placement you want and the dates on Telegram.</li> <li>We review the service and reply.</li> <li>We agree the dates and where your mention goes.</li> <li>The tile goes live on the start date and comes down on the end date.</li> </ol>"
   },
   "how-we-make-money": {
    "title": "How DoNotKYC makes money | DoNotKYC",

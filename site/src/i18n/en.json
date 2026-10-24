@@ -10,7 +10,7 @@
   "privacy": "Privacy guide",
   "security": "Security",
   "advertise": "Be featured",
-  "theme": "Switch colour theme",
+  "theme": "Switch color theme",
   "menu": "Open menu",
   "skip": "Skip to content",
   "language": "Language",
@@ -53,7 +53,7 @@
  },
  "types": {
   "CEX": "Exchange",
-  "DEX": "Decentralised exchange",
+  "DEX": "Decentralized exchange",
   "Instant Swap": "Instant swap",
   "P2P": "P2P market",
   "Bridge": "Bridge",
@@ -63,7 +63,7 @@
  "cats": {
   "all": "All platforms",
   "cex": "Exchanges",
-  "dex": "Decentralised",
+  "dex": "Decentralized",
   "swap": "Swaps and bridges",
   "cash": "Cash and P2P",
   "card": "Crypto cards",
@@ -134,7 +134,7 @@
   "how_p": "Each listing shows the identity the platform asks for, its limits, the regions it blocks, its fees and whether it takes card or bank deposits. We re-tag or remove a listing when the platform makes ID mandatory.",
   "t_cex_h": "Exchanges",
   "t_cex_p": "High liquidity, order books and mobile apps. Their no-KYC tiers cap withdrawals for unverified accounts.",
-  "t_dex_h": "Decentralised exchanges",
+  "t_dex_h": "Decentralized exchanges",
   "t_dex_p": "Smart contracts, no sign-up. You trade from your own wallet and keep your keys.",
   "t_swap_h": "Instant swaps and bridges",
   "t_swap_p": "Quick coin-to-coin conversions without an account, the spread built into the quote. Bridges move assets between blockchains.",
@@ -147,7 +147,7 @@
   "r2_h": "Affiliate links disclosed",
   "r2_p": "Some \"Visit\" buttons earn us a commission. Each platform page says when a link is one.",
   "guide_h": "Choosing a no-KYC platform",
-  "guide_p1": "Start from how much privacy you need and how comfortable you are with wallets. A decentralised exchange gives the most control and anonymity; an exchange with a no-KYC tier is easier and has deeper liquidity.",
+  "guide_p1": "Start from how much privacy you need and how comfortable you are with wallets. A decentralized exchange gives the most control and anonymity; an exchange with a no-KYC tier is easier and has deeper liquidity.",
   "guide_h2": "Compare the total cost",
   "guide_p2": "Look at trading fees, spreads and network fees together rather than the headline fee. Check that the coins and networks you need are supported, and that the platform has a clear history and answers when something goes wrong.",
   "guide_h3": "Test small, then move",
@@ -165,7 +165,7 @@
    ],
    [
     "Is trading without KYC legal?",
-    "It depends on where you live. Using a platform that does not ask for ID is legal in most countries, but tax and reporting rules still apply to you. Decentralised protocols face less direct oversight; you stay responsible for following your local law."
+    "It depends on where you live. Using a platform that does not ask for ID is legal in most countries, but tax and reporting rules still apply to you. Decentralized protocols face less direct oversight; you stay responsible for following your local law."
    ],
    [
     "What do None, Light and Tiered mean?",
@@ -173,11 +173,11 @@
    ],
    [
     "Which type of platform is best for beginners?",
-    "Start with an exchange that has a no-KYC tier: it works like the apps you know. A decentralised exchange gives the most privacy and control, but you need to be comfortable with a wallet and network fees."
+    "Start with an exchange that has a no-KYC tier: it works like the apps you know. A decentralized exchange gives the most privacy and control, but you need to be comfortable with a wallet and network fees."
    ],
    [
     "How do fees compare?",
-    "Exchanges have tighter spreads and fast internal transfers. Decentralised exchanges show lower protocol fees but add network costs. Instant swaps build their margin into the quote, and ATMs add a cash-handling markup."
+    "Exchanges have tighter spreads and fast internal transfers. Decentralized exchanges show lower protocol fees but add network costs. Instant swaps build their margin into the quote, and ATMs add a cash-handling markup."
    ],
    [
     "How does DoNotKYC choose platforms?",
@@ -518,14 +518,14 @@
     "h1": "Anonymous SMS numbers and eSIMs",
     "intro": [
      "An eSIM is a phone line you install by scanning a code, so nothing ships to you. A virtual number receives SMS codes without giving out your own number. The services below say they ask for no ID.",
-     "Check what each plan can do: data only, texts only or calls too. Some numbers are refused by banks and big apps. A mobile network still sees your phone and its connection."
+     "Banks and big apps refuse some of these numbers, so check what each plan can do: data only, texts only or calls too. A mobile network sees your phone and its connection."
     ]
    },
    "domains": {
     "name": "Private domains",
     "h1": "Private domain registration",
     "intro": [
-     "A private domain is registered in the name of the service, not yours, so your details stay out of the public WHOIS record. You keep the use of the domain and can ask to transfer it out.",
+     "The service registers a private domain in its own name, so your details stay out of the public WHOIS record. You keep the use of the domain and can ask to transfer it out.",
      "Check what each service asks at sign-up and how you pay. It holds the legal title to your domain, so you are trusting it with the name."
     ]
    }

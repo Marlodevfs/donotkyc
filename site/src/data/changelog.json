@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-24",
+    "title": "SMS and eSIM and private domains pages, payment filters",
+    "body": "Two new tools pages list services that say they ask for no ID: five SMS number and eSIM sellers (Crypton.sh, nadanada, simsup, MoneroSMS, sms4sats) and four private domain registrars (IncogNET, Mynymbox, Njalla, NiceVPS). Each entry quotes the service's own pages and shows the date we read them. The home page has a tools row under the platform categories, and the list now filters by cash, bank transfer or card and can hide listings under review. LNVPN is now listed as nadanada, its new name. The English text uses American spelling."
+  },
+  {
     "date": "2026-10-22",
     "title": "AceChange: card purchases paused, blocked regions corrected",
     "body": "AceChange's own pages say card and bank purchases and cash-outs are paused, with no reopening date, so it no longer shows under card payments. Its AML page lists the United States, the EEA, the United Kingdom, Russia and Belarus as blocked regions, which the listing now says. Crypto swaps run through FixedFloat and can trigger KYC case by case, so the listing moves from none to light."
@@ -32,7 +37,7 @@
   {
     "date": "2026-10-21",
     "title": "51 platforms added: the directory now lists 105",
-    "body": "Ten exchanges (Toobit, XT.com, Bitunix, HTX, Bitget, Gate, Phemex, BitMart, WEEX, CoinW), fourteen decentralised exchanges (THORChain, Raydium, KyberSwap, DODO, Meteora, Orca, Velora, CoW Swap, Curve, Jupiter, SunSwap, Matcha, BasicSwap, eigenwallet), twelve instant swaps and swap wallets (SideShift, Exolix, Godex, Houdini Swap, Swapzone, Husher, Swapuz, CypherGoat, Blockchain.com, MyEtherWallet, Zerion, SwapSpace), six bridges and aggregators (Across, Stargate, deBridge, Squid, Jumper, Rubic), five P2P markets (RoboSats, Mostro, Vexl, lnp2pBot, RetoSwap) and four Bitcoin ATM networks (Localcoin, Byte Federal, Athena Bitcoin, Bitstop). Each listing quotes what the platform's own pages say about ID and links the page. Where those pages contradict each other, the listing says so. Five of the new exchanges ask for ID before you can withdraw."
+    "body": "Ten exchanges (Toobit, XT.com, Bitunix, HTX, Bitget, Gate, Phemex, BitMart, WEEX, CoinW), fourteen decentralized exchanges (THORChain, Raydium, KyberSwap, DODO, Meteora, Orca, Velora, CoW Swap, Curve, Jupiter, SunSwap, Matcha, BasicSwap, eigenwallet), twelve instant swaps and swap wallets (SideShift, Exolix, Godex, Houdini Swap, Swapzone, Husher, Swapuz, CypherGoat, Blockchain.com, MyEtherWallet, Zerion, SwapSpace), six bridges and aggregators (Across, Stargate, deBridge, Squid, Jumper, Rubic), five P2P markets (RoboSats, Mostro, Vexl, lnp2pBot, RetoSwap) and four Bitcoin ATM networks (Localcoin, Byte Federal, Athena Bitcoin, Bitstop). Each listing quotes what the platform's own pages say about ID and links the page. Where those pages contradict each other, the listing says so. Five of the new exchanges ask for ID before you can withdraw."
   },
   {
     "date": "2026-10-21",
