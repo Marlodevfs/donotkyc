@@ -196,7 +196,13 @@
   "pay_h": "Coin veya ödeme yöntemine göre satın al",
   "pay_p": "Her sayfa yalnızca bunu destekleyen platformları listeler.",
   "coin_from": "Satın al",
-  "pay_from": "Ödeme"
+  "pay_from": "Ödeme",
+  "more": "Daha fazla filtre",
+  "g_pay": "Ödeme yöntemi",
+  "g_trust": "Kontrol ve erişim",
+  "g_opt": "Seçenekler",
+  "site_search": "Tüm sitede “{x}” ara",
+  "g_note": "Yalnızca platformun kendi sayfalarında doğruladığımız bilgileri gösterir."
  },
  "sponsor": {
   "label": "Sponsorlu",
@@ -1168,6 +1174,10 @@
    "encryption": "Şifreleme",
    "metadata": "Meta veri temizleyiciler",
    "sharing": "Dosya paylaşımı"
-  }
+  },
+  "f_label": "Listeyi filtrele",
+  "f_none": "Hiçbir şey istemez",
+  "f_open": "Açık kaynak kodu",
+  "shown": "{m} içinden {n} gösteriliyor"
  }
 }

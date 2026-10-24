@@ -24,6 +24,8 @@ if (page === 'vpn') {
   blocked = (html.match(/<section[\s\S]*?<\/section>/g) ?? []).slice(1).join('');
 }
 const crumbs = [{ name: t('nav.directory'), item: site + L('/') }, { name: t('tools.name'), item: site + L('/tools') }, { name: x.name, item: site + L(`/tools/${page}`) }];
+const filterable = items.length >= 6;
+const tcfg = { shown: t('tools.shown') };
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, ...c })) },
   { '@context': 'https://schema.org', '@type': 'ItemList', name: x.h1, numberOfItems: items.length,
@@ -40,12 +42,19 @@ const href = (it: Tool) => it.affiliate ?? it.url;
       <p class="small">{t('tools.sort')}</p>
       {lang !== 'en' && items.some((i) => i.facts.some((f) => tx(lang, f) === f)) && <p class="small">{t('tools.english')}</p>}
     </header>
+    {filterable && (
+      <div class="tfilters" role="group" aria-label={t('tools.f_label')}>
+        <button class="chip" type="button" data-tf="none" aria-pressed="false">{t('tools.f_none')}</button>
+        <button class="chip" type="button" data-tf="open" aria-pressed="false">{t('tools.f_open')}</button>
+        <span class="small" id="tcount" aria-live="polite"></span>
+      </div>
+    )}
     {groups.map((g) => (
       <section class="tsec" aria-labelledby={g.key ? `s-${g.key}` : undefined}>
         {g.key && <h2 id={`s-${g.key}`}>{dict(lang).tools.sections[g.key]}</h2>}
       <ol class="tl">
         {g.items.map((it) => (
-        <li class="tool" id={it.slug}>
+        <li class="tool" id={it.slug} data-id={it.identity} data-code={it.code}>
           <div class="th">
             <H>{it.name}</H>
             <div class="tb">
@@ -76,4 +85,27 @@ const href = (it: Tool) => it.affiliate ?? it.url;
       </ul>
     </section>
   </div>
+  {filterable && <script is:inline type="application/json" id="tcfg" set:html={JSON.stringify(tcfg)} />}
+  {filterable && (
+    <script is:inline>
+      (function () {
+        var C = JSON.parse(document.getElementById('tcfg').textContent), S = { none: false, open: false };
+        var tools = Array.prototype.slice.call(document.querySelectorAll('li.tool')), out = document.getElementById('tcount');
+        function render() {
+          var n = 0;
+          tools.forEach(function (li) { var ok = (!S.none || li.dataset.id === 'none') && (!S.open || li.dataset.code === 'open'); li.hidden = !ok; if (ok) n++; });
+          document.querySelectorAll('.tsec').forEach(function (s) { s.hidden = !s.querySelector('li.tool:not([hidden])'); });
+          out.textContent = S.none || S.open ? C.shown.replace('{n}', n).replace('{m}', tools.length) : '';
+          var f = ['none', 'open'].filter(function (k) { return S[k]; });
+          try { history.replaceState(null, '', location.pathname + (f.length ? '?f=' + f.join(',') : '') + location.hash); } catch (e) {}
+        }
+        document.querySelectorAll('.chip[data-tf]').forEach(function (b) {
+          b.addEventListener('click', function () { var k = b.dataset.tf; S[k] = !S[k]; b.setAttribute('aria-pressed', S[k]); render(); });
+        });
+        var f = (new URLSearchParams(location.search).get('f') || '').split(',');
+        ['none', 'open'].forEach(function (k) { if (f.indexOf(k) !== -1) { S[k] = true; document.querySelector('.chip[data-tf="' + k + '"]').setAttribute('aria-pressed', 'true'); } });
+        render();
+      })();
+    </script>
+  )}
 </Base>

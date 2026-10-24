@@ -45,7 +45,7 @@ const jsonld = [
   { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang,
     mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
-const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us'), cash: t('home.chip_cash'), bank: t('home.chip_bank'), card: t('home.chip_card'), hide: t('home.chip_hide') };
+const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us'), cash: t('home.chip_cash'), bank: t('home.chip_bank'), card: t('home.chip_card'), hide: t('home.chip_hide'), cust: t('platform.custody_v.self'), tor: t('platform.tor'), open: t('platform.oss'), siteSearch: t('home.site_search'), searchUrl: L('/search') };
 ---
 <Base title={t('home.title')} description={t('home.description', { n: platforms.length })} path="/" lang={lang} localized nav="directory" jsonld={jsonld}>
   <div class="wrap">
@@ -99,16 +99,38 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
           <button class="chip" type="button" data-f="none" aria-pressed="false"><Icon name="user-x" size={16} />{t('home.chip_none')}</button>
           <button class="chip" type="button" data-f="fiat" aria-pressed="false"><Icon name="credit-card" size={16} />{t('home.chip_fiat')}</button>
           <button class="chip" type="button" data-f="us" aria-pressed="false"><Icon name="map-pin" size={16} />{t('home.chip_us')}</button>
-          <button class="chip" type="button" data-p="cash" aria-pressed="false">{t('home.chip_cash')}</button>
-          <button class="chip" type="button" data-p="bank" aria-pressed="false">{t('home.chip_bank')}</button>
-          <button class="chip" type="button" data-p="card" aria-pressed="false">{t('home.chip_card')}</button>
-          <button class="chip" type="button" data-f="allpay" aria-pressed="false">{t('home.chip_all')}</button>
-          <button class="chip" type="button" data-f="hide" aria-pressed="false">{t('home.chip_hide')}</button>
           <label class="vis" for="sort">{t('home.sort')}</label>
           <select id="sort"><option value="lvl">{t('home.sort_lvl')}</option><option value="name">{t('home.sort_name')}</option></select>
         </div>
       </div>
+      <details class="more" id="more">
+        <summary><Icon name="sliders-horizontal" size={16} />{t('home.more')}</summary>
+        <div class="fgroups">
+          <fieldset class="fgroup"><legend>{t('home.g_pay')}</legend>
+            <div class="frow">
+              <button class="chip" type="button" data-p="cash" aria-pressed="false">{t('home.chip_cash')}</button>
+              <button class="chip" type="button" data-p="bank" aria-pressed="false">{t('home.chip_bank')}</button>
+              <button class="chip" type="button" data-p="card" aria-pressed="false">{t('home.chip_card')}</button>
+            </div>
+          </fieldset>
+          <fieldset class="fgroup"><legend>{t('home.g_trust')}</legend>
+            <div class="frow">
+              <button class="chip" type="button" data-f="cust" aria-pressed="false">{t('platform.custody_v.self')}</button>
+              <button class="chip" type="button" data-f="tor" aria-pressed="false">{t('platform.tor')}</button>
+              <button class="chip" type="button" data-f="open" aria-pressed="false">{t('platform.oss')}</button>
+            </div>
+            <p class="fnote">{t('home.g_note')}</p>
+          </fieldset>
+          <fieldset class="fgroup"><legend>{t('home.g_opt')}</legend>
+            <div class="frow">
+              <button class="chip" type="button" data-f="allpay" aria-pressed="false">{t('home.chip_all')}</button>
+              <button class="chip" type="button" data-f="hide" aria-pressed="false">{t('home.chip_hide')}</button>
+            </div>
+          </fieldset>
+        </div>
+      </details>
       <div class="active" id="active" aria-live="polite"></div>
+      <p class="sitesearch" id="sitesearch" hidden><a href="#"></a></p>
       <Rows items={list} id="list" hay={hay} lang={lang} />
       <div class="empty" id="empty" hidden>{t('home.empty')} <button type="button" data-reset>{t('home.clear_filters')}</button></div>
     </section>
@@ -198,9 +220,32 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
   <script is:inline>
     (function () {
       var I = JSON.parse(document.getElementById('i18n').textContent);
-      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, sort: 'lvl' };
+      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: 'lvl' };
       var list = document.getElementById('list'), items = Array.prototype.slice.call(list.children);
       var q = document.getElementById('q'), cats = document.getElementById('cats');
+      var FLAGS = ['none', 'fiat', 'us', 'cust', 'tor', 'open', 'allpay', 'hide'];
+      function sync() {
+        var u = new URLSearchParams();
+        if (S.cat !== 'all') u.set('c', S.cat);
+        if (S.q.trim()) u.set('q', S.q.trim());
+        var f = FLAGS.filter(function (k) { return S[k]; }); if (f.length) u.set('f', f.join(','));
+        if (S.pay.length) u.set('pay', S.pay.join(','));
+        if (S.sort !== 'lvl') u.set('s', S.sort);
+        var qs = u.toString(); try { history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash); } catch (e) {}
+      }
+      function restore() {
+        var u = new URLSearchParams(location.search), f = (u.get('f') || '').split(',');
+        FLAGS.forEach(function (k) { S[k] = f.indexOf(k) !== -1; });
+        S.pay = (u.get('pay') || '').split(',').filter(function (x) { return ['cash', 'bank', 'card'].indexOf(x) !== -1; });
+        var c = u.get('c'); if (c && I.labels[c]) S.cat = c;
+        if (u.get('s') === 'name') S.sort = 'name';
+        if (u.get('q')) { S.q = u.get('q'); q.value = S.q; }
+        document.querySelectorAll('.chip[data-f]').forEach(function (b) { b.setAttribute('aria-pressed', S[b.dataset.f]); });
+        document.querySelectorAll('.chip[data-p]').forEach(function (b) { b.setAttribute('aria-pressed', S.pay.indexOf(b.dataset.p) !== -1); });
+        cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === S.cat); });
+        document.getElementById('sort').value = S.sort;
+        if (S.pay.length || S.cust || S.tor || S.open || S.allpay || S.hide) document.getElementById('more').open = true;
+      }
       function payOk(v) {
         var have = (v || '').split(' ');
         return S.allpay ? S.pay.every(function (x) { return have.indexOf(x) !== -1; }) : S.pay.some(function (x) { return have.indexOf(x) !== -1; });
@@ -209,7 +254,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         var t = S.q.trim().toLowerCase(), n = 0;
         items.forEach(function (li) {
           var d = li.dataset;
-          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!S.pay.length || payOk(d.pay)) && (!S.hide || d.status !== 'check') && (!t || d.hay.indexOf(t) !== -1);
+          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!S.cust || d.cust === 'self') && (!S.tor || d.tor === '1') && (!S.open || d.open === '1') && (!S.pay.length || payOk(d.pay)) && (!S.hide || d.status !== 'check') && (!t || d.hay.indexOf(t) !== -1);
           li.hidden = !ok; if (ok) n++;
         });
         items.slice().sort(function (a, b) { return S.sort === 'name' ? a.dataset.name.localeCompare(b.dataset.name) : a.dataset.rank - b.dataset.rank; })
@@ -218,8 +263,11 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         document.getElementById('empty').hidden = n > 0;
         var act = [];
         if (S.cat !== 'all') act.push(I.labels[S.cat]); if (t) act.push('"' + S.q.trim() + '"');
-        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us); S.pay.forEach(function (x) { act.push(I[x]); }); if (S.hide) act.push(I.hide);
+        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us); S.pay.forEach(function (x) { act.push(I[x]); }); if (S.cust) act.push(I.cust); if (S.tor) act.push(I.tor); if (S.open) act.push(I.open); if (S.hide) act.push(I.hide);
         var a = document.getElementById('active'); a.textContent = '';
+        var ss = document.getElementById('sitesearch'), qq = S.q.trim();
+        ss.hidden = !qq; if (qq) { var sa = ss.firstChild; sa.textContent = I.siteSearch.replace('{x}', qq); sa.href = I.searchUrl + '?q=' + encodeURIComponent(qq); }
+        sync();
         if (act.length) { a.append(I.filteredBy.replace('{x}', act.join(', ')) + ' '); var b = document.createElement('button'); b.type = 'button'; b.dataset.reset = ''; b.textContent = I.clear; a.append(b); }
       }
       cats.addEventListener('click', function (e) {
@@ -245,12 +293,12 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       });
       document.addEventListener('click', function (e) {
         if (!e.target.closest('[data-reset]')) return;
-        S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, sort: S.sort }; q.value = '';
+        S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: S.sort }; q.value = '';
         document.querySelectorAll('.chip[data-f], .chip[data-p]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
         cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === 'all'); });
         render();
       });
-      var p = new URLSearchParams(location.search).get('q'); if (p) { q.value = S.q = p; render(); }
+      restore(); render();
     })();
   </script>
 </Base>

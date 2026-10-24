@@ -196,7 +196,13 @@
   "pay_h": "Buy by coin or payment method",
   "pay_p": "Each page lists only the platforms that support it.",
   "coin_from": "Buy",
-  "pay_from": "Pay by"
+  "pay_from": "Pay by",
+  "more": "More filters",
+  "g_pay": "Payment method",
+  "g_trust": "Control and access",
+  "g_opt": "Options",
+  "site_search": "Search the whole site for \"{x}\"",
+  "g_note": "Lists only what we confirmed on the platform's own pages."
  },
  "sponsor": {
   "label": "Sponsored",
@@ -541,6 +547,10 @@
    "encryption": "Encryption",
    "metadata": "Metadata cleaners",
    "sharing": "File sharing"
-  }
+  },
+  "f_label": "Filter the list",
+  "f_none": "Asks for nothing",
+  "f_open": "Open source code",
+  "shown": "{n} of {m} shown"
  }
 }

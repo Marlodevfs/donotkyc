@@ -196,7 +196,13 @@
   "pay_h": "Kaufen nach Coin oder Zahlungsmethode",
   "pay_p": "Jede Seite listet nur die Plattformen, die das unterstützen.",
   "coin_from": "Kaufen",
-  "pay_from": "Zahlen per"
+  "pay_from": "Zahlen per",
+  "more": "Weitere Filter",
+  "g_pay": "Zahlungsart",
+  "g_trust": "Kontrolle und Zugang",
+  "g_opt": "Optionen",
+  "site_search": "Auf der ganzen Seite nach „{x}“ suchen",
+  "g_note": "Zeigt nur, was wir auf den eigenen Seiten der Plattform bestätigt haben."
  },
  "sponsor": {
   "label": "Gesponsert",
@@ -1168,6 +1174,10 @@
    "encryption": "Verschlüsselung",
    "metadata": "Metadaten-Bereinigung",
    "sharing": "Dateien teilen"
-  }
+  },
+  "f_label": "Liste filtern",
+  "f_none": "Verlangt nichts",
+  "f_open": "Offener Quellcode",
+  "shown": "{n} von {m} angezeigt"
  }
 }

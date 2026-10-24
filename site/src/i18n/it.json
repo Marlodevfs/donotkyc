@@ -196,7 +196,13 @@
   "pay_h": "Compra per moneta o metodo di pagamento",
   "pay_p": "Ogni pagina elenca solo le piattaforme che lo supportano.",
   "coin_from": "Compra",
-  "pay_from": "Paga con"
+  "pay_from": "Paga con",
+  "more": "Altri filtri",
+  "g_pay": "Metodo di pagamento",
+  "g_trust": "Controllo e accesso",
+  "g_opt": "Opzioni",
+  "site_search": "Cerca «{x}» in tutto il sito",
+  "g_note": "Mostra solo ciò che abbiamo confermato sulle pagine della piattaforma."
  },
  "sponsor": {
   "label": "Sponsorizzato",
@@ -1168,6 +1174,10 @@
    "encryption": "Cifratura",
    "metadata": "Pulitori di metadati",
    "sharing": "Condivisione di file"
-  }
+  },
+  "f_label": "Filtra l'elenco",
+  "f_none": "Non chiede nulla",
+  "f_open": "Codice aperto",
+  "shown": "{n} di {m} mostrati"
  }
 }
