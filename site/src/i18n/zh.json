@@ -284,7 +284,8 @@
   "note_h": "说明",
   "status_note_nonkyc-io": "Nonkyc.io 称已根据法国金融法规停止为法国用户提供服务。其网站在法国已无法访问。",
   "status_note_synapse-protocol": "Synapse 的网站现在会跳转到期权交易产品 Hypercall。该页面上仍保留桥接服务的链接（2026 年 10 月 21 日核查）。",
-  "status_note_acechange": "银行卡和转账购买以及兑出法币已暂停，未公布恢复日期。兑换仍可使用。其 AML 页面将美国、欧洲经济区和英国列为受限地区（2026 年 10 月 22 日核查）。"
+  "status_note_acechange": "银行卡和转账购买以及兑出法币已暂停，未公布恢复日期。兑换仍可使用。其 AML 页面将美国、欧洲经济区和英国列为受限地区（2026 年 10 月 22 日核查）。",
+  "coins_ok": "已确认的币种"
  },
  "data": {
   "Depends on the partner": "取决于合作方",

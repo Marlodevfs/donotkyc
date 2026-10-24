@@ -284,7 +284,8 @@
   "note_h": "Note",
   "status_note_nonkyc-io": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France.",
   "status_note_synapse-protocol": "Synapse's website now redirects to Hypercall, an options trading product. The bridge is still linked from that page (checked 21 October 2026).",
-  "status_note_acechange": "Card and bank purchases and cash-outs are paused, with no reopening date announced. Swaps still work. Its AML page lists the United States, the EEA and the United Kingdom among blocked regions (checked 22 October 2026)."
+  "status_note_acechange": "Card and bank purchases and cash-outs are paused, with no reopening date announced. Swaps still work. Its AML page lists the United States, the EEA and the United Kingdom among blocked regions (checked 22 October 2026).",
+  "coins_ok": "Coins we confirmed"
  },
  "data": {
   "Depends on the partner": "Depends on the partner",

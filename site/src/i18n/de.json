@@ -284,7 +284,8 @@
   "note_h": "Hinweis",
   "status_note_nonkyc-io": "Nonkyc.io gibt an, Nutzer in Frankreich auf Grundlage des französischen Finanzrechts nicht mehr zu bedienen. Die Website ist aus Frankreich nicht mehr erreichbar.",
   "status_note_synapse-protocol": "Die Website von Synapse leitet jetzt auf Hypercall weiter, ein Produkt für den Optionshandel. Die Bridge ist von dieser Seite aus weiterhin verlinkt (geprüft am 21. Oktober 2026).",
-  "status_note_acechange": "Käufe per Karte oder Überweisung und Auszahlungen in Fiat sind ausgesetzt, ohne angekündigtes Wiedereröffnungsdatum. Swaps funktionieren weiterhin. Seine AML-Seite nennt die USA, den EWR und das Vereinigte Königreich als gesperrte Regionen (geprüft am 22. Oktober 2026)."
+  "status_note_acechange": "Käufe per Karte oder Überweisung und Auszahlungen in Fiat sind ausgesetzt, ohne angekündigtes Wiedereröffnungsdatum. Swaps funktionieren weiterhin. Seine AML-Seite nennt die USA, den EWR und das Vereinigte Königreich als gesperrte Regionen (geprüft am 22. Oktober 2026).",
+  "coins_ok": "Bestätigte Coins"
  },
  "data": {
   "Depends on the partner": "Hängt vom Partner ab",

@@ -7,6 +7,7 @@ import { platforms, byLeastId, visitUrl, reportUrl, CATEGORY_PATH, type Platform
 import { useT, lp, tx, HREFLANG, type Lang } from '../i18n';
 import { pairsFor } from '../data/compare';
 
+const COIN: Record<string, string> = { xmr: 'Monero', btc: 'Bitcoin', ln: 'Lightning' };
 interface Props { p: Platform; lang: Lang }
 const { p, lang } = Astro.props;
 const t = useT(lang);
@@ -88,6 +89,7 @@ const jsonld = {
             {p.tor !== null && <div><dt>{t('platform.tor')}</dt><dd>{p.tor ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.open_source !== null && <div><dt>{t('platform.oss')}</dt><dd>{p.open_source ? t('platform.yes') : t('platform.no')}</dd></div>}
             {p.cryptocurrencies && <div><dt>{t('platform.coins')}</dt><dd>{p.cryptocurrencies}</dd></div>}
+            {p.coins?.length > 0 && <div><dt>{t('platform.coins_ok')}</dt><dd>{p.coins.map((c: string) => COIN[c]).join(', ')}</dd></div>}
           </dl>
         </section>
         {cmps.length > 0 && (

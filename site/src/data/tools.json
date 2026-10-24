@@ -1517,7 +1517,8 @@
    "Sign-up needs only a working email address.",
    "Pay with crypto or cash sent by post.",
    "Prepaid: a service ends when you stop paying.",
-   "Says it keeps no access or backdoor to your server."
+   "Says it keeps no access or backdoor to your server.",
+   "Its privacy policy says it collects your full name, billing and contact details, and keeps the IP address and time of each visit."
   ]
  },
  {
@@ -1660,6 +1661,100 @@
    "Says it does not require personal data. The page does not name the registrant or say how identity is kept private.",
    "Its page mentions Bitcoin, Ethereum, Monero, Zcash, Litecoin and USDT. The full list of payment methods is on a separate page that was not read.",
    "Based in Dominica."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "sporestack",
+  "name": "SporeStack",
+  "url": "https://sporestack.com",
+  "identity": "none",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "VPS and bare-metal servers resold from providers such as DigitalOcean and Vultr.",
+   "No account: you get a payment token and keep it yourself. Email is only for support.",
+   "Pay with Monero, Bitcoin, Bitcoin Cash or USDT (ERC20).",
+   "A new token needs a first deposit of 100 dollars. Later deposits start at 5 dollars.",
+   "Says it has no KYC and will never ask for a name or address.",
+   "Says it cannot guarantee privacy and answers valid legal requests from the US and the host country."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "cockbox",
+  "name": "Cockbox",
+  "url": "https://cockbox.org",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "Linux and BSD VPS from 10 to 60 dollars a month, in Moldova and Romania.",
+   "Calls itself Tor-friendly.",
+   "Pay with Bitcoin or Monero. A payment has 3 days to confirm.",
+   "Its privacy policy says it collects the email you provide. It does not mention ID or KYC.",
+   "Says it does not look at what is on your server unless forced by a legal order."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "mynymbox",
+  "name": "Mynymbox",
+  "url": "https://mynymbox.io",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "KVM VPS at 4 euros a month, in the Netherlands and Finland. Shared hosting is 3.50 euros.",
+   "The only required identifier is an email address. An alias works.",
+   "Pay with Bitcoin, Lightning, Monero, Cashu, Litecoin or Zcash. Other coins go through a Trocador swap. No cards, PayPal or wires.",
+   "Logs IP addresses on its client portal and panels for security, and says it does not use them for marketing or tracking.",
+   "VPN and Tor access are allowed."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "servers-guru",
+  "name": "servers.guru",
+  "url": "https://servers.guru/anonymous-vps/",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "VPS from 4.99 euros a month in the Netherlands, Montreal and Singapore. The Finland plans are out of stock.",
+   "Keeps your email and an optional name, which it says does not need to be accurate.",
+   "Pay with card, PayPal, Bitcoin, Monero, Litecoin, Ethereum, USDT, Bitcoin Cash or Tron. It advises crypto, especially Monero, because a card ties your identity to the order.",
+   "Refunds are generally not offered, and it can remove an account without notice."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "nicevps",
+  "name": "NiceVPS",
+  "url": "https://www.nicevps.net",
+  "identity": "unstated",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "VPS from 9.99 euros a month, web hosting from 3.99 euros, dedicated servers from 59.99 euros.",
+   "Says it never asks for personal data. Optional details are for invoices.",
+   "Accepts Bitcoin, Monero, Dash and Zcash, plus other methods listed on a separate page.",
+   "Runs from Dominica. Says it suspends service only with a valid court order."
+  ]
+ },
+ {
+  "page": "anonymous-vps",
+  "slug": "bit-hosting",
+  "name": "bit.hosting",
+  "url": "https://bit.hosting/en/vps-monero",
+  "identity": "unstated",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "VPS paid in Monero, from 5 dollars a month, in 12 countries from the Netherlands to Ukraine.",
+   "Says it has no banks, no KYC and no IDs. Its terms say it may ask for more information in some cases for AML or KYC risk.",
+   "Its terms say technical logs are processed, with no retention period stated.",
+   "Refunds only when the service was not provided. It can suspend an account without notice for serious violations."
   ]
  }
 ]
