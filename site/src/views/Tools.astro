@@ -58,7 +58,7 @@ const href = (it: Tool) => it.affiliate ?? it.url;
           <p class="tm">
             <a class="go" href={href(it)} rel={it.affiliate ? 'sponsored noopener noreferrer' : 'noopener'} target="_blank">{t('tools.visit', { name: it.name })}<Icon name="arrow-up-right" size={16} /></a>
             {it.release && it.repo && <span>{t('tools.release')} <a href={it.repo} rel="noopener">{it.release}</a></span>}
-            <span>{t('tools.checked')} {CHECKED}</span>
+            <span>{t('tools.checked')} {it.checked ?? CHECKED}</span>
           </p>
         </li>
         ))}

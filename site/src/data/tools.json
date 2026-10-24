@@ -1534,7 +1534,8 @@
    "Pay with Bitcoin (on-chain or Lightning) or Monero. Other coins are swapped at checkout through Trocador.",
    "The data eSIM cannot receive calls, SMS or bank codes.",
    "Refund or replacement within 7 days if the eSIM is not installed."
-  ]
+  ],
+  "checked": "2026-10-24"
  },
  {
   "page": "sms-esim",
@@ -1549,7 +1550,8 @@
    "Pay with crypto (it recommends Monero and Bitcoin), card or bank transfer.",
    "Says it cannot read your messages. Its FAQ admits that some metadata, such as dates, is not encrypted.",
    "Its FAQ says virtual numbers are not for 2FA, banking or social-app verification."
-  ]
+  ],
+  "checked": "2026-10-24"
  },
  {
   "page": "sms-esim",
@@ -1564,7 +1566,8 @@
    "Says \"No account. No email. No ID.\" and no KYC.",
    "Pay with Bitcoin (including Lightning), Monero, Zcash, ETH, USDT, USDC or card.",
    "Also sells a VPN, listed on the VPN page; it was called LNVPN until it changed its name."
-  ]
+  ],
+  "checked": "2026-10-24"
  },
  {
   "page": "sms-esim",
@@ -1579,7 +1582,8 @@
    "Pay with Bitcoin, fiat or altcoins, manually for now. It calls Monero the most private method.",
    "Says Tor and VPNs are allowed and recommended.",
    "Refunds are generally not given."
-  ]
+  ],
+  "checked": "2026-10-24"
  },
  {
   "page": "sms-esim",
@@ -1592,6 +1596,7 @@
    "Temporary numbers to receive SMS verification codes. Tabs for Receive, Rent and Email.",
    "Pay a Lightning invoice, then the number and code appear.",
    "Price and availability are shown before you create the order."
-  ]
+  ],
+  "checked": "2026-10-24"
  }
 ]

@@ -5,7 +5,7 @@ export type Identity = 'none' | 'account' | 'id' | 'unstated';
 export type Code = 'open' | 'partial' | 'proprietary' | 'unstated';
 export interface Tool {
   page: string; slug: string; name: string; url: string; identity: Identity; code: Code; facts: string[];
-  affiliate?: string; release?: string; repo?: string; note?: string; section?: string;
+  affiliate?: string; checked?: string; release?: string; repo?: string; note?: string; section?: string;
 }
 export interface ToolPage { key: string; group: 'network' | 'crypto' | 'devices'; }
 
