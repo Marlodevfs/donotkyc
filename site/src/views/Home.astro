@@ -33,7 +33,7 @@ const hay = (p: (typeof platforms)[number]) =>
     .join(' ').toLowerCase();
 const picks = ['bisq', 'trocador', 'peach-bitcoin'].map((slug) => ({ p: platforms.find((x) => x.slug === slug)!, text: t(`home.pick_${slug}`) }));
 const faq = t('home.faq') as [string, string][];
-const toolRow = [['vpn', 'shield'], ['email', 'mail'], ['email-aliases', 'at-sign'], ['sms-esim', 'smartphone'], ['anonymous-vps', 'server'], ['tor', 'globe']] as const;
+const toolRow = [['vpn', 'shield'], ['email', 'mail'], ['sms-esim', 'smartphone'], ['domains', 'link'], ['anonymous-vps', 'server'], ['tor', 'globe']] as const;
 const catLabels = Object.fromEntries(CATEGORIES.map((c) => [c.key, t(`cats.${c.key}`)]));
 
 const jsonld = [
