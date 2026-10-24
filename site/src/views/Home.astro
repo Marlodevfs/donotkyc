@@ -262,6 +262,8 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       }
       function payOk(v) {
         var have = (v || '').split(' ');
+        // « fiat » veut dire carte ou virement, sans plus de détail : il compte pour l'un ou l'autre, jamais pour les deux à la fois.
+        if (have.indexOf('fiat') !== -1 && !S.allpay) have = have.concat(['bank', 'card']);
         return S.allpay ? S.pay.every(function (x) { return have.indexOf(x) !== -1; }) : S.pay.some(function (x) { return have.indexOf(x) !== -1; });
       }
       function render() {
