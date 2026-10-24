@@ -202,7 +202,8 @@
   "g_trust": "Kontrol ve erişim",
   "g_opt": "Seçenekler",
   "site_search": "Tüm sitede “{x}” ara",
-  "g_note": "Yalnızca platformun kendi sayfalarında doğruladığımız bilgileri gösterir."
+  "g_note": "Yalnızca platformun kendi sayfalarında doğruladığımız bilgileri gösterir.",
+  "g_coins": "Kabul edilen coinler"
  },
  "sponsor": {
   "label": "Sponsorlu",

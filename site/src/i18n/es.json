@@ -202,7 +202,8 @@
   "g_trust": "Control y acceso",
   "g_opt": "Opciones",
   "site_search": "Buscar «{x}» en todo el sitio",
-  "g_note": "Muestra solo lo que confirmamos en las páginas de la propia plataforma."
+  "g_note": "Muestra solo lo que confirmamos en las páginas de la propia plataforma.",
+  "g_coins": "Monedas aceptadas"
  },
  "sponsor": {
   "label": "Patrocinado",

@@ -27,7 +27,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.mexc.com/support/articles/17827791519717"
+    "kyc_source": "https://www.mexc.com/support/articles/17827791519717",
+    "coins": []
   },
   {
     "slug": "bybit",
@@ -57,7 +58,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://cointelegraph.com/news/bybit-to-introduce-mandatory-kyc-requirements-starting-may-8"
+    "kyc_source": "https://cointelegraph.com/news/bybit-to-introduce-mandatory-kyc-requirements-starting-may-8",
+    "coins": []
   },
   {
     "slug": "coinex",
@@ -87,7 +89,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.coinex.com/hc/en-us/articles/360034457433-How-to-Increase-Withdrawal-Limit-"
+    "kyc_source": "https://support.coinex.com/hc/en-us/articles/360034457433-How-to-Increase-Withdrawal-Limit-",
+    "coins": []
   },
   {
     "slug": "nonkyc-io",
@@ -116,7 +119,8 @@
     "open_source": null,
     "status": "active",
     "status_note": "Nonkyc.io says it has stopped serving users in France, under French financial law. Its site is no longer accessible from France.",
-    "kyc_source": "https://nonkyc.io/legal/terms"
+    "kyc_source": "https://nonkyc.io/legal/terms",
+    "coins": []
   },
   {
     "slug": "bingx",
@@ -146,7 +150,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bingx.com/support/articles/33457408621593/"
+    "kyc_source": "https://bingx.com/support/articles/33457408621593/",
+    "coins": []
   },
   {
     "slug": "primexbt",
@@ -177,7 +182,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account"
+    "kyc_source": "https://primexbt.help/en/articles/9008679-how-to-verify-your-account",
+    "coins": []
   },
   {
     "slug": "tapbit",
@@ -210,7 +216,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://blog.tapbit.com/how-to-complete-kyc-verification-on-tapbit/"
+    "kyc_source": "https://blog.tapbit.com/how-to-complete-kyc-verification-on-tapbit/",
+    "coins": []
   },
   {
     "slug": "kcex",
@@ -242,7 +249,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.kcex.com/en-us/support/articles/24159228562585"
+    "kyc_source": "https://www.kcex.com/en-us/support/articles/24159228562585",
+    "coins": []
   },
   {
     "slug": "mt-pelerin",
@@ -275,7 +283,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.mtpelerin.com/faq"
+    "kyc_source": "https://www.mtpelerin.com/faq",
+    "coins": []
   },
   {
     "slug": "blofin",
@@ -306,7 +315,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://blofin.com/en/support/articles/7296238795279-TERMS-OF-USE"
+    "kyc_source": "https://blofin.com/en/support/articles/7296238795279-TERMS-OF-USE",
+    "coins": []
   },
   {
     "slug": "uniswap",
@@ -336,7 +346,8 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.uniswap.org/hc/en-us/articles/30935100859661-Uniswap-Labs-Terms-of-Service"
+    "kyc_source": "https://support.uniswap.org/hc/en-us/articles/30935100859661-Uniswap-Labs-Terms-of-Service",
+    "coins": []
   },
   {
     "slug": "pancakeswap",
@@ -367,7 +378,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://pancakeswap.finance/terms-of-service"
+    "kyc_source": "https://pancakeswap.finance/terms-of-service",
+    "coins": []
   },
   {
     "slug": "dydx",
@@ -396,7 +408,8 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.dydx.xyz/legal/terms-of-use"
+    "kyc_source": "https://www.dydx.xyz/legal/terms-of-use",
+    "coins": []
   },
   {
     "slug": "bisq",
@@ -429,7 +442,8 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bisq.wiki/Frequently_asked_questions"
+    "kyc_source": "https://bisq.wiki/Frequently_asked_questions",
+    "coins": []
   },
   {
     "slug": "edgex",
@@ -461,7 +475,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://pro.edgex.exchange/userterms"
+    "kyc_source": "https://pro.edgex.exchange/userterms",
+    "coins": []
   },
   {
     "slug": "hyperliquid",
@@ -492,7 +507,8 @@
     "open_source": false,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://app.hyperliquid.xyz/terms"
+    "kyc_source": "https://app.hyperliquid.xyz/terms",
+    "coins": []
   },
   {
     "slug": "1inch",
@@ -521,7 +537,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://1inch.com/assets/1inch_com_terms_of_use.pdf"
+    "kyc_source": "https://1inch.com/assets/1inch_com_terms_of_use.pdf",
+    "coins": []
   },
   {
     "slug": "degate",
@@ -553,7 +570,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://degate.com/en/terms"
+    "kyc_source": "https://degate.com/en/terms",
+    "coins": []
   },
   {
     "slug": "bim-exchange",
@@ -586,7 +604,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://exchange.bim.finance/en/terms-services"
+    "kyc_source": "https://exchange.bim.finance/en/terms-services",
+    "coins": []
   },
   {
     "slug": "ghostswap",
@@ -616,7 +635,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://ghostswap.io/"
+    "kyc_source": "https://ghostswap.io/",
+    "coins": []
   },
   {
     "slug": "portal-bridge",
@@ -646,7 +666,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://portalbridge.com/terms-of-service"
+    "kyc_source": "https://portalbridge.com/terms-of-service",
+    "coins": []
   },
   {
     "slug": "synapse-protocol",
@@ -675,7 +696,8 @@
     "open_source": null,
     "status": "active",
     "status_note": "Synapse's website now redirects to Hypercall, an options trading product. The bridge is still linked from that page (checked 21 October 2026).",
-    "kyc_source": "https://explorer.synapseprotocol.com/terms"
+    "kyc_source": "https://explorer.synapseprotocol.com/terms",
+    "coins": []
   },
   {
     "slug": "symbiosis-finance",
@@ -704,7 +726,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://symbiosis.finance/terms-of-use"
+    "kyc_source": "https://symbiosis.finance/terms-of-use",
+    "coins": []
   },
   {
     "slug": "coinstar-bitcoin-machines",
@@ -730,7 +753,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/"
+    "kyc_source": "https://www.coinstar.com/faq/how-do-you-mitigate-fraud/",
+    "coins": []
   },
   {
     "slug": "libertyx-atm",
@@ -756,7 +780,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits"
+    "kyc_source": "https://libertyx.zendesk.com/hc/en-us/articles/203148139-What-information-is-required-to-sign-up-for-a-LibertyX-account-What-are-the-purchasing-limits",
+    "coins": []
   },
   {
     "slug": "rockitcoin",
@@ -782,7 +807,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.rockitcoin.com/faq"
+    "kyc_source": "https://www.rockitcoin.com/faq",
+    "coins": []
   },
   {
     "slug": "bitcoin-depot",
@@ -808,7 +834,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id"
+    "kyc_source": "https://ir.bitcoindepot.com/news-events/press-releases/detail/120/bitcoin-depot-introduces-new-compliance-policy-requiring-id",
+    "coins": []
   },
   {
     "slug": "bitcoin-well",
@@ -834,7 +861,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/"
+    "kyc_source": "https://help.bitcoinwell.com/en/article/understanding-bitcoin-well-account-verification-1huyfek/",
+    "coins": []
   },
   {
     "slug": "hodl-hodl",
@@ -862,7 +890,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://hodlhodl.com/faq"
+    "kyc_source": "https://hodlhodl.com/faq",
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "peach-bitcoin",
@@ -890,7 +922,10 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://peachbitcoin.com/terms-and-conditions/"
+    "kyc_source": "https://peachbitcoin.com/terms-and-conditions/",
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "localcoinswap",
@@ -919,7 +954,10 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://localcoinswap.com/terms-of-service"
+    "kyc_source": "https://localcoinswap.com/terms-of-service",
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "openpeer",
@@ -946,7 +984,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.openpeer.xyz/openpeer-docs/troubleshooting/faq"
+    "kyc_source": "https://docs.openpeer.xyz/openpeer-docs/troubleshooting/faq",
+    "coins": []
   },
   {
     "slug": "simpleswap",
@@ -974,7 +1013,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://simpleswap.io/aml-kyc"
+    "kyc_source": "https://simpleswap.io/aml-kyc",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "changelly",
@@ -1004,7 +1047,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://changelly.com/aml-kyc"
+    "kyc_source": "https://changelly.com/aml-kyc",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "boltz",
@@ -1033,7 +1080,8 @@
     "open_source": true,
     "status": "check",
     "status_note": "Boltz suspended its swaps on 3 August 2026 and its website no longer resolves. Do not send funds until the service is back.",
-    "kyc_source": "https://github.com/BoltzExchange/boltz-web-app"
+    "kyc_source": "https://github.com/BoltzExchange/boltz-web-app",
+    "coins": []
   },
   {
     "slug": "stealthex",
@@ -1068,7 +1116,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://stealthex.io/kyc-aml/"
+    "kyc_source": "https://stealthex.io/kyc-aml/",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "wizardswap",
@@ -1100,7 +1152,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://wizardswap.io/faq"
+    "kyc_source": "https://wizardswap.io/faq",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "best-wallet",
@@ -1130,7 +1186,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://bestwallet.com/terms"
+    "kyc_source": "https://bestwallet.com/terms",
+    "coins": []
   },
   {
     "slug": "trocador",
@@ -1166,7 +1223,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://trocador.app/en/termsofuse/"
+    "kyc_source": "https://trocador.app/en/termsofuse/",
+    "coins": []
   },
   {
     "slug": "quickex-io",
@@ -1199,7 +1257,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://chainwire.org/2025/12/16/quickex-announces-enhancements-to-instant-crypto-exchange-services/"
+    "kyc_source": "https://chainwire.org/2025/12/16/quickex-announces-enhancements-to-instant-crypto-exchange-services/",
+    "coins": []
   },
   {
     "slug": "acechange",
@@ -1229,7 +1288,12 @@
     "open_source": null,
     "status": "active",
     "status_note": "Card and bank purchases and cash-outs are paused, with no reopening date announced. Swaps still work. Its AML page lists the United States, the EEA and the United Kingdom among blocked regions (checked 22 October 2026).",
-    "kyc_source": "https://acechange.io/our-aml-kyc-rule/"
+    "kyc_source": "https://acechange.io/our-aml-kyc-rule/",
+    "coins": [
+      "xmr",
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "silentswap",
@@ -1259,7 +1323,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://silentswap.com/"
+    "kyc_source": "https://silentswap.com/",
+    "coins": []
   },
   {
     "affiliate_link": null,
@@ -1288,7 +1353,12 @@
     "payment_methods": [
       "crypto"
     ],
-    "kyc_source": "https://ff.io/terms-of-service"
+    "kyc_source": "https://ff.io/terms-of-service",
+    "coins": [
+      "xmr",
+      "btc",
+      "ln"
+    ]
   },
   {
     "affiliate_link": null,
@@ -1318,7 +1388,11 @@
       "crypto",
       "fiat"
     ],
-    "kyc_source": "https://changenow.io/faq"
+    "kyc_source": "https://changenow.io/faq",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "waldenpay",
@@ -1348,7 +1422,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://waldenpay.com/privacy"
+    "kyc_source": "https://waldenpay.com/privacy",
+    "coins": []
   },
   {
     "slug": "kripicard",
@@ -1377,7 +1452,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://home.kripicard.com/kripicard-supported-countries"
+    "kyc_source": "https://home.kripicard.com/kripicard-supported-countries",
+    "coins": []
   },
   {
     "slug": "bitget-wallet-card",
@@ -1406,7 +1482,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://web3.bitget.com/en/card"
+    "kyc_source": "https://web3.bitget.com/en/card",
+    "coins": []
   },
   {
     "slug": "bleap",
@@ -1436,7 +1513,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bleap.finance/"
+    "kyc_source": "https://www.bleap.finance/",
+    "coins": []
   },
   {
     "slug": "kast",
@@ -1465,7 +1543,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.kast.xyz/en/legal/terms-and-conditions-of-service"
+    "kyc_source": "https://www.kast.xyz/en/legal/terms-and-conditions-of-service",
+    "coins": []
   },
   {
     "slug": "oobit",
@@ -1494,7 +1573,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.oobit.com/faq"
+    "kyc_source": "https://www.oobit.com/faq",
+    "coins": []
   },
   {
     "slug": "metamask-card",
@@ -1523,7 +1603,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.metamask.io/trade/metamask-card/getting-started-with-card/"
+    "kyc_source": "https://support.metamask.io/trade/metamask-card/getting-started-with-card/",
+    "coins": []
   },
   {
     "slug": "phantom-cash",
@@ -1553,7 +1634,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://phantom.com/cash"
+    "kyc_source": "https://phantom.com/cash",
+    "coins": []
   },
   {
     "slug": "redotpay",
@@ -1582,7 +1664,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://helpcenter.redotpay.com/en/articles/10339264-understanding-identity-verification"
+    "kyc_source": "https://helpcenter.redotpay.com/en/articles/10339264-understanding-identity-verification",
+    "coins": []
   },
   {
     "slug": "tria",
@@ -1612,7 +1695,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://help.tria.so/en/articles/14034407-kyc-know-your-customer"
+    "kyc_source": "https://help.tria.so/en/articles/14034407-kyc-know-your-customer",
+    "coins": []
   },
   {
     "slug": "robosats",
@@ -1644,7 +1728,11 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://learn.robosats.org/"
+    "kyc_source": "https://learn.robosats.org/",
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "mostro",
@@ -1676,7 +1764,11 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://mostro.network/"
+    "kyc_source": "https://mostro.network/",
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "vexl",
@@ -1706,7 +1798,10 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://vexl.it/"
+    "kyc_source": "https://vexl.it/",
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "lnp2pbot",
@@ -1736,7 +1831,11 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://lnp2pbot.com/"
+    "kyc_source": "https://lnp2pbot.com/",
+    "coins": [
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "retoswap",
@@ -1768,7 +1867,11 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://retoswap.com/"
+    "kyc_source": "https://retoswap.com/",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "localcoin",
@@ -1797,7 +1900,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://localcoinatm.com/faq"
+    "kyc_source": "https://localcoinatm.com/faq",
+    "coins": []
   },
   {
     "slug": "byte-federal",
@@ -1826,7 +1930,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bytefederal.com/faq"
+    "kyc_source": "https://www.bytefederal.com/faq",
+    "coins": []
   },
   {
     "slug": "athena-bitcoin",
@@ -1854,7 +1959,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://athenabitcoin.com/faqs/"
+    "kyc_source": "https://athenabitcoin.com/faqs/",
+    "coins": []
   },
   {
     "slug": "bitstop",
@@ -1883,7 +1989,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bitstop.co/help-center/buying-tiers-and-daily-limits"
+    "kyc_source": "https://www.bitstop.co/help-center/buying-tiers-and-daily-limits",
+    "coins": []
   },
   {
     "slug": "sideshift",
@@ -1913,7 +2020,10 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://sideshift.ai/legal"
+    "kyc_source": "https://sideshift.ai/legal",
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "exolix",
@@ -1942,7 +2052,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://exolix.com/faq"
+    "kyc_source": "https://exolix.com/faq",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "godex",
@@ -1971,7 +2085,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://godex.io/faq"
+    "kyc_source": "https://godex.io/faq",
+    "coins": []
   },
   {
     "slug": "houdini-swap",
@@ -2001,7 +2116,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://houdiniswap.com/"
+    "kyc_source": "https://houdiniswap.com/",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "swapzone",
@@ -2032,7 +2151,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://swapzone.io/learn"
+    "kyc_source": "https://swapzone.io/learn",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "husher",
@@ -2062,7 +2185,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.husher.io/"
+    "kyc_source": "https://docs.husher.io/",
+    "coins": []
   },
   {
     "slug": "across",
@@ -2091,7 +2215,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://across.to/terms-of-service"
+    "kyc_source": "https://across.to/terms-of-service",
+    "coins": []
   },
   {
     "slug": "stargate",
@@ -2120,7 +2245,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://stargate.finance/terms"
+    "kyc_source": "https://stargate.finance/terms",
+    "coins": []
   },
   {
     "slug": "debridge",
@@ -2149,7 +2275,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://debridge.com/support/"
+    "kyc_source": "https://debridge.com/support/",
+    "coins": []
   },
   {
     "slug": "squid",
@@ -2178,7 +2305,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.squidrouter.com/terms"
+    "kyc_source": "https://www.squidrouter.com/terms",
+    "coins": []
   },
   {
     "slug": "jumper",
@@ -2207,7 +2335,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://jumper.xyz/learn/crypto-bridge"
+    "kyc_source": "https://jumper.xyz/learn/crypto-bridge",
+    "coins": []
   },
   {
     "slug": "rubic",
@@ -2236,7 +2365,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.rubic.finance/rubic/overview/overview"
+    "kyc_source": "https://docs.rubic.finance/rubic/overview/overview",
+    "coins": []
   },
   {
     "slug": "thorchain",
@@ -2266,7 +2396,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://thorchain.org/terms-of-use"
+    "kyc_source": "https://thorchain.org/terms-of-use",
+    "coins": []
   },
   {
     "slug": "raydium",
@@ -2295,7 +2426,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.raydium.io/getting-started/faq"
+    "kyc_source": "https://docs.raydium.io/getting-started/faq",
+    "coins": []
   },
   {
     "slug": "kyberswap",
@@ -2325,7 +2457,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://blog.kyberswap.com/how-to-swap-on-kyberswap-com-a-beginner-friendly-guide-to-best-rate-token-swaps/"
+    "kyc_source": "https://blog.kyberswap.com/how-to-swap-on-kyberswap-com-a-beginner-friendly-guide-to-best-rate-token-swaps/",
+    "coins": []
   },
   {
     "slug": "dodo",
@@ -2353,7 +2486,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.dodoex.io/en/home/terms-of-service"
+    "kyc_source": "https://docs.dodoex.io/en/home/terms-of-service",
+    "coins": []
   },
   {
     "slug": "meteora",
@@ -2382,7 +2516,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.meteora.ag/resources/legal/terms-of-service"
+    "kyc_source": "https://docs.meteora.ag/resources/legal/terms-of-service",
+    "coins": []
   },
   {
     "slug": "orca",
@@ -2410,7 +2545,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://docs.orca.so/support/blocked-regions"
+    "kyc_source": "https://docs.orca.so/support/blocked-regions",
+    "coins": []
   },
   {
     "slug": "velora",
@@ -2439,7 +2575,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.velora.xyz/terms/terms-of-use"
+    "kyc_source": "https://www.velora.xyz/terms/terms-of-use",
+    "coins": []
   },
   {
     "slug": "toobit",
@@ -2470,7 +2607,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.toobit.com/en-US/support/verification-benefits-at-toobit"
+    "kyc_source": "https://www.toobit.com/en-US/support/verification-benefits-at-toobit",
+    "coins": []
   },
   {
     "slug": "xt-com",
@@ -2501,7 +2639,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.xt.com/en/blog/post/how-to-register-and-complete-kyc-verification-on-xt-com"
+    "kyc_source": "https://www.xt.com/en/blog/post/how-to-register-and-complete-kyc-verification-on-xt-com",
+    "coins": []
   },
   {
     "slug": "bitunix",
@@ -2530,7 +2669,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bitunix.com/hub/helpcenter/article/kyc-tiers-and-benefits?id=126"
+    "kyc_source": "https://www.bitunix.com/hub/helpcenter/article/kyc-tiers-and-benefits?id=126",
+    "coins": []
   },
   {
     "slug": "htx",
@@ -2556,7 +2696,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.htx.com/support/34923604793845/"
+    "kyc_source": "https://www.htx.com/support/34923604793845/",
+    "coins": []
   },
   {
     "slug": "bitget",
@@ -2586,7 +2727,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bitget.com/academy/your-quick-guide-to-kyc-on-bitget"
+    "kyc_source": "https://www.bitget.com/academy/your-quick-guide-to-kyc-on-bitget",
+    "coins": []
   },
   {
     "slug": "gate",
@@ -2612,7 +2754,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.gate.com/en-eu/help/guide/kyc/227945"
+    "kyc_source": "https://www.gate.com/en-eu/help/guide/kyc/227945",
+    "coins": []
   },
   {
     "slug": "phemex",
@@ -2642,7 +2785,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://phemex.com/help-center/articles/phemex-identity-verification-kyc-guide"
+    "kyc_source": "https://phemex.com/help-center/articles/phemex-identity-verification-kyc-guide",
+    "coins": []
   },
   {
     "slug": "bitmart",
@@ -2673,7 +2817,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.bitmart.com/en-US/support/articles/7949433565211/7949448889115/360053944573"
+    "kyc_source": "https://www.bitmart.com/en-US/support/articles/7949433565211/7949448889115/360053944573",
+    "coins": []
   },
   {
     "slug": "weex",
@@ -2703,7 +2848,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.weex.com/learn/articles/weex-vip-benefits-newly-upgraded-836"
+    "kyc_source": "https://www.weex.com/learn/articles/weex-vip-benefits-newly-upgraded-836",
+    "coins": []
   },
   {
     "slug": "coinw",
@@ -2732,7 +2878,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.coinw.com/help-center/faq/kyc/2025-08-14/frequently-askedquestions-individual-kyc/6380"
+    "kyc_source": "https://www.coinw.com/help-center/faq/kyc/2025-08-14/frequently-askedquestions-individual-kyc/6380",
+    "coins": []
   },
   {
     "slug": "cow-swap",
@@ -2761,7 +2908,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://cow.fi/legal/cowswap-terms"
+    "kyc_source": "https://cow.fi/legal/cowswap-terms",
+    "coins": []
   },
   {
     "slug": "curve",
@@ -2790,7 +2938,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.curve.finance/dex/ethereum/legal?tab=terms"
+    "kyc_source": "https://www.curve.finance/dex/ethereum/legal?tab=terms",
+    "coins": []
   },
   {
     "slug": "jupiter",
@@ -2819,7 +2968,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://developers.jup.ag/docs/legal/terms-of-use"
+    "kyc_source": "https://developers.jup.ag/docs/legal/terms-of-use",
+    "coins": []
   },
   {
     "slug": "sunswap",
@@ -2848,7 +2998,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.sunswap.com/docs/SunSwap_Terms_of_Use_en.pdf"
+    "kyc_source": "https://www.sunswap.com/docs/SunSwap_Terms_of_Use_en.pdf",
+    "coins": []
   },
   {
     "slug": "matcha",
@@ -2876,7 +3027,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://matcha.xyz/terms"
+    "kyc_source": "https://matcha.xyz/terms",
+    "coins": []
   },
   {
     "slug": "basicswap",
@@ -2906,7 +3058,8 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://basicswapdex.com/"
+    "kyc_source": "https://basicswapdex.com/",
+    "coins": []
   },
   {
     "slug": "eigenwallet",
@@ -2937,7 +3090,8 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://eigenwallet.org/"
+    "kyc_source": "https://eigenwallet.org/",
+    "coins": []
   },
   {
     "slug": "swapuz",
@@ -2966,7 +3120,11 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://swapuz.com/terms-of-use"
+    "kyc_source": "https://swapuz.com/terms-of-use",
+    "coins": [
+      "xmr",
+      "btc"
+    ]
   },
   {
     "slug": "cyphergoat",
@@ -2996,7 +3154,12 @@
     "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://cyphergoat.com/"
+    "kyc_source": "https://cyphergoat.com/",
+    "coins": [
+      "xmr",
+      "btc",
+      "ln"
+    ]
   },
   {
     "slug": "blockchain-com",
@@ -3023,10 +3186,13 @@
       "crypto"
     ],
     "tor": null,
-    "open_source": null,
+    "open_source": true,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://support.blockchain.com/hc/en-us/articles/360050550572-What-is-the-difference-between-DeFi-Wallet-and-Trading-Account"
+    "kyc_source": "https://support.blockchain.com/hc/en-us/articles/360050550572-What-is-the-difference-between-DeFi-Wallet-and-Trading-Account",
+    "coins": [
+      "btc"
+    ]
   },
   {
     "slug": "myetherwallet",
@@ -3058,7 +3224,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://www.myetherwallet.com/terms-of-service"
+    "kyc_source": "https://www.myetherwallet.com/terms-of-service",
+    "coins": []
   },
   {
     "slug": "zerion",
@@ -3091,7 +3258,8 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://zerion.io/terms-conditions"
+    "kyc_source": "https://zerion.io/terms-conditions",
+    "coins": []
   },
   {
     "slug": "swapspace",
@@ -3122,6 +3290,9 @@
     "open_source": null,
     "status": "active",
     "status_note": null,
-    "kyc_source": "https://swapspace.co/faq#kycAmlVerification"
+    "kyc_source": "https://swapspace.co/faq#kycAmlVerification",
+    "coins": [
+      "xmr"
+    ]
   }
 ]

@@ -45,7 +45,7 @@ const jsonld = [
   { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang,
     mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
-const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us'), cash: t('home.chip_cash'), bank: t('home.chip_bank'), card: t('home.chip_card'), hide: t('home.chip_hide'), cust: t('platform.custody_v.self'), tor: t('platform.tor'), open: t('platform.oss'), siteSearch: t('home.site_search'), searchUrl: L('/search') };
+const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('home.clear'), none: t('home.chip_none'), fiat: t('home.chip_fiat'), us: t('home.chip_us'), cash: t('home.chip_cash'), bank: t('home.chip_bank'), card: t('home.chip_card'), hide: t('home.chip_hide'), cust: t('platform.custody_v.self'), xmr: t('home.s_monero'), ln: t('home.s_lightning'), tor: t('platform.tor'), open: t('platform.oss'), siteSearch: t('home.site_search'), searchUrl: L('/search') };
 ---
 <Base title={t('home.title')} description={t('home.description', { n: platforms.length })} path="/" lang={lang} localized nav="directory" jsonld={jsonld}>
   <div class="wrap">
@@ -112,6 +112,13 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
               <button class="chip" type="button" data-p="bank" aria-pressed="false">{t('home.chip_bank')}</button>
               <button class="chip" type="button" data-p="card" aria-pressed="false">{t('home.chip_card')}</button>
             </div>
+          </fieldset>
+          <fieldset class="fgroup"><legend>{t('home.g_coins')}</legend>
+            <div class="frow">
+              <button class="chip" type="button" data-k="xmr" aria-pressed="false">{t('home.s_monero')}</button>
+              <button class="chip" type="button" data-k="ln" aria-pressed="false">{t('home.s_lightning')}</button>
+            </div>
+            <p class="fnote">{t('home.g_note')}</p>
           </fieldset>
           <fieldset class="fgroup"><legend>{t('home.g_trust')}</legend>
             <div class="frow">
@@ -220,7 +227,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
   <script is:inline>
     (function () {
       var I = JSON.parse(document.getElementById('i18n').textContent);
-      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: 'lvl' };
+      var S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], coin: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: 'lvl' };
       var list = document.getElementById('list'), items = Array.prototype.slice.call(list.children);
       var q = document.getElementById('q'), cats = document.getElementById('cats');
       var FLAGS = ['none', 'fiat', 'us', 'cust', 'tor', 'open', 'allpay', 'hide'];
@@ -230,6 +237,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         if (S.q.trim()) u.set('q', S.q.trim());
         var f = FLAGS.filter(function (k) { return S[k]; }); if (f.length) u.set('f', f.join(','));
         if (S.pay.length) u.set('pay', S.pay.join(','));
+        if (S.coin.length) u.set('coin', S.coin.join(','));
         if (S.sort !== 'lvl') u.set('s', S.sort);
         var qs = u.toString(); try { history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash); } catch (e) {}
       }
@@ -237,14 +245,20 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         var u = new URLSearchParams(location.search), f = (u.get('f') || '').split(',');
         FLAGS.forEach(function (k) { S[k] = f.indexOf(k) !== -1; });
         S.pay = (u.get('pay') || '').split(',').filter(function (x) { return ['cash', 'bank', 'card'].indexOf(x) !== -1; });
+        S.coin = (u.get('coin') || '').split(',').filter(function (x) { return ['xmr', 'ln'].indexOf(x) !== -1; });
         var c = u.get('c'); if (c && I.labels[c]) S.cat = c;
         if (u.get('s') === 'name') S.sort = 'name';
         if (u.get('q')) { S.q = u.get('q'); q.value = S.q; }
         document.querySelectorAll('.chip[data-f]').forEach(function (b) { b.setAttribute('aria-pressed', S[b.dataset.f]); });
         document.querySelectorAll('.chip[data-p]').forEach(function (b) { b.setAttribute('aria-pressed', S.pay.indexOf(b.dataset.p) !== -1); });
+        document.querySelectorAll('.chip[data-k]').forEach(function (b) { b.setAttribute('aria-pressed', S.coin.indexOf(b.dataset.k) !== -1); });
         cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === S.cat); });
         document.getElementById('sort').value = S.sort;
-        if (S.pay.length || S.cust || S.tor || S.open || S.allpay || S.hide) document.getElementById('more').open = true;
+        if (S.pay.length || S.coin.length || S.cust || S.tor || S.open || S.allpay || S.hide) document.getElementById('more').open = true;
+      }
+      function coinOk(v) {
+        var have = (v || '').split(' ');
+        return S.allpay ? S.coin.every(function (x) { return have.indexOf(x) !== -1; }) : S.coin.some(function (x) { return have.indexOf(x) !== -1; });
       }
       function payOk(v) {
         var have = (v || '').split(' ');
@@ -254,7 +268,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         var t = S.q.trim().toLowerCase(), n = 0;
         items.forEach(function (li) {
           var d = li.dataset;
-          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!S.cust || d.cust === 'self') && (!S.tor || d.tor === '1') && (!S.open || d.open === '1') && (!S.pay.length || payOk(d.pay)) && (!S.hide || d.status !== 'check') && (!t || d.hay.indexOf(t) !== -1);
+          var ok = (S.cat === 'all' || d.cat === S.cat) && (!S.none || d.level === 'none') && (!S.fiat || d.fiat === '1') && (!S.us || d.us === '1') && (!S.cust || d.cust === 'self') && (!S.tor || d.tor === '1') && (!S.open || d.open === '1') && (!S.pay.length || payOk(d.pay)) && (!S.coin.length || coinOk(d.coins)) && (!S.hide || d.status !== 'check') && (!t || d.hay.indexOf(t) !== -1);
           li.hidden = !ok; if (ok) n++;
         });
         items.slice().sort(function (a, b) { return S.sort === 'name' ? a.dataset.name.localeCompare(b.dataset.name) : a.dataset.rank - b.dataset.rank; })
@@ -263,7 +277,7 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
         document.getElementById('empty').hidden = n > 0;
         var act = [];
         if (S.cat !== 'all') act.push(I.labels[S.cat]); if (t) act.push('"' + S.q.trim() + '"');
-        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us); S.pay.forEach(function (x) { act.push(I[x]); }); if (S.cust) act.push(I.cust); if (S.tor) act.push(I.tor); if (S.open) act.push(I.open); if (S.hide) act.push(I.hide);
+        if (S.none) act.push(I.none); if (S.fiat) act.push(I.fiat); if (S.us) act.push(I.us); S.pay.forEach(function (x) { act.push(I[x]); }); S.coin.forEach(function (x) { act.push(I[x]); }); if (S.cust) act.push(I.cust); if (S.tor) act.push(I.tor); if (S.open) act.push(I.open); if (S.hide) act.push(I.hide);
         var a = document.getElementById('active'); a.textContent = '';
         var ss = document.getElementById('sitesearch'), qq = S.q.trim();
         ss.hidden = !qq; if (qq) { var sa = ss.firstChild; sa.textContent = I.siteSearch.replace('{x}', qq); sa.href = I.searchUrl + '?q=' + encodeURIComponent(qq); }
@@ -284,6 +298,12 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
           c.setAttribute('aria-pressed', i === -1); render();
         });
       });
+      document.querySelectorAll('.chip[data-k]').forEach(function (c) {
+        c.addEventListener('click', function () {
+          var k = c.dataset.k, i = S.coin.indexOf(k); if (i === -1) S.coin.push(k); else S.coin.splice(i, 1);
+          c.setAttribute('aria-pressed', i === -1); render();
+        });
+      });
       document.getElementById('sort').addEventListener('change', function (e) { S.sort = e.target.value; render(); });
       q.addEventListener('input', function () { S.q = q.value; render(); });
       document.getElementById('sform').addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('directory').scrollIntoView({ behavior: 'smooth' }); });
@@ -293,8 +313,8 @@ const i18n = { labels: catLabels, filteredBy: t('home.filtered_by'), clear: t('h
       });
       document.addEventListener('click', function (e) {
         if (!e.target.closest('[data-reset]')) return;
-        S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: S.sort }; q.value = '';
-        document.querySelectorAll('.chip[data-f], .chip[data-p]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+        S = { cat: 'all', q: '', none: false, fiat: false, us: false, pay: [], coin: [], allpay: false, hide: false, cust: false, tor: false, open: false, sort: S.sort }; q.value = '';
+        document.querySelectorAll('.chip[data-f], .chip[data-p], .chip[data-k]').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
         cats.querySelectorAll('.cat').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.c === 'all'); });
         render();
       });
