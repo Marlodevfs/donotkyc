@@ -1147,6 +1147,14 @@
      "Une eSIM est une ligne de téléphone que vous installez en scannant un code, donc rien n'est expédié. Un numéro virtuel reçoit des codes SMS sans que vous donniez le vôtre. Les services ci-dessous disent ne demander aucune pièce d'identité.",
      "Regardez ce que chaque offre permet : données seules, SMS seuls ou appels aussi. Certaines banques et grandes applications refusent ces numéros. Un réseau mobile voit quand même votre téléphone et sa connexion."
     ]
+   },
+   "domains": {
+    "name": "Domaines privés",
+    "h1": "Enregistrement de domaines privés",
+    "intro": [
+     "Un domaine privé est enregistré au nom du service, pas au vôtre, donc vos données restent hors du WHOIS public. Vous gardez l'usage du domaine et pouvez demander à le transférer.",
+     "Regardez ce que chaque service demande à l'inscription et comment vous payez. Il détient le titre légal de votre domaine : vous lui confiez le nom."
+    ]
    }
   },
   "guide_h": "Outils pour ce guide",

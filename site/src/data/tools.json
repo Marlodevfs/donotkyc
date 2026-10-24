@@ -1598,5 +1598,68 @@
    "Price and availability are shown before you create the order."
   ],
   "checked": "2026-10-24"
+ },
+ {
+  "page": "domains",
+  "slug": "njalla",
+  "name": "Njalla",
+  "url": "https://njal.la/domains/",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "Domains from 15 euros a year, depending on the extension. Every domain includes privacy, anycast DNS, DNSSEC where possible and email forwarding.",
+   "Njalla registers the domain in its own name and grants you full usage rights. You can transfer ownership to yourself or someone else at any time.",
+   "Sign up with an email address or XMPP. Email supports PGP.",
+   "Pay with Bitcoin, Litecoin, Monero, Ethereum or PayPal.",
+   "Says it has done this for 15+ years. Its team also works on the IPredator VPN service."
+  ]
+ },
+ {
+  "page": "domains",
+  "slug": "incognet",
+  "name": "IncogNET",
+  "url": "https://incognet.io/domain-registration",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "Domains from 14.99 dollars a year (.cc), 17.76 dollars for .com, .net, .org and .dev.",
+   "IncogNET is the legal registrant: \"we technically own the domain, which you control\". You can ask it to switch the registration to your own details.",
+   "WHOIS privacy and free DNS are included.",
+   "Needs only an email address for an account. Pay with Monero, Bitcoin, Litecoin or Dogecoin, other coins through Trocador, or PayPal and ACH.",
+   "Most extensions are reviewed by hand, which it says can take 12 hours or more."
+  ]
+ },
+ {
+  "page": "domains",
+  "slug": "mynymbox",
+  "name": "Mynymbox",
+  "url": "https://mynymbox.io/domainregistration",
+  "identity": "account",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "Domains from 14.90 euros a year (.st), 15 euros for .com, 17 for .net and 18 for .org. Some extensions cannot be registered this way.",
+   "Mynymbox Hosting LLC is the registrant of record. You keep control and can transfer the domain out at any time, subject to its terms and registry rules.",
+   "The only required identifier is an email address. An alias works.",
+   "Pay with Bitcoin, Lightning or Monero through its own gateways, or other coins through a Trocador swap."
+  ]
+ },
+ {
+  "page": "domains",
+  "slug": "nicevps",
+  "name": "NiceVPS",
+  "url": "https://www.nicevps.net/buy-anonymous-bitcoin-domains",
+  "identity": "unstated",
+  "code": "unstated",
+  "checked": "2026-10-24",
+  "facts": [
+   "Sells domains as an \"anonymous registration\" with \"100% confidential ownership\". From 8.99 euros a year on its home page, 15.99 euros for .art and .asia.",
+   "Offers a PGP-signed invoice as proof of ownership, WHOIS changes and transfers at any time.",
+   "Says it does not require personal data. The page does not name the registrant or say how identity is kept private.",
+   "Its page mentions Bitcoin, Ethereum, Monero, Zcash, Litecoin and USDT. The full list of payment methods is on a separate page that was not read.",
+   "Based in Dominica."
+  ]
  }
 ]

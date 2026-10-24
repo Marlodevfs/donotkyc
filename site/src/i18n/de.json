@@ -1147,6 +1147,14 @@
      "Eine eSIM ist ein Mobilfunkanschluss, den Sie per Code-Scan einrichten, es wird also nichts verschickt. Eine virtuelle Nummer empfängt SMS-Codes, ohne dass Sie Ihre eigene Nummer nennen. Die Dienste unten sagen, dass sie keinen Ausweis verlangen.",
      "Prüfen Sie, was jedes Angebot kann: nur Daten, nur SMS oder auch Anrufe. Manche Banken und große Apps lehnen solche Nummern ab. Ein Mobilfunknetz sieht Ihr Telefon und seine Verbindung trotzdem."
     ]
+   },
+   "domains": {
+    "name": "Private Domains",
+    "h1": "Private Domainregistrierung",
+    "intro": [
+     "Eine private Domain wird auf den Namen des Dienstes registriert, nicht auf Ihren, daher bleiben Ihre Daten aus dem öffentlichen WHOIS. Sie behalten die Nutzung der Domain und können sie umziehen lassen.",
+     "Prüfen Sie, was jeder Dienst bei der Anmeldung verlangt und wie Sie zahlen. Er hält den rechtlichen Titel an Ihrer Domain, Sie vertrauen ihm also den Namen an."
+    ]
    }
   },
   "guide_h": "Werkzeuge zu diesem Guide",

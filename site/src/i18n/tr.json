@@ -1147,6 +1147,14 @@
      "eSIM, bir kodu tarayarak kurduğunuz telefon hattıdır, yani size hiçbir şey postalanmaz. Sanal numara, kendi numaranızı vermeden SMS kodlarını alır. Aşağıdaki hizmetler kimlik istemediklerini söyler.",
      "Her planın neyi yapabildiğine bakın: yalnızca veri, yalnızca SMS ya da aramalar da. Bazı bankalar ve büyük uygulamalar bu numaraları reddeder. Mobil şebeke yine de telefonunuzu ve bağlantısını görür."
     ]
+   },
+   "domains": {
+    "name": "Özel alan adları",
+    "h1": "Özel alan adı kaydı",
+    "intro": [
+     "Özel bir alan adı sizin değil hizmetin adına kaydedilir, bu yüzden bilgileriniz herkese açık WHOIS kaydında görünmez. Alan adını kullanmaya devam eder ve devrini isteyebilirsiniz.",
+     "Her hizmetin kayıtta ne istediğine ve nasıl ödediğinize bakın. Alan adınızın yasal sahibi hizmettir, yani adı ona emanet edersiniz."
+    ]
    }
   },
   "guide_h": "Bu rehber için araçlar",

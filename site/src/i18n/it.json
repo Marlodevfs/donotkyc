@@ -1147,6 +1147,14 @@
      "Una eSIM è una linea telefonica che installi inquadrando un codice, quindi non viene spedito nulla. Un numero virtuale riceve codici SMS senza che tu dia il tuo. I servizi qui sotto dicono di non chiedere alcun documento.",
      "Controlla cosa permette ogni piano: solo dati, solo SMS o anche chiamate. Alcune banche e app grandi rifiutano questi numeri. Una rete mobile vede comunque il tuo telefono e la sua connessione."
     ]
+   },
+   "domains": {
+    "name": "Domini privati",
+    "h1": "Registrazione di domini privati",
+    "intro": [
+     "Un dominio privato è registrato a nome del servizio, non al tuo, così i tuoi dati restano fuori dal WHOIS pubblico. Ne mantieni l'uso e puoi chiedere di trasferirlo.",
+     "Controlla cosa chiede ogni servizio all'iscrizione e come si paga. Detiene il titolo legale del tuo dominio, quindi gli affidi il nome."
+    ]
    }
   },
   "guide_h": "Strumenti per questa guida",
