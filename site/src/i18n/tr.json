@@ -285,6 +285,7 @@
   "status_note_nonkyc-io": "Nonkyc.io, Fransız finans mevzuatı gereği Fransa'daki kullanıcılara hizmeti bıraktığını söylüyor. Site artık Fransa'dan erişilemiyor.",
   "status_note_synapse-protocol": "Synapse'in sitesi artık bir opsiyon işlemi ürünü olan Hypercall'a yönlendiriyor. Köprü o sayfadan hâlâ bağlantılı (21 Ekim 2026'da kontrol edildi).",
   "status_note_acechange": "Kartla veya havaleyle alımlar ve fiat paraya çekimler askıya alındı, yeniden açılış tarihi açıklanmadı. Takaslar hâlâ çalışıyor. AML sayfası ABD, AEA ve Birleşik Krallık'ı engellenen bölgeler arasında sayıyor (22 Ekim 2026'da kontrol edildi).",
+  "status_note_eclipseex": "Site altı yıllık faaliyet iddia ediyor, ancak alan adı 7 Ekim 2026'da tescil edilmiş. Şartlar, KYC veya AML politikası yayımlamıyor ve takas formu 27 Ekim 2026'daki testimizde yüklenmedi. Fon göndermeyin.",
   "coins_ok": "Doğrulanan coinler"
  },
  "data": {

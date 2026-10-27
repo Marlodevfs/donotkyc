@@ -285,6 +285,7 @@
   "status_note_nonkyc-io": "Nonkyc.io afirma haber dejado de servir a usuarios en Francia, en aplicación de la ley financiera francesa. Su sitio ya no es accesible desde Francia.",
   "status_note_synapse-protocol": "El sitio de Synapse ahora redirige a Hypercall, un producto de trading de opciones. El puente sigue enlazado desde esa página (comprobado el 21 de octubre de 2026).",
   "status_note_acechange": "Las compras con tarjeta o transferencia y las retiradas a dinero fiat están suspendidas, sin fecha de reapertura anunciada. Los swaps siguen funcionando. Su página AML incluye a Estados Unidos, el EEE y el Reino Unido entre las regiones bloqueadas (comprobado el 22 de octubre de 2026).",
+  "status_note_eclipseex": "Su sitio afirma tener seis años de actividad, pero el dominio se registró el 7 de octubre de 2026. No publica condiciones, política KYC ni política AML, y su formulario de intercambio no se cargó en nuestra prueba del 27 de octubre de 2026. No envíe fondos.",
   "coins_ok": "Monedas confirmadas"
  },
  "data": {

@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-10-27",
-    "title": "Four tools added: HidraNet, RaccoonLine, OffChain and Freedomia",
-    "body": "HidraNet (a Tor browser) and RaccoonLine (a decentralized VPN) join the VPN page, OffChain (a self-custody wallet that can send over SMS) joins Wallets, and Freedomia (a no-KYC Visa card) joins Private payments. Each entry quotes the service's own pages, including where they contradict each other: OffChain's SMS mode keeps an encrypted copy of your keys on its server, and Freedomia's privacy policy still lists ID data."
+    "title": "Five listings added: Eclipse, HidraNet, RaccoonLine, OffChain and Freedomia",
+    "body": "HidraNet (a Tor browser) and RaccoonLine (a decentralized VPN) join the VPN page, OffChain (a self-custody wallet that can send over SMS) joins Wallets, and Freedomia (a no-KYC Visa card) joins Private payments. Each entry quotes the service's own pages, including where they contradict each other: OffChain's SMS mode keeps an encrypted copy of your keys on its server, and Freedomia's privacy policy still lists ID data. Eclipse joins the exchanges flagged for review: its site claims six years of activity, its domain dates from 7 October 2026, and it publishes no terms or KYC policy."
   },
   {
     "date": "2026-10-24",

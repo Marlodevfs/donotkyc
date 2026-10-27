@@ -3341,5 +3341,38 @@
     "coins": [
       "xmr"
     ]
+  },
+  {
+    "slug": "eclipseex",
+    "name": "Eclipse",
+    "type": "Instant Swap",
+    "url": "https://eclipseex.com/",
+    "affiliate_link": null,
+    "logo": null,
+    "kyc_level": "none",
+    "kyc_summary": "Says no sign-ups",
+    "kyc_tier": "Its home page says \"No sign-ups\" and \"non-custodial swaps\". It publishes no terms, KYC policy, AML policy, fee page or country list",
+    "supported_countries": "Not stated",
+    "blocked": "Not stated",
+    "fiat_deposit": false,
+    "fees": "Not stated",
+    "cryptocurrencies": "30+",
+    "features": [
+      "Instant swap",
+      "Swap status tracker"
+    ],
+    "custody": "self",
+    "payment_methods": [
+      "crypto"
+    ],
+    "tor": null,
+    "open_source": null,
+    "status": "check",
+    "status_note": "Its site claims six years of activity, but the domain was registered on 7 October 2026. It publishes no terms, KYC policy or AML policy, and its swap form did not load in our test on 27 October 2026. Do not send funds.",
+    "kyc_source": "https://eclipseex.com/",
+    "coins": [
+      "btc",
+      "xmr"
+    ]
   }
 ]
