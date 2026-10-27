@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-27",
+    "title": "Four tools added: HidraNet, RaccoonLine, OffChain and Freedomia",
+    "body": "HidraNet (a Tor browser) and RaccoonLine (a decentralized VPN) join the VPN page, OffChain (a self-custody wallet that can send over SMS) joins Wallets, and Freedomia (a no-KYC Visa card) joins Private payments. Each entry quotes the service's own pages, including where they contradict each other: OffChain's SMS mode keeps an encrypted copy of your keys on its server, and Freedomia's privacy policy still lists ID data."
+  },
+  {
     "date": "2026-10-24",
     "title": "SMS and eSIM and private domains pages, payment filters",
     "body": "Two new tools pages list services that say they ask for no ID: five SMS number and eSIM sellers (Crypton.sh, nadanada, simsup, MoneroSMS, sms4sats) and four private domain registrars (IncogNET, Mynymbox, Njalla, NiceVPS). Each entry quotes the service's own pages and shows the date we read them. The home page has a tools row under the platform categories, and the list now filters by cash, bank transfer or card and can hide listings under review. LNVPN is now listed as nadanada, its new name. The English text uses American spelling."

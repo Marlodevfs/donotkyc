@@ -1759,5 +1759,67 @@
    "Its terms say technical logs are processed, with no retention period stated.",
    "Refunds only when the service was not provided. It can suspend an account without notice for serious violations."
   ]
+ },
+ {
+  "page": "vpn",
+  "slug": "hidranet",
+  "name": "HidraNet",
+  "url": "https://www.hidranet.pro",
+  "identity": "none",
+  "code": "open",
+  "facts": [
+   "Free browser for Windows, macOS and Linux that sends your traffic through Tor. It is a browser with its own apps, not a VPN.",
+   "No mandatory accounts. Its privacy policy says it never collects your browsing history or your IP address linked to your browsing.",
+   "Its chat, mail and forum apps use public third-party MQTT servers (EMQX and HiveMQ). Message content is encrypted, but those servers see a room name, nickname and time.",
+   "It has a Solana token, $HNET, launched on pump.fun. The privacy policy still shows placeholders where the company address and number should be."
+  ],
+  "release": "2026-06-30",
+  "repo": "https://github.com/NeurexBK/HidraNet",
+  "checked": "2026-10-27"
+ },
+ {
+  "page": "vpn",
+  "slug": "raccoonline",
+  "name": "RaccoonLine",
+  "url": "https://raccoonline.com",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Decentralized VPN where your traffic goes through other users' devices. In public beta since January 2025.",
+   "Its privacy policy says ordinary users need no account, name or email, and that it keeps no browsing logs.",
+   "A free plan exists. Paid plans are paid in ROCC, its own token, which you can earn by lending your bandwidth. No price is stated, and ROCC is not traded on exchanges yet.",
+   "Apps for Windows, macOS, Android and Linux (Docker). On iOS it is a TestFlight beta. Run by Dream Labs Information Technology LLC, Dubai. Its pages state no license."
+  ],
+  "checked": "2026-10-27"
+ },
+ {
+  "page": "wallets",
+  "slug": "offchain",
+  "name": "OffChain",
+  "url": "https://www.offchain.website",
+  "identity": "none",
+  "code": "unstated",
+  "facts": [
+   "Self-custody wallet for Android, iOS and Chrome. Covers Bitcoin, Ethereum, Solana, BNB Chain, Arbitrum and TON.",
+   "No sign-up, email or ID. In normal use your keys stay on your phone.",
+   "Optional SMS mode sends transactions without internet, but it needs your phone number and stores an encrypted copy of your private keys on its server. You can delete it in the app.",
+   "Also offers swaps, perps up to 50x leverage and gift card purchases. Its pages state no license. Terms bar users in embargoed countries."
+  ],
+  "checked": "2026-10-27"
+ },
+ {
+  "page": "private-payments",
+  "slug": "freedomia",
+  "name": "Freedomia",
+  "url": "https://www.freedomia.io",
+  "identity": "account",
+  "code": "unstated",
+  "facts": [
+   "Virtual prepaid Visa card, funded with Bitcoin (on-chain or Lightning), Monero, stablecoins and other coins. 60 dollars a year per card, plus a 1.3% fee on USDT or USDC deposits on Polygon.",
+   "Says no KYC is needed within the standard limit of 5,000 dollars a month. An account with an email is required. Its privacy policy still lists name, ID and identity verification data among what it may collect.",
+   "It admits a card processor and issuer sit behind the card, with risk of freezes. A 2.5% fee applies to payments in other currencies.",
+   "Card unusable in Belarus, Cuba, Iran, Libya, Myanmar, North Korea, Russia, Syria, Venezuela, Zimbabwe and five regions of Ukraine. No standard way to withdraw funds back on-chain."
+  ],
+  "checked": "2026-10-27"
  }
 ]
